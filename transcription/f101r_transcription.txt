@@ -1,0 +1,16 @@
+# BnF fr. 4698 f. 101r (view 103 right; img/v103_R.jpg). Minute of Nevers to Scipione, 31 Jan 1590, cipher + clear.
+# The clear text of the whole letter is on ff. 97r-98r ("Cif. dicifrata della mia di 31 gen. 90").
+# Transcribed BEFORE reading ff. 97-98 closely (blind test). One pass.
+L01: 40= 63 (30) 69 | xx a r | 13_ 10 (36) (16) 99= 68- 30_d 83bb 63_ 59v 28= 78d (27) 16 83bb 96v 62d 43_ 10 10 47- 28= | = T tri a | 42d_ 47-
+L02: (11) | a | 50_ 82d 11^v 32^v <.> 29d 96v 38bb 82= 83bb 11^v 32^v <.> 29d 96v 45_ <.> 96v 84= 76= | S a R T oX = oh | 28= (44) 10 50_ 82d 11^v 32^v 75= 83bb
+L03: T S E oh | 76_ 14d 83bb 28= (15) 10 78d 82d 42_ 82d 69 (34) 76= | # perp = oh | 10 73 75= 82d 60dd 83= (32) 82d (15) 10 87= 82d (35) 75=
+L04: 82d 55bb 75= 82d 57 75= 82d 90d | a | <.> 72= 82d 22_ (34) (39) 83_ | xx | 10 | y t | 99v 28= | pi v | 13v
+L05: t2 | 59bb <.> 63_ 39bb 50d 39bb 71d (16) 82d (34) 76_ (39) 59d 75_ 85b 68- (15) 80 87 29 (29) | T | <.> 63 10 63_ 63_
+L06: 82d 54b | T | 13_ <.> 44= 10 11^v 26b 42_ 86- (15) 30_ (30) 34d 63_ 54b 66dd 29d 89v | pi v | 53d 96_ 76= 63 66dd 28= (39) 82d
+L07: # 10 r t2 oh | (20) 87= 16_ "suplico V.S.Ill.ma di chiarirmi di quanto di sopra" 13_ 63_
+L08: qo oh S E3 L | 69 | r | 63_ | # | 52d 82d 49 54b "Io stimo grandamente" 63_ 89v <.> 14- 82d ll' "considero"
+L09: 10-b 39bb 70d 28= | K a | 10 | t2 oh E3 T oX L phi | 83= 55 83bb 92_ <.> 82d 28= | # | (34) 28= 76v | t2 oh | 40 <.> 28= 76_ | y v |
+L10: 29= | r a | 69d 69 (11) 76= 63d 33bb <.> 53d 69d 13d 57^ 54b "staro aspettando la risposta"
+L12: "quale desidera sia ben tosto" (20) 83bb 91_ 83_ 76_ | S E3 a y # L | 87= 74_ 26b
+L13: t2 | 41d 63d 28= (30) 69 | = L r perp | 10 59- | T | 28= 78 95d "si confida talmente meco che non potria"
+L15: 76_ | # a r phi | 76^v (14) 14-b 44d 68_ 76_ "desidero che" 10 75_ 41d 28= (36)

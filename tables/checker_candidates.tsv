@@ -1,0 +1,29 @@
+# Checker's additions. NOT glosses, except the rows marked "glossed". list<TAB>figure<TAB>word<TAB>basis
+P	39	potentia (verb: potere)	glossed f.105 (NOTES section 2: 39 with arc = potere); missing in lists.tsv
+I	63	la	glossed (secure.tsv "63_ la, le"); the figure has one bar below, so list I, in order between 45 intentione and 71 laudare
+M	94	nome	cand: 92 nocumento..95 nostro; f104 L1 "LE FECI in nome di lui"
+M	80	nascita (verb: nascere)	cand: 78 mutare..85 necessità; f104 L1 "nacque da"
+PT	89	poco	cand: 87 più..97 qualche; f104 L2 "da poca inclinatione"
+E	16	dispositione (verb: disporre)	cand: start..34 dubbio; f104 L2 "mala dispositione", L6 "né disporre di lei" (2 contexts)
+E	27	domanda (verb: domandare)	cand: start..34 dubbio; f104 L1 "risolutione di domanda di V.E.", L9 "a ricevere che a domandare", L12 (2-3 contexts)
+E	40	effetto	cand: 34 dubbio..41 efficacia; f104 L4 "non potere tale effetto essere opera di altra mano"
+M	21	mano	cand: 10 male..33 medesimo; f104 L4 "di altra mano che di quella di Re di Spagna"; f30v L22 "MANDARLE in mano di S. Duca" (2 contexts)
+C	41	conoscere	cand: 37 conforme..44 consenso; f104 L3 "il che si conosce"
+G	76	importanza (verb: importare)	cand: 73 impertinente..83 in; f104 L3
+C	72	debito (verb: dovere)	cand: 71 danno..75 deliberare; f104 L6 "che lei merita et deve desiderare"
+T	86	uno	cand: 67 vero..87 volontà (u = v); f104 L6 "di uno et di altro"; f30v L10 "un ministro" (2 contexts)
+PT	42	dunque	cand: 40 due..44 fino; f104 L6 "Non sarà dunque per hora"
+E	89	fine	cand: 87 fermo..end; f104 L7 "il fine di Re di Spagna", L17 "non HA per fine di essere Re di Francia" (2 contexts)
+G	58	honesto	cand: 39 grande..59 honore; f104 L9 "più honeste a ricevere che a domandare"
+G	40	gratia	cand: 39 grande..59 honore; f104 L9 "di quelle gratie"
+G	30	giudicio (verb: giudicare)	cand: start..33 giusto; f104 L13 "senza PRE-giudicio", L12
+PT	74	molto	cand: 72 manco..75 ne; f104 L18 "non si vede molto .. segno"; f30v L4 "non MI FERMO molto" (2 contexts)
+T	77	vista (verb: vedere)	cand: 67 vero..87 volontà; f104 L18 "fino hora non si vede"
+E	53	espediente	cand: 52..60 esperienza; f104 L6 "giusto et espediente"
+PT	19	anco	cand: start..25 assai; f104 L8 "ma .. anco di con-CEDERLE", L15 "si come credo anco che" (2 contexts)
+I	68	la quale	cand: 63 la..71 laudare; f104 L2 "da la quale mala dispositione", L13 "altra cosa la quale si .."
+O	78	pensiero (verb: pensare)	cand: 61..87 pericolo; f104 L8 "ma pensa anco di concederle"
+N	50	Navarra ?	cand, weak: a person after 47 Re di Spagna; f104 L14 "le cose di ..", L17 "ma questo di .. non È sicuro"
+T	92	uso (verb: usare)	cand: 87 volontà..95 utile; f30v L20
+M	51	ministro	cand: 46 mezzo..54 mio; f30v L10
+PT	33	costì	cand: 32 così..39 dopo; f30v L22, f104 L21

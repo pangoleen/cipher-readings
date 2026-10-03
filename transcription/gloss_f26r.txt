@@ -1,0 +1,38 @@
+# f. 26r (view 29 R), Scipione to Nevers, 24 Mar 1590: interlinear period gloss, word-by-word (verified on crops f26r_M*.jpg)
+[50_ (18)] come subito            (which is which: not sure)
+= a r (dar: spelled)  63_ le  79_ lettere  83 in  29? materia  82d di  33 medesimo  10b Amb.re
+80d~ fare  60~ (far) parte  (45) S.A.
+63_ la  81 proposta
+(27) essere  95d utile  10 a  (50) V.Ecc.  83 per  65 molti  17 accidenti  28= che  49 [possono? gloss unclear]  80b nascere/nascimenti
+39 grande  71 danno  <.> et  15? dispiacere        (gloss "grande dano et disp.")
+85 necessità  83 in  (36) lei  82d di  16 accettar
+(45) a S.A.   12 quiete  10 a  10? chiaro  67 il  49 animo  14- suo  68 il quale
+37 conforme  10 a(lla)  87- volontà  82d di  10b Amb.  (45) S.A.
+44 consentito  10 a  63 cosa  51 contraria  10 a  50 gusto  14- suo  (se) 76= non 37 conforme
+92d nocumento  10 a  47 conservar  99 [in] questo  44 amicitia  29d con  47- Re di Spagna  28= che  29 [stimo]  22b tanto
+96_ maggiore  42_ servitio  82d di  98 casa  10? sua
+75d deliberare  (22) troppo  92_ presto  83bb in  63 cosa  22b tanto  76b importanza
+
+# f. 21v (view 25 L): glosses
+86 breve  82d di  32- S.S.tà/Papa            ("in materia del [breve di S.S.ta]")
+(43) S.S.tà
+4? dopo  63_ la  88 rotta  82d di  73 Umayna (Mayenne)     -> after Ivry, 14 Mar 1590
+76= non  (32) havere  [60?/80d] udito  69 dal  32- papa  59 parola  82d di  (36) lei  68 la quale  73 mostra  88 alteratione  82d di  49 animo
+# f. 22r (view 25 R): gloss
+32- papa  (32) havere  16 accettato  63_ la  84v protesta  82d di  40_ dodici  19 città  82d di  [NN] Pro(venza)  68 le quali  59v pr(es)o?  87- volontà(ria)  89 protettione  75 D. di Savoia
+
+# f. 93r (view 95 R): end of a letter of Nevers to Scipione (minute, Nevers's office), cipher written ABOVE the clear words.
+# SAME word code and same symbol alphabet as Scipione's letters (test of 3 Oct, second session).
+67 il | 28= che | L F3 L (g)li | 42~d_ servirà | 82? di | 72d aviso | (14) senza | 69 r 75= dar-ne | 41d altro | 10 F3 a(l)
+10b Amb.re | 84? perché | 78d desidero | 28= che | 64 credi | 28= che | 63_ le | 10-b sue | 79_ lettere | (15) 50 siano
+91d state | 26- intercette | (15) si | 30- come | 67bb il | S E 59 su-detto | tri a F3 tri a oX L Balbani | F3 phi lo | 13_d saprà
+<.> et | 56? però | (11) se | 76= non | xx a r qo farà | 29^d risposta | 10 alla | 81v proposta | 82d del
+80d detto | 10b Amb.re | S a r y a sarà | 83= per | (27) essere | 73bb impertinente | 68= ma
+(17) sotto | 52v protesta | 82d di | 76= non | K a E T y haver | 52^v ricevuta | 63_ le | 79 lettere
+82d di | (44) V.S. | 78d desiderando | 82d di | a S R T om om a r L aspettar(e) | 63_ la | 76^v risolutione
+82d del | [69? + signs] patriarca
+# agreement with code.tsv as it stood before: 67, 28=, 42_ (servitio -> verb servire), 78d, 64, 63_, 79_, 67bb, 13_, <.>, (11), 76=,
+# 10, 81, 82d, 83=, (27), 68=, 10b, 69 = 20 values agree. Conflicts: 80d "detto" here, "fatto" on f.105 (two words, one figure? or my mark).
+# New: 10-b = suo/sue (so my earlier "Amb.re" for 10-b was wrong; Amb.re is 10 with a dot only), (15) = si, 30- = come, (14) = senza,
+# 72d = aviso, 41d = altro, 75= = ne, 91d = stato, 26- = intercetto, 29^d = risposta, 81v = proposta, 73bb = impertinente,
+# (17) = sotto, 52v = protesta, 52^v = ricevuta, (44) = V.S., 76^v = risolutione, 56 (mark?) = però.

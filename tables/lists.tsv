@@ -1,0 +1,169 @@
+# One-part alphabetical nomenclator: lists of figures 10-99, each list = one slice of the alphabet, named by the mark.
+# list<TAB>figure<TAB>word<TAB>status (glossed / confirmed / interpolated[window] / context)   -- coordinator's finding, rebuilt 3 Oct 2026
+# A = plain figure: a .. av
+A	10	a	confirmed
+A	16	accettare	glossed f26r,f22r
+A	17	accidente	glossed f26r
+A	19	accordare	glossed f105
+A	41	altro	confirmed f93r,f101r
+A	42	ambasciata	glossed f105
+A	44	amicitia	glossed f26r
+A	49	animo	confirmed f26r,f21v,f101r
+A	57	ardire	glossed f101r
+A	58	arme	glossed f105
+A	70	autorità	glossed f101r
+A	72	aviso	glossed f93r
+# C = dot above: b/c .. di
+C	13	cavaliere	glossed f101r
+C	15	certezza	glossed f105
+C	16	chiaro	glossed f101r,f26r
+C	19	città	glossed f22r
+C	29	con	confirmed
+C	37	conforme	glossed f26r
+C	44	consenso/consentire	confirmed f26r,f101r
+C	47	conservare	glossed f26r
+C	51	contrario	glossed f26r
+C	53	convenire	confirmed f101r
+C	59	corrivo	glossed f101r
+C	63	cosa	confirmed
+C	64	credere	confirmed f105,f93r
+C	69	da	confirmed
+C	70	danaro	glossed f105
+C	71	danno	glossed f26r
+C	75	deliberare	glossed f26r
+C	78	desiderio/desiderare	confirmed f105,f93r,f101r
+C	80	detto (dire)	glossed f93r
+C	82	di	confirmed
+# E = two dots above: du .. f
+E	34	dubbio	glossed f105
+E	60	esperienza	glossed f101r
+E	66	età	glossed f101r (two places)
+E	73	fallire	glossed f105
+E	80	fatto (fare)	glossed f105,f26r
+E	87	fermo	glossed f105,f101r
+# G = two dots below: g .. in
+G	33	giusto	glossed f101r
+G	38	grado	glossed f101r
+G	39	grande	confirmed f105,f101r
+G	59	honore	glossed f101r
+G	67	il	confirmed
+G	68	il quale	confirmed f105,f21v
+G	71	impedimento	glossed f105
+G	73	impertinente	glossed f93r
+G	83	in	confirmed
+G	87	inclinare	glossed f105
+# I = bar below: in .. ma
+I	22	ingegno	glossed f101r
+I	43	intendere	glossed f101r
+I	45	intentione	glossed f101r
+I	71	laudare	glossed f105
+I	74	Lega / collegato	glossed f105
+I	79	lettera	confirmed f26r,f93r
+I	83	libero	confirmed f101r
+I	96	maggiore	confirmed f26r,f101r
+# M = dot below: ma .. no
+M	10	male	glossed f105
+M	33	medesimo	confirmed f105,f26r
+M	54	mio	confirmed f101r x3
+M	65	molto	glossed f26r
+M	72	morte	glossed f105
+M	73	mostrare	glossed f105,f21v
+M	75	muovere	glossed f105
+M	78	mutare	glossed f105
+M	85	necessità	glossed f26r
+M	92	nocumento	glossed f26r
+M	95	nostro	glossed f101r
+# O = circumflex above: o .. pe
+O	25	opinione	glossed f105
+O	57	pari	glossed f101r
+# P = caron below: pi .. qu
+P	13	piacere	glossed f101r
+P	52	pretesto	glossed f93r
+P	76	promettere	glossed f101r
+P	81	proposta	confirmed f93r,f26r
+P	84	protesta	glossed f22r
+P	89	prudenza	confirmed f101r x2
+P	96	quale	confirmed f101r x4
+P	99	quello	confirmed f101r
+# Q = circumflex above and caron below: qu .. r
+Q	11	questo	confirmed
+Q	23	ragionamento	glossed f105
+Q	29	replica / risposta	glossed f93r
+Q	52	ricevuta	glossed f93r
+Q	76	risolutione	confirmed f93r,f101r
+Q	78	rispetto	glossed f105
+Q	88	rotta	glossed f21v
+# S = dot above and bar below: s
+S	13	sapere	confirmed f105,f93r,f101r
+S	30	scritto	confirmed f105,f101r
+S	34	segno	glossed f105
+S	42	servitio / servire	confirmed f26r,f93r,f101r
+S	91	stato	glossed f93r,f101r
+# T = bar above and dot below: su .. v
+T	10	sua	confirmed f93r,f101r
+T	14	suo	confirmed f26r,f101r
+T	19	tacere	glossed f105
+T	22	tanto	glossed f26r
+T	26	tempo	confirmed f101r x2
+T	55	valore	glossed f101r
+T	67	vero	glossed f105
+T	87	volontà (also volontieri)	confirmed f26r,f22r
+T	95	utile	glossed f26r (u = v in the order: after volontà); fits f30v L16
+# PT = two bars (above and below; often only the lower one is visible): particles a .. q
+PT	25	assai	confirmed f105
+PT	28	che	confirmed
+PT	29	circa (used for "cerca")	glossed f101r
+PT	30	come	glossed f93r,f101r
+PT	31	contra	glossed f105
+PT	40	due	glossed f101r
+PT	44	fino	confirmed f105,f101r
+PT	50	fuori	confirmed f101r x2
+PT	51	già	glossed f105
+PT	56	hora	confirmed
+PT	63	la	confirmed
+PT	68	ma	confirmed
+PT	72	manco	glossed f101r
+PT	75	ne	confirmed f93r,f101r
+PT	76	non	confirmed
+PT	77	nondimeno	glossed f105
+PT	82	o vero	glossed f101r
+PT	83	per	confirmed
+PT	84	perché	confirmed
+PT	87	più	confirmed f101r x2
+PT	97	qualche	glossed f105,f26r
+PT	99	quello	glossed f101r
+# BR = round brackets: particles s .. v, then auxiliaries, pronouns, titles
+BR	11	se	confirmed
+BR	14	senza	confirmed f93r,f101r
+BR	15	si	confirmed f93r x2,f101r
+BR	16	sopra	confirmed f105,f101r
+BR	17	sotto	glossed f93r
+BR	18	subito	glossed f26r
+BR	20	tanto	confirmed f101r
+BR	22	troppo	glossed f26r
+BR	27	essere	confirmed
+BR	30	ho	confirmed f101r x3
+BR	31	havuto	glossed f105
+BR	32	havere	confirmed
+BR	34	io	confirmed
+BR	35	lui	confirmed
+BR	36	lei	confirmed
+BR	39	sono	confirmed
+BR	43	S.S.tà	confirmed f105,f21v
+BR	44	S.M.tà	glossed f101r
+BR	45	S.A.	confirmed f26r,f101r
+BR	50	V.E.	confirmed
+# N = bar above: persons
+N	26	legato	glossed f105
+N	32	Papa	confirmed f105,f22r
+N	44	Re di Francia	glossed f105
+N	46	cardinale	glossed f105
+N	47	Re di Spagna	confirmed
+N	55	Re	glossed f101r
+N	59	V.S.Ill.ma (Card. Gonzaga)	glossed f101r
+N	73	Umena (Mayenne)	confirmed f21v,f101r
+N	75	Duca di Savoia	glossed f22r
+N	78	S. Duca (Mantova)	glossed f101r
+# signs
+X	ll'	Re Cattolico / Spagna	glossed f101r
+X	<.>	et	confirmed

@@ -1,0 +1,36 @@
+# BnF fr. 4698 f. 30v (view 34 left; img/v34_L.jpg). Scipione Gonzaga to Nevers, Rome, 21 Jan 1590. Pass 1.
+# Symbol names: E(round E) T oX(circle with cross on top) v(small v) r(lambda with long leg) t(|- , t-like)
+# a(diamond/circle with one stem on top) om(omega/upsilon-like) y gam(8-like open loop) E3(reversed E)
+# sig(diamond with tail right) pi L(Lambda, no bar) # phi(circle+vertical) phid(phi with dot above) oh(circle with
+# horizontal bar) xi(three bars / Z-like) dd(double-barred vertical) S(Sigma) R(reversed R) sh dbar(diamond with
+# horizontal bar) K = xu(X underlined) ca(small caret) < > Q(circle with cross below) perp F3(|= , F with 3 bars)
+# <.> diamond with dot (= et)
+L01: 50_ 10 82d ll' 93= 82d | E T oX v r t a om y gam E3 sig r pi L | <.> 39= 90_ 23^v 69 96v (25) | # phid oX oh xi dd T | (38) | S om L pi a y | 68_b 63_ 94~ 82d (50)
+L02: <.>? (27) 74_d 80d 20_ 82d 99v 28= (25) | R sh dbar S gam T r phi y T | 69 70d <.> 69 13_d 82d (36) | phi y L # K v T = t L r xu L | 89d 28= (34) | R y L T ca K <
+L03: (50) 29d 21^ 41dd <.> 76= | E phid F3 T r | 83= 11^v 89_ 87bb 28= 83= 19= 73db (23) 82d (36) (43) | phid y L om L r a y xi L oh v Q om perp R L = > y S < | 83bb
+L04: 99v 28= (36) | # om Q phid S dd perp | (27) 42d_ 82d 64bb <.> 52dd 82d 10-b 13_ 82dd 40 48 08 69 11^v 90= 83bb 28= (34) 76= | pi v # t L r xu oh | 74= (25)
+# more names: tri(inverted triangle) qo(circle with tail below) F3r(mirrored F3) phiQ(phi with a cross-stroke below) g8(8-like/zeta-like sign)
+L05: 84= | S phid # K T tri qo S om a | 10 89v 82d (50) | F3 phid a # dd T oX Q sig r F3r phid | 66_ <.> (15) 84= | a F3 om y T E phiQ F3 om T pi v r v dd phid y = oh | 83=
+L06: xu T S om perp xi S phid | (32) 80dd 67bb 33db 20^ 29d (36) | R qo S xi phid | 67bb 50_dd 10 | qo = v r pi L #? T v phid E phiQ F3 t S g8 v xi phiQ ca r v E3 Q ca T r F3 T dd K t
+L07: 76= (20) 84= (36) 76= | S L qo | 59bb <.> 32v 82d 93= 30= | S a r t tri t | 53dd 10 41d 14-b 98v 83= 99v 28= 47= (38) (15) | a oX = oh om phi # dd qo oX ll om | 82d
+L08: 85d 28= | R phid S xi om oX gam | (27) 47=b (36) <.> 73 68_ 83= (27) 61v 82d 59 86bb | gam phid xi S oh oX om | (27) 27d 69 41 28= 69 41- 82d 39bb 70d (35)
+# more names: ll(two vertical strokes) xx(double-x / aleph-like) ca(small caret) om2(capital Omega) t2(mirrored t, -|)
+L09: E T ll y T tri perp | 87b 28= (50) | xx qo # T S xi t | 76v 82d | a R phid ca L r v qo r S v | 10d 81 82d 47- 28= 32= | xx qo dd T Q ll gam | 29 | pi xx S om r qo y
+L10: 42_ 35d 83bb 99v 41- (35) | T S v # E3 r v xi S v pi oh sig | 32= | R y phid pi T om om perp | 10 (50) 98v 86= | gam E phiQ R r oh xu t2 om om2 T r t | 86= 51d (14)
+# more names: al(alpha-like, double loop) piv(pi with round top, "varpi")
+L11: 32^ 82d 14-b 50_d | y perp R F3 v # qo oX = al pi L = E T oh om2 r T piv phid F3r om perp | 11^v 59 28= (36) | S t2 oX om L r t tri t2 | <.> 14bb <.> 48d 39bb 82d 21-b 10-b
+L12: 25d 84= <.> 99v 10 48_ 82d 14-b 91_ <.> 99v 10 | r v gam E om a om2 v phid oX perp | 82d 10-b 94^ | om2 y y? phid E T r t2 tri t | 82d (27) 83bb 29d 82d 21-b 28= 29d
+# more names: gl(lambda with a hook: g) blot(blotted sign)
+L13: (27) 55- 82d 99v 39bb 28= | T perp | 64~= 13d <.> | S a R t xi a r T perp = v S om L oX gl E T y perp | 67bb 41db 82d 94^ | # al Q dd F3 E xi t | 89 28= | piv phid F3r t oX = oh
+L14: (50) | qo R gam v blot F3 L a r S L a | 11^v 46dd | gam phi om2 T E a om r a om2 om qo r oX T | 48_d 29d 10 82d 47- 28= | S v om2 r phid E3 a | 83bb 99 10 96v 14~_ (35) 75_
+L15: S # y L E3 T r t tri t2 | 34 63d 29d 11^v 33db 13 90 92 02? (34) (30) 16 87-b 82d | xx a r | 11^v 20^ | R qo r blot oX = oh pi v | 28= 67bb 63_ 81v | R phi S xi a
+L16: om2 oh r Q a y perp a = sig F3 om2 y perp om a oX om2 sig | 95-b 98v 59bb 82d (50) <.> (20) 87= 63_ | S om2 v pi phid K oh Q phid r T E phid F3 T | 98v (34) 33v 87dd
+L17: 25^ 28= 67bb 32dd 82d | y L # K v t2 = t r F3r a | 82d 11^v | E3 T Q ca a | 69 47- 33db (11) 80d 83= 76= | a xi S v # E3 r qo y S v | 46= 82d 74^v 67bb 10
+L18: K qo sh phi F3 E om al pi oh S om r qo y pi t # phid | 67bb 51d 75= 51= 69 74d 82d (50) | pi v F3 L om a | 56_ 99v 24^v 82d 71bb 28= | gam al om perp E3 a | (27)
+L19: 83bb 43d | E v E3 T oX om2 t | 67bb 55- 72d 80_ 76= | sh al ca F3 v oh xi R T r qo y | (11) 76= 74_ 80d 82d 10-b 76v 30? 36? 06? | S E R gam F3 L # phi | 69
+L20: # K t2 E3 al F3 T oX = oh xi dd r v sh T y pi v | 83bb 11^v 82= 83bb 41d 80v 59v 10 | E3 S a r | 98_ 63_ 99dd 87- 86d 28= (34) 92d 33db 83bb 11^v 79_
+L21: 90_ 10 | pi v r qo y | 74_ 80d 83= 96v 93 (36) | pi a Q = a | 63_ 10-b 84= 83bb | Lc? 61^? | dd oh r y phid oX al | 39bb 87^ 86- (11) 63_ 41 93 (50) | R E phid
+L22: pi a Q = qo r F3 t | 83bb 21d 82d 78 99v | S om2 v pi phid | 63 87_ 48_d (11) 51= (36) 76= | qo # dd phi r = a S xi T | 97_ 63 29d 10 82d ll' 33=
+L23: 28= 29d 99v 44bb | # L r T ll oh | 80 28= 63_ 79_ | E T r y v a oX phi | 48_ 68~_ 50= 82d 11^v 83= 46db | F3 a R L r v T F3 oh qo S # L r v E T y | 83= 97- 26d
+L24: 67bb 72= 28= | gam E3 oh | 82= 63 66 88= 10 | # a E xi a r L | 17v 28= 96 63_ 38d 82d 49 83bb 11^v 82d 95_ | (clear) "et con questo fine"
+# Second pass (4th session): lines 1-10 (crops f30v_s01-s05), key units of 11-14 (s06-s07), lines 15-18 (s08-s09). Lines 19-24: one pass.

@@ -1,0 +1,353 @@
+page	line	checker	first	figure	mark_same	checker_doubt	blind	checker_list	first_list_used	first_status	first_word	list_match	word_in_checker_list
+30v	1	50_-	50_	same	True	False	True	I	I	i	istesso	True	istesso
+30v	1	10	10	same	True	False	True	A	A	g	a	True	a
+30v	1	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	1	95=	93=	DIFF		False	True	PT	PT	None	None		
+30v	1	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	1	39=	39=	same	True	False	True	PT	PT	i	dopo	True	dopo
+30v	1	90_-	90_	same	True	False	True	I	I	i	lungo	True	lungo
+30v	1	23^^_v	23^v	same	True	False	True	Q	Q	g	ragionamento	True	ragionamento
+30v	1	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30v	1	96_v	96v	same	True	False	True	P	P	g	quale	True	quale
+30v	1	(15)	(25)	DIFF		False	True	BR	BR	None	None		
+30v	1	(35)	(38)	DIFF		False	True	BR	BR	None	None		
+30v	1	68_-?{68^._-}	68_b	same	False	True	True	I	PT	g	ma	False	
+30v	1	63_-	63_	same	True	False	True	I	PT	g	la	False	
+30v	1	94^^	94~	same	False	False	True	O	A	None	None		
+30v	1	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	1	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30v	2	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	2	74=	74_d	same	False	False	True	PT	I	m	Lega / collegato*	False	
+30v	2	80^.	80d	same	True	False	True	C	C	g	detto (dire)	True	detto (dire)
+30v	2	20_-	20_	same	True	False	True	I	I	None	None		
+30v	2	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	2	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30v	2	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	2	(15)	(25)	DIFF		False	True	BR	BR	None	None		
+30v	2	69^.?{67}	69	same	False	True	True	C	C	m	da*	True	da
+30v	2	70^.	70d	same	True	False	True	C	C	g	danaro	True	danaro
+30v	2	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30v	2	13_-(1dot)	13_d	same	False	False	True	I	S	g	sapere	False	
+30v	2	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	2	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	2	49^:?{89^:}	89d	DIFF		True	True	E	C	None	None		
+30v	2	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	2	(34)	(34)	same	True	False	True	BR	BR	g	io	True	io
+30v	3	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30v	3	29^.?{29}	29d	same	True	True	True	C	C	g	con	True	con
+30v	3	21^^	21^	same	True	False	True	O	O	i	ogni	True	ogni
+30v	3	41(1dot)?{41^.}	41dd	same	False	True	True	A	E	i	efficacia	False	altro
+30v	3	76=	76=	same	True	False	True	PT	PT	g	non	True	non
+30v	3	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30v	3	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30v	3	89=	89_	same	False	False	True	PT	I	None	None		
+30v	3	87_:	87bb	same	True	False	True	G	G	g	inclinare	True	inclinare
+30v	3	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	3	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30v	3	19=(1dot)	19=	same	True	False	True	PT	PT	None	None		
+30v	3	73^._.?{75^._.}	73db	same	True	True	True	M	M	g	mostrare	True	mostrare
+30v	3	(23)	(23)	same	True	False	True	BR	BR	i	verso	True	verso
+30v	3	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	3	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	3	(43)	(43)	same	True	False	True	BR	BR	g	S.S.tà	True	S.S.tà
+30v	3	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30v	4	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30v	4	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	4	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	4	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	4	42^._-	42d_	same	True	False	True	S	S	g	servitio / servire	True	servitio / servire
+30v	4	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	4	64_:	64bb	same	True	False	True	G	G	i	Iddio	True	Iddio
+30v	4	52^:	52dd	same	True	False	True	E	E	i	esaltatione	True	esaltatione
+30v	4	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	4	10^-_.	10-b	same	True	False	True	T	T	g	sua	True	sua
+30v	4	13_-(1dot)	13_	same	True	False	True	I	S	m	sapere*	False	
+30v	4	82^.?{82^:}	82dd	same	False	True	True	C	E	i	fede	False	di
+30v	4	40?	40	same	True	True	True	A	A	None	None		
+30v	4	48?	48	same	True	True	True	A	C	i*	contento/consolatione*	False	
+30v	4	08??	08	same	True	True	True	A	A	None	None		
+30v	4	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30v	4	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30v	4	90=	90=	same	True	False	True	PT	I	i*	lungo*	False	
+30v	4	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30v	4	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	4	(34)	(34)	same	True	False	True	BR	BR	g	io	True	io
+30v	4	76=	76=	same	True	False	True	PT	PT	g	non	True	non
+30v	4	74=	74=	same	True	False	True	PT	I	m	Lega / collegato*	False	
+30v	4	(15)	(25)	DIFF		False	True	BR	BR	None	None		
+30v	5	84=	84=	same	True	False	True	PT	PT	g	perché	True	perché
+30v	5	10	10	same	True	False	True	A	A	g	a	True	a
+30v	5	89_v	89v	same	True	False	True	P	P	g	prudenza	True	prudenza
+30v	5	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	5	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30v	5	66_-?{66^._-}	66_	same	True	True	True	I	I	None	None		
+30v	5	(15)	(15)	same	True	False	True	BR	BR	g	si	True	si
+30v	5	84=	84=	same	True	False	True	PT	PT	g	perché	True	perché
+30v	5	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30v	6	(32)	(32)	same	True	False	True	BR	BR	g	havere	True	havere
+30v	6	80^:	80dd	same	True	False	True	E	E	g	fatto (fare)	True	fatto (fare)
+30v	6	67_:	67bb	same	True	False	True	G	G	g	il	True	il
+30v	6	33^._.	33db	same	True	False	True	M	M	g	medesimo	True	medesimo
+30v	6	20^^	20^	same	True	False	True	O	O	i	officio	True	officio
+30v	6	29^.	29d	same	True	False	True	C	C	g	con	True	con
+30v	6	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	6	67_:	67bb	same	True	False	True	G	G	g	il	True	il
+30v	6	50^._-	50_dd	same	False	False	True	S	None	None	None		
+30v	6	10	10	same	True	False	True	A	A	g	a	True	a
+30v	7	76=	76=	same	True	False	True	PT	PT	g	non	True	non
+30v	7	(20)	(20)	same	True	False	True	BR	BR	g	tanto	True	tanto
+30v	7	84=?{84_-}	84=	same	True	True	True	PT	PT	g	perché	True	perché
+30v	7	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	7	76=	76=	same	True	False	True	PT	PT	g	non	True	non
+30v	7	59_:	59bb	same	True	False	True	G	G	g	honore	True	honore
+30v	7	32_v	32v	same	True	False	True	P	O	i*	ordine*	False	
+30v	7	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	7	95=	93=	DIFF		False	True	PT	PT	None	None		
+30v	7	30=	30=	same	True	False	True	PT	PT	g	come	True	come
+30v	7	53^.?{53^:}	53dd	same	False	True	True	C	E	i	errore	False	convenire
+30v	7	10(1dot)	10	same	True	False	True	A	A	g	a	True	a
+30v	7	41_.(1dot)?{41^._.}	41d	same	False	True	True	M	C	None	None		
+30v	7	14^-_.	14-b	same	True	False	True	T	T	g	suo	True	suo
+30v	7	98_v	98v	same	True	False	True	P	P	i	quanto	True	quanto
+30v	7	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30v	7	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30v	7	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	7	47=	47=	same	True	False	True	PT	PT	i	fra	True	fra
+30v	7	(38)?{(36)}	(38)	same	True	True	True	BR	BR	None	None		
+30v	7	(15)	(15)	same	True	False	True	BR	BR	g	si	True	si
+30v	7	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	8	85^.	85d	same	True	False	True	C	C	i	difficoltà	True	difficoltà
+30v	8	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	8	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	8	47=	47=b	same	False	False	True	PT	PT	i	fra	True	fra
+30v	8	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	8	73	73	same	True	False	True	A	E	m	fallire*	False	
+30v	8	68_-	68_	same	True	False	True	I	PT	g	ma	False	
+30v	8	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30v	8	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	8	61_v	61v	same	True	False	True	P	O	i*	passo/paese*	False	
+30v	8	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	8	59_:	59	same	False	False	True	G	C	m	corrivo*	False	honore
+30v	8	86^.?{86}	86bb	same	False	True	True	C	G	None	None		
+30v	8	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	8	27^.	27d	same	True	False	True	C	C	None	None		
+30v	8	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30v	8	41(1dot)?{41^.}	41	same	True	True	True	A	A	g	altro	True	altro
+30v	8	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	8	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30v	8	41^-	41-	same	True	False	True	N	N	i	(a prince; Principe?)	True	(a prince; Principe?)
+30v	8	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	8	39_:	39bb	same	True	False	True	G	G	g	grande	True	grande
+30v	8	70^.	70d	same	True	False	True	C	C	g	danaro	True	danaro
+30v	8	(35)	(35)	same	True	False	True	BR	BR	g	lui	True	lui
+30v	9	87^-_.	87b	same	False	False	True	T	M	i	necessario	False	volontà (also volontieri)
+30v	9	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	9	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30v	9	76^^_v	76v	same	False	False	True	Q	P	g	promettere	False	risolutione
+30v	9	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	9	10(1dot)	10d	same	False	False	True	A	A	m	a*	True	a
+30v	9	81^-?{81^.}	81	same	False	True	True	N	A	None	None		
+30v	9	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	9	47^-	47-	same	True	False	True	N	N	g	Re di Spagna	True	Re di Spagna
+30v	9	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	9	32=	32=	same	True	False	True	PT	PT	i	così	True	così
+30v	9	29^.	29	same	False	False	True	C	C	m	con*	True	con
+30v	10	42_-	42_	same	True	False	True	I	S	m	servitio / servire*	False	
+30v	10	35^.	35d	same	True	False	True	C	C	i	confidenza	True	confidenza
+30v	10	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30v	10	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30v	10	41^-	41-	same	True	False	True	N	N	i	(a prince; Principe?)	True	(a prince; Principe?)
+30v	10	(35)	(35)	same	True	False	True	BR	BR	g	lui	True	lui
+30v	10	32=	32=	same	True	False	True	PT	PT	i	così	True	così
+30v	10	10(1dot)	10	same	True	False	True	A	A	g	a	True	a
+30v	10	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30v	10	98_v	98v	same	True	False	True	P	P	i	quanto	True	quanto
+30v	10	86=	86=	same	True	False	True	PT	PT	i	però	True	però
+30v	10	86^-_.	86=	same	False	False	True	T	PT	i	però	False	
+30v	10	51_.(1dot)	51d	same	False	False	True	M	C	g	contrario	False	
+30v	10	(14)	(14)	same	True	False	True	BR	BR	g	senza	True	senza
+30v	11	32^^	32^	same	True	False	False	O	O	i	ordine	True	ordine
+30v	11	82^.	82d	same	True	False	False	C	C	g	di	True	di
+30v	11	14^-_.	14-b	same	True	False	False	T	T	g	suo	True	suo
+30v	11	50^._-	50_d	same	True	False	False	S	S	i	Signore	True	Signore
+30v	11	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30v	11	59^^	59	same	False	False	True	O	C	m	corrivo*	False	parola
+30v	11	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	11	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30v	11	14_:	14bb	same	True	False	True	G	G	None	None		
+30v	11	48^.	48d	same	True	False	True	C	C	i	contento/consolatione	True	contento/consolatione
+30v	11	39_:	39bb	same	True	False	True	G	G	g	grande	True	grande
+30v	11	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	11	21^-_.	21-b	same	True	False	True	T	T	i	tale	True	tale
+30v	11	10^-_.	10-b	same	True	False	True	T	T	g	sua	True	sua
+30v	12	25^.	25d	same	True	False	False	C	C	None	None		
+30v	12	84=	84=	same	True	False	False	PT	PT	g	perché	True	perché
+30v	12	98_v?{99_v}	99v	DIFF		True	False	P	P	g	quello		
+30v	12	10(1dot)	10	same	True	False	False	A	A	g	a	True	a
+30v	12	48_-	48_	same	True	False	False	I	I	i	interesse	True	interesse
+30v	12	82^.	82d	same	True	False	False	C	C	g	di	True	di
+30v	12	14^-_.	14-b	same	True	False	False	T	T	g	suo	True	suo
+30v	12	91_-(1dot)	91_	same	True	False	False	I	S	m	stato*	False	
+30v	12	98_v?{99_v}	99v	DIFF		True	False	P	P	g	quello		
+30v	12	10(1dot)	10	same	True	False	False	A	A	g	a	True	a
+30v	12	82^.	82d	same	True	False	False	C	C	g	di	True	di
+30v	12	10^-_.	10-b	same	True	False	True	T	T	g	sua	True	sua
+30v	12	94^^	94^	same	True	False	True	O	O	i	persona	True	persona
+30v	12	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	12	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	12	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30v	12	29^._.	29d	same	False	False	True	M	C	g	con	False	
+30v	12	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	12	21^-_.	21-b	same	True	False	True	T	T	i	tale	True	tale
+30v	12	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	12	29^.	29d	same	True	False	True	C	C	g	con	True	con
+30v	13	(27)	(27)	same	True	False	True	BR	BR	g	essere	True	essere
+30v	13	55^-	55-	same	True	False	True	N	N	g	Re	True	Re
+30v	13	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	13	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30v	13	39_:	39bb	same	True	False	True	G	G	g	grande	True	grande
+30v	13	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	13	64=	64~=	same	True	False	True	PT	PT	None	None		
+30v	13	13(1dot)	13d	same	False	False	True	A	C	g	cavaliere	False	
+30v	13	67_:	67bb	same	True	False	True	G	G	g	il	True	il
+30v	13	41_.(1dot)?{41^._.}	41db	same	False	True	True	M	M	i	merito	True	merito
+30v	13	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	13	94^^	94^	same	True	False	True	O	O	i	persona	True	persona
+30v	13	89^:	89	same	False	False	True	E	A	None	None		
+30v	13	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	14	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30v	14	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30v	14	46^.	46dd	same	False	False	True	C	E	i	espediente/elettione	False	
+30v	14	48^._-?{48_-}	48_d	same	True	True	True	S	S	i	sicuro	True	sicuro
+30v	14	29^.	29d	same	True	False	True	C	C	g	con	True	con
+30v	14	10	10	same	True	False	True	A	A	g	a	True	a
+30v	14	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30v	14	47^-	47-	same	True	False	True	N	N	g	Re di Spagna	True	Re di Spagna
+30v	14	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30v	14	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30v	14	99?{99_v}	99	same	True	True	True	A	A	None	None		
+30v	14	10(1dot)	10	same	True	False	True	A	A	g	a	True	a
+30v	14	96_v	96v	same	True	False	True	P	P	g	quale	True	quale
+30v	14	14=	14~_	same	False	False	True	PT	I	None	None		
+30v	14	(35)	(35)	same	True	False	True	BR	BR	g	lui	True	lui
+30v	14	75=	75_	same	False	False	True	PT	PT	g	ne	True	ne
+30r	0	82^.		only-checker			True						
+30r	0	65^._.?		only-checker			True						
+30r	0	63^.		only-checker			True						
+30r	0	68=		only-checker			True						
+30r	0	61		only-checker			True						
+30r	0	82^.		only-checker			True						
+30r	0	89=		only-checker			True						
+30r	1	62^._-?	62_b	same	False	True	True	S	I	None	None		
+30r	1	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30r	1	32^-?{52^-}	32-	same	True	True	True	N	N	g	Papa	True	Papa
+30r	1	73^._.	73b	same	False	False	True	M	M	g	mostrare	True	mostrare
+30r	1	(32)	(32)	same	True	False	True	BR	BR	g	havere	True	havere
+30r	1	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	1	94^^	94^	same	True	False	True	O	O	i	persona	True	persona
+30r	1	10^-_.	10-	same	False	False	True	T	T	m	sua*	True	sua
+30r	1	61_v	61v	same	True	False	True	P	O	i*	passo/paese*	False	
+30r	1	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30r	1	34^.?	39?	DIFF		True	True	C	A	None	None		
+30r	1	79_-	79_	same	True	False	True	I	I	g	lettera	True	lettera
+30r	1	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	1	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30r	1	81^^_v	81v	same	False	False	True	Q	P	g	proposta	False	
+30r	1	52^.	52d	same	True	False	True	C	E	i*	esaltatione*	False	
+30r	1	79=	79_	same	False	False	True	PT	I	g	lettera	False	
+30r	1	67_:	67bb	same	True	False	True	G	G	g	il	True	il
+30r	1	32^._-	32_	same	False	False	True	S	PT	i*	così*	False	
+30r	1	30^.	30d	same	True	False	True	C	C	None	None		
+30r	1	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30r	1	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30r	1	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30r	1	(15)	(25)	DIFF		False	True	BR	BR	None	None		
+30r	1	(39)	(39)	same	True	False	True	BR	BR	g	sono	True	sono
+30r	2	77^-_.	77b-	same	True	False	True	T	T	None	None		
+30r	2	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	2	70^-	70-	same	True	False	True	N	N	None	None		
+30r	2	99_v	99v	same	True	False	True	P	P	g	quello	True	quello
+30r	2	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30r	2	(35)	(35)	same	True	False	True	BR	BR	g	lui	True	lui
+30r	2	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	2	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30r	2	29=	29_	same	False	False	True	PT	PT	g	circa (used for "cerca")	True	circa (used for "cerca")
+30r	2	63_-	63_	same	True	False	True	I	PT	g	la	False	
+30r	2	63^.	63d	same	True	False	True	C	C	g	cosa	True	cosa
+30r	2	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	2	33=	33=	same	True	False	True	PT	PT	None	None		
+30r	2	31=	31_	same	False	False	True	PT	PT	g	contra	True	contra
+30r	2	67_:	67bb	same	True	False	True	G	G	g	il	True	il
+30r	2	50_:	50bb	same	True	False	True	G	G	i	gusto	True	gusto
+30r	2	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	2	(43)	(43)	same	True	False	True	BR	BR	g	S.S.tà	True	S.S.tà
+30r	2	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30r	2	33^._.	33db	same	True	False	True	M	M	g	medesimo	True	medesimo
+30r	2	(34)	(34)	same	True	False	True	BR	BR	g	io	True	io
+30r	3	19=	19=	same	True	False	True	PT	PT	None	None		
+30r	3	62=	52=	DIFF		False	True	PT	PT	None	None		
+30r	3	(15)	(15)	same	True	False	True	BR	BR	g	si	True	si
+30r	3	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30r	3	72^.	72d	same	True	False	True	C	C	i	defunto	True	defunto
+30r	3	14^-_.	14-b	same	True	False	True	T	T	g	suo	True	suo
+30r	3	30=	30_	same	False	False	True	PT	PT	g	come	True	come
+30r	3	83=	83=	same	True	False	True	PT	PT	g	per	True	per
+30r	3	71^.	71	same	False	False	True	C	C	m	danno*	True	danno
+30r	3	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	3	67^.	67d	same	True	False	True	C	C	None	None		
+30r	3	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30r	4	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30r	4	30^._-	30_d	same	True	False	True	S	S	g	scritto	True	scritto
+30r	4	74=	74=	same	True	False	True	PT	I	m	Lega / collegato*	False	
+30r	4	87=	87=	same	True	False	True	PT	PT	g	più	True	più
+30r	4	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30r	4	63_-	63_	same	True	False	True	I	PT	g	la	False	
+30r	4	79^._-	79_d	same	True	False	True	S	I	m	lettera*	False	
+30r	4	68_-	68_	same	True	False	True	I	PT	g	ma	False	
+30r	4	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30r	4	58^-_.	58bb	same	False	False	True	T	G	None	None		
+30r	4	91_-(1dot)	91_	same	True	False	True	I	S	m	stato*	False	
+30r	4	81^^_v	81v	same	False	False	True	Q	P	g	proposta	False	
+30r	4	52^.	52d	same	True	False	True	C	E	i*	esaltatione*	False	
+30r	4	56=	56_	same	False	False	True	PT	PT	g	hora	True	hora
+30r	4	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30r	4	33^._.	33db	same	True	False	True	M	M	g	medesimo	True	medesimo
+30r	4	12(1dot)?{12^.}	12d	same	False	True	True	A	C	None	None		
+30r	4	62_-	62_	same	True	False	True	I	I	None	None		
+30r	4	68_-	68_	same	True	False	True	I	PT	g	ma	False	
+30r	4	19=	19=	same	True	False	True	PT	PT	None	None		
+30r	5	46=	46=	same	True	False	True	PT	PT	i	forse	True	forse
+30r	5	45=	45=	same	True	False	True	PT	I	m	intentione*	False	
+30r	5	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30r	5	97=	97-	same	False	False	True	PT	N	None	None		
+30r	5	66^.	66	same	False	False	True	C	E	m	età*	False	
+30r	5	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	5	(50)	(50)	same	True	False	True	BR	BR	g	V.E.	True	V.E.
+30r	5	83_:	83bb	same	True	False	True	G	G	g	in	True	in
+30r	5	42^._-	42=	same	False	False	True	S	S	m	servitio / servire*	True	servitio / servire
+30r	5	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	5	(43)	(43)	same	True	False	True	BR	BR	g	S.S.tà	True	S.S.tà
+30r	5	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	5	11^^_v	11^v	same	True	False	True	Q	Q	g	questo	True	questo
+30r	5	13_-	13_	same	True	False	True	I	S	m	sapere*	False	
+30r	5	(15)	(15)	same	True	False	True	BR	BR	g	si	True	si
+30r	5	30=	30=	same	True	False	True	PT	PT	g	come	True	come
+30r	5	(34)	(34)	same	True	False	True	BR	BR	g	io	True	io
+30r	6	69^.	69	same	False	False	True	C	C	m	da*	True	da
+30r	6	10^-_.	10-b	same	True	False	True	T	T	g	sua	True	sua
+30r	6	84?{84^.}	89	DIFF		True	True	A	A	None	None		
+30r	6	32^-	32-	same	True	False	True	N	N	g	Papa	True	Papa
+30r	6	71=	71_	same	False	False	True	PT	I	g	laudare	False	
+30r	6	28=	28=	same	True	False	True	PT	PT	g	che	True	che
+30r	6	44=	44=	same	True	False	True	PT	PT	g	fino	True	fino
+30r	6	56=	56_	same	False	False	True	PT	PT	g	hora	True	hora
+30r	6	76=	76=	same	True	False	True	PT	PT	g	non	True	non
+30r	6	63_-	63_	same	True	False	True	I	PT	g	la	False	
+30r	6	22_v	22v	same	True	False	True	P	P	None	None		
+30r	6	67_:	67bb	same	True	False	True	G	G	g	il	True	il
+30r	6	55^-_.	55b	same	False	False	True	T	M	None	None		
+30r	6	64=	64=	same	True	False	True	PT	PT	None	None		
+30r	6	82^.	82d	same	True	False	True	C	C	g	di	True	di
+30r	6	(36)	(36)	same	True	False	True	BR	BR	g	lei	True	lei
+30r	6	13^^	13^d	same	False	False	True	O	None	None	None		
+30r	6	10(1dot)	10d	same	False	False	True	A	A	m	a*	True	a

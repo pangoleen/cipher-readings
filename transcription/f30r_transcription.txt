@@ -1,0 +1,8 @@
+# BnF fr. 4698 f. 30r (view 33 right; img/v33_R.jpg). Scipione Gonzaga to Nevers, Rome, 21 Jan 1590. Cipher lines R1-R6. Pass 1.
+# clear text before: "Di questa mia, la quale fu di 18 di Novembre, mandai a V. Ecc. [copia?]"
+R01: 62_b 28= 32- 73b (32) 82d 94^ 10- | # a ca v phid oX qo om2 sig | 61v 69 39? 79_ 82d (36) 81v <.> 52d 79_ 67bb 32_ 30d 83= 99v 28= (25) (39)
+R02: 77b- 82d 70- <.> 99v 28= (35) | qo oX = a E sig S R qo r gl T Q ll al | 82d (50) 29_ 63_ 63d 82d 33= 31_ 67bb 50bb 82d (43) <.> 11^v 33db (34)
+R03: F3 t K a sh perp E3 qo a # dd T oX Q sig om phi | 19= 52= | gam L E E3 phi F3 om2 T | (15) 83= 72d 14-b 30_ 83= 71 82d 67d 28= | tri L xi oh ca Q a E sig
+R04: om2 T oX perp y | 83bb 30_d <.> 74= 87= 83bb | pi a oX = qo r | 63_ 79_d 68_ 83bb 58bb 91_ | T r qo oX phi | 81v <.> 52d 56_ 11^v 33db 12d 62_ 68_ 19= | = E y a | <.>
+R05: 46= | ll sh r T y qo | 45= 69 97- 66 | K t2 r phi v dd a | 82d (50) 83bb 42= 82d (43) <.> 82d 11^v 13_ | S t ll t2 | (15) 30= (34) | pi L R y phi
+R06: xu t om om2 phid | 69 10-b 89 32- | E T y r a qo dd phid Q oh S # T r t2 | 71_ 28= 44= 56_ 76= | xx a | 63_ 22v <.> 67bb 55b 64= 82d (36) | K a = qo om2 phid | 13^d 10d

@@ -1,0 +1,99 @@
+# Cardinal Scipione Gonzaga to the Duke of Nevers, Rome, 21 January 1590. Cipher part.
+# Cipher: BnF fr. 4698 ff. 30r, 30v, 31r. Period decipherment: BnF fr. 4702 ff. 94r, 94v, 95r.
+# Text = the words of Nevers's clerk (1590), in the order of the cipher, with agreement and spelling made regular.
+# [word] = my correction from the cipher, where the clerk's word does not fit the mark on the film and the sense
+#          (his word is in fr4702_f94-95_decipherment.txt; the unit-by-unit table is alignment_f30.tsv).
+# [..]   = not resolved. (clear) = written in clear in the letter.
+# Made by a model on 3 Oct 2026. Not checked by a palaeographer. The plain text is the clerk's, not a new decipherment.
+
+## Italian
+
+(clear) Di quella mia, la quale fu di 18 di Novembre, avisai V. Ecc. (cipher) di molte cose, ma particolarmente di
+poca sodisfatione che Papa mostra [havere] di persona sua, cagionata principalmente da alcune lettere di lei
+ritenute et aperte, oltre il sdegno aggiunto per quello che si sono visto del Volta, et quello che lui andava
+spargendo di V.E. circa le cose di costì contra il gusto di S.S.tà. Et questo medesimo io le havea accennato ancora
+innanzi più volte, sì per aviso suo come per avertimento di [..] che bisognava tener ne la scrittura, et molto più
+nel mandar le lettere, le quali in varii luoghi erano ritenute et aperte. Hora questo cattivo istrumento, la quale
+ancora dura et forse durerà finché da qualche atto heroico di V.E. in servitio di S.S.tà et di questa [santa] Sede,
+sì come io mi prometto, [..] sua bontà Papa verrà a conoscere meglio che fino hora non fa la pietà et il valore
+insieme di lei, ha dato occasione al Signore Ambasciatore di Spagna qua di venire a trovarmi; et dopo lungo
+ragionamento, dal quale si conosce lui stimar sommamente la [persona] di V.E. et [essere] molto bene informato di
+quanto che si può sperare da autorità et da sapere di lei, a richiedermi finalmente che io prieghi V.E. con [ogni]
+efficacia et non voler, per questa poca inclinatione che per ancora mostra verso di [lei] S.S.tà, o ritirarsi o
+intepidirsi in quello che lei conosce [essere] servitio di [Iddio] et esaltatione di sua [santa] fede. Da questo
+poi, in che io non mi fermo molto, sì perché so che basta a prudenza di V.E. lo accennarlo solo, et sì perché altre
+volte mi ricordo per me stesso [haver] fatto il medesimo officio con [lei], passò il Signore Ambasciatore a dirmi
+che io volessi soggiungerle che, non tanto perché lei non sia honorata et portata di qua come sarebe conveniente al
+merito suo, quanto per quello che fra noi si andò toccando di differenze che possono essere fra lei et Umena, le
+quali, per essere principali di honore, difficilmente possono essere composte da [altro] che da Principe di grande
+autorità, lui vedrebe volontieri che V.E. facesse risolutione di appoggiarsi al favore di Re di Spagna; che così
+facendo con mostrar integra confidenza in quello Principe, lui è sicurissimo, et così promette a V.E. quanto però
+può promettere uno ministro senza [ordine] di suo Signore, replicandomi due o tre volte queste [parole], che [lei]
+sentirebe et [..] et consolatione grande di tale sua deliberatione; perché, et [quello] a interesse di suo stato et
+[quello] a riputatione di sua persona, troverebe di essere in materia di tale che, con essere Re di quella
+grandezza che è, è insieme cavaliere, et sa pesare e distinguere il merito di persone. Concluse finalmente che,
+volendo V.E. appigliarsi a questo consiglio, poteva trattarne sicuramente con Ambasciatore di Re di Spagna che si
+trova in Parigi, al quale ancora lui ne scriverebe alcuna cosa con questa medesima occasione. Io ho accettato
+volontieri di far questo officio, parendomi che la proposta possa tornare ad altretanta utilità quanto honore di
+V.E.; et tanto più la stimo honorevole, quanto io porto ferma opinione che il ordine di richiederla di questo venga
+da Re di Spagna medesimo, se bene per non assicurarsi forse di riserva il Ambasciatore ha voluto mostrar meco il
+contrario. Né già dalla banda di V.E. milita hora quella ragione di impedimento che poteva essere in consideratione
+vivente il Re morto; onde non voglio sperar se non molto bene di sua risolutione. Supplico Duca di Nevers che,
+volendo scrivermi in questo o vero in altro proposito, primo a usar quanto più si può la cifra più difficile che io
+uso medesimo in questa lettera; poi a mirar molto bene per quale camino lei manda le sue, perché in Lione
+particolarmente corrono grande pericolo. Però, se per altro camino V.E. può mandarle in mano di Duca di Mantova,
+quello stimo [..] più sicuro; se già lei non accordasse qualche cosa con Ambasciatore di Spagna costì, che con
+quello mezzo credo bene che le lettere verriano sicure. Ma fuori di questo [ultimo] mezzo, la priego a scriver per
+qualche tempo il meno che può, o vero cose atte più tosto a causar raccomandatione che maggior alteratione di animo
+in questi di qua. (f. 31r) Questa lettera si manda per mezzo di Spagna, et una altra simile viene per mezzo di Duca
+di Mantova.
+
+## English
+
+In my letter of 18 November I told Your Excellency of many things, and above all of the little satisfaction that the
+Pope shows with your person. Its main cause is some letters of yours that were held and opened; added to this is the
+anger at what was seen of Volta, and at what he went about saying of Your Excellency on the affairs there, against
+His Holiness's liking. I had told you the same several times before, as a warning of the care needed in writing and
+still more in sending letters, which were held and opened in several places. This bad instrument still works, and
+perhaps will work until some heroic act of Your Excellency in the service of His Holiness and of this [Holy] See
+lets the Pope know your piety and your worth better than he does now. It has given the Lord Ambassador of Spain here
+occasion to come to me. After a long talk, which showed that he esteems Your Excellency's person very highly and
+knows well how much can be hoped from your authority and knowledge, he asked me at last to beg Your Excellency with
+all force not to draw back or grow cool, because of the small favour that His Holiness still shows you, in what you
+know to be the service of God and the exaltation of His holy faith. I do not stay on this: a hint is enough for your
+prudence, and I remember that I have done the same office with you before of my own accord.
+
+The Ambassador then asked me to add this. You are not honoured and advanced here as your merit deserves; and, as we
+touched between us, there are differences between you and Mayenne which are chiefly matters of honour and can hardly
+be settled except by a Prince of great authority. So he would gladly see Your Excellency resolve to lean on the
+favour of the King of Spain. If you do so and show full trust in that Prince, he is very sure, and he promises Your
+Excellency as far as a minister can promise without an order from his master (he said these words to me two or three
+times), that you would have great [..] and comfort from this decision. For the interest of your estates and for the
+reputation of your person you would be dealing with one who, besides being so great a King, is also a knight, and
+can weigh and tell apart the merit of persons. He ended: if Your Excellency takes this counsel, you can treat of it
+safely with the Ambassador of the King of Spain who is in Paris, to whom he too would write something on this
+occasion.
+
+I accepted this office willingly. I think that the proposal can be as useful to Your Excellency as it is honourable;
+and I hold it the more honourable because I firmly believe that the order to ask you this comes from the King of
+Spain himself, although the Ambassador, perhaps to keep a reserve, wished to show me the contrary. On your side the
+reason of hindrance that could count while the dead King lived holds no longer; so I hope for nothing but good from
+your resolution.
+
+I beg the Duke of Nevers, when he writes to me on this or another matter, first to use as much as he can the harder
+cipher that I use in this letter; then to look well by which road he sends his letters, because at Lyon above all
+they run great danger. If by another road you can send them into the hands of the Duke of Mantua, I hold that safer;
+unless you agree something with the Ambassador of Spain there, by which means I believe the letters would come
+safely. Outside this means, I beg you to write for some time as little as you can, or things fit to win favour and
+not to stir minds here more. This letter goes by way of Spain, and another like it comes by way of the Duke of
+Mantua.
+
+## Doubtful places
+
+- "[..] sua bontà": the clerk has "destramente".
+- "et [..] et consolatione": the clerk has "frutto"; the figure is 14 with two dots below (list g-in).
+- "quello stimo [..] più sicuro": the clerk has "huomo".
+- "riserva": the clerk's word; the sense is not sure. "raccomandatione": the clerk's word, read with doubt.
+- "[ogni] efficacia", "servitio di [Iddio]", "senza [ordine]": the clerk has "pieno", "Catolici", "agiotam.te".
+  The film shows the marks of the lists o-pe and g-in, and the clerk gives ogni, Iddio and ordine for the same
+  units on f. 97.

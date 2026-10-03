@@ -1,22 +1,34 @@
 # The cipher of Cardinal Scipione Gonzaga and the Duke of Nevers, 1590
 
-**Claim: a reconstruction of the cipher system and a partial reading of one unread letter. No key sheet was found.
-This is not a full decipherment.**
+Paris, BnF, ms. français 4698 holds letters in Italian from Cardinal Scipione Gonzaga in Rome to Louis de Gonzague,
+Duke of Nevers, with long passages in cipher. This repository rebuilds the cipher, links the letters to period
+decipherments in another volume, and reads two letters that have no decipherment.
 
-**Status: 3 October 2026.** The work was done by a model. An independent blind check of the marks was made (see
-below). No palaeographer has checked the reading. Corrections are welcome: please open an issue.
+**Status: 3 October 2026.** The work was done by a model. No palaeographer has checked it. No key sheet was found.
+Corrections are welcome: please open an issue.
+
+## What is new and what is not
+
+| | Item | State |
+|---|---|---|
+| Reproduced | The plain text of the letters of 21 January and 16 February 1590 | It is the text of Nevers's own clerk of 1590 (BnF fr. 4702). We transcribed and translated it. It is not a new decipherment. |
+| New | The link between the two volumes | fr. 4702 ff. 94r-95r, f. 97r-v and f. 108r are the decipherments of fr. 4698 ff. 30r-31r, f. 104r and f. 34r. The printed catalogue describes them as letters of "un agent du duc de Nevers" and does not link them. We found no source that does. |
+| New | The reconstruction of the cipher | Three layers; a word code of 378 values in 14 lists; a symbol alphabet. Built without a key sheet. |
+| New | A blind test of the method | A partial reading was made and frozen before the period decipherments were found. It is scored below. |
+| New, with gaps | The letters of 24 March and 31 March 1590 (ff. 26v-27r, ff. 36r-37r) | No period decipherment was found for them. They are read here with the rebuilt code: [24 March](reading/f26v-27r_1590-03-24.md), [31 March](reading/f36_1590-03-31.md). |
 
 ## The documents
 
-Paris, BnF, ms. français 4698 (Gallica `btv1b9058291p`, black-and-white microfilm). Letters in Italian from Cardinal
-Scipione Gonzaga in Rome to Louis de Gonzague, Duke of Nevers, in 1590, with passages in cipher, and minutes of the
-Duke's letters to the Cardinal in the same cipher. The printed BnF catalogue calls the Cardinal's letters at
-ff. 30-39 "Chiffre", with no decipherment.
+| Cipher (BnF fr. 4698, Gallica `btv1b9058291p`, microfilm) | Period decipherment | Here |
+|---|---|---|
+| f. 17r-v, letter of 16 February 1590, five cipher lines | fr. 4698 f. 105r | `transcription/f105_decipherment_1590.txt` |
+| ff. 30r-31r, letter of 21 January 1590 | fr. 4702 ff. 94r-95r (Gallica `btv1b530546654`, colour) | [edition](editions/edition_1590-01-21_f30.txt) |
+| f. 104r, cipher sheet sent with the letter of 16 February 1590 | fr. 4702 f. 97r-v | [edition](editions/edition_1590-02-16_f104.txt) |
+| f. 34r, letter of 19 February 1590 | fr. 4702 f. 108r | `alignment/alignment_f34.tsv` |
+| ff. 26v-27r, letter of 24 March 1590 | none found | [reading](reading/f26v-27r_1590-03-24.md) |
+| ff. 36r-37r, letter of 31 March 1590 | none found | [reading](reading/f36_1590-03-31.md) |
 
-Pages used here: ff. 17r-v (cipher) with f. 105r (period decipherment); ff. 21v, 22r, 26r, 26v (cipher with words
-written above); ff. 93r and 101r (the Duke's minutes, cipher and clear together) with ff. 97r-98r (clear copy headed
-"Cif. dicifrata della mia di 31 gen. 90"); ff. 30r-31r (letter of 21 January 1590, no decipherment); f. 104r (a
-cipher sheet endorsed "Con la lettera di 16 febraro 1590. R. 9 aprille 1590. Da Parigi", no decipherment).
+ff. 11-16 of fr. 4698, which the catalogue lists as "Chiffre", hold three clear letters and no cipher.
 
 ## The system
 
@@ -26,164 +38,116 @@ Three layers.
    says which list the figure belongs to. Each list is a slice of one alphabetical word list (a one-part
    nomenclator). The order is by the first letters, loosely; u and v count as one letter.
 
-| mark on the figure | slice | examples |
-|---|---|---|
-| none | a – av | 10 a, 16 accettare, 19 accordare, 41 altro, 49 animo, 58 arme, 70 autorità, 72 aviso |
-| one dot above | c – di | 13 cavaliere, 15 certezza, 29 con, 63 cosa, 69 da, 70 danaro, 71 danno, 80 detto, 82 di |
-| two dots above | du – f | 34 dubbio, 60 esperienza, 66 età, 73 fallire, 80 fatto, 87 fermo |
-| two dots below | g – in | 33 giusto, 39 grande, 59 honore, 67 il, 71 impedimento, 83 in, 87 inclinare |
-| bar below | in – ma | 22 ingegno, 45 intentione, 74 Lega, 79 lettera, 83 libero, 96 maggiore |
-| one dot below | ma – no | 10 male, 33 medesimo, 54 mio, 72 morte, 78 mutare, 85 necessità |
-| circumflex above | o – pe | 25 opinione, 57 pari |
-| caron below | pi – qu | 13 piacere, 76 promettere, 81 proposta, 89 prudenza, 96 quale, 99 quello |
-| circumflex above and caron below | qu – r | 11 questo, 23 ragionamento, 76 risolutione, 78 rispetto, 88 rotta |
-| dot above and bar below | s | 13 sapere, 30 scritto, 34 segno, 42 servitio, 91 stato |
-| bar above and dot below | su – v | 10 sua, 14 suo, 19 tacere, 26 tempo, 55 valore, 67 vero, 87 volontà, 95 utile |
-| bar above and bar below | particles, a – q | 25 assai, 28 che, 30 come, 44 fino, 63 la, 68 ma, 76 non, 83 per, 87 più |
-| round brackets | particles s – v, then auxiliaries, pronouns, titles | (11) se, (15) si, (16) sopra, (27) essere, (34) io, (36) lei, (50) V.E. |
-| bar above | persons | 32 Papa, 44 Re di Francia, 47 Re di Spagna, 73 Umena (Mayenne) |
+| Mark on the figure | Slice |
+|---|---|
+| none, or one dot above | a to ca |
+| one dot above | cat to di |
+| two dots above | dis to f |
+| two dots below | g to in |
+| bar below | in to lu |
+| dot below | ma to ne |
+| circumflex above | no to pe |
+| caron below | pi to qu |
+| circumflex above and caron below | qu to r |
+| dot above and bar below | s |
+| bar above and dot below | su to v |
+| two bars | small words, a to q |
+| round brackets | small words s to v, auxiliaries, pronouns, titles |
+| bar above | persons and names (not alphabetical) |
 
 2. **A symbol alphabet** of about 45 signs, with several signs for each common letter, for words that are not in
-   the lists. A diamond with a dot is "et".
-3. **A verb sign.** An arc above a figure means: the word in the list is a noun; read the verb. The Cardinal states
-   this rule in clear on f. 17v, and promises to make a new cipher when he has time.
+   the lists.
+3. **A verb sign.** An arc above a figure means: read the verb of the noun in the list. The Cardinal states this
+   rule in clear on f. 17v, and promises a new cipher when he has time.
 
-Clear words can stand inside a cipher line. [images/marks.jpg](images/marks.jpg) shows the marks in context.
-The tables are in [tables/](tables/): `lists.tsv` (glossed values by list), `interp.tsv` (interpolated values with
-their windows) and `secure.tsv` (the symbol alphabet).
+The table is [tables/lists_v3.tsv](tables/lists_v3.tsv): 378 values with a period gloss (109 of them confirmed by
+two independent glosses), and 27 more proposals in `tables/interp_v3.tsv`. Nine pairs break the alphabetical order:
+two by spelling, six are swaps of neighbours, one is open. [images/marks.jpg](images/marks.jpg) shows the marks.
 
-## How it was found
+**Not the key:** Tomokiyo's no. 35 (BnF fr. 3995 f. 64), which another project names for this volume. In that key the
+figures 11 to 40 are letters; on f. 17r it gives a value for 11 of 28 figures and no Italian.
 
-- f. 105r gives one clear word for each unit of the cipher on f. 17r-v. The words written above the cipher on
-  ff. 21v, 22r, 26r and 26v, and the Duke's minutes with their clear copy, give more. Total: 152 values with a
-  period gloss; 64 of them occur in two independent glosses.
-- The symbol alphabet came from "habia" and "dire" on f. 105r and then from long spelled words in the unread letter.
-- With about 200 values in hand, the values of each mark, sorted by figure, turned out to be in alphabetical order.
-  This gives a "window" for every figure that has no gloss: its word lies between its two nearest known neighbours.
+## How it was done, in order
 
-## Measured rates and their limits
+1. The glosses inside fr. 4698 (f. 105r, and words written above the cipher on ff. 21v, 22r, 26r, 93r, 101r) gave
+   about 150 code values and the symbol alphabet.
+2. The values of each mark, sorted by figure, turned out to be in alphabetical order. This gives a window for every
+   figure with no gloss.
+3. A partial reading of the letter of 21 January 1590 was made, and a second agent read the marks blind. That
+   state is kept in [evidence/before_fr4702/](evidence/before_fr4702/) and in the first commit of this repository.
+4. A search of the printed catalogue of the sister volumes then found three decipherments with no author named, in
+   fr. 4702. They gave the full text of three letters, 1,528 aligned code units, and the larger table.
+5. With that table, the two letters that have no decipherment were transcribed by two agents each, blind, and
+   decoded.
 
-- Symbol alphabet, on pages not used to build it: 23 of 26 spelled groups read as Italian words without change.
-- Word code, blind: the Duke's minute f. 101r was decoded before its clear copy was read. 190 code units; the table
-  of that moment proposed a value for 130; 101 of the 130 were right (78%). The clear copy is a paraphrase, so
-  about 10 of the 29 misses cannot be judged.
-- The alphabetical order: the 32 values learned only from f. 101r all fall in the window set by the earlier values
-  (4 of them only after a paraphrase in the clear copy was replaced by a word of the window; this check is not blind).
-- Order breaks. Thirteen glosses did not fit the order at first. On the images: 3 were misread glosses, 2 misread
-  marks, 2 paraphrase or spelling by sound, 2 are true breaks (casa 98, alteratione 88), 4 are open.
-- No further blind test was possible: every glossed page had been seen.
-- Limits. The marks are small and the film is poor. The figure 1 is written like a dotted i, so a dot above 10-19
-  cannot be trusted. A wrong mark gives a wrong list and a wrong word that looks real. An interpolated word is a
-  choice inside a window, by sense; it is weaker than a glossed word.
+## The blind test
 
-## Independent blind check of the marks
+The partial reading of step 3 was scored against the clerk's text of 1590
+([evidence/blind_score.md](evidence/blind_score.md)).
 
-A second agent read the figures and marks of 26 cipher lines (f. 30v lines 1-14 and f. 30r) without access to the
-first transcription, the lists or the reading. Its two passes were saved before it opened those files. The full
-report is [evidence/blind_check/phase2_report.md](evidence/blind_check/phase2_report.md).
-
-| Measure | Value |
+| Kind of word in the partial reading | Right |
 |---|---|
-| Code units compared | 345 (330 of them blind) |
-| Same figure | 332 of 345 (96 %) |
-| Same mark, where the figure is the same | 273 of 332 (82 %) |
-| The checker's mark names the list that the reading used | 252 of 297 (85 %) |
-| ... for units with a glossed value | 92 % |
-| ... for units placed by alphabetical order only | 48 of 76 (63 %) |
+| Spelled words (symbol alphabet) | 96 % of letters |
+| Code words with a period gloss | 344 of 371 (93 %) |
+| Code words chosen inside an alphabetical window | 42 of 64 (66 %), and 8 near misses in the same window |
+| True word inside the predicted window | 47 of 61 (77 %) |
 
-What this shows:
+Nearly every failure has one cause: a mark read as the mark of another list. On the full alignment the mark seen on
+the film names the right list for 87 % of the units. So a word with a period gloss is fairly safe, and a word chosen
+by window is a proposal.
 
-- **The rule "the mark names the list" holds.** It is well supported for nine lists: brackets 45/45, two dots
-  below 22/22, plain 12/12, bar above and dot below 11/11, circumflex and caron 8/8, persons 7/7, dot above 58/64,
-  two bars 54/64, dot below 6/7.
-- **It is weak for four lists** on this film: two dots above 2/10, bar below 4/12, the s-list 5/11, circumflex 6/9.
-  One dot against two dots, and a dot on a figure that contains a 1, cannot be decided.
-- **The interpolated words are much less safe than the glossed words.** Where the first reading took a word from a
-  neighbour list because the sense asked for it, the checker's mark often points elsewhere. Read strictly, the
-  checker's mark gives a better word in at least 8 places (for example 87 with bar above and dot below =
-  "volontieri", not {necessario}).
-- Three groups of figures with the pattern a0 ab 0b look like null groups.
+## The two letters with no period decipherment
 
-So: trust the spelled words and the glossed values; treat every word in {braces} as a proposal.
+**24 March 1590 (ff. 26v-27r).** Two blind transcription passes agree on the figure for 95 % of 586 units and on
+the mark for 90 % of those. 84 % of the units have a glossed value (an upper bound), 5 % a window value, 7 % none.
+The letter reports that a person left Rome "per una sua devotione", that the Spanish ambassador pressed the Pope,
+and that the Pope called the cardinals: "il parere di {quasi} tutti fu che non conveniva a dignità di Papa il far
+alcuna delle cose domandate". The names of persons are inferred, and the reading says where.
 
-## The letter of 21 January 1590 (ff. 30r-31r): partial reading
+**31 March 1590 (ff. 36r-37r).** The two passes agree on the mark for only 72 % of the units, so this reading is
+weaker. After the news of Mayenne's defeat the Congregation voted: "la {maggiore} parte fu di parere che si
+{dovesse} ... di danaro primo et poi di arme". The verso is weak.
 
-Dated on f. 31r "Di Roma a xxi di Gen.o 1590". Of 431 code units on f. 30v, 67% have a glossed value, 6% a glossed
-value with a doubtful mark, 13% an interpolated value, 12% none. All 67 spelled groups are read. Lines 1-18 were
-read twice, lines 19-24 once.
+In both readings, CAPITALS are spelled words, plain words have a period gloss, and words in {braces} are window
+proposals. The events are known to historians from other sources; we did not compare the letters with them.
 
-Three kinds of words: CAPITALS = spelled in the symbol alphabet; plain = glossed code value; {braces} = interpolated.
-⟨angle⟩ = supplied for sense. [..] = not read.
+## Limits
 
-- "... ha dato {occasione} a {l'istesso} ⟨Amb.re⟩ di Spagna [..] di VENIRE A TROVARMI, et {dopo} {lungo} ragionamento ..."
-- "... O RICHIEDERMI [..] che io PRIEGHI V.E. con {ogni} {efficacia} ... S.S.tà O RITIRARSI O INTEPIDIRSI in quello che
-  lei CONOSCE essere servitio di {Iddio} ..."
-- "... SO CHE BASTA a prudenza di V.E. LO ACCENNARLO ..."
-- "... si ANDÒ TOCCANDO di {difficoltà} che POSSONO essere {fra} lei et Umena ..."
-- "Lui VEDREBE {necessario} che V.E. FACESSE promessa di APPOGGIARSI a [..] di Re di Spagna ..."
-- "... {così} PROMETTE a V.E. {quanto} {però} PUÒ PROMETTERE [..] senza {ordine} di suo {Signore}, REPLICANDOMI DUE O TRE
-  VOLTE queste parole ..."
-- "... È [..] cavaliere et SA PESARE E DISTINGUERE il {merito} di {persona}."
-- "CONCLUSE [..] che, VOLENDO V.E. APPIGLIARSI A questo {espediente}, POTEVA TRATTARNE {sicuramente} con ⟨l'Amb.re⟩ di
-  Re di Spagna che SI TROVA in Parigi ..."
-- "Io ho accettato volontieri di FAR questo {officio}, PARENDOMI che la proposta POSSA TORNARE AD ALTRETANTA utile
-  {quanto} honore di V.E., et tanto più la STIMO HONOREVOLE {quanto} io {porto} ferma opinione che il [..] di
-  RICHIEDERLA di questo VENGA da Re di Spagna medesimo ..."
-- "Né già da [..] di V.E. MILITA hora quella {ragione} di impedimento che POTEVA essere in {conscienza} VIVENTE il Re
-  {defunto} {legittimo}."
-
-**Summary.** The Spanish ambassador in Rome came to the Cardinal and asked him to press Nevers to lean on the King of
-Spain. He spoke of the difficulties between Nevers and Mayenne. He promised what he could promise without an order
-from his master, and repeated it two or three times; the words support general assurances only, no office and no
-sum. He said that Nevers could treat of it safely with the Spanish ambassador in Paris. The Cardinal says he took
-the errand willingly: he thinks the proposal as useful as it is honourable, he is sure that it comes from the King
-of Spain himself, and the scruple of conscience that held while the late king lived holds no longer. He ends with
-instructions on how to send letters safely (not read).
-
-**Independent check.** The Duke's answer of 31 January 1590 survives in clear (ff. 97r-98r): "desidero essere chiaro
-in qual modo intende l'Amb.re di Spagna che debba servire il Re Catt.co, sia fuor di questo Regno et in qual grado,
-o vero in questo Regno et con qual intentione et carica". A later minute (f. 93r) says that he will give no answer
-to "la proposta del detto Amb.re", under the pretext that the Cardinal's letters were intercepted.
-
-## Not read
-
-- f. 104r (21 lines, almost all word code): two single passes; the marks are not safe; no connected text.
-  The checker's tentative decoding is in [reading/f104r_tentative.md](reading/f104r_tentative.md). It seems to
-  continue the January business ("il servir(si) di V.E. fuori di A, ma si il VALLERSI di {opera} sua"; "A" is a sign that is not resolved).
-- f. 30v line 24 and f. 30r lines 1-5, except their spelled words. A second pass of f. 30v lines 19-24 is in
-  [reading/f30v_lines19-24_second_pass.md](reading/f30v_lines19-24_second_pass.md); it changes about 25 marks.
-- ff. 26v, 27r, 34r, 36r-v: not started. ff. 11-16: not examined.
-- The key sheet. Five candidate sheets in BnF fr. 3995 were compared (Tomokiyo's nos. 5, 32, 33, 34, 37); none
-  is this cipher.
+- The cipher is on black-and-white microfilm. One dot against two dots, and a dot on a figure that contains a 1,
+  often cannot be decided. A wrong mark gives a wrong word that looks real.
+- The editions of the letters of 21 January and 16 February follow the clerk. In 49 units the editor preferred the
+  cipher to the clerk's word; each case is in the alignment tables and needs a second reader.
+- The alignment of f. 34r had one pass.
+- BnF fr. 4690 holds about 55 more letters of the Cardinal with decipherments (1585 to 1589). It is not on Gallica
+  and was not seen. It can confirm or correct the table.
 
 ## Earlier work
 
-Searched on 3 October 2026: D. Bourdeau's `cyphersolver` catalogue (the volume is in his queue, with another key
-named; no reading), `NoAutopilot/cipher-lab`, `el-descifrador/cabinet-noir`, satoru.net/crypt, S. Tomokiyo's
-Cryptiana pages on the Nevers ciphers and on unsolved ciphers, and a web search for distinctive phrases of the
-reading and for a printed edition of the Cardinal's letters. No reading of these passages was found. The search
-was short; a printed edition that is not online can exist. The decipherment on f. 105r is of the period; it is
-reproduced here, not new.
+Searched on 3 October 2026 (last at 13:56 UTC): D. Bourdeau's `cyphersolver` (the volume is in his queue with
+key no. 35 named; no reading), `NoAutopilot/cipher-lab`, `el-descifrador/cabinet-noir`, satoru.net/crypt,
+S. Tomokiyo's pages on the Nevers ciphers and on unsolved ciphers, the printed BnF catalogue of the sister volumes (fr. 4680 to 4720)
+for stand-alone decipherments, and web searches for phrases of the text. No reading of these letters and no note
+of the link between fr. 4698 and fr. 4702 was found. A printed edition that is not online can exist.
 
 ## Contents
 
 | Path | Content |
 |---|---|
-| `reading/f30_1590-01-21.md` | The partial reading of the letter of 21 January 1590, line by line, with an English summary |
-| `reading/f30v_lines19-24_second_pass.md`, `reading/f104r_tentative.md` | The checker's second pass and its tentative decoding of f. 104r |
-| `tables/` | The word lists, the interpolated values, the symbol alphabet, and the checker's candidate values |
-| `transcription/` | The cipher transcriptions, the period decipherment of f. 105r, and the glosses of f. 26r |
-| `evidence/worklog.md` | The work log, as written during the work. It names folders of the working machines; those folders are not part of this repository |
-| `evidence/blind_check/` | The checker's blind passes, its report, and one row for each compared unit |
-| `evidence/blind_f101r_decode.txt` | The decoding of f. 101r that was made before its clear copy was read |
-| `images/` | Reduced images of f. 17v, f. 30v and f. 105r, and the sheet of marks |
+| `editions/` | The letters of 21 January and 16 February 1590: the clerk's text in the order of the cipher, with an English translation |
+| `decipherments_1590/` | Line-by-line transcriptions of fr. 4702 ff. 94r-95r and f. 97r-v |
+| `reading/` | The letters of 24 and 31 March 1590 |
+| `tables/` | The word lists, the window proposals and the symbol alphabet |
+| `alignment/` | One row for each code unit of ff. 30, 104 and 34: figure, mark, clerk's word, value |
+| `transcription/` | The cipher transcriptions |
+| `evidence/` | The blind score, the survey of fr. 4702, the blind passes, the work logs, and the state before fr. 4702 was found |
+| `images/` | Reduced images: the marks, three cipher pages, and two pages of fr. 4702 |
 
 ## Credits
 
 - **Satoshi Tomokiyo** catalogued the cipher keys of the Duke of Nevers in BnF fr. 3995
-  ([cryptiana, "Ciphers of the Duke of Nevers"](https://cryptiana.web.fc2.com/code/nevers.htm)). We compared his
-  entries with this cipher; none is its key.
+  ([cryptiana, "Ciphers of the Duke of Nevers"](https://cryptiana.web.fc2.com/code/nevers.htm)).
 - **Daniel Bourdeau** (`dbourdeau/cyphersolver`) listed the volume as a candidate in September 2026.
+- **Nevers's clerk of 1590** deciphered three of the letters.
 - **Bibliothèque nationale de France / Gallica** provides the page images. Images here are reduced, with the
   credit "gallica.bnf.fr / BnF".
 - The work was done by Paolo Rosson with Claude (Anthropic), running as Claude Code with subagents.

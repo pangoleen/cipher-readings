@@ -1,0 +1,32 @@
+Notes of the third round, 3 October 2026 (a model's work; not checked by a palaeographer).
+
+(a) fr. 4702 f. 108r deciphers fr. 4698 f. 34r (letter of 19 Feb 1590): 309 units aligned, alignment_f34.tsv; cipher in
+    f34r_transcription.txt (one pass, made with the decipherment open). The clerk's text of f. 108r: survey_fr4702.md
+    (helper's pass) and my second pass on colour strips (v2work/d108r_*.jpg); the two passes agree but for small points.
+    New words in the cipher against the clerk: "come cosa di che" (he left out "come"), "ordine di qua" (he wrote
+    "presto"), "se lui vole fare" (he wrote "volontario fedelmente"), "SIA contra l'honore" (he wrote "sua").
+    lists_v3.tsv = 378 entries. Order breaks (9): buono 84 / bontà 89 and consiglio 46 / conservare 47 (spelling: bono,
+    conseglio); swaps: privato 63 / pretendere 65, replica 29 / regno 32, vero 67 / venire 68, uso 92 / uscita 93,
+    fino 44 / finché 45, indietro 55 / hora 56; open: richiedere 14 before raccomandatione 17.
+    "camino" 93 is now in list A (a - ca), so it is no break.
+
+(b) The ark btv1b90075058 is BnF fr. 4687. Its ff. 4-7 (views 6-9) hold a letter to "Lodovico Gonzaga figliolo carissimo"
+    in an older, different cipher (unbroken rows of digits, no marks). It is not the Cardinal's. The catalogue entry
+    "Scipione, cardinale Gonzaga ... Casal et Rome, 1590 et 1592. Chiffre et déchiffrement (Fol. 4 et 7)" belongs to
+    fr. 4690 (prior/cat_t4.txt, lines 12565-12580: no. 1 of 10 March 1587, nos. 2-3, then Camillo Volta's letters).
+    I did not find a Gallica ark for fr. 4690 (three SRU queries, no hit). Nothing was harvested.
+
+(c) Key no. 35 (fr. 3995 f. 64; Bourdeau's table prior/bourdeau_gonzaga1590/key.tsv) is not the key of this cipher.
+    - In key 35 the figures 11-40 are letters. f. 17r line 1 (28 figures; f. 105r gives "Il ragionamento fatto dal Papa
+      a Cardinale sopra la morte di già Re di Francia ...") comes out as "? t Francesi ? i ? ? n ? ? ? ? ? a ? Venetia ?
+      m ? ? ? Roma ? u t ? o ?". Only 11 of the 28 figures have a value in key 35.
+    - Key 35 has no marks on figures, no brackets and no Greek-like signs; this cipher has 13 marks and about 45 signs.
+    - Key 35 is the key of the letter of Vincenzo Gonzaga of 17 Sept 1590 (fr. 3979 ff. 92-93), which Bourdeau read.
+    - ff. 11-16 of fr. 4698 have NO cipher (survey: v2work/survey_ff11-16.md): three clear letters of 13 June, 7 August
+      and 29(?) September 1590. The only cipher of nos. 2-5 is on f. 17r-v, and f. 105r deciphers it.
+
+(d) Letters with no period decipherment: reading_f26v-27r.md (24 March 1590), reading_f36.md (31 March 1590).
+    fr. 4702 ff. 90-112 hold no decipherment of them (v2work/survey_ff11-16.md, task 3).
+
+(e) Prior-art recheck, 13:56 UTC: dbourdeau CATALOGUE.md line 78 unchanged (no reading); SOLVED_CATALOGUE.md names
+    fr. 4702 only for Ceppo ff. 36-37; cipher-lab PROGRESS.tsv has no row for fr. 4698 or fr. 4702; no commit names them.

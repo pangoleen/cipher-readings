@@ -5,7 +5,7 @@ This repository has three kinds of content. Each kind has its own terms.
 | Content | Folders | Terms |
 |---|---|---|
 | Source code | `code/` | MIT License. See [LICENSE](LICENSE). |
-| Text: readings, tables, transcriptions, reports, work logs | `reading/`, `tables/`, `transcription/`, `evidence/`, `README.md` | [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) |
+| Text: readings, tables, transcriptions, reports, work logs | `editions/`, `decipherments_1590/`, `reading/`, `tables/`, `alignment/`, `transcription/`, `evidence/`, `README.md` | [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) |
 | Images of manuscript pages | `images/` | Not covered by the two licences above. See below. |
 
 ## Text

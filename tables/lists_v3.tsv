@@ -1,0 +1,397 @@
+# Word code of Cardinal Scipione Gonzaga and the Duke of Nevers (BnF fr. 4698), version 3, 3 Oct 2026: lists_v2 plus the alignment of fr. 4698 f. 34r with fr. 4702 f. 108r (alignment_f34.tsv).
+# list<TAB>figure<TAB>word (dictionary form)<TAB>status<TAB>source. The list is set by the alphabetical place of the word; the mark seen on the film agrees for 87% of the units.
+# status: 'glossed before, confirmed' = a period gloss in fr. 4698 and the clerk of fr. 4702 agree. 'new from fr.4702' = value from the alignment (alignment_f30.tsv, alignment_f104.tsv).
+# 'glossed before only' = from lists.tsv (glosses of fr. 4698), not met in fr. 4702. "from a clerk's slip" = the clerk wrote this word for the figure by mistake; it shows a word of his key. Weak.
+# Lists A and C: on the film both carry a dot above most of the time; the mark does not separate them. The word decides.
+# A = plain or one dot above: a .. ca
+A	10	Ambasciatore	new from fr.4702; second value of figure 10 (the mark that separates it from "a" is not seen on the film)	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (13x)
+A	10	a	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (40x) | before: confirmed
+A	16	accettare	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: glossed f26r,f22r
+A	17	accidente	glossed before only	glossed f26r
+A	19	accordare	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97 (3x) | before: glossed f105
+A	21	accrescere	new from fr.4702	fr.4702 f.108r (1x)
+A	23	acquisto	new from fr.4702	fr.4702 f.97 (1x)
+A	30	aggiungere	new from fr.4702	fr.4702 f.94r (1x)
+A	32	aiuto (agiotamente)	from a clerk's slip	fr.4702 94v l.8 (for O 32 ordine)
+A	34	alcuno	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (7x, 1 against the clerk)
+A	38	alteratione	new from fr.4702	fr.4702 ff.94r-95r (1x)
+A	41	altro	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (10x, 1 against the clerk) | before: confirmed f93r,f101r
+A	42	ambasciata	glossed before only	glossed f105
+A	44	amicitia	glossed before only	glossed f26r
+A	49	animo	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: confirmed f26r,f21v,f101r
+A	51	antico	new from fr.4702	fr.4702 f.97 (1x)
+A	52	aperto	new from fr.4702	fr.4702 f.94r; fr.4702 f.97 (3x)
+A	57	ardire	glossed before only	glossed f101r
+A	58	arme	glossed before only	glossed f105
+A	66	atto	new from fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+A	70	autorità	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (4x) | before: glossed f101r
+A	71	avertimento	new from fr.4702	fr.4702 f.94r (1x)
+A	72	aviso	glossed before, confirmed by fr.4702	fr.4702 f.94r; fr.4702 f.97 (2x, 1 against the clerk) | before: glossed f93r
+A	74	banda	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+A	80	bene	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (7x)
+A	83	bisogno	new from fr.4702	fr.4702 f.108r (1x)
+A	84	buono	new from fr.4702	fr.4702 f.97 (2x)
+A	89	bontà	new from fr.4702	fr.4702 f.94r (1x)
+A	93	camino	new from fr.4702	fr.4702 ff.94r-95r (2x)
+A	98	casa	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (5x, 1 against the clerk)
+# C = one dot above: cat .. di
+C	12	cattivo	new from fr.4702	fr.4702 f.94r (1x)
+C	13	cavaliere	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x) | before: glossed f101r
+C	15	certezza	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f105
+C	16	chiaro	glossed before, confirmed by fr.4702	fr.4702 f.108r (1x) | before: glossed f101r,f26r
+C	19	città	glossed before, confirmed by fr.4702	fr.4702 f.108r (1x) | before: glossed f22r
+C	24	comodità	new from fr.4702	fr.4702 f.97 (1x)
+C	27	comporre	new from fr.4702	fr.4702 ff.94r-95r (1x)
+C	29	con	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (21x, 1 against the clerk) | before: confirmed
+C	31	conclusione	new from fr.4702	fr.4702 f.97 (1x)
+C	35	confidenza	new from fr.4702	fr.4702 ff.94r-95r (1x)
+C	37	conforme	glossed before only	glossed f26r
+C	39	congiungere	new from fr.4702	fr.4702 f.97 (1x)
+C	41	conoscere	new from fr.4702	fr.4702 f.97 (1x)
+C	42	conscienza	new from fr.4702	fr.4702 f.97 (1x)
+C	44	consenso/consentire	glossed before only	confirmed f26r,f101r
+C	45	consideratione	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+C	46	consiglio	new from fr.4702	fr.4702 ff.94r-95r (1x)
+C	47	conservare	glossed before only	glossed f26r
+C	48	consolatione	new from fr.4702	fr.4702 ff.94r-95r (1x)
+C	49	contento	new from fr.4702	fr.4702 f.97 (1x)
+C	51	contrario	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x) | before: glossed f26r
+C	53	convenire	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x) | before: confirmed f101r
+C	57	corona	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+C	59	corrivo	glossed before only	glossed f101r
+C	63	cosa	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (17x) | before: confirmed
+C	64	credere	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97 (3x) | before: confirmed f105,f93r
+C	68	curiosità	from a clerk's slip	fr.4702 97r l.9 (for S 68 sommo)
+C	69	da	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (24x, 1 against the clerk) | before: confirmed
+C	70	danaro	glossed before only	glossed f105
+C	71	danno	glossed before only	glossed f26r
+C	72	debito	new from fr.4702	fr.4702 f.97 (3x)
+C	75	deliberare	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x) | before: glossed f26r
+C	76	dependenza	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+C	78	desiderio	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x) | before: confirmed f105,f93r,f101r
+C	79	destramente	from a clerk's slip	fr.4702 94r l.14 (for C 69 da)
+C	80	detto (dire)	glossed before only	glossed f93r
+C	82	di	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (141x) | before: confirmed
+C	85	differenza	new from fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (2x)
+C	86	difficile	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+C	88	dignità	new from fr.4702	fr.4702 f.108r (1x)
+C	95	disegno	new from fr.4702	fr.4702 f.108r (1x)
+# E = two dots above: dis .. f
+E	16	disporre	new from fr.4702	fr.4702 f.97 (1x)
+E	25	divisione	new from fr.4702	fr.4702 f.97 (1x)
+E	27	domanda	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (5x)
+E	30	dono	new from fr.4702	fr.4702 f.97 (2x)
+E	34	dubbio	glossed before, confirmed by fr.4702	fr.4702 f.108r (1x) | before: glossed f105
+E	39	edificio	from a clerk's slip	fr.4702 97v l.6 (for G 39 grande)
+E	40	effetto	new from fr.4702	fr.4702 f.97 (1x)
+E	41	efficacia	new from fr.4702	fr.4702 ff.94r-95r (1x)
+E	43	egualmente	new from fr.4702	fr.4702 f.97 (1x)
+E	44	eletto	new from fr.4702	fr.4702 f.108r (1x)
+E	52	esaltatione	new from fr.4702	fr.4702 ff.94r-95r (1x)
+E	60	esperienza	glossed before only	glossed f101r
+E	66	età	glossed before only	glossed f101r (two places)
+E	67	eterno	from a clerk's slip	fr.4702 97r l.2 (for G 67 il)
+E	69	faccenda	new from fr.4702	fr.4702 f.108r (1x)
+E	71	facile	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x, 1 against the clerk)
+E	73	fallire	glossed before only	glossed f105
+E	80	fatto	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (5x, 1 against the clerk) | before: glossed f105,f26r
+E	81	favore	new from fr.4702	fr.4702 ff.94r-95r (1x)
+E	82	fede	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+E	87	fermo	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: glossed f105,f101r
+E	88	figlia	new from fr.4702	fr.4702 f.97 (1x)
+E	89	fine	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (5x)
+E	93	formare	new from fr.4702	fr.4702 f.97 (1x)
+E	94	forza	new from fr.4702	fr.4702 f.97 (1x)
+# G = two dots below: g .. in
+G	14	gagliardo	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x, 1 against the clerk)
+G	30	giudicio	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (3x)
+G	33	giusto	glossed before, confirmed by fr.4702	fr.4702 f.97 (2x) | before: glossed f101r
+G	37	governo	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (4x)
+G	38	grado	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f101r
+G	39	grande	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (7x, 1 against the clerk) | before: confirmed f105,f101r
+G	40	gratia	new from fr.4702	fr.4702 f.97 (1x)
+G	50	gusto	new from fr.4702	fr.4702 f.94r (1x)
+G	55	heretico	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+G	58	honesto	new from fr.4702	fr.4702 f.97 (1x)
+G	59	honore	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (7x) | before: glossed f101r
+G	63	huomo	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (7x)
+G	64	Iddio	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (4x, 1 against the clerk)
+G	67	il	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (37x, 2 against the clerk) | before: confirmed
+G	68	il quale	glossed before, confirmed by fr.4702	fr.4702 f.97 (2x) | before: confirmed f105,f21v
+G	71	impedimento	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: glossed f105
+G	73	impertinente	glossed before only	glossed f93r
+G	76	importare	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+G	78	impresa	new from fr.4702	fr.4702 f.97 (1x)
+G	83	in	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (34x, 1 against the clerk) | before: confirmed
+G	87	inclinare	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x) | before: glossed f105
+G	96	indegno	new from fr.4702	fr.4702 f.97 (1x)
+# I = bar below: in .. lu
+I	13	inettitudine	new from fr.4702	fr.4702 f.94r (1x)
+I	19	infedeltà	from a clerk's slip	fr.4702 94r l.1 struck (for I 79 lettera)
+I	20	informare	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x)
+I	22	ingegno	glossed before only	glossed f101r
+I	24	ingiuria	new from fr.4702	fr.4702 f.108r (1x)
+I	42	integro	new from fr.4702	fr.4702 ff.94r-95r (1x)
+I	43	intendere	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x) | before: glossed f101r
+I	45	intentione	glossed before only	glossed f101r
+I	48	interesse	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+I	62	istrumento	new from fr.4702	fr.4702 f.94r (1x)
+I	63	la	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (25x)
+I	67	languido	new from fr.4702	fr.4702 f.97 (1x)
+I	68	la quale	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (7x)
+I	71	laudare	glossed before only	glossed f105
+I	74	Lega / collegato	glossed before only	glossed f105
+I	79	lettera	glossed before, confirmed by fr.4702	fr.4702 f.94r; fr.4702 ff.94r-95r (4x) | before: confirmed f26r,f93r
+I	81	levare	new from fr.4702	fr.4702 f.97 (1x)
+I	83	libero	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: confirmed f101r
+I	90	lungo	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+I	91	luogo	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r (3x)
+I	96	maggiore	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: confirmed f26r,f101r
+# M = dot below (often with a dot above): ma .. ne
+M	10	male	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f105
+M	21	mano	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x)
+M	24	maraviglia	new from fr.4702	fr.4702 f.97 (1x)
+M	29	materia	new from fr.4702	fr.4702 ff.94r-95r (1x)
+M	33	medesimo	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x, 1 against the clerk) | before: confirmed f105,f26r
+M	41	merito	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x)
+M	44	mezzo	new from fr.4702	fr.4702 ff.94r-95r (1x)
+M	46	mezzo	new from fr.4702	fr.4702 ff.94r-95r (1x)
+M	50	minaccia	new from fr.4702	fr.4702 f.108r (2x)
+M	51	ministro	new from fr.4702	fr.4702 ff.94r-95r (1x)
+M	52	minore	new from fr.4702	fr.4702 f.97 (1x)
+M	54	mio	glossed before only	confirmed f101r x3
+M	65	molto	glossed before, confirmed by fr.4702	fr.4702 f.94r (1x) | before: glossed f26r
+M	67	mondo	new from fr.4702	fr.4702 f.97 (1x)
+M	72	morte	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: glossed f105
+M	73	mostrare	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (4x) | before: glossed f105,f21v
+M	74	motteggiare	new from fr.4702	fr.4702 f.97 (1x)
+M	75	muovere	glossed before only	glossed f105
+M	78	mutare	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f105
+M	80	nascere	new from fr.4702	fr.4702 f.97 (1x)
+M	83	naturale	new from fr.4702	fr.4702 f.97 (1x)
+M	85	necessità	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f26r
+M	88	negotio	new from fr.4702	fr.4702 f.97 (1x)
+M	90	niuno	new from fr.4702	fr.4702 f.108r (1x)
+M	92	nocumento	glossed before only	glossed f26r
+M	94	nome	new from fr.4702	fr.4702 f.97 (1x)
+M	95	nostro	glossed before only	glossed f101r
+# O = circumflex above: no .. pe
+O	10	novo	new from fr.4702	fr.4702 f.97 (1x)
+O	12	obligo	new from fr.4702	fr.4702 f.97 (1x)
+O	13	occasione	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 ff.94r-95r (3x)
+O	15	occupare	new from fr.4702	fr.4702 f.97 (2x)
+O	16	odio	new from fr.4702	fr.4702 f.97 (1x)
+O	18	offesa	new from fr.4702	fr.4702 f.97 (2x)
+O	20	officio	new from fr.4702	fr.4702 ff.94r-95r (2x)
+O	21	ogni	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x, 1 against the clerk)
+O	24	opera	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (4x)
+O	25	opinione	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: glossed f105
+O	32	ordine	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (5x, 2 against the clerk)
+O	39	oscuro	from a clerk's slip	fr.4702 97v ll.3, 5 (for P 39 potere)
+O	40	osservare	new from fr.4702	fr.4702 f.97 (1x)
+O	56	parere	new from fr.4702	fr.4702 f.97 (2x)
+O	57	pari	glossed before only	glossed f101r
+O	59	parola	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x, 1 against the clerk)
+O	60	parte	new from fr.4702	fr.4702 f.108r (1x)
+O	61	particolare	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (4x)
+O	63	partito	new from fr.4702	fr.4702 f.97 (1x)
+O	78	pensiero	new from fr.4702	fr.4702 f.97 (3x)
+O	83	perdere	new from fr.4702	fr.4702 f.97 (1x)
+O	87	pericolo	new from fr.4702	fr.4702 ff.94r-95r (1x)
+O	91	perpetuo	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+O	94	persona	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x, 1 against the clerk)
+# P = caron below: pi .. qu
+P	13	piacere	glossed before only	glossed f101r
+P	18	piccolo	new from fr.4702	fr.4702 f.108r (1x)
+P	21	pieno	from a clerk's slip	fr.4702 94r l.22 (for O 21 ogni)
+P	22	pietà	new from fr.4702	fr.4702 f.94r (1x)
+P	32	portare	new from fr.4702	fr.4702 ff.94r-95r (1x)
+P	33	porto	new from fr.4702	fr.4702 ff.94r-95r (1x)
+P	36	posto	new from fr.4702	fr.4702 f.97 (1x)
+P	39	potere	new from fr.4702	fr.4702 f.97 (6x, 1 against the clerk)
+P	48	premio	new from fr.4702	fr.4702 f.97 (1x)
+P	52	pretesto	glossed before only	glossed f93r
+P	59	primo	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x)
+P	61	principale	new from fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+P	63	privato	new from fr.4702	fr.4702 f.108r (2x)
+P	65	pretendere	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (3x)
+P	70	professare	new from fr.4702	fr.4702 f.97 (1x)
+P	76	promettere	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97 (4x) | before: glossed f101r
+P	80	proposito	new from fr.4702	fr.4702 ff.94r-95r (1x)
+P	81	proposta	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: confirmed f93r,f26r
+P	84	protesta	glossed before only	glossed f22r
+P	89	prudenza	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x) | before: confirmed f101r x2
+P	92	punto	new from fr.4702	fr.4702 f.97 (1x)
+P	94	purgatione	from a clerk's slip	fr.4702 94r l.19, 94v l.14 struck (for O 94 persona)
+P	95	presto	from a clerk's slip	fr.4702 108r l.25 (for PT 95 qua)
+P	96	quale	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (8x) | before: confirmed f101r x4
+P	98	quanto	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (8x)
+P	99	quello	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (23x, 3 against the clerk) | before: confirmed f101r
+# Q = circumflex above and caron below: qu .. r
+Q	11	questo	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (29x) | before: confirmed
+Q	14	richiedere	new from fr.4702	fr.4702 f.97 (1x)
+Q	17	raccomandatione	new from fr.4702	fr.4702 ff.94r-95r (1x)
+Q	23	ragionamento	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: glossed f105
+Q	24	ragione	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x)
+Q	29	replica	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f93r
+Q	32	regno	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (5x)
+Q	41	residente	new from fr.4702	fr.4702 f.97 (1x)
+Q	45	reverenza	new from fr.4702	fr.4702 f.108r (1x)
+Q	52	ricevere	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f93r
+Q	64	riguardo	new from fr.4702	fr.4702 f.108r (1x)
+Q	66	rimedio	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+Q	67	rimorso	new from fr.4702	fr.4702 f.97 (1x)
+Q	74	riserva	new from fr.4702	fr.4702 ff.94r-95r (1x)
+Q	76	risolutione	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: confirmed f93r,f101r
+Q	78	rispetto	glossed before only	glossed f105
+Q	79	rispondere	new from fr.4702	fr.4702 f.97 (1x)
+Q	81	ritenere	new from fr.4702	fr.4702 f.94r (2x)
+Q	82	ritirare	new from fr.4702	fr.4702 f.108r (1x)
+Q	88	rotta	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f21v
+Q	90	ruina	new from fr.4702	fr.4702 f.97 (1x)
+# S = dot above and bar below: s
+S	13	sapere	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (3x) | before: confirmed f105,f93r,f101r
+S	30	scritto	glossed before, confirmed by fr.4702	fr.4702 f.94r (1x) | before: confirmed f105,f101r
+S	32	sdegno	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r (2x)
+S	34	segno	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f105
+S	36	seguire	new from fr.4702	fr.4702 f.97 (2x)
+S	42	servitio	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (6x) | before: confirmed f26r,f93r,f101r
+S	48	sicuro	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (5x)
+S	50	Signore	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (9x, 1 against the clerk)
+S	54	simulatione	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+S	62	sodisfatione	new from fr.4702	fr.4702 f.94r; fr.4702 f.97 (2x)
+S	66	solo	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x)
+S	68	sommo	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x, 1 against the clerk)
+S	73	sospetto	new from fr.4702	fr.4702 f.108r (1x)
+S	86	stabilire	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (3x)
+S	87	staffetta	new from fr.4702	fr.4702 f.108r (1x)
+S	91	stato	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x) | before: glossed f93r,f101r
+# T = bar above and dot below: su .. v (u = v)
+T	10	sua	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (17x) | before: confirmed f93r,f101r
+T	11	succedere	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+T	12	successo	new from fr.4702	fr.4702 f.97 (1x)
+T	14	suo	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x) | before: confirmed f26r,f101r
+T	19	tacere	glossed before only	glossed f105
+T	21	tale	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+T	22	tanto	glossed before only	glossed f26r
+T	26	tempo	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x) | before: confirmed f101r x2
+T	31	terra	new from fr.4702	fr.4702 f.97 (1x)
+T	32	testa	new from fr.4702	fr.4702 f.108r (1x)
+T	38	toccare	new from fr.4702	fr.4702 f.97 (1x)
+T	42	trattare	new from fr.4702	fr.4702 f.97 (1x)
+T	53	tutto	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (3x)
+T	55	valore	glossed before, confirmed by fr.4702	fr.4702 f.94r (1x) | before: glossed f101r
+T	58	vario	new from fr.4702	fr.4702 f.94r (1x)
+T	67	vero	glossed before, confirmed by fr.4702	fr.4702 f.97 (2x) | before: glossed f105
+T	68	venire	new from fr.4702	fr.4702 f.97 (1x)
+T	73	villa	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+T	77	vista	new from fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97 (3x)
+T	78	vita	new from fr.4702	fr.4702 f.97 (1x)
+T	83	ultimo	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x, 1 against the clerk)
+T	85	unione	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+T	86	uno	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (4x)
+T	87	volontà	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (8x) | before: confirmed f26r,f22r
+T	92	uso	new from fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (2x)
+T	93	uscita	new from fr.4702	fr.4702 f.108r (1x)
+T	95	utile	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: glossed f26r (u = v in the order: after volontà); fits f30v L16
+# PT = two bars: particles a .. q
+PT	13	acciò che	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+PT	16	a fine	new from fr.4702	fr.4702 f.97 (1x)
+PT	19	ancora	new from fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (6x)
+PT	25	assai	glossed before, confirmed by fr.4702	fr.4702 f.108r (1x) | before: confirmed f105
+PT	27	benché	new from fr.4702 [only against the clerk]	fr.4702 f.97 (1x, 1 against the clerk)
+PT	28	che	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (66x, 1 against the clerk) | before: confirmed
+PT	29	circa	glossed before, confirmed by fr.4702	fr.4702 f.94r; fr.4702 f.97 (3x) | before: glossed f101r
+PT	30	come	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x, 1 against the clerk) | before: glossed f93r,f101r
+PT	31	contra	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r (2x) | before: glossed f105
+PT	32	così	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (5x)
+PT	33	costì	new from fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+PT	39	dopo	new from fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (2x)
+PT	40	due	glossed before only	glossed f101r
+PT	44	fino	glossed before, confirmed by fr.4702	fr.4702 f.94r; fr.4702 f.97 (3x) | before: confirmed f105,f101r
+PT	45	finché	new from fr.4702	fr.4702 f.94r (1x)
+PT	46	forse	new from fr.4702	fr.4702 f.94r; fr.4702 ff.94r-95r (2x)
+PT	47	fra	new from fr.4702	fr.4702 ff.94r-95r (2x)
+PT	50	fuori	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: confirmed f101r x2
+PT	51	già	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (2x) | before: glossed f105
+PT	55	indietro	new from fr.4702	fr.4702 f.97 (1x)
+PT	56	hora	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (11x, 1 against the clerk) | before: confirmed
+PT	60	in fatti	new from fr.4702	fr.4702 f.97 (1x)
+PT	62	innanzi	new from fr.4702	fr.4702 f.94r; fr.4702 f.97 (2x)
+PT	64	insieme	new from fr.4702	fr.4702 f.94r; fr.4702 ff.94r-95r (2x)
+PT	66	intorno	new from fr.4702	fr.4702 f.97 (1x)
+PT	68	ma	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (13x, 1 against the clerk) | before: confirmed
+PT	69	mai	new from fr.4702	fr.4702 f.97 (1x)
+PT	71	meglio	new from fr.4702	fr.4702 f.94r (1x)
+PT	72	meno	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: glossed f101r
+PT	74	molto	new from fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (6x)
+PT	75	ne	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (11x) | before: confirmed f93r,f101r
+PT	76	non	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (41x, 1 against the clerk) | before: confirmed
+PT	77	nondimeno	glossed before only	glossed f105
+PT	79	oltre	new from fr.4702	fr.4702 f.94r; fr.4702 f.97 (2x)
+PT	80	onde	new from fr.4702	fr.4702 ff.94r-95r (1x)
+PT	82	o vero	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (3x) | before: glossed f101r
+PT	83	per	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (27x, 1 against the clerk) | before: confirmed
+PT	84	perché	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (7x, 1 against the clerk) | before: confirmed
+PT	86	però	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (5x, 1 against the clerk)
+PT	87	più	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x) | before: confirmed f101r x2
+PT	88	più tosto	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x)
+PT	89	poco	new from fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (3x)
+PT	90	poi	new from fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (5x, 1 against the clerk)
+PT	91	poiché	new from fr.4702	fr.4702 f.97 (1x)
+PT	94	purché	new from fr.4702	fr.4702 f.97 (1x)
+PT	95	qua	new from fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (4x, 1 against the clerk)
+PT	97	qualche	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 ff.94r-95r (4x) | before: glossed f105,f26r
+PT	98	quanto	new from fr.4702	fr.4702 ff.94r-95r (1x)
+PT	99	quello	glossed before only	glossed f101r
+# BR = round brackets: particles s .. v, auxiliaries, pronouns, titles
+BR	11	se	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (11x, 1 against the clerk) | before: confirmed
+BR	13	sempre	new from fr.4702	fr.4702 f.97 (1x)
+BR	14	senza	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: confirmed f93r,f101r
+BR	15	si	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (26x, 1 against the clerk) | before: confirmed f93r x2,f101r
+BR	16	sopra	glossed before, confirmed by fr.4702 [only against the clerk]	fr.4702 f.108r (1x, 1 against the clerk) | before: confirmed f105,f101r
+BR	17	sotto	glossed before only	glossed f93r
+BR	18	subito	glossed before, confirmed by fr.4702	fr.4702 f.108r (1x) | before: glossed f26r
+BR	20	tanto	glossed before, confirmed by fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: confirmed f101r
+BR	22	troppo	glossed before only	glossed f26r
+BR	23	verso	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (2x)
+BR	25	si	new from fr.4702	fr.4702 f.94r; fr.4702 ff.94r-95r (4x)
+BR	27	essere	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (19x, 2 against the clerk) | before: confirmed
+BR	30	ho	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (3x) | before: confirmed f101r x3
+BR	31	havuto	glossed before, confirmed by fr.4702	fr.4702 f.108r (3x) | before: glossed f105
+BR	32	havere	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x, 2 against the clerk) | before: confirmed
+BR	33	havendo	new from fr.4702	fr.4702 f.97 (2x)
+BR	34	io	glossed before, confirmed by fr.4702	fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (10x) | before: confirmed
+BR	35	lui	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (9x) | before: confirmed
+BR	36	lei	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (23x, 3 against the clerk) | before: confirmed
+BR	37	loro	new from fr.4702	fr.4702 f.97 (3x)
+BR	38	noi	new from fr.4702	fr.4702 ff.94r-95r (1x)
+BR	39	sono	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r (2x) | before: confirmed
+BR	41	stare	new from fr.4702	fr.4702 f.97 (1x)
+BR	42	stato	new from fr.4702	fr.4702 f.108r (2x)
+BR	43	S.S.tà	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (5x) | before: confirmed f105,f21v
+BR	44	S.M.tà	glossed before, confirmed by fr.4702	fr.4702 f.108r (2x) | before: glossed f101r
+BR	45	S.A.	glossed before only	confirmed f26r,f101r
+BR	46	S.Ecc.	new from fr.4702	fr.4702 f.97 (1x)
+BR	47	loro?	new from fr.4702	fr.4702 f.97 (1x)
+BR	50	V.E.	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97; fr.4702 ff.94r-95r (24x) | before: confirmed
+# N = bar above: persons and names (not alphabetical)
+N	26	legato	glossed before, confirmed by fr.4702	fr.4702 f.108r (1x) | before: glossed f105
+N	32	Papa	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.94r; fr.4702 f.97 (6x) | before: confirmed f105,f22r
+N	41	Principe	new from fr.4702	fr.4702 f.97; fr.4702 ff.94r-95r (4x)
+N	44	Re di Francia	glossed before only	glossed f105
+N	46	cardinale	glossed before only	glossed f105
+N	47	Re di Spagna	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (11x) | before: confirmed
+N	50	Navarra	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (5x)
+N	55	Re	glossed before, confirmed by fr.4702	fr.4702 f.108r; fr.4702 f.97; fr.4702 ff.94r-95r (9x) | before: glossed f101r
+N	59	Scipione	glossed before, confirmed by fr.4702	fr.4702 f.97 (1x) | before: glossed f101r
+N	64	Catolici	new from fr.4702	fr.4702 f.97 (3x)
+N	69	Duca di Nevers	new from fr.4702	fr.4702 f.108r; fr.4702 ff.94r-95r (2x)
+N	70	Volta	new from fr.4702	fr.4702 f.94r (1x)
+N	71	Guisa	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (4x)
+N	73	Umena	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: confirmed f21v,f101r
+N	75	Duca di Savoia	glossed before only	glossed f22r
+N	78	Duca di Mantova	glossed before, confirmed by fr.4702	fr.4702 ff.94r-95r (1x) | before: glossed f101r
+N	86	Duca	new from fr.4702	fr.4702 f.108r; fr.4702 f.97 (2x)
+N	87	Duchessa	new from fr.4702	fr.4702 f.97 (1x)
+PT	92	presto	glossed fr.4698 f.26v (word above the cipher: "scrivere presto")	fr.4698 f.26v l.4; read by two blind passes

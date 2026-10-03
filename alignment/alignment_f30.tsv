@@ -1,0 +1,647 @@
+# Alignment of the cipher of BnF fr. 4698 ff. 30r-v (letter of 21 Jan 1590) with the period decipherment BnF fr. 4702 ff. 94r-95r.
+# cipher = unit as in f30r_transcription.txt / f30v_transcription.txt (lines 19-24: checker's second pass). marklist = list that the transcribed mark names.
+# list = list that the clerk's word fits (alphabetical place). value = word of the code (dictionary form). clerk = word that the clerk wrote.
+# agree = CLERK DIFFERS where I keep another value than the clerk's, by the mark on the film and the sense (my judgement). figcorr = figure corrected.
+folio	line	i	cipher	figure	marklist	list	value	clerk	agree	figcorr	note
+f30r	R00	1	82d	82	C	C	di	di			
+f30r	R00	2	65db	65	M	M	molto	molto			
+f30r	R00	3	63d	63	C	C	cosa	cosa			
+f30r	R00	4	68=	68	PT	PT	ma	ma			
+f30r	R00	5	61^	61	O	O	particolare	particolare			
+f30r	R00	6	82d	82	C	C	di	di			
+f30r	R00	7	89=	89	PT	PT	poco	poco			
+f30r	R01	1	62_b	62	S	S	sodisfatione	sodisfatione			
+f30r	R01	2	28=	28	PT	PT	che	che			
+f30r	R01	3	32-	32	N	N	Papa	Papa			
+f30r	R01	4	73b	73	M	M	mostrare	mostrare			
+f30r	R01	5	(32)	32	BR	BR	havere	così	CLERK DIFFERS		
+f30r	R01	6	82d	82	C	C	di	di			
+f30r	R01	7	94^	94	O	O	persona	persona			
+f30r	R01	8	10-	10	N	T	sua	sua			
+f30r	R01	9	SPELLED			SP	CAGIONATA				
+f30r	R01	10	61v	61	P	P	principale	principale			
+f30r	R01	11	69	69	A	C	da	da			
+f30r	R01	12	39?	34	A	A	alcuno	alcuno		figure read 39 before	
+f30r	R01	13	79_	79	I	I	lettera	lettera			
+f30r	R01	14	82d	82	C	C	di	di			
+f30r	R01	15	(36)	36	BR	BR	lei	lei			
+f30r	R01	16	81v	81	P	Q	ritenere	ritenere			
+f30r	R01	17	<.>		X	X	et	et			
+f30r	R01	18	52d	52	C	A	aperto	aperto			
+f30r	R01	19	79_	79	I	PT	oltre	oltre			
+f30r	R01	20	67bb	67	G	G	il	il			
+f30r	R01	21	32_	32	I	S	sdegno	sdegno			
+f30r	R01	22	30d	30	C	A	aggiungere	aggiungere			
+f30r	R01	23	83=	83	PT	PT	per	per			
+f30r	R01	24	99v	99	P	P	quello	quello			
+f30r	R01	25	28=	28	PT	PT	che	che			
+f30r	R01	26	(25)	25	BR	BR	si	si			
+f30r	R01	27	(39)	39	BR	BR	sono	sono			
+f30r	R02	1	77b-	77	T	T	vista	vista			
+f30r	R02	2	82d	82	C	C	di	di			
+f30r	R02	3	70-	70	N	N	Volta	Volta			
+f30r	R02	4	<.>		X	X	et	et			
+f30r	R02	5	99v	99	P	P	quello	quello			
+f30r	R02	6	28=	28	PT	PT	che	che			
+f30r	R02	7	(35)	35	BR	BR	lui	lui			
+f30r	R02	8	SPELLED			SP	ANDAVA SPARGENDO				
+f30r	R02	9	82d	82	C	C	di	di			
+f30r	R02	10	(50)	50	BR	BR	V.E.	V.E.			
+f30r	R02	11	29_	29	I	PT	circa	circa			
+f30r	R02	12	63_	63	I	I	la	la			
+f30r	R02	13	63d	63	C	C	cosa	cosa			
+f30r	R02	14	82d	82	C	C	di	di			
+f30r	R02	15	33=	33	PT	PT	costì	costì			
+f30r	R02	16	31_	31	I	PT	contra	contra			
+f30r	R02	17	67bb	67	G	G	il	il			
+f30r	R02	18	50bb	50	G	G	gusto	gusto			
+f30r	R02	19	82d	82	C	C	di	di			
+f30r	R02	20	(43)	43	BR	BR	S.S.tà	S.S.tà			
+f30r	R02	21	<.>		X	X	et	et			
+f30r	R02	22	11^v	11	Q	Q	questo	questo			
+f30r	R02	23	33db	33	M	M	medesimo	medesimo			
+f30r	R02	24	(34)	34	BR	BR	io	io			
+f30r	R03	1	SPELLED			SP	LE HAVEA ACCENATO				
+f30r	R03	2	19=	19	PT	PT	ancora	ancora			
+f30r	R03	3	52=	62	PT	PT	innanzi	innanzi		figure read 52 before	
+f30r	R03	4	SPELLED			SP	PIÙ VOLTE				
+f30r	R03	5	(15)	15	BR	BR	si	si			
+f30r	R03	6	83=	83	PT	PT	per	per			
+f30r	R03	7	72d	72	C	A	aviso	aviso			
+f30r	R03	8	14-b	14	T	T	suo	suo			
+f30r	R03	9	30_	30	I	PT	come	come			
+f30r	R03	10	83=	83	PT	PT	per	per			
+f30r	R03	11	71	71	A	A	avertimento	avertimento			
+f30r	R03	12	82d	82	C	C	di	di			
+f30r	R03	13	67d	67	C	C	?	(none)	CLERK DIFFERS		cura?
+f30r	R03	14	28=	28	PT	PT	che	che			
+f30r	R03	15	SPELLED			SP	BISOGNAVA				
+f30r	R04	1	SPELLED			SP	TENER				
+f30r	R04	2	83bb	83	G	G	in	in			
+f30r	R04	3	30_d	30	S	S	scritto	scritto			
+f30r	R04	4	<.>		X	X	et	et			
+f30r	R04	5	74=	74	PT	PT	molto	molto			
+f30r	R04	6	87=	87	PT	PT	più	più			
+f30r	R04	7	83bb	83	G	G	in	in			
+f30r	R04	8	SPELLED			SP	MANDAR				
+f30r	R04	9	63_	63	I	I	la	la			
+f30r	R04	10	79_d	79	S	I	lettera	lettera			
+f30r	R04	11	68_	68	I	I	la quale	la quale			
+f30r	R04	12	83bb	83	G	G	in	in			
+f30r	R04	13	58bb	58	G	T	vario	vario			
+f30r	R04	14	91_	91	I	I	luogo	luogo			
+f30r	R04	15	SPELLED			SP	ERANO				
+f30r	R04	16	81v	81	P	Q	ritenere	ritenere			
+f30r	R04	17	<.>		X	X	et	et			
+f30r	R04	18	52d	52	C	A	aperto	aperto			
+f30r	R04	19	56_	56	I	PT	hora	hora			
+f30r	R04	20	11^v	11	Q	Q	questo	questo			
+f30r	R04	21	33db	33	M	M	medesimo	(none)	CLERK DIFFERS		
+f30r	R04	22	12d	12	C	C	cattivo	cattivo			
+f30r	R04	23	62_	62	I	I	istrumento	istrumento			
+f30r	R04	24	68_	68	I	I	la quale	la quale			
+f30r	R04	25	19=	19	PT	PT	ancora	ancora			
+f30r	R04	26	SPELLED			SP	DURA				
+f30r	R04	27	<.>		X	X	et	et			
+f30r	R05	1	46=	46	PT	PT	forse	forse			
+f30r	R05	2	SPELLED			SP	DURERÀ				
+f30r	R05	3	45=	45	PT	PT	finché	finché			
+f30r	R05	4	69	69	A	C	da	da			
+f30r	R05	5	97-	97	N	PT	qualche	qualche			
+f30r	R05	6	66	66	A	A	atto	atto			
+f30r	R05	7	SPELLED			SP	HEROICA				
+f30r	R05	8	82d	82	C	C	di	di			
+f30r	R05	9	(50)	50	BR	BR	V.E.	V.E.			
+f30r	R05	10	83bb	83	G	G	in	in			
+f30r	R05	11	42=	42	PT	S	servitio	servitio			
+f30r	R05	12	82d	82	C	C	di	di			
+f30r	R05	13	(43)	43	BR	BR	S.S.tà	S.S.tà			
+f30r	R05	14	<.>		X	X	et	et			
+f30r	R05	15	82d	82	C	C	di	di			
+f30r	R05	16	11^v	11	Q	Q	questo	questo			
+f30r	R05	17	13_	13	I	I	inettitudine	inettitudine			sense santa
+f30r	R05	18	SPELLED			SP	SEDE				
+f30r	R05	19	(15)	15	BR	BR	si	si			
+f30r	R05	20	30=	30	PT	PT	come	come			
+f30r	R05	21	(34)	34	BR	BR	io	io			
+f30r	R05	22	SPELLED			SP	MI PRO				
+f30r	R06	1	SPELLED			SP	METTO				
+f30r	R06	2	69	69	A	C	da	destramente	CLERK DIFFERS		
+f30r	R06	3	10-b	10	T	T	sua	sua			
+f30r	R06	4	89	89	A	A	bontà	bontà			
+f30r	R06	5	32-	32	N	N	Papa	Papa			
+f30r	R06	6	SPELLED			SP	VERRÀ A CONOSCERE				
+f30r	R06	7	71_	71	I	PT	meglio	meglio			
+f30r	R06	8	28=	28	PT	PT	che	che			
+f30r	R06	9	44=	44	PT	PT	fino	fino			
+f30r	R06	10	56_	56	I	PT	hora	hora			
+f30r	R06	11	76=	76	PT	PT	non	non			
+f30r	R06	12	SPELLED			SP	FA				
+f30r	R06	13	63_	63	I	I	la	la			
+f30r	R06	14	22v	22	P	P	pietà	pietà			
+f30r	R06	15	<.>		X	X	et	et			
+f30r	R06	16	67bb	67	G	G	il	il			
+f30r	R06	17	55b	55	M	T	valore	valore			
+f30r	R06	18	64=	64	PT	PT	insieme	insieme			
+f30r	R06	19	82d	82	C	C	di	di			
+f30r	R06	20	(36)	36	BR	BR	lei	lei			
+f30r	R06	21	SPELLED			SP	HA DATO				
+f30r	R06	22	13^d	13	?	O	occasione	occasione			
+f30r	R06	23	10d	10	C	A	a	a			
+f30v	L01	1	50_	50	I	S	Signore	Signore			
+f30v	L01	2	10	10	A	A	Ambasciatore	Ambasciatore			
+f30v	L01	3	82d	82	C	C	di	di			
+f30v	L01	4	ll'		X	X	Spagna	Spagna			
+f30v	L01	5	93=	95	PT	PT	qua	qua		figure read 93 before	
+f30v	L01	6	82d	82	C	C	di	di			
+f30v	L01	7	SPELLED			SP	VENIRE A TROVARMI				
+f30v	L01	8	<.>		X	X	et	et			
+f30v	L01	9	39=	39	PT	PT	dopo	dopo			
+f30v	L01	10	90_	90	I	I	lungo	lungo			
+f30v	L01	11	23^v	23	Q	Q	ragionamento	ragionamento			
+f30v	L01	12	69	69	A	C	da	da			
+f30v	L01	13	96v	96	P	P	quale	quale			
+f30v	L01	14	(25)	25	BR	BR	si	si			
+f30v	L01	15	SPELLED			SP	CONOSCE				
+f30v	L01	16	(38)	35	BR	BR	lui	lui		figure read 38 before	
+f30v	L01	17	SPELLED			SP	STIMAR				
+f30v	L01	18	68_b	68	S	S	sommo	sommo			
+f30v	L01	19	63_	63	I	I	la	la			
+f30v	L01	20	94~	94	A	O	persona	purgatione	CLERK DIFFERS		
+f30v	L01	21	82d	82	C	C	di	di			
+f30v	L01	22	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L02	1	<.>?		X	X	et	et			
+f30v	L02	2	(27)	27	BR	BR	essere	benche	CLERK DIFFERS		
+f30v	L02	3	74_d	74	S	PT	molto	molto			
+f30v	L02	4	80d	80	C	A	bene	bene			
+f30v	L02	5	20_	20	I	I	informare	informare			
+f30v	L02	6	82d	82	C	C	di	di			
+f30v	L02	7	99v	99	P	P	quello	quello			
+f30v	L02	8	28=	28	PT	PT	che	che			
+f30v	L02	9	(25)	25	BR	BR	si	si			
+f30v	L02	10	SPELLED			SP	PUÒ SPERARE				
+f30v	L02	11	69	69	A	C	da	da			
+f30v	L02	12	70d	70	C	A	autorità	autorità			
+f30v	L02	13	<.>		X	X	et	et			
+f30v	L02	14	69	69	A	C	da	da			
+f30v	L02	15	13_d	13	S	S	sapere	sapere			
+f30v	L02	16	82d	82	C	C	di	di			
+f30v	L02	17	(36)	36	BR	BR	lei	lei			
+f30v	L02	18	SPELLED			SP	A RICHIEDERMI				
+f30v	L02	19	89d	89	C	E	fine	fine			
+f30v	L02	20	28=	28	PT	PT	che	che			
+f30v	L02	21	(34)	34	BR	BR	io	io			
+f30v	L02	22	SPELLED			SP	PRIEGHI				
+f30v	L03	1	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L03	2	29d	29	C	C	con	con			
+f30v	L03	3	21^	21	O	O	ogni	pieno	CLERK DIFFERS		
+f30v	L03	4	41dd	41	E	E	efficacia	efficacia			
+f30v	L03	5	<.>		X	X	et	et			
+f30v	L03	6	76=	76	PT	PT	non	non			
+f30v	L03	7	SPELLED			SP	VOLER				
+f30v	L03	8	83=	83	PT	PT	per	per			
+f30v	L03	9	11^v	11	Q	Q	questo	questo			
+f30v	L03	10	89_	89	I	PT	poco	poco			
+f30v	L03	11	87bb	87	G	G	inclinare	inclinare			
+f30v	L03	12	28=	28	PT	PT	che	che			
+f30v	L03	13	83=	83	PT	PT	per	per			
+f30v	L03	14	19=	19	PT	PT	ancora	ancora			
+f30v	L03	15	73db	73	M	M	mostrare	mostrare			
+f30v	L03	16	(23)	23	BR	BR	verso	verso			
+f30v	L03	17	82d	82	C	C	di	di			
+f30v	L03	18	(36)	36	BR	BR	lei	lui	CLERK DIFFERS		
+f30v	L03	19	(43)	43	BR	BR	S.S.tà	S.S.tà			
+f30v	L03	20	SPELLED			SP	O RITIRARSI O INTEPIDIRSI				
+f30v	L03	21	83bb	83	G	G	in	in			
+f30v	L04	1	99v	99	P	P	quello	quello			
+f30v	L04	2	28=	28	PT	PT	che	che			
+f30v	L04	3	(36)	36	BR	BR	lei	lei			
+f30v	L04	4	SPELLED			SP	CONOSCE				
+f30v	L04	5	(27)	27	BR	BR	essere	benche	CLERK DIFFERS		
+f30v	L04	6	42d_	42	S	S	servitio	servitio			
+f30v	L04	7	82d	82	C	C	di	di			
+f30v	L04	8	64bb	64	G	G	Iddio	Catolici	CLERK DIFFERS		
+f30v	L04	9	<.>		X	X	et	et			
+f30v	L04	10	52dd	52	E	E	esaltatione	esaltatione			
+f30v	L04	11	82d	82	C	C	di	di			
+f30v	L04	12	10-b	10	T	T	sua	sua			
+f30v	L04	13	13_	13	I	I	?	(none)	CLERK DIFFERS		sense santa
+f30v	L04	14	82dd	82	E	E	fede	fede			
+f30v	L04	15	40	40		NULL	(null)	(null)			
+f30v	L04	16	48	48		NULL	(null)	(null)			
+f30v	L04	17	08	08		NULL	(null)	(null)			
+f30v	L04	18	69	69	A	C	da	da			
+f30v	L04	19	11^v	11	Q	Q	questo	questo			
+f30v	L04	20	90=	90	PT	PT	poi	poi			
+f30v	L04	21	83bb	83	G	G	in	in			
+f30v	L04	22	28=	28	PT	PT	che	che			
+f30v	L04	23	(34)	34	BR	BR	io	io			
+f30v	L04	24	76=	76	PT	PT	non	non			
+f30v	L04	25	SPELLED			SP	MI FERMO				
+f30v	L04	26	74=	74	PT	PT	molto	molto			
+f30v	L04	27	(25)	25	BR	BR	si	si			
+f30v	L05	1	84=	84	PT	PT	perché	perché			
+f30v	L05	2	SPELLED			SP	SO CHE BASTA				
+f30v	L05	3	10	10	A	A	a	a			
+f30v	L05	4	89v	89	P	P	prudenza	prudenza			
+f30v	L05	5	82d	82	C	C	di	di			
+f30v	L05	6	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L05	7	SPELLED			SP	LO ACCENNARLO				
+f30v	L05	8	66_	66	I	S	solo	solo			
+f30v	L05	9	<.>		X	X	et	et			
+f30v	L05	10	(15)	15	BR	BR	si	si			
+f30v	L05	11	84=	84	PT	PT	perché	perché			
+f30v	L05	12	SPELLED			SP	ALTRE VOLTE MI RICORDO				
+f30v	L05	13	83=	83	PT	PT	per	per			
+f30v	L06	1	SPELLED			SP	ME STESSO				
+f30v	L06	2	(32)	32	BR	BR	havere	così	CLERK DIFFERS		
+f30v	L06	3	80dd	80	E	E	fatto	fatto			
+f30v	L06	4	67bb	67	G	G	il	il			
+f30v	L06	5	33db	33	M	M	medesimo	medesimo			
+f30v	L06	6	20^	20	O	O	officio	officio			
+f30v	L06	7	29d	29	C	C	con	con			
+f30v	L06	8	(36)	36	BR	BR	lei	lui	CLERK DIFFERS		
+f30v	L06	9	SPELLED			SP	PASSÒ				
+f30v	L06	10	67bb	67	G	G	il	il			
+f30v	L06	11	50_dd	50	?	S	Signore	Signore			
+f30v	L06	12	10	10	A	A	Ambasciatore	Ambasciatore			
+f30v	L06	13	SPELLED			SP	A DIRMI CHE IO VOLESSI SOGGIUNGERLE CHE				
+f30v	L07	1	76=	76	PT	PT	non	non			
+f30v	L07	2	(20)	20	BR	BR	tanto	tanto			
+f30v	L07	3	84=	84	PT	PT	perché	perché			
+f30v	L07	4	(36)	36	BR	BR	lei	lei			
+f30v	L07	5	76=	76	PT	PT	non	non			
+f30v	L07	6	SPELLED			SP	SIA				
+f30v	L07	7	59bb	59	G	G	honore	honore			
+f30v	L07	8	<.>		X	X	et	et			
+f30v	L07	9	32v	32	P	P	portare	portare			
+f30v	L07	10	82d	82	C	C	di	di			
+f30v	L07	11	93=	95	PT	PT	qua	qua		figure read 93 before	
+f30v	L07	12	30=	30	PT	PT	come	come			
+f30v	L07	13	SPELLED			SP	SAREBE				
+f30v	L07	14	53dd	53	E	C	convenire	convenire			
+f30v	L07	15	10	10	A	A	a	a			
+f30v	L07	16	41d	41	C	M	merito	merito			
+f30v	L07	17	14-b	14	T	T	suo	suo			
+f30v	L07	18	98v	98	P	P	quanto	quanto			
+f30v	L07	19	83=	83	PT	PT	per	per			
+f30v	L07	20	99v	99	P	P	quello	quello			
+f30v	L07	21	28=	28	PT	PT	che	che			
+f30v	L07	22	47=	47	PT	PT	fra	fra			
+f30v	L07	23	(38)	38	BR	BR	noi	noi			
+f30v	L07	24	(15)	15	BR	BR	si	si			
+f30v	L07	25	SPELLED			SP	ANDÒ TOCCANDO				
+f30v	L07	26	82d	82	C	C	di	di			
+f30v	L08	1	85d	85	C	C	differenza	differenza			
+f30v	L08	2	28=	28	PT	PT	che	che			
+f30v	L08	3	SPELLED			SP	POSSONO				
+f30v	L08	4	(27)	27	BR	BR	essere	essere			
+f30v	L08	5	47=b	47	?	PT	fra	fra			
+f30v	L08	6	(36)	36	BR	BR	lei	lei			
+f30v	L08	7	<.>		X	X	et	et			
+f30v	L08	8	73	73	A	N	Umena	Umena			
+f30v	L08	9	68_	68	I	I	la quale	la quale			
+f30v	L08	10	83=	83	PT	PT	per	per			
+f30v	L08	11	(27)	27	BR	BR	essere	essere			
+f30v	L08	12	61v	61	P	P	principale	principale			
+f30v	L08	13	82d	82	C	C	di	di			
+f30v	L08	14	59	59	A	G	honore	honore			
+f30v	L08	15	86bb	86	G	C	difficile	difficile			
+f30v	L08	16	SPELLED			SP	POSSONO				
+f30v	L08	17	(27)	27	BR	BR	essere	essere			
+f30v	L08	18	27d	27	C	C	comporre	comporre			
+f30v	L08	19	69	69	A	C	da	da			
+f30v	L08	20	41	41	A	A	altro	amicitia	CLERK DIFFERS		
+f30v	L08	21	28=	28	PT	PT	che	che			
+f30v	L08	22	69	69	A	C	da	da			
+f30v	L08	23	41-	41	N	N	Principe	Principe			
+f30v	L08	24	82d	82	C	C	di	di			
+f30v	L08	25	39bb	39	G	G	grande	grande			
+f30v	L08	26	70d	70	C	A	autorità	autorità			
+f30v	L08	27	(35)	35	BR	BR	lui	lui			
+f30v	L09	1	SPELLED			SP	VEDREBE				
+f30v	L09	2	87b	87	M	T	volontà	volontà			
+f30v	L09	3	28=	28	PT	PT	che	che			
+f30v	L09	4	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L09	5	SPELLED			SP	FACESSE				
+f30v	L09	6	76v	76	P	Q	risolutione	risolutione			
+f30v	L09	7	82d	82	C	C	di	di			
+f30v	L09	8	SPELLED			SP	APPOGGIARSI				
+f30v	L09	9	10d	10	C	A	a	a			
+f30v	L09	10	81	81	A	E	favore	favore			
+f30v	L09	11	82d	82	C	C	di	di			
+f30v	L09	12	47-	47	N	N	Re di Spagna	Re di Spagna			
+f30v	L09	13	28=	28	PT	PT	che	che			
+f30v	L09	14	32=	32	PT	PT	così	così			
+f30v	L09	15	SPELLED			SP	FACENDO				
+f30v	L09	16	29	29	A	C	con	con			
+f30v	L09	17	SPELLED			SP	MOSTRAR				
+f30v	L10	1	42_	42	I	I	integro	integro			
+f30v	L10	2	35d	35	C	C	confidenza	confidenza			
+f30v	L10	3	83bb	83	G	G	in	(none)	CLERK DIFFERS		
+f30v	L10	4	99v	99	P	P	quello	quello			
+f30v	L10	5	41-	41	N	N	Principe	Principe			
+f30v	L10	6	(35)	35	BR	BR	lui	lui			
+f30v	L10	7	SPELLED			SP	È SICURISSIMO				
+f30v	L10	8	32=	32	PT	PT	così	così			
+f30v	L10	9	SPELLED			SP	PROMETTE				
+f30v	L10	10	10	10	A	A	a	a			
+f30v	L10	11	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L10	12	98v	98	P	P	quanto	quanto			
+f30v	L10	13	86=	86	PT	PT	però	però			
+f30v	L10	14	SPELLED			SP	PUÒ PROMETTERE				
+f30v	L10	15	86=	86	PT	T	uno	uno			
+f30v	L10	16	51d	51	C	M	ministro	ministro			
+f30v	L10	17	(14)	14	BR	BR	senza	senza			
+f30v	L11	1	32^	32	O	O	ordine	agiotamente	CLERK DIFFERS		
+f30v	L11	2	82d	82	C	C	di	di			
+f30v	L11	3	14-b	14	T	T	suo	suo			
+f30v	L11	4	50_d	50	S	S	Signore	Signore			
+f30v	L11	5	SPELLED			SP	REPLICANDOMI DUE O TRE VOLTE				
+f30v	L11	6	11^v	11	Q	Q	questo	questo			
+f30v	L11	7	59	59	A	O	parola	primo	CLERK DIFFERS		
+f30v	L11	8	28=	28	PT	PT	che	che			
+f30v	L11	9	(36)	36	BR	BR	lei	lui	CLERK DIFFERS		
+f30v	L11	10	SPELLED			SP	SENTIREBE				
+f30v	L11	11	<.>		X	X	et	et			
+f30v	L11	12	14bb	14	G	G	gagliardo	frutto	CLERK DIFFERS		sense gaudio?
+f30v	L11	13	<.>		X	X	et	et			
+f30v	L11	14	48d	48	C	C	consolatione	consolatione			
+f30v	L11	15	39bb	39	G	G	grande	grande			
+f30v	L11	16	82d	82	C	C	di	di			
+f30v	L11	17	21-b	21	T	T	tale	tale			
+f30v	L11	18	10-b	10	T	T	sua	sua			
+f30v	L12	1	25d	75	C	C	deliberare	deliberare		figure read 25 before	
+f30v	L12	2	84=	84	PT	PT	perché	perché			
+f30v	L12	3	<.>		X	X	et	et			
+f30v	L12	4	99v	99	P	P	quello	quanto	CLERK DIFFERS		
+f30v	L12	5	10	10	A	A	a	a			
+f30v	L12	6	48_	48	I	I	interesse	interesse			
+f30v	L12	7	82d	82	C	C	di	di			
+f30v	L12	8	14-b	14	T	T	suo	suo			
+f30v	L12	9	91_	91	I	S	stato	stato			
+f30v	L12	10	<.>		X	X	et	et			
+f30v	L12	11	99v	99	P	P	quello	quanto	CLERK DIFFERS		
+f30v	L12	12	10	10	A	A	a	a			
+f30v	L12	13	SPELLED			SP	RIPUTATIONE				
+f30v	L12	14	82d	82	C	C	di	di			
+f30v	L12	15	10-b	10	T	T	sua	sua			
+f30v	L12	16	94^	94	O	O	persona	persona			
+f30v	L12	17	SPELLED			SP	TROVEREBE				
+f30v	L12	18	82d	82	C	C	di	di			
+f30v	L12	19	(27)	27	BR	BR	essere	essere			
+f30v	L12	20	83bb	83	G	G	in	in			
+f30v	L12	21	29d	29	C	M	materia	materia			
+f30v	L12	22	82d	82	C	C	di	di			
+f30v	L12	23	21-b	21	T	T	tale	tale			
+f30v	L12	24	28=	28	PT	PT	che	(none)	CLERK DIFFERS		
+f30v	L12	25	29d	29	C	C	con	(none)	CLERK DIFFERS		
+f30v	L13	1	(27)	27	BR	BR	essere	essere			
+f30v	L13	2	55-	55	N	N	Re	Re			
+f30v	L13	3	82d	82	C	C	di	di			
+f30v	L13	4	99v	99	P	P	quello	quello			
+f30v	L13	5	39bb	39	G	G	grande	grande			
+f30v	L13	6	28=	28	PT	PT	che	che			
+f30v	L13	7	SPELLED			SP	È				
+f30v	L13	8	64~=	64	PT	PT	insieme	insieme			
+f30v	L13	9	13d	13	C	C	cavaliere	cavaliere			
+f30v	L13	10	<.>		X	X	et	et			
+f30v	L13	11	SPELLED			SP	SA PESARE E DISTINGUERE				
+f30v	L13	12	67bb	67	G	G	il	il			
+f30v	L13	13	41db	41	M	M	merito	merito			
+f30v	L13	14	82d	82	C	C	di	di			
+f30v	L13	15	94^	94	O	O	persona	persona			
+f30v	L13	16	SPELLED			SP	CONCLUSE				
+f30v	L13	17	89	89	A	E	fine	fine			
+f30v	L13	18	28=	28	PT	PT	che	che			
+f30v	L13	19	SPELLED			SP	VOLENDO				
+f30v	L14	1	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L14	2	SPELLED			SP	APPIGLIARSI A				
+f30v	L14	3	11^v	11	Q	Q	questo	questo			
+f30v	L14	4	46dd	46	E	C	consiglio	consiglio			
+f30v	L14	5	SPELLED			SP	POTEVA TRATTARNE				
+f30v	L14	6	48_d	48	S	S	sicuro	sicuro			
+f30v	L14	7	29d	29	C	C	con	con			
+f30v	L14	8	10	10	A	A	Ambasciatore	Ambasciatore			
+f30v	L14	9	82d	82	C	C	di	di			
+f30v	L14	10	47-	47	N	N	Re di Spagna	Re di Spagna			
+f30v	L14	11	28=	28	PT	PT	che	che			
+f30v	L14	12	SPELLED			SP	SI TROVA				
+f30v	L14	13	83bb	83	G	G	in	in			
+f30v	L14	14	99	99	A	X	Parigi	Parigi			
+f30v	L14	15	10	10	A	A	a	a			
+f30v	L14	16	96v	96	P	P	quale	quale			
+f30v	L14	17	14~_	19	I	PT	ancora	ancora		figure read 14 before	
+f30v	L14	18	(35)	35	BR	BR	lui	lui			
+f30v	L14	19	75_	75	I	PT	ne	ne			
+f30v	L15	1	SPELLED			SP	SCRIVEREBE				
+f30v	L15	2	34	34	A	A	alcuno	alcuno			
+f30v	L15	3	63d	63	C	C	cosa	cosa			
+f30v	L15	4	29d	29	C	C	con	con			
+f30v	L15	5	11^v	11	Q	Q	questo	questo			
+f30v	L15	6	33db	33	M	M	medesimo	medesimo			
+f30v	L15	7	13	13	A	O	occasione	occasione			
+f30v	L15	8	90	90		NULL	(null)	(null)			
+f30v	L15	9	92	92		NULL	(null)	(null)			
+f30v	L15	10	02?	02		NULL	(null)	(null)			
+f30v	L15	11	(34)	34	BR	BR	io	io			
+f30v	L15	12	(30)	30	BR	BR	ho	ho			
+f30v	L15	13	16	16	A	A	accettare	accettare			
+f30v	L15	14	87-b	87	T	T	volontà	volontà			
+f30v	L15	15	82d	82	C	C	di	di			
+f30v	L15	16	SPELLED			SP	FAR				
+f30v	L15	17	11^v	11	Q	Q	questo	questo			
+f30v	L15	18	20^	20	O	O	officio	officio			
+f30v	L15	19	SPELLED			SP	PARENDOMI				
+f30v	L15	20	28=	28	PT	PT	che	che			
+f30v	L15	21	67bb	67	G	G	il	il			
+f30v	L15	22	63_	63	I	I	la	la			
+f30v	L15	23	81v	81	P	P	proposta	proposta			
+f30v	L15	24	SPELLED			SP	POSSA				
+f30v	L16	1	SPELLED			SP	TORNARE AD ALTRETANTA				
+f30v	L16	2	95-b	95	T	T	utile	utile			
+f30v	L16	3	98v	98	P	P	quanto	quanto			
+f30v	L16	4	59bb	59	G	G	honore	honore			
+f30v	L16	5	82d	82	C	C	di	di			
+f30v	L16	6	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L16	7	<.>		X	X	et	et			
+f30v	L16	8	(20)	20	BR	BR	tanto	tanto			
+f30v	L16	9	87=	87	PT	PT	più	più			
+f30v	L16	10	63_	63	I	I	la	la			
+f30v	L16	11	SPELLED			SP	STIMO HONOREVOLE				
+f30v	L16	12	98v	98	P	P	quanto	quanto			
+f30v	L16	13	(34)	34	BR	BR	io	io			
+f30v	L16	14	33v	33	P	P	porto	porto			
+f30v	L16	15	87dd	87	E	E	fermo	fermo			
+f30v	L17	1	25^	25	O	O	opinione	opinione			
+f30v	L17	2	28=	28	PT	PT	che	che			
+f30v	L17	3	67bb	67	G	G	il	il			
+f30v	L17	4	32dd	32	E	O	ordine	ordinario	CLERK DIFFERS		
+f30v	L17	5	82d	82	C	C	di	di			
+f30v	L17	6	SPELLED			SP	RICHIEDERLA				
+f30v	L17	7	82d	82	C	C	di	di			
+f30v	L17	8	11^v	11	Q	Q	questo	questo			
+f30v	L17	9	SPELLED			SP	VENGA				
+f30v	L17	10	69	69	A	C	da	da			
+f30v	L17	11	47-	47	N	N	Re di Spagna	Re di Spagna			
+f30v	L17	12	33db	33	M	M	medesimo	medesimo			
+f30v	L17	13	(11)	11	BR	BR	se	se			
+f30v	L17	14	80d	80	C	A	bene	bene			
+f30v	L17	15	83=	83	PT	PT	per	per			
+f30v	L17	16	76=	76	PT	PT	non	non			
+f30v	L17	17	SPELLED			SP	ASSICURARSI				
+f30v	L17	18	46=	46	PT	PT	forse	forse			
+f30v	L17	19	82d	82	C	C	di	di			
+f30v	L17	20	74^v	74	Q	Q	riserva	riserva			
+f30v	L17	21	67bb	67	G	G	il	il			
+f30v	L17	22	10	10	A	A	Ambasciatore	Ambasciatore			
+f30v	L18	1	SPELLED			SP	HA VOLUTO MOSTRAR MECO				
+f30v	L18	2	67bb	67	G	G	il	il			
+f30v	L18	3	51d	51	C	C	contrario	contrario			
+f30v	L18	4	75=	75	PT	PT	ne	ne			
+f30v	L18	5	51=	51	PT	PT	già	già			
+f30v	L18	6	69	69	A	C	da	da			
+f30v	L18	7	74d	74	C	A	banda	banda			
+f30v	L18	8	82d	82	C	C	di	di			
+f30v	L18	9	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L18	10	SPELLED			SP	MILITA				
+f30v	L18	11	56_	56	I	PT	hora	hora			
+f30v	L18	12	99v	99	P	P	quello	quello			
+f30v	L18	13	24^v	24	Q	Q	ragione	ragione			
+f30v	L18	14	82d	82	C	C	di	di			
+f30v	L18	15	71bb	71	G	G	impedimento	impedimento			
+f30v	L18	16	28=	28	PT	PT	che	che			
+f30v	L18	17	SPELLED			SP	POTEVA				
+f30v	L18	18	(27)	27	BR	BR	essere	essere			
+f30v	L19	1	83_:	83	G	G	in	in			
+f30v	L19	2	43^.	45	C	C	consideratione	consideratione		figure read 43 before	
+f30v	L19	3	SPELLED			SP	VIVENTE				
+f30v	L19	4	67_:	67	G	G	il	il			
+f30v	L19	5	55^-	55	N	N	Re	Re			
+f30v	L19	6	72^._.	72	M	M	morte	morte			
+f30v	L19	7	80=	80	PT	PT	onde	onde			
+f30v	L19	8	76=	76	PT	PT	non	non			
+f30v	L19	9	SPELLED			SP	VOGLIO SPERAR				
+f30v	L19	10	(11)	11	BR	BR	se	se			
+f30v	L19	11	76=	76	PT	PT	non	non			
+f30v	L19	12	74=	74	PT	PT	molto	molto			
+f30v	L19	13	80^.	80	C	A	bene	bene			
+f30v	L19	14	82^.	82	C	C	di	di			
+f30v	L19	15	10^-_.	10	T	T	sua	sua			
+f30v	L19	16	76^^_v	76	Q	Q	risolutione	risolutione			
+f30v	L19	17	30	30		NULL	(null)	(null)			
+f30v	L19	18	36	36		NULL	(null)	(null)			
+f30v	L19	19	06	06		NULL	(null)	(null)			
+f30v	L19	20	SPELLED			SP	SUPPLICO				
+f30v	L19	21	69	69	A	N	Duca di Nevers	Duca di Nevers			
+f30v	L20	1	SPELLED			SP	CHE VOLENDO SCRIVERMI				
+f30v	L20	2	83_:	83	G	G	in	in			
+f30v	L20	3	11^^_v	11	Q	Q	questo	questo			
+f30v	L20	4	82=	82	PT	PT	o vero	o vero			
+f30v	L20	5	83_:	83	G	G	in	in			
+f30v	L20	6	41^.	41	C	A	altro	altro			
+f30v	L20	7	80_v	80	P	P	proposito	proposito			
+f30v	L20	8	59_v	59	P	P	primo	primo			
+f30v	L20	9	10	10	A	A	a	a			
+f30v	L20	10	SPELLED			SP	USAR				
+f30v	L20	11	98=	98	PT	PT	quanto	quanto			
+f30v	L20	12	63_-	63	I	I	la	la			
+f30v	L20	13	99?	99	A	X	cifra	cifra			mark not read
+f30v	L20	14	87=	87	PT	PT	più	più			
+f30v	L20	15	86^.	86	C	C	difficile	difficile			
+f30v	L20	16	28=	28	PT	PT	che	che			
+f30v	L20	17	(34)	34	BR	BR	io	io			
+f30v	L20	18	92^-_.	92	T	T	uso	uso			
+f30v	L20	19	33^._.	33	M	M	medesimo	medesimo			
+f30v	L20	20	83_:	83	G	G	in	in			
+f30v	L20	21	11^^_v	11	Q	Q	questo	questo			
+f30v	L20	22	79_-	79	I	I	lettera	lettera			
+f30v	L21	1	90=	90	PT	PT	poi	purche	CLERK DIFFERS		
+f30v	L21	2	10	10	A	A	a	a			
+f30v	L21	3	SPELLED			SP	MIRAR				
+f30v	L21	4	74=	74	PT	PT	molto	molto			
+f30v	L21	5	80^.	80	C	A	bene	bene			
+f30v	L21	6	83=	83	PT	PT	per	per			
+f30v	L21	7	96_v	96	P	P	quale	quale			
+f30v	L21	8	93^.	93	C	A	camino	camino			
+f30v	L21	9	(36)	36	BR	BR	lei	lei			
+f30v	L21	10	SPELLED			SP	MANDA				
+f30v	L21	11	63_-	63	I	I	la	la			
+f30v	L21	12	10^-_.	10	T	T	sua	sua			
+f30v	L21	13	84=	84	PT	PT	perché	perché			
+f30v	L21	14	83_:	83	G	G	in	in			
+f30v	L21	15	SPELLED			SP	Lione				one sign
+f30v	L21	16	61^^	61	O	O	particolare	particolare			
+f30v	L21	17	SPELLED			SP	CORRONO				
+f30v	L21	18	39_:	39	G	G	grande	grande			
+f30v	L21	19	87^^	87	O	O	pericolo	pericolo			
+f30v	L21	20	86=	86	PT	PT	però	però			
+f30v	L21	21	(11)	11	BR	BR	se	se			
+f30v	L21	22	63_-	63	I	I	la	la			
+f30v	L21	23	41^.	41	C	A	altro	altro			
+f30v	L21	24	93^.	93	C	A	camino	camino			
+f30v	L21	25	(50)	50	BR	BR	V.E.	V.E.			
+f30v	L21	26	SPELLED			SP	PUÒ				
+f30v	L22	1	SPELLED			SP	MANDARLE				
+f30v	L22	2	83_:	83	G	G	in	in			
+f30v	L22	3	21_.	21	M	M	mano	mano			
+f30v	L22	4	82^.	82	C	C	di	di			
+f30v	L22	5	78	78	A	N	Duca di Mantova	Duca di Mantova			
+f30v	L22	6	99_v	99	P	P	quello	quello			
+f30v	L22	7	SPELLED			SP	STIMO				
+f30v	L22	8	63_:	63	G	G	huomo	huomo			
+f30v	L22	9	87=	87	PT	PT	più	più			
+f30v	L22	10	48^._-	48	S	S	sicuro	sicuro			
+f30v	L22	11	(11)	11	BR	BR	se	se			
+f30v	L22	12	51=	51	PT	PT	già	già			
+f30v	L22	13	(36)	36	BR	BR	lei	lei			
+f30v	L22	14	76=	76	PT	PT	non	non			
+f30v	L22	15	SPELLED			SP	ACCORDASSE				
+f30v	L22	16	97=	97	PT	PT	qualche	qualche			
+f30v	L22	17	63^.	63	C	C	cosa	cosa			
+f30v	L22	18	29^.	29	C	C	con	con			
+f30v	L22	19	10	10	A	A	Ambasciatore	Ambasciatore			
+f30v	L22	20	82^.	82	C	C	di	di			
+f30v	L22	21	ll'		X	X	Spagna	Spagna			
+f30v	L22	22	33=	33	PT	PT	costì	costì			
+f30v	L23	1	28=	28	PT	PT	che	che			
+f30v	L23	2	29^.	29	C	C	con	con			
+f30v	L23	3	99_v	99	P	P	quello	quello			
+f30v	L23	4	44^._.	44	M	M	mezzo	mezzo			or messo?
+f30v	L23	5	SPELLED			SP	CREDO				
+f30v	L23	6	80^.	80	C	A	bene	bene			
+f30v	L23	7	28=	28	PT	PT	che	che			
+f30v	L23	8	63_-	63	I	I	la	la			
+f30v	L23	9	79_-	79	I	I	lettera	lettera			
+f30v	L23	10	SPELLED			SP	VERRIANO				
+f30v	L23	11	48^._-	48	S	S	sicuro	sicuro			
+f30v	L23	12	68=	68	PT	PT	ma	ma			
+f30v	L23	13	50=	50	PT	PT	fuori	fuori			
+f30v	L23	14	82^.	82	C	C	di	di			
+f30v	L23	15	11^^_v	11	Q	Q	questo	questo			
+f30v	L23	16	83^-_.	83	T	T	ultimo	(none)	CLERK DIFFERS		
+f30v	L23	17	46^._.	46	M	M	mezzo	mezzo			
+f30v	L23	18	SPELLED			SP	LA PRIEGO A SCRIVER				
+f30v	L23	19	83=	83	PT	PT	per	per			
+f30v	L23	20	97=	97	PT	PT	qualche	qualche			
+f30v	L23	21	26^-_.	26	T	T	tempo	tempo			
+f30v	L24	1	67_:	67	G	G	il	il			
+f30v	L24	2	72=	72	PT	PT	meno	meno			
+f30v	L24	3	28=	28	PT	PT	che	che			
+f30v	L24	4	SPELLED			SP	PUÒ				
+f30v	L24	5	82=	82	PT	PT	o vero	o vero			
+f30v	L24	6	63^.	63	C	C	cosa	cosa			
+f30v	L24	7	66^.	66	C	A	atto	atto			
+f30v	L24	8	88=	88	PT	PT	più tosto	più tosto			
+f30v	L24	9	10	10	A	A	a	a			
+f30v	L24	10	SPELLED			SP	CAUSAR				
+f30v	L24	11	17^^_v	17	Q	Q	raccomandatione	raccomandatione			
+f30v	L24	12	28=	28	PT	PT	che	che			
+f30v	L24	13	96_-	96	I	I	maggiore	maggiore			
+f30v	L24	14	38^.	38	C	A	alteratione	alteratione			
+f30v	L24	15	82^.	82	C	C	di	di			
+f30v	L24	16	49^.	49	C	A	animo	animo			
+f30v	L24	17	83_:	83	G	G	in	in			
+f30v	L24	18	11^^_v	11	Q	Q	questo	questo			
+f30v	L24	19	82^.	82	C	C	di	di			
+f30v	L24	20	95=	95	PT	PT	qua	qua			

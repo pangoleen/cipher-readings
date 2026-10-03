@@ -1,0 +1,79 @@
+# BnF ms. français 4702, f. 97r-v (Gallica btv1b530546654, canvases f207, f208).
+# Period decipherment (Nevers's office, 1590) of the cipher sheet BnF fr. 4698 f. 104r, which Nevers endorsed
+# "Con la lettera di 16 febraro 1590. R. 9 aprille 1590. Da Parigi". The heading here gives the same dates.
+# Transcribed 3 Oct 2026 from img4702/f207_full.jpg and f208_full.jpg.
+# Pass 1: every line, from colour half-width strips at about native size (v2work/d97r_*.jpg, d97v_*.jpg).
+# Pass 2: zooms at native size or larger of the small figures and of the doubtful places (v2work/z97_figs1.jpg,
+# z97_figs2.jpg, z97r_d1.jpg, z97r_d2.jpg). Lines without a zoom were read once.
+# Notation: [struck: x]; {above: x}; {fig: NN} = small code figure that the clerk left above the word (he was not sure
+# of the value); the marks on these small figures are described in the notes. (?) = doubtful. [...] = lost in the gutter.
+# The clerk writes dictionary forms without agreement. "huomo" stands again and again where the sense asks for "la".
+
+## f. 97r
+H:  [Alli(?)] di 16 febr.o 90 R 9 ap.le da Pargi(?)        (Nevers's or a secretary's hand, not the clerk's)
+01: Ho parlato di novo con l'Amb.r di Spagna et per risolut.e di domanda di V.Ecc. dico che — e
+02: eternam.te mottegiato di proposto che ultim.te le feci in nome di lui nato{fig: 80} da poco inclinat.e
+03: che fino hora ha mostrato Papa verso la persona di lei da laq.ale male disposto
+04: seguito per necissità che S.S.tà non si a per operar gagliardam.te ne p[er] il che(?)
+05: Il honore di [struck: lui] lei ne per L accordo suo co' la casa di Guisa il che si
+06: conosco quanto potenza{fig: 39} Importante a buono successo delle cosa di Francia ne potendo
+07: questo essere negotiato se non di Prencipe di sommo{fig: 68} di [struck: d] autorità venuto il Amb.r in
+08: pensiero et in questo si fermo non potendo tale effetto essere opererato di altro
+09: mano che di q.tto di Re di Spagna ilq.le havendo [struck: nel] in curiosità grado huomo q.le
+10: che io toco a V.Ecc. di prencipe et di Cav.re si come potente con autorità et —
+11: grandezza sua collocar homo-personale di [struck: lui] lei [struck: nel] in quello stato di honore
+12: et di sicurezza che lei merito et [struck: et et(?)] debito [struck: D. de Mant.a] desiderato così non
+13: volontieri ne richiesto [struck: sperando(?)] da lei ne accett.re di lei se non quanto
+14: sarà giusto et conveniente alla q.alità di uno et di l altro / Non sarà
+15: hora [finalm.te, altered] {above: fine} di Re di Spagna li servirsi di V.Ecc. fuori di Francia ma
+16: si li valersi(?) di operat.ne sue et di suoi dependentia come il s.re duca di
+17: Long.lla accioche in quello regno non succede alc.o Re heretico che altro
+18: interassato non [struck: suo] pretendo hora Re di Spagna [struck: A] nella Francia et in
+19: q.to havere non solo ogni debito considerat.e a honore di V.Ecc. ma pensato
+20: ancora di concederle di quello gratia che a lei siano più honesta a —
+21: riceverlo che a domandarlo intorno a q.le particolare havendo io [struck: ..] posto(?)
+22: inanzi huomo difficile di governo di Campagne levato a V.E. dalla [struck: one word] {above: Re}
+23: [struck: one word] di Guisa oltre le [struck: gratitudine(?)] altro offesa così circa huomo
+24: personale di S.re Duchessa sua fig.la come circa homo occupat.ne di
+25: amicitia sua territ.o risposta il Amb.re quanto a questo ultimo cosa
+26: che tuttalm.te havrà difficilte rimedia[struck: to] purche affatto acordo il
+27: punto principale di volontà quanto poi al primo di gover[struck: nam..] {above: re} dice
+28: non essere maravigliato se q.tto silentio hanno ocupato p[er]che fidato a lor
+29: in odio di disgusto loro ne p[er] loro pensato essere obligato a seguirlo
+30: huomo cosa ordinario dal Re morte poiche da medesimo fu rotto loro la
+31: fede nelli stato per leq.ali ragione non giudico bene S.Ecc. li domanda
+32: in dietro questo governo in qualità paruto più articha(?) le attione loro
+33: ma si contento di altro cosa leq.ali si a per essere di non minore sodisf.ne
+34: et si a non a vita ma perpetuo in casa sua intendendo però q.to et
+35: senza pre{above: giudicio}dono di unione della Corona et per quello tempo che le
+36: cosa di Francia sarano stabilita che a hora conveniente{fig: 53} premio{fig: 48} q.tto
+37: che haveranno ser.to a così giusto impresa che poi le cosa di Nav.ra
+38: perdono{fig: 83; above: rano} languido{fig: 67} medesimo{fig: 33} si inteletto{fig: 43} da più [struck: molto] banda [struck: se..] il Amb.r si creduto
+39: che non andaranno egualm.te quando Re di Spagna apertam.te gli sarà contrario
+40: si come credo ancoro che Nav.ra non osservarà a V.Ecc. cosa che prometo por
+
+## f. 97v  (the ends of the lines are lost in the gutter of the binding)
+01: havere lei dalla banda sua stat[struck: o] in prudentia.te(?) di lei li considerat.e [struck: carico] qu[...]
+02: q.tto di questo partito indebitato più tosto essere accettato a scipione certo parere
+03: di Re di Spagna fermo et stabilito et dove non [struck: oscuro; struck fig: 51(?)] potente{fig: 39} essere rim[...]
+04: di consientia congiunto{fig: 39} V.E. con Re tanto Catolici et che non ha per fine d[i]
+05: essere Re di Francia ma questo di Nav.ra è sicuro et oscuro{fig: 39} essere co[...]
+06: edificio offese di Iddio et ruinato et diviso del Regno se lui non mu[...]
+07: di verità di l che fino hora non si visto molto bono segno se non liber[...]
+08: parlato affine di regnato{fig: 32} et da q.to io formato{fig: 93} uno conclusione che ess[...]
+09: lui si professo{fig: 70} catolici non li facendo per sua salvam.to ma solam.te
+10: per suo comodità et interesse mondano non sarà mai veram.te catoli[ci]
+11: o vero in fatti la fede è donato di Iddio non cosa che si aquista per for[za]
+12: naturale et Iddio [struck: no] per ordine non da il suo dono a q.tto che non lo
+13: vole et ne fanno sempre più indegnità con simulatione / replicato a V.E.
+14: che facendo alc.o deliberat.e potente{fig: 39} trattato con Amb.re di Spagna
+15: residente costì ilq.ale dil tutto totalm.te è debitore et Informato
+
+# Notes
+# - Seen: the marks on the small figures. 39 has a caron below (r 06, v 03, v 05, v 14) or dots above (v 04);
+#   68 a mark above and below; 53 a bar above; 48 a caron below; 83 a caron below; 67 a bar; 33 a dot above and below;
+#   43 a bar below; 32 a circumflex above and a caron below; 93 two dots above; 70 a caron below and a small circle above.
+# - Inferred: the clerk left a figure where he could not choose between the noun and the verb of a code word
+#   (potenza / potente / potere for 39; regno / regnare for 32) or between two lists (oscuro, list o-pe, against
+#   potere, list pi-qu, for 39 with circumflex or caron).
+# - Seen: f. 98r begins another text in another layout ("Hora dirò il resto delle cose di qua. Il S. legato ...").

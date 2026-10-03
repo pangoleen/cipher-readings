@@ -1,0 +1,717 @@
+# Alignment of the cipher of BnF fr. 4698 f. 104r (sheet of 16 Feb 1590) with the period decipherment BnF fr. 4702 f. 97r-v.
+# cipher = unit as in check/f104r_transcription_checker.txt. marklist = list that the transcribed mark names.
+# list = list that the clerk's word fits (alphabetical place). value = word of the code (dictionary form). clerk = word that the clerk wrote.
+# agree = CLERK DIFFERS where I keep another value than the clerk's, by the mark on the film and the sense (my judgement). figcorr = figure corrected.
+folio	line	i	cipher	figure	marklist	list	value	clerk	agree	figcorr	note
+f104r	L01	1	(30)	30	BR	BR	ho	ho			
+f104r	L01	2	59~^^	59	O	O	parola	parola			
+f104r	L01	3	82^.	82	C	C	di	di			
+f104r	L01	4	10^^	10	O	O	novo	novo			
+f104r	L01	5	29^.	29	C	C	con	con			
+f104r	L01	6	10	10	A	A	Ambasciatore	Ambasciatore			
+f104r	L01	7	82^.	82	C	C	di	di			
+f104r	L01	8	ll'		X	X	Spagna	Spagna			
+f104r	L01	9	[et]		X	X	et	et			
+f104r	L01	10	83=	83	PT	PT	per	per			
+f104r	L01	11	76^^_v?	76	Q	Q	risolutione	risolutione			
+f104r	L01	12	82^.	82	C	C	di	di			
+f104r	L01	13	27^:	27	E	E	domanda	domanda			
+f104r	L01	14	82^.	82	C	C	di	di			
+f104r	L01	15	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L01	16	"dico che"			CLEAR	dico che	dico che			
+f104r	L01	17	67_:?	67	G	G	il	eternamente	CLERK DIFFERS		
+f104r	L01	18	74^._.	74	M	M	motteggiare	motteggiare			or motivo; sense il motivo
+f104r	L01	19	82^.	82	C	C	di	di			
+f104r	L01	20	81_v	81	P	P	proposta	proposta			
+f104r	L01	21	28=	28	PT	PT	che	che			
+f104r	L01	22	83^-_.?	83	T	T	ultimo	ultimo			
+f104r	L01	23	SPELLED			SP	LE FECI				
+f104r	L01	24	83_:	83	G	G	in	in			
+f104r	L01	25	94^._.	94	M	M	nome	nome			
+f104r	L01	26	82^.	82	C	C	di	di			
+f104r	L01	27	(35)	35	BR	BR	lui	lui			
+f104r	L01	28	80~^._.	80	M	M	nascere	nascere			
+f104r	L01	29	69^.	69	C	C	da	da			
+f104r	L02	1	89=	89	PT	PT	poco	poco			
+f104r	L02	2	87_:	87	G	G	inclinare	inclinare			
+f104r	L02	3	28=	28	PT	PT	che	che			
+f104r	L02	4	44=	44	PT	PT	fino	fino			
+f104r	L02	5	56=	56	PT	PT	hora	hora			
+f104r	L02	6	SPELLED			SP	HA				
+f104r	L02	7	73^._.	73	M	M	mostrare	mostrare			
+f104r	L02	8	32^-	32	N	N	Papa	Papa			
+f104r	L02	9	(23)	23	BR	BR	verso	verso			
+f104r	L02	10	63_-	63	I	I	la	la			
+f104r	L02	11	94^^	94	O	O	persona	persona			
+f104r	L02	12	82^.	82	C	C	di	di			
+f104r	L02	13	(36)	36	BR	BR	lei	lei			
+f104r	L02	14	69^.?	69	C	C	da	da			
+f104r	L02	15	68_-	68	I	I	la quale	la quale			
+f104r	L02	16	10_.	10	M	M	male	male			
+f104r	L02	17	16^:	16	E	E	disporre	disporre			
+f104r	L02	18	36~_-	36	I	S	seguire	seguire			
+f104r	L02	19	83=	83	PT	PT	per	per			
+f104r	L02	20	85^._.	85	M	M	necessità	necessità			
+f104r	L02	21	28=	28	PT	PT	che	che			
+f104r	L02	22	(43)	43	BR	BR	S.S.tà	S.S.tà			
+f104r	L02	23	76=	76	PT	PT	non	non			
+f104r	L02	24	(15)	15	BR	BR	si	si			
+f104r	L02	25	SPELLED			SP	A				
+f104r	L02	26	83=	83	PT	PT	per	per			
+f104r	L02	27	24~^^	24	O	O	opera	opera			
+f104r	L02	28	14_:	14	G	G	gagliardo	gagliardo			
+f104r	L02	29	75=	75	PT	PT	ne	ne			
+f104r	L02	30	83=	83	PT	PT	per	per			
+f104r	L02	31	67_:	67	G	G	il	il			
+f104r	L02	32	59_:	59	G	G	honore	honore			
+f104r	L02	33	82^.	82	C	C	di	di			
+f104r	L02	34	(36)	36	BR	BR	lei	lei			
+f104r	L03	1	75=	75	PT	PT	ne	ne			
+f104r	L03	2	83=	83	PT	PT	per	per			
+f104r	L03	3	SPELLED			SP	L				
+f104r	L03	4	19	19	A	A	accordare	accordare			
+f104r	L03	5	14^-_.	14	T	T	suo	suo			
+f104r	L03	6	29^.	29	C	C	con	con			
+f104r	L03	7	98	98	A	A	casa	casa			
+f104r	L03	8	82^.	82	C	C	di	di			
+f104r	L03	9	71	71	A	N	Guisa	Guisa			
+f104r	L03	10	67_:	67	G	G	il	il			
+f104r	L03	11	28=	28	PT	PT	che	che			
+f104r	L03	12	(15)	15	BR	BR	si	si			
+f104r	L03	13	41~^.	41	C	C	conoscere	conoscere			
+f104r	L03	14	98_v	98	P	P	quanto	quanto			
+f104r	L03	15	83	83	A	X	?	(none)	CLERK DIFFERS		
+f104r	L03	16	39~_v	39	P	P	potere	potere			
+f104r	L03	17	76_:	76	G	G	importare	importare			
+f104r	L03	18	10	10	A	A	a	a			
+f104r	L03	19	84^.?	84	C	A	buono	buono			
+f104r	L03	20	12^-_.	12	T	T	successo	successo			
+f104r	L03	21	82^.	82	C	C	di	di			
+f104r	L03	22	63^.	63	C	C	cosa	cosa			
+f104r	L03	23	82^.	82	C	C	di	di			
+f104r	L03	24	"A"		X	X	Francia	Francia			
+f104r	L03	25	75=	75	PT	PT	ne	ne			
+f104r	L03	26	"potendo"			CLEAR	potendo	potendo			
+f104r	L03	27	11^^_v	11	Q	Q	questo	questo			
+f104r	L03	28	(27)	27	BR	BR	essere	essere			
+f104r	L03	29	88^._.	88	M	M	negotio	negotio			
+f104r	L03	30	(11)	11	BR	BR	se	se			
+f104r	L03	31	76=	76	PT	PT	non	non			
+f104r	L03	32	82^.	82	C	C	di	di			
+f104r	L03	33	41^-	41	N	N	Principe	Principe			
+f104r	L03	34	82^.	82	C	C	di	di			
+f104r	L03	35	68_-	68	I	S	sommo	sommo			
+f104r	L04	1	70^.	70	C	A	autorità	autorità			
+f104r	L04	2	68~_.?	68	M	T	venire	venire			
+f104r	L04	3	58_:?	67	G	G	il	il		figure read 58 before	
+f104r	L04	4	10	10	A	A	Ambasciatore	Ambasciatore			
+f104r	L04	5	83_:	83	G	G	in	in			
+f104r	L04	6	78^^	78	O	O	pensiero	pensiero			
+f104r	L04	7	[et]		X	X	et	et			
+f104r	L04	8	83_:	83	G	G	in	in			
+f104r	L04	9	11^^_v	11	Q	Q	questo	questo			
+f104r	L04	10	(15)	15	BR	BR	si	si			
+f104r	L04	11	87^:	87	E	E	fermo	fermo			
+f104r	L04	12	76=	76	PT	PT	non	non			
+f104r	L04	13	39~_v	39	P	P	potere	potere			
+f104r	L04	14	21^-_.	21	T	T	tale	tale			
+f104r	L04	15	40^:	40	E	E	effetto	effetto			
+f104r	L04	16	(27)	27	BR	BR	essere	essere			
+f104r	L04	17	24^^	24	O	O	opera	opera			
+f104r	L04	18	82^.	82	C	C	di	di			
+f104r	L04	19	41	41	A	A	altro	altro			
+f104r	L04	20	21^._.	21	M	M	mano	mano			
+f104r	L04	21	28=	28	PT	PT	che	che			
+f104r	L04	22	82^.	82	C	C	di	di			
+f104r	L04	23	99_v	99	P	P	quello	quello			
+f104r	L04	24	82^.	82	C	C	di	di			
+f104r	L04	25	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f104r	L04	26	68_:	68	G	G	il quale	il quale			
+f104r	L04	27	(33)	33	BR	BR	havendo	havendo			
+f104r	L04	28	83_:	83	G	G	in	in			
+f104r	L04	29	68^._-	68	S	S	sommo	curiosità	CLERK DIFFERS		
+f104r	L04	30	38_:	38	G	G	grado	grado			
+f104r	L04	31	63_:	63	G	G	huomo	huomo			
+f104r	L04	32	96_v	96	P	P	quale	quale			
+f104r	L04	33	28=	28	PT	PT	che	che			
+f104r	L04	34	(34)	34	BR	BR	io	io			
+f104r	L04	35	38~^-_.?	38	T	T	toccare	toccare			
+f104r	L05	1	10^-	10	N	A	a	a			
+f104r	L05	2	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L05	3	82^.	82	C	C	di	di			
+f104r	L05	4	41^-	41	N	N	Principe	Principe			
+f104r	L05	5	[et]		X	X	et	et			
+f104r	L05	6	82^.	82	C	C	di	di			
+f104r	L05	7	13^.	13	C	C	cavaliere	cavaliere			
+f104r	L05	8	(15)	15	BR	BR	si	si			
+f104r	L05	9	30=	30	PT	PT	come	come			
+f104r	L05	10	39~_v	39	P	P	potere	potere			
+f104r	L05	11	29^.	29	C	C	con	con			
+f104r	L05	12	70	70	A	A	autorità	autorità			
+f104r	L05	13	[et]		X	X	et	et			
+f104r	L05	14	39_:	39	G	G	grande	grande			
+f104r	L05	15	10^-_.	10	T	T	sua	sua			
+f104r	L05	16	SPELLED			SP	COLLOCAR				
+f104r	L05	17	63_.	63	M	G	huomo	huomo			
+f104r	L05	18	94^^	94	O	O	persona	persona			
+f104r	L05	19	82^.	82	C	C	di	di			
+f104r	L05	20	(36)	36	BR	BR	lei	lei			
+f104r	L05	21	83_:	83	G	G	in	in			
+f104r	L05	22	99_v	99	P	P	quello	quello			
+f104r	L05	23	91_-	91	I	S	stato	stato			
+f104r	L05	24	82^.	82	C	C	di	di			
+f104r	L05	25	59_:	59	G	G	honore	honore			
+f104r	L05	26	[et]		X	X	et	et			
+f104r	L05	27	82^.	82	C	C	di	di			
+f104r	L05	28	48^._-	48	S	S	sicuro	sicuro			
+f104r	L05	29	28=	28	PT	PT	che	che			
+f104r	L05	30	(36)	36	BR	BR	lei	lei			
+f104r	L05	31	41~^._.	41	M	M	merito	merito			
+f104r	L05	32	[et]		X	X	et	et			
+f104r	L06	1	72~^.	72	C	C	debito	debito			
+f104r	L06	2	78~^.	78	C	C	desiderio	desiderio			
+f104r	L06	3	32=	32	PT	PT	così	così			
+f104r	L06	4	76=	76	PT	PT	non	non			
+f104r	L06	5	87~^-_.	87	T	T	volontà	volontà			
+f104r	L06	6	75=	75	PT	PT	ne	ne			
+f104r	L06	7	14~^^_v	14	Q	Q	richiedere	richiedere			order?
+f104r	L06	8	69^.	69	C	C	da	da			
+f104r	L06	9	(36)	36	BR	BR	lei	lei			
+f104r	L06	10	75=	75	PT	PT	ne	ne			
+f104r	L06	11	16~^:	16	E	A	accettare	accettare			
+f104r	L06	12	82^.	82	C	C	di	di			
+f104r	L06	13	(36)	36	BR	BR	lei	lei			
+f104r	L06	14	(11)	11	BR	BR	se	se			
+f104r	L06	15	76=	76	PT	PT	non	non			
+f104r	L06	16	98_v	98	P	P	quanto	quanto			
+f104r	L06	17	SPELLED			SP	SARÀ				
+f104r	L06	18	33_:	33	G	G	giusto	giusto			
+f104r	L06	19	[et]		X	X	et	et			
+f104r	L06	20	53^:	53	E	C	convenire	convenire			
+f104r	L06	21	10	10	A	A	a	a			
+f104r	L06	22	96_v	96	P	P	quale	quale			
+f104r	L06	23	82^.	82	C	C	di	di			
+f104r	L06	24	86^-_.	86	T	T	uno	uno			
+f104r	L06	25	[et]		X	X	et	et			
+f104r	L06	26	82^.	82	C	C	di	di			
+f104r	L06	27	41	41	A	A	altro	altro			
+f104r	L06	28	[60 69 09]	60		NULL	(null group)	(null group)			
+f104r	L06	29	76=	76	PT	PT	non	non			
+f104r	L06	30	"sarà"			CLEAR	sarà	sarà			
+f104r	L06	31	42=	42	PT	PT	?	(none)	CLERK DIFFERS		dunque?
+f104r	L06	32	83=	83	PT	PT	per	(none)	CLERK DIFFERS		
+f104r	L07	1	56=	56	PT	PT	hora	hora			
+f104r	L07	2	67_:	67	G	G	il	(none)	CLERK DIFFERS		
+f104r	L07	3	89^:	89	E	E	fine	fine			
+f104r	L07	4	82^.	82	C	C	di	di			
+f104r	L07	5	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f104r	L07	6	67_:	67	G	G	il	il			
+f104r	L07	7	42~^._-	42	S	S	servitio	servitio			
+f104r	L07	8	(15)	15	BR	BR	si	si			
+f104r	L07	9	82^.	82	C	C	di	di			
+f104r	L07	10	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L07	11	50=	50	PT	PT	fuori	fuori			
+f104r	L07	12	82^.	82	C	C	di	di			
+f104r	L07	13	"A"		X	X	Francia	Francia			
+f104r	L07	14	68=	68	PT	PT	ma	ma			
+f104r	L07	15	(15)	15	BR	BR	si	si			
+f104r	L07	16	67_:	67	G	G	il	il			
+f104r	L07	17	SPELLED			SP	VALLERSI				
+f104r	L07	18	82^.	82	C	C	di	di			
+f104r	L07	19	24^^	24	O	O	opera	opera			
+f104r	L07	20	10^-_.	10	T	T	sua	sua			
+f104r	L07	21	[et]		X	X	et	et			
+f104r	L07	22	82^.	82	C	C	di	di			
+f104r	L07	23	14^-_.	14	T	T	suo	suo			
+f104r	L07	24	76^.?	76	C	C	dependenza	dependenza			
+f104r	L07	25	30=	30	PT	PT	come	come			
+f104r	L07	26	67_:	67	G	G	il	il			
+f104r	L07	27	50^._-	50	S	S	Signore	Signore			
+f104r	L07	28	86	86	A	N	Duca	Duca			
+f104r	L07	29	82^.	82	C	C	di	di			
+f104r	L07	30	90_-	90	I	I	lungo	lungo			
+f104r	L07	31	73_.?	73	M	T	villa	villa			
+f104r	L07	32	13=	13	PT	PT	acciò che	acciò che			
+f104r	L08	1	83_:	83	G	G	in	in			
+f104r	L08	2	99_v	99	P	P	quello	quello			
+f104r	L08	3	32^^_v	32	Q	Q	regno	regno			
+f104r	L08	4	76=	76	PT	PT	non	non			
+f104r	L08	5	11~^-	11	N	T	succedere	succedere			
+f104r	L08	6	34^._.	34	M	A	alcuno	alcuno			
+f104r	L08	7	55=	55	PT	N	Re	Re			
+f104r	L08	8	15_:?	55	G	G	heretico	heretico		figure read 15 before	
+f104r	L08	9	28=	28	PT	PT	che	che			
+f104r	L08	10	41	41	A	A	altro	altro			
+f104r	L08	11	44_-	48	I	I	interesse	interesse		figure read 44 before	
+f104r	L08	12	76=	76	PT	PT	non	non			
+f104r	L08	13	65~_v	65	P	P	pretendere	pretendere			
+f104r	L08	14	56=	56	PT	PT	hora	hora			
+f104r	L08	15	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f104r	L08	16	83_:	83	G	G	in	in			
+f104r	L08	17	"A"		X	X	Francia	Francia			
+f104r	L08	18	[et]		X	X	et	et			
+f104r	L08	19	83_:	83	G	G	in	in			
+f104r	L08	20	11^^_v	11	Q	Q	questo	questo			
+f104r	L08	21	(32)	32	BR	BR	havere	havere			
+f104r	L08	22	76=	76	PT	PT	non	non			
+f104r	L08	23	66^._-	66	S	S	solo	solo			
+f104r	L08	24	21^^	21	O	O	ogni	ogni			
+f104r	L08	25	72^.	72	C	C	debito	debito			
+f104r	L08	26	45^.?	45	C	C	consideratione	consideratione			
+f104r	L08	27	10	10	A	A	a	a			
+f104r	L08	28	59_:	59	G	G	honore	honore			
+f104r	L08	29	82^.	82	C	C	di	di			
+f104r	L08	30	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L08	31	68=	68	PT	PT	ma	ma			
+f104r	L08	32	78^^	78	O	O	pensiero	pensiero			
+f104r	L08	33	19=	19	PT	PT	ancora	ancora			
+f104r	L08	34	82^.	82	C	C	di	di			
+f104r	L08	35	29^.	29	C	C	con	con			
+f104r	L08	36	SPELLED			SP	CEDERLE				
+f104r	L09	1	82^.	82	C	C	di	di			
+f104r	L09	2	99_v	99	P	P	quello	quello			
+f104r	L09	3	40_:	40	G	G	gratia	gratia			
+f104r	L09	4	28=	28	PT	PT	che	che			
+f104r	L09	5	10	10	A	A	a	a			
+f104r	L09	6	(36)	36	BR	BR	lei	lei			
+f104r	L09	7	SPELLED			SP	SIANO				
+f104r	L09	8	87=	87	PT	PT	più	più			
+f104r	L09	9	58_:	58	G	G	honesto	honesto			
+f104r	L09	10	SPELLED			SP	A				
+f104r	L09	11	52~^^_v	52	Q	Q	ricevere	ricevere			
+f104r	L09	12	28=	28	PT	PT	che	che			
+f104r	L09	13	SPELLED			SP	A				
+f104r	L09	14	27~^:	27	E	E	domanda	domanda			
+f104r	L09	15	66=	66	PT	PT	intorno	intorno			
+f104r	L09	16	10	10	A	A	a	a			
+f104r	L09	17	96_v	96	P	P	quale	quale			
+f104r	L09	18	61^-?	61	N	O	particolare	particolare			
+f104r	L09	19	(33)	33	BR	BR	havendo	havendo			
+f104r	L09	20	(34)	34	BR	BR	io	io			
+f104r	L09	21	36_v	36	P	P	posto	posto			
+f104r	L09	22	62=	62	PT	PT	innanzi	innanzi			
+f104r	L09	23	63_:	63	G	G	huomo	huomo			
+f104r	L09	24	86^:	86	E	C	difficile	difficile			
+f104r	L09	25	82^.	82	C	C	di	di			
+f104r	L09	26	37_:	37	G	G	governo	governo			
+f104r	L09	27	82^.	82	C	C	di	di			
+f104r	L09	28	SPELLED			SP	Campagna				one sign
+f104r	L09	29	81_-	81	I	I	levare	levare			
+f104r	L09	30	10	10	A	A	a	a			
+f104r	L09	31	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L09	32	69^.	69	C	C	da	da			
+f104r	L09	33	50^._-	50	S	S	Signore	Signore			
+f104r	L09	34	82^.	82	C	C	di	di			
+f104r	L09	35	71	71	A	N	Guisa	Guisa			
+f104r	L09	36	79=	79	PT	PT	oltre	oltre			
+f104r	L09	37	63_-	63	I	I	la	la			
+f104r	L10	1	41	41	A	A	altro	altro			
+f104r	L10	2	18^^	18	O	O	offesa	offesa			
+f104r	L10	3	72=	32	PT	PT	così	così		figure read 72 before	
+f104r	L10	4	29=	29	PT	PT	circa	circa			
+f104r	L10	5	63_:	63	G	G	huomo	huomo			
+f104r	L10	6	94^.?	94	C	O	persona	persona			
+f104r	L10	7	82^.	82	C	C	di	di			
+f104r	L10	8	50^._-	50	S	S	Signore	Signore			
+f104r	L10	9	87	87	A	N	Duchessa	Duchessa			
+f104r	L10	10	10^-_.	10	T	T	sua	sua			
+f104r	L10	11	88^:	88	E	E	figlia	figlia			
+f104r	L10	12	30=	30	PT	PT	come	come			
+f104r	L10	13	29=	29	PT	PT	circa	circa			
+f104r	L10	14	63_:	63	G	G	huomo	huomo			
+f104r	L10	15	15^^	15	O	O	occupare	occupare			
+f104r	L10	16	82^.	82	C	C	di	di			
+f104r	L10	17	34^.	34	C	A	alcuno	amicitia	CLERK DIFFERS		
+f104r	L10	18	10^-_.	10	T	T	sua	sua			
+f104r	L10	19	31_.	31	M	T	terra	terra			
+f104r	L10	20	79~^^_v	79	Q	Q	rispondere	rispondere			
+f104r	L10	21	SPELLED			SP	L				
+f104r	L10	22	10	10	A	A	Ambasciatore	Ambasciatore			
+f104r	L10	23	98_v	98	P	P	quanto	quanto			
+f104r	L10	24	10	10	A	A	a	a			
+f104r	L10	25	11^^_v	11	Q	Q	questo	questo			
+f104r	L10	26	83^-_.	83	T	T	ultimo	ultimo			
+f104r	L10	27	63^.	63	C	C	cosa	cosa			
+f104r	L10	28	28=	28	PT	PT	che	che			
+f104r	L10	29	53^-_.	53	T	T	tutto	tutto			
+f104r	L10	30	"haverà"			CLEAR	haverà	haverà			
+f104r	L10	31	71^.	71	C	E	facile	difficilte	CLERK DIFFERS		
+f104r	L10	32	66^^_v	66	Q	Q	rimedio	rimedio			
+f104r	L10	33	94_-	94	I	PT	purché	purché			
+f104r	L10	34	(15)	15	BR	BR	si	affatto	CLERK DIFFERS		
+f104r	L10	35	19~^.	19	C	A	accordare	accordare			
+f104r	L10	36	67_:	67	G	G	il	il			
+f104r	L10	37	92_v	92	P	P	punto	punto			
+f104r	L10	38	61_v	61	P	P	principale	principale			
+f104r	L10	39	82^.	82	C	C	di	di			
+f104r	L10	40	87^-_.	87	T	T	volontà	volontà			
+f104r	L11	1	98_v	98	P	P	quanto	quanto			
+f104r	L11	2	90=	90	PT	PT	poi	poi			
+f104r	L11	3	10	10	A	A	a	a			
+f104r	L11	4	59_v	59	P	P	primo	primo			
+f104r	L11	5	82^.	82	C	C	di	di			
+f104r	L11	6	37_:	37	G	G	governo	governo			
+f104r	L11	7	SPELLED			SP	DICE				
+f104r	L11	8	56=	76	PT	PT	non	non		figure read 56 before	
+f104r	L11	9	(27)	27	BR	BR	essere	essere			
+f104r	L11	10	24^._.	24	M	M	maraviglia	maraviglia			
+f104r	L11	11	(11)	11	BR	BR	se	se			
+f104r	L11	12	99_v	99	P	P	quello	quello			
+f104r	L11	13	50^._-	50	S	S	Signore	silentio	CLERK DIFFERS		
+f104r	L11	14	SPELLED			SP	L				
+f104r	L11	15	50~^.	50	C	X	hanno	hanno			figure not resolved
+f104r	L11	16	15^^	15	O	O	occupare	occupare			
+f104r	L11	17	84=	84	PT	PT	perché	perché			
+f104r	L11	18	SPELLED			SP	FU DATO				
+f104r	L11	19	10	10	A	A	a	a			
+f104r	L11	20	(36)	36	BR	BR	lei	lei			
+f104r	L11	21	83_:	83	G	G	in	in			
+f104r	L11	22	16^^	16	O	O	odio	odio			
+f104r	L11	23	82^.	82	C	C	di	di			
+f104r	L11	24	98	98	A	A	casa	disgusto	CLERK DIFFERS		
+f104r	L11	25	(37)	37	BR	BR	loro	loro			
+f104r	L11	26	75=	75	PT	PT	ne	ne			
+f104r	L11	27	(47)	47	BR	BR	loro?	loro?			(47)
+f104r	L11	28	78~^^	78	O	O	pensiero	pensiero			
+f104r	L11	29	(27)	27	BR	BR	essere	essere			
+f104r	L11	30	12^^	12	O	O	obligo	obligo			
+f104r	L11	31	10	10	A	A	a	a			
+f104r	L11	32	36~^._-	36	S	S	seguire	seguire			
+f104r	L12	1	63_:	63	G	G	huomo	huomo			
+f104r	L12	2	63_.	63	M	C	cosa	cosa			
+f104r	L12	3	32^^	32	O	O	ordine	ordine			
+f104r	L12	4	69^.	69	C	C	da	da			
+f104r	L12	5	55	55	A	N	Re	Re			
+f104r	L12	6	72^._.	72	M	M	morte	morte			
+f104r	L12	7	91_-	91	I	PT	poiché	poiché			
+f104r	L12	8	69^.	69	C	C	da	da			
+f104r	L12	9	33^._.	33	M	M	medesimo	medesimo			
+f104r	L12	10	SPELLED			SP	FU				
+f104r	L12	11	88^._v?	88	?	Q	rotta	rotta			
+f104r	L12	12	(37)	37	BR	BR	loro	loro			
+f104r	L12	13	63_-	63	I	I	la	la			
+f104r	L12	14	82^.	82	C	E	fede	fede			
+f104r	L12	15	83_:	83	G	G	in	in			
+f104r	L12	16	91_-	91	I	S	stato	stato			
+f104r	L12	17	83=	83	PT	PT	per	per			
+f104r	L12	18	68=	68	PT	I	la quale	la quale			
+f104r	L12	19	24^^_v?	24	Q	Q	ragione	ragione			
+f104r	L12	20	76=	76	PT	PT	non	non			
+f104r	L12	21	30~_:	30	G	G	giudicio	giudicio			
+f104r	L12	22	80^.	80	C	A	bene	bene			
+f104r	L12	23	(46)	46	BR	BR	S.Ecc.	S.Ecc.			
+f104r	L12	24	67_:	67	G	G	il	il			
+f104r	L12	25	27~^:	27	E	E	domanda	domanda			
+f104r	L12	26	83_:	83	G	G	in	in			
+f104r	L12	27	55=	55	PT	PT	indietro	indietro			
+f104r	L12	28	11^^_v	11	Q	Q	questo	questo			
+f104r	L12	29	37_:	37	G	G	governo	governo			
+f104r	L12	30	83_:	83	G	G	in	in			
+f104r	L12	31	96_v	96	P	P	quale	quale			
+f104r	L12	32	56~	56	A	O	parere	parere			
+f104r	L12	33	87=	87	PT	PT	più	più			
+f104r	L12	34	51	51	A	A	antico	antico			
+f104r	L12	35	63_-	63	I	I	la	la			
+f104r	L12	36	66^.	66	C	A	atto	atto			
+f104r	L12	37	(37)	37	BR	BR	loro	loro			
+f104r	L12	38	68=	68	PT	PT	ma	ma			
+f104r	L12	39	(15)	15	BR	BR	si	si			
+f104r	L13	1	49~^.	49	C	C	contento	contento			
+f104r	L13	2	82^.	82	C	C	di	di			
+f104r	L13	3	41	41	A	A	altro	altro			
+f104r	L13	4	63^.	63	C	C	cosa	cosa			
+f104r	L13	5	68_-	68	I	I	la quale	la quale			
+f104r	L13	6	(15)	15	BR	BR	si	si			
+f104r	L13	7	10	10	A	A	a	a			
+f104r	L13	8	83=	83	PT	PT	per	per			
+f104r	L13	9	(27)	27	BR	BR	essere	essere			
+f104r	L13	10	82^.	82	C	C	di	di			
+f104r	L13	11	76=	76	PT	PT	non	non			
+f104r	L13	12	52^._.	52	M	M	minore	minore			
+f104r	L13	13	62^._-	62	S	S	sodisfatione	sodisfatione			
+f104r	L13	14	[et]		X	X	et	et			
+f104r	L13	15	(15)	15	BR	BR	si	si			
+f104r	L13	16	10	10	A	A	a	a			
+f104r	L13	17	76=	76	PT	PT	non	non			
+f104r	L13	18	10	10	A	A	a	a			
+f104r	L13	19	78^-_.	78	T	T	vita	vita			
+f104r	L13	20	68=	68	PT	PT	ma	ma			
+f104r	L13	21	91^^	91	O	O	perpetuo	perpetuo			
+f104r	L13	22	83_:	83	G	G	in	in			
+f104r	L13	23	98_v	98	P	A	casa	casa			
+f104r	L13	24	10^-_.	10	T	T	sua	sua			
+f104r	L13	25	"intendendo"			CLEAR	intendendo	intendendo			
+f104r	L13	26	86=	86	PT	PT	però	però			
+f104r	L13	27	11^^_v	11	Q	Q	questo	questo			
+f104r	L13	28	[et]		X	X	et	et			
+f104r	L13	29	(14)	14	BR	BR	senza	senza			
+f104r	L13	30	SPELLED			SP	PRE				
+f104r	L13	31	30_:	30	G	G	giudicio	giudicio			
+f104r	L13	32	82^.	82	C	C	di	di			
+f104r	L13	33	85^._.	85	M	T	unione	unione			
+f104r	L13	34	82^.	82	C	C	di	di			
+f104r	L14	1	57^.	57	C	C	corona	corona			
+f104r	L14	2	[et]		X	X	et	et			
+f104r	L14	3	83=	83	PT	PT	per	per			
+f104r	L14	4	99_v	99	P	P	quello	quello			
+f104r	L14	5	26^-_.	26	T	T	tempo	tempo			
+f104r	L14	6	28=	28	PT	PT	che	che			
+f104r	L14	7	63_-	63	I	I	la	la			
+f104r	L14	8	63^.	63	C	C	cosa	cosa			
+f104r	L14	9	82^.	82	C	C	di	di			
+f104r	L14	10	"A"		X	X	Francia	Francia			
+f104r	L14	11	"saranno"			CLEAR	saranno	saranno			
+f104r	L14	12	86=	86	PT	S	stabilire	stabilire			
+f104r	L14	13	28=	28	PT	PT	che	che			
+f104r	L14	14	10	10	A	A	a	a			
+f104r	L14	15	56=	56	PT	PT	hora	hora			
+f104r	L14	16	53~^.	53	C	C	convenire	convenire			
+f104r	L14	17	48~_v	48	P	P	premio	premio			
+f104r	L14	18	99_v	99	P	P	quello	quello			
+f104r	L14	19	28=	28	PT	PT	che	che			
+f104r	L14	20	"haveranno"			CLEAR	haveranno	haveranno			
+f104r	L14	21	42^._-	42	S	S	servitio	servitio			
+f104r	L14	22	10	10	A	A	a	a			
+f104r	L14	23	32=	32	PT	PT	così	così			
+f104r	L14	24	33_:	33	G	G	giusto	giusto			
+f104r	L14	25	78_:	78	G	G	impresa	impresa			
+f104r	L14	26	[80 08?]	80		NULL	(null group)	(null group)			
+f104r	L14	27	28=	28	PT	PT	che	che			
+f104r	L14	28	90=	90	PT	PT	poi	poi			
+f104r	L14	29	63_-	63	I	I	la	la			
+f104r	L14	30	63^.	63	C	C	cosa	cosa			
+f104r	L14	31	82^.	82	C	C	di	di			
+f104r	L14	32	50^-	50	N	N	Navarra	Navarra			
+f104r	L15	1	83~_v	83	P	O	perdere	perdere			
+f104r	L15	2	67_-?	67	I	I	languido	languido			
+f104r	L15	3	33^._.	33	M	M	medesimo	medesimo			
+f104r	L15	4	67_.	67	M	X	?	(none)	CLERK DIFFERS		
+f104r	L15	5	(15)	15	BR	BR	si	si			
+f104r	L15	6	43~_-	43	I	I	intendere	intendere			
+f104r	L15	7	69^.	69	C	C	da	da			
+f104r	L15	8	87=	87	PT	PT	più	più			
+f104r	L15	9	74^.	74	C	A	banda	banda			
+f104r	L15	10	68=	68	PT	PT	ma	(none)	CLERK DIFFERS		
+f104r	L15	11	SPELLED			SP	L				
+f104r	L15	12	10	10	A	A	Ambasciatore	Ambasciatore			
+f104r	L15	13	64~^.	64	C	C	credere	credere			
+f104r	L15	14	28=	28	PT	PT	che	che			
+f104r	L15	15	76=	76	PT	PT	non	non			
+f104r	L15	16	"andaranno"			CLEAR	andaranno	andaranno			
+f104r	L15	17	43^:	43	E	E	egualmente	egualmente			
+f104r	L15	18	96_-	96	I	X	quando	quando			list not resolved
+f104r	L15	19	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f104r	L15	20	52^.	52	C	A	aperto	aperto			
+f104r	L15	21	SPELLED			SP	GLI SARÀ				
+f104r	L15	22	51	51	A	C	contrario	contrario			
+f104r	L15	23	(15)	15	BR	BR	si	si			
+f104r	L15	24	30=	30	PT	PT	come	come			
+f104r	L15	25	64~	64	A	C	credere	credere			
+f104r	L15	26	19=	19	PT	PT	ancora	ancora			
+f104r	L15	27	28=	28	PT	PT	che	che			
+f104r	L15	28	50^-	50	N	N	Navarra	Navarra			
+f104r	L15	29	76=	76	PT	PT	non	non			
+f104r	L15	30	40^^	40	O	O	osservare	osservare			
+f104r	L15	31	10	10	A	A	a	a			
+f104r	L16	1	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L16	2	63^.	63	C	C	cosa	cosa			
+f104r	L16	3	28=	28	PT	PT	che	che			
+f104r	L16	4	56=	56	PT	PT	hora	(none)	CLERK DIFFERS		
+f104r	L16	5	76~_v	76	P	P	promettere	promettere			
+f104r	L16	6	83=	83	PT	PT	per	per			
+f104r	L16	7	(32)	32	BR	BR	havere	havere			
+f104r	L16	8	(36)	36	BR	BR	lei	lei			
+f104r	L16	9	69^.	69	C	C	da	da			
+f104r	L16	10	74^.	74	C	A	banda	banda			
+f104r	L16	11	10^-_.	10	T	T	sua	sua			
+f104r	L16	12	86=	86	PT	PT	però	(none)	CLERK DIFFERS		
+f104r	L16	13	(41~)	41	BR	BR	stare	stare			(41)
+f104r	L16	14	83_:	83	G	G	in	in			
+f104r	L16	15	89_v	89	P	P	prudenza	prudenza			
+f104r	L16	16	82^.	82	C	C	di	di			
+f104r	L16	17	(36)	36	BR	BR	lei	lei			
+f104r	L16	18	67_:	67	G	G	il	il			
+f104r	L16	19	45~^.	45	C	C	consideratione	consideratione			
+f104r	L16	20	96_v	96	P	P	quale	quale			
+f104r	L16	21	82^.	82	C	C	di	di			
+f104r	L16	22	11^^_v	11	Q	Q	questo	questo			
+f104r	L16	23	63~	63	A	O	partito	partito			
+f104r	L16	24	72^.	72	C	C	debito	debito			
+f104r	L16	25	88=	88	PT	PT	più tosto	più tosto			
+f104r	L16	26	(27)	27	BR	BR	essere	essere			
+f104r	L16	27	16	16	A	A	accettare	accettare			
+f104r	L16	28	10	10	A	A	a	a			
+f104r	L16	29	59=?	59	PT	N	Scipione	Scipione			
+f104r	L16	30	15	15	A	C	certezza	certezza			
+f104r	L16	31	58~	56	A	O	parere	parere		figure read 58 before	
+f104r	L16	32	99_v	99	P	P	quello	(none)	CLERK DIFFERS		
+f104r	L16	33	82^.	82	C	C	di	di			
+f104r	L16	34	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f104r	L17	1	87^:	87	E	E	fermo	fermo			
+f104r	L17	2	[et]		X	X	et	et			
+f104r	L17	3	86^._-	86	S	S	stabilire	stabilire			
+f104r	L17	4	[et]		X	X	et	et			
+f104r	L17	5	[blot=]		X	PT	dove	dove			blot
+f104r	L17	6	76=	76	PT	PT	non	non			
+f104r	L17	7	39~_v	39	P	P	potere	potere			
+f104r	L17	8	(27)	27	BR	BR	essere	essere			
+f104r	L17	9	67^^_v	67	Q	Q	rimorso	rimorso			
+f104r	L17	10	82^.	82	C	C	di	di			
+f104r	L17	11	42^.	42	C	C	conscienza	conscienza			
+f104r	L17	12	39~^.	39	C	C	congiungere	congiungere			
+f104r	L17	13	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L17	14	29^.	29	C	C	con	con			
+f104r	L17	15	55^-	55	N	N	Re	Re			
+f104r	L17	16	(20)	20	BR	BR	tanto	tanto			
+f104r	L17	17	64	64	A	N	Catolici	Catolici			
+f104r	L17	18	[et]		X	X	et	et			
+f104r	L17	19	28=	28	PT	PT	che	che			
+f104r	L17	20	76=	76	PT	PT	non	non			
+f104r	L17	21	SPELLED			SP	HA				
+f104r	L17	22	83=	83	PT	PT	per	per			
+f104r	L17	23	89^:	89	E	E	fine	fine			
+f104r	L17	24	82^.	82	C	C	di	di			
+f104r	L17	25	(27)	27	BR	BR	essere	essere			
+f104r	L17	26	55^-	55	N	N	Re	Re			
+f104r	L17	27	82^.	82	C	C	di	di			
+f104r	L17	28	"A"		X	X	Francia	Francia			
+f104r	L17	29	68=	68	PT	PT	ma	ma			
+f104r	L17	30	11^^_v	11	Q	Q	questo	questo			
+f104r	L17	31	82^.	82	C	C	di	di			
+f104r	L17	32	50^-	50	N	N	Navarra	Navarra			
+f104r	L17	33	76=	76	PT	PT	non	(none)	CLERK DIFFERS		
+f104r	L17	34	SPELLED			SP	È				
+f104r	L17	35	48^._-	48	S	S	sicuro	sicuro			
+f104r	L17	36	[et]		X	X	et	et			
+f104r	L17	37	39~_v	39	P	P	potere	oscuro	CLERK DIFFERS		
+f104r	L18	1	(27)	27	BR	BR	essere	essere			
+f104r	L18	2	29^.	29	C	C	con	con			
+f104r	L18	3	39_:	39	G	G	grande	edificio	CLERK DIFFERS		
+f104r	L18	4	18^^	18	O	O	offesa	offesa			
+f104r	L18	5	82^.	82	C	C	di	di			
+f104r	L18	6	64_:	64	G	G	Iddio	Iddio			
+f104r	L18	7	[et]		X	X	et	et			
+f104r	L18	8	90^.?	90	C	Q	ruina	ruina			
+f104r	L18	9	[et]		X	X	et	et			
+f104r	L18	10	25^:	25	E	E	divisione	divisione			
+f104r	L18	11	82^.	82	C	C	di	di			
+f104r	L18	12	32^^_v	32	Q	Q	regno	regno			
+f104r	L18	13	(11)	11	BR	BR	se	se			
+f104r	L18	14	(35)	35	BR	BR	lui	lui			
+f104r	L18	15	76=	76	PT	PT	non	non			
+f104r	L18	16	78~^.	78	C	M	mutare	mutare			
+f104r	L18	17	69^.	69	C	C	da	da			
+f104r	L18	18	67~^-_.	67	T	T	vero	vero			
+f104r	L18	19	35^^_v	35	Q	Q	?	(none)	CLERK DIFFERS		religione?
+f104r	L18	20	82^.	82	C	C	di	di			
+f104r	L18	21	28=	28	PT	PT	che	che			
+f104r	L18	22	44=	44	PT	PT	fino	fino			
+f104r	L18	23	56=	56	PT	PT	hora	hora			
+f104r	L18	24	76=	76	PT	PT	non	non			
+f104r	L18	25	(15)	15	BR	BR	si	si			
+f104r	L18	26	77~^-_.	77	T	T	vista	vista			
+f104r	L18	27	74=	74	PT	PT	molto	molto			
+f104r	L18	28	84^.	84	C	A	buono	buono			
+f104r	L18	29	34^._-	34	S	S	segno	segno			
+f104r	L18	30	(11)	11	BR	BR	se	se			
+f104r	L18	31	76=	76	PT	PT	non	non			
+f104r	L18	32	83_:	83	G	I	libero	libero			
+f104r	L18	33	59~	59	A	O	parola	parola			
+f104r	L18	34	16=	16	PT	PT	a fine	a fine			
+f104r	L18	35	82^.	82	C	C	di	di			
+f104r	L18	36	32~^^_v	32	Q	Q	regno	regno			
+f104r	L19	1	[et]		X	X	et	et			
+f104r	L19	2	69^.	69	C	C	da	da			
+f104r	L19	3	11^^_v	11	Q	Q	questo	questo			
+f104r	L19	4	(34)	34	BR	BR	io	io			
+f104r	L19	5	93~^:	93	E	E	formare	formare			
+f104r	L19	6	86_.	86	M	T	uno	uno			
+f104r	L19	7	31	31	A	C	conclusione	conclusione			
+f104r	L19	8	28=	28	PT	PT	che	che			
+f104r	L19	9	27=	27	PT	PT	benché	essere	CLERK DIFFERS		
+f104r	L19	10	(35)	35	BR	BR	lui	lui			
+f104r	L19	11	(15)	15	BR	BR	si	si			
+f104r	L19	12	70~_v	70	P	P	professare	professare			
+f104r	L19	13	64^^	64	O	N	Catolici	Catolici			
+f104r	L19	14	76=	76	PT	PT	non	non			
+f104r	L19	15	67_:	67	G	G	il	il			
+f104r	L19	16	"facendo"			CLEAR	facendo	facendo			
+f104r	L19	17	83=	83	PT	PT	per	per			
+f104r	L19	18	10^-_.	10	T	T	sua	sua			
+f104r	L19	19	99_v	99	P	X	salvamento	salvamento			figure doubtful
+f104r	L19	20	68=	68	PT	PT	ma	ma			
+f104r	L19	21	16=	66	PT	S	solo	solo		figure read 16 before	
+f104r	L19	22	83=	83	PT	PT	per	per			
+f104r	L19	23	14^-_.	14	T	T	suo	suo			
+f104r	L19	24	24^.	24	C	C	comodità	comodità			
+f104r	L19	25	[et]		X	X	et	et			
+f104r	L19	26	48_-	48	I	I	interesse	interesse			
+f104r	L19	27	67_.	67	M	M	mondo	mondo			
+f104r	L19	28	76=	76	PT	PT	non	non			
+f104r	L19	29	"sarà"			CLEAR	sarà	sarà			
+f104r	L19	30	69_-	69	I	PT	mai	mai			
+f104r	L19	31	67^._.	67	M	T	vero	vero			
+f104r	L19	32	64	64	A	N	Catolici	Catolici			
+f104r	L19	33	84=	84	PT	PT	perché	o vero	CLERK DIFFERS		
+f104r	L20	1	60=	60	PT	PT	in fatti	in fatti			
+f104r	L20	2	63_-	63	I	I	la	la			
+f104r	L20	3	82^.	82	C	E	fede	fede			
+f104r	L20	4	SPELLED			SP	È				
+f104r	L20	5	30^:	30	E	E	dono	dono			
+f104r	L20	6	82^.	82	C	C	di	di			
+f104r	L20	7	64_:	64	G	G	Iddio	Iddio			
+f104r	L20	8	76=	76	PT	PT	non	non			
+f104r	L20	9	63^.	63	C	C	cosa	cosa			
+f104r	L20	10	28=	28	PT	PT	che	che			
+f104r	L20	11	(15)	15	BR	BR	si	si			
+f104r	L20	12	23~^.	23	C	A	acquisto	acquisto			
+f104r	L20	13	83=	83	PT	PT	per	per			
+f104r	L20	14	94^:	94	E	E	forza	forza			
+f104r	L20	15	83_.	83	M	M	naturale	naturale			
+f104r	L20	16	[et]		X	X	et	et			
+f104r	L20	17	64_:	64	G	G	Iddio	Iddio			
+f104r	L20	18	83=	83	PT	PT	per	per			
+f104r	L20	19	32^^	32	O	O	ordine	ordine			
+f104r	L20	20	76=	76	PT	PT	non	non			
+f104r	L20	21	69~^.	69	C	C	da	da			
+f104r	L20	22	67_:	67	G	G	il	il			
+f104r	L20	23	14_:	14	G	T	suo	suo			
+f104r	L20	24	30^:	30	E	E	dono	dono			
+f104r	L20	25	10	10	A	A	a	a			
+f104r	L20	26	99_v	99	P	P	quello	quello			
+f104r	L20	27	28=	28	PT	PT	che	che			
+f104r	L20	28	76=	76	PT	PT	non	non			
+f104r	L20	29	67_:	67	G	G	il	il			
+f104r	L20	30	87~^-_.	87	T	T	volontà	volontà			
+f104r	L20	31	[et]		X	X	et	et			
+f104r	L20	32	(15)	15	BR	BR	si	si			
+f104r	L20	33	75=	75	PT	PT	ne	ne			
+f104r	L20	34	"fanno"			CLEAR	fanno	fanno			
+f104r	L20	35	(13)	13	BR	BR	sempre	sempre			
+f104r	L20	36	87=	87	PT	PT	più	più			
+f104r	L21	1	96_:	96	G	G	indegno	indegno			
+f104r	L21	2	29^.	29	C	C	con	con			
+f104r	L21	3	54_-	54	I	S	simulatione	simulatione			
+f104r	L21	4	[50 52 02]	50		NULL	(null group)	(null group)			
+f104r	L21	5	39~_v	29	P	Q	replica	replica		figure read 39 before	
+f104r	L21	6	10	10	A	A	a	a			
+f104r	L21	7	(50)	50	BR	BR	V.E.	V.E.			
+f104r	L21	8	28=	28	PT	PT	che	che			
+f104r	L21	9	"facendo"			CLEAR	facendo	facendo			
+f104r	L21	10	34^.	34	C	A	alcuno	alcuno			
+f104r	L21	11	75^.	75	C	C	deliberare	deliberare			
+f104r	L21	12	39~_v	39	P	P	potere	potere			
+f104r	L21	13	42~^-_.	42	T	T	trattare	trattare			
+f104r	L21	14	29^.	29	C	C	con	con			
+f104r	L21	15	10	10	A	A	Ambasciatore	Ambasciatore			
+f104r	L21	16	82^.	82	C	C	di	di			
+f104r	L21	17	ll'		X	X	Spagna	Spagna			
+f104r	L21	18	41^^_v	41	Q	Q	residente	residente			
+f104r	L21	19	33=	33	PT	PT	costì	costì			
+f104r	L21	20	68_:	68	G	G	il quale	il quale			
+f104r	L21	21	82^.	82	C	C	di	di			
+f104r	L21	22	53^-_.	53	T	T	tutto	tutto			
+f104r	L21	23	SPELLED			SP	È				
+f104r	L21	24	72^.	72	C	A	aviso	debitore	CLERK DIFFERS		
+f104r	L21	25	[et]		X	X	et	et			
+f104r	L21	26	20=	20	PT	I	informare	informare			

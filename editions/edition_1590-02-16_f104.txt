@@ -1,0 +1,100 @@
+# Cardinal Scipione Gonzaga to the Duke of Nevers: cipher sheet sent "con la lettera di 16 febraro 1590".
+# Cipher: BnF fr. 4698 f. 104r. Period decipherment: BnF fr. 4702 f. 97r-v ("di 16 febr. 90 R 9 ap.le da Pargi").
+# Text = the words of Nevers's clerk (1590), in the order of the cipher, with agreement and spelling made regular.
+# [word] = my correction from the cipher, where the clerk's word does not fit the mark on the film and the sense
+#          (his word is in fr4702_f97_decipherment.txt; the unit-by-unit table is alignment_f104.tsv).
+# [..]   = not resolved.
+# Made by a model on 3 Oct 2026. Not checked by a palaeographer. The plain text is the clerk's, not a new decipherment.
+# A second period decipherment of nearly the same matter (letter of 19 Feb 1590, fr. 4698 f. 34r) is fr. 4702 f. 108r
+# (transcribed in survey_fr4702.md). It was not used here.
+
+## Italian
+
+Ho parlato di novo con l'Ambasciatore di Spagna, et per risolutione di domanda di V.E. dico che [il] motivo di
+proposta che ultimamente le feci in nome di lui nacque da poca inclinatione che fino hora ha mostrato Papa verso la
+persona di lei; da la quale mala dispositione seguita per necessità che S.S.tà non sia per operar gagliardamente né
+per il honore di lei né per l'accordo suo con la casa di Guisa, il che si conosce quanto [possa] importare a buon
+successo delle cose di Francia. Né potendo questo essere negotiato se non da Principe di somma autorità, venne il
+Ambasciatore in pensiero, et in questo si fermò, non potere tale effetto essere opera di altra mano che di quella di
+Re di Spagna; il quale, havendo in [sommo] grado [le qualità] che io toccai a V.E. di principe et di cavaliere, sì
+come può con autorità et grandezza sua collocar la persona di lei in quello stato di honore et di sicurezza che lei
+merita et deve desiderare, così non vuole né richiedere da lei né accettare di lei se non quanto sarà giusto et
+conveniente alla qualità di uno et di l'altro. Non sarà [dunque] per hora il fine di Re di Spagna il servirsi di
+V.E. fuori di Francia, ma sì il vallersi di opera sua et di suoi dependenti, come il Signor Duca di Longavilla,
+acciò che in quello regno non succeda alcuno Re heretico; che altro interesse non pretende hora Re di Spagna nella
+Francia. Et in questo ha non solo ogni debita consideratione a honore di V.E., ma pensa ancora di concederle di
+quelle gratie che a lei siano più honeste a riceverle che a domandarle. Intorno a quale particolare, havendo io
+posto innanzi la difficoltà di governo di Campagna, levato a V.E. dalla [casa] di Guisa, oltre le altre offese così
+circa la persona di Signora Duchessa sua figlia come circa la occupatione di [alcune] sue terre, rispose il
+Ambasciatore, quanto a questa ultima cosa, che tutto haverà [facile] rimedio, purché si accordi il punto principale
+di volontà. Quanto poi al primo di governo, dice non essere maraviglia se quei [Signori] l'hanno occupato, perché fu
+dato a loro in odio di [casa] loro; né per loro pensare essere obligati a seguire la cosa ordinata dal Re morto,
+poiché da medesimo fu rotta loro la fede nelli Stati. Per le quali ragioni non giudica bene S.Ecc. il domandare
+indietro questo governo, in quale pare più antica la attione loro; ma si contenti di altra cosa, la quale sia per
+essere di non minore sodisfatione, et sia non a vita ma perpetua in casa sua; intendendo però questo et senza
+pregiudicio di unione della Corona, et per quello tempo che le cose di Francia saranno stabilite, che a hora
+converrà premiare quelli che haveranno servito a così giusta impresa. Che poi le cose di Navarra [..] perdere [..]
+medesimo si intende da più bande; [ma] il Ambasciatore si crede che non andaranno egualmente quando Re di Spagna
+apertamente gli sarà contrario; sì come credo ancora che Navarra non osserverà a V.E. cosa che [hora] promette per
+havere lei dalla banda sua. [Però] sta in prudenza di lei il considerare quale di questi partiti debba più tosto
+essere accettato. A Scipione certo pare [quello] di Re di Spagna fermo et stabile, et dove non può essere rimorso di
+conscienza, congiungendosi V.E. con Re tanto Catolico et che non ha per fine di essere Re di Francia. Ma questo di
+Navarra [non] è sicuro, et [può] essere con [grande] offesa di Iddio et ruina et divisione del Regno, se lui non
+muta di vero [..]; di che fino hora non si vede molto buon segno, se non libere parole a fine di regnare. Et da
+questo io formo una conclusione: che [benché] lui si professi Catolico, non lo facendo per sua salvamento ma
+solamente per sua comodità et interesse mondano, non sarà mai veramente Catolico; [perché] in fatti la fede è dono
+di Iddio, non cosa che si acquisti per forza naturale; et Iddio per ordine non dà il suo dono a quelli che non lo
+vogliono, et [se] ne fanno sempre più indegni con simulatione. Replico a V.E. che, facendo alcuna deliberatione,
+potrà trattare con Ambasciatore di Spagna residente costì, il quale del tutto è [avisato] et informato.
+
+## English
+
+I have spoken again with the Ambassador of Spain. In answer to Your Excellency's question I say this. The motive of
+the proposal that I lately made to you in his name was the small favour that the Pope has shown your person up to
+now. From this ill disposition it follows of need that His Holiness will not work strongly either for your honour or
+for your agreement with the house of Guise; and it is known how much that agreement can matter for the good outcome
+of the affairs of France. This can be negotiated only by a Prince of the highest authority. So the Ambassador came
+to think, and settled on it, that such an effect can be the work of no hand but that of the King of Spain. The King
+has in the highest degree the qualities of prince and of knight that I named to you. As he can, by his authority and
+greatness, set your person in the state of honour and safety that you deserve and must wish, so he does not want to
+ask of you, or to accept from you, more than is just and fitting to the rank of the one and of the other.
+
+For the present, then, the aim of the King of Spain is not to use Your Excellency outside France. It is to make use
+of your work and of your dependants, such as the Duke of Longueville, so that no heretic King succeeds in that
+kingdom; the King of Spain claims no other interest in France now. In this he has every due regard for your honour,
+and he also thinks of granting you favours of the kind that are more honourable for you to receive than to ask.
+
+On this point I put forward the difficulty of the government of Champagne, taken from Your Excellency by the [house]
+of Guise, and the other offences, both to the person of the Duchess your daughter and in the occupation of some of
+your lands. The Ambassador answered on the last point that all will have an easy remedy, if the main point of will
+is agreed. On the first, the government, he says it is no wonder that those lords took it, because it was given [to
+you] out of hatred of their house; and they do not think themselves bound to follow what the dead King ordered,
+since he broke faith with them at the Estates. For these reasons His Excellency does not think it good to ask this
+government back; their claim to it seems the older. You should be content with another thing, which will be of no
+less satisfaction, and not for life but for ever in your house; this, however, without prejudice to the union of the
+Crown, and for the time when the affairs of France are settled, when it will be right to reward those who have
+served so just an enterprise.
+
+That the affairs of Navarre [..] is heard from several sides; the Ambassador believes that they will not go the same
+way when the King of Spain is openly against him. I too believe that Navarre will not keep to Your Excellency what
+he now promises in order to have you on his side. It is for your prudence to consider which of these two courses
+should be accepted. To Scipione the course of the King of Spain seems firm and stable, and one in which there can be
+no remorse of conscience, since you would join a King so Catholic, who does not aim to be King of France. The course
+of Navarre is not safe, and can bring great offence to God and the ruin and division of the Kingdom, if he does not
+truly change [religion]. Of that there is so far no very good sign, only free words said in order to reign. From
+this I draw a conclusion: though he profess himself a Catholic, if he does it not for his salvation but only for his
+convenience and worldly interest, he will never be truly Catholic. For faith is a gift of God, not a thing got by
+natural strength; and God by rule does not give His gift to those who do not want it and who make themselves ever
+more unworthy of it by pretence. I say again to Your Excellency that, if you take any decision, you can treat with
+the Ambassador of Spain who resides there; he is told and informed of everything.
+
+## Doubtful places
+
+- "[il] motivo": the clerk has "eternamente mottegiato".
+- "[le qualità]": the clerk has "curiosità ... huomo quale".
+- "fu dato a loro in odio di [casa] loro": the clerk has "fidato a lor in odio di disgusto loro". Who gave what to
+  whom is my reading of the sense.
+- "le cose di Navarra [..] perdere [..] medesimo": the clerk has "perdono languido medesimo"; not understood.
+- "[non] è sicuro": the cipher has the figure 76 "non"; the clerk left it out.
+- "[religione]": a figure with no word in the clerk's text; my guess from the sense.
+- "Longavilla": the clerk writes "Long.lla"; f. 108r writes "lunghavilla".

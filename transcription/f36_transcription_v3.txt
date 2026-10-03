@@ -1,0 +1,102 @@
+# BnF fr. 4698 f. 36r (img/v39_R.jpg; lines L01-L04) and f. 36v (img/v40_L.jpg; lines R01-R07). Cardinal Scipione Gonzaga to Nevers, Rome, 31 March 1590 (date on f. 37r).
+# Consensus of two passes: pass A by the coordinator of this task (v2work/f36_passA.txt), pass B blind by an agent that saw only the images (v2work/blind_f36_passB.txt).
+# Where the passes differ, the unit carries '?' and both readings are in the notes at the end.
+L01: 14_:? 32^^? 28=? 83_: 45? (11) | perp y a | 80^.
+L02: 82^. 53~^^_v 67_:? 76=? [et] 99_v? 28= 33^^? 80~^: 83= 11^^_v 17 12^-_. 10 59_v 53~? 30_:? 82^. 76= 10 (12) 63_- 96_.? 60^^? | xx E | 82^. 56^^? 28= (15) 33^:? 33? 82? 70? 59_v?
+L03: [et] 90=? 82^. 58? [et] 11^^_v 45^-_. 29^. 47^- (43) 16~^.? 67_: 59_v 46^. 68_-? 67_: (12) | xx E3 y L pi t S xi phi | 10 86^-_.? 61 11^^_v? 82^. 46 68_-? 83= 30_: 54^._. 76= (15)? 75=
+L04: | xx a y a | 90^._.? 50^-? 82^. 70? 44_.? 21^-_.? (15) 77~^-_.? 20^.? 63_- 87? 82^. (43) 13_-? 97= 75^. (15) | xx a y a | 10 59? 82^. 98^. 88^.? 82^. 76=? 28= (15) 61_:? 83_: 86^.?
+R01: (11) 82^. 95= 33^:? 65~_.? 58~^:? 83_: "A" (44)? 34^: 75= | S a y L a | 98 67_: 81 84=? 32= (29) 51= 47_.? 52= | # a | 68= 19= 82^. 11^^_v (34) 75=? 64^.? 89=
+R02: 15^.? | T | 28= 44= 56= 76= "ne n'è" 34^:? 62_v "si dice che ho habbia" 50^-? "habbia" 30=? 75=? 28= 83=? 23 68=? 28= 76= 87~_.? 90= (27) 12^^ (11) 72^.?
+R03: "Questo è certo per le ultime lettere che" 67_: 76=? 89=? 62_-? 10 88^^_v? 82^. 73 "la mandasse" 42_v 10 26? 28= (39)?
+R04: | a g | 50^- 67_: 28= | T | 15^. 10 32=? 70= 83_: 11^^_v 26^-_. 13_-? | F3 K a | 80^. 83_-? 73~_.? 10 60^- 28= 32= "havendolo" 32^^ 44= 69 62_v 68= 67_: 32^^ 46= "ben" 28=
+R05: (15) 28=? 59_v 9x=? 63_- (24) 14_v [et] 11^^_v 64~^.? (43) 28= "sia stato" 71_:? 69 60^- 82= 46=? 69 73 "Il ritrovarsi questo tempo"
+R06: "di" 30~^._-? 10 (50) "è difficilissima cosa per non dir impossibile, perché" 90_.? 57^. 70= 29^.? 55^: 71_.? 82^. 70^-
+R07: 79_-? 28= 79~^.? 63_- 84_: [et] 87^^ 82^. 79_- 77= (34) 75=? 80~^:? 41_v "Della liberatione ..."
+# agreement of the two blind passes: {'units': 234, 'same figure': 211, 'same mark': 152}
+# L01 mark A 14_: / B 14~_. -> 14_:
+# L01 DIFFERENT A [32^^ 28=] / B [82^-?]
+# L01 mark A 45 / B 45^. -> 45
+# L02 mark A 67 / B 67_: -> 67_:
+# L02 mark A 76= / B 76_- -> 76=
+# L02 mark A 99_v / B 99 -> 99_v
+# L02 mark A 33^^ / B 33~^: -> 33^^
+# L02 mark A 53~ / B 53^-_. -> 53~
+# L02 mark A 30_: / B 30~_: -> 30_:
+# L02 DIFFERENT A [96_.] / B [90_-]
+# L02 mark A 60^- / B 60^^ -> 60^^
+# L02 symbols A xx E / B # E
+# L02 mark A 56 / B 56^^? -> 56^^
+# L02 mark A 33^: / B 33~^: -> 33^:
+# L02 mark A 33 / B 33^. -> 33
+# L02 mark A 82 / B 82^. -> 82
+# L02 mark A 70 / B 70^: -> 70
+# L02 DIFFERENT A [59_v] / B [50_v]
+# L03 mark A 90 / B 90= -> 90=
+# L03 mark A 58 / B 58^. -> 58
+# L03 mark A 16~^. / B 16~ -> 16~^.
+# L03 mark A 68_- / B 68= -> 68_-
+# L03 symbols A xx E3 y L pi t S xi phi / B # E3 y L pi t S xi? phid
+# L03 mark A 86^._. / B 86^-_. -> 86^-_.
+# L03 DIFFERENT A [11^^_v] / B [15^^_v]
+# L03 mark A 68_- / B 68= -> 68_-
+# L03 DIFFERENT A [(15)] / B [(21)]
+# L04 symbols A xx a y a / B # a y qo?
+# L04 mark A 90 / B 90^._. -> 90^._.
+# L04 DIFFERENT A [50^-] / B [70=]
+# L04 mark A 70 / B 70^. -> 70
+# L04 DIFFERENT A [44_.] / B [84=]
+# L04 mark A 21= / B 21^-_. -> 21^-_.
+# L04 mark A 77_. / B 77~^-_. -> 77~^-_.
+# L04 mark A 20^. / B 20^._. -> 20^.
+# L04 mark A 87 / B 87_: -> 87
+# L04 DIFFERENT A [13_-] / B [93=]
+# L04 symbols A xx a y a / B # a y qo?
+# L04 mark A 59 / B 59^. -> 59
+# L04 DIFFERENT A [88^.] / B []
+# L04 mark A 76= / B 76_- -> 76=
+# L04 mark A 61_: / B 61^: -> 61_:
+# L04 mark A 86^: / B 86^. -> 86^.
+# R01 mark A 33^: / B 33~^: -> 33^:
+# R01 mark A 65~_. / B 65~^-_. -> 65~_.
+# R01 mark A 58~^: / B 58^: -> 58~^:
+# R01 DIFFERENT A [(44)] / B [(14)]
+# R01 symbols A S a y L a / B xi a y L Q?
+# R01 mark A 84_- / B 84= -> 84=
+# R01 DIFFERENT A [47_.] / B [42^-_.]
+# R01 DIFFERENT A [75=] / B [25=]
+# R01 mark A 64^. / B 64~^. -> 64^.
+# R02 mark A 15^. / B 15 -> 15^.
+# R02 mark A 34^: / B 34^. -> 34^:
+# R02 DIFFERENT A [] / B [50^- "habbia"]
+# R02 mark A 30= / B 30^._- -> 30=
+# R02 DIFFERENT A [75=] / B [95=]
+# R02 mark A 83= / B 83~_- -> 83=
+# R02 DIFFERENT A [68=] / B [65=]
+# R02 mark A 87~_. / B 87^-_:? -> 87~_.
+# R02 mark A 72^. / B 72^._. -> 72^.
+# R03 mark A 76= / B 76_-? -> 76=
+# R03 mark A 89_- / B 89= -> 89=
+# R03 mark A 62_- / B 62= -> 62_-
+# R03 mark A 88^:_v / B 88^^_v -> 88^^_v
+# R03 DIFFERENT A [26] / B [24 6x?]
+# R03 DIFFERENT A [(39)] / B [(37)]
+# R04 DIFFERENT A [SP{a g}] / B [29~?]
+# R04 mark A 32= / B 32^- -> 32=
+# R04 DIFFERENT A [13_-] / B [93=]
+# R04 symbols A F3 K a / B xi K a
+# R04 mark A 83_- / B 83= -> 83_-
+# R04 mark A 73~_. / B 73~^._. -> 73~_.
+# R05 mark A 28= / B 28^- -> 28=
+# R05 DIFFERENT A [9x=] / B [98=]
+# R05 mark A 64~^: / B 64~^. -> 64~^.
+# R05 mark A 71_. / B 71_: -> 71_:
+# R05 mark A 46_- / B 46= -> 46=
+# R06 mark A 30~_- / B 30~^._- -> 30~^._-
+# R06 mark A 90_. / B 90^._. -> 90_.
+# R06 mark A 29^. / B 29? -> 29^.
+# R06 mark A 71_. / B 71^-_. -> 71_.
+# R07 mark A 79_- / B 79= -> 79_-
+# R07 mark A 79~^. / B 79~? -> 79~^.
+# R07 DIFFERENT A [75=] / B [25=]
+# R07 mark A 80~^: / B 80^: -> 80~^:
+# R07 DIFFERENT A ["Della liberatione ..."] / B []

@@ -1,0 +1,176 @@
+BLIND PASS B - BnF fr. 4698, ff. 36r-36v (Card. Scipione Gonzaga to the Duke of Nevers, 1590)
+Images: img/v39_R.jpg (f. 36r), img/v40_L.jpg (f. 36v). Crop prefix: p36b.
+Sources used: the two images and v2work/blind_brief.md only. No other transcription, word list or reading was opened.
+No decoding was done.
+
+======================================================================
+PAGE 1 - f. 36r (img/v39_R.jpg)
+======================================================================
+
+--- CIPHER (4 lines; the cipher starts in the right part of a clear line) ---
+
+Clear words before the cipher: "... le cose dell'Unione, et particolarm.te la città di Parigi."
+
+L01: 14~_. 82^-? 83_: 45^. (11) | perp y a | 80^.
+L02: 82^. 53~^^_v 67_: 76_- [et] 99 28= 33~^: 80~^: 83= 11^^_v 17 12^-_. 10 59_v 53^-_. 30~_: 82^. 76= 10 (12) 63_- 90_- 60^^ | # E | 82^. 56^^? 28= (15) 33~^: 33^. 82^. 70^: [ink blot, one deleted unit] 50_v
+L03: [et] 90= 82^. 58^. [et] 11^^_v 45^-_. 29^. 47^- (43) 16~ 67_: 59_v 46^. 68= 67_: (12) | # E3 y L pi t S xi? phid | 10 86^-_. 61? 15^^_v 82^. 46 68= 83= 30_: 54^._. 76= (21) 75=
+L04: | # a y qo? | 90^._. 70= 82^. 70^. 84= 21^-_. (15) 77~^-_. 20^._. 63_- 87_: 82^. (43) 93= 97= 75^. (15) | # a y qo? | 10 59^. 82^. 98^. 82^. 76_- 28= (15) 61^: 83_: 86^.
+
+Clear words after the cipher: "Qui aspettiamo fra pochiss.o di Mons.r Patr.ca Caetano, dal quale spero haver"
+
+Counts f. 36r: L01 6 figures + 1 symbol group (3 symbols); L02 32 figures + 1 [et] + 1 group (2 symbols);
+L03 28 figures + 2 [et] + 1 group (9 symbols); L04 28 figures + 2 groups (4 + 4 symbols).
+Total 94 figures, 3 [et], 5 symbol groups (22 symbols).
+
+--- CLEAR TEXT f. 36r, line by line ---
+
+(top right: folio number "36"; an older number, struck out, reads "293"(?))
+Salutation: Ill.mo et Ecc.mo S.r mio oss.mo
+
+01 Per via di Mantova ricevei due giorni sono la l(ette)ra di V. Ecc.a di 28(?)
+02 di Feb.o(?). la quale per ogni risp.to mi fu som(m)am.te cara, ma in part.re per
+03 havermi accertato, ch'ella habbia scritto a 78 [gloss above the line: "D. di Mant.a"], perche con q.to ufficio so
+04 che si levarà dell'animo di (45) [gloss above: "S. A."] ogni disgusto, ch'egli havesse preso di 59(?) [gloss above: "55(?) sup.ne"(?)],
+05 si come per l'ultima mia di sabato pass.o le scrissi più diffusam.te.
+06 Da lui med.mo adunq(ue) V. Ecc.a intenderà l'animo suo, il quale però mi pare
+07 d'haver assai compreso dal sentimento fatto per l'ufficio di 59(?), et
+08 però farà q.llo, che le dettarà la sua prudenza poi che in cosa tanto
+09 dubbia, et che può haver buono et cattivo successo non giudico poter
+10 far altro, che pregar il S.r Iddio che la inspiri al meglio.
+11 Il med.mo dì, che arrivò la l(ette)ra di V. Ecc.a arrivò ancora un Corr.e spedito
+12 dall'Ill.mo Legato Caetano con la nuova della rotta data dal Re di
+13 Navarra al Duca d'Umena. per causa del quale avviso(?) N. S.re
+14 chiamò Congreg.ne generale hieri mattina, et diede conto à tutto il Collegio
+15 di quanto era successo, et del cattivo stato in che si trovavano le cose
+16 dell'Unione, et particolarm.te la città di Parigi. [cipher L01]
+17-19 [cipher L02-L04]
+20 Qui aspettiamo fra pochiss.o di Mons.r Patr.ca Caetano, dal quale spero haver
+   (the sentence runs on to f. 36v)
+
+Notes on the clear text of f. 36r:
+- Three cipher figures stand in the clear text, each with a clear gloss written above it by another hand:
+  78 = "D. di Mant.a" (line 03); (45) = "S. A." (line 04); the figure at the end of line 04 and again in line 07 looks
+  like "59" or "5g" with a gloss that I read "55 sup.ne"(?). I am not sure of this last figure or of its gloss.
+- Line 01-02: the date of the Duke's letter is "di 28 di ..."; the month is abbreviated and hard to read. The letters
+  look like "Feb.o"; "7b.re" is the other possible reading. The "28" has a stroke above it.
+- There is no date line on f. 36r.
+
+======================================================================
+PAGE 2 - f. 36v (img/v40_L.jpg)
+======================================================================
+
+--- CIPHER (7 lines, with clear words inside lines 2, 3, 4, 5, 6) ---
+
+Clear words before the cipher: "... accioche sentiamo più presto il flagello [...] li n(ost)ri peccati."
+
+L01: (11) 82^. 95= 33~^: 65~^-_. 58^: 83_: "A" (14) 34^: 75=? | xi a y L Q? | 98 67_: 81 84= 32= (29) 51= 42^-_. 52= | # a | 68= 19= 82^. 11^^_v (34) 25= 64~^. 89=?
+L02: 15 | T | 28= 44= 56= 76= "ne n'è"(?) 34^. 62_v "si dice che" 50^- "habbia" 30^._- 95= 28= 83~_- 23 65= 28= 76= 87^-_:? 90=? (27) 12^^ (11) 72^._.
+L03: "Questo è certo per le ult.e l(ette)re che" 67_: 76_-? 89= 62= 10 88^^_v 82^. 73 "havendolo"(?) 42_v 10 24 6x? 28= (37)
+L04: 29~? 50^- 67_: 28= | T | 15^.? 10 32^- 70= 83_: 11^^_v 26^-_. 93= | xi K a | 80^. 83= 73~^._. 10 60^- 28= 32= "havendolo"(?) 32^^ 44= 69? 62_v 68= 67_: 32^^ 46= "era"(?) 28=
+L05: (15) 28^- 59_v 98= 63_- (24) 14_v [et] 11^^_v 64~^. (43) 28= "sia stato" 71_: 69 60^- 82= 46= 69 73 . "Ho trovato il Sig.r Pompeo"(?)
+L06: "di"(?) 30~^._- 10 (50) "è difficiliss.a cosa per no(n) dir impossibile, perche" 90^._. 57^. 70= 29? 55^: 71^-_. 82^. 70^-
+L07: 79= 28= 79~? 63_- 84_: [et] 87^^ 82^. 79_- 77= (34) 25= 80^: 41_v .
+
+Clear words after the cipher (same line as L07, after a gap): "Della lettera [above the line: che] ..."
+
+Counts f. 36v: L01 27 figures + "A" + 2 symbol groups (5 + 2 symbols); L02 22 figures + 1 group (1 symbol);
+L03 14 figures; L04 28 figures + 2 groups (1 + 3 symbols); L05 18 figures + 1 [et]; L06 11 figures;
+L07 13 figures + 1 [et]. Total 133 figures, 2 [et], 1 "A", 5 symbol groups (12 symbols).
+
+--- CLEAR TEXT f. 36v, line by line ---
+
+01 più fresche novelle di V. Ecc.a, intendendosi, ch'egli sia passato per Nivers
+02 et abboccatosi con lei. per mezo del quale abboccam.to piaccia a Dio che
+03 si sia preso qualche buono appuntam.to così per honore et ser.tio di V. Ecc.a med.ma
+04 come per benefitio publico, et ser.tio di questa S.ta Sede. La l(ette)ra che V. Ecc.a si è
+05 degnata di mandarmi delli SS.ri Card.li Vandomo et Lenoncourt, poi(?) io
+06 l'haveva già(?) udita leggere in Concist.o per ord.e di N. S. [a word struck out; "il che"(?) written above] ciò le
+07 fusse(?) [sign] le mani del favore(?), essendo io ben certo dell'estimat.ne in che è
+08 tenuta da tutti la persona di lei, così piacesse a Dio che lo credesse
+09 ancora chi dovrebbe saperlo meglio d'ogni altro, che molto più ci sarebbe
+10 il ser.tio suo. ma io spero [sign] nella divina M.tà che non la lascierà continuar
+11 lung.te in q.o inganno, cagionato merament.e dal Demonio infernale, [above the line: "et permesso da Dio"(?)] forse
+12 accioche sentiamo più presto il flagello [sign] a' quali(?) ci conducono(?) li n(ost)ri peccati.
+13-19 [cipher L01-L07, with the clear words given above]
+19 (rest of the line of L07) Della lettera [above: che] letta(?) ... subito(?) suo(?)
+20 figlio(?) io scrissi a V. Ecc.a per le altre mie, perche qui n'haveva scritto il S. Card.l Legato,
+21 cioè(?) che S. S.tà haveva fatto intendere al S. Duca di Mant.a mi dovrebbe ri spen(?)
+   (the text stops here at the foot of the written block; the sentence is not finished)
+
+Notes on the clear text of f. 36v:
+- A short dash stands in the left margin before "Questo è certo" (cipher L03).
+- The same small sign (like "&" with a cross-stroke) stands in lines 06, 07, 10 and 12. In line 06 it fits "già".
+  I did not resolve it in the other lines.
+- DATE: there is NO date line on f. 36v. The written block ends about two thirds down the page, in the middle of a
+  sentence, with no closing formula and no signature. The letter must continue on the next page (f. 37r). I did not
+  look for other images.
+- Context that helps to date the letter: it answers a letter of the Duke "di 28 di Feb.o(?)" received two days
+  before; the same day a courier of the Legate Caetano brought the news of the defeat ("rotta") given by the King of
+  Navarre to the Duke of Mayenne ("Duca d'Umena"); the Pope called a general Congregation "hieri mattina".
+
+======================================================================
+DOUBTFUL PLACES
+======================================================================
+
+f. 36r
+- L01 82: the mark above looks like a short bar, not a dot (82 has a dot above everywhere else). Faint show-through
+  lies under this part of the line.
+- L01 14: a large arc (hook) above; one dot below. The dot above the 1 is the digit's own dot.
+- L01 80: a very small dot above, between 8 and 0. Doubtful.
+- L01 symbols: the first is an upright stroke on a base line (I name it perp); the third is a diamond with a tall stem.
+- L02 99: bare; faint specks below may be show-through.
+- L02 56: a caret-like mark above, but a pen flourish from the line above crosses here. Doubtful.
+- L02 28 (after 56): the upper bar may be part of that same flourish; the lower bar is clear.
+- L02 70^: : two dots above, one over each digit.
+- L02: a solid ink blot follows 70. It hides one unit (deleted by the writer). 50_v stands after it, written a little high.
+- L03 90=: the lower bar is short and faint.
+- L03 16~: arc above; no other mark seen.
+- L03 symbols 8 and 9: the eighth is smudged (three wavy bars, I name it xi?); the ninth is a phi with a dot above.
+- L03 "86^-_. 61? 15^^_v": this place is smudged. 86 (bar above, dot below) and 15 (circumflex above, caron below) are
+  fairly sure. Between them I see "6" and a stroke, read as 61. It could be another figure. No mark seen on it.
+- L03 46 (after 82^.): bare; the first 46 of the line has a dot above.
+- L04 fourth symbol of both groups: a diamond with a tail BELOW (not to the right). I write qo?; it may be sig.
+- L04 84=: both bars are short.
+- L04 87_: : two dots below, maybe a third faint one.
+- L04 93= and 97=: the 9s have long tails that cross the lower bars.
+- L04: two dots stand alone at the far right after 86^. (end mark, not transcribed as a unit).
+
+f. 36v
+- L01 75: bar above is clear; a faint stroke below. I give 75=?; it may be 75^-.
+- L01 fifth symbol: a circle with a cross (or dot) inside and a tail below. I write Q?; it may be qo or phi.
+- L01 58^: : two dots above; the 8 is blotted.
+- L01 89: curved stroke above and a stroke through the tail of the 9 below. I give 89=?.
+- L02 15: bare (the dot is the digit's own).
+- L02 clear words: "ne n'è" is doubtful; "si dice che" and "habbia" are fairly sure.
+- L02 87: bar above; two dots below at different heights (one may belong to 76). Doubtful.
+- L02 90=?: first digit has a long slanting tail, so 9; it could be 40.
+- L03 76_-?: first digit could be 2 (26_-).
+- L03 "42_v 10 24 6x": seven digits stand between "havendolo" and 28=, so one digit is left over. The digits are
+  4 2 1 0 2 4 6. The split may be different (e.g. 42 10 2 46). The 6 is written tall.
+- L03 and L04: the clear word reads "havendolo" or "havendole".
+- L04 29~?: first glyph of the line is cramped; arc above. Could be 19.
+- L04 15: dots above both digits; I give 15^.?.
+- L04 first symbol of the second group: three short bars (xi); it may be F3.
+- L04 32^^ (twice): small mark above the 2; caret rather than dot.
+- L04 69?, L06 29?, L07 79~?: the second digit is a j-like stroke with a dot above and a long tail, with no clear loop.
+  I read 9. It may be 1.
+- L04 "era"(?): short clear word before the last 28=; unsure.
+- L05 98=: the 8 is blotted.
+- L05 69 (twice): the 9 is small with a loop; a faint arc may stand above the first one.
+- L06 "di"(?): the first clear word of the line is unsure.
+- L07 79_- : bar below only; the first 79 of the line has bars above and below.
+- L07 80^: : two dots above; a flourish from the line above lies near them.
+- General: 1 is written as a dotted i; I did not count that dot as a mark.
+
+======================================================================
+CROPS
+======================================================================
+Cipher crops (all from the full-size images, LANCZOS):
+- f. 36r: p36b_r_L*_*.jpg 1100 px wide x1.8; p36b_rz_*.jpg 700 px wide x2.8; p36b_rz_L3r/L4r 620 px x3.2;
+  p36b_q_*.jpg close-ups 400-440 px x4.5.
+- f. 36v: p36b_vz_*.jpg 700 px wide x2.8; p36b_vq_*.jpg 640 px x3.0; p36b_vh_*.jpg 1000 px x2.0 (check pass);
+  p36b_vt_*.jpg close-ups 400-600 px x3.3-4.5.
+Clear text crops: p36b_rc_*.jpg and p36b_vc_*.jpg, 1620-1700 px wide x1.15-1.3; some close-ups x1.5-3.0.
+Overviews (position check only): p36b_ov_*.jpg, p36b_r_ov2.jpg, p36b_v_ov2.jpg, p36b_r_mid.jpg, p36b_v_mid.jpg.
+Cipher line positions found: f. 36r y = 3825, 3985, 4150, 4300 (x 750-3600);
+f. 36v y = 3380, 3535, 3665, 3800, 3940, 4070, 4210 (x 1380-4260; the lines rise a little to the right).

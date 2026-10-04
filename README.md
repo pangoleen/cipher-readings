@@ -38,6 +38,13 @@ The parts that rest on words read letter by letter:
 
 The names agree with the chronicles of the Great Captain. They were not used as a crib.
 
+A search of the printed sources after the reading ([evidence/print_check.md](evidence/print_check.md)) found no
+clear text of the letter. Zurita (*Historia del rey don Hernando*, book 5, ch. 25 and 29) used the same matter:
+he has "Hernando de Valencia", "Alonso Guerrero", the anger of the Cardonas, and Gioia "puesto a saco, y
+quemado". He does not have the sack of the fortress by night, the inquiry, or the threat to stab don Hugo. The
+probable cover letter survives: Lanuza to Almazán, Messina, 26 April 1503 (Real Academia de la Historia,
+Salazar A-11, f. 373), asking him to pass a letter to the King.
+
 ## How good is it
 
 | Measure | Value |
@@ -54,8 +61,8 @@ Limits, stated plainly:
 - Three signs that look alike were confused by the passes. A third pass can change single words.
 - Three of the eight points of the summary rest on code words with no value. The reading file says which.
 - The clear Spanish on f. 120v is in a fast hand and was not checked on the image.
-- The archives of Simancas, the Real Academia de la Historia, de la Torre's edition and Zurita were not searched
-  for a clear text.
+- Not reached in the search for a clear text: de la Torre's edition (vol. 6), Simancas. The catalogue of the BnF
+  Spanish manuscripts (Morel-Fatio, no. 172) and the index of the Salazar collection note no decipherment.
 
 `control.py` needs a five-letter-group table of Spanish that is too large for this repository (47 MB).
 

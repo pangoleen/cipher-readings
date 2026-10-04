@@ -1,0 +1,47 @@
+# Window proposals, version 4 (no period gloss). list<TAB>figure<TAB>word<TAB>window in lists_v4 and the contexts. Proposals only; in the readings they stand in {braces}.
+# State: KEPT = proposal of interp_v3, still with no gloss. NEW = made in this round. (?) = two or more words fit the window; the word in the reading carries (?).
+I	76	legato	KEPT. Lega 74 <..< legisti 77. f36r "se ERA bene di {richiamare} il {legato}", f36r L04 "di {legato} che si {aspetta}", f36v "le ultime lettere che il {legato} poco innanzi a rotta di Umena". 3 contexts. Note: N 26 (bar above) is also glossed "legato".
+Q	53	richiamare	KEPT. ricevere 52 <..< riguardo 64. f36r "se ERA bene di {richiamare} il {legato}". 1 context.
+BR	12	secondo	KEPT. se 11 <..< sempre 13. f36r "A primo ... a {secondo}", "il primo consiglio ... il {secondo} FU RIMESSO"; f26v L21 "È uno ... Il {secondo}". 3 contexts.
+E	33	dovere	KEPT. dono 30 <..< dubbio 34. f36r "quello che {dovesse} fare", "che si {dovesse} {aiutare}", f36v "se di qua {dovesse}", f26v L18 and L21 "se si {dovesse}". 5 contexts.
+O	62	partire	KEPT. particolare 61 <..< partito 63. f26v L06 "{partì} di qua", "per questa sua {partita}", L08 "dopo la {partita} di [O]". 3 contexts.
+E	58	esercito	KEPT. esempio 55 <..< espedito 59. f36v "se di qua {dovesse} {venire}(?) {esercito} in Francia". 1 context.
+E	55	esempio	KEPT. esaltatione 52 <..< esercito 58. f36v "massimamente con {esempio} [..] di Volta". 1 context.
+A	33	aiutare	NEW; replaces C 33 "concorrere", which fr.4696 contradicts. aggiungere 30 <..< alcuno 34 (a clerk's slip gives "aiuto" for 32). f36r "che si {dovesse} {aiutare} di danaro primo et poi di arme". 1 context.
+A	90	cacciare	NEW; replaces C 90 "dire". bontà 89 <..< camino 93 (A and C are not told apart by the mark). f26v L11 "se oltre il {cacciare} {via} [O] non scomunicava", L18 "se si {dovesse} {cacciare} ... il Amb.re di Spagna", f27r "che non si havesse {cacciare}". 3 contexts.
+BR	24	via	NEW. verso 23 <..< volta 25. f26v L11 "il {cacciare} {via} [O]", f36v R05 "la {via} {piacevole}". 2 contexts.
+G	26	giorno	KEPT. gagliardo 14 <..< giudicio 30. f26v L10 "ogni {giorno} et quasi ogni hora", f27r "per qualche {giorno}". 2 contexts.
+Q	21	radunare	KEPT (was "radunanza"). raccomandatione 17 <..< ragionamento 23. f26v L11 "chiamò una {radunanza} di 20 cardinali", L16 twice, L21 "soldati Spagnoli {radunati}". 4 contexts.
+P	44	preciso	KEPT (?). povero 40 <..< premio 48. f26v L20 "questo ordine così {preciso}". 1 context.
+Q	43	restare	KEPT. residente 41 <..< reverenza 45. f26v L10 "ne {restarono} [..] molti cardinali di {faticare} perché non seguisse". 1 context.
+C	81	devotione	KEPT. detto 80 <..< di 82. f26v L06 "{partì} di qua per una sua {devotione}". 1 context.
+E	75	fama	KEPT. fallire 73 <..< fatica 79. f26v L07 "subito si levò {fama} che Papa si fosse accordato con Re di Spagna". 1 context.
+Q	83	ritorno	KEPT. ritirare 82 <..< romore 87. f26v L09 "certo aviso di {ritorno} di [O]". 1 context.
+P	62	principio	KEPT. principale 61 <..< privato 63. f36v "non ve n'è alcuno {principio}", "ordine fino da {principio}". 2 contexts.
+A	68	audienza	NEW. atto 66 <..< autorità 70. f26v L08 "in primo {audienza} dopo la {partita} di [O]". 1 context.
+T	56	vano	NEW. valore 55 <..< vario 58. f26v L09 "Ma presto si conobbe {vano} questo {romore}". 1 context.
+Q	87	romore	NEW. ritorno 83 <..< rotta 88. f26v L09 "{vano} questo {romore}, perché ... certo aviso di {ritorno}". 1 context.
+T	65	venire	NEW (?). vario 58 <..< vero 67 (venire 68 is glossed; if that gloss holds, 65 is "venuta" or another word). f26v L09 "con {venuta} di uno [..] di Spagna", f36v R01 "se di qua {dovesse} {venire} {esercito} in Francia". 2 contexts.
+P	90	publico	NEW (?). prudenza 89 <..< punto 92. f26v L09 "come primo di effettuare {publico} p". 1 context. Shaped by the known threat of a public protest.
+E	79	fatica	NEW (?). fama 75 <..< fatto 80. f26v L10, with the verb sign: "ne {restarono} [..] molti cardinali di {faticare} perché non seguisse". 1 context.
+M	62	modo	NEW. mio 54 <..< molto 65 (fr4696/readings.md has {modo} for M 61 or 62). f26v L12 "ma [..] di {modo} come haveva [..] in negotio di Francia". 1 context here, 2 in fr.4696.
+P	68	procurare	NEW. processo 67 <..< professare 70. f26v L12 "quanto haveva {procurato} di [..] sempre con buona intelligenza et sodisfatione di Re di Spagna". 1 context.
+PT	65	in somma	NEW (?). insieme 64 <..< intorno 66 ("intanto" also fits). f26v L13 "Et {in somma} il parere di quasi tutti fu". 1 context.
+M	31	mattina	NEW. matrimonio 30 <..< medesimo 33. f26v L16 "per la {mattina} dopo una altra {radunanza}". 1 context.
+PT	21	a pena	NEW (?). ancora 19 <..< appresso 23. f26v L19 "et sì perché {a pena} può credere che questo ordine ... venga da Re di Spagna". 1 context.
+C	36	confine	NEW, against a weak gloss ("confusione", see table_notes_v4.tsv). confidenza 35 <..< conforme 37. f26v L21 "a questi {confini} di Stato di {Chiesa}". 1 context.
+C	17	chiesa	NEW. chiaro 16 <..< ciascuno 18 / città 19 (A 17 "accidente" has a gloss; the mark does not tell A from C). f26v L21 "{confini} di Stato di {Chiesa}". 1 context.
+C	18	ciascuno	NEW. chiesa 17 <..< città 19. f27r R01 "A primo {ciascuno} fu di parere che non si havesse {cacciare}". 1 context.
+S	79	spavento	NEW. sospetto 73 <..< spirito 83. With the verb sign: f27r R01 "più tosto per {spaventare} che per altro", f36v R07 "oltre che {spaventa} la {incertezza} et pericolo di lettere". 2 contexts.
+O	19	offerire	NEW (?). offesa 18 <..< officio 20 (strict order wants offerire before offesa; the order is loose). f27r R02 "i due cardinali Spagnoli che a questo si {offerirono}". 1 context.
+Q	84	ritrarre	NEW (?). ritorno 83 <..< romore 87. f27r R03 "ne hanno {ritratto} promessa che non si farà altro". 1 context.
+PT	93	pure	NEW. presto 92 <..< purché 94. f27r R07 "se non È non {pure} Catolico ma grato et confidente a S.M.tà", f36r L04 "{Pure} qualche deliberatione si FARÀ", f36v R04 "{pure} L'HA fatto per mostrare a Spagnoli". 3 contexts.
+T	28	tentare	NEW (?). tempo 26 <..< termine 30. f36v R05 "il ordine forse era che si {tentasse} primo [..] la {via} {piacevole}", f27r R08 "et però minaccia {tentare} di". 2 contexts.
+P	14	piacevole	NEW (?). piacere 13 <..< piccolo 18. f36v R05 "la {via} {piacevole}". 1 context.
+M	20	manifesto	NEW. male 10 <..< mano 21. f36r L04 "perché tale si vede {manifesta} la inclinatione di S.S.tà". 1 context.
+A	59	arrivo	NEW (?). arme 58 <..< atto 66 (C 59 "corrivo" has a gloss; the mark does not tell A from C). f36r L04 "qualche deliberatione si FARÀ a {arrivo} di {fratello} di {legato}". 1 context.
+E	98	fratello	NEW (?). forza 94 <..< END: a wide window. f36r L04 "a {arrivo} di {fratello} di {legato} che si {aspetta} in {breve}"; the clear text that follows says "Qui aspettiamo fra pochi dì Mons.r Patr.ca Caetano". 1 context.
+E	61	espettare	NEW (?). esperienza 60 <..< età 66 (with one dot: A 61, arme 58 <..< atto 66, "aspettare"; the same verb). f36r L04 "che si {aspetta} in {breve}". 1 context.
+A	86	breve	NEW (?). bisogno 83 <..< bruttezza 88 (buono 84 and bontà 89 break the order here). f36r L04 "in {breve}". 1 context.
+G	84	incertezza	NEW (?). in 83 <..< inclinare 87. f36v R07 "la {incertezza} et pericolo di lettere". 1 context.
+BR	29	è	NEW (?). essendo 28 <..< ho 30: a form of essere. f27r R08 "ma S.S.tà {è} contento quasi troppo", f36v R01 "perché così {è} già trattato [..] FA". 2 contexts. Against it: È is spelled with the sign T in other places.

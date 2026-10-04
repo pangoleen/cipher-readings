@@ -1,0 +1,99 @@
+BLIND PASS C - cipher of Scipione Gonzaga 1590, BnF fr. 4698 (microfilm)
+Folio 36 recto = img/v39_R.jpg ; folio 36 verso = img/v40_L.jpg
+Transcription only. No decoding. No other project file was read (only v2work/blind_brief.md,
+sheets/marks.jpg, sheets/marks_captions.txt and the two images).
+Notation: as in the brief. `?` after a unit = doubt, explained in the notes.
+
+== FOLIO 36 RECTO (img/v39_R.jpg) ==
+Clear words before the cipher: "... la citta di Parigi."
+L01: 44~^._.? 32^- 83_: 45^. (11) | perp y a | 80^.?
+L02: 82^. 53~^^_v 67_: 76_- [et] 99 28= 33~^:? 80~^: 83= 11^^_v 17 12^-_. 10 59_v 53^-_. 30~_: 82^. 76= 10 (12) 63_- 96_- 60^^ | # E | 82^. 56^^ 28= (15) 33~^: 33^. 82^. 70^: [ink blot] 50_v
+L03: [et] 90= 82^. 58^.? [et] 11^^_v 45^-_. 29^. 47^- (43) 16~ 67_: 59_v 46^.? 68= 67_: (12) | # E3 y L? pi t S xi phi | 10 86^-_. 67? 15^^_v? 82^. 46 68= 83= 30_: 54^._. 76= (11) 75=
+L04: | # a y qo? | 9? 10_. 70= 82^. 70^. 94=? 21^-_. (15) 77~^-_. 20^._. 63_- 87_:? 82^._.? (43) 93= 97= 75^. (15) | # a y qo? | 10 59^. 82^. 98^: 82^. 76_- 28= (15) 61^.? 83_: 86^.
+Clear words after the cipher: "Qui aspettiamo con(?) ... di Mons.or ..."
+
+== FOLIO 36 VERSO (img/v40_L.jpg) ==
+Clear words before the cipher (line above R01): "... sentiam(?) piu presto il flagello ... per li n.ri peccati."
+R01: (11) 82^. 95= 33~^: 65~^-_. 58^: 83_: "A" (14) 34^: 75= | =? a y L? Q? | 98 67_: 81 84= 32= (29) 51= 42^-_. 52= | # a | 68= 19= 82^. 11^^_v (34) 75= 64~^. 89=?
+R02: 15^. | T | 28= 44= 56= 76= "ne n'e" 34^. 62_v "a dire de" 50^- "Subbia"(?) 30^._- 95= 28= 83~_- 23 65=? 28= 76= 87~^-_:? 10=? (27) 12^^ (11) 72^._.
+R03: "Questo e certo per le ult.e ...(?) de" 67_: 26_- 89= 62= 10 88^^_v 82^. 73 "Sia mandato"(?) 42_v 10 2? 46 28= (37)?
+R04: 19~? 50^- 67_: 28= | T | 15^: 10 32^- 70= 83_: 11^^_v 26^-_. 93= | F3? K a | 80^. 83= 73~^._. 10 60^- 28= 32= "Similmente"(?) 32^^ 44= 69^.? 62_v 68= 67_: 32^^ 46=? "ben a"(?) 28=
+R05: (15) 28^-_.? 59_v 98=? 63_- (24) 14_v [et] 11^^_v 64~^. (43) 28= "sia stato" 71_: 69^. 60^- 82= 46= 69^. 73
+R06: "di" 30~^._- 10 (50) "e difficiliss.a cosa per non dir impossibile ...(?)" 90^._. 57^. 70= 29^. 55^: 71^-_. 82^. 70^-
+R07: 79= 28= 79~^._-? 63_- 84_: [et] 87^^ 82^. 79_- 77= (34) 75= 80^: 41_v
+Clear words after the cipher: "Della liberat.e(?) ... Sig.ra io scritti a V. ... per le altre mie ..."
+
+== COUNTS ==
+Recto: 4 cipher lines. 95 figures (L01 6, L02 32, L03 28, L04 29), 3 [et], 22 symbols. 120 units.
+Verso: 7 cipher lines. 133 figures (R01 27, R02 22, R03 14, R04 28, R05 18, R06 11, R07 13), 2 [et], 1 "A", 12 symbols. 148 units.
+
+== NOTES ON DOUBTFUL UNITS ==
+General: bars (above, below, both) and dots above are clear on this film. The weak points are
+(1) dots below, because show-through from the other side makes small grey spots, and
+(2) arc against circumflex, when the sign is small.
+I counted the dot of a digit 1 as the digit's own dot, not as a mark.
+
+RECTO
+L01 44~^._.  FIGURE sure (two open 4). MARK in doubt: the arc and the dot above are clear. The dot below is a
+             short dark stroke under the first 4; it can be the foot of the 4. Candidates: 44~^._. or 44~^.
+L01 32^-     the bar above is thin and a little curved; I read a bar.
+L01 80^.     MARK in doubt: a very faint dot above the 8. Candidates: 80^. or bare 80. The 8 is faint but sure.
+L01 symbols  first symbol is an upright stroke on a base line (perp); third is a diamond with a tall stem (a).
+L02 53~^^_v  three signs: a round arc at the top, a small circumflex under it, and a tick (caron) below. All three seen.
+L02 33~^:    (first one, after 28=) FIGURE in doubt: second digit 3 or 7 (33 or 37); the top of it is thick.
+             MARK in doubt: two dots above are sure; the sign over them is an arc or a circumflex (33~^: or 33^^ with two dots).
+L02 12^-_.   read as 1 + 2 with bar above and dot below. The 1 is short. It stands right after 17.
+L02 [ink blot] a round black blot between 70^: and 50_v. It can hide one figure. Not counted.
+L02 96_-     first digit has a long tail (9). Bar below only.
+L03 58^.     MARK in doubt: a large round dot above the 5, larger than the other dots. Candidates: 58^. or bare 58 with a blot.
+L03 29^.     dot above the 9 is clear; the blob under the unit is the end of the tail of the 9, not a mark.
+L03 16~      arc above only. The small dot is the dot of the 1.
+L03 46^.     MARK in doubt: one small dot above, between 4 and 6. Candidates: 46^. or bare 46.
+L03 L?       small lambda shape; `L` or `r`.
+L03 E3       shape like a reversed E / small round "э".
+L03 67?      FIGURE in doubt: the unit after 86^-_. is smeared. I see 6 and then 7. Candidates: 67 or 61. No mark seen.
+L03 15^^_v?  FIGURE in doubt: 15 or 11. The second digit has the S shape of a 5. Marks (circumflex above, caron below) are clear.
+L03 10       (after phi) bare; the dot is the dot of the 1.
+L04 9?       a single 9 with a long tail stands between the symbol group and 10_. I cannot pair it. It can be a
+             symbol or the first digit of a three-digit run 9-1-0.
+L04 qo?      fourth symbol of both groups: a diamond (not a circle) with a tail below.
+L04 94=?     FIGURE in doubt: first digit is a heavy blot; 94, 44 or 84. Bars above and below are clear.
+L04 87_:?    MARK in doubt: one clear dot below and one faint dot. Candidates: 87_: or 87_.
+L04 82^._.?  MARK in doubt: the dot above is clear. The dot below sits low and to the left. Candidates: 82^._. or 82^.
+L04 98^:     two dots above, one over the 9 and one over the 8.
+L04 61^.?    MARK in doubt: two dots above; I take one as the dot of the 1. Candidates: 61^. or 61^:
+L04 end      two small dots like a colon stand after 86^. ; I read them as punctuation, not as a unit.
+
+VERSO
+R01 =?       first symbol of the group: two short bars joined by a thin slanted line. `=` or `xi` (Z-like).
+R01 L?       small lambda; `L` or `r`.
+R01 Q?       diamond with a cross-bar and a stem below. `Q` or `dbar`.
+R01 89=?     MARK in doubt: the upper stroke is a little curved (bar or arc); the lower bar is crossed by the tail of the 9.
+             Candidates: 89= or 89~_-
+R02 65=?     FIGURE in doubt: second digit is blotted; 65 or 68. Bars are clear.
+R02 87~^-_:? MARK in doubt below. Arc and bar above are clear. Below there are two dots, far apart: one under the 6 of
+             the unit before (76=), one at the end of the tail of the 8. Candidates: 87~^-_: or 87~^-_. (and then 76= has a dot below too).
+R02 10=?     MARK in doubt: bar above is clear; the lower bar is crossed by a slanted stroke. Candidates: 10= or 10^-
+R03 2?       a single digit 2 between 10 and 46. The digits read 4-2-1-0-2-4-6 before 28=. Other split: 42_v 10 24 6.
+             The pair "10" can also be the clear word "io".
+R03 (37)?    FIGURE in doubt: second digit has a long tail; (37) or (39).
+R04 19~?     MARK in doubt: a short thick curved stroke above the unit at the line start. It can be an arc or the
+             end of the tail of "Questo" in the line above. Candidates: 19~ or bare 19.
+R04 F3?      three short bars with a stroke at the left; `F3` or `xi`.
+R04 69^.?    FIGURE in doubt: 69 or 61; the second digit has a long tail and almost no loop. Dot above is clear.
+R04 46=?     FIGURE in doubt: first digit heavy; 46 or 86. Bars are clear.
+R05 28^-_.?  MARK in doubt: bar above is clear. A dot stands below, between this unit and the arc of 30 in line R06.
+             Candidates: 28^-_. or 28^- (the dot then belongs to R06 30).
+R05 98=?     FIGURE in doubt: the 8 is blotted; 98 most probable. Bars clear.
+R06 30~^._-  arc above, one dot over the 0, bar below. See R05 28 for the second dot.
+R07 79~^._-? FIGURE in doubt: 79 or 71 (second digit thin, with a tail). MARK in doubt: arc and dot above are clear;
+             the bar below can be the foot stroke of the 7. Candidates: 79~^._- or 79~^.
+R07 [et]     the diamond is filled with ink; the dot inside is still seen.
+
+== CROPS ==
+Files: v4/pC_*.jpg (my own crops only).
+Line crops: 1000 px of page width x 320 px, enlarged 2 times (LANCZOS), one cipher line each, overlap 150 px or more
+(names pC_rL0n_a..d for the recto, pC_vR0n_a..d for the verso).
+Zoom tiles used for the marks: 450 px x 250 px, enlarged 3.5 times, step 380 px (names ..._z0.._z7).
+Extra zooms on doubtful units: about 300 px x 160 px, enlarged 5 or 6 times (names ..._y*).
+Locators and context strips: pC_ov*, pC_loc*, pC_*_ctx (reduced; not used to read figures).

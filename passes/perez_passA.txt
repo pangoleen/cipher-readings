@@ -1,0 +1,248 @@
+# Pass A (the solver, 4 Oct 2026), from the Gallica IIIF images (canvases 84, 85, 154, 156, 176, 177).
+# Plain Spanish in the manuscript's spelling; abbreviations opened in [ ]; [gutter] = hidden in the binding; (?) = doubtful.
+# Cipher passages between << >>. Notation: base + mark. Marks: + (plus after), o (6-shaped hook after), . (dot right),
+# , (dot below), ' (dot above), ^ (caret or acute above), = before the base (plus above). X = the looped H-like sign.
+# S = the sign like a v/2 with a roof that stands for "o" (Cabinet Noir's sigma).
+== f87r
+Ill.e S.r
+En esta respondere a tres cartas de v.m. de 4
+24 y xxvij de agosto y prim[er]o dire q[ue] me ha pesado
+harto de no aver tenido lugar de escrevir largo a v.m.
+con estos correos passados / pero cierto no he podido mas
+y bien lo creera v.m. pues no lo he hecho /.
+Tambien dire primero q[ue] me ha pesado mucho del des
+graciado parto de mi s[eñor]a doña Ysabel / q[ue] estava yo
+muy contento por el contentami[ent]o de v.m. pero pues
+ya son de prueva entrambos se podra remediar
+el daño /. Doña Juana pario pero hija, y yo
+estava con desseo de recobrar a Her[nan]do / quiça acertaremos
+otra vez, aunq[ue] v.m. con ser mas viejo anda mas descan
+sado /.
+Hizo me v.m. mucha m[e]r[ce]d en avisarme de todo lo q[ue] toca
+a << 9o 1 12 3o 1 19o 9+ 19o 18o 2. 15 o 20 >> / yo me he gover
+nado con el como a v.m. le ha parescido / y v.m.
+continue el advertirme de todo lo q[ue] le paresciere /.
+Al Rey mostre la carta q[ue] el {struck: not legible} {above: tu xi}
+escrivio a v.m. y yo creo muy bien lo q[ue] v.m.
+cerca desto me escrive / pero v.m. proceda como
+procede q[ue] assi lo quiere el Rey y me ha mandado
+q[ue] lo escriva a v.m. /
+En lo de Nazareth << X 1? P^ 1? 15 3. 3. 4 1 X >>
+avra visto v.m. lo q[ue] el Rey le escrive y por alli
+se ha de procurar el Remedio de aquello porq[ue] yo bien
+creo lo q[ue] v.m. cerca desto me escrive de q[ue] no << 5. 12 7^ 10'
+9, 9o 12 20+ 10o 6+ 10 21+? xi >> como deviera /.
+== f87v
+Al Rey he hablado en los particulares de v.m.
+y en lo mal q[ue] lo haze el marq[ue]s de Ayamonte y ha
+me mandado q[ue] yo hable a Garnica para q[ue] se provea
+de lo de Milan alguna parte a v.m. / y quiere escr[i][gutter]
+vir de su mano al marq[ue]s el cumplimi[ent]o de lo demas [gutter]
+y tambien hablare al Rey un dia destos en lo de la con[gutter]
+signacion pues v.m. ha bien menester lo q[ue] su m[ajesta]d [gutter]
+da y un pedaço mas para lo q[ue] ay se gasta / ya [gutter]
+Canaveras ha mandado dar su m[ajesta]d. [200?] ducados y [gutter]
+despachara la cedula /.
+Lo de la profession se remediara a lo q[ue] entiendo p[gutter]
+su m[ajesta]d me ha mandado q[ue] le de una memoria dell[gutter]
+y ya lo he hecho para ordenarlo a don Ant[gutter]
+de Padilla /.
+Al Rey he mostrado todo lo q[ue] v.m. me ha es[gutter]
+crito << 9+ 10o 2o xi 1o 21, 8 20+ mo 19, 1o 22' 8 19 18o 9+ 19' 2. [gutter]
+15 3o 21+ >> le haze mal << 21, 19 18o 8 1 12 21+ =3. 19 22. 2[gutter]
+18+ 19 >> / y la poca consideracion y muestra de mal[gutter]
+voluntad en << 5o 1 =20. 20 12 y 20 5^ 10. 17 18, >> y q[ue](?) [gutter]
+cunple desacreditar << X X P y 5^? xe? >> /.
+Y ha sido muy bien q[ue] v.m. me aya avisado de
+todo esto porq[ue] obra en el Rey y le parece har[gutter]
+mal / y v.m. se assegure q[ue] me acuerdo de v.[gutter]
+y de sus trabajos y q[ue] desseo verle fuera de[gutter]
+y q[ue] lo procurare y q[ue] sea con mucho ben[gutter]
+ficio suyo / y si yo puedo v.m. lo ve[gutter]
+== f88r
+Don Alonso de Soto m[ay]or se despachara presto y con el
+escrivire lo q[ue] mas se offresciere / anda desseoso de sacar
+a luz lo de don Gaspar y en verdad q[ue] si ellos lo encami
+nan bien q[ue] sea muy facil / Bolviendo a los particula
+res de v.m. me ha d[ic]ho el Rey y aun escrito q[ue] con
+suele y aun esfuerce a v.m. y le diga quan satis
+fecho esta de su serv[ici]o y cierto esto es mucho /. y yo
+procurare q[ue] las obras lo muestren /.
+Agora andamos embaraçados en lo de Portugal
+y entiendese cierto q[ue] toca el derecho y succession
+al Rey n[uest]ro S[eño]r despues del Car[dena]l /. n[uest]ro S[eño]r la Ill.e
+pers[on]a de v.m. guarde y prospere como
+yo desseo /. de Madrid xiij de Sept.e 1578
+de v.m. [servidor]
+Ant. Perez
+== f157r
+Ill.e S.r
+Aqui respondere a todas las cartas de v.m. con q[ue] me
+hallo q[ue] son de xxj y xxvij de 8bre / 2. 7. 13. 14.
+22 y 23 de noviembre / aunq[ue] a algunos puntos dellas
+ya tengo satisfecho en otras cartas mias /.
+El hijo de Antonio Maytin(?) Aleman de Augusta, me vio
+luego q[ue] vino / y dixo q[ue] despues tornaria mas despacio,
+no lo hizo / y poco ha q[ue] topandole yo me dixo q[ue] vendria
+a mi(?) y traeria consigo a aquel mercader de los escritorios
+y reloxes / no se si lo hara /.
+Lo << 9+ 3 21, 18. 20 3. 3+ C+ 9+ 3. 19 y 2. 19 >> se ha con
+siderado y se dessearia pero no se puede assi de golpe /
+pero el t[iem]po es gran pers[on]a para todo / y segun << po 10+
+9, 8 20+ 1 18o 2. 20. vo 3. Ta 21+ 2. 19 10o 1 a+ 1 6. >> /
+En lo del << 21. t' 2 a, 20. 18o >> no ay q[ue] dezir sino q[ue] todo
+tomara mejor termino con la nueva orden q[ue] se ha
+dado de q[ue] no << P^ y 15. 12 15 y 20 7^ 10. a 18, 1, 1. 9, 8 >>
+sino solo << xe >> /. lo qual se le escrive agora << 2^ 9^ y 3 p, 1
+10, 22+ 9+ 22. 20 2. >> / y con cessar << 8 3 2. 1+ 4o 9+
+3 9, 1+ 20o >> en los de ay << 10+ 2^ 19. 20. 1 18o 9o 19 3o 19 no 19 >> /.
+Tambien cessara agora << 3. 1' 8 a. 10o 20+ 19 22o 1
+9+ 1 10, y 21+ 19+ y a, y 10o 2+ 1 10. 9o 8 1 t+ y 20
+10. a 18, y^ 15 8 3 10o =20+ S 2. 15 o 20 >> / porq[ue] << 10o 1
+8 C. 20 3o 19 9+ y 15 , 8 19 20+ 2+ 9, y 9o 18o 9o >> /.
+Harto me ha pesado de q[ue] el credito q[ue] avia de
+embiarse a v.m. se aya detenido tanto / y yo he
+== f158v
+ydo hoy a hablar a Garnica sobrello y quedamos [gutter]
+en q[ue] me embiaria uno de 2U d[ucad]os para q[ue] vaya co[gutter]
+el correo desta noche, y despues de comer se lo he to[gutter]
+nado a acordar por un villete / desseo infinito q[ue] [gutter]
+me le embie porq[ue] con el se ayudasse v.m. en la necess[gutter]
+dad q[ue] representa / la qual creo yo muy bien [gutter]
+y la he representado a su m[ajesta]d /.
+Lo de la provision de v.m. desseo yo encaminar ta[gutter]
+a su gusto como v.m. mismo querria, y creame q[ue] ha[gutter]
+en ello lo q[ue] puedo /. querria concluirlo de mane[gutter]
+q[ue] para lo passado se diesse orden para q[ue] en[gutter]
+se pagassen en Milan, y q[ue] en lo por venir se hi[gutter]
+se ay la provision a v.m. de hasta 400 d[ucad]os al mes [gutter]
+no alçare la mano dello y de lo q[ue] su m[ajesta]d resolvie[gutter]
+avisare a v.m. / {above: y tengo buena esperança de q[ue] se ha de hazer /}
+<< 12 y 20 10. a 18, {above: 15 10 20, 8 3} 15 12 3o 19 9+ 2. 19 19+ 3+ 19 22[gutter]
+9, 20. 1 3. 19 fa 19^ >> y crea v.m. que no se queda[gutter]
+entre renglones << 3^ X 3o 19 9o 14+ 2, =3 ho 19 co[gutter]
+se 21+ 20, y 12 3 10. 20 10. 22+ 3o >> /.
+Viose la copia de carta de << 3 p, 1 10, 22+ 9+ 22. 2[gutter]
+2. >> para << 8 =19+ te >> y algo parecia tener de lo q[ue]
+v.m. noto en ellas /.
+Con la de 2 de noviembre vino la carta de Alonso
+Curiel sobre lo de San Thomer, y la nueva dio mu[gutter]
+contento / y v.m. crea q[ue] no ganaron d[e?] << P^ X 1[gutter]
+y 20 10. a 18, 15 10. 22+ 3o 8 1 9+ 19 22. C. 20 [gutter]
+19. 11, 9' 20, y 9+ xe >> porq[ue] parecio << y 10. 2' 15 2[gutter] >>
+y fueron avemarias q[ue] rezaron contra si << 22. 20[gutter]
+Ta 21+ 19+ 5. 18o 2. 9o >> /.
+== f159r
+Su mag[esta]d vio la carta q[ue] v.m. le escrivio a 2 de
+noviembre << 19o^ P^ 19o b+ 3o 9+ 3. 3, 6. >> y dize q[ue] toda
+via procure v.m. de << 15 20 8 1 18+ 1 9, 8 1 7^ 9o 3o
+21+ 2^ 19+ 22' 9, 8 20+ , 15 19, 7' 8 19+ si y a+ 20
+y 3. 19 2. 1o 19 y 3 6' 1o 19 22. 22+ 3+ 19 , 22+ 20o
+21+ 8 19 18o 19+ y 10o 1 8 3 2. 15 o 20 20+ 10. 18o
+21+ 19+ y si >> /.
+Muy bueno fue el advertimi[ent]o q[ue] v.m. escrivio
+en lo de << 2o 19 9+ 3. 2o 18. 9+ 21+ 19+ p+ 1 9. =19+
+10o 1 >> encomienda o cosa semejante antes que
+<< X por^ 10o 1 9, 1+ 20o 22' 20o >> / por todo respecto
+y alla entendera v.m. lo q[ue] en conformidad desto
+ha ordenado en ello su m[ajesta]d /.
+La difficultad q[ue] ay en esta corte para hallar dine
+ros sin muy particular cedula de su mag[esta]d he d[ic]ho
+a Garnica, y el trabajo q[ue] passava en hallarlos don
+Diego de Çuñiga, y quanto menos podra hallarlos agora
+v.m. /. veremos si cumple lo q[ue] me ha prometido de
+embiarme el credito q[ue] arriba digo para q[ue] vaya
+con este correo /.
+En lo demas q[ue] aqui yo no digo me remito a don
+Alonso de Sotomayor que como quien ha visto lo
+q[ue] aqui passa, y sabe lo q[ue] yo he platicado
+con el sobre todo, podra dar a v.m. muy parti
+cular relacion dello /. n[uest]ro S[eño]r la Ill.e pers[on]a de v.m.
+guarde y prospere como yo desseo /. de Madrid 8 de x.bre 1578.
+de v.m.
+Ant. Perez
+-- postscript
+[El cre]dito me embia [a de]zir Garnica q[ue] no me le puede [embiar](?)
+hasta mañana y no ha pare[cido]
+detener este correo importando
+[tan]to(?) pero llevarle ha otro correo q[ue] partira luego
+[..]el d[..](?) y quiça despachare yo con el credito
+a alcançar este correo /.
+== f179r
+Ill.e S.r
+Las cartas de v.m. a que devo respuesta son
+de 7, 18, 24 de diz[iembr]e / y 14 de enero / y aqui
+satisfare a los puntos dellas / con dezir primero q[ue]
+son de mucha satisfacion a n[uest]ro amo, el qual
+las ve todas, digo las q[ue] conviene / y huelga mucho
+con los avisos y consideraciones de v.m. en todo lo
+q[ue] escrive / y assi en esto no ay q[ue] dezir sino q[ue] v.m.
+continue en lo q[ue] hasta aqui /.
+Vi la carta de Ju[an] Ruiz de Herrera q[ue] vino con la
+de v.m. de 18 y me he maravillado de lo q[ue] alli
+se dize /. y en lo q[ue] toca a ver libre a v.m.
+de tanta pesadumbre no me descuydo / y voy
+mirando como se encamine q[ue] tenga v.m. ay su
+provision la q[ue] se suele, y crea v.m. q[ue] no
+me descuydare en esto, pues nadie dessea mas
+el descanso de v.m. y su provecho y contenta
+mi[ent]o q[ue] yo /.
+En lo del dinero q[ue] v.m. remittio aca aun no
+he podido hablar a su m[ajesta]d porq[ue] ha estado
+algunos dias absente en San Lorenço / y despues
+de venido al Pardo ha tenido un poco de roma
+dizo / y he lo dexado para dezirselo en
+presencia quando viniesse aqui o me llamasse,
+lo qual sera presto / y entonces lo hare como
+conviene /.
+== f179v
+Por la de xxiiij entendi la llegada ay de don
+Alonso de Soto m[ay]or y creo bien q[ue] v.m. s[gutter]
+devio holgar mucho con el y de entender de nos[gutter]
+tros de testigo de vista todo lo q[ue] huviere q[gutter]
+rido saber /. y quanto a lo q[ue] v.m. dize
+de q[ue] in specie o in genere << =3+ 17o 8 1 18+ 1 9, [gutter] >>
+algo de lo que << xe 5. 8 19 c, 18o 9+ 3 >> dig[gutter]
+q[ue] aunq[ue] se le dio a entender / << 8 1 6+ 1+ [gutter]
+20. 3 21+ 19+ 18+ 1, 12 y 3 6' 1. 1o 18, 10, [gutter]
+9+ 3o >> q[ue] ha passado (porq[ue] assi convino) [gutter]
+<< 8 10o 1 18. 1 18o 20+ 10. 18o , 21+ 1, 22o [gutter]
+4 2. 6, 1. 10, o 1 >> el pudo entender << 21+ 5[gutter]
+8 19+ 19. 3, 9o 9+ xe >> /. y con esto puede
+v.m. estar cierto de q[ue] ay todo recato en [gutter]
+papeles / con yr sobre aviso de q[ue] lo q[ue] h[gutter]
+<< 9+ 19+ 20 ro 2, 19o 3o >> venga en la << 14, f[gutter]
+22. 20 18, 10' 3. 20 >> porq[ue] el << ti 9+ [gutter]
+18. >> tiene mucha occupacion y no << 22' 8 [gutter]
+9+ >> recognoscer todas << 3. 19 co 19 >> y con [gutter]
+esta forma no avra peligro y de otra [gutter]
+nera le podria aver /.
+Quedo avisado del {struck: padre a..(?)} << 22. d+ y a, 3.[gutter] >>
+y(?) por lo q[ue] del v.m. me << 9, 14+ 2+ 3+ 4 [gutter]
+6, 1o >> y {above: me << 6^ 6' y 20 9. 20+ 9+ 3 >>} com[gutter]
+v.m. me lo advierte /.
+Sobre el particular de v.m. me ha hab[gutter]
+largo don Lor[enç]o de Vargas y entre los [gutter]
+== f180r
+dos avemos conferido lo q[ue] se ha offrecido y
+nos ha parecido / y a mi me parece muy
+justo y muy conviniente q[ue] se procure q[ue] v.m.s
+esten juntos y no tan divididos por la costa y
+por lo demas / y assi lo tratare con su m[ajesta]d
+lo mas presto q[ue] pudiere y hare en ello todo
+lo q[ue] v.m. sabe q[ue] procuro en sus cosas / y
+ha sido muy bien escrevirle sobrello y q[ue] le
+de la carta don Lor[enç]o de Vargas como lo
+hara luego q[ue] aqui llegue /.
+Lo de << 6. 20 10, y 9+ y 20 14+ >> es muy diffe
+rente << du 9+ 3o 21+ xe 19o 19 22+ C. a. Se
+7' 8 >> aquella arremetida y desvio de camino
+q[ue] hizo a << 10, 8 20 18. 10o 2, 19, o 1 >> que se le
+dio de q[ue] otro dia dare cuenta a v.m. q[ue] ago
+ra no tengo lugar /. en esta casa tene
+mos salud padres y hijos y doña Juana besa
+las m[ano]s de v.m. muchas vezes / cuya Ill.e
+pers[on]a n[uest]ro S[eño]r guarde como yo desseo /. de Ma
+drid 26 de en[er]o 1579
+de v.m.
+Ant. Perez

@@ -118,8 +118,8 @@ proposals. The events are known to historians from other sources; we did not com
 - The editions of the letters of 21 January and 16 February follow the clerk. In 49 units the editor preferred the
   cipher to the clerk's word; each case is in the alignment tables and needs a second reader.
 - The alignment of f. 34r had one pass.
-- BnF fr. 4690 holds about 55 more letters of the Cardinal with decipherments (1585 to 1589). It is not on Gallica
-  and was not seen. It can confirm or correct the table.
+- BnF fr. 4696 (Gallica `btv1b9059540q`) holds about 56 more letters of the Cardinal with decipherments (1585 to
+  1589). It was not used here. It can confirm or correct the table.
 
 ## Earlier work
 

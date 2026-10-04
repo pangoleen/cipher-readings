@@ -65,7 +65,10 @@ printed text of the letter was found.
 
 ## Open points
 
-- The same key should read the cipher letters of the ambassador Tresnel in the same volume. This is in work.
+- The five letters of the ambassador Tresnel in the same volume (ff. 68, 70, 252, 321, 323) are in clear from the
+  first word to the signature, so the key has no second text there. His dispatches of 1614 in BnF fr. 18009
+  (ff. 177-358) were not searched; a glossed cipher passage there would be a period check of the key.
+- Our transcription of the key sheet ([key_fr18009_f156.tsv](key_fr18009_f156.tsv), 259 rows) had one pass.
 - A second pass on the clear text.
 
 ## Contents
@@ -75,6 +78,7 @@ printed text of the letter was found.
 | `reading.md` | French text with the cipher passages in bold, English translation, notes |
 | `transcription.txt`, `pass1.txt`, `pass2_blind.txt` | The signs of each cipher line, and the two passes |
 | `decode.py`, `decoded_by_key.txt` | The decoder with the key table, the comparison of the passes, and the control |
+| `key_fr18009_f156.tsv` | Our transcription of the period key sheet |
 | `evidence/worklog.md` | The work log, with the search for sister letters and for the key |
 | `images/` | The key sheet and the cipher page, reduced, with the credit "gallica.bnf.fr / BnF" |
 

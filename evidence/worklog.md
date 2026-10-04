@@ -143,3 +143,67 @@ Counts are from the consensus transcription (189 signs with 8, 6 and 9 counted a
 `transcription.txt`, `pass1.txt`, `pass2_blind.txt`, `reading.md`, `decode.py`, `decoded_by_key.txt`, `src/`
 (catalogue and novelty texts, fr. 18009 manifest), `img/` (c328-c330 of Clair 369; `fr18009/c181.jpg` = the key;
 `s2/`, `z/`, `clear/` crops).
+
+## Second task (4 October 2026, afternoon): Tresnel's letters and other letters in this cipher
+
+Result: no further letter in this cipher is online for 1616-1617. Details in `tresnel_letters_clair369.md`.
+
+- Clair 369 ff. 68, 70, 252, 321-322, 323 (Tresnel to Mangot and to the Queen Mother, 9 Oct, 2 Nov, 13 Nov 1616):
+  all in clear. No cipher, so no decipherment, no reading file, no control. Canvases 75, 77, 263, 333, 334, 335.
+- Clair 369 ff. 324-339 (end of the volume; canvases 336-359): no letter from Rome, no cipher.
+- Clair 372 (Jan-June 1617): Du Nozet ff. 1-2, 7-8, 55-56 in clear; Gueffier f. 61 and Béthune f. 5 in clear on the
+  page seen. Du Nozet, 13 March 1617, f. 71r has nine short cipher groups in ANOTHER cipher (figures mixed with
+  letters). The Tresnel key does not apply. One-pass transcription in `tresnel_letters_clair369.md`. Not attacked.
+- Clair 372 f. 169 (Tomokiyo "Anonymous 2"): another cipher, with a period decipherment between the lines.
+- Gallica SRU (`dc.source all "Clairambault NNN"`): 0 records for Clair 366, 367, 368, 370, 371, 374; one record for
+  373 and 375. Tresnel's later letters are in Clair 370 and in fr. 18010-18012 (not online).
+- fr. 18009 (Rome 1614, the volume of the key): I looked at the openings of canvases 186-245 at 1000 px for cipher
+  with a decipherment (a period check of the key). Result: see below.
+
+### Key sheet transcription
+
+`key_fr18009_f156.tsv`: 259 rows (alphabet 73 signs in 22 columns; 5 rules; numbers 1-52 and 60-99; numbers 12-24
+with a comma; 24 letters with a comma; 27 letters with a bar above; 27 underlined letters). One pass, mine;
+(?) marks doubtful words. Not read: number 23 ("M. de R…"), letter "x," ("… de Gennes").
+
+### What the key sheet does not explain in the Cocquet letter
+
+- Line 7, first sign: a large Z without a bar. The key has a small barred z for C (row 3) and barred Z forms for
+  I (row 2) and P (row 1). Only C gives French ("car quant"). Doubtful.
+- The last sign of the letter, after the two nulls: the tall cross with three bars. By the key it doubles the sign
+  before it. After a null it has no effect. I take it as an end mark.
+- Dots on the line before some words (L01 before "n d e", L02 before 89, L10 before "aneantir"): not on the key
+  sheet. They look like word dividers.
+- S row 3 and T row 3 are almost the same sign on the key sheet (small oval with a bar). The letter has it 10
+  times; context gives s nine times and t once ("auoit").
+
+### Use of the nomenclator part
+
+Used: 86 (que, 3 times), 89 (quil, once), underlined pi (le, 6 times; also inside "Monta-le-on" and "al-le-r" and
+for "les" as "le" + s), underlined c with hook (la, twice), underlined y (il, 3 times).
+Not used although the key has a code: "sa maieste" (65), "roy" (2), "pais" (79 paix), "grand" (underlined m),
+"porte"/"pour" (83). Names without a code are spelled: "duc de Montaleon", "don Pedro".
+
+### Prior-art check for the second task (4 October 2026)
+
+- Copies of 4 Oct 2026 in `scout2/src/` (Bourdeau CATALOGUE, SOLVED_CATALOGUE, writeups, target list; cipher-lab
+  PROGRESS and cipher list; Aymeloglu README, TARGETS, SHORTLIST, CATALOGUE; Cabinet Noir README; Satoru index;
+  Tomokiyo louisxiii and blog feed): 0 hits for "18009", "Tresnel/Trainel/Treinel", "Nozet", "Aumale" (the only
+  hit is Bourdeau's Cocquet note, which names Trainel as ambassador and says the key is not found).
+- Web search for the key title and "Français 18009": only library records. No transcription or use of the key found.
+- Tomokiyo's Louis XIII article names for Clair 372 only f. 169. The Du Nozet groups of f. 71 are not in it.
+
+### fr. 18009 sweep (result)
+
+Canvases 186-202 only (ff. 161-176, May 1614): no Tresnel-cipher letter. Du Nozet's letter of 25 May 1614 (f. 168)
+has three cipher groups in his own cipher with a period decipherment above the line ("cardinal borghese",
+"Aldobrandin", "opinion"). Canvases 203-396 not looked at: Tresnel's own dispatches from Rome (June-December 1614)
+are there. A glossed passage in them would be a period check of our reading of the key sheet. Open.
+
+### Open after the second task
+
+- No second text in the Tresnel cipher was found online for 1616-1617. The Cocquet letter is still the only one.
+- Leads: (1) fr. 18009 ff. 177-358 for Tresnel's dispatches of 1614 in this cipher; (2) Du Nozet's cipher: rebuild
+  it from his glossed letters of 1614 and try the nine groups of 13 March 1617; (3) Clair 370 and fr. 18010-18012,
+  NAF 461 on site (not online).
+- The key sheet transcription had one pass. Number 23 and letter "x," are not read.

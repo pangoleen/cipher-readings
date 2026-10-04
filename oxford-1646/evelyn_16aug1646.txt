@@ -1,0 +1,30 @@
+Charles I to Sir Edward Nicholas, Newcastle, 16 August 1646. Evelyn, Diary and Correspondence, ed. Bray (1857) iv.178-179
+(archive.org diarycorresponde41evel, leaf n186; page image read by us, one pass).
+
+The print gives the glosses of Nicholas for the first part only, then "[erased]" and bare figures:
+
+  [necessary] to 422 : 360 : 550 : 520 : 269 : 17 : 503 : 280 : 356 : 84 : 107 : 43 : 282 : 162 : 200 : 216 :
+  258 : 133 : 280 : 366 : selfes there 365 : 280 : 251 : 84 : 282 : 7 : 281 : 122 : 431 : 216 : 383 : 251 : 56 :
+  67 : 46 : 75 : 70 : 59 : 112 : 57 : 78 : 281 : 81 : 360 : 361 : 319 : 27 : 148 : 58 :
+
+Glossed in the print: write to Marq: H. nor Earl of Southampton for hauing.
+
+Our reading of the whole passage (same key as f.10; key1646.tsv):
+
+  write | to | Marquis | H[ertford] | no-r | Earl | of | South-h-am-t-on | for | hav-ing |
+  more | care | of | them-{selfes} | then (than) | of | my | h-on-n-or | by | yield-ing | up | my | s-e-a-l-e-s |
+  and | s-w-or-d | to | the | re-b-el-s
+
+  "... yet I thinke it not necessary to write to Marquis Hertford nor Earl of Southamton, for having more care of
+  themselves than of my honnor, by yielding up my seales and sword to the rebels."
+
+Basis: 107 am, 148 el, 319 re, 383 up, 122 by, 365 then come from the Titus sister key (103 am, 144 el, 313 re, 383 up,
+118 by, 364 then); 258 more and 133 care, 431 yield from the sense and the order of the list (you 429, your 430, yield
+431); the letters a 46, l 75, e 70, s 57-59, t 43, h 84 are all confirmed in f.10 (Marston, Bartholomew, terms,
+Southward, Headington).
+Doubtful: 258 more (could be "much" = Titus 257), 133 care (Titus 129 not seen), "there" in the print (a clear word
+of the King or a gloss; we read 365 = then).
+Sense and date agree with the fact: Oxford gave up the Great Seal and the other seals and the sword of state in
+June 1646 (not checked today in a source; from general knowledge).
+Novelty: Bray (1857) left this part without decipherment; Aymeloglu (16 Sept 2026) and cipher-lab (2 Oct 2026) took
+only the glossed words from it. No reading of the tail found (grep of their notes, 4 Oct 2026).

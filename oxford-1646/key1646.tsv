@@ -1,0 +1,265 @@
+# Key of the cipher of the King with Sir Edward Nicholas, 1646 (f.10 of BL Add MS 72438; Evelyn iv 178-179).
+# grade: E = gloss by Nicholas in the print of Evelyn; E2 = our reading of the unglossed part of the letter of the King of 16 Aug 1646; T = sister key (Titus cipher 1648) with shift, fits context; C = context only; ? = doubtful; U = not read (a guess may follow the number).
+# _ and . , = nulls or stops (their exact sense is not known).
+code	value	grade	count_in_f10	basis
+0	_	C	1	spelled words in f.10
+1	_	C	11	spelled words in f.10
+2	_	C	5	spelled words in f.10
+3	_	C	3	spelled words in f.10
+4	_	C	8	spelled words in f.10
+6	_	C	1	spelled words in f.10
+7	n	E	3	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+8	n	C	2	spelled words in f.10
+9	n	C	3	spelled words in f.10
+10	u	C	3	spelled words in f.10
+11	u	C	7	spelled words in f.10
+12	u	C	1	spelled words in f.10
+14	g	C	2	spelled words in f.10
+17	r	E	5	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+18	r	E	6	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+19	r	E	9	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+20	_	C	7	spelled words in f.10
+21	_	C	1	spelled words in f.10
+25	b	C	4	spelled words in f.10
+27	b	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+31	o	E	9	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+34	v	C	3	spelled words in f.10
+35	,	C	5	spelled words in f.10
+36	f	C	3	spelled words in f.10
+37	f	C	2	spelled words in f.10
+39	i	C	1	spelled words in f.10
+40	i	E	12	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+43	t	E2	3	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+44	t	C	9	spelled words in f.10
+45	t	C	6	spelled words in f.10
+46	a	E2	5	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+47	a	C	2	spelled words in f.10
+48	a	C	3	spelled words in f.10
+49	a	C	1	spelled words in f.10
+50	q	C	3	spelled words in f.10
+55	s	C	1	spelled words in f.10
+56	s	E	16	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+57	s	E2	10	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+58	s	E2	2	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+59	s	E2	7	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+60	m	C	7	spelled words in f.10
+63	i	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+64	y	C	2	spelled words in f.10
+66	y	C	1	spelled words in f.10
+67	e	E	9	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+68	e	C	2	spelled words in f.10
+69	e	C	8	spelled words in f.10
+70	e	E2	11	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+71	p	C	5	spelled words in f.10
+72	p	C	1	spelled words in f.10
+73	l	C	1	spelled words in f.10
+74	e	C	3	spelled words in f.10
+75	l	E2	2	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+76	l	C	0	spelled words in f.10
+77	l	C	1	spelled words in f.10
+78	w	E	2	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+79	w	C	1	spelled words in f.10
+80	w	C	2	spelled words in f.10
+81	d	E	14	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+82	d	C	3	spelled words in f.10
+83	d	C	5	spelled words in f.10
+84	h	E2	7	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+85	h	C	2	spelled words in f.10
+86	h	C	2	spelled words in f.10
+87	.	C	2	spelled words in f.10
+88	c	C	1	spelled words in f.10
+89	c	C	2	spelled words in f.10
+90	c	E	6	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+91	c	C	2	spelled words in f.10
+93	,	C	3	spelled words in f.10
+94	,	C	3	spelled words in f.10
+96	,	C	2	spelled words in f.10
+97	,	C	1	spelled words in f.10
+99	,	C	2	spelled words in f.10
+100	.	C	5	context in f.10
+101	.	C	2	context in f.10
+102	.	C	3	context in f.10
+103	.	C	5	context in f.10
+104	ab	C	2	context in f.10
+105	ad	C	2	context in f.10
+106	an	T	2	Titus 102 (Hillier 1852) + shift 4, and context in f.10
+107	am	E2	0	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+108	as	T	1	Titus 104 (Hillier 1852) + shift 4, and context in f.10
+109	at	T	4	Titus 105 (Hillier 1852) + shift 4, and context in f.10
+110	al	T	3	Titus 106 (Hillier 1852) + shift 4, and context in f.10
+111	are	E	2	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+112	and	E	8	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+117	able	T	3	Titus 113 (Hillier 1852) + shift 4, and context in f.10
+118	arm?	C?	1	context in f.10
+120	[120]	U	1	context in f.10
+121	be	E	2	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+122	by	E2	2	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+123	but	C	6	context in f.10
+126	being	C	4	context in f.10
+131	con	T	1	Titus 127 (Hillier 1852) + shift 4, and context in f.10
+132	com	T	3	Titus 128 (Hillier 1852) + shift 4, and context in f.10
+133	care	E2	0	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+141	de	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+142	[142:did?]	U	1	context in f.10
+147	ed	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+148	el	E2	0	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+150	est	C	2	context in f.10
+153	end	T	1	Titus 149 (Hillier 1852) + shift 4, and context in f.10
+162	for	E	8	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+165	fall	C	1	context in f.10
+166	ful	C	1	context in f.10
+167	[167:f-word]	U	1	context in f.10
+170	foot	C	2	context in f.10
+172	free	C	1	context in f.10
+173	from	T	9	Titus 169 (Hillier 1852) + shift 4, and context in f.10
+175	faith	C	1	context in f.10
+178	friend	T	1	Titus 174 (Hillier 1852) + shift 4, and context in f.10
+182	ge	C	1	context in f.10
+183	give	T	2	Titus 182 (Hillier 1852) + shift 1, and context in f.10
+190	he	T	6	Titus 186 (Hillier 1852) + shift 4, and context in f.10
+191	her	T	2	Titus 187 (Hillier 1852) + shift 4, and context in f.10
+192	his	C	3	context in f.10
+193	him	T	3	Titus 189 (Hillier 1852) + shift 4, and context in f.10
+194	here	C	6	context in f.10
+196	hope	C	1	context in f.10
+197	had	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+199	have	C	2	context in f.10
+200	hav	E	6	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+201	hold	C	1	context in f.10
+202	horse	T	1	Titus 198 (Hillier 1852) + shift 4, and context in f.10
+204	hear	C	3	context in f.10
+209	I	E	3	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+210	it	T	6	Titus 210 (Hillier 1852) + shift 0, and context in f.10
+211	is	T	4	Titus 211 (Hillier 1852) + shift 0, and context in f.10
+212	in	T	7	Titus 212 (Hillier 1852) + shift 0, and context in f.10
+213	if	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+215	il	T	4	Titus 215 (Hillier 1852) + shift 0, and context in f.10
+216	ing	E2	5	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+219	ish?	C?	2	context in f.10
+220	inter?	C?	1	context in f.10
+224	keep	C	1	context in f.10
+228	ly	T	3	Titus 228 (Hillier 1852) + shift 0, and context in f.10
+231	[231]	U	1	context in f.10
+234	left	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+236	[236:one?]	U	1	context in f.10
+240	[240:l-word]	U	1	context in f.10
+248	less?	C?	1	context in f.10
+250	me	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+251	my	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+255	men	T	1	Titus 255 (Hillier 1852) + shift 0, and context in f.10
+256	many	C	1	context in f.10
+258	more	E2	1	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+259	most	C	1	context in f.10
+262	may	T	2	Titus 253 (Hillier 1852) + shift 9, and context in f.10
+264	[264:my Lord?]	U	1	context in f.10
+267	might	C	3	context in f.10
+269	no	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+270	not	E	4	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+271	now	T	1	Titus 271 (Hillier 1852) + shift 0, and context in f.10
+272	new	C	1	context in f.10
+273	near	C	1	context in f.10
+274	next	T	1	Titus 274 (Hillier 1852) + shift 0, and context in f.10
+279	_	C	4	context in f.10
+280	of	E	10	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+281	or	E	3	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+282	on	E2	7	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+284	out	C	2	context in f.10
+285	our	T	2	Titus 284 (Hillier 1852) + shift 1, and context in f.10
+292	[292]	U	2	context in f.10
+296	pli	C	1	context in f.10
+298	pay	C	1	context in f.10
+304	press	C	1	context in f.10
+319	re	E2	0	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+327	right?	C?	1	context in f.10
+329	render	C	1	context in f.10
+330	reason	C	1	context in f.10
+335	[335:run?]	U	1	context in f.10
+336	so	T	1	Titus 335 (Hillier 1852) + shift 1, and context in f.10
+338	some?	T?	1	Titus 337 (Hillier 1852) + shift 1, and context in f.10
+339	such	T	1	Titus 338 (Hillier 1852) + shift 1, and context in f.10
+340	sent	T	3	Titus 340 (Hillier 1852) + shift 0, and context in f.10
+341	send	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+342	safe	C	1	context in f.10
+350	shall	T	1	Titus 349 (Hillier 1852) + shift 1, and context in f.10
+351	should	C	2	context in f.10
+355	since	C	2	context in f.10
+356	South	E2	1	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+360	to	E	15	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+361	the	E2	16	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+362	this	T	1	Titus 361 (Hillier 1852) + shift 1, and context in f.10
+363	those	C	2	context in f.10
+364	that	T	4	Titus 363 (Hillier 1852) + shift 1, and context in f.10
+365	then	E2	2	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+366	them	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+367	they	T	5	Titus 367 (Hillier 1852) + shift 0, and context in f.10
+368	there	T	2	Titus 367 (Hillier 1852) + shift 1, and context in f.10
+370	tion	C	2	context in f.10
+375	treat	C	2	context in f.10
+376	[376]	U	1	context in f.10
+378	think	T	1	Titus 377 (Hillier 1852) + shift 1, and context in f.10
+382	us	T	2	Titus 382 (Hillier 1852) + shift 0, and context in f.10
+383	up	E2	0	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+384	[384]	U	1	context in f.10
+385	very	C	3	context in f.10
+391	we	T	10	Titus 391 (Hillier 1852) + shift 0, and context in f.10
+401	[401:who?]	U	1	context in f.10
+402	why	C	1	context in f.10
+404	West	C	1	context in f.10
+405	was	T	3	Titus 397 (Hillier 1852) + shift 8, and context in f.10
+406	were	C	1	context in f.10
+407	will	T	1	Titus 399 (Hillier 1852) + shift 8, and context in f.10
+408	were?	C?	1	context in f.10
+409	with	E	6	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+411	who	C	1	context in f.10
+412	where	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+413	which	E	4	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+422	write	E	1	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+429	you	E	2	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+430	your	T	7	Titus 420 (Hillier 1852) + shift 10, and context in f.10
+431	yield	E2	0	Evelyn iv 179: our reading of the part that Nicholas left without gloss (16 Aug 1646), or our split of a gloss over several figures
+447	[447:A-word]	U	1	context in f.10
+470	consider	C	2	context in f.10
+478	condition	T	2	Titus 468 (Hillier 1852) + shift 10, and context in f.10
+489	desire	T	1	Titus 479 (Hillier 1852) + shift 10, and context in f.10
+496	.	C	4	context in f.10
+503	Earl	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+504	Fairfax	C	5	context in f.10
+507	first	C	1	context in f.10
+510	Governor	C	1	context in f.10
+512	garrison	C	1	context in f.10
+520	H[ertford]	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+522	Independent	C	1	context in f.10
+528	Kingdom	C	1	context in f.10
+537	London	C	3	context in f.10
+542	letter	T	2	Titus 532 (Hillier 1852) + shift 10, and context in f.10
+543	Majesty	C	5	context in f.10
+546	messenger	C	1	context in f.10
+550	Marquis	E	0	Evelyn iv 178-179: gloss by Nicholas in the print (page image read by us)
+555	[NICHOLAS]	C?	1	context in f.10
+562	Oxford	C	2	context in f.10
+568	Prince [Charles]	C	1	context in f.10
+569	Prince Rupert	C	1	context in f.10
+571	Presbyterian	C	1	context in f.10
+572	Parliament	C	1	context in f.10
+581	provide	T	1	Titus 571 (Hillier 1852) + shift 10, and context in f.10
+583	print	C	1	context in f.10
+585	quarter	C	2	context in f.10
+596	receive	C	2	context in f.10
+597	refuse	C	1	context in f.10
+613	Scot	C	2	context in f.10
+614	Sir	C	1	context in f.10
+618	[618:treaty?]	U	1	context in f.10
+620	victual	C	1	context in f.10
+629	[629:W..=Warwick]	U	1	context in f.10
+639	[639:number?]	U	1	context in f.10
+643	one	T	1	Titus 634 (Hillier 1852) + shift 9, and context in f.10
+644	two	T	1	Titus 635 (Hillier 1852) + shift 9, and context in f.10
+646	four	T	1	Titus 637 (Hillier 1852) + shift 9, and context in f.10
+647	five	T	1	Titus 638 (Hillier 1852) + shift 9, and context in f.10
+648	six	T	1	Titus 639 (Hillier 1852) + shift 9, and context in f.10
+665	thousand	T	3	Titus 656 (Hillier 1852) + shift 9, and context in f.10
+667	day	C	2	context in f.10
+674	Sunday	T	1	Titus 665 (Hillier 1852) + shift 9, and context in f.10
+681	May	T	1	Titus 672 (Hillier 1852) + shift 9, and context in f.10
+691	[691]	U	3	context in f.10
+697	_	C	5	context in f.10

@@ -1,0 +1,32 @@
+# BnF fr. 4698 f. 26v (img/v30_L.jpg; lines L01-L21) and f. 27r (img/v30_R.jpg; lines R01-R08). Cardinal Scipione Gonzaga to Nevers, Rome, 24 March 1590.
+# Version 4 (4 Oct 2026) = the consensus of the two blind passes (f26v-27r_transcription_v3.txt) with the changes of v4/changes_f26.tsv, made on enlarged crops (v4/lc_26v_*.jpg, lc_27r_*.jpg). The new look is not blind.
+# Suffixes that are reading choices, not things seen: @L = the list L is chosen by the word; ! = no value accepted; % = the word of the table does not fit; NNn = a number, not a code word. [del] = a crossed-out figure.
+L01: "forse anco" (44) 13? 82^. (45) "il che di certo io non haverei , se non  saputo"
+L02: 63_- 45_- 82^. (50)? "cosi ho voluto sol.te accennarlo per mia d'opinione per non restar"
+L03: "di" 13~_- 69^:? (36) "pero di Com.e a V. Ecc. hauto grand.ma obligat.ne che mi comandasse"
+L04: "tali uffici, cosi gliele sentiro assai maggiore, se ella si risolvera di" 30^._- 92=
+L05: 10 78 "perche cosi cessera tutta la mala sodisfatt.ne ch'egli ha di me."
+L06: "a sapere, che sono da 18 giorni, che" 28^-! 82^. | oh | 62~^^ 82^. 95= 83=? 86^-_. 10^-_. 81^.? [et] 83= 11^^_v 10^-_. 62^^ (18) (15)
+L07: 81~_- 75^: 28=? 32^- (15) "fosse" 19^.?@A 29^. 47^- 69^. 96_v 23= 34^.@A 41^.@A 63^. 11^^_v 33^._. "eran" 27^: 29^. 65~^._.? 40_- "a quello che lo faceva"
+L08: 96_- 64~^. "qui, che" 10 82^. ll' 83_: 59_v 68^.@A 39= 63_- 62^^ 82^. | oh | 27~^:? 83^^ 10 32^- 82^. 98^.% "dargli nel" 34^^_v! 63_- [del] 23^. 82^. 14^-_. 55^- 68=
+L09: 92=? (15) 41^.@C 56^-_. 11^^_v 87^^_v 84= [et] (15) "hebbe" 15^. 72@A 82^. 83^^_v 82^. | oh | [et] 10 29^. 65^-_.? 82^. 86^-_.? 59^._.! 82^. ll' 83~_v! 10 50~^._.? 30= 59_v 82^. 40~^:? 90_v? "p"
+L10: "Standosi adunque" 21^^ 26_: [et] (10) 21^^ 56= 88_:! 73^._- 82^. 11^^_v 66^. 75= 43~^^_v? 49=! 65^._.? 46 82^. 79~^:? 84= 76= 36~^._- 11^^_v 11! 32^- 10 40_- 82^. 33^._.?
+L11: "diamo" 86^-_.? 21^^_v 82^. 20n 46 [et] "disse" 60^^ 76= 66^._- 82^. 11^^_v 66^-_.@A 24=! "gli veniva" 50^._. (11) 79= 67_: 90~^.@A (24) | oh | 76= 28~^._-?
+L12: 67_: 41^- 28= 36~^._- 50^- 68=? 59_v?% 82^. 62^._. 30=? "haveva" 60~_v?! 83_: 88^._. 82^. "A" [et] 98_v "haveva" 68_v 82^. 17~^._.! (13) 29^. 84^. 44_- [et] 62^._- 82^. 47^-
+L13: [et] 65=? 67_: 56^^ 82^. (10) 53^-_. "fu" 28= 76= 53^. 10 88^. 82^. 32^- "il far alcuna d'elle" 63^. 27^:? (11) 76= 29^. 72^. 30^-_. [et] 39=
+L14: 28= "si fosse veduta la" 79^^_v 82^. 50^- 10 40_- 80^:? 69^. 32^- 82^. 83~_- 62= 10 21^^ 41^.@A 63^. 23@N [et] 64= 31@C 28= 99_v 66^. 76= "poteva"
+L15: (32) 34^.@A 95^. 30^^_v! 82^. 33_:? [et] 30= 21^-_. 28= 76= (15) "doveva" 16~? 68= 76= "mostrando per tutto" 11^^_v 67_: 10 82^. 12^^_v 32^- 33^._.
+L16: (28) 29^. 46 "ricordi" 83_:? 65^._-! 21^^_v 23~^.? 83= 63_- 31_.? 39= 86^-_. 41^.@A 21^^_v 62=? 98% [et] 83_: 11^^_v 79=? "il dar" 60^^? 19= 87= 55_.! 82^. 63^.? 88^._.? 82^. 32~
+L17: "dice" 10? 46 76?% [et] 42^.?% 79_- 65^.?! 83_: 11^^_v? 39^.% 82^. 84^.? 62^._- 47= (43)? 47^- 29^. 28= 67^-_. | K a gl L E xi om L xx v dd qo om phi | 65^._. 63_- 14^.? 10^-_.
+L18: 19= 23= 10 28^.?% 82^. ll' "domandò" 89^: 67_: 56^^ 82^. 46 (16) 2n 92_v | t | 86^-_. (11) (15) 33~^:? 90^.@A (14)% 82^. "A" "A" 67_: 10 82^. ll' 30= 99_v
+L19: 69^. 96_v 32^- | y L | 41~@C 53^-_. 11^^_v 10_.? (15) 83= 67_: 30^-_. 92^-_. 69^. (35) "al parer suo" 82^. 89= 78^^_v [et] (15) 84= 21= "puo credere, che"
+L20: 11^^_v 32^^ 32= 44_v "venga" 69^. 47^- 82^. 96_v (15) 30= 32= 59~^^? 29^. 21^^ 59_: 32= 63_- 79_- 28= 83^-_. "mi ha" "S" 52^^_v 76= "hanno" 34^._- 34^.@A 82^.
+L21: 49^. 35^. 67_: (12) (11) (15) 33^: 58^.? 0? 76= "intendendosi che" 10 11^^_v 36^. 82^. 91^._-? 82^. 17^.@C "siano" 63^._- 60^- 21^^_v 86= 30= 32^- 64~^.?
+R01: 88= 83= 79~^._- 28= 83= 41^. 10 59_v 18^.?@C "fu" 82^. 56^^ 28= 76= (15) "havesse" 90~^.@A | t? | 10 68= 59_v 77~^-_. 19= 83= 11^^_v (25) 99_v 28= "i due"
+R02: 46 60@N 28= 10 11^^_v (15) 19^^ 39~_v 24^^ 83= 82^^_v 69^.? 11^^_v 78_: 76= 86= 30= 51^._. 82^. 32^.@N 82= 82^. 46 68= 69^. (37) 37^._.% 30= 41^.@A 61^^
+R03: 67_: 28= (33) (37) 80^: 89^: 29^. 40_: 82^. 64_: "ne hanno" 84^^_v 76_v 28= 76= (15) 80^:? 41^.@A ";" [et] 32= "siano" 93^-_.? 17= 83=
+R04: 97= 26_: 82^. 86^-_. 39_: 44^-_.? [et] 87^^ "li(?)" 10 97= 84=% 69^. 79^^_v 28= (15) "aspettano" 82^. "A" "possibile" 65~_.?% 63^. 28= (26) 98~^.?% 60^-
+R05: "se ben" 88= (15) | K a | 69^. 64~^. 67_: 51^. 91= 67_: 92_v | T | 99_v 82^. 83_- 82^. 23@N 10 96_v 76= | xi phi | 30= 71^: "si spera" 44~^. 50^- "ma quello"
+R06: "che sopra tutto" 76_: 10 13^._- 83_: 11^^_v 88^._. | T | 28= 32^- 87= 82^. (25) | K a | 76~_v? 10 47^- 82^. 76= (32) 21^._. 83_: 80^: 82= 44^. 34^.?@A 83=
+R07: 55^- 82^. "A" (11) 76= | T | 76= 93= 64@N 68= 40_: [et] 35^. 10 (44) [et] "si vede che" 60^- 50^.?% 87^.?% 82^. 11^^_v 59^^ 82^. 32^- 83= 99_v 28= (15) | xx a |
+R08: 29^. | oh | [et] 86= 50^._. 28^-_.? 82^. | xx qo r t v | 72^^! 68= (43) (29) 49^. (10) (22) "Et q.o e quanto posso dire hora"

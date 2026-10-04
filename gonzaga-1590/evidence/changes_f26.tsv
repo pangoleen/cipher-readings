@@ -1,0 +1,103 @@
+line	unit	v3	v4	kind	reason
+L04	1	30^:_-	30^._-	MARK	the period gloss above the line reads "scrivere": list S (dot above, bar below), not two dots
+L06	1	28^-	28^-!	FLAG	bar above is clear; the value of 1586 (Cardinale d'Este) cannot hold in 1590; no value
+L06	4	62~?	62~^^	MARK	the stroke above is the circumflex of list O, with the verb arc; the same figure in L08 has a clear circumflex
+L06	10	81?	81^.?	MARK	dot above seen (pass B)
+L06	15	62~	62^^	MARK	wavy stroke above = circumflex, as in L08
+L07	6	x9^.?	19^.?@A	FIG	blot; a short stem with its dot and a 9 are seen: 19. A 19 accordare
+L07	12	34^.	34^.@A	LIST	A 34 alcuno, not C 34 condurre
+L07	13	41^.	41^.@A	LIST	A 41 altro, not C 41 conoscere
+L08	3	10	10	MARK	Amb.re
+L08	4	82?	82^.	MARK	dot seen
+L08	5	ll'?	ll'	SYM	the Spagna sign is clear
+L08	8	68^.	68^.@A	LIST	A 68 (window proposal), not the clerk slip C 68
+L08	16	10?	10	MARK	no mark
+L08	19	98^.	98^.%	FLAG	"casa" does not fit
+L08	21	34^^_v	34^^_v!	FLAG	no value; the caron below can belong to the arc of the line below
+L08	23	SP{#}	[del]	SYM	the sign is a crossed-out figure, not a letter
+L09	2	41?	41^.@C	LIST	C 41 conoscere, not A 41 altro
+L09	11	72^.?	72@A	LIST	A 72 aviso, not C 72 debito; no dot seen
+L09	14	82^.?	82^.	MARK	dot seen
+L09	19	65^-_.?	65^-_.?	MARK	as pass A: stroke above, dot below (list T)
+L09	22	59^._.	59^._.!	FLAG	no value in list M; "corrivo" (C 59) does not fit
+L09	24	ll'?	ll'	SYM	Spagna sign with a tick; both passes
+L09	25	83_v?	83~_v!	MARK	arc above and caron below (list P, verb); no value
+L09	27	30~^._.?	50~^._.?	FIG	pass B read 50; the first digit has the round top of this hand's 5. M 50 minaccia + arc. Pass A: 30
+L09	32	90_v	90_v?	MARK	caron below seen
+L10	7	88_:	88_:!	FLAG	two dots below are clear (list G); no value
+L10	8	73^._-?	73^._-	MARK	dot above and bar below (list S), figure 73 as pass A
+L10	14	49=	49=!	FLAG	no value
+L10	23	11	11!	FLAG	plain 11, or two dots above (list E: a word in dis-); no value
+L11	4	20	20n	FIG	plain figure after "di" and before "cardinali": the number 20, not a code word
+L11	13	66^-_.	66^-_.@A	MARK	the same word as L10 "questo atto" (66 with a dot above); here a dot below and a stroke above are seen. Suspect mark
+L11	14	24=	24=!	FLAG	both bars are clear; no value
+L11	19	67_:?	67_:	MARK	two dots below seen
+L11	20	90~^.	90~^.@A	LIST	A 90 (window proposal)
+L11	24	29~^._-	28~^._-?	FIG	the second digit has no tail below the line; a 9 of this hand always has one. Both passes read 29. S 28 scomunica + arc
+L12	6	59=?	59_v?%	MARK	a caron below is seen, no bars: P 59 primo; the word does not fit well
+L12	11	60~_v?	60~_v?!	FLAG	no value
+L12	21	17~^._.	17~^._.!	FLAG	no value
+L12	22	(13)?	(13)	FIG	(13) as pass A
+L13	1	55=?	65=?	FIG	the first digit has the tall stroke of a 6 (pass B: 65; pass A: 55)
+L14	7	80^.	80^:?	MARK	two dots above are seen: E 80 fatto, not C 80 detto
+L14	15	41^.	41^.@A	LIST	A 41 altro
+L14	17	23	23@N	LIST	plain figure: the name of fr.4696 f.122v, Cardinale di Borbone, not A 23 acquisto
+L14	20	31?	31@C	LIST	C 31 conclusione, not the name 31 Nuncio
+L15	1	34^.	34^.@A	LIST	A 34 alcuno
+L15	3	30^^_v	30^^_v!	FLAG	no value
+L16	5	65^._-	65^._-!	FLAG	no value (list S: solenne or solito)
+L16	13	41^.	41^.@A	LIST	A 41 altro
+L16	16	98	98%	FLAG	"casa" does not fit
+L16	21	"il duca"	"il dar"	CLEAR	clear word read again: "il dar", not "il duca"
+L16	25	55_.	55_.!	FLAG	no value
+L17	3	76?	76?%	FLAG	plain 76: "dependenza" does not fit
+L17	5	82^.?	42^.?%	FIG	42 as pass B (pass A: 82); A 42 ambasciata / C 42 conscienza do not fit
+L17	7	65^.?	65^.?!	FLAG	no value
+L17	10	39^.	39^.%	FLAG	"congiungere" does not fit
+L17	15	(93)	(43)?	FIG	(93) has no value and the bracket list ends near 50; the first digit can be a closed 4: (43) S.S.tà
+L17	20	SP{K a gl? L E E3? om L #? v dd    phi}	SP{K a gl L E xi om L xx v dd qo om phi}	SYM	read again on the image: 14 signs, HAGIUSTIFICATO (pass B has xi for the sixth sign; the ninth is the double x, f)
+L18	2	10?	10	MARK	no mark
+L18	3	28^-?	28^.?%	MARK	a dot above, not a bar (C 28 commune does not fit); a figure 87 is written above the line before it
+L18	6	"lodando"	"domandò"	CLEAR	clear word read again: "domando", not "lodando"
+L18	11	46?	46	FIG	46 as pass A
+L18	13	2x	2n	FIG	a single 2: the number 2 ("sopra 2 punti")
+L18	20	90^.	90^.@A	LIST	A 90 (window proposal)
+L18	21	(14)	(14)%	FLAG	"senza" is the gloss; the sense wants "fuori"
+L19	3	SP{y ca}	SP{y L}	SYM	second sign = Lambda (i), as pass B: RI
+L19	4	41~?	41~@C	LIST	C 41 conoscere with the verb arc: RI-conosce
+L20	27	34^.	34^.@A	LIST	A 34 alcuno
+L21	8	x0?	0?	FIG	a single 0 after 58; not explained
+L21	11	10?	10	MARK	no mark
+L21	15	91_-?	91^._-?	MARK	dot above the 1 and bar below: list S (stato) or list I (luogo); the dot of the digit 1 cannot be told from a mark. The word decides
+L21	17	17^.	17^.@C	LIST	C 17 (window proposal), not A 17 accidente
+R01	8	18?	18^.?@C	LIST	C 18 (window proposal)
+R01	16	90~^.	90~^.@A	LIST	A 90 (window proposal)
+R02	1	60?	60@N	LIST	plain figure: the name of fr.4696 f.44v, Spagnoli
+R02	3	10?	10	MARK	no mark
+R02	11	69^:?	69^.?	MARK	one dot (C 69 da); the second dot is a blot
+R02	19	32^.	32^.@N	MARK	no bar is seen above 32; the sense wants Papa (32 with a bar). Suspect mark
+R02	26	37^._.	37^._.%	FLAG	"mentita" does not fit; the sense wants "medesimi" (33)
+R02	28	41^.	41^.@A	LIST	A 41 altro
+R03	17	41^.	41^.@A	LIST	A 41 altro
+R04	8	ll'?	"li(?)"	CLEAR	a clear word, not the Spagna sign (pass B)
+R04	9	10	10	MARK	no mark
+R04	11	84=	84=%	FLAG	"perché" does not fit
+R04	20	65~_.?	65~_.?%	FLAG	"molto" with the verb arc does not fit
+R04	24	98~^.?	98~^.?%	FLAG	"casa" with the verb arc does not fit
+R05	16	23	23@N	LIST	plain figure: Cardinale di Borbone
+R05	17	10?	10	MARK	no mark
+R05	20	xi	SP{xi phi}	SYM	two signs: SO
+R06	2	10?	10	MARK	no mark
+R06	6	x8^._.	88^._.	FIG	a blot (a cancelled figure), then 88 with a dot above and a dot below: M 88 negotio
+R06	14	76^^_v?	76~_v?	MARK	the stroke above is the verb arc, not a circumflex: P 76 promettere
+R06	15	10?	10	MARK	no mark
+R06	25	34^.?	34^.?@A	LIST	A 34 alcuno
+R07	8	64	64@N	LIST	plain figure: the name Catolici
+R07	13	10?	10	MARK	no mark
+R07	14	(4x)?	(44)	FIG	(44) as pass B, with a correction above
+R07	18	50^.	50^.?%	MARK	no bar is seen; "Navarra" (50 with a bar) does not fit
+R07	19	87^.	87^.?%	FLAG	no word of figure 87 fits
+R07	29	SP{# sig}	SP{xx a}	SYM	first sign = double x (f): FA
+R08	5	28^-_.	28^-_.?	MARK	bar above and dot below (list T)
+R08	7	SP{#  r t? v}	SP{xx qo r t v}	SYM	first sign = double x (f): FAREI
+R08	8	72^^	72^^!	FLAG	no value (list O: patto 71 <..< pensiero 78)

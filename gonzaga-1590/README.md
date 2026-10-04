@@ -124,18 +124,41 @@ another list.
 
 ## The two letters with no period decipherment
 
-**24 March 1590 (ff. 26v-27r).** Two blind transcription passes agree on the figure for 95 % of 586 units and on
-the mark for 90 % of those. 84 % of the units have a glossed value (an upper bound), 5 % a window value, 7 % none.
-The letter reports that a person left Rome "per una sua devotione", that the Spanish ambassador pressed the Pope,
-and that the Pope called the cardinals: "il parere di {quasi} tutti fu che non conveniva a dignità di Papa il far
-alcuna delle cose domandate". The names of persons are inferred, and the reading says where.
+Both letters were read a second time with the table of 448 values, and every doubtful mark was looked at again on
+enlarged crops of the film (version 4). The readings of the first round are kept in `evidence/readings_v3/`.
 
-**31 March 1590 (ff. 36r-37r).** The two passes agree on the mark for only 72 % of the units, so this reading is
-weaker. After the news of Mayenne's defeat the Congregation voted: "la {maggiore} parte fu di parere che si
-{dovesse} ... di danaro primo et poi di arme". The verso is weak.
+| Letter | Code units | With a period gloss | Window proposal | Not resolved |
+|---|---|---|---|---|
+| 24 March 1590 (ff. 26v-27r) | 584 | 509 (87 %) | 41 | 17 |
+| 31 March 1590 (ff. 36r-37r) | 232 | 189 (81 %) | 28 | 6 |
+
+**24 March 1590.** A person left Rome "per una sua devotione", and a rumour rose that the Pope had given way to
+the King of Spain. The Spanish ambassador pressed the Pope and threatened. The Pope called "una {radunanza} di 20
+cardinali" and asked their opinion on two points: whether the ambassador of Spain should be sent away, and what to
+do about Spanish soldiers gathered at the borders of the State of the Church. "il parere di quasi tutti fu che non
+conveniva a dignità di Papa il far alcuna delle cose domandate".
+
+**31 March 1590.** After the news of Mayenne's defeat the Congregation voted for help "di danaro primo et poi di
+arme". "Navarra habbia scritto qua che liberarà Cardinale di Borbone."
+
+**An outside check.** After the reading, the statements of the two letters were compared with L. von Pastor,
+*History of the Popes*, vol. 21, pp. 343-362. Pastor confirms 19 of 22 statements of the first letter and 7 of 11
+of the second: the journey to Loreto on 7 March, the audience, the congregation of cardinals with three absent,
+the Wednesday of 21 March, the proposal to send the ambassador away, the troops at the border, and the "milder
+means". Navarre's letter and two other points are not in Pastor.
+
+Limits of these two readings, stated plainly:
+
+- The second look at the marks was not blind: its author knew the table. For the letter of 31 March a new blind
+  pass agrees with the earlier blind pass on the mark for 95 % of the units.
+- Four words were shaped by what the history says ({cacciare}, "scomunicava", {publico}, {fratello}), and the
+  number 20 was decided after Pastor was read. The reading files mark them.
+- 19 values with a period gloss do not fit their sentence and are kept with a doubt mark.
+- The name of the person who left Rome is a code that is not resolved.
+- The reading files name crops of the film (`v4/...`); those images are not in this repository.
 
 In both readings, CAPITALS are spelled words, plain words have a period gloss, and words in {braces} are window
-proposals. The events are known to historians from other sources; we did not compare the letters with them.
+proposals.
 
 ## Limits
 

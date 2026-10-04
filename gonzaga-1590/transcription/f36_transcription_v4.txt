@@ -1,0 +1,14 @@
+# BnF fr. 4698 f. 36r (img/v39_R.jpg; lines L01-L04) and f. 36v (img/v40_L.jpg; lines R01-R07). Cardinal Scipione Gonzaga to Nevers, Rome, 31 March 1590.
+# Version 4 (4 Oct 2026): three passes (A not blind to the lists, B blind, C blind: v4/blind_f36_passC.txt) and a new look at each unit on enlarged crops (v4/lc_36*.jpg).
+# Suffixes that are reading choices, not things seen: @L = the list L is chosen by the word; ! = no value accepted; % = the word of the table does not fit; NNn = a number, not a code word.
+L01: 44~^._.?% 32^- 83_: 45^. (11) | perp y a | 80^.@A
+L02: 82^. 53~^^_v 67_: 76_- [et] 99_v? 28= 33~^: 80~^: 83= 11^^_v 17 12^-_. 10 59_v 53^-_. 30~_: 82^. 76= 10 (12) 63_- 96_- 60^^ | xx E | 82^. 56^^ 28= (15) 33~^: 33^.@A 82^. 70^:@C [del] 59_v
+L03: [et] 90= 82^. 58^. [et] 11^^_v 45^-_.! 29^. 47^- (43) 16~^.@A 67_: 59_v 46^. 68= 67_: (12) | xx E3 y L pi t S xi phi | 10 86^-_. 61?@O 15^^_v?! 82^. 46 68= 83= 30_: 54^._. 76= (11) 75=
+L04: | xx a y a | 90^._.? 70= 82^. 70^. 84=? 21^-_. (15) 77~^-_. 20^._. 63_- 87_: 82^. (43) 93= 97= 75^. (15) | xx a y a | 10 59^.@A 82^. 98^: 82^. 76_- 28= (15) 61^:? 83_: 86^.@A
+R01: (11) 82^. 95= 33~^: 65~^-_. 58^: 83_: "A" (14) 34^: 75= | = a y L a | 98% 67_: 81% 84= 32= (29) 51= 42^-_.? 52=! | xx a | 68= 19= 82^. 11^^_v (34) 75= 64~^. 89=
+R02: 15^. | T | 28= 44= 56= 76= "ve n'è" 34^.@A 62_v "si dice che" 50^- "habbia" 30^._- 95= 28= 83~_- 23@N 68=? 28= 76= 87~^-_.? 90=? (27) 12^^ (11) 72^._.
+R03: "Questo è certo per le ultime lettere che" 67_: 76_-? 89= 62= 10 88^^_v 82^. 73 "ha mandato" 42_v! 10 2n 46 28= (39)?
+R04: 29^.? 50^- 67_: 28= | T | 15^.% 10 32^- 70= 83_: 11^^_v 26^-_. 93= | F3 K a | 80^.@E 83= 73~^._. 10 60^- 28= 32= "haveva(?)" 32^^ 44= 69^. 62_v 68= 67_: 32^^ 46= "era(?)" 28=
+R05: (15) 28^-_.? 59_v 98=?% 63_- (24) 14_v [et] 11^^_v 64~^. (43) 28= "sia stato" 71_: 69^. 60^- 82= 46= 69^. 73
+R06: "di" 30~^._- 10 (50) "è difficilissima cosa per non dir impossibile, perché" 90^._. 57^.@A 70= 29^. 55^: 71^-_.! 82^. 70^-
+R07: 79= 28= 79~^._-? 63_- 84_: [et] 87^^ 82^. 79_- 77= (34) 75= 80~^:? 41_v!

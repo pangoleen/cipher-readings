@@ -57,6 +57,21 @@ The Dutch minute is in the printed *Verbael* of the embassy. Its first sentence 
 text in Thurloe. The alignment of the cipher runs with the minute gave the values of two alphabets; the ring and the
 indicator rule came from their structure; the other two alphabets were then predicted and tested.
 
+## The life of the cipher, and a search for more text
+
+The printed *Verbael* dates the cipher. The deputies asked Boreel for it on 18 August 1653 and used it on
+1 September. On 29 September they wrote that the English could have it "by copye". By 20 October they had a new
+cipher. So the cipher lived about five weeks.
+
+All seven volumes of Thurloe were scanned twice for more runs in this cipher (the text of British History Online,
+and the OCR text of the 1742 edition). Both scans find the two letters of this folder and nothing else
+([evidence/thurloe_scan.md](evidence/thurloe_scan.md)). More text can only come from the manuscripts.
+
+The numbers above 100 belong to the older general cipher of the States General ([codewords.tsv](codewords.tsv)).
+One value is now certain: 128 is "den Koningh van Denemarcken", by a second minute in the *Verbael* (p. 16) beside
+Thurloe i.316. The others (168 general Cromwell, 117 the fleet of the States) rest on one place or on an English
+gloss.
+
 ## Earlier work
 
 Searched on 4 October 2026: D. Bourdeau's `cyphersolver`, A. Aymeloglu's `unsolved-ciphers` (he names the *Verbael*
@@ -66,7 +81,8 @@ were not seen.
 
 ## Open points
 
-- Three groups that give "xxd" where the minute has "eene".
+- Three groups that give "xxd" where the minute has "eene". No shift explains them; the print probably has wrong
+  digits there.
 - The code group 117.
 - The manuscript of the intercepted letter (Bodleian, Rawlinson A) can settle the printed groups that conflict.
 
@@ -80,7 +96,8 @@ were not seen.
 | `model.py`, `align.py`, `control.py` | The rule, the alignment and the controls |
 | `reading_boreel_to_deputies_1653-09-13.txt` | The 12 groups of Thurloe i.454 |
 | `reading_dewitt_cipher_letters_1653.txt` | The De Witt letters, read with Fruin's printed key (reproduced) |
-| `evidence/worklog.md` | The work log |
+| `evidence/worklog.md`, `evidence/thurloe_scan.md` | The work log, and the scan of all volumes of Thurloe |
+| `codewords.tsv`, `letters.tsv` | The code words above 100 with their evidence, and the letters found by the scan |
 | `images/` | Reduced page images of Thurloe i.435 and of the *Verbael* p. 97 (both books are in the public domain) |
 
 ## Credits

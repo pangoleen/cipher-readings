@@ -1,0 +1,137 @@
+run	pos	group	alphabet	number	model_letter	minute_letter	status	note
+RUN1	1	113	1	13	o	o	FIT	indicator 1 + first letter 13
+RUN1	2	10	1	10	m	m	FIT	
+RUN1	3	26	1	26	d	d	FIT	
+RUN1	4	13	1	13	o	o	FIT	
+RUN1	5	13	1	13	o	o	FIT	
+RUN1	6	19	1	19	r	r	FIT	
+RUN1	7	29	1	29	x	e	CONFLICT	
+RUN1	8	29	1	29	x	e	CONFLICT	
+RUN1	9	26	1	26	d	ne	CONFLICT	
+RUN1	10	11	1	11	n	n	FIT	
+RUN1	11	222	2	22	e	e	FIT	indicator 2 + first letter 22
+RUN1	12	31	2	31	x	x	FIT	
+RUN1	13	17	2	17	p	p	FIT	
+RUN1	14	21	2	21	r	r	FIT	
+RUN1	15	22	2	22	e	e	FIT	
+RUN1	16	23	2	23	s	s	FIT	
+RUN1	17	23	2	23	s	s	FIT	
+RUN1	18	22	2	22	e	e	FIT	
+RUN1	19	13	2	13	n	n	FIT	
+RUN1	20	30	2	30	a	a	FIT	
+RUN1	21	20	2	20	f	f	FIT	
+RUN1	22	18	2	18	g	g	FIT	
+RUN1	23	22	2	22	e	e	FIT	
+RUN1	24	23	2	23	s	s	FIT	
+RUN1	25	15	2	15	o	o	FIT	
+RUN1	26	13	2	13	n	n	FIT	
+RUN1	27	24	2	24	d	d	FIT	
+RUN1	28	22	2	22	e	e	FIT	
+RUN1	29	13	2	13	n	n	FIT	
+RUN1	30	24	2	24	d	d	FIT	
+RUN1	31	22	2	22	e	e	FIT	
+RUN1	32	17	2	17	p	v	CONFLICT	
+RUN1	33	10	2	10	l	l	FIT	
+RUN1	34	15	2	15	o	o	FIT	
+RUN1	35	25	2	25	t	t	FIT	
+RUN1	36	23	2	23	s	e	CONFLICT	
+RUN1	37	13	2	13	n	n	FIT	
+RUN1	38	329	3	29	v	v	FIT	indicator 3 + first letter 29
+RUN1	39	28	3	28	a	a	FIT	
+RUN1	40	15	3	15	n	n	FIT	
+RUN1	41	22	3	22	d	d	FIT	
+RUN1	42	20	3	20	e	e	FIT	
+RUN1	43	25	3	25	s	s	FIT	
+RUN1	44	20	3	20	e	e	FIT	
+RUN1	45	15	3	15	n	n	FIT	
+RUN1	46	25	3	25	s	s	FIT	
+RUN1	47	27	3	27	t	t	FIT	
+RUN1	48	28	3	28	a	a	FIT	
+RUN1	49	20	3	20	e	e	FIT	
+RUN1	50	27	3	27	t	t	FIT	
+RUN1	51	27	3	27	t	t	FIT	
+RUN1	52	20	3	20	e	e	FIT	
+RUN1	53	22	3	22	d	d	FIT	
+RUN1	54	17	3	17	o	o	FIT	
+RUN1	55	20	3	20	e	e	FIT	
+RUN1	56	15	3	15	n	n	FIT	
+RUN1	57	527	5	27	r	r	FIT	indicator 5 + first letter 27
+RUN1	58	16	5	16	e	e	FIT	
+RUN1	59	20	5	20	c	c	FIT	
+RUN1	60	21	5	21	o	o	FIT	
+RUN1	61	12	5	12	g	g	FIT	
+RUN1	62	19	5	19	n	n	FIT	
+RUN1	63	21	5	21	o	o	FIT	
+RUN1	64	29	5	29	s	s	FIT	
+RUN1	65	26	5	26	z	-	CONFLICT	
+RUN1	66	20	5	20	c	c	FIT	
+RUN1	67	16	5	16	e	e	FIT	
+RUN1	68	27	5	27	r	r	FIT	
+RUN1	69	16	5	16	e	e	FIT	
+RUN1	70	19	5	19	n	n	FIT	
+RUN2	1	117	?		q (if 1|17)	DE VLOOTE VAN HAERE HOOG MOG.	OPEN	code group of the general code, or alphabet 1 letter q; the minute has 'de Vloote van haere Hoog Mog.' here
+RUN2	2	211	2	11	m	m	FIT	indicator 2 + first letter 11
+RUN2	3	22	2	22	e	e	FIT	
+RUN2	4	25	2	25	t	t	FIT	
+RUN2	5	24	2	24	d	d	FIT	
+RUN2	6	22	2	22	e	e	FIT	
+RUN2	7	26	2	26	c	k	SPELLING	sent letter spells 'c' where the minute has 'k'
+RUN2	8	15	2	15	o	o	FIT	
+RUN2	9	15	2	15	o	o	FIT	
+RUN2	10	17	2	17	p	p	FIT	
+RUN2	11	27	2	27	v	v	FIT	
+RUN2	12	30	2	30	a	a	FIT	
+RUN2	13	22	2	22	e	e	FIT	
+RUN2	14	21	2	21	r	r	FIT	
+RUN2	15	24	2	24	d	d	FIT	
+RUN2	16	14	2	14	i	y	SPELLING	sent letter spells 'i' where the minute has 'y'
+RUN2	17	22	2	22	e		SPELLING	sent letter spells 'e' where the minute has 'nothing'
+RUN2	18	23	2	23	s	s	FIT	
+RUN2	19	26	2	26	c	c	FIT	
+RUN2	20	6	2	6	h	h	FIT(6=16)	print has 6; read as 16 (see NOTES)
+RUN2	21	22	2	22	e	e	FIT	
+RUN2	22	17	2	17	p	p	FIT	
+RUN2	23	22	2	22	e	e	FIT	
+RUN2	24	13	2	13	n	n	FIT	
+RUN2	25	519	5	19	n	n	FIT	indicator 5 + first letter 19
+RUN2	26	21	5	21	o	o	FIT	
+RUN2	27	21	5	21	o	o	FIT	
+RUN2	28	27	5	27	r	r	FIT	
+RUN2	29	31	5	31	t	t	FIT	
+RUN2	30	32	5	32	w	w	FIT	
+RUN2	31	24	5	24	a	a	FIT	
+RUN2	32	16	5	16	e	e	FIT	
+RUN2	33	27	5	27	r	r	FIT	
+RUN2	34	31	5	31	t	t	FIT	
+RUN2	35	29	5	29	s	s	FIT	
+RUN2	36	24	5	24	a	a	FIT	
+RUN2	37	16	5	16	e	e	FIT	
+RUN2	38	19	5	19	n	n	FIT	
+RUN2	39	11	5	11	i	i	FIT	
+RUN2	40	29	5	29	s	s	FIT	
+RUN2	41	33	5	33	v	v	FIT	
+RUN2	42	16	5	16	e	e	FIT	
+RUN2	43	27	5	27	r	r	FIT	
+RUN2	44	31	5	31	t	t	FIT	
+RUN2	45	27	5	27	r	r	FIT	
+RUN2	46	21	5	21	o	o	FIT	
+RUN2	47	20	5	20	c	c	FIT	
+RUN2	48	13	5	13	k	k	FIT	
+RUN2	49	16	5	16	e	e	FIT	
+RUN2	50	19	5	19	n	n	FIT	
+RUN3	1	327	3	27	t	t	FIT	indicator 3 + first letter 27
+RUN3	2	20	3	20	e	e	FIT	
+RUN3	3	23	3	23	r	r	FIT	
+RUN3	4	29	3	29	v	v	FIT	
+RUN3	5	16	3	16	g	g	FIT	
+RUN3	6	6	3	6	g	g	FIT(6=16)	print has 6; read as 16 (see NOTES)
+RUN3	7	20	3	20	e	e	FIT	
+RUN3	8	24	3	24	c	c	FIT	
+RUN3	9	17	3	17	o	o	FIT	
+RUN3	10	15	3	15	n	n	FIT	
+RUN3	11	29	3	29	v	v	FIT	
+RUN3	12	17	3	17	o	o	FIT	
+RUN3	13	32	3	32	y	y	FIT	
+RUN3	14	20	3	20	e	e	FIT	
+RUN3	15	23	3	23	r	r	FIT	
+RUN3	16	15	3	15	n	n	FIT	

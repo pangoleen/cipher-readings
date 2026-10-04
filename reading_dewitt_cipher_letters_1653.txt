@@ -1,0 +1,64 @@
+READINGS - letters in the De Witt cipher, Thurloe vol. 1 (NOT the Boreel ring cipher)
+
+Result first: this is another cipher, and its key is in print since 1906. Nothing here is a new solution.
+- Key: R. Fruin, in Brieven van Johan de Witt, i (ed. Fruin and Kernkamp, Amsterdam 1906), p. 72:
+    1-8 a | 9,10 b | 11,12 c | 13,14 d | 15-19 e | 20,21 f | 22,23 g | 24,25 h | 26-30 i | 31,32 k | 33,34 l | 35,36 m
+    37,38 n | 39-43 o | 44,45 p | 46,47 q | 48,49 r | 50,51 s | 52,53 t | 54-58 u,v | 59,60 w | 61,62 x | 63,64 y | 65,66 z
+  (read by me in the OCR text of resources.huygens.knaw.nl/retroboeken/dewitt, source 3, page 97; not on a page image).
+- Kernkamp, same volume, p. 92 note 2: the key reads the ciphered places of Beverningh to De Witt of 27 and 30 June 1653
+  "(bij Thurloe I p. 301, 308, 309)", except a part of the passage on p. 309, and the letter of 18 July 1653
+  "(bij Thurloe I p. 339, 340)". He does not print the readings of 27 and 30 June there.
+- What I did: before I found Fruin's key I saw that the numbers are in alphabet order with 1 to 5 numbers per letter,
+  and I read "representatif", "factie.. ende verdeeltheden", "desperaet", "audientie". My ranges were inside Fruin's.
+  So "key rebuilt" is true, and "key already published" is also true. Fruin's table is the reference.
+
+All groups below were checked on the page images of the 1742 print (archive.org). BHO drops groups in two places
+(i.301: "5. 37. 14." missing, and the signature "H h h h" is mixed into the line; i.308: "15. 59. 60. 16." missing).
+[x] = letter repaired by me; the print has another number. Misprints in the print are frequent (see NOTES.md).
+
+1. Beverning to De Witt, London 17/27 June 1653. Thurloe i.301-302.
+   "... a great accroachment about our 24. 5. 37. 14. 7. 34. 29. 38. 22. 19 ;"
+   h a n d a l i n g e  ->  HAND[E]LINGE   (7 for 17)
+   Printed Dutch text: none found. Kernkamp 1906 says the place can be read; he gives no reading.
+
+2. Beverning to De Witt, 30 June 1653 N.S. Thurloe i.308-309.
+   a) "to the 37. 26. 15. 59. 60. 16. 48. 15. 45. 49. 16. 50. 17. 37. 52. 4. 53. 26. 20. to be addressed"
+      NIEWWE REPRESENTATIF. Thurloe's print has the gloss "new representatives" above it: read in 1653 by the English.
+   b) "none have any knowledge of our negotiation 52. 60. 16. 34. 32. 19. 38. 18. 29. 37. 12. 49. 28. 50. 26. 51. 53.
+       47. 17. 52. 42. 36. 52. 18. 38. 15. 19. 37. 18. 38. 15. 19. 37. 18. 38. 42. 20. 53. 16. 37. 6. 38. 14. 17. 49.
+       18. 37. 29. 37. 11. 29. 49. 53. 17. 37. 57. 64. 53. 52. 19. 9. 16. 48. 50. 53. 15. 37 ;"
+      t w e l k e n e i n c r i s i s t q e t o m t e n e e n e n e e n e n o f t e n a n d e r e n i n c i r t e n
+      v y t t e b e r s t e n
+      -> 'T WELKE NE(?) IN CRISI ST[A]ET OM TEN EENEN [EENEN] OFTE(N) ANDEREN IN C[O]RTEN UYT TE BERSTEN
+      "which stands at a crisis, and will soon break out one way or the other."
+      Doubts: "ne" (2 letters), 47 (q) where "staet" needs a, a group of 5 numbers printed twice, 29 (i) for o.
+      This is the passage that Kernkamp could read only in part.
+   Printed Dutch text: none found.
+
+3. Beverning and Nieupoort to De Witt, 18 July 1653. Thurloe i.339-340. 207 groups.
+   REPRODUCED. The Dutch letter is in print with the cipher solved: Brieven aan Johan de Witt, i (ed. Fruin and
+   Japikse, 1919), pp. 80-83; before that Nedermeijer van Rosenthal, Bijdragen voor Vad. Gesch. en Oudh. x, p. 291.
+   Fruin's key on Thurloe's groups (my repairs in []), against the 1919 text:
+     factie[n] ende verdeeltheden          1919: "de factiën ende verdeyltheden"
+     het interest [van 330]                1919: "het interest van de Prince van Oraigne"   (330 = Prince of Orange)
+     [n]yet [sullen] suff[i]s[a]nt syn     1919: "niet sullen suffisant sijn"
+     tot [d]e bedieninghen van syne voorouders nyet van nu af ge[d]esigneert worde
+                                           1919: "tot de bedieningen van syne voorouders niet van nu aff gedesigneert worde"
+     bekennen dat wy ten uyterst[e]n daerover becomm[ert] zyn
+                                           1919: "bekennen, dat wy ten uyttersten daerover becommert zijn"
+     hyer | desperaet | handeling | audientie | da[t] point | [p]ropositien [i]n den staet | kennisse
+                                           1919: the same words
+   12 of 207 groups are wrong in Thurloe's print (57, 97, 19, 9, 17, 24, 6, 6, 51, 13, 48, 70). Three are a "6" where
+   the key needs 16. The 1919 text has more ciphered text after "onvermydelijck geschyeden moet"; Thurloe stops there.
+
+4. De Witt to Beverning, [24 July 1653]. Thurloe i.351. REPRODUCED (De Witt's letters to the deputies are in Brieven
+   van De Witt, i, pp. 91-258; I did not compare this letter word for word). Fruin's key on the BHO text gives:
+   "princes(se) dovariere", "graef willem", "hooch(t)", "designeren", "hoff", "haere hooch m".
+
+5. Beverning to Nieupoort at The Hague, Westminster 22 Aug 1653 N.S. Thurloe i.418. Groups checked on the page image.
+   "I spoke with 66 63 37 15 6 26 16 in the Latin tongue"      z y n e a i e   -> ZYN E[X]IE (= zyn Ex.ie; 6 for 61?)
+   "chiefly of 51 16 12 58 29 26 52 17 64 53"                   s e c v i i t e y t -> SECU[R]ITEYT (29 for 49)
+   "whether 66 63 38 17 61 did understand"                      z y n e x       -> ZYNE EX. (His Excellency = Cromwell)
+   The code groups 297, 369, 298, 373, 296, 434, 329 of this letter are not letters and stay unread.
+   Printed Dutch text: none found (not in Brieven aan De Witt; the Verbael was not searched for it).
+   Not in Kernkamp's list of 1906. The key is Fruin's, so this is a small application of a published key.

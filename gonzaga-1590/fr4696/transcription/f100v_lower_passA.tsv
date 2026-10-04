@@ -1,0 +1,120 @@
+page	line	n	kind	cipher	gloss	note
+f100v	10	1	clear	che		y=2470; line starts 'che 44 (15) ...'; gloss starts 'il Re si unisse con lui'
+f100v	10	2	fig	44^-	il Re	
+f100v	10	3	fig	(15)	si	
+f100v	10	4	sp	UNISSE	unisse	
+f100v	10	5	fig	29^.	con	dot above the 9
+f100v	10	6	fig	(35)	lui	
+f100v	10	7	clear	non lascio di dar a		
+f100v	10	8	fig	(36)	lei	
+f100v	10	9	sp	DIUERSE	deuerse	
+f100v	10	10	fig	23^.	comiss.	dot above the 3; gloss abbreviated (comiss, perhaps with a raised letter)
+f100v	10	11	clear	et dopo		
+f100v	10	12	fig	63_-	la	align?; gloss reads 'p la unione': the 'p' (per) stands left of 'la', above the clear word 'dopo'. Bar below is clear. The hook above the 6 is read as the top of the 6 (thin stem), but it can be an arc above (63~_-)
+f100v	10	13	fig	85^-_.	unione	bar above and dot below
+f100v	10	14	clear	dici		
+f100v	10	15	fig	76=	no	gloss 'no' with a stroke (non)
+f100v	10	16	sp	UO	uolerlo	start of VOLERLO; the word goes on in line 11; gloss stands above line 11
+f100v	11	1	sp	LERLO	uolerlo	y=2600; line starts with signs (end of VOLERLO) then 87; gloss starts 'uolerlo piu fare'; first sign is a blot
+f100v	11	2	fig	87=	piu	bar above and bar below
+f100v	11	3	sp	FARE	fare	
+f100v	11	4	clear	Quanto poi alla		
+f100v	11	5	fig	95^-	utilita	bar above; first digit 9 (not 7)
+f100v	11	6	et	et	et	diamond with a dot
+f100v	11	7	fig	48	interesse	no mark
+f100v	11	8	fig	82^.?	di	dot above the 2 is clear; a second dot stands well below the figure (about 17 px under it), so 82^._. is possible
+f100v	11	9	fig	67_.?	mondo	one dot below the figure; it stands at the same height as the dot under 82, 60 px to the right; less likely the two dots are one pair
+f100v	11	10	clear	considero che il		
+f100v	11	11	sp	DECLARARSI	declararesi	
+f100v	11	12	fig	(55)		no gloss word for this figure; the gloss 'declararesi' ends above it
+f100v	11	13	fig	31=	cont.	align?; gloss 'cont' with an abbreviation mark (contra/contro) stands at the end of the line, above 44; bar above and bar below
+f100v	11	14	fig	44^-	il Re	align?; 'il Re' stands in the left margin of line 12 (gloss for the end of this line)
+f100v	12	1	fig	28=	che	y=2720; line starts '28 63 63 14' then signs; gloss starts 'che la cosa suo comminciano'; margin gloss 'il Re' belongs to line 11. Bar above and bar below; a flourish leads into the 2
+f100v	12	2	fig	63_-	la	bar below
+f100v	12	3	fig	63^.	cosa	dot above the 3
+f100v	12	4	fig	14^-_.	suo	bar above and dot below; gloss 'suo' or 'sua'
+f100v	12	5	sp	COMINCIANO	comminciano	
+f100v	12	6	sp	A	a	
+f100v	12	7	sp	CAMINAR	caminar	
+f100v	12	8	fig	80^.	bene	dot above the 8
+f100v	12	9	clear	è cosa di molta		
+f100v	12	10	fig	87^^	perfidia	small roof above the 7
+f100v	12	11	clear	considero ancora che essendo		
+f100v	13	1	clear	stato il		y=2850; line starts 'stato il 86 82' then signs; gloss starts 'Duca di Longuauilla genero di V Ecc'
+f100v	13	2	fig	86	Duca	no mark
+f100v	13	3	fig	82^.	di	
+f100v	13	4	sp	LONGAUILLA	Longuauilla	
+f100v	13	5	sp	GENERO	genero	
+f100v	13	6	fig	82^.	di	
+f100v	13	7	fig	(50)	V Ecc	
+f100v	13	8	fig	99_v	qllo	small v below (between this figure and the roof of 60 in line 14); gloss 'qllo' with a stroke (quello)
+f100v	13	9	clear	che diede ultimamente		
+f100v	13	10	fig	86^-_.?	fe una	align?; bar above (with a small tick) and dot below. Second digit: 6 with a faded stem (hook is there), can be 80. Gloss has three words for 86 and 89: 'fe(se?) una rozezza'; 'fe' stands left of the figure, above the end of 'ultimamente'
+f100v	13	11	fig	89_v	rozezza	align?; small v below; gloss word is corrected and blotted (rozezza?)
+f100v	13	12	fig	10^.?	a	a blot and a smear above the 1: dot above likely (as in line 14), not sure
+f100v	13	13	fig	99_v?	qlli	a wavy mark below the second 9; it can be a small v below, or the top of the d of 'considero' in line 14; so 99 with no mark is possible
+f100v	13	14	fig	82^.	de	align?; gloss 'de la lega': 'de' put here
+f100v	13	15	fig	74_-	la lega	align?; bar below; 'la lega' put here ('la' can go with 82)
+f100v	13	16	fig	(50)	VE	gloss 'VE' small, at the page edge
+f100v	13	17	clear	tenne		clear word, reading not sure (viene?)
+f100v	14	1	clear	in certo modo ad esser piu		y=2965; line starts 'in certo modo ad esser piu' then signs; gloss 'astreta a parte del Re'
+f100v	14	2	sp	ASTRETA	astreta	
+f100v	14	3	fig	10^.	a	dot above the 1
+f100v	14	4	fig	60^^	parte	small roof above; a small v stands right above the roof and is read as the mark below 99 of line 13
+f100v	14	5	fig	82^.	del	gloss 'del Re' split over 82 and 44
+f100v	14	6	fig	44^-	Re	bar above
+f100v	14	7	clear	e finalmente. Considero che non potendo		
+f100v	15	1	clear	à tal		y=3105; line starts 'à tal 14' then signs; gloss starts 'suo declaratione dar mentita di religione'
+f100v	15	2	fig	14^-_.	suo	bar above and dot below (dot under the 1); gloss 'suo' or 'sua'
+f100v	15	3	sp	DECLARATIONE	declaratione	
+f100v	15	4	sp	DAR	dar	
+f100v	15	5	fig	37^.	mentita	one dot above, between 3 and 7
+f100v	15	6	fig	82^.	di	
+f100v	15	7	fig	35^^_v	religione	small roof above and small v below
+f100v	15	8	clear	perche ben... ò		clear words, middle word not read (benemirible?)
+f100v	15	9	sp	HAUERLO	hauere o	
+f100v	15	10	sp	FATTO	fatto	
+f100v	15	11	sp	PRIMA	prima	
+f100v	15	12	clear	ò che		
+f100v	16	1	fig	82^.	di	y=3225; line starts '82 95 fosse' then signs; gloss starts 'di qua' ... 'uscita de nouo confusione contra il Re'
+f100v	16	2	fig	95=	qua	bar above and bar below
+f100v	16	3	clear	fosse		
+f100v	16	4	sp	USCITA	uscita	
+f100v	16	5	fig	34^.	de	align?; dot above the 3; gloss words 'de' and 'nouo' stand a little to the left of 34 and 10
+f100v	16	6	fig	10^^	nouo	align?; small roof above
+f100v	16	7	fig	36^._-?	confusione	dot above and bar below (the bar has a small tick). Second digit is written over another: 6 most likely, can be 8 or 0 (38, 30)
+f100v	16	8	fig	31=	contra	bar above and bar below
+f100v	16	9	fig	44^-	il Re	bar above
+f100v	16	10	clear	la quale se à questa		
+f100v	16	11	fig	56=	hora	bar above and bar below
+f100v	16	12	fig	76=	no	bar above and bar below; gloss 'no' (non)
+f100v	16	13	sp	E PUBLICATO	e publicato	
+f100v	16	14	fig	67_:	il	two dots below
+f100v	16	15	sp	MONITO	monitorio	the word goes on in line 17 (RIO)
+f100v	17	1	sp	RIO		y=3345; line starts with three signs (end of MONITORIO) then 'Iddio sa se si'; gloss 'fara piu'
+f100v	17	2	clear	Iddio sa se si		
+f100v	17	3	sp	FARA	fara	
+f100v	17	4	fig	87=	piu	bar above and bar below
+f100v	17	5	clear	appunto secondo quello che V. Ecc. mostra di credere,		
+f100v	18	1	clear	non so come alla hora si sodisfacesse del		y=3470; line starts 'non so come alla hora'; gloss 'titolo di resentimto priuato' ... 'conto che'
+f100v	18	2	fig	37^-_.	titolo	bar above and dot below
+f100v	18	3	fig	82^.	di	
+f100v	18	4	fig	73^^_v	resentimto	small roof above (hook shape) and small v below; gloss abbreviated with raised 'to'
+f100v	18	5	fig	63_v	priuato	small v below
+f100v	18	6	clear	alhora il poco		
+f100v	18	7	sp	CONTO	conto	
+f100v	18	8	fig	28_-	che	bar below only; no bar above seen (line 12 has 28 with both bars for 'che')
+f100v	19	1	fig	44=	S. Mta	y=3600; line starts '44' then two signs then 'al presente 82 (36) Mettendo dunque'; gloss 'S. Mta fa' ... 'deuol lei'. Bar above and a curved bar below
+f100v	19	2	sp	FA	fa	
+f100v	19	3	clear	al presente		
+f100v	19	4	fig	82^.	deuol	align?; gloss word not read with certainty (deuol / de uoi?); it stands above 82 and left of it
+f100v	19	5	fig	(36)	lei	
+f100v	19	6	clear	Mettendo dunque tutte queste difficoltà insieme io		the letter goes on in clear
+# figures: 62
+# figures with a doubtful mark or digit (marked ?): 6: L11 82^.?, L11 67_.?, L13 86^-_.?, L13 10^.?, L13 99_v?, L16 36^._-?
+# figures with a doubtful gloss alignment (align?): 10
+# Line numbers: 10 = cipher row at y=2470 (overlap line with the upper part), 19 = last cipher row at y=3600.
+# Odd things: gloss for the last figure of line 11 ('il Re') stands in the left margin of line 12. Line 13: gloss 'rozezza' is corrected and blotted; a smear crosses the figures 86 and 10. Line 16: one figure (36?) has a digit written over another.
+# Line 13/14: a small v and a small roof stand one above the other between 99 (line 13) and 60 (line 14); read as 99_v and 60^^.
+# The digit 6 has a thin stem with a hook at the top; the hook can look like an arc above the figure (63 in line 10, 86 in line 13).
+# Same hand for the gloss in all lines; no change of hand seen.

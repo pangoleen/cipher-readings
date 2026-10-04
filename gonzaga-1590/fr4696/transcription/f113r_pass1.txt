@@ -1,0 +1,7 @@
+# BnF fr. 4696 f. 113r (view 229), Scipione Gonzaga to Nevers, Rome, [late September 1589]. Five cipher lines, NO gloss.
+# Pass 1 (coordinator; knew lists_v3). | separates units; CAPITALS = spelled; "..." = clear.
+L1: "di dirle, che" 89= 50_: | HANNO | DATO | 10 32^- 63_- 79_- 82^. 69 28= 70^- (22) 83= | ANDAVA | SPAR
+L2: GENDO | 83= 63_- 61^.? 36= 28= 83= 11^^_v 14^. 67_: 78^-_v? 82^. (50) 76= | R?IU?O? | (27) 82^. (20) 27_: 98_v | SARIA | (42)
+L3: 83_: 41^. 26^-_. | "L'aggiunse" | 10? 97^.? 28= (28) (42) | INTERCETTE | 18= 54_.? 79_- 21^.? 99_v 82^. 70^- (34) 76=
+L4: POSSO | RISCALDAR | ?IS?OUER?IO? | [inserted above: 83= (35)] 28= 76= | MOSTRI | (27) | CONSAPEVOLE? | (22)?
+L5: 60^^ 83 | CIO | 28= | SCRIVEVA | 67? 70^- 75= 86= | LASCIO | 82^. | FARE | 98_v 84^.? | POSSO? | "il che tutto sia per aviso a V. Ecc."

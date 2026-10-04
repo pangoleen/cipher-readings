@@ -1,0 +1,100 @@
+page	line	n	kind	cipher	gloss	note
+f100v	1	1	sp	AMIPREMENELL	ami preme nell	cipher row y=1516; gloss starts 'ami preme nell anima'; clear 'dico, che' before; 3rd sign (upright with side bar) read I from the gloss
+f100v	1	2	fig	48^.	anima	dot above the 4
+f100v	1	3	fig	67		no mark seen; no gloss word above it (gloss 'anima' ends above the 6; small dots follow in the gloss row)
+f100v	1	4	fig	14^-	suoi	align? short bar above 14 (it starts above the 7-1 gap); 3 figures 67 14 44 for 2 gloss words 'suoi travaglio'; 'suoi' stands above 44, shifted right
+f100v	1	5	fig	44^-	travaglio	align? bar above; 'travaglio' stands right of 44, above clear 'et tanto'
+f100v	1	6	clear	et tanto maggior(mente) quanto		clear; 'te' written above after maggior
+f100v	1	7	sp	E	e	sign T
+f100v	1	8	fig	87=	piu	bar below and bar above; the p of the gloss "piu" comes down onto the bar above (same as 83= and 87= in line 3)
+f100v	1	9	fig	86^:?	dificile	two small dots above the 6: the left one is free, the right one sits at the end of a stroke that comes down from the gloss (f of 'dificile'); can be 86^.
+f100v	1	10	et	et	et	diamond with dot
+f100v	1	11	fig	83^-		bar above; last unit of the line, no gloss word above it (gloss ends with 'et' above the diamond)
+f100v	2	1	sp	VIA	uia	cipher row y=1663; gloss starts 'uia di relig.e et uia di utilita'; a cross in the left margin
+f100v	2	2	fig	82^.	di	dot above between 8 and 2
+f100v	2	3	fig	35^^_v	relig.e	roof above and v below
+f100v	2	4	et	et	et	diamond with dot
+f100v	2	5	fig	83^-		bar above; no gloss word above it (space in the gloss between 'et' and 'uia')
+f100v	2	6	sp	VIA	uia	
+f100v	2	7	fig	82^.	di	dot above
+f100v	2	8	fig	95^-	utilita	short bar above
+f100v	2	9	fig	67	il	blot on the 6; no mark seen
+f100v	2	10	sp	PIGLIAR	pigliar	
+f100v	2	11	fig	75^.	deliberat.e	dot above the 5; the 7 looks like the sign T
+f100v	2	12	clear	per la		
+f100v	2	13	fig	35^^_v	relig	roof above is flat (like a bar with a hook at left) and v below; gloss 'relig' has a flourish through it (struck or underlined)
+f100v	2	14	clear	non e dubbio che S(?) ame..		clear
+f100v	2	15	fig	44^-	Re di franc(ia)	bar above (it also underlines 'Re' of the gloss); gloss in the right margin above the figure
+f100v	2	16	sp	E		sign T after 44; its gloss "e" stands at the start of the gloss row of line 3
+f100v	3	1	sp	INCORSO	incorso	cipher row y=1810; gloss starts 'e incorso nel censure'; the 'e' at the start of this gloss row is for the sign T at the end of line 2
+f100v	3	2	fig	83	nel	no mark seen
+f100v	3	3	sp	CENSURE	censure	
+f100v	3	4	fig	83=	per	bar above and bar below; the p of the gloss 'per' comes down onto the bar above
+f100v	3	5	fig	87=	piu	bar above and bar below, both clear
+f100v	3	6	fig	95^.?	capo	dot above the first digit; first digit is open, like a j: can be 75^. or 15^.; gloss reads 'capo' or 'casso'
+f100v	3	7	clear	chi non e		clear
+f100v	3	8	fig	48^._-	sicurezza	dot above between 4 and 8; bar below (it touches a letter of the gloss row of line 4, so `48^.` is possible)
+f100v	3	9	fig	63^.?	cosa	a dot above between the 3 and the next 6: can belong to 67 (then 63 and 67^.); gloss words stand shifted right
+f100v	3	10	fig	67	il	no mark, if the dot belongs to 63
+f100v	3	11	sp	SERVIRE O	seruire o	last sign (o) has a dot above
+f100v	3	12	clear	et q.to tanto meno		clear
+f100v	3	13	fig	(44)	S. M.ta	brackets; gloss in the right margin above
+f100v	4	1	sp	MERITA	merita	cipher row y=1940; gloss starts 'merita di lei'
+f100v	4	2	fig	69^.	di	dot above the 9 (the 9 is open, like a j)
+f100v	4	3	fig	(36)	lei	brackets
+f100v	4	4	clear	quanto che per		clear
+f100v	4	5	fig	86^-_.	uno	short bar above (under 'so' of the gloss) and dot below
+f100v	4	6	fig	66^._-	solitudine > sola	dot above between the two 6 and bar below; gloss 'solitudine' with 'sola' written above it as a correction
+f100v	4	7	fig	59^^	parola	small roof above the 9
+f100v	4	8	fig	80^.	dette	dot above the 0
+f100v	4	9	fig	69^.	di	dot above the 9
+f100v	4	10	fig	(50)	V. Ecc.	brackets
+f100v	4	11	clear	con buona		clear
+f100v	4	12	fig	21_v	pienezza	small v below; gloss words of this group stand shifted right
+f100v	4	13	et	et	et	diamond with dot
+f100v	4	14	fig	96^-_.	zelo	bar above (under the p of 'pienezza') and dot below the 9
+f100v	4	15	fig	82^.	gli	dot above; gloss reads 'gli', can be 'di'
+f100v	4	16	fig	64_:?	Iddio	two dots below; they stand just above a blot in the gloss row of line 5 and can belong to that gloss: then 64
+f100v	4	17	clear	chi mostra di		clear
+f100v	4	18	fig	89^.	dimanticanza	align? dot above the 9; no gloss above; gloss taken from the start of the gloss row of line 5 (see line 5)
+f100v	4	19	fig	22^-	tante	align? short bar above; no gloss above; gloss taken from the start of the gloss row of line 5; dots below are i-dots of the gloss of line 5
+f100v	5	1	fig	42^._-	seruitii	cipher row y=2070; gloss row reads 'dimanticanza [struck word, tante above] seruitii passati ... S. M.ta ... non uoler seruirsi di chi ia'; align? dot above and bar below; 'dimanticanza' stands right above 42 65, but the 4 gloss words run over clear text, so I give them to the 4 figures 89 22 (end of line 4) 42 65; other choice: 42 = dimanticanza, 65 = tante
+f100v	5	2	fig	65^^	passati	align? small roof above the 5; see note of 42
+f100v	5	3	clear	oltre che quello ch'ha ... de		clear
+f100v	5	4	fig	(44)	S. M.ta	brackets (the closing one is a straight stroke); gloss right above
+f100v	5	5	clear	in dover di		clear, reading not sure
+f100v	5	6	fig	76=?	non	bar above is sure; a like bar below stands just above 'mo' of the gloss row of line 6 (can be a stroke of that gloss): then 76^-
+f100v	5	7	sp	VO?ER SERVIRSI	uoler seruirsi	third sign is under a blot (L from the gloss); a blot also in the gloss after 'uoler'
+f100v	5	8	fig	82^.	di	dot above
+f100v	5	9	sp	CHI HA	chi ia	gloss reads 'chi ia'
+f100v	6	1	fig	21^-_.	tale	cipher row y=2198; gloss 'tale scrupolo' stands in the left margin on the cipher row, left of the figures; above it a struck gloss row 'dimanticanza tante tale scrupolo'; short bar above and dot below
+f100v	6	2	fig	31^._-	scrupolo	dot above the 1 and bar below; gloss in the left margin (see 21)
+f100v	6	3	clear	dimostra chiaram.te		clear
+f100v	6	4	fig	86^-_.	uno	bar above and dot below
+f100v	6	5	sp	POCA	poca	
+f100v	6	6	fig	35^^_v	religione	roof above and v below
+f100v	6	7	fig	82^.	di	dot above
+f100v	6	8	fig	49	animo	no mark seen (a blot of the gloss stands above it)
+f100v	6	9	fig	14^-	suoi	bar above
+f100v	6	10	clear	se ben per d'altro canto si vede		clear
+f100v	7	1	clear	manifestam.te questo non essere stato		clear; cipher row y=2330; gloss row (y about 2235) starts 'suoi motiuo ma di'
+f100v	7	2	fig	14^-	suoi	short bar above the 1
+f100v	7	3	sp	MOTIVO	motiuo	
+f100v	7	4	fig	68=	ma	bar above (it cuts the top of the 6, with a small hook) and bar below
+f100v	7	5	fig	82^.	di	dot above
+f100v	7	6	fig	50^-	hereditata	bar above; gloss ending is raised ('heredita' + small 'ta'), reading of the ending not sure
+f100v	7	7	fig	82=	o uero	bar above and bar below; two gloss words above one figure
+f100v	7	8	fig	82^.	di	dot above
+f100v	7	9	fig	41^.	altro	dot above; the 4 is like a cross
+f100v	7	10	fig	14^-	suoi	bar above
+f100v	7	11	clear	poi che innanzi		clear; next line (y about 2470, 'che 44 (15)') is not in this pass
+# figures: 58 (7 cipher lines, cipher rows at y = 1516, 1663, 1810, 1940, 2070, 2198, 2330; the task expected about 9 lines from y=1200, but the cipher starts at y=1516 after 'dico, che')
+# figures with a doubtful mark: 5 (l1 n9 86^:?, l3 n6 95^.?, l3 n9 63^.?, l4 n16 64_:?, l5 n6 76=?)
+# figures with a doubtful alignment: 6 (l1 n4 14^-, l1 n5 44^-, l4 n18 89^., l4 n19 22^-, l5 n1 42^._-, l5 n2 65^^)
+# no gloss: 67 (line 1), 83^- (line 1 end and line 2); the gloss 'il' stands above 67 in lines 2 and 3
+# line 1: three figures 67 14^- 44^- stand under two gloss words 'suoi trauaglio'; 14^- has gloss 'suoi' again in lines 6 and 7; 44^- has gloss 'Re di francia' in line 2
+# line 4-5: the gloss words 'dimanticanza tante seruitii passati' stand at the start of the gloss row of line 5; they are given in order to 89^. 22^- (end of line 4) and 42^._- 65^^ (start of line 5); 'tante' is written above a struck word
+# line 6: a full gloss row 'dimanticanza tante tale scrupolo' is struck through above the start of the line; 'tale scrupolo' is written again in the left margin
+# line 4: gloss 'solitudine' corrected to 'sola' (written above); line 5: blot on one sign and on the gloss after 'uoler'
+# the gloss clerk's p comes down onto the bar above of the figure in 'piu' (87=, line 1), 'per' (83=, line 3), 'pienezza' (96^-_., line 4): the bars are read as marks
+# the 9 is often open, like a j (69^., 59^^, 95^.? in line 3)

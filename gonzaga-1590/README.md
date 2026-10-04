@@ -1,8 +1,9 @@
 # The cipher of Cardinal Scipione Gonzaga and the Duke of Nevers, 1590
 
 Paris, BnF, ms. français 4698 holds letters in Italian from Cardinal Scipione Gonzaga in Rome to Louis de Gonzague,
-Duke of Nevers, with long passages in cipher. This repository rebuilds the cipher, links the letters to period
-decipherments in another volume, and reads two letters that have no decipherment.
+Duke of Nevers, with long passages in cipher. This folder rebuilds the cipher, links the letters to period
+decipherments in two other volumes, tests the rebuilt code against them, and reads the passages that have no
+decipherment.
 
 **Status: 3 October 2026.** The work was done by a model. No palaeographer has checked it. No key sheet was found.
 Corrections are welcome: please open an issue.
@@ -13,7 +14,9 @@ Corrections are welcome: please open an issue.
 |---|---|---|
 | Reproduced | The plain text of the letters of 21 January and 16 February 1590 | It is the text of Nevers's own clerk of 1590 (BnF fr. 4702). We transcribed and translated it. It is not a new decipherment. |
 | New | The link between the two volumes | fr. 4702 ff. 94r-95r, f. 97r-v and f. 108r are the decipherments of fr. 4698 ff. 30r-31r, f. 104r and f. 34r. The printed catalogue describes them as letters of "un agent du duc de Nevers" and does not link them. We found no source that does. |
-| New | The reconstruction of the cipher | Three layers; a word code of 378 values in 14 lists; a symbol alphabet. Built without a key sheet. |
+| New | The reconstruction of the cipher | Three layers; a word code of 448 values in 14 lists; a symbol alphabet. Built without a key sheet. |
+| New | A second, larger test | BnF fr. 4696 holds about 56 letters of the Cardinal of 1585 to 1589 with the clear text written above the cipher. It is the same cipher from October 1586. The table of 378 values, built before this volume was seen, gives the glossed word for 452 of 463 units (97.6 %). |
+| New, small | Passages of fr. 4696 with no gloss, and two minutes of Nevers | [fr4696/readings.md](fr4696/readings.md) |
 | New | A blind test of the method | A partial reading was made and frozen before the period decipherments were found. It is scored below. |
 | New, with gaps | The letters of 24 March and 31 March 1590 (ff. 26v-27r, ff. 36r-37r) | No period decipherment was found for them. They are read here with the rebuilt code: [24 March](reading/f26v-27r_1590-03-24.md), [31 March](reading/f36_1590-03-31.md). |
 
@@ -27,6 +30,8 @@ Corrections are welcome: please open an issue.
 | f. 34r, letter of 19 February 1590 | fr. 4702 f. 108r | `alignment/alignment_f34.tsv` |
 | ff. 26v-27r, letter of 24 March 1590 | none found | [reading](reading/f26v-27r_1590-03-24.md) |
 | ff. 36r-37r, letter of 31 March 1590 | none found | [reading](reading/f36_1590-03-31.md) |
+| f. 108r and f. 179r, minutes of Nevers to the Cardinal (28 February and 9 July 1590) | none found | [fr4696/readings.md](fr4696/readings.md) (f. 108r is weak) |
+| BnF fr. 4696 (Gallica `btv1b9059540q`), letters of 1585 to 1589 | written above the cipher, in the volume | [fr4696/](fr4696/) |
 
 ff. 11-16 of fr. 4698, which the catalogue lists as "Chiffre", hold three clear letters and no cipher.
 
@@ -60,9 +65,13 @@ Three layers.
 3. **A verb sign.** An arc above a figure means: read the verb of the noun in the list. The Cardinal states this
    rule in clear on f. 17v, and promises a new cipher when he has time.
 
-The table is [tables/lists_v3.tsv](tables/lists_v3.tsv): 378 values with a period gloss (109 of them confirmed by
-two independent glosses), and 27 more proposals in `tables/interp_v3.tsv`. Nine pairs break the alphabetical order:
-two by spelling, six are swaps of neighbours, one is open. [images/marks.jpg](images/marks.jpg) shows the marks.
+The table is [tables/lists_v4.tsv](tables/lists_v4.tsv): 448 values with a period gloss. `tables/lists_v3.tsv` is
+the table of 378 values as it stood before fr. 4696 was seen, and `tables/interp_v3.tsv` holds 27 window
+proposals. Eighteen pairs break the alphabetical order; most are swaps of close neighbours.
+
+The Cardinal made the cipher himself. On 18 November 1585 he writes that he forgot the word "Suizzeri" under the
+letter S, so that the numbers after it move up by one (fr. 4696 f. 3v). On 11 August 1586 he sent a new word list,
+"un mezo Dittionario", and cancelled the first two (f. 32v). The symbol alphabet stayed the same from 1585 to 1589. [images/marks.jpg](images/marks.jpg) shows the marks.
 
 **Not the key:** Tomokiyo's no. 35 (BnF fr. 3995 f. 64), which another project names for this volume. In that key the
 figures 11 to 40 are letters; on f. 17r it gives a value for 11 of 28 figures and no Italian.
@@ -96,6 +105,23 @@ Nearly every failure has one cause: a mark read as the mark of another list. On 
 the film names the right list for 87 % of the units. So a word with a period gloss is fairly safe, and a word chosen
 by window is a proposal.
 
+## The test against fr. 4696
+
+fr. 4696 was found after the table of 378 values was finished. Eleven of its glossed pages (1586 to 1589) were
+transcribed, one blind pass each: 587 figure units ([fr4696/agreement_table.md](fr4696/agreement_table.md)).
+
+| Measure | Value |
+|---|---|
+| Units whose word is in the table of 378 values | 463 |
+| The gloss on the page is the word of the table | 452 (97.6 %) |
+| Word and mark both agree | 408 (88.1 %) |
+| Conflicts | 1 (figure 87 of the list o to pe: "perfidia" against "pericolo") |
+| The same test with a shuffled table | 2 of 572 |
+| Window proposals confirmed by a gloss | 8; one is contradicted |
+
+So the word values hold. The marks stay the weak point: in about one unit in ten the mark that was read names
+another list.
+
 ## The two letters with no period decipherment
 
 **24 March 1590 (ff. 26v-27r).** Two blind transcription passes agree on the figure for 95 % of 586 units and on
@@ -118,8 +144,9 @@ proposals. The events are known to historians from other sources; we did not com
 - The editions of the letters of 21 January and 16 February follow the clerk. In 49 units the editor preferred the
   cipher to the clerk's word; each case is in the alignment tables and needs a second reader.
 - The alignment of f. 34r had one pass.
-- BnF fr. 4696 (Gallica `btv1b9059540q`) holds about 56 more letters of the Cardinal with decipherments (1585 to
-  1589). It was not used here. It can confirm or correct the table.
+- The pages of fr. 4696 had one transcription pass each. The older word lists of May to September 1586
+  (ff. 20r-37v) were not studied.
+- Nevers's minutes in BnF fr. 3612, 3375, 4697 and 4701 are not on Gallica and were not seen.
 
 ## Earlier work
 
@@ -140,6 +167,7 @@ of the link between fr. 4698 and fr. 4702 was found. A printed edition that is n
 | `alignment/` | One row for each code unit of ff. 30, 104 and 34: figure, mark, clerk's word, value |
 | `transcription/` | The cipher transcriptions |
 | `evidence/` | The blind score, the survey of fr. 4702, the blind passes, the work logs, and the state before fr. 4702 was found |
+| `fr4696/` | The test against the glossed letters of 1586 to 1589, the readings of the passages with no gloss, the transcriptions, and the work log |
 | `images/` | Reduced images: the marks, three cipher pages, and two pages of fr. 4702 |
 
 ## Credits

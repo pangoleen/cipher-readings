@@ -1,0 +1,18 @@
+# BnF fr. 4698 f. 34r (img/v37_R.jpg). Cardinal Scipione Gonzaga to Nevers, Rome, 19 February 1590. Cipher: 7 lines, then 2 clear lines, then 3 lines.
+# One pass, from crops at 1.6 of native size (v2work/c34_*.jpg), made with the period decipherment fr. 4702 f. 108r open. NOT blind:
+# where a mark was unclear I wrote the mark of the list that the clerk's word needs. Notation as in check/f104r_transcription_checker.txt.
+# Clear text before the cipher (my reading): "Scrissi a V.Ecc. hoggi quattro di sono, accusandole la ricevuta della sua dell'ultimo di Genn.o et
+# rispondendo minutamente al particolare scritto in cifra. hora havendo saputo che questa sera parte un altro corriero, non ho voluto lasciar
+# di replicar in sostanza ciò ch'io le scrissi intorno a quell'ultimo capo, accioche se la prima si smarrisse, per la seconda V.Ecc. intenda quanto li occorra."
+# Clear text between the two cipher blocks: "Questo è in sostanza tutto quello ch'io scrissi a V.Ecc. ma molto più diffusamente, in questo particolare.
+# Gli altri capi non ho tempo di replicare. Solo dirò che".  Date at the end: "Di Roma a 19 di feb.o 1590".
+L01: 76= | T | 83= 56= 67_: 89^: 82^. 47^- 67_: 42~^._- (15) 82^. (50) 50= 82^. "A" 68= (15) 67_: 92_. 63_- 24^^ 10^-_. [et] 82^. 14^-_. 76 61^^ 82^. 50^._- 86 82^.
+L02: 90_- 73 13= 83_: 99_v 32^^_v 76= 11~^-_. 86^-_. 55^- 55_: 28= 41 76= 65~_v 56= 83_: "A" 47^- 13~_- (44) 67_: 41^._. 82^. 94^^ 82^. (50) [et] 13~_- 63_- 85^. 10^-_. 29^.
+L03: 63_- 98 82^. 71 86= 10^. 53~^. 76_v 67_: 50^._- 10^. 28= (44) (32) 64_v 30= 53~^. 75= 87~^-_. 69 69 63^. | S v a | 31_- | F3 | 59_: [et] 88^. 10^-_. 10^. 24_- 82^. (50)
+L04: 76_v (18) [et] 71^: 66^^_v 66^._- 78~^. 28= (50) 76= | y L | 27~^: 67_: 37_: 82^. | oh | 30_- 63^. 82^. 28= 63_- 98 82^. 71 65~_v (27) (42) 59_v 63_v 69 55^- 72^.
+L05: 68= 83_: 91_- 82^. 11^^_v 87~^-_. 80^. 28= (36) (16) 76~_v 34^. 91_- 91^^ 39= 28= 63_- 63^. 82^. 32^^_v (32) 50_. (31) 86_- [et] 11^^_v (14) | R y perp | 30_: 82^.
+L06: 85^._. 82^. 57^. [et] 11^^_v 33^._. 95~^. 82^. 80~^: 29^. 41^. 28= (32) 50_. 42_- 10^. 11^^_v 76_: 29^. 87_: 82^. 99_v 28= | S a y a | 44^: 55^- 63_- 13^^ 90= 82^. 11^^_v 81_v
+L07: | ll v # T | 67_: 10^. (27) (42) 63_- 18_v 87_: 28= 73^._. 10^. (50) 32^- [et] 63_- 39_: | S t v pi a | 28= 80^: 82^. 94^^ 82^. (36)
+L08: (39) 80^: 16^. 67_: 10 82^. ll' 87= 82^. (25) (32) | gam y phi | 32_. 10 32^- 68= 63_v (11) (15) 19~^. 29^. 50^- 29^. 28= (15) | T | 21^. 25= 67_: 32^._-
+L09: 82^. (43) (31) 47^- 75= | perp | 34^: 28= 32^- 76= (15) 10^. 87_: 10 11^^_v 68= 64~^. 28= (15) 27~^: 59_v 34^. 63^. 10 50^- 68_- 83^. 77~_. (11) (35) 87~^-_. 80~^:
+L10: (30) 43_- 67_: 26^- (32) (31) 32^^ 82^. 95= 82^. 93_. 82^. 99 [et] 82^^_v 83_: 97= 19^. 82= 91_- 76= 73^._- 10 90_. 82^. 60^^ 67_: 28= 69 54_- 82^. 45^^_v

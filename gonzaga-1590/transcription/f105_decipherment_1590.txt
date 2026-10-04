@@ -1,0 +1,64 @@
+BnF fr. 4698, f. 105r  (Gallica btv1b9058291p, view 108, right page; img/v108_R.jpg)
+Period decipherment (Nevers's office hand) of the cipher lines of f. 17r-v
+(Scipione Gonzaga to Nevers, Rome, 16 Feb 1590).  It is NOT the plaintext of f. 104r.
+
+NOTATION for the cipher (used in all files)
+  NN        plain two-digit figure            (NN)   figure in round brackets
+  NN-       bar above        NN_  bar below          NN=    bar above and below
+  NNd       one dot above    NNdd two dots above
+  NNb       one dot below    NNbb two dots below
+  NN^       circumflex above NNv  caron (check) below
+  NN~       arc above = VERB SIGN (Scipione's rule, f. 17v)
+  Symbols of the letter alphabet are written with look-alike characters:
+  K  <>(diamond with stem = a)  V(inverted triangle = b)  /\ (lambda without bar)  T  = ‖ y R(reversed R) phi ...
+  <.> = diamond with a dot in it = "et".      |  word-by-word alignment: cipher(gloss)
+
+=== Paragraph 1 = f. 17r, cipher line 1 (29 units, 29 words) ===
+Gloss (verified on image): "Il ragionam.to fatto dal Papa alli Cardinale sopra la morte di gia Re di
+francia sapia V Ecc essere vero se non e mutata in qualche parola che io non potentia[39] ricordato[57]"
+67(Il) 23^(ragionamento) 80d(fatto) 69(dal) 32=(Papa) 10(a/alli) 46(Cardinale) (16)(sopra) 63_(la)
+72b(morte) 82d(di) 51_(gia) 44-(Re di Francia) 13_(sapia) (50)(V.Ecc.) (27)(essere; I first read (24): the 7 has a cross-stroke) 67b-(vero) (11)(se)
+76_(non) T(e) 78b(mutata) 83bb(in) 97_(qualche) 59(parola) 28=(che) (34)(io) 76_(non) 39~(potentia -> potere)
+57~(ricordato -> ricordare)
+   The decipherer wrote the code numbers 39 and 57 above his last two words: the verb sign puzzled him.
+
+=== Paragraph 2 = f. 17r, cipher line 2 ===
+Gloss: "La ambasciata [di, struck] fatto V E. da cardinale legato e assai fallito ma io conosciuto /
+dire lei havere mostrato desideroso di havere [disfatto, struck; "caro" above] da lui et nodimeno / havere
+di lui detto male"
+63_(La) 42dd(ambasciata) 80d(fatto) 10(a; not in gloss) (50)(V.E.) 69(da) 46(cardinale) 26_(legato) T(e)
+25_(assai) 73dd(fallito) 68=(ma) (34)(io) 41d~(conosciuto) 28=(che; not in gloss) 87b~(? verb; not in gloss)
+‖ V λ T (dire) 78= (struck out in the cipher) (36)(lei) (32)(havere) 73d(mostrato) 78d(desideroso) 82d(di)
+(32)(havere) 96(caro) 69(da) (35)(lui) <.>(et) 77=(nodimeno) (32)(havere) 82d(di) (35)(lui) 80bb(detto male)
+
+=== Paragraph 3 = f. 17v, cipher lines 1-3 ===
+Gloss: "Non e dubbio che papa inclinato assai a accordare [struck word] Re di Na[varr]a ma li impedim.ti sono
+grandiss[imi] et particolarm.te il rispetto di Re di Spagna / il quale successo q.to e oppinione fermo che
+mosso le arme contra il / medesimo papa et gia creduto che il Amb.re a lui medesimo / habia protestato in
+scritto ma io certezza per questo inclinare / credenza[64] che S.S.ta habia hav.o per male che il legato
+pago ultim.te / q.llo danaro in parrigi a [molto, struck] collegato perche fino hora non / laude(?) il fatto
+ma taciturnita che in lui e male segnalato"
+line 1: 76=(Non) T(e) 34dd(dubbio) 28=(che) 32-(papa) 87bb~(inclinato) 25=(assai) 10(a) 19(accordare)
+        29 50 (Re di Navarra; split not sure) 68=(ma) 67bb(li) 71bb(impedimenti) (39)(sono) 39bb(grandissimi)
+        <.>(et) 61(particolarmente) 67bb(il) 78dv(rispetto) 82d(di) 47-(Re di Spagna) 68bb(il quale)
+        12~b(successo) 11^v(questo) T(e) 25^(oppinione) 87dd(fermo) 28=(che) | 75~b(mosso) 63_(le) 58(arme)
+        31=(contra) 67bb(il) 33db(medesimo) 32-(papa) <.>(et) 51_(gia) 64~(creduto) 28=(che)
+line 2: 67bb(il) 10b(Amb.re) 10(a) (35)(lui) 33db(medesimo) |=(null?) K<>V/\<>(habia) R y phi 32b
+        (protestato = p,r,o + "testa") 83bb(in) 30_(scritto) 68=(ma) (34)(io) 76_(non; not in gloss)
+        67bb(? not in gloss) (30)(? "ho"; not in gloss) 15(certezza) 83=(per) 11^v(questo) 87bb(inclinare)
+        64~(credenza -> credere) 28=(che) (43)(S.S.ta) K<>V/\<>(habia) (31)(havuto) 83=(per) 10b(male)
+        28=(che) 67bb(il) 26_(legato) 49~(pago) 83b(ultimamente ?) 99bb/(quello ?)
+line 3: 70d(danaro) 83bb(in) 99(Parigi) 10(a) 74_(collegato) 84=(perche) 44=(fino) 56_(hora) 76_(non)
+        71_(lauda) 67(il) 80bb(fatto) 68(ma) 19~=(taciturnita -> tacere) 28_(che) 83(in) (35)(lui) T(e)
+        10d(male) 34bb(segnalato)
+   Doubts: the marks on 83/99 at the end of line 2; the split "ultimamente / quello".
+
+=== Paragraph 4 ===
+Gloss: "Alc.o hanno terminato che V Ecc ha mostrato troppo curiosita / in materia di lettera havendone
+ritenuto molto aperto"
+   No cipher for this paragraph on f. 17r-v as I read them (5 lines). To check: the letter may have one
+   more cipher line on f. 18r.
+
+NOTE ON THE GLOSS. The decipherer wrote one word per code unit, without inflection ("fatto V E da cardinale legato
+e assai fallito"). The values are dictionary forms; the reader must supply number, tense and articles.
+Two passes: f. 17r-v was read twice (strips f17r_a/b/c + f17r_A/B; f17v_a/b/c + f17v_A/B). Marks still doubtful: see above.

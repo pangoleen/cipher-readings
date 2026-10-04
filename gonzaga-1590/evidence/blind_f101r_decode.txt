@@ -1,0 +1,20 @@
+L01 [40=] cosa ho da FAR sapere a lei sopra [99=] [68-] [30_d] in la [59v] che desideroso essere accettare in [96v] [62d] [43_] a a Re di Spagna che DEBA [42d_] Re di Spagna
+L02 se A come/subito di questo [32^v] et con [96v] [38bb] [82=] in questo [32^v] et con [96v] [45_] et [96v] perché non SAPENDO che V.S. a come/subito di questo [32^v] ne in
+L03 ESUO non [14d] in che si a desideroso di servitio di da io non CEDO a Mayenne/mostrare ne di [60dd] per havere di si a [87=] di lui ne
+L04 di [55bb] ne di [57] ne di [90d] A et [72=] di [22_] io sono [83_] F a RE quello? che MI [13v]
+L05 E [59bb] et la grandissimo [50d] grandissimo [71d] sopra di io non sono [59d] [75_] necessità [68-] si [80] [87] [29] [(29)] E et cosa a la la
+L06 di [54b] E sapere et fino a questo [26b] servitio [86-] si come?/scritto ho [34d] la [54b] [66dd] con [89v] MI [53d] maggiore non cosa [66dd] che sono di
+L07 C a R E O ne? [87=] [16_] suplico [V.S.Ill.ma] [di] [chiarirmi] [di] [quanto] [di] sopra sapere la
+L08 AOSUI da R la C [52d] di animo [54b] Io [stimo] grandamente la [89v] et suo di [ll'] considero
+L09 suo/sue grandissimo danaro che HA a EOUENIO per [55] in presto et di che C io che [76v] EO [40] et che non RI
+L10 [29=] RA [69d] da se non [63d] [33bb] et [53d] [69d] [13d] [57^] [54b] staro [aspettando] [la] risposta
+L12 quale [desidera] [sia] [ben] tosto ne? in [91_] [83_] non SUARCI [87=] collegato/Lega [26b]
+L13 E altro [63d] che ho da DIRE a [59-] E che [78] utile si [confida] [talmente] [meco] [che] [non] potria
+L15 non CARO risolutione senza suo [44d] [68_] non desidero che a [75_] altro che lei
+
+# SCORE (lines 2-10 and 12; line 1, 13, 15 excluded because I had seen their clear text in a thumbnail)
+# code units in these lines: 190. The table (169 entries, before this page) proposed a value for 130 (68%).
+# Checked against ff. 97r-v: 101 of the 130 proposed values are right = 78%. (53% of all units read right.)
+# Wrong or not verifiable (29): mark-dependent homographs (50_, 70d, 14-, (44)), my earlier guesses ((20), 89v),
+# and about 10 places where the clear copy paraphrases or my figure/mark reading is doubtful.
+# Spelled groups: FAR, DEBA, SAPENDO, CEDO, MI, HA, DIRE right; ESSO, POSSI, LO TENGO, FARLO, STARCI right after one sign fix.

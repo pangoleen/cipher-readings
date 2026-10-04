@@ -1,0 +1,196 @@
+# BLIND PASS B - BnF fr. 4698, ff. 26v-27r
+# Letter of Cardinal Scipione Gonzaga to the Duke of Nevers, Rome, 24 March 1590
+# Images: img/v30_L.jpg (f. 26v), img/v30_R.jpg (f. 27r). Transcription only, no decoding.
+# Notation: as in v2work/blind_brief.md. "?" after a unit = doubt. x = digit not read.
+# Extra signs that the brief does not name are described in square brackets.
+# Clear words inside a cipher line are in double quotes. Period glosses are in {above: ...}.
+
+==========================================================================
+PAGE 1 - f. 26v (img/v30_L.jpg)
+==========================================================================
+The page has 22 written lines. Lines 1-5 are clear text with short cipher groups and
+glosses above them (a second, small upright hand). Line 6 is clear text only (start of a
+new paragraph). Lines 7-22 are nearly all cipher. So 21 lines contain cipher: L01-L21.
+There is no date line on this page. The page starts in the middle of a sentence.
+
+--- cipher lines ---
+L01: "forse anco" (44) 13_- 82^. (45) {above: adagio(?) saputo di S.A.} "il dire(?) di(?) Caccio(?) non haverebbe(?) [struck word], se non [struck word] saputo"
+L02: 63_- 45_- 82^. (56)? {above: l'antentione(?) di Gio~a(?)} "Cosi(?) ho voluta soll.te(?) allienarlo(?) ... d'ricavare(?) per ho inspiar(?)"
+L03: "li(?)" 13~_- 69~? (36) {above: sapere da lei} "fusse(?) d'altri(?) e V. Ecc. hauto prend..(?) obligat.ne(?) che ben(?) accordasse(?)"
+L04: "tale uffitio, cosi di lei(?) sentiro assai maggiore, se mi(?) risolvera(?) di" 30^:_-? 92=? {above: scrivere presto}
+L05: 10 78 {above: a D: di Mant.a} "perche cosi ottenera(?) tutta la reale(?) sodisfatt.ne, s'egli ha di me."
+     [next line, clear only: "Quanto poi a quello che passa di qua circa i negotij di Francia V. Ecc. ha"]
+L06: "a sapere, che sono da 18 giorni(?), che" 28^- 82^. [tall slanted oval] 62~^^? 82^. 95= 83^-? 86^-_. 10^-_. 81^.? [et] 83= 11^^_v 10^-_. 62~? (18) (15)
+L07: 81~_- 75^: 28^-? 32^- (15) "fosse(?)" x9^.? 29^. 47^- 69^. 96_v 23= 34^. 41^. 63^. 11^^_v 33^._. "era." 27^: 29^. 65^._. 40_- "a quello che lo faceva"
+L08: 96_- 64~^.? "qui, che" 10 82^. ll'? 83_: 59_v 68^. 39= 63_- 62^^ 82^. [tall slanted oval] 27^: 83^^ 10^. 32^- 82^. 98^. "die gli(?) nel(?)" 34^^_v 63_- | # | 23^. 82^. 14^-_. 55^- 68=
+L09: 72=? (15) 41^.? 56^-_. 11^^_v 87^^_v 84= [et] (15) "sarebbe(?)" 15^.? 72 82^. 83^^_v 42^. [tall slanted oval] [et] 10 29^. 65^^_.? 82^. 46^-_. 59^._. 82^. "ss(?)" 83~_v 10 50~^._. 30= 59_v 82^. 40~^. 90_v "p(?)" [blotted sign]
+L10: "Stando a(?) ... adunque" 21^^ 26_: [et] (10) 21^^ 56= 88_: 79^._- 82^.? 11^^_v 66^. 75= 43^^_v? 49= 65_. 46 82^. 79^: 84= 76= 36~^._- 11^^_v 11 32^- 10 40_- 82^. 73^._.?
+L11: "diamo(?)" 86^-? 21^^_v 82^. 20 46 [et] "diede(?)" 60^^ 76= 66^._- 82^. 11^^_v? 66^-_. 24= "gli veniva" 50^._. [crossed-out figure] (11) 79= 67_. 90~^. (24) [tall slanted oval] 76= 29~^._-
+L12: 67_: 41^- 28= 36~^._- 50^- 68^-? 49=? 82^. 62^._. 30= "haveva(?)" 66_v 83_: 88^._.? 82^. "A" [et] 98_v "haveva(?)" 68_v 82^. 17~^._. (43) 29^. 84^. 44_- [et] 62^._- 82^. 47^-
+L13: [et] 65= 67_: 56^^ 82^. (10) 53^-_.? "fu" 28= 76= 53^. 10 88^. 82^. 32^- "il far alcuna di.. delle" 63^. 2x^:? (11) 76= 29^. 72^. 30^-_. [et] 39=
+L14: 28= "ha(?) fosse veduta la" 79^^_v 82^. 50^- 10 40_- 80^.? 69^.? 32^- 82^. 83~_- 62= 10 21^^ 41^. 63^. 23? [et] 64= 31^. 28= 99_v 66^. 76= "poteva"
+L15: (32) 34^. 95^. 30^^_v 82^. 39_: [et] 30= 21^-_. 28= 76= (15) "doveva il" 68= 76= "mostrando per tutto(?)" 11^^_v 67_: 10 82^. 12^^_v 32^- 33^._.
+L16: (28) 29^. 46 "Mercordi" 83^._: 65^._-? 21^^_v 23^. 83= 63_- 31^.?_. 39= 86^-_. 41^.? 21^^_v 68= 98 [et] 83_: 11^^_v 77= "il dar(?)" 60~? 19= 87= 55_. [ink blot] 82^. 61^.? 88_. 82^. 32~
+L17: "dir(?)" 10^:? 46 76_- [et] 42^. 79_- 65^^? 83_: 11^^_v? 39^. 82^.? 88^.? 62^._- 47= (93)? [ink blot] 47^- 29^. 28= 67^-_. | K a gl? L E xi om L # v dd sig? [sign like s2 or the figure 52] phi | 65^._.? 63_- 19^. 10^-_.
+L18: 19= 23= 10^.? [cancelled figure] {above: 87^-} 28^. 82^. ll' "sonando(?)" 89^:? 67_: 56^^ 82^.? 44? (16) 2x 92_v | t? | 86^-_. (11) (15) 83^:? 90^. (14) 82^. "A" "A" 67_: 10 82^. ll' 30= 99_v
+L19: 69^. 96_v 32^- | y L? | 41^.? 53^-_. 11^^_v 10^._.? (15) 83= 67_: 30^-_. 92^-_.? 69^. (35) "al parere suo" 82^. 89= 78^^_v [et] (15) 84= 21= "puo credere, che"
+L20: 11^^_v 32^^ 32= 44_v "venga" 69^. 47^- 82^. 96_v (15) 30= 32= 59^^ 29^. 21^^ 59_:? 32= 63_- 79_- 28= 83^-_. "ni(?)" "S(?)" 52^^_v 76= "danno(?)" 34^._- 34^. 82^.
+L21: 49^. 35^. 67_: (12) (11) (15) 33^: 5^.? 80 76= "intendendosi(?) che" 10^.? 11^^_v 36^.? 82^. 91^.?_- 82^. 17^.? "siano" 63^._- 60^- 21^^_v 86= 30= 32^- 64^.
+     [end of f. 26v; the text runs on to f. 27r without a break]
+
+--- clear text of f. 26v, line by line (cipher shown as [cifra]) ---
+1  forse anco [cifra] il dire(?) di(?) Caccio(?) non haverebbe(?) [struck word], se non [struck word] saputo
+     gloss over the cipher: adagio(?) saputo di S.A.
+2  [cifra] Cosi(?) ho voluta soll.te(?) allienarlo(?) ... d'ricavare(?) per ho inspiar(?)
+     gloss over the cipher: l'antentione(?) di Gio~a(?)
+3  li(?) [cifra] fusse(?) d'altri(?) e V. Ecc. hauto prend..(?) obligat.ne(?) che ben(?) accordasse(?)
+     gloss over the cipher: sapere da lei ; a small word "hed(?)" is written above "prend.."
+4  tale uffitio, cosi di lei(?) sentiro assai maggiore, se mi(?) risolvera(?) di [cifra]
+     gloss over the cipher: scrivere presto
+5  [cifra] perche cosi ottenera(?) tutta la reale(?) sodisfatt.ne, s'egli ha di me.
+     gloss over the cipher: a D: di Mant.a
+6  Quanto poi a quello che passa di qua circa i negotij di Francia V. Ecc. ha
+7  a sapere, che sono da 18 giorni(?), che [cifra]
+8  [cifra] fosse(?) [cifra] era. [cifra] a quello che lo faceva
+9  [cifra] qui, che [cifra] die gli(?) nel(?) [cifra]
+10 [cifra] sarebbe(?) [cifra]
+11 Stando a(?) ... adunque [cifra]
+12 diamo(?) [cifra] diede(?) [cifra] gli veniva [cifra]
+13 [cifra] haveva(?) [cifra] haveva(?) [cifra]
+14 [cifra] fu [cifra] il far alcuna di.. delle [cifra]
+15 [cifra] ha(?) fosse veduta la [cifra] poteva
+16 [cifra] doveva il [cifra] mostrando per tutto(?) [cifra]
+17 [cifra] Mercordi [cifra] il dar(?) [cifra]
+18 dir(?) [cifra]
+19 [cifra] sonando(?) [cifra]
+20 [cifra] al parere suo [cifra] puo credere, che
+21 [cifra] venga [cifra] ni(?) S(?) [cifra] danno(?) [cifra]
+22 [cifra] intendendosi(?) che [cifra] siano [cifra]
+
+==========================================================================
+PAGE 2 - f. 27r (img/v30_R.jpg)
+==========================================================================
+The page has 8 lines with cipher at the top (L01-L08), then 14 lines of clear text,
+the date line, "Di V. Ecc." and the signature. A round library stamp stands at the top left.
+
+--- cipher lines ---
+L01: 88= 83= 79~^._- 28= 83= 41^. 10 59_v 18^.? "fu" 82^. 56^^ 28= 76= (15) "sarebbe(?)" 90~^.? | [F with two bars: t or F3?] | 10 68=? 59_v 77~^-_. 19= 83= 11^^_v (25) 99_v 28= "i due"
+L02: 46 60^- 28= 10^.? 11^^_v? (15) 19^^ 39~_v 24^^ 83= 82^^_v 69^:_-? 11^^_v 78_: 76= 86= 30= 51^.?_. 82^. 32^. 82= 82^. 46 68= 69^. (37)? 37^._. 30= 41^.? 61^^
+L03: 67_: 28= (33) (37) 80^: 89^: 29^. 40_: 82^. 64_: "ne hanno" 84^^_v 76_v 28= 76= (15) 80^. 41^.? [stroke like a semicolon] [et] 32= "siano" 93_. 17= 83=
+L04: 97= 26_: 82^. 86^-_. 39_: 41^-_. [et] 87^^ "li(?)" 10 97= 84= 69^.? 79^^_v 28= (15) "aspettano" 82^. "A" "possibile" 65^-_. 63^. 28= (26) 98^. 60^-
+L05: "se ben" 88= (15) | K a | 69^. 64~^. 67_: 51^.? 91= 67_: 92_v | T | 99_v 82^. 83_- 82^. 23 10^.? 96_v 76= | xi [flat oval crossed by a vertical stroke and a bar: phi or oX or Q?] | 30= 71^: "si spera" 44~^. 50^- "ma quello"
+L06: "che sopra tutto" 76_: 10^.? 13^._- 83_: 11^^_v x8^._. | T | 28= 32^- 87= 82^. (25) | K a | 76^^_v? 10^.? 47^- 82^. 76= (32) 21^._. 83_: 80^: 82= 44^. 34 83=
+L07: 55^- 82^. "A" (11) 76= | T | 76= 93= 64 68= 40_: [et] 35^. 10^.? (44) [et] "si vede che" 60^- 50^. 87^. 82^. 11^^_v 59^^ 82^. 32^- 83= 99_v 28= (15) | # sig |
+L08: 29^. [tall slanted oval] [et] 86= 50^._. 28^-_. 82^. | # qo r t v | 72^^ 68= (43) (29) 49^. (10) (22) "Cosi(?) e quanto posso dire per hora"
+
+--- clear text of f. 27r, line by line ---
+1-8  cipher lines; clear words in them: "fu", "sarebbe(?)", "i due" (1); "ne hanno", "siano" (3);
+     "li(?)", "aspettano", "possibile" (4); "se ben", "si spera", "ma quello" (5);
+     "che sopra tutto" (6); "si vede che" (7); "Cosi(?) e quanto posso dire per hora" (8)
+9   a V. Ecc. penando tanto a scriver con q.ta cifra, che(?) mi consuma tutto il
+     [the words "penando tanto a scriver con" are underlined]
+10  giorno, et no(n) posso far altra cosa anco che necessaria.
+11  Hieri si hebbero l(ette)re di Francia, et p(er) una del Leg.to(?) N. S.re(?) ha inteso
+12  la promessa fattagli della liberat.ne della S.ra Duchessa di Longavilla
+13  figl.la di V. Ecc. di che io mi rallegro con lei q(uan)to debbo. Ho(?) il tempo
+14  che la S.ra Duchessa di Guisa ha tolto(?) a restituirla intieram.te a V. Ecc.
+15  ma basta che in tanto ella sara in sua liberta, et vivra(?) con assai
+16  maggior consolat.ne che prima non faceva.
+17  Delli frati che V. Ecc. desidera gia ho accennato(?) che il P.re Gen.le(?)
+18  quale ha scritto a diversi Provinciali perche si metta insieme il
+19  numero che fa bisogno. e nella Quantina(?) spero che ogniuno sara
+20  in pronto, et io ne ho gia dato conto al S. Ciffo(?) Agente di V. Ecc. in
+21  Mant.a(?) et con questo fine nella buona gra(tia) di lei senza fine mi racc.do
+22  Di Roma a 24 di Marzo 1590          [date line]
+23  Di V. Ecc.
+24  Obligat.mo Ser.re e Cugino
+25  Scip.ne Card.le Gonzaga              [signature]
+
+==========================================================================
+DOUBTFUL PLACES
+==========================================================================
+General
+- The digit 1 often has a dot right above it. I cannot tell the own dot of the 1 from a
+  dot mark. Where a clear dot stands over a 1 I wrote `^.?` (10^.?, 41^.?, 81^.?, 15^.?,
+  18^.?, 51^.?, 61^.?, 17^.?, 91^.?). Many other 1s (in 11, 21, 15, 14) have no dot at all.
+- [tall slanted oval]: a tall narrow oval, taller than a 0, with no mark. It is not in the
+  brief. It occurs in f. 26v L06, L08, L09, L11 and f. 27r L08. It can be a form of `ll'`
+  or a zero-like sign. The plain `ll'` (two strokes and a tick) is clear in f. 26v L18 (twice).
+- The bar below 9 often crosses the tail of the 9 (79_-, 49=, 89=, 39=). I read it as a bar below.
+
+f. 26v
+- L01: the 1 of 13 has a dot (own dot?). The bar below 13 is clear.
+- L02: last unit in brackets is blotted: (56) or (50).
+- L03: 13 has an arc above and a bar below. 69 has a small hook or arc above the 9.
+- L04: 30 has two small dots above and a bar below (the bar looks doubled). 92: bar above
+  and bar below, the lower bar is faint.
+- L05: the 8 of 78 is heavy; a stroke of the gloss runs into it. I saw no mark.
+- L06: 62~^^?: an arc and a thick blotted circumflex above. 83^-?: bar above, and a small
+  arc below. 86^-_.: the 8 is blotted. The [et] is blotted. The second 62 has a wavy
+  stroke above the 2. The last (15) is faint.
+- L07: 28^-?: bar above and a small arc below. x9^.?: a figure under a heavy blot, the
+  second digit looks like 9, with a dot above.
+- L08: 64~^.?: arc and small dot above. ll'?: two tall strokes with a loop above, perhaps
+  overwritten or struck. 34^^_v is in faint ink. | # | has a dot below it.
+- L09: 72=? has a bar above, a bar below and also a heavy dot above. 65^^_.?: the upper
+  mark is a wedge (circumflex or slanted bar). "ss(?)": two tall looped letters between
+  82^. and 83~_v. The line ends with "p(?)" and a blotted sign that looks like a scribble
+  or a small drawing (a cancelled sign?).
+- L10: 82^.? after 79^._- ; 43^^_v? ; last unit 73^._.? can be 93 or 75.
+- L11: 86^-?: the 8 looks like a round E. 11^^_v?: the upper mark is a short bar or hook.
+  One figure is crossed out (a bar below it stays).
+- L12: 68^-?: bar above and a small arc below. 49=?: the lower bar crosses the tail.
+  30=: both bars are curved. 88^._.? doubtful dots.
+- L13: 53^-_.? ; 2x^:?: second digit blotted or corrected.
+- L14: 80^.? and 69^.? ; 23?: the 2 is doubled or blotted. The [et] is blotted.
+- L15: the pairing of the digits 95^. 30^^_v 82^. was hard (blots); (15) can be (18).
+- L16: 83^._: has two small dots and one big blot below. 65^._-?: a dot stands in the curl
+  of the 6. 31^.?_. ; 68=: the lower bar is curved. 60~?: a rounded cap above the 0.
+  32~: a wavy stroke above the 2. One ink blot between 55_. and 82^.
+- L17: 10^:? (the first dot stands over the 1). 65^^?: thick wedge above. 11^^_v?: the
+  lower mark is a round dot and a faint speck. 39^., 82^.?, 88^.? are blotted.
+  (93)? is faint. An ink blot (cancelled sign?) follows it.
+  Symbol group, 14 signs: K, a, a lambda with hook (gl?), L, E, xi, om, L, # (with a
+  slanted stroke through it, cancelled?), v, dd, a diamond with a stem below and a tail
+  to the right (sig?), a sign like s2 that can also be the figure 52, phi.
+  65^._.? after the group.
+- L18: after 10^.? a figure is cancelled with a blot; a small 87 with a bar above stands
+  over it in the cipher hand. It is a correction, not a gloss in the second hand.
+  89^:? and 67_: are faint. 44?: the second 4 joins the bracket of (16).
+  2x: a lone digit 2, I saw no partner. | t? |: a vertical with two bars to the right
+  (t or F3). 83^:? .
+- L19: | y L? |: the second sign is small (L or ca). 10^._.? is faint. 92^-_.?: faint 9.
+- L20: 32^^: the circumflex has a small extra tick. 21^^ and 59_:? are faint.
+  "ni(?)" and a tall "S(?)" stand before 52^^_v; the upper mark of 52 is wavy.
+- L21: seven digits 3 3 5 8 0 7 6 with a dot above each of 3, 3 and 5. 76= is sure.
+  I wrote 33^: 5^.? 80. Other pairings: 33^: 58^. and a lone 0 (or oval sign); or
+  3^. 35^: 80. 36^.?: the dot stands between 6 and the next 8. 91^.?_-: wavy bar below.
+
+f. 27r
+- L01: 79~^._-: arc, dot, and a bar that crosses the tail. 18^.?: the dot is over the 1.
+  90~^.?: faint arc and dot. The symbol is a vertical with two bars to the right.
+  68=?: faint; the upper bar has a small curl.
+- L02: 11^^_v?: the upper mark is flat. 69^:_-?: two specks above, a stroke crosses the
+  tail. 78_: is faint. (37)?: the second digit can be 0.
+- L03: a stroke like a semicolon stands between 41^.? and [et]. 64_: has a faint 6.
+- L04: 39_: can have three dots below. 87^^: the 8 is blotted. "li(?)" can be the sign ll'.
+- L05: 83_-: I saw a bar below only. 23 has no mark. The second symbol of the group
+  | xi ... | is a flat oval crossed by a vertical stroke and a bar.
+- L06: x8^._.: the first digit is under an ink blot (8 or 6). 76^^_v?: the upper mark is
+  smudged. 32^-: a smudge below comes from the next line, I think.
+- L07: 64 is faint, I saw no mark. (44): the second 4 is blotted and a smudge stands above.
+  60^-: the bar has a flourish.
+- L08: the tall slanted oval follows 29^. ; 50^._.: one dot above and one below.
+- Clear text: "Leg.to N. S.re" (line 11), "Ho il tempo" (13), "tolto" (14), "accennato",
+  "P.re Gen.le" (17), "Quantina" (19), "Ciffo" (20) are doubtful readings.
+
+==========================================================================
+CROPS
+==========================================================================
+- Overviews: p26b_v30_L_ov.jpg, p26b_v30_R_ov.jpg (page height 1400 px), p26b_R_ov2.jpg.
+- f. 26v: line strips p26b_L_r01..r22 (870 px of page width per tile, scale 1.8, 4 tiles per
+  line); p26b_L_c07a/b..c22a/b (600 px per tile, scale 2.6); close zooms p26b_L_z*, y*, w*
+  (390 px per tile, scale 4; some 260-300 px at scale 5.2-6). Clear text: p26b_L_t*.
+- f. 27r: p26b_R_w01..w08 (556 px per tile, scale 2.8, one line per image pair);
+  close zooms p26b_R_y* (430 px per tile, scale 3.6). Clear text: p26b_R_c00..c08 (scale 1.0).
+- All crops use LANCZOS. I looked at every line at scale 2.6 or more.

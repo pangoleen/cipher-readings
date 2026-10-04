@@ -1,0 +1,101 @@
+# BnF ms. français 4702, ff. 94r, 94v, 95r (Gallica btv1b530546654, canvases f201, f202, f203; f. 95v = f204 is blank).
+# Period decipherment (Nevers's office, 1590) of the cipher of the letter of Cardinal Scipione Gonzaga to the Duke of Nevers,
+# Rome, 21 January 1590 = BnF fr. 4698 ff. 30r-31r. No heading, no date, no name on these pages.
+# Transcribed 3 Oct 2026 from img4702/f201_full.jpg, f202_full.jpg, f203_full.jpg.
+# Pass 1: every line, from colour strips at 0.6 of native size (the hand is large). Pass 2: zooms at native size or larger of
+# the doubtful places (v2work/z94r_1.jpg, z94r_2.jpg, z94v_1.jpg, z97_figs2.jpg crop H). Lines not zoomed had no doubt in pass 1.
+# Notation: [struck: x] = word struck by the clerk. {above: x} = written above the line. (?) = doubtful reading.
+# u/v normalised; abbreviations kept (q.tto = quanto/quello, leq.ali = le quali, alc.o = alcuno, p[er]che).
+# The clerk writes the dictionary form of each code word, with no agreement ("questo lettera", "le cosa").
+# No small code figures stand above words on these three pages (they do on f. 97).
+
+## f. 94r
+01: questo [struck: infedeltà] {above: lettera} si manda per mezo di [struck: Nevers] {above: Spagna} et uno altro simiglianza viene
+02: per mezo di Duca di Mantova
+03: V(?) Ecc. di molt[struck: itudine] cosa ma particolarm.te di poco sodisfatione che Papa mostra
+04: così di persona sua cagionata principalm.te da alc.o [struck: dimodo] lettera
+05: di lei ritenuto et aperto oltre il sdegno aggiunta per quello che si
+06: sono visto del Volta et quello che lui andava spargendo di V.E.
+07: circa le cosa di costì contra il gusto di S.S.tà et questo medesimo
+08: io le havea accenato ancora innanzi più volte si per avviso
+09: suo come per avertimento di che bisognava tener ne la scritura et
+10: molto più nel mandar le lettera leq.ali in [struck: verità(?)] varia logo
+11: erano retenuto et aperta hora questo cativo istrumento
+12: leq.ali ancora dura et forse durera finche da q.alche atto
+13: heroica di V.E. in servitio di S.S.tà et di questo inetitud.e
+14: sede si come io mi prometto [struck: avidito(?)] destram.te sua bontà
+15: Papa venera a conoscere meglio che fino hora non fa le
+16: [struck: portam.to e] pietà et il valore insieme di lei ha dato
+17: occasione al sig.re Ambasciadore di Spagna qua di venire
+18: a trovarmi et dopo longo ragionam.to dal quale si conosce
+19: lui stimar somam.te la purgatione di V.E. et benche molto
+20: bene informato di q.tto che si può sperare dal autorità et da
+21: sapere di lei a richiedermi finalm.te che io prieghi V.E. con
+22: pieno efficatia et non voler per questo poco inclinat.e che
+23: per ancora mostra verso di lui S.S.tà o ritirarsi o —
+24: intermidirsi in quello che lei conosce benche ser.tio di Catolici
+25: et esaltatione della sua fede da questo poi in che io
+26: non mi fermo molto si perche so che basta alla prudentia
+27: di V.E. lo accennarlo solo et si p[er]che altre volte mi
+28: ricordo per me stesso così fatto il medesimo officio
+29: con lui passò il s.re Amb.re a dirmi che io volessi soggiong
+30: erle che non tanto perche lei non sia [struck: in breve] honorata
+31: et portato di qua come sarebbe conveniente al merito
+32: suo quanto per quello che fra noi si andò toccando
+
+## f. 94v
+01: di differente che possono essere fra lei et Umena leq.ali p[er]
+02: essere principale di honore dificilm.te possono essere —
+03: composto da amicitia che da Principe di grande[struck: zza] autorità
+04: lui vedrebe volontario che V.E. facesse [struck: di] risolutione di
+05: appogiarsi al favore di Re di Spagna che così facendo con      (underlined from "favore" to "che")
+06: mostrar integro confidentia quello prencipe lui è sicuriss.o
+07: et così promette a V.E. quanto però poco promettere uno
+08: ministro senza agiotam.te(?) di suo s.re replicandomi —
+09: due o tre volte questo primo che lui sentirebe et frutto et
+10: consolatione grandezza di tale sua deliberatione p[er]che
+11: et quanto al interesso di suoi stati et quanto alla riputatione
+12: di sua persona troverebe di essere in materia di tale
+13: essere Re di quello grandezza che è insieme Cav.re et sa pesare
+14: e distinguere il merito di [struck: purga] persone, concluse finalm.te
+15: che volendo V.E. apuggiarsi a a questo consiglio poteva
+16: tratarne sicuram.te con Ambasceatore di Re di Spagna
+17: che si trova in Pareggi al q.ale ancora lui ne scriverebe
+18: alc.o cosa con questa medesima occasione, [struck: tanto] Io
+19: ho accettato volonteeri di far questo officio parendomi
+20: che il la proposta possa tornare a daltre tanta utilità
+21: quanto honore di V.E. et tanto più le stimo honorevole
+22: quanto io porto ferma opinione che il ordinario di —
+23: richiederla di questo venga dal Re di Spagna —               (underlined from "venga")
+24: medesimo se [struck: detto] {above: bene} per non assicurarsi forse di
+25: riserva il Amb.re a voluto mostrar meco il contrario
+26: ne già dalla banda di V.E. milita hora q.tto ragione di
+27: Impedimento che poteva [struck: lui] essere in considerat.e
+
+## f. 95r
+01: vivente il Re morto onde non voglio sprezar se non molto     (underlined "vivente il Re morto"; "sprezar" is the clerk's reading of the spelled SPERAR)
+02: bene di sua risolutione, [struck: con(?) l Gonzaga i. S.ta ... (four or five words, the last blotted)]
+03: suplico D. de Nevers che volendo scrivere in questo o vero
+04: in altro proposito primo ad usar quanto più si può le
+05: zifra più difficile che io uso medesimo in questo lettera
+06: purche a mirar molto bene per quale camino lei manda le
+07: sue p[er]che in Lione particolarm.te corono grande pericolo  (underlined from "p[er]che" to "particolarm.te")
+08: però se [struck: in piedi(?)] {above: la} altro[struck: m.te] camino V.E. può mandarle
+09: in mano di D. de Mant.a quello stimo huomo più
+10: sicuro se già lei non accordasse qualche cosa con
+11: Amb.re di Spagna costì che con quello mezzo credo
+12: bene che [struck: in] la lettere verriano sicuro ma fuori di
+13: questo mezo la priego a scriver per q.alche tempo
+14: il meno che può o vero cosa atto più tosto a causar
+15: raccomandat.ne(?) che maggior alterat.e di animo in
+16: questo di qua
+
+# Notes (what I see / what I infer)
+# - Seen: f. 94r lines 1-2 give the last cipher line of the letter (fr. 4698 f. 31r); the clerk wrote it first. Lines 3-16
+#   decipher f. 30r; from line 16 "ha dato occasione" the text deciphers f. 30v.
+# - Seen: the struck words are the clerk's first decodings. Inferred: most are values of the same figure in another list
+#   (a mark read wrongly), for example "purga(tione)" then "persone", "detto" then "bene", "infedeltà" then "lettera".
+# - Inferred: "inetitud.e sede" (94r 13) is a wrong decoding of the word before SEDE (sense: "questa santa sede").
+#   "benche" (94r 19 and 24) stands where the sense asks for "essere". "agiotam.te" (94v 8) stands where the sense asks
+#   for "ordine". "purgatione" (94r 19) stands for "persona". "intermidirsi" = INTEPIDIRSI and "sprezar" = SPERAR are
+#   misreadings of spelled words. So the clerk's text is not free of errors.

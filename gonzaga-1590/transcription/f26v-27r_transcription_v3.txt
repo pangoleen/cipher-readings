@@ -1,0 +1,125 @@
+# BnF fr. 4698 f. 26v (img/v30_L.jpg; lines L01-L21) and f. 27r (img/v30_R.jpg; lines R01-R08). Cardinal Scipione Gonzaga to Nevers, Rome, 24 March 1590.
+# Consensus of two independent blind passes by two agents that saw only the images (v2work/blind_f26v-27r_passA.txt, passB.txt).
+# Where the passes differ, the unit carries '?' and both readings are in the notes at the end. '| oh |' = a tall oval sign (a name).
+L01: "forse anco" (44) 13? 82^. (45) "il che di certo io non haverei , se non  saputo"
+L02: 63_- 45_- 82^. (50)? "cosi ho voluto sol.te accennarlo per mia d'opinione per non restar"
+L03: "di" 13~_- 69^:? (36) "pero di Com.e a V. Ecc. hauto grand.ma obligat.ne che mi comandasse"
+L04: "tali uffici, cosi gliele sentiro assai maggiore, se ella si risolvera di" 30^:_- 92=
+L05: 10 78 "perche cosi cessera tutta la mala sodisfatt.ne ch'egli ha di me."
+L06: "a sapere, che sono da 18 giorni, che" 28^- 82^. | oh | 62~? 82^. 95= 83=? 86^-_. 10^-_. 81? [et] 83= 11^^_v 10^-_. 62~ (18) (15)
+L07: 81~_- 75^: 28=? 32^- (15) "fosse" x9^.? 29^. 47^- 69^. 96_v 23= 34^. 41^. 63^. 11^^_v 33^._. "eran" 27^: 29^. 65~^._.? 40_- "a quello che lo faceva"
+L08: 96_- 64~^. "qui, che" 10 82? ll'? 83_: 59_v 68^. 39= 63_- 62^^ 82^. | oh | 27~^:? 83^^ 10? 32^- 82^. 98^. "dargli nel" 34^^_v 63_- | # | 23^. 82^. 14^-_. 55^- 68=
+L09: 92=? (15) 41? 56^-_. 11^^_v 87^^_v 84= [et] (15) "hebbe" 15^. 72^.? 82^. 83^^_v 82^.? | oh | [et] 10 29^. 65^-_.? 82^. 86^-_.? 59^._. 82^. ll'? 83_v? 10 30~^._.? 30= 59_v 82^. 40~^:? 90_v "p"
+L10: "Standosi adunque" 21^^ 26_: [et] (10) 21^^ 56= 88_: 73^._-? 82^. 11^^_v 66^. 75= 43~^^_v? 49= 65^._.? 46 82^. 79~^:? 84= 76= 36~^._- 11^^_v 11 32^- 10 40_- 82^. 33^._.?
+L11: "diamo" 86^-_.? 21^^_v 82^. 20 46 [et] "disse" 60^^ 76= 66^._- 82^. 11^^_v 66^-_. 24= "gli veniva" 50^._. (11) 79= 67_:? 90~^. (24) | oh | 76= 29~^._-
+L12: 67_: 41^- 28= 36~^._- 50^- 68=? 59=? 82^. 62^._. 30=? "haveva" 60~_v? 83_: 88^._. 82^. "A" [et] 98_v "haveva" 68_v 82^. 17~^._. (13)? 29^. 84^. 44_- [et] 62^._- 82^. 47^-
+L13: [et] 55=? 67_: 56^^ 82^. (10) 53^-_. "fu" 28= 76= 53^. 10 88^. 82^. 32^- "il far alcuna d'elle" 63^. 27^:? (11) 76= 29^. 72^. 30^-_. [et] 39=
+L14: 28= "si fosse veduta la" 79^^_v 82^. 50^- 10 40_- 80^. 69^. 32^- 82^. 83~_- 62= 10 21^^ 41^. 63^. 23 [et] 64= 31? 28= 99_v 66^. 76= "poteva"
+L15: (32) 34^. 95^. 30^^_v 82^. 33_:? [et] 30= 21^-_. 28= 76= (15) "doveva" 16~? 68= 76= "mostrando per tutto" 11^^_v 67_: 10 82^. 12^^_v 32^- 33^._.
+L16: (28) 29^. 46 "ricordi" 83_:? 65^._- 21^^_v 23~^.? 83= 63_- 31_.? 39= 86^-_. 41^. 21^^_v 62=? 98 [et] 83_: 11^^_v 79=? "il duca" 60^^? 19= 87= 55_. 82^. 63^.? 88^._.? 82^. 32~
+L17: "dice" 10? 46 76? [et] 82^.? 79_- 65^.? 83_: 11^^_v? 39^. 82^. 84^.? 62^._- 47= (93) 47^- 29^. 28= 67^-_. | K a gl? L E E3? om L #? v dd    phi | 65^._. 63_- 14^.? 10^-_.
+L18: 19= 23= 10? 28^-? 82^. ll' "lodando" 89^: 67_: 56^^ 82^. 46? (16) 2x 92_v | t | 86^-_. (11) (15) 33~^:? 90^. (14) 82^. "A" "A" 67_: 10 82^. ll' 30= 99_v
+L19: 69^. 96_v 32^- | y ca | 41~? 53^-_. 11^^_v 10_.? (15) 83= 67_: 30^-_. 92^-_. 69^. (35) "al parer suo" 82^. 89= 78^^_v [et] (15) 84= 21= "puo credere, che"
+L20: 11^^_v 32^^ 32= 44_v "venga" 69^. 47^- 82^. 96_v (15) 30= 32= 59~^^? 29^. 21^^ 59_: 32= 63_- 79_- 28= 83^-_. "mi ha" "S" 52^^_v 76= "hanno" 34^._- 34^. 82^.
+L21: 49^. 35^. 67_: (12) (11) (15) 33^: 58^.? x0? 76= "intendendosi che" 10? 11^^_v 36^. 82^. 91_-? 82^. 17^. "siano" 63^._- 60^- 21^^_v 86= 30= 32^- 64~^.?
+R01: 88= 83= 79~^._- 28= 83= 41^. 10 59_v 18? "fu" 82^. 56^^ 28= 76= (15) "havesse" 90~^. | t? | 10 68= 59_v 77~^-_. 19= 83= 11^^_v (25) 99_v 28= "i due"
+R02: 46 60? 28= 10? 11^^_v (15) 19^^ 39~_v 24^^ 83= 82^^_v 69^:? 11^^_v 78_: 76= 86= 30= 51^._. 82^. 32^. 82= 82^. 46 68= 69^. (37) 37^._. 30= 41^. 61^^
+R03: 67_: 28= (33) (37) 80^: 89^: 29^. 40_: 82^. 64_: "ne hanno" 84^^_v 76_v 28= 76= (15) 80^:? 41^. ";" [et] 32= "siano" 93^-_.? 17= 83=
+R04: 97= 26_: 82^. 86^-_. 39_: 44^-_.? [et] 87^^ ll'? 10 97= 84= 69^. 79^^_v 28= (15) "aspettano" 82^. "A" "possibile" 65~_.? 63^. 28= (26) 98~^.? 60^-
+R05: "se ben" 88= (15) | K a | 69^. 64~^. 67_: 51^. 91= 67_: 92_v | T | 99_v 82^. 83_- 82^. 23 10? 96_v 76= xi 30= 71^: "si spera" 44~^. 50^- "ma quello"
+R06: "che sopra tutto" 76_: 10? 13^._- 83_: 11^^_v x8^._. | T | 28= 32^- 87= 82^. (25) | K a | 76^^_v? 10? 47^- 82^. 76= (32) 21^._. 83_: 80^: 82= 44^. 34^.? 83=
+R07: 55^- 82^. "A" (11) 76= | T | 76= 93= 64 68= 40_: [et] 35^. 10? (4x)? [et] "si vede che" 60^- 50^. 87^. 82^. 11^^_v 59^^ 82^. 32^- 83= 99_v 28= (15) | # sig |
+R08: 29^. | oh | [et] 86= 50^._. 28^-_. 82^. | #  r t? v | 72^^ 68= (43) (29) 49^. (10) (22) "Et q.o e quanto posso dire hora"
+# agreement of the two blind passes: {'units': 586, 'same figure': 556, 'same mark': 502}
+# L01 mark A 13 / B 13_- -> 13
+# L02 DIFFERENT A [(50)] / B [(56)?]
+# L03 mark A 69^:? / B 69~? -> 69^:
+# L06 mark A 62~ / B 62~^^? -> 62~
+# L06 mark A 83= / B 83^-? -> 83=
+# L06 mark A 81 / B 81^.? -> 81
+# L07 mark A 28= / B 28^-? -> 28=
+# L07 DIFFERENT A [] / B [x9^.?]
+# L07 mark A 65~?^._. / B 65^._. -> 65~^._.
+# L08 mark A 82 / B 82^. -> 82
+# L08 DIFFERENT A [ll'] / B [ll'?]
+# L08 mark A 27~^: / B 27^: -> 27~^:
+# L08 mark A 10 / B 10^. -> 10
+# L08 DIFFERENT A [] / B [SP{#}]
+# L09 DIFFERENT A [92=] / B [72=?]
+# L09 mark A 41 / B 41^.? -> 41
+# L09 mark A 72^.? / B 72 -> 72^.
+# L09 DIFFERENT A [82^.] / B [42^.]
+# L09 mark A 65^-_.? / B 65^^_.? -> 65^-_.
+# L09 DIFFERENT A [86^-_.] / B [46^-_.]
+# L09 DIFFERENT A [ll'] / B ["ss"]
+# L09 mark A 83_v / B 83~_v -> 83_v
+# L09 DIFFERENT A [30~^._.] / B [50~^._.]
+# L09 mark A 40~^:? / B 40~^. -> 40~^:
+# L09 DIFFERENT A [] / B ["p"]
+# L10 DIFFERENT A [73^._-] / B [79^._-]
+# L10 mark A 43~^^_v / B 43^^_v? -> 43~^^_v
+# L10 mark A 65^._. / B 65_. -> 65^._.
+# L10 mark A 79~^: / B 79^: -> 79~^:
+# L10 DIFFERENT A [33^._.] / B [73^._.?]
+# L11 mark A 86^-_.? / B 86^-? -> 86^-_.
+# L11 mark A 67_: / B 67_. -> 67_:
+# L12 mark A 68= / B 68^-? -> 68=
+# L12 DIFFERENT A [59=] / B [49=?]
+# L12 mark A 30~_-? / B 30= -> 30=
+# L12 DIFFERENT A [60~?_v] / B [66_v]
+# L12 DIFFERENT A [(13)] / B [(43)]
+# L13 DIFFERENT A [55=] / B [65=]
+# L13 DIFFERENT A [27^:?] / B [2x^:?]
+# L14 mark A 31 / B 31^. -> 31
+# L15 DIFFERENT A [33_:] / B [39_:]
+# L15 DIFFERENT A [16~] / B []
+# L16 mark A 83_: / B 83^._: -> 83_:
+# L16 mark A 23~^. / B 23^. -> 23~^.
+# L16 mark A 31_. / B 31^.?_. -> 31_.
+# L16 DIFFERENT A [62=] / B [68=]
+# L16 DIFFERENT A [79=] / B [77=]
+# L16 mark A 60^^ / B 60~? -> 60^^
+# L16 DIFFERENT A [63^.] / B [61^.?]
+# L16 mark A 88^._. / B 88_. -> 88^._.
+# L17 mark A 10 / B 10^:? -> 10
+# L17 mark A 76 / B 76_- -> 76
+# L17 DIFFERENT A [82^.?] / B [42^.]
+# L17 mark A 65^. / B 65^^? -> 65^.
+# L17 mark A 11^^_.? / B 11^^_v? -> 11^^_v
+# L17 DIFFERENT A [84^.] / B [88^.?]
+# L17 symbols A K a gl? L E E3? om L #? v dd    phi / B K a gl? L E xi om L # v dd sig?  phi
+# L17 DIFFERENT A [14^.] / B [19^.]
+# L18 mark A 10 / B 10^.? -> 10
+# L18 mark A 28^-? / B 28^. -> 28^-
+# L18 DIFFERENT A [46] / B [44?]
+# L18 symbols A t / B t?
+# L18 DIFFERENT A [33~^:] / B [83^:?]
+# L19 symbols A y ca / B y L?
+# L19 mark A 41~ / B 41^.? -> 41~
+# L19 mark A 10_. / B 10^._.? -> 10_.
+# L20 mark A 59~^^ / B 59^^ -> 59~^^
+# L20 DIFFERENT A [] / B ["S"]
+# L21 DIFFERENT A [58^.? x0?] / B [5^.? 80]
+# L21 mark A 10 / B 10^.? -> 10
+# L21 mark A 91_- / B 91^.?_- -> 91_-
+# L21 mark A 64~^. / B 64^. -> 64~^.
+# R01 mark A 18 / B 18^.? -> 18
+# R01 DIFFERENT A [SP{t?}] / B []
+# R02 mark A 60 / B 60^- -> 60
+# R02 mark A 10 / B 10^.? -> 10
+# R02 mark A 69^:? / B 69^:_-? -> 69^:
+# R03 mark A 80^: / B 80^. -> 80^:
+# R03 DIFFERENT A [";"] / B []
+# R03 mark A 93^-_. / B 93_. -> 93^-_.
+# R04 DIFFERENT A [44^-_.] / B [41^-_.]
+# R04 DIFFERENT A [ll'?] / B ["li"]
+# R04 mark A 65~_. / B 65^-_. -> 65~_.
+# R04 mark A 98~^. / B 98^. -> 98~^.
+# R05 mark A 10 / B 10^.? -> 10
+# R06 mark A 10 / B 10^.? -> 10
+# R06 mark A 76^-?_v / B 76^^_v? -> 76^^_v
+# R06 mark A 10 / B 10^.? -> 10
+# R06 mark A 34^. / B 34 -> 34^.
+# R07 mark A 10 / B 10^.? -> 10
+# R07 DIFFERENT A [(4x)?] / B [(44)]
+# R08 symbols A #  r t? v / B # qo r t v

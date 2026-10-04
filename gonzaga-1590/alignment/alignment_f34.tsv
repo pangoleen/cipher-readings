@@ -1,0 +1,312 @@
+# Alignment of the cipher of BnF fr. 4698 f. 34r (letter of 19 Feb 1590) with the period decipherment BnF fr. 4702 f. 108r.
+# Columns as in alignment_f30.tsv. The transcription was made with the decipherment open (not blind).
+folio	line	i	cipher	figure	marklist	list	value	clerk	agree	figcorr	note
+f34r	L01	1	76=	76	PT	PT	non	non			
+f34r	L01	2	SPELLED			SP	È				
+f34r	L01	3	83=	83	PT	PT	per	per			
+f34r	L01	4	56=	56	PT	PT	hora	hora			
+f34r	L01	5	67_:	67	G	G	il	il			
+f34r	L01	6	89^:	89	E	E	fine	fine			
+f34r	L01	7	82^.	82	C	C	di	di			
+f34r	L01	8	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f34r	L01	9	67_:	67	G	G	il	il			
+f34r	L01	10	42~^._-	42	S	S	servitio	servitio			
+f34r	L01	11	(15)	15	BR	BR	si	si			
+f34r	L01	12	82^.	82	C	C	di	di			
+f34r	L01	13	(50)	50	BR	BR	V.E.	V.E.			
+f34r	L01	14	50=	50	PT	PT	fuori	fuori			
+f34r	L01	15	82^.	82	C	C	di	di			
+f34r	L01	16	"A"		X	X	Francia	Francia			
+f34r	L01	17	68=	68	PT	PT	ma	ma			
+f34r	L01	18	(15)	15	BR	BR	si	si			
+f34r	L01	19	67_:	67	G	G	il	il			
+f34r	L01	20	92_.	92	M	T	uso	uso			
+f34r	L01	21	63_-	63	I	I	la	la			
+f34r	L01	22	24^^	24	O	O	opera	opera			
+f34r	L01	23	10^-_.	10	T	T	sua	sua			
+f34r	L01	24	[et]		X	X	et	et			
+f34r	L01	25	82^.	82	C	C	di	di			
+f34r	L01	26	14^-_.	14	T	T	suo	suo			
+f34r	L01	27	76	76	A	C	dependenza	dependenza			
+f34r	L01	28	61^^	61	O	O	particolare	particolare			
+f34r	L01	29	82^.	82	C	C	di	di			
+f34r	L01	30	50^._-	50	S	S	Signore	Signore			
+f34r	L01	31	86	86	A	N	Duca	Duca			
+f34r	L01	32	82^.	82	C	C	di	di			
+f34r	L02	1	90_-	90	I	I	lungo	lungo			
+f34r	L02	2	73	73	A	T	villa	villa			
+f34r	L02	3	13=	13	PT	PT	acciò che	acciò che			
+f34r	L02	4	83_:	83	G	G	in	in			
+f34r	L02	5	99_v	99	P	P	quello	quello			
+f34r	L02	6	32^^_v	32	Q	Q	regno	regno			
+f34r	L02	7	76=	76	PT	PT	non	non			
+f34r	L02	8	11~^-_.	11	T	T	succedere	succedere			
+f34r	L02	9	86^-_.	86	T	T	uno	uno			
+f34r	L02	10	55^-	55	N	N	Re	Re			
+f34r	L02	11	55_:	55	G	G	heretico	heretico			
+f34r	L02	12	28=	28	PT	PT	che	che			
+f34r	L02	13	41	41	A	A	altro	altro			
+f34r	L02	14	76=	76	PT	PT	non	non			
+f34r	L02	15	65~_v	65	P	P	pretendere	pretendere			
+f34r	L02	16	56=	56	PT	PT	hora	hora			
+f34r	L02	17	83_:	83	G	G	in	in			
+f34r	L02	18	"A"		X	X	Francia	Francia			
+f34r	L02	19	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f34r	L02	20	13~_-	13	I	S	sapere	sapere			
+f34r	L02	21	(44)	44	BR	BR	S.M.tà	S.M.tà			
+f34r	L02	22	67_:	67	G	G	il	il			
+f34r	L02	23	41^._.	41	M	M	merito	merito			
+f34r	L02	24	82^.	82	C	C	di	di			
+f34r	L02	25	94^^	94	O	O	persona	persona			
+f34r	L02	26	82^.	82	C	C	di	di			
+f34r	L02	27	(50)	50	BR	BR	V.E.	V.E.			
+f34r	L02	28	[et]		X	X	et	et			
+f34r	L02	29	13~_-	13	I	S	sapere	sapere			
+f34r	L02	30	63_-	63	I	I	la	la			
+f34r	L02	31	85^.	85	C	C	differenza	differenza			
+f34r	L02	32	10^-_.	10	T	T	sua	sua			
+f34r	L02	33	29^.	29	C	C	con	con			
+f34r	L03	1	63_-	63	I	I	la	la			
+f34r	L03	2	98	98	A	A	casa	casa			
+f34r	L03	3	82^.	82	C	C	di	di			
+f34r	L03	4	71	71	A	N	Guisa	Guisa			
+f34r	L03	5	86=	86	PT	PT	però	però			
+f34r	L03	6	10^.	10	C	A	a	a			
+f34r	L03	7	53~^.	53	C	T	tutto	tutto			mark read as a dot above, with an arc
+f34r	L03	8	76_v	76	P	P	promettere	promettere			
+f34r	L03	9	67_:	67	G	G	il	il			
+f34r	L03	10	50^._-	50	S	S	Signore	Signore			
+f34r	L03	11	10^.	10	C	A	Ambasciatore	Ambasciatore			
+f34r	L03	12	28=	28	PT	PT	che	che			
+f34r	L03	13	(44)	44	BR	BR	S.M.tà	S.M.tà			
+f34r	L03	14	(32)	32	BR	BR	havere	havere			
+f34r	L03	15	64_v	64	P	Q	riguardo	riguardo			
+f34r	L03	16	30=	30	PT	PT	come	come			
+f34r	L03	17	53~^.	53	C	C	convenire	convenire			
+f34r	L03	18	75=	75	PT	PT	ne	ne			
+f34r	L03	19	87~^-_.	87	T	T	volontà	volontà			
+f34r	L03	20	69	69	A	C	da	da			
+f34r	L03	21	69	69	A	N	Duca di Nevers	Duca di Nevers			
+f34r	L03	22	63^.	63	C	C	cosa	cosa			
+f34r	L03	23	SPELLED			SP	SIA				
+f34r	L03	24	31_-	31	I	PT	contra	contra			
+f34r	L03	25	SPELLED			SP	L				
+f34r	L03	26	59_:	59	G	G	honore	honore			
+f34r	L03	27	[et]		X	X	et	et			
+f34r	L03	28	88^.	88	C	C	dignità	dignità			
+f34r	L03	29	10^-_.	10	T	T	sua	sua			
+f34r	L03	30	10^.	10	C	A	a	a			
+f34r	L03	31	24_-	24	I	I	ingiuria	ingiuria			
+f34r	L03	32	82^.	82	C	C	di	di			
+f34r	L03	33	(50)	50	BR	BR	V.E.	V.E.			
+f34r	L04	1	76_v	76	P	P	promettere	promettere			
+f34r	L04	2	(18)	18	BR	BR	subito	subito			
+f34r	L04	3	[et]		X	X	et	et			
+f34r	L04	4	71^:	71	E	E	facile	facile			
+f34r	L04	5	66^^_v	66	Q	Q	rimedio	rimedio			
+f34r	L04	6	66^._-	66	S	S	solo	solo			
+f34r	L04	7	78~^.	78	C	C	desiderio	desiderio			
+f34r	L04	8	28=	28	PT	PT	che	che			
+f34r	L04	9	(50)	50	BR	BR	V.E.	V.E.			
+f34r	L04	10	76=	76	PT	PT	non	non			
+f34r	L04	11	SPELLED			SP	RI				
+f34r	L04	12	27~^:	27	E	E	domanda	domanda			
+f34r	L04	13	67_:	67	G	G	il	il			
+f34r	L04	14	37_:	37	G	G	governo	governo			
+f34r	L04	15	82^.	82	C	C	di	di			
+f34r	L04	16	SPELLED			SP	Campagna				one sign
+f34r	L04	17	30_-	30	I	PT	come	(none)	CLERK DIFFERS		
+f34r	L04	18	63^.	63	C	C	cosa	cosa			
+f34r	L04	19	82^.	82	C	C	di	di			
+f34r	L04	20	28=	28	PT	PT	che	che			
+f34r	L04	21	63_-	63	I	I	la	la			
+f34r	L04	22	98	98	A	A	casa	casa			
+f34r	L04	23	82^.	82	C	C	di	di			
+f34r	L04	24	71	71	A	N	Guisa	Guisa			
+f34r	L04	25	65~_v	65	P	P	pretendere	pretendere			
+f34r	L04	26	(27)	27	BR	BR	essere	essere			
+f34r	L04	27	(42)	42	BR	BR	stato	stato			
+f34r	L04	28	59_v	59	P	P	primo	primo			
+f34r	L04	29	63_v	63	P	P	privato	privato			
+f34r	L04	30	69	69	A	C	da	da			
+f34r	L04	31	55^-	55	N	N	Re	Re			
+f34r	L04	32	72^.	72	C	M	morte	morte			
+f34r	L05	1	68=	68	PT	PT	ma	ma			
+f34r	L05	2	83_:	83	G	G	in	in			
+f34r	L05	3	91_-	91	I	I	luogo	luogo			
+f34r	L05	4	82^.	82	C	C	di	di			
+f34r	L05	5	11^^_v	11	Q	Q	questo	questo			
+f34r	L05	6	87~^-_.	87	T	T	volontà	volontà			
+f34r	L05	7	80^.	80	C	A	bene	bene			
+f34r	L05	8	28=	28	PT	PT	che	che			
+f34r	L05	9	(36)	36	BR	BR	lei	lei			
+f34r	L05	10	(16)	16	BR	BR	sopra	si	CLERK DIFFERS		mark or sense not clear
+f34r	L05	11	76~_v	76	P	P	promettere	promettere			
+f34r	L05	12	34^.	34	C	A	alcuno	alcuno			
+f34r	L05	13	91_-	91	I	S	stato	stato			
+f34r	L05	14	91^^	91	O	O	perpetuo	perpetuo			
+f34r	L05	15	39=	39	PT	PT	dopo	dopo			
+f34r	L05	16	28=	28	PT	PT	che	che			
+f34r	L05	17	63_-	63	I	I	la	la			
+f34r	L05	18	63^.	63	C	C	cosa	cosa			
+f34r	L05	19	82^.	82	C	C	di	di			
+f34r	L05	20	32^^_v	32	Q	Q	regno	regno			
+f34r	L05	21	(32)	32	BR	BR	havere	havere			
+f34r	L05	22	50_.	50	M	M	minaccia	minaccia			clerk's word; sense not clear
+f34r	L05	23	(31)	31	BR	BR	havuto	havuto			
+f34r	L05	24	86_-	86	I	S	stabilire	stabilire			
+f34r	L05	25	[et]		X	X	et	et			
+f34r	L05	26	11^^_v	11	Q	Q	questo	questo			
+f34r	L05	27	(14)	14	BR	BR	senza	senza			
+f34r	L05	28	SPELLED			SP	PRE				
+f34r	L05	29	30_:	30	G	G	giudicio	giudicio			
+f34r	L05	30	82^.	82	C	C	di	di			
+f34r	L06	1	85^._.	85	M	T	unione	unione			
+f34r	L06	2	82^.	82	C	C	di	di			
+f34r	L06	3	57^.	57	C	C	corona	corona			
+f34r	L06	4	[et]		X	X	et	et			
+f34r	L06	5	11^^_v	11	Q	Q	questo	questo			
+f34r	L06	6	33^._.	33	M	M	medesimo	medesimo			
+f34r	L06	7	95~^.	95	C	C	disegno	disegno			
+f34r	L06	8	82^.	82	C	C	di	di			
+f34r	L06	9	80~^:	80	E	E	fatto	fatto			
+f34r	L06	10	29^.	29	C	C	con	con			
+f34r	L06	11	41^.	41	C	A	altro	altro			
+f34r	L06	12	28=	28	PT	PT	che	che			
+f34r	L06	13	(32)	32	BR	BR	havere	havere			
+f34r	L06	14	50_.	50	M	M	minaccia	minaccia			clerk's word; sense not clear
+f34r	L06	15	42_-	42	I	S	servitio	servitio			
+f34r	L06	16	10^.	10	C	A	a	a			
+f34r	L06	17	11^^_v	11	Q	Q	questo	questo			
+f34r	L06	18	76_:	76	G	G	importare	importare			
+f34r	L06	19	29^.	29	C	C	con	con			
+f34r	L06	20	87_:	87	G	S	staffetta	staffetta			clerk's word; sense asks for T 87 volontà
+f34r	L06	21	82^.	82	C	C	di	di			
+f34r	L06	22	99_v	99	P	P	quello	quello			
+f34r	L06	23	28=	28	PT	PT	che	che			
+f34r	L06	24	SPELLED			SP	SARÀ				
+f34r	L06	25	44^:	44	E	E	eletto	eletto			
+f34r	L06	26	55^-	55	N	N	Re	Re			
+f34r	L06	27	63_-	63	I	I	la	la			
+f34r	L06	28	13^^	13	O	O	occasione	occasione			
+f34r	L06	29	90=	90	PT	PT	poi	poi			
+f34r	L06	30	82^.	82	C	C	di	di			
+f34r	L06	31	11^^_v	11	Q	Q	questo	questo			
+f34r	L06	32	81_v	81	P	P	proposta	proposta			
+f34r	L07	1	SPELLED			SP	DICE				
+f34r	L07	2	67_:	67	G	G	il	il			
+f34r	L07	3	10^.	10	C	A	Ambasciatore	Ambasciatore			
+f34r	L07	4	(27)	27	BR	BR	essere	essere			
+f34r	L07	5	(42)	42	BR	BR	stato	stato			
+f34r	L07	6	63_-	63	I	I	la	la			
+f34r	L07	7	18_v	18	P	P	piccolo	piccolo			
+f34r	L07	8	87_:	87	G	G	inclinare	inclinare			
+f34r	L07	9	28=	28	PT	PT	che	che			
+f34r	L07	10	73^._.	73	M	M	mostrare	mostrare			
+f34r	L07	11	10^.	10	C	A	a	a			
+f34r	L07	12	(50)	50	BR	BR	V.E.	V.E.			
+f34r	L07	13	32^-	32	N	N	Papa	Papa			
+f34r	L07	14	[et]		X	X	et	et			
+f34r	L07	15	63_-	63	I	I	la	la			
+f34r	L07	16	39_:	39	G	G	grande	grande			
+f34r	L07	17	SPELLED			SP	STIMA				
+f34r	L07	18	28=	28	PT	PT	che	che			
+f34r	L07	19	80^:	80	E	E	fatto	fatto			
+f34r	L07	20	82^.	82	C	C	di	di			
+f34r	L07	21	94^^	94	O	O	persona	persona			
+f34r	L07	22	82^.	82	C	C	di	di			
+f34r	L07	23	(36)	36	BR	BR	lei	lei			
+f34r	L08	1	(39)	39	BR	BR	sono	sono			
+f34r	L08	2	80^:	80	E	E	fatto	fatto			
+f34r	L08	3	16^.	16	C	C	chiaro	chiaro			
+f34r	L08	4	67_:	67	G	G	il	il			
+f34r	L08	5	10	10	A	A	Ambasciatore	Ambasciatore			
+f34r	L08	6	82^.	82	C	C	di	di			
+f34r	L08	7	ll'		X	X	Spagna	Spagna			
+f34r	L08	8	87=	87	PT	PT	più	più			
+f34r	L08	9	82^.	82	C	C	di	di			
+f34r	L08	10	(25)	25	BR	BR	volta	volta			figure doubtful: 25 or 26; (25) is si elsewhere
+f34r	L08	11	(32)	32	BR	BR	havere	havere			
+f34r	L08	12	SPELLED			SP	PRO				
+f34r	L08	13	32_.	32	M	T	testa	testa			
+f34r	L08	14	10	10	A	A	a	a			
+f34r	L08	15	32^-	32	N	N	Papa	Papa			
+f34r	L08	16	68=	68	PT	PT	ma	ma			
+f34r	L08	17	63_v	63	P	P	privato	privato			
+f34r	L08	18	(11)	11	BR	BR	se	se			
+f34r	L08	19	(15)	15	BR	BR	si	si			
+f34r	L08	20	19~^.	19	C	A	accordare	accordare			
+f34r	L08	21	29^.	29	C	C	con	con			
+f34r	L08	22	50^-	50	N	N	Navarra	Navarra			
+f34r	L08	23	29^.	29	C	C	con	con			
+f34r	L08	24	28=	28	PT	PT	che	che			
+f34r	L08	25	(15)	15	BR	BR	si	si			
+f34r	L08	26	SPELLED			SP	È				
+f34r	L08	27	21^.	21	C	A	accrescere	accrescere			
+f34r	L08	28	25=	25	PT	PT	assai	assai			
+f34r	L08	29	67_:	67	G	G	il	il			
+f34r	L08	30	32^._-	32	S	S	sdegno	sdegno			
+f34r	L09	1	82^.	82	C	C	di	di			
+f34r	L09	2	(43)	43	BR	BR	S.S.tà	S.S.tà			
+f34r	L09	3	(31)	31	BR	BR	havuto	havuto			the sense asks for verso (23)
+f34r	L09	4	47^-	47	N	N	Re di Spagna	Re di Spagna			
+f34r	L09	5	75=	75	PT	PT	ne	ne			
+f34r	L09	6	SPELLED			SP	È				
+f34r	L09	7	34^:	34	E	E	dubbio	dubbio			
+f34r	L09	8	28=	28	PT	PT	che	che			
+f34r	L09	9	32^-	32	N	N	Papa	Papa			
+f34r	L09	10	76=	76	PT	PT	non	non			
+f34r	L09	11	(15)	15	BR	BR	si	si			
+f34r	L09	12	10^.	10	C	A	a	a			
+f34r	L09	13	87_:	87	G	G	inclinare	inclinare			
+f34r	L09	14	10	10	A	A	a	a			
+f34r	L09	15	11^^_v	11	Q	Q	questo	questo			
+f34r	L09	16	68=	68	PT	PT	ma	ma			
+f34r	L09	17	64~^.	64	C	C	credere	credere			
+f34r	L09	18	28=	28	PT	PT	che	che			
+f34r	L09	19	(15)	15	BR	BR	si	si			
+f34r	L09	20	27~^:	27	E	E	domanda	domanda			
+f34r	L09	21	59_v	59	P	P	primo	primo			
+f34r	L09	22	34^.	34	C	A	alcuno	alcuno			
+f34r	L09	23	63^.	63	C	C	cosa	cosa			
+f34r	L09	24	10	10	A	A	a	a			
+f34r	L09	25	50^-	50	N	N	Navarra	Navarra			
+f34r	L09	26	68_-	68	I	I	la quale	la quale			
+f34r	L09	27	83^.	83	C	A	bisogno	bisogno			
+f34r	L09	28	77~_.	77	M	T	vista	vista			
+f34r	L09	29	(11)	11	BR	BR	se	tal che	CLERK DIFFERS		
+f34r	L09	30	(35)	35	BR	BR	lui	lui			
+f34r	L09	31	87~^-_.	87	T	T	volontà	volontà			
+f34r	L09	32	80~^:	80	E	E	fatto	fedelmente	CLERK DIFFERS		
+f34r	L10	1	(30)	30	BR	BR	ho	ho			
+f34r	L10	2	43_-	43	I	I	intendere	intendere			
+f34r	L10	3	67_:	67	G	G	il	il			
+f34r	L10	4	26^-	26	N	N	legato	legato			
+f34r	L10	5	(32)	32	BR	BR	havere	havere			
+f34r	L10	6	(31)	31	BR	BR	havuto	havuto			
+f34r	L10	7	32^^	32	O	O	ordine	ordine			
+f34r	L10	8	82^.	82	C	C	di	di			
+f34r	L10	9	95=	95	PT	PT	qua	presto	CLERK DIFFERS		
+f34r	L10	10	82^.	82	C	C	di	di			
+f34r	L10	11	93_.	93	M	T	uscita	uscita			
+f34r	L10	12	82^.	82	C	C	di	di			
+f34r	L10	13	99	99	A	X	Parigi	Parigi			
+f34r	L10	14	[et]		X	X	et	et			
+f34r	L10	15	82^^_v	82	Q	Q	ritirare	ritirare			
+f34r	L10	16	83_:	83	G	G	in	in			
+f34r	L10	17	97=	97	PT	PT	qualche	qualche			
+f34r	L10	18	19^.	19	C	C	città	città			
+f34r	L10	19	82=	82	PT	PT	o vero	o vero			
+f34r	L10	20	91_-	91	I	I	luogo	luogo			
+f34r	L10	21	76=	76	PT	PT	non	non			
+f34r	L10	22	73^._-	73	S	S	sospetto	sospetto			
+f34r	L10	23	10	10	A	A	a	a			
+f34r	L10	24	90_.	90	M	M	niuno	niuno			
+f34r	L10	25	82^.	82	C	C	di	di			
+f34r	L10	26	60^^	60	O	O	parte	parte			
+f34r	L10	27	67_:	67	G	G	il	il			
+f34r	L10	28	28=	28	PT	PT	che	che			
+f34r	L10	29	69	69	A	E	faccenda	faccenda			
+f34r	L10	30	54_-	54	I	S	simulatione	simulatione			
+f34r	L10	31	82^.	82	C	C	di	di			
+f34r	L10	32	45^^_v	45	Q	Q	reverenza	reverenza			

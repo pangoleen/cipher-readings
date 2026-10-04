@@ -1,0 +1,51 @@
+# INTERPOLATED values: no gloss. list<TAB>figure<TAB>word<TAB>window (nearest glossed neighbours) and the contexts that chose the word.
+# "ctx2" = same value fits two or more different contexts (confirmed by context). "ctx1" = one context only.
+O	13	occasione	start..25 opinione; f30r R6 "ha dato occasione a l'istesso Amb.re ... di venire a trovarmi" ctx1
+O	20	officio	13 occasione..25 opinione; f30v L6 "haver fatto il medesimo officio con lei", L15 "far questo officio" ctx2
+O	21	ogni	20 officio..25 opinione; f30v L3 "con ogni efficacia" ctx1
+O	24	opera	21 ogni..25 opinione; f104 L7 "il valersi di opera sua" ctx1
+O	32	ordine	25 opinione..57 pari; f30v L10-11 "senza ordine di suo Signore" ctx1
+O	59	parola	57 pari..94 persona; glossed f105 as plain 59 (mark not seen); f30v L11 "queste parole" ctx2
+O	61	passo/paese	57 pari..87 pericolo; f30v L21 ctx1
+O	87	pericolo	57 pari..94 persona; f30v L21 "corrono grandissimi pericoli" ctx1
+O	94	persona	57 pari..end; f30v L1 "stimar la persona di V.E.", L12 "riputatione di sua persona", L13 "il merito di persona"; f104 L5 "collocar la persona di lei" ctx2
+P	33	posso/porto	13 piacere..52 pretesto; f30v L16 ctx1
+P	80	proposito	76 promettere..81 proposta; f30v L20 "in questo o vero in altro proposito" ctx1
+P	98	quanto	96 quale..99 quello; f30v L10 "promette a V.E. quanto ... può promettere", L16 "altretanta ... quanto honore di V.E.", "tanto più ... quanto io" ctx2
+E	41	efficacia	34 dubbio..60 esperienza; f30v L3 "con ogni efficacia" ctx1
+E	46	espediente/elettione	34 dubbio..60 esperienza; f30v L14 "appigliarsi a questo .." ctx1
+E	52	esaltatione	34 dubbio..60 esperienza; f30v L4 "servitio di Iddio et esaltatione di sua santa fede" ctx1
+E	53	errore	52 esaltatione..60 esperienza; f30v L7 "sarebe errore" ctx1
+E	82	fede	80 fatto..87 fermo; f30v L4 ctx1
+G	50	gusto	39 grande..59 honore; GLOSSED f26r (as plain 50); f30v L11 "di suo gusto"
+G	64	Iddio	59 honore..67 il; f30v L4 "servitio di Iddio" ctx1
+I	48	interesse	45 intentione..71 laudare; f30v L12 "quello a interesse di suo stato" ctx1
+I	50	istesso	45 intentione..71 laudare; f30v L1, L6 "l'istesso Amb.re" ctx2
+I	90	lungo	83 libero..96 maggiore; f30v L1 "dopo lungo ragionamento" ctx1
+M	41	merito	33 medesimo..54 mio; f30v L13 "sa pesare e distinguere il merito di persona" ctx1
+M	46	mezzo	41 merito..54 mio; f30v L23 "per mezzo", f31r "si manda per mezzo di l'Amb.re di Spagna ... per mezzo di S. Duca" ctx2
+M	87	necessario	85 necessità..92 nocumento; f30v L9 "vedrebe necessario che V.E. facesse" ctx1
+C	35	confidenza	29 con..37 conforme; f30v L10 "mostrar servitio (et) confidenza" ctx1
+C	38	confusione	37 conforme..44 consenso; f30v L24 ".. di animo" ctx1
+C	48	contento/consolatione	47 conservare..51 contrario; f30v L11 ".. grandissimi" ctx1
+C	72	defunto	71 danno..75 deliberare; f30v L19 "vivente il Re defunto" ctx1
+C	85	difficoltà	82 di..end; f30v L7-8 "andò toccando di difficoltà che possono essere fra lei et Umena" ctx1
+S	12	santo	start..13 sapere; f30v L4 "sua santa fede" ctx1
+S	48	sicuro	42 servitio..91 stato; f30v L14 "trattarne sicuramente", L22 "cosa .. sicura", L23 "le lettere verriano sicure" ctx2
+S	50	Signore	48 sicuro..91 stato; f30v L11 "senza ordine di suo Signore" ctx1
+S	68	singolarmente/sommamente	50 Signore..91 stato; f30v L1 "stimar .. la persona di V.E." ctx1
+T	21	tale	19 tacere..22 tanto; f30v L11-12 "di tal sua ..", "in conto di tale che" ctx2
+PT	32	così	31 contra..40 due; f30v L9-10 "che così facendo", "così promette" ctx2
+PT	39	dopo	32 così..40 due; f30v L1 "dopo lungo ragionamento" ctx1
+PT	47	fra	44 fino..50 fuori; f30v L8 "fra lei et Umena" ctx1
+PT	46	forse	44 fino..47 fra; f30v L17 ctx1
+PT	86	però	84 perché..87 più; f30v L10 ctx1
+BR	23	verso	22 troppo..27 essere; f104 L2 "ha mostrato .. verso la persona di lei" ctx1
+N	41	(a prince; Principe?)	32 Papa..44 Re di Francia; f30v L8, L10 ctx1
+X	A	Francia	clear capital used as a code name: "le cose di A", "fuori di A", "in A", "Re di A" (f104) ctx2
+C	34	condurre	29 con..37 conforme; f101r l.6 "ho condotto la mia età con prudenza" (clear copy: "guidato") ctx1
+T	12	successo	10 sua..14 suo; glossed f105 "successo" (mark not rechecked) ctx1
+Q	24	ragione	23 ragionamento..29 replica; f30v L18 "milita hora quella ragione di impedimento" ctx1
+Q	74	rifiuto/ripulsa	52 ricevuta..76 risolutione; f30v L17 "per non assicurarsi forse di .." ctx1
+C	43	conscienza	38 confusione..44 consenso; f30v L19 "che poteva essere in conscienza vivente il Re defunto" ctx1
+I	80	legittimo	79 lettera..83 libero; f30v L19 "vivente il Re defunto legittimo" ctx1

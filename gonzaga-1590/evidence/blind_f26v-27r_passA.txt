@@ -1,0 +1,162 @@
+# BLIND PASS A - BnF fr. 4698, f. 26v and f. 27r
+# Letter of Cardinal Scipione Gonzaga to the Duke of Nevers, Rome, 24 March 1590
+# Images: img/v30_L.jpg (f. 26v), img/v30_R.jpg (f. 27r). Crop prefix: p26a.
+# Transcription only. No decoding. No other project file was opened (only blind_brief.md and sheets/marks.jpg).
+# Notation as in blind_brief.md. Additions used here:
+#   [tall 0]      = a tall narrow oval, taller than the figures, standing alone (not in the brief's symbol list)
+#   [text]        = description of a sign that is not in the list, or of damage
+#   NN^.? etc.    = the "?" stands after the doubtful part (figure or mark)
+#   {above: ...}  = words written above the line in another, upright hand (period gloss), placed after the group they stand over
+
+==================================================================
+## f. 26v  (img/v30_L.jpg) - CIPHER LINES
+==================================================================
+# 21 lines contain cipher. L01-L05 are clear text with short cipher groups (each with a gloss above).
+# L06-L21 are the main cipher block.
+
+before L01: (top of page; the text continues from f. 26r)
+L01: "forse anco" (44) 13 82^. (45) {above: adagio saputo di S.A.} "il che di certo(?) io non haverei [word struck out], se non [word struck out] saputo"
+L02: 63_- 45_- 82^. (50) {above: l'intentione di Go~za} "cosi ho voluto sol.te accennarlo per mia d'opinione(?) per non restar"
+L03: "di" 13~_- 69^:? (36) {above: sapere da lei} "pero di Com.e(?) a V. Ecc. hauto(?) grand.ma obligat.ne che mi comandasse"
+L04: "tali uffici(?), cosi gliele sentiro assai maggiore, se ella si risolvera di" 30^:_- 92= {above: scrivere presto}
+L05: 10 78? {above: a D: di Mant.a} "perche cosi cessera tutta la mala sodisfatt.ne ch'egli ha di me."
+(clear line, no cipher): "Quanto poi a quello che passa di qui circa i negotij di Francia V. Ecc. ha"
+L06: "a sapere, che sono da 18 giorni, che" 28^- 82^. [tall 0] 62~ 82^. 95= 83= 86^-_. 10^-_. 81 [et] 83= 11^^_v 10^-_. 62~ (18) (15)
+L07: 81~_- 75^: 28= 32^- (15) "fosse" [9-like blot]^.? 29^. 47^- 69^. 96_v 23= 34^. 41^.? 63^. 11^^_v 33^._. "eran" 27^: 29^. 65~?^._. 40_- "a quello che lo faceva"
+L08: 96_- 64~^.? "qui, che" 10 82 ll' 83_: 59_v 68^. 39= 63_- 62^^ 82^. [tall 0] 27~^: 83^^ 10 32^- 82^. 98^. "dargli nel" 34^^_v 63_- [# over a diamond, dot below] 23^. 82^. 14^-_. 55^- 68=
+L09: 92=[perhaps also a dot above] (15) 41 56^-_. 11^^_v 87^^_v 84= [et] (15) "hebbe" 15^.? 72^.? 82^. 83^^_v 82^. [tall 0] [et] 10 29^. 65^-_.? 82^. 86^-_. 59^._. 82^. ll' 83_v 10 30~^._. 30= 59_v 82^. 40~^:? 90_v | [p-like sign] |
+L10: "Standosi(?) adunque" 21^^ 26_: [et] (10) 21^^ 56= 88_: 73^._- 82^. 11^^_v 66^. 75= 43~^^_v 49= 65^._. 46 82^. 79~^: 84= 76= 36~^.?_- 11^^_v 11 32^- 10 40_- 82^. 33^._.
+L11: "diamo(?)" 86^-_.? 21^^_v 82^. 20 46 [et] "disse(?)" 60^^ 76= 66^.?_- 82^. 11^^_v 66^-_. 24= "gli veniva" 50^._. [unit deleted by hatching: 8x_-?] (11) 79= 67_: 90~^. (24) [tall 0] 76= 29~^._-?
+L12: 67_: 41^- 28= 36~^._- 50^- 68= 59= 82^. 62^._. 30~_-? "haveva" 60~?_v 83_: 88^._. 82^. "A" [et] 98_v "haveva" 68_v 82^. 17~^._. (13) 29^. 84^. 44_- [et] 62^._- 82^. 47^-
+L13: [et] 55= 67_: 56^^ 82^. (10) 53^-_.? "fu" 28= 76= 53^. 10 88^. 82^. 32^- "il far alcuna d'elle(?)" 63^. 27^:? (11) 76= 29^. 72^. 30^-_. [et] 39=
+L14: 28= "si fosse veduta la" 79^^_v 82^. 50^- 10 40_- 80^. 69^.? 32^- 82^. 83~_- 62= 10 21^^ 41^. 63^. 23 [et] 64= 31 28= 99_v 66^. 76= "poteva"
+L15: (32) 34^. 95^. 30^^_v 82^. 33_: [et] 30= 21^-_. 28= 76= (15) "doveva" 16~ 68= 76= "mostrando per tutto" 11^^_v 67_: 10 82^. 12^^_v 32^- 33^._.
+L16: (28) 29^. 46 "ricordi(?)" 83_: 65^._- 21^^_v 23~^. 83= 63_- 31_. 39= 86^-_. 41^. 21^^_v 62= 98 [et] 83_: 11^^_v 79= "il duca(?)" 60^^ 19= 87= 55_.[ink blot above] 82^. 63^. 88^._. 82^. 32~?
+L17: "dice(?)" 10 46 76 [et] 82^.? 79_- 65^. 83_: 11^^_.? 39^. 82^. 84^. 62^._- 47= (93) [blotted glyph: a?] 47^- 29^. 28= 67^-_.? | K a gl? L E E3? om L #? v dd [diamond with stem below] [s-like] [z-like] phi | 65^._. 63_- 14^. 10^-_.
+L18: 19= 23= 10 [blotted unit; written above it: 87=] 28^-? 82^. ll' "lodando(?)" 89^: 67_: 56^^ 82^. 46 (16) 2x? 92_v | t | 86^-_. (11) (15) 33~^: 90^. (14) 82^. "A" "A" 67_: 10 82^. ll' 30= 99_v
+L19: 69^. 96_v 32^- | y ca | 41~ 53^-_. 11^^_v 10_. (15) 83= 67_: 30^-_. 92^-_.? 69^. (35) "al parer suo" 82^. 89= 78^^_v [et] (15) 84= 21= "puo credere, che"
+L20: 11^^_v 32^^ 32= 44_v "venga" 69^. 47^- 82^. 96_v (15) 30= 32= 59~^^ 29^. 21^^ 59_: 32= 63_- 79_- 28= 83^-_. "mi ha" 52^^_v 76= "hanno(?)" 34^._- 34^. 82^.
+L21: 49^. 35^. 67_: (12) (11) (15) 33^: 58^.? x0? 76= "intendendosi(?) che" 10 11^^_v 36^. 82^. 91_- 82^. 17^. "siano" 63^._- 60^- 21^^_v 86= 30= 32^- 64~^.
+after L21: (end of page; the cipher runs on to f. 27r without clear words)
+
+==================================================================
+## f. 26v - CLEAR TEXT, line by line
+==================================================================
+(gloss above line 1, other hand) adagio saputo di S.A.
+1. forse anco [cipher] il che di certo(?) io non haverei [struck out], se non [struck out] saputo
+(gloss) l'intentione di Go~za
+2. [cipher] cosi ho voluto sol.te accennarlo per mia d'opinione(?) per non restar
+(gloss) sapere da lei
+3. di [cipher] pero di Com.e(?) a V. Ecc. hauto(?) grand.ma obligat.ne che mi comandasse
+(gloss, right end) scrivere presto
+4. tali uffici(?), cosi gliele sentiro assai maggiore, se ella si risolvera di [cipher]
+(gloss) a D: di Mant.a
+5. [cipher] perche cosi cessera tutta la mala sodisfatt.ne ch'egli ha di me.
+6. Quanto poi a quello che passa di qui circa i negotij di Francia V. Ecc. ha
+7. a sapere, che sono da 18 giorni, che [cipher to the end of the page, with the clear words listed in L06-L21]
+No date line on this page.
+
+==================================================================
+## f. 27r  (img/v30_R.jpg) - CIPHER LINES
+==================================================================
+# 8 lines contain cipher (the top 8 lines of the page). Round library stamp at the top left, beside L01-L02.
+
+before L01: (top of page; cipher continues from f. 26v)
+L01: 88= 83= 79~^._- 28= 83= 41^. 10 59_v 18 "fu" 82^. 56^^ 28= 76= (15) "havesse" 90~^. | t? | 10 68=[lighter ink, small squiggle above] 59_v 77~^-_. 19= 83= 11^^_v (25) 99_v 28= "i due"
+L02: 46 60 28= 10 11^^?_v (15) 19^^ 39~_v 24^^ 83= 82^^_v 69^:?[written over a crossed 7] 11^^_v 78_:[lighter ink] 76= 86= 30= 51^.?_. 82^. 32^. 82= 82^. 46 68= 69^. (37) 37^._. 30= 41^. 61^^
+L03: 67_: 28= (33) (37) 80^: 89^: 29^. 40_: 82^. 64_: "ne hanno" 84^^_v 76_v 28= 76= (15) 80^: 41^.? ";" [et] 32= "siano" 93^-_. 17= 83=
+L04: 97= 26_: 82^. 86^-_. 39_: 44^-_. [et] 87^^ ll'? 10? 97= 84=? 69^. 79^^_v 28= (15) "aspettano" 82^. "A" "possibile" 65~_. 63^. 28= (26) 98~^. 60^-
+L05: "se ben" 88= (15) | K a | 69^. 64~^. 67_: 51^.? 91= 67_: 92_v | T | 99_v 82^. 83_- 82^. 23 10 96_v 76= | xi [circle crossed by a +] | 30= 71^: "si spera" 44~^. 50^- "ma quello"
+L06: "che sopra tutto" 76_: 10 13^.?_- 83_: 11^^_v x8^._.[first digit under an ink blot] | T | 28= 32^- 87= 82^. (25) | K a | 76^-?_v[mark above overwritten/blotted] 10 47^- 82^. 76= (32) 21^._. 83_: 80^: 82= 44^. 34^. 83=
+L07: 55^- 82^. "A" (11) 76= | T | 76= 93= 64 68= 40_: [et] 35^. 10 (4x)?[second digit blotted, ink smear above] [et] "si vede che" 60^- 50^. 87^. 82^. 11^^_v 59^^ 82^. 32^- 83= 99_v 28= (15) | # sig |
+L08: 29^. [tall 0] [et] 86= 50^._. 28^-_. 82^. | # [diamond with stem below, qo?] r t? v | 72^^ 68= (43) (29) 49^. (10) (22) "Et q.o(?) e quanto posso dire hora"
+after L08: "a V. Ecc. penando tanto a scriver con q.ta cifra, che mi conviene(?) tutto il"
+
+==================================================================
+## f. 27r - CLEAR TEXT, line by line
+==================================================================
+(L01-L08: cipher with the clear words given above: fu / havesse / i due / ne hanno / siano / aspettano / possibile / se ben / si spera / ma quello / che sopra tutto / si vede che)
+8.  [end of cipher] Et q.o(?) e quanto posso dire hora
+9.  a V. Ecc. penando tanto a scriver con q.ta cifra, che mi conviene(?) tutto il      ("penando tanto a scriver" is underlined)
+10. giorno, et no~ posso far altra cosa anco che necessaria.
+11. Hieri si hebbero l.re di Francia, et per una del Sig. M. V.(?) ho inteso
+12. la promessa fattagli della liberat.ne della S.ra Duchessa di Longavilla      ("ne" of "liberatione" above the line)
+13. figlia di V. Ecc. di che io mi rallegro con lei q.nto debbo. So il tempo
+14. che la S.ra Duchessa di Guisa ha tolto a restituirla interam.te a V. Ecc.
+15. ma basti che intanto ella sara in sua liberta, et vivira(?) con assai
+16. maggior consolat.ne che prima non faceva.
+17. Delli stati di V. Ecc. desidera(?) gia haver inteso(?) che il Thes.r Gauiss.(?)
+18. quale ha scritto a diversi particolari per poter mettere insieme il
+19. numero che fa bisogno. e nella quantita(?) spero che ogni cosa sara
+20. in pronto, et io ne ho gia dato conto al Cav.(?) Coppo(?) Agente di V. Ecc. in
+21. Mant.a et con questo fine nella buona gratia di lei senza fine mi racc.do
+DATE LINE: Di Roma a 24 di Marzo 1590
+           Di V. Ecc.
+SUBSCRIPTION (right): Obligat.mo Ser.re et Cugino
+SIGNATURE:            Scip.ne Card.le Gonzaga
+
+==================================================================
+## DOUBTFUL PLACES
+==================================================================
+General
+- Digit 1 has its own dot. Where a dot stands over a figure with 1 (13, 41, 51, 18, 10) I cannot always tell the mark from the i-dot. I wrote the mark only when the dot is higher or heavier than the usual i-dot, and put "?" in the close cases.
+- "=" (bar above and bar below) is clear in most places. Short bars over 7 can be the top stroke of the 7 itself (76=, 75=, 79=).
+- Circumflex (^^) and caron (_v) are sharp on this film. Arc (~) is clear when it is a high bow.
+- [tall 0]: a tall narrow oval, 5 times on these pages (f.26v L06, L08, L09, L11 after (24); f.27r L08). It is not one of the listed symbols. It may be a nought used as a sign.
+
+f. 26v
+- L01: 13: the dot above is high; it may be a mark (13^.). The stroke below 13 is the abbreviation bar of the gloss "Go~za" under it, not a mark.
+- L01: (44): the left bracket is heavy and the figures are thick; reading (44) is fairly sure, (41) is possible.
+- L02: (50): thick ink; (50) or (30).
+- L03: 69: a short mark above the 9, two dots run together or a short dash.
+- L05: 78: no mark seen; the gloss sits just above it.
+- L07: after "fosse" a blotted glyph like a 9 or a "g" with a dot above; it may be one figure of a unit (x9) or a deleted sign.
+- L07: 41^.? and 65~?: the arc over 65 is faint.
+- L08: 64~^.?: the arc and the dot are close together.
+- L08: after 34^^_v 63_-: a sign like # above a small diamond, with a dot below. Not in the list.
+- L09: first unit 92=: a dot may stand above the upper bar.
+- L09: 15^.? 72^.?: dots faint. 65^-_.?: upper bar faint.
+- L09: last sign of the line: a small p-like or rho-like letter at the margin.
+- L10: 36~^.?_-: arc clear, dot doubtful.
+- L11: first unit 86^-_.?; 66^.?_-; one unit after 50^._. is deleted by hatching (8x with a bar below); last unit 29~^._-?.
+- L12: 30~_-? and 60~?_v: the arcs are faint.
+- L13: 53^-_.?: dot below doubtful. 27^:?: second dot faint.
+- L14: 69^.?: dot faint.
+- L16: 55_.: an ink blot above hides any upper mark. Last unit 32~?: mark above is at the page edge.
+- L17: 82^.? after [et]; 11^^_.? (dot or small caron below); a blotted glyph after (93), like the symbol "a" (diamond with stem); 67^-_.?
+- L17: the symbol group is long (15 signs) and partly crowded. Sure: K, a, L, om, v, dd, phi. Doubtful: gl, E3, #, the diamond with a stem below, and two small s-like and z-like signs.
+- L18: fourth unit is blotted; "87=" is written above it as a correction. 28^-?: bar faint.
+- L18: after (16): a unit of which only "2" is clear (2x), then 92_v.
+- L19: 92^-_.?: the upper bar may belong to the line above.
+- L21: 58^.? and the next unit: I see "0" with no clear first digit (x0), close to 58; the two may be one group "58 0x".
+- Clear words inside the cipher lines are short and partly doubtful: Standosi, diamo, disse, ricordi, il duca, dice, lodando, hanno, intendendosi.
+
+f. 27r
+- L01: after 90~^.: a sign made of a vertical stroke with two short bars to the right. I wrote t?; it may be the list's "=" or "F3". The same sign is in L08.
+- L01: 68= is in lighter ink with a small squiggle above; it looks like a later addition or correction.
+- L02: 11 (5th unit): the mark above is flat, bar or flattened circumflex. 69: written over a crossed 7; two small dots or a dash above. 78_: in lighter ink. 51^.?_.
+- L04: after 87^^: a tall stroke with a short dotted stroke (ll' or the clear word "li"), then an omega-like shape (10 without its dot, or the symbol om).
+- L04: 84=?: the upper stroke is curved; it may be an arc with a bar below (84~_-).
+- L05: 51^.?: the dot may be the i-dot. Second symbol after 76=: a circle crossed by a vertical and a horizontal stroke (phi or oh, or a new sign).
+- L06: unit after 11^^_v: the first digit is under an ink blot; the second is 8; dot above and dot below. 13^.?_-. 76 after | K a |: the upper mark is blotted (bar or correction), caron below is clear.
+- L07: (4x): second digit blotted (44 or 47), with an ink smear above the bracket.
+- L08: second symbol of the group: diamond with a stem below (qo has a circle). Fourth: the two-bar sign of L01.
+- Clear text: "Sig. M. V.", "Thes.r Gauiss.", "Cav. Coppo", "desidera gia haver inteso", "vivira", "nella quantita" are doubtful readings.
+
+==================================================================
+## CROPS
+==================================================================
+- Source: 4304 x 5980 px per half opening, 8-bit grey. All crops cut with PIL, autocontrast (cutoff 0.5 %), LANCZOS.
+- Overviews: whole page at 1/5 (only to find the text block); strips of 3200-3800 px at 0.41-0.48.
+- Reading crops, f. 26v L06-L09: 860 x 290 px at 1.8x, four per line with 100 px overlap (p26a_L_L06a..L09d),
+  plus 520 x 225 px at 3.0x for every unit of L09 and for doubtful places (p26a_L_z*).
+- Reading crops, f. 26v L10-L21 and f. 27r L01-L08: 660 x 230 px at 2.4x, five per line with 40-95 px overlap
+  (p26a_L_m10_1..m21_5, p26a_R_m01_1..m08_5), plus 410 x 180-250 px at 3.8x for doubtful places (p26a_L_z*, p26a_R_z*).
+- Top of f. 26v (L01-L05): 860 x 330 px at 1.8x and 500-520 x 200-230 px at 3.0x (p26a_L_t*).
+- Clear text: 1500-1900 px wide at 0.82-1.2x (p26a_L_c*, p26a_L_j*, p26a_R_c*).
+
+==================================================================
+## COUNTS
+==================================================================
+- f. 26v: 21 cipher lines; 411 figure units (with [et], "A", ll', [tall 0] and blotted units counted as one each) + 19 symbols in 4 groups.
+- f. 27r: 8 cipher lines; 187 figure units + 17 symbols in 7 groups.

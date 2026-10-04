@@ -1,12 +1,12 @@
 # A lost letter to Charles I from besieged Oxford, 13 May 1646: the cipher read
 
-A first reading of an intercepted cipher letter to King Charles I, written in Oxford during the siege and taken by
+The first connected reading of an intercepted cipher letter to King Charles I, written in Oxford during the siege and taken by
 Fairfax's army. The letter is on S. Tomokiyo's list of unsolved historical ciphers ("An Intercepted Letter to
 Charles I (1646)").
 
 | Letter | Shelfmark | State before | State now |
 |---|---|---|---|
-| [Sir Edward Nicholas, Secretary of State,] to Charles I, Oxford, 13 May 1646 | London, British Library, Add MS 72438, f. 10 (DECODE record R8624) | Not deciphered; no key | [reading and translation](reading_f10.txt): 89 % of the tokens read |
+| [Sir Edward Nicholas, Secretary of State,] to Charles I, Oxford, 13 May 1646 | London, British Library, Add MS 72438, f. 10 (DECODE record R8624) | Partly read: about 45 code values from Nicholas's glosses in Evelyn (A. Aymeloglu, September 2026), which give about a quarter of the tokens | [reading and translation](reading_f10.txt): 89 % of the tokens read |
 
 **Status: 4 October 2026.** The work was done by a model. **We did not see the manuscript.** The cipher text is the
 transcription of A. Aymeloglu (`aaymeloglu/unsolved-ciphers`, folder `royalist-1646`), made in one pass from the
@@ -82,8 +82,10 @@ Limits, stated plainly:
 Checked on 4 October 2026: S. Tomokiyo's list and his pages on the ciphers of Charles I, A. Aymeloglu's
 `unsolved-ciphers` (transcription and a first analysis of 16 September 2026), `NoAutopilot/cipher-lab`,
 D. Bourdeau's `cyphersolver`, Evelyn iv, the House of Lords papers in the 6th Report of the Historical Manuscripts
-Commission, the Commons Journal, and a full-text search of archive.org. No reading of the letter and no link to the
-Titus cipher was found. Not checked: Bodleian MS e Mus. 203 (John Wallis's deciphered letters), BL Egerton MS 1533
+Commission, the Commons Journal, and a full-text search of archive.org. No full reading of the letter and no link to the
+Titus cipher was found. The state of the others on 4 October 2026 (18:35 UTC): A. Aymeloglu calls the letter
+"open, partial", with about 45 values fixed; `NoAutopilot/cipher-lab` reproduces that partial reading (164 to 192
+of 735 tokens) and notes that no full decipherment exists. Not checked: Bodleian MS e Mus. 203 (John Wallis's deciphered letters), BL Egerton MS 1533
 and 2550.
 
 ## By-products

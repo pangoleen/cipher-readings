@@ -47,8 +47,12 @@ Limits, stated plainly:
   settled by sense and not by a third look at the image.
 - f. 26 stops after line 27: ff. 26v to 31r are not in the Gallica scan.
 - Eight code words of Pérez's cipher have no value, and two places on f. 87r are not resolved.
-- No decipherment is on any of these leaves. The Simancas minutes, Teulet, Marañón and the Turin archives were not
-  checked, so a clear text can exist there.
+- No decipherment is on any of these leaves. A search of the printed sources
+  ([evidence/print_check.md](evidence/print_check.md)) found no clear text. The content of the page of Philip II is
+  known from the other side: the Calendar of State Papers, Rome, vol. 2, no. 770 (22 March 1578) has "the
+  paymaster, who is the bearer of the 20,000 crowns" for Stukeley, under secrecy. The King's own words and motive
+  are not in print. The Simancas minute exists (Paz, *Catálogo* IV, p. 898, K 1556: "Respuesta a Vargas sobre lo de
+  Stucley y Secretario Villerroi") and was not seen. Marañón and the Turin archives were not checked.
 
 To repeat the control:
 

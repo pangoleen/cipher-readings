@@ -1,0 +1,19 @@
+# fr. 4698 f. 179r, Nevers to Scipione, 9 July 1590. Pass 1 (coordinator, saw lists_v3). Figures inside clear text.
+clear: "... che confusion[e] poi che"
+32^-
+clear: "va indugiando per non"
+87_-   (written as open-omega 8 + 7, bar below; could be 87= if a faint bar above)
+70^.
+clear: "perche cosa certa e che"
+50^-
+clear: "non attende di"
+(27)
+64     (a point after it; no bar seen)
+clear: "che cosi la referi"
+23^-
+clear: "a"
+69     (a point after it; no bar seen)
+clear: "onde il proverbio di"
+sp: N E R O N E   (signs: circle-with-cross-on-top, upright-with-bar, y, alpha-loop, circle-with-tail, T)
+clear: "havra loco"
+# also on the page, numerals in clear: "20 anni" (20 with a bar above), "305 col ponto sopra il otto et poi 197 colli ponti di sotto", "20" (sopra il fatto di 20?), "16 o 18".

@@ -1,0 +1,43 @@
+page	line	n	kind	cipher	gloss	note
+f44v	1	1	fig	10	Amb.re	y=1507 (text line 2); no mark
+f44v	1	2	fig	69^.	dal	dot above the 9
+f44v	1	3	fig	47^-	Re di Spagna	bar above
+f44v	2	1	fig	43^.	amb.re	y=1637 (text line 3); dot above the 4
+f44v	2	2	fig	69^.	dal	dot above the 9
+f44v	2	3	fig	71	D: di guisa	no mark
+f44v	3	1	fig	83=	per	y=1750 (text line 4); bar above and bar below
+f44v	3	2	fig	48_-	interesse	bar below only; lower loop of the 8 filled
+f44v	4	1	fig	(16)^.?	si	y=1887 (text line 5); brackets, on a smudged spot; a dark dot or short dash above the 1, can be a stray mark: then (16)
+f44v	4	2	fig	31^.?	concluso	first digit 3; second digit is a filled blot: 1, 0 or a struck digit; dot above at the right edge of the blot (can belong to the 6 of the next pair)
+f44v	4	3	fig	67_:	il	two dots below
+f44v	4	4	fig	30^._.	matr.o	dot above and dot below
+f44v	4	5	fig	47=	fra	bar above and bar below
+f44v	4	6	fig	(50)	V.E.	brackets
+f44v	4	7	et	et	et	diamond with dot
+f44v	4	8	fig	(35)	lui	brackets; first digit 3, can be 8
+f44v	5	1	fig	97=	qalche	y=2037 (text line 6); bar above and bar below; a lone dot stands high to the left of the 9 (not counted)
+f44v	5	2	fig	86	dificolta	no sure mark; a very small dot at the start of the flourish of the 6; gloss word hard to read (di...lta)
+f44v	6	1	fig	67_:	Il	y=2307 (text line 8); two dots below
+f44v	6	2	fig	33^._.	medes.o	dot above and dot below
+f44v	6	3	fig	89^:	fine	two dots above
+f44v	7	1	fig	67_:	Il	y=2445 (text line 9); two dots below
+f44v	7	2	fig	33^._.	medesimo	dot above and dot below
+f44v	7	3	fig	71	guisa	no mark; after clear 'il che appunto mostra che'
+f44v	7	4	fig	97=	qlche	bar above and bar below; after clear 'havesse'
+f44v	7	5	fig	95^.	disegno	dot above
+f44v	7	6	fig	76=	non	bar above and bar below
+f44v	7	7	fig	28^.	commune	dot above the 8
+f44v	7	8	fig	29^.	con	dot above the 9, close to the digit
+f44v	7	9	fig	69	nevers	no mark
+f44v	8	1	fig	82^.?	di	y=2810 (text line 13); pale ink; the dot above is a pale tick
+f44v	8	2	fig	83^._.	natura	dot above and dot below
+f44v	8	3	fig	82^.	di	dot above the 2
+f44v	8	4	fig	60	spagnoli	no mark; gloss word added above the gloss line with an insertion sign
+f44v	8	5	et	et	et	diamond with dot
+f44v	8	6	fig	70=	massimamte	bar above and bar below; gloss blotted in the middle
+f44v	8	7	fig	51^._.	ministri	dot above the 1 and dot below
+f44v	9	1	fig	69	D: di neuers	y=3257 (text line 16); no mark; lone figure after clear 'da'
+# figures: 36
+# doubtful mark: 5 (l4 (16) dot, l4 31 blot and dot, l5 86 small dot, l7 29 dot close to digit, l8 first 82 pale dot); doubtful digit: l4 31 (blot), l4 (35) or (85)
+# doubtful alignment: 0 (word counts fit in every group)
+# odd: l4 '(16)' stands on a smudge (erasure?). l8 first two figures in paler ink; gloss has an insertion ('spagnoli') and a blot. 47^- = Re di Spagna, 47= = fra. 69^. = dal, 69 = Nevers.

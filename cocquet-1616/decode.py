@@ -54,7 +54,7 @@ for k, v in plain.items(): print(k, v)
 open('decoded_by_key.txt', 'w').write('\n'.join(f'{k}: {v}' for k, v in plain.items()) + '\n')
 
 # control: French 4-gram score of the true key against keys with shuffled letter values
-q = np.load('../corpus/fr_4.npy')
+q = np.load('corpus/fr_4.npy')
 q = q.reshape(26, 26, 26, 26) if q.ndim == 1 else q
 def score(out):
     s = ''.join(out.values()).lower(); s = re.sub('[^a-z]', '', s)

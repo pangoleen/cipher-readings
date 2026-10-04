@@ -1,0 +1,25 @@
+# Thurloe, State Papers, vol. 1 (Birch, London 1742), p. 435
+# Beverning and Vande Perre to the Dutch ambassador Boreel at Paris, Westminster 22 Aug / 1 Sept 1653
+# Source of Birch: "Vol. v. p. 240" (Thurloe papers, now Bodleian MS Rawlinson A), an English translation with the cipher left in numbers.
+# Groups read from the BHO text (british-history.ac.uk/thurloe-papers/vol1/pp435-445) AND checked group by group
+# on the page image of the 1742 print (archive.org collectionofstat01thur, leaf n464, 2400 px). No difference found.
+# Line breaks = line breaks of the print. 136 groups: run 1 = 70, run 2 = 50, run 3 = 16.
+# Print details: line 4 of run 1 has "16 27." with no stop after 16; run 3 has "16. 6. 20." set close.
+
+[clear] ... but we thought fit and that it did concerne us,
+RUN1
+113. 10. 26. 13. 13. 19. 29. 29. 26. 11. 222. 31. 17. 21. 22. 23. 23. 22. 13. 30. 20. 18.
+22. 23. 15. 13. 24. 22. 13. 24. 22. 17. 10. 15. 25. 23. 13. 329. 28. 15. 22. 20. 25. 20.
+15. 25. 27. 28. 20. 27. 27. 20. 22. 17. 20. 15. 527. 16. 20. 21. 12. 19. 21. 29. 26. 20.
+16. 27. 16. 19.
+[clear] and do find that at Solebay [now follows the whole relation verbatim.] It will be a great point of honour and service, if so be
+RUN2
+117. 211. 22. 25. 24. 22. 26.
+15. 15. 17. 27. 30. 22. 21. 24. 14. 22. 23. 26. 6. 22. 17. 22. 13. 519. 21. 21.
+27. 31. 32. 24. 16. 27. 31. 29. 24. 16. 19. 11. 29. 33. 16. 27. 31. 27. 21. 20. 13.
+16. 19.
+[clear] as was ordered by their resolution. God send them a safe voyage, and that they may return with their lives into their native country.
+RUN3
+327. 20. 23. 29. 16. 6. 20. 24. 17.
+15. 29. 17. 32. 20. 23. 15.
+[clear] The five East India and seventy two more merchantmen richly laden from Spain, and France, and other parts, are retreated unto the Sound.

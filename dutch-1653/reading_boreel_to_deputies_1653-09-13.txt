@@ -1,0 +1,30 @@
+READING - Boreel (Paris) to the Dutch deputies in London, 13 Sept 1653 N.S.
+Source: Thurloe, State Papers i.454 (Birch's source: "Vol. vi. p. 58"). English translation, cipher left in numbers.
+Groups checked on the page image of the 1742 print (archive.org collectionofstat01thur, leaf n483). BHO page pp445-455
+did not load on 4 Oct 2026 (redirect to the front page), so the web text was NOT used for this letter.
+
+Print:   "Here is a great deal of talk of a conference or discourse, which the lord Beverning should have lately all
+          alone with 168. 116. 11. 16. 32. 10. 24. 21. 15. 52. 19. 28 ; that Cromwell should have spoken and used many
+          unhandsome expressions, to the prejudice and dishonour of our state."
+         Above "168. 116." the print has a gloss in small type: "general Cromwell ;"
+
+Table:   same ring cipher as the letter of 1 Sept 1653 (key.tsv). 116 = indicator 1 + number 16.
+         168  -> a group of the general code. Thurloe's gloss gives "general Cromwell". The table does not read it.
+         116  -> alphabet 1, 16 = i
+         11 n | 16 i | 32 a | 10 m | 24 e | 21 s | 15 p | 52 ? | 19 r | 28 c
+
+Reading: [Cromwell] IN IAMES P?RC   = "in James parc" (in St James's Park)
+         52 is not in the ring (10..33). With 32 (a) the word is "parc". This is 1 repair in 12 groups.
+
+Status
+- Made with the rebuilt table. No crib was used. 10 of 11 letter groups read without repair.
+- Six values of alphabet 1 are used here that the letter of 1 Sept does not show (i 16, a 32, e 24, s 21, p 15, c 28).
+  The ring predicted them. They give a place name that fits the facts. This is a test of the ring outside the crib.
+- Printed clear text of THIS letter: none found. The Verbael (1725) p. 106 only records that the letter came
+  ("... Boreel in dato den 13. September 1653"). It prints the deputies' letters, not Boreel's.
+- But the content is in a period source in clear. The deputies' reply of 29 Sept 1653 (Verbael p. 111, No. 14, read on
+  the page image) says: "dat sy seer qualyck geinformeert syn, van de gementioneerde Conferentie in St. James Parck".
+  A letter of intelligence in Thurloe i.438 also says that Beverning met Cromwell "in St. James's park".
+  So: the reading of the cipher is ours; the fact that it gives is not new.
+- The same page of the Verbael says why the cipher has so few letters: "immers dat van U Excellencie konnen sy hebben
+  by copye" (the English can have Boreel's cipher by copy), and the deputies wait for "een ander cyffer".

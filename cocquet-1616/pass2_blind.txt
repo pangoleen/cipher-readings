@@ -1,0 +1,40 @@
+L01: 8 6 n_ | J w z | J g | 2 mu s ot del n_ | mu xi | del w sl q gam | ff f . s 5 pi | 8 6 th del | 2 del q L th ot T
+L02: del eta mu nb/ub ob | H xi | th 6 C ep del/8 s J | T t th w mu | 6 L 2 L s gam | dd del w x ot | g gam | c delx nb | . 8 9 | z 8/ep mu 6
+L03: ss q ot | 8 6 L x n_ | ep g | $ mu w T sl q ot | Zb del th PI t/T | ep | [clear]
+L05: [clear] del J mu s | $ g J ep mu | oo oo | [clear]
+L07: [clear] Z del ep | o w del s ot
+L08: y_ n_ th delx w L eta | 2 del x f/sl PI n_ ep | y_ del $ mu | ep ot g | [clear]
+L09: [clear] y_ n_ | J q th $ mu nb L/C del c_ $ del q ob | [clear]
+L10: [clear] sl/f s/S g del xi ot q ep c_ w z ot mu ep q gam L
+L11: J w | ep mu 6 L s 3 t | $ del 6 ob/th | ?[dot + long slash] oo oo T ?[dot + long slash, end flourish]
+
+Sign counts (without `.`, `|`, `[clear]`, and the two `?[...]` marks of L11):
+L01 37, L02 41, L03 23, L05 11, L07 8, L08 21, L09 15, L10 17, L11 16.
+
+Places where I was not sure
+- L01, sign 24 (`s` after `f`, before `5`): small and smudged, with a heavy dot before it on the line. I read `. s`.
+- L01, signs 7-8 (`J g`): a tall hook, then a `g` set lower. I count two signs.
+- L02, sign 4 (`nb/ub`): a closed a/pi-like top on a heavy baseline bar that runs on to the right. No clear top bar.
+- L02, sign 12 (`del/8`): round lower loop, thick top that curls up. It is not a clean figure 8.
+- L02, sign 18 (`w`): the omega has one dot above its right half.
+- L02, sign 33 (`c`): small c with a small hook or tick inside. It could be a small form of `C`.
+- L02, sign 39 (`8/ep`): both loops look closed, so I prefer `8`. The sign 11 `ep` after `C` is clearly open.
+- L03, sign 7 (`x`): has a dot above and a baseline stroke.
+- L03, sign 22 (`t/T`): cross with two bars, about as high as the `PI` beside it. The sign 14 `T` is clearly taller and raised.
+- L03, sign 21 (`PI`): two stems with a thick top bar and a second bar at mid height or lower. No clean bottom bar.
+- L03 sign 23, L07 sign 3, L11 sign 3 (`ep`): the top is a thick hook that rises to the right. It is not a separate flat bar, so I did not write `xi`. Compare the clear `xi` in L01 (sign 16), L02 (sign 7), L10 (sign 5).
+- L05, sign 11 (second `oo`): the body is open, like a v or c, with two dots above.
+- L08, sign 8 (`2`): a faint dot above its left side.
+- L08, sign 11 (`f/sl`): f-like stem with a hook top and a blob foot. It has no crossbar of its own. It touches the bars of the next `PI`.
+- L08, sign 13 (`n_`): one dot above.
+- L08, after `g`: three separate marks follow, like `S o gam`. Then joined cursive follows without a break. I read all of it as French. If the three marks are cipher, add `| S o gam` to L08.
+- L09, signs 8-9 (`nb L/C`): the baseline stroke of `nb` runs on into the foot of a tall C-like or l-like hook. The hook has no foot to the right of its own.
+- L09, sign 11 and L10, sign 9 (`c_`): the c has a curved stroke under it and a straight underline below that.
+- L10, sign 1 (`sl/f`): f-like stem, hook top, blob foot, no crossbar. A dot stands before it at mid height. The dot may belong to the French word before.
+- L10, sign 2 (`s/S`): larger than the other `s` signs, with a curved top. Smaller than the `5` of L01, and no flat top bar.
+- L10, sign 11 (`z`): small z with a short middle bar.
+- L11, sign 13 (`ob/th`): the bar starts a little left of the oval and runs far to the right, up to the slash.
+- L11, sign 15 (second `oo`): c-like body with two dots above and an ink blot below.
+- L11, sign 16 (`T`): tall cross with three bars, not two.
+- L11: a dot plus a long thin slash stands before the first `oo` and again after `T`. I read both as punctuation or flourish.
+- The `|` marks are a rough guide. The spacing is quite even in L09 and L10, so I marked no gaps there.

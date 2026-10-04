@@ -1,0 +1,262 @@
+# Key of BnF Francais 18009, f. 156: "Double du chiffre baille a monsieur le marquis de Treinel" (Gallica btv1b90638776, canvas 181).
+# Read by one reader from the image img/fr18009/c181.jpg (one pass; (?) = doubtful). Sign names are ours. 22 letter columns: no J, K, U, W.
+class	sign	value	note
+alphabet	f	a	column A, row 1: f with a crossbar and a curled foot
+alphabet	del	a	column A, row 2: delta (round d, top curls left)
+alphabet	delx	a	column A, row 3: small o with a cross standing on it
+alphabet	A4	a	column A, row 4: f- or t-like stem with a low crossbar and a hooked foot (?)
+alphabet	g9	b	column B, row 1: g like a 9, short closed tail
+alphabet	c	b	column B, row 2: small c with a tick inside
+alphabet	F	b	column B, row 3: capital F
+alphabet	3	c	column C, row 1: h- or 3-like sign with a tail below the line
+alphabet	delbar	c	column C, row 2: delta with a stroke across its top
+alphabet	z	c	column C, row 3: small z or E with a short middle bar
+alphabet	J	d	column D, row 1: tall hook like J; a dot follows it on the sheet
+alphabet	5	d	column D, row 2: 5- or h-like sign with a flat bar on top
+alphabet	vbar	d	column D, row 3: small v or b with a bar across its top
+alphabet	L	e	column E, row 1: L with a loop (like a pound sign)
+alphabet	t	e	column E, row 2: small cross with two bars
+alphabet	g	e	column E, row 3: g with a long open tail
+alphabet	pi	e	column E, row 4: plain pi
+alphabet	en	f	column F, row 1: e joined to n
+alphabet	k	f	column F, row 2: k
+alphabet	gbar	f	column F, row 3: g with a bar on top
+alphabet	C	g	column G, row 1: round c or e with a hook inside
+alphabet	4bar	g	column G, row 2: 4 with a bar through it
+alphabet	ffbar	g	column G, row 3: heavy double f with a bar (?)
+alphabet	pbar	h	column H, row 1: p with a bar through the stem
+alphabet	s1	h	column H, row 2: long s with a small hook at the top right
+alphabet	dd	h	column H, row 3: d with a tall slanted ascender
+alphabet	q	i	column I, row 1: q with a straight descender
+alphabet	Zbt	i	column I, row 2: 7 or Z with a bar and a hooked foot
+alphabet	ub	i	column I, row 3: two short legs on a base bar
+alphabet	phi	i	column I, row 4: phi
+alphabet	x	l	column L, row 1: small r or x with a dot
+alphabet	ss2	l	column L, row 2: two short curved strokes, like (( (?)
+alphabet	PI	l	column L, row 3: two stems with a bar on top and a bar below
+alphabet	2	m	column M, row 1: 2 with a tail below the line
+alphabet	ff	m	column M, row 2: double f with one crossbar
+alphabet	rw	m	column M, row 3: r with a wavy stroke to the right
+alphabet	s	n	column N, row 1: s (like a small 5)
+alphabet	fsm	n	column N, row 2: short f or t with a crossbar
+alphabet	xi	n	column N, row 3: 6 or xi with a bar across the top
+alphabet	sl	o	column O, row 1: long s, no crossbar
+alphabet	ss	o	column O, row 2: two joined long s (like 88)
+alphabet	mu	o	column O, row 3: mu (stem with descender joined to u)
+alphabet	phi1	o	column O, row 4: phi with a tick at the top right
+alphabet	Zb	p	column P, row 1: z with a bar through its stem
+alphabet	$	p	column P, row 2: long s with small strokes through it
+alphabet	Abar	p	column P, row 3: A- or f-like sign with a bar (?)
+alphabet	o	q	column Q, row 1: plain o
+alphabet	eta4	q	column Q, row 2: eta or n standing on a 4 (?)
+alphabet	vcross	q	column Q, row 3: v with a bar through it
+alphabet	ep	r	column R, row 1: epsilon or open 8 with a hooked top
+alphabet	m_	r	column R, row 2: m on a base bar
+alphabet	heta	r	column R, row 3: h with the right leg below the line
+alphabet	nu	s	column S, row 1: v with a tall left stroke (nu)
+alphabet	nb	s	column S, row 2: n or u on a base bar that runs to the right
+alphabet	th	s	column S, row 3: small oval with a bar through it
+alphabet	gam	t	column T, row 1: gamma or y
+alphabet	ot	t	column T, row 2: o joined to t
+alphabet	ob	t	column T, row 3: small oval with a bar (very like S row 3)
+alphabet	eta	u/v	column V, row 1: eta
+alphabet	w	u/v	column V, row 2: omega, often with a bar on top
+alphabet	H	u/v	column V, row 3: small H
+alphabet	mcross	u/v	column V, row 4: m with a bar through it
+alphabet	a	x	column X, row 1: a
+alphabet	ncross	x	column X, row 2: n with a bar through it (star-like)
+alphabet	7bar	x	column X, row 3: 7 with a bar
+alphabet	6	y	column Y, row 1: 6
+alphabet	enbar	y	column Y, row 2: round e-n with a bar through it
+alphabet	8bar	y	column Y, row 3: 8 with a bar
+alphabet	c0	z	column Z, row 1: plain c (?)
+alphabet	6bar	z	column Z, row 2: 6 with a bar
+alphabet	4bars	z	column Z, row 3: 4 with two bars below
+rule	oo (and the other vowels with two dots)	null	"Nulles ä ë ï ö ü"
+rule	4bars ... 6bar	null bracket	"Ce qui est entre ces deux caracteres [4 with bars] [6 with bar] est nul"; the two signs also stand in column Z
+rule	T	doubles the sign before it	tall cross with three bars: "Ces deux caracteres ... doublent chacun leur precedent"
+rule	DBL	doubles the sign before it	two stems with two bars (second doubling sign)
+rule	Zbt-like and looped f	cancels the sign before it	"Chacun de ces deux [7 with bar] [f with a loop] l'annullera"
+number	1	Le pape ou Sa Sainteté	plain number
+number	2	Le roy, Sa ou Vostre Majesté	plain number
+number	3	La royne regente	plain number
+number	4	La royne	plain number
+number	5	L'empereur	plain number
+number	6	Le roy d'Espagne	plain number
+number	7	Le prince d'Espagne	plain number
+number	8	L'infante	plain number
+number	9	M. frere du roy	plain number
+number	10	Madame soeur du roy	plain number
+number	11	Madame Chrestienne	plain number
+number	12	Le roy de la Grande Bretagne	plain number
+number	13	Le duc d'York	plain number
+number	14	M. le prince de Condé	plain number
+number	15	M. de Savoye	plain number
+number	16	M. de Mantoue	plain number
+number	17	Dom Vincenzo	plain number
+number	18	Le prince de Piemont	plain number
+number	19	Le cardinal Borghese	plain number
+number	20	Le grand duc	plain number
+number	21	Le cardinal de Joyeuse	plain number
+number	22	M. de Guise	plain number
+number	23	M. de R...(?) (not read)	plain number
+number	24	M. de Nevers	plain number
+number	25	M. de Bouillon	plain number
+number	26	M. du Mayne	plain number
+number	27	M. de Longueville	plain number
+number	28	M. de Rohan	plain number
+number	29	M. de Vendosme	plain number
+number	30	M. de Retz	plain number
+number	31	Ceulx de la religion pretendue reformee	plain number
+number	32	Le grand Seigneur	plain number
+number	33	Le grand maistre de Malthe	plain number
+number	34	M. d'Espernon	plain number
+number	35	M. le chevalier de Vendosme	plain number
+number	36	M. de Breves	plain number
+number	37	M. le mareschal d'Ancre	plain number
+number	38	M. Desdiguieres	plain number
+number	39	M. l'abbé d'Aumalle	plain number
+number	40	Mangeant (?)	plain number
+number	41	Le duc de Bracciano	plain number
+number	42	Le duc Sforze	plain number
+number	43	La duchesse Sforze	plain number
+number	44	Le duc de Santa Gemini	plain number
+number	45	L'ambassadeur d'Espagne a Rome	plain number
+number	46	Le secretaire Gueffier (?)	plain number
+number	47	Les Venitiens	plain number
+number	48	Les Genevois (Genoese)	plain number
+number	49	Milan	plain number
+number	50	Florence	plain number
+number	51	Rome	plain number
+number	52	Mantoue	plain number; 53-59 are not on the sheet
+number	60	leur	plain number
+number	61	l'ordre	plain number
+number	62	mais	plain number
+number	63	madame	plain number
+number	64	monsieur	plain number
+number	65	Majesté	plain number
+number	66	mariage	plain number
+number	67	mon	plain number
+number	68	ma	plain number
+number	69	necessité	plain number
+number	70	negociation	plain number
+number	71	nous	plain number
+number	72	nos	plain number
+number	73	nouvelle (?)	plain number
+number	74	occasion	plain number
+number	75	ont	plain number
+number	76	oppinion	plain number
+number	77	ou	plain number
+number	78	outre	plain number
+number	79	paix	plain number
+number	80	passage	plain number
+number	81	possession	plain number
+number	82	paction (?)	plain number
+number	83	pour	plain number
+number	84	party	plain number
+number	85	principallement	plain number
+number	86	que	plain number
+number	87	quand	plain number
+number	88	quoy	plain number
+number	89	quil	plain number
+number	90	question	plain number
+number	91	quallité	plain number
+number	92	raison	plain number
+number	93	rompre	plain number
+number	94	rompue	plain number
+number	95	rondement	plain number
+number	96	Sainteté	plain number
+number	97	seureté	plain number
+number	98	son	plain number
+number	99	soy	plain number
+number with comma	12,	sage	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	13,	trefve	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	14,	traité	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	15,	tranquilité	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	16,	tout	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	17,	tellement	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	18,	toutteffois	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	19,	vous	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	20,	vostre	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	21,	vengeance	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	22,	viceroy	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	23,	voisins	number followed by a comma (differs from the plain numbers 12-24)
+number with comma	24,	voyage	number followed by a comma (differs from the plain numbers 12-24)
+letter with comma	a,	Piemont	letter followed by a comma
+letter with comma	b,	Savoye	letter followed by a comma
+letter with comma	c,	Genes	letter followed by a comma
+letter with comma	d,	Italie	letter followed by a comma
+letter with comma	e,	Espagne	letter followed by a comma
+letter with comma	f,	Flandres	letter followed by a comma
+letter with comma	g,	Holande	letter followed by a comma
+letter with comma	h,	Les estatz des Pays Bas	letter followed by a comma
+letter with comma	i,	Suisse	letter followed by a comma
+letter with comma	k,	L'Allemagne	letter followed by a comma
+letter with comma	l,	Angleterre	letter followed by a comma
+letter with comma	m,	France	letter followed by a comma
+letter with comma	n,	Le Levant	letter followed by a comma
+letter with comma	o,	La Secille	letter followed by a comma
+letter with comma	p,	Malthe	letter followed by a comma
+letter with comma	q,	abbé	letter followed by a comma
+letter with comma	r,	evesque	letter followed by a comma
+letter with comma	long s,	archevesque	letter followed by a comma
+letter with comma	t,	cardinal	letter followed by a comma
+letter with comma	v (looped),	patriarche	letter followed by a comma
+letter with comma	x,	(not read; "... de Gennes"?)	letter followed by a comma
+letter with comma	y,	Venize	letter followed by a comma
+letter with comma	pi,	Constantinople	letter followed by a comma
+letter with comma	c with hook,	Les Grisons	letter followed by a comma
+letter with bar above	a	amitye	letter with a bar above it
+letter with bar above	b	alliance	letter with a bar above it
+letter with bar above	c	avenir (?)	letter with a bar above it
+letter with bar above	d	accommodement	letter with a bar above it
+letter with bar above	e	argent	letter with a bar above it
+letter with bar above	f	action	letter with a bar above it
+letter with bar above	g	ambassadeur	letter with a bar above it
+letter with bar above	h	audience	letter with a bar above it
+letter with bar above	i	asseurance	letter with a bar above it
+letter with bar above	k	bataille	letter with a bar above it
+letter with bar above	l	bon	letter with a bar above it
+letter with bar above	m	bien	letter with a bar above it
+letter with bar above	n	beaucoup	letter with a bar above it
+letter with bar above	o	besoing	letter with a bar above it
+letter with bar above	p	bonté	letter with a bar above it
+letter with bar above	q	catholique (?)	letter with a bar above it
+letter with bar above	r	chef	letter with a bar above it
+letter with bar above	long s	confiance	letter with a bar above it
+letter with bar above	t	comme	letter with a bar above it
+letter with bar above	v (looped)	charge	letter with a bar above it
+letter with bar above	x	commandement	letter with a bar above it
+letter with bar above	y	conclusion	letter with a bar above it
+letter with bar above	3	couronne	letter with a bar above it
+letter with bar above	z-like	deffiance	letter with a bar above it
+letter with bar above	C-like	dessein	letter with a bar above it
+letter with bar above	pi	demander	letter with a bar above it
+letter with bar above	c with hook	deffunct (?)	letter with a bar above it
+underlined letter	a	desobeissance	letter with a bar below it
+underlined letter	b	Dieu	letter with a bar below it
+underlined letter	c	estatz	letter with a bar below it
+underlined letter	d	entreprise	letter with a bar below it
+underlined letter	e	est	letter with a bar below it
+underlined letter	f	estre	letter with a bar below it
+underlined letter	g	faction	letter with a bar below it
+underlined letter	h	forces	letter with a bar below it
+underlined letter	i	feinte (?)	letter with a bar below it
+underlined letter	k	faute	letter with a bar below it
+underlined letter	l	guerre	letter with a bar below it
+underlined letter	m	grand	letter with a bar below it
+underlined letter	n	gouverneur	letter with a bar below it
+underlined letter	o	gardes	letter with a bar below it
+underlined letter	p	gouvernement	letter with a bar below it
+underlined letter	q	honneste (?)	letter with a bar below it
+underlined letter	r	homme	letter with a bar below it
+underlined letter	long s	humeur	letter with a bar below it
+underlined letter	s	honte	letter with a bar below it
+underlined letter	t	intention	letter with a bar below it
+underlined letter	v (looped)	intelligence	letter with a bar below it
+underlined letter	v	je	letter with a bar below it
+underlined letter	x	jamais	letter with a bar below it
+underlined letter	y	il	letter with a bar below it
+underlined letter	3	jours	letter with a bar below it
+underlined letter	pi (n_)	le	letter with a bar below it
+underlined letter	c with hook (c_)	la	letter with a bar below it

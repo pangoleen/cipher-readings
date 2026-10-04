@@ -1,0 +1,28 @@
+Cocquet (Coquet) to Mangot, Rome, 13 November 1616. BnF Clairambault 369, f. 317r (Gallica btv1b9000782k, canvas 329).
+Cipher lines of the lower half of the page. L04 and L06 are clear French only.
+Sign names: see the list in NOTES.md. "|" = gap seen on the page. "." = dot on the line. [clear] = French in clear.
+Two passes for every cipher line (pass1.txt = main agent; pass2_blind.txt = separate agent, images and sign names only).
+Agreement on 189 signs: 179 strict (94.7 %), 184 if an "A/B" answer of pass 2 counts (97.4 %).
+
+CONSENSUS (the 10 differences are settled below)
+L01: 8 6 n_ | J w z | J g | 2 mu s ot del n_ | mu | xi | del w sl q gam | ff | f | . s 5 pi | 8 6 th del | 2 del q L th ot t
+L02: del eta mu ub ob | H xi | th 6 C ep del s J T t th w mu 6 L 2 L s gam | dd del w x ot | g gam | c delx nb | . 8 9 | z ep mu 6
+L03: ss q ot | 8 6 L x n_ | xi g | $ mu w T sl q ot | Zb del th DBL t ep | [clear]
+L05: [clear] del J mu s | $ g J ep mu | oo oo [clear]
+L07: [clear] Z del ep | o w del s ot
+L08: y_ n_ th delx w L eta | 2 del x | f PI n_ ep | y_ del $ mu | ep ot g [clear]
+L09: [clear] y_ n_ | J q th $ mu nb L del c_ $ del q th [clear]
+L10: [clear] . f S g del xi ot q ep c_ w z ot mu ep q gam L
+L11: J w | ep mu 6 | L s | 3 t | $ del 6 th | . oo oo T(three bars) ./
+
+THE 10 DIFFERENCES
+L01 last sign       pass1 t   pass2 T      -> t (value e, "maieste"); it is no taller than the "ot" before it. Doubtful by shape.
+L02 sign 4          pass1 ub  pass2 nb/ub  -> ub (key: I, row 3; "auoit").
+L02 "z ? mu 6"      pass1 ep  pass2 8/ep   -> ep ("croy"); an 8 gives no value in the key alphabet.
+L03 "? g"           pass1 xi  pass2 ep     -> xi ("ne"); by shape it is doubtful, "re" gives no sense.
+L03 "th ? t"        pass1 pi  pass2 PI     -> neither: it is the second doubling character of the key (two stems, two bars), named DBL.
+L05 first sign      pass1 o   pass2 del    -> del (a small delta with a short stem; "a don").
+L09 last sign       pass1 th  pass2 ob     -> th/ob cannot be told apart by shape (see NOTES); value s ("pais").
+L10 sign 1          pass1 f   pass2 sl/f   -> f ("aneantir"); the foot stands on the line, as in f.
+L10 sign 2          pass1 S   pass2 s/S    -> same sign as s (value n), written larger.
+L11 "6 ?"           pass1 th  pass2 ob/th  -> as L09 (value s, "pays").

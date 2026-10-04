@@ -1,0 +1,10 @@
+# Pass 1 (main agent), from img/z tiles, sign names as in the blind-pass list. Written before pass 2 came back.
+L01: 8 6 n_ | J w z | J g | 2 mu s ot del n_ | mu | xi | del w sl q gam | ff | f | . s 5 pi | 8 6 th del | 2 del q L th ot t
+L02: del eta mu ub ob | H xi | th 6 C ep del s J T t th w mu 6 L 2 L s gam | dd del w x ot | g gam | c delx nb | . 8 9 | z ep mu 6
+L03: ss q ot | 8 6 L x n_ | xi g | $ mu w T sl q ot | Zb del th pi t ep | [clear]
+L05: [clear] o J mu s | $ g J ep mu | oo oo [clear]
+L07: [clear] Z del ep | o w del s ot
+L08: y_ n_ th delx w L eta | 2 del x | f PI n_ ep | y_ del $ mu | ep ot g [clear]
+L09: [clear] y_ n_ | J q th $ mu nb L del c_ $ del q th [clear]
+L10: [clear] . f S g del xi ot q ep c_ w z ot mu ep q gam L
+L11: J w | ep mu 6 | L s | 3 t | $ del 6 th | . oo oo T

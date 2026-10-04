@@ -91,4 +91,4 @@ were not seen.
 
 ## Licence
 
-Code: MIT. Text: CC BY 4.0.
+Code: MIT. Text: CC BY 4.0. Details are in [LICENSE.md](../LICENSE.md).

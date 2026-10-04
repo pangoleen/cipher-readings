@@ -74,7 +74,7 @@ figures 11 to 40 are letters; on f. 17r it gives a value for 11 of 28 figures an
 2. The values of each mark, sorted by figure, turned out to be in alphabetical order. This gives a window for every
    figure with no gloss.
 3. A partial reading of the letter of 21 January 1590 was made, and a second agent read the marks blind. That
-   state is kept in [evidence/before_fr4702/](evidence/before_fr4702/) and in the first commit of this repository.
+   state is kept in [evidence/before_fr4702/](evidence/before_fr4702/) and in the commit `79a4d26` of 3 October 2026.
 4. A search of the printed catalogue of the sister volumes then found three decipherments with no author named, in
    fr. 4702. They gave the full text of three letters, 1,528 aligned code units, and the larger table.
 5. With that table, the two letters that have no decipherment were transcribed by two agents each, blind, and
@@ -155,4 +155,4 @@ of the link between fr. 4698 and fr. 4702 was found. A printed edition that is n
 ## Licence
 
 Code and tables: MIT. Text: CC BY 4.0. Images: reduced images from Gallica, under the BnF's conditions of reuse,
-with the credit "gallica.bnf.fr / BnF". Details are in [LICENSE.md](LICENSE.md).
+with the credit "gallica.bnf.fr / BnF". Details are in [LICENSE.md](../LICENSE.md).

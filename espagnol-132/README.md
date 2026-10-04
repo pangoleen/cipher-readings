@@ -83,4 +83,4 @@ record, and five web searches. None has a reading of these five pieces.
 
 ## Licence
 
-Code: MIT. Text: CC BY 4.0.
+Code: MIT. Text: CC BY 4.0. Details are in [LICENSE.md](../LICENSE.md).

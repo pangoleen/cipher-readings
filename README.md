@@ -11,12 +11,12 @@ reproduced from a period source, and what stays open. Corrections are welcome: p
 
 | Folder | Document | What is new | State |
 |---|---|---|---|
-| [oxford-1646](oxford-1646/) | An intercepted letter to King Charles I from besieged Oxford, 13 May 1646 (British Library, Add MS 72438, f. 10) | First reading. The key is rebuilt from the printed Titus cipher of 1648, with a shift. | 89 % of the tokens read; the transcription is A. Aymeloglu's, and we did not see the manuscript |
+| [oxford-1646](oxford-1646/) | An intercepted letter to King Charles I from besieged Oxford, 13 May 1646 (British Library, Add MS 72438, f. 10) | The first connected reading (an earlier partial reading by A. Aymeloglu had about 45 code values). The key is rebuilt from the printed Titus cipher of 1648, with a shift. | 89 % of the tokens read; the transcription is A. Aymeloglu's, and we did not see the manuscript |
 | [cocquet-1616](cocquet-1616/) | Coquet to Mangot, Rome, 13 November 1616 (BnF, Clairambault 369, ff. 316-317) | First reading. Solved from context, then confirmed by the period key sheet (BnF fr. 18009, f. 156). | All cipher passages read |
 | [espagnol-318](espagnol-318/) | The viceroy of Sicily to King Ferdinand, Messina, 27 April 1503 (BnF, Espagnol 318, no. 94) | First reading. The key is rebuilt from the letter itself. | Read in large part; 64 code words have no value |
 | [dutch-1653](dutch-1653/) | The Dutch deputies in England to Boreel, 1 September 1653 (Thurloe, *State Papers*, i.435) | The key, and the link to the printed Dutch minute. The text itself is reproduced. | 127 of 131 groups fit |
 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy (BnF, Espagnol 132) | First readings with keys that others published. | Five pieces read |
-| [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590 (BnF, fr. 4698, fr. 4702 and fr. 4696) | The cipher rebuilt with no key sheet; three period decipherments linked to their cipher letters; the rebuilt code tested on a second volume (97.6 % of 463 words right); letters and passages with no decipherment read. | A code of 448 values; the new readings have gaps |
+| [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590 (BnF, fr. 4698, fr. 4702 and fr. 4696) | The cipher rebuilt with no key sheet; three period decipherments linked to their cipher letters; the rebuilt code tested on a second volume (97.6 % of 463 words right); letters and passages with no decipherment read, and checked against Pastor's history. | A code of 448 values; the new readings have gaps |
 
 Four of these documents are on S. Tomokiyo's list of
 [unsolved historical ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm): the letter to Charles I, Cocquet's

@@ -1,0 +1,88 @@
+BL Add MS 72438 f.10 (DECODE R8624). Intercepted letter to Charles I, Oxford, 13 May 1646.
+Writer (our reading): Sir Edward Nicholas, Secretary of State, in the besieged town of Oxford.
+Cipher text: transcription of A. Aymeloglu (one pass, not ours; we saw no image). Key: key1646.tsv.
+Token-by-token decipher: reading_f10_tokens.txt. This file is the same text set in words.
+
+Marks: {..} clear words of the manuscript as transcribed; (?) doubtful; <n> code not read; [...] illegible in the
+transcription; [word] supplied by us. Passes: decipher 1 pass (ours); transcription 1 pass (Aymeloglu).
+
+--- READING (spelling of the cipher kept) ---
+
+ 1  {May it please your Matie} Since mine of {ye} fift of May I have herewith sent quadruplicate(?). q I ing(?)
+    {finishd} his bridge at Marston [...] <292> f e [...]
+ 2  on , hil , he is <335: run?>ing {of severall} lynes from that d(?)il : the <236: one?> to{war}de Dover Peee(?) <120>
+    the {other} f(?)ward {St} Barthol. Hospital . and on
+ 3  to render Oxford to him for the use {of ye} Parliament , and {express}ing that he may have honorable terms {for}
+    himselve and all with{in ye} garrison if he [...] {reasonably} accept . t r(?)
+ 4  directions was {That ye} y e (they) desired {a} safe conduct for Sir Io. Munson and {Mr} <629: Warwick> to come to
+    <384> with Fairfax , which {ye} next day he <240> . and they were(?) {as} from the Governor(?) {instr}
+ 5  uct to send a messenger(?) {to} your Majesty , {for} which they having press(?)d Fairfax , but he {absolute}ly
+    refuse(?)s to give it . The reason(?) why(?) these {Gent} were(?) sent to treat with Fairfax was , that we might
+    {there}by not [...]
+ 6  {what} condition , for since your {depart}ure , we have not received {a} word from your Majesty nor of you but
+    {what} have com[e] out of there quarters , {not} from London , being here very {close} be[g]irt . We hear
+ 7  and {by ye} print(?) of Lo{thy}an's letter to the Committee of {both} Kingdom(?)s , all {is conc:} your Majesty is in
+    a very sad condition . but {I believe} h <292> s w ab e {other}s , that the letter was writen [...]
+ 8  , <219>ach with the Scots {till} they should gather {a} considerable body together in {ye} <376> , which might
+    give there friends at London {confidence} to abide firme to them . v(?) it is {ah?}
+ 9  {comfort & encourage} your faithful(?) subiects here to hold(?) out , for those who(?) your Majesty <142: did?>
+    think most(?) {averse} are now {extream}ly earnest for {a} <618: treaty?> , being in hope(?) {there}by f(?)
+10  inter(?)est . We here pay(?) {&} victual(?) near(?) four thousand foot , which being one thousand less(?) then
+    {double} the <639: number?> we provided for , our <447> will fall(?) short . {besides} here are very many(?) i(?)
+    of {yor Mats} povr(?) [...]
+11  {It is believed that} we shall not have treat[ie]s for more then two days from this [...] [...] [...] the Scots
+    should {face} Southward with {a} considerable body , it might {perhaps} free(?) us of our ill {Neighbors} ,
+    <401: who?> we hear have sent(?) some(?)
+12  {themselves} so <167> u(?) we {believe} they intend not to stir , <691> [...] [...] [...] [...] six thousand foot
+    from London . but the {difference}s there betwene the Presbyterian(?) and Independent(?)s {I believe} keep(?)
+    those men {hitherto} from the s
+13  {me from}(?) his(?) the West(?) I hear <264> Prince [Charles](?) is for {certaine} in Ierse[y](?) [...] where he
+    {resolved to expect} your Majesty's directions . <691> c , Prince Rupert(?) picquering {with some of} Fairfax
+    horse received
+14  his right(?) arm(?) . but {thanks be to God ? ? noe} [...] in it , being a [fle]ssh(?) wound , {onely it makes}
+    him feuerish(?) . We {heare daily} from Fairfax quarters such sad new(?)s as
+15  [..] may(?) they first(?) plan[...] [...] Sunday {peece?} of the on <231> i i [...] m of Heddington hil , and have
+    {made divers} shot , into Oxford but {done noe great hurt} . {God preserve}
+16  from(?) you <691> {wch is ye earnest prayers of} {yor Sacred Maties most obedient servant}
+    <555: N[icholas]>(?)     {13 May 1646}
+
+--- ENGLISH (modern spelling; the sense where the reading holds) ---
+
+May it please your Majesty. Since my letter of the fifth of May I have sent four copies (?) with this one.
+[Fairfax?] has finished his bridge at Marston [...] on [Headington] hill. He is making several lines from that
+hill: one towards Dover Pier (?), the other towards St Bartholomew's Hospital. And he [sent] to have Oxford
+rendered to him for the use of the Parliament, and said that the Governor may have honourable terms for himself
+and all within the garrison if he accepts in good time. The direction was that they asked a safe conduct for
+Sir John Monson and Mr [Warwick] to come to [confer] with Fairfax, which he [gave] the next day. They were told,
+as from the Governor (?), to ask leave to send a messenger to your Majesty. They pressed Fairfax for this, but he
+absolutely refuses it. The reason why these gentlemen were sent to treat with Fairfax was that we might learn
+[...] what condition [...]; for since your departure we have received not a word from your Majesty, nor news of
+you, except what has come out of the enemy's quarters. Nothing comes from London, because we are very closely
+shut in. We hear, and the print (?) of Lothian's letter to the Committee of Both Kingdoms shows the same, that
+your Majesty is in a very sad condition. But I believe [...] that the letter was written [...] with the Scots
+until they gather a considerable body together [...], which might give their friends at London confidence to
+stay firm to them. [...] comfort and encourage your faithful subjects here to hold out. For those whom your
+Majesty thought (?) most averse are now extremely earnest for a treaty (?), in the hope to save their interest (?).
+We pay and feed (?) here nearly four thousand foot. This is one thousand [less?] than double the number (?) that
+we provided for, so our [stores] will fall short. Besides, very many of your Majesty's poor (?) [...] are here.
+It is believed that we shall not have a treaty for more than two days from now. [If] the Scots should face
+southward with a considerable body, it might perhaps free us of our ill neighbours. We hear that they have
+[settled] themselves so [...] that we believe they do not intend to stir [until they have] six thousand foot
+from London. But the differences there between the Presbyterians and the Independents, I believe, have kept
+those men [away] so far. From the West I hear that the Prince (?) is for certain in Jersey (?), where he resolved
+to wait for your Majesty's directions. [Yesterday?] Prince Rupert, skirmishing with some of Fairfax's horse,
+received [a shot in] his right arm (?). But thanks be to God there is no [danger] in it, as it is a flesh wound (?);
+only it makes him feverish (?). We hear daily from Fairfax's quarters such sad news [...]. They first planted (?)
+on Sunday a piece [of cannon ...] of Headington hill and have made several shots into Oxford, but have done no
+great hurt. God preserve [you] from your [...], which is the earnest prayer of your sacred Majesty's most
+obedient servant, [Nicholas] (?). 13 May 1646.
+
+--- NOT RESOLVED ---
+
+Codes not read: 120, 142, 167, 231, 236, 240, 264, 292 (twice), 335, 376, 384, 401, 447, 618, 639, 691 (three times).
+Doubtful: 219 ("ish": good in "feuer-ish", bad in "<219>-a-c-h with the Scots"); 36 = f ("feuer") against
+"the other f-ward" and "thereby f inter-est" (the manuscript may have 360 = to); "q I ing finishd" (line 1: we
+expect "Fairfax having", 504 200 216; the transcription has 50 209 216); "Peee" (one figure wrong, or 70 is not e
+here); "d il" in line 2 (we expect h-il); "Iersem" (we expect Iersey; 60 against 64); line 12-13 "from the s /
+{me from} his the West"; "a . n ? s s h wound"; the sense of the stop signs 100-103, 87, 93-99, 279, 496, 697.
+The 20 "?" of the transcription stay illegible. All of this needs the image (DECODE R8624, login).

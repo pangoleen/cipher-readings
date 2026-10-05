@@ -21,6 +21,11 @@ reproduced from a period source, and what stays open. Corrections are welcome: p
 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy (BnF, Espagnol 132) | First readings with keys that others published. | Five pieces read |
 | [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590 (BnF, fr. 4698, fr. 4702 and fr. 4696) | The cipher rebuilt with no key sheet; three period decipherments linked to their cipher letters; the rebuilt code tested on a second volume (97.6 % of 463 words right); letters and passages with no decipherment read, and checked against Pastor's history. | A code of 448 values; the new readings have gaps |
 
+One more folder holds a finding without a reading: [centurione-1528](centurione-1528/). The "Venetian?" cipher
+with superscript digits of 1528 (BnF fr. 3022, no. 20) is the cipher of the Genoese envoy Martino Centurione and
+his son; "Garbino" is a cover name; and the numbers run in alphabetical order under the initial letter. The cipher
+is not read.
+
 Four of these documents are on S. Tomokiyo's list of
 [unsolved historical ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm): the letter to Charles I, Cocquet's
 cipher, the Dutch ciphers of 1653, and the Spanish letters of 1497 to 1504.

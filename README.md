@@ -9,6 +9,9 @@ reproduced from a period source, and what stays open. Corrections are welcome: p
 
 ## The results
 
+**To check a result by hand:** each one has a plain page with its key and a few worked lines, at
+<https://pangoleen.github.io/cipher-readings/>.
+
 | Folder | Document | What is new | State |
 |---|---|---|---|
 | [oxford-1646](oxford-1646/) | An intercepted letter to King Charles I from besieged Oxford, 13 May 1646 (British Library, Add MS 72438, f. 10) | The first connected reading (an earlier partial reading by A. Aymeloglu had about 45 code values). The key is rebuilt from the printed Titus cipher of 1648, with a shift. | 89 % of the tokens read; the transcription is A. Aymeloglu's, and we did not see the manuscript |

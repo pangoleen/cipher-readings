@@ -21,12 +21,13 @@ reproduced from a period source, and what stays open. Corrections are welcome: p
 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy (BnF, Espagnol 132) | First readings with keys that others published. | Five pieces read |
 | [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590 (BnF, fr. 4698, fr. 4702 and fr. 4696) | The cipher rebuilt with no key sheet; three period decipherments linked to their cipher letters; the rebuilt code tested on a second volume (97.6 % of 463 words right); letters and passages with no decipherment read, and checked against Pastor's history. | A code of 448 values; the new readings have gaps |
 
-**A seventh result, read in part:** [centurione-1528](centurione-1528/). The "Venetian?" cipher with superscript
-digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo" in fr. 2988) is a code of stems with
-a small alphabet of single letters for the endings. About half of the text now reads as connected sense, with a key
-table of 634 values. The "Ranzo" letters are of Madrid, March 1528, from a father to his son: Martino Centurione,
-envoy of Genoa at the court of Charles V. The method was tested blind on two made-up codes (87.6 % and 93.4 % of
-the tokens right). The reading has gaps, and it rests on D. Bourdeau's transcription.
+**A seventh result, read for the greater part:** [centurione-1528](centurione-1528/). The "Venetian?" cipher with
+superscript digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo" in fr. 2988) is a code
+of stems with a small alphabet of single letters for the endings. 86 % of the text now reads as connected sense,
+with a key table of 775 values. The "Ranzo" letters are of Madrid, March 1528, from a father to his son: Martino
+Centurione, envoy of Genoa at the court of Charles V. The method was tested blind on two made-up codes (87.6 % and
+93.4 % of the tokens right), the transcription was checked on the page images, and a blind audit restored 72 of 80
+hidden values. The reading has gaps, and it rests on D. Bourdeau's transcription.
 
 Five of these documents are on S. Tomokiyo's list of
 [unsolved historical ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm): the letter to Charles I, Cocquet's

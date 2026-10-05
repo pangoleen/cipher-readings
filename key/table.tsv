@@ -1,0 +1,687 @@
+group	value	class	tokens	note
+a1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+a2	_	null	3	numbers 0-5: null (reader 1, reader 2)
+a3	_	null	2	numbers 0-5: null (reader 1, reader 2)
+a4	_	null	1	numbers 0-5: null (reader 1, reader 2)
+a5	_	null	7	numbers 0-5: null (reader 1, reader 2)
+a8	a	guess	2	new; misread? z8
+a13	abenche	probable	1	new
+a23	accad	probable	1	new
+a35	acord	guess	2	new (reader 2: ac)
+a48	acio	probable	4	new (reader 2: ad)
+a51	ad	sure	9	both
+a60	adriz	probable	5	reader 2
+a61	adviso	probable	7	new; order conflict with a84 advert
+a62	advis	probable	6	new; order conflict with a84 advert
+a63	advis	guess	2	new; order conflict with a84 advert
+a84	advert	sure	4	reader 2; order conflict with a61 adviso, a62 advis
+a87	advenir	guess	1	new
+a104	afferm	probable	3	reader 2
+a116	agiut	probable	2	new; order conflict with a120 agiong
+a120	agiong	probable	1	new; order conflict with a116 agiut
+a126	agostino	guess	1	new
+a127	al	sure	13	both
+a135	alcun	probable	6	reader 2
+a137	alcuna	probable	9	reader 2 (reader 1: ale)
+a138	alcuni	guess	1	new
+a152	altro	probable	8	new (reader 2: altra); family order (not alphabetical inside the word family)
+a153	altra	probable	6	reader 2; family order (not alphabetical inside the word family)
+a154	altre	probable	5	reader 2; family order (not alphabetical inside the word family)
+a155	altri	guess	5	reader 2
+a174	amico	probable	2	new; family order (not alphabetical inside the word family)
+a176	amici	probable	1	new; family order (not alphabetical inside the word family)
+a185	amicitia	guess	1	new
+a186	anche	guess	4	new (reader 1: anchora; reader 2: altro)
+a187	anche	probable	2	new (reader 1: anchora; reader 2: altro)
+a195	ano	probable	3	new; order conflict with a209 and
+a196	anni	guess	1	new
+a204	anci	guess	1	new
+a209	and	sure	7	new (reader 1: ani; reader 2: anch); order conflict with a195 ano
+a257	arcivescovo	probable	1	new
+a283	arriv	guess	1	new
+a299	asecur	probable	1	new
+a302	aspet	probable	3	new (reader 1: aver)
+a305	attent	guess	1	new
+a311	avanti	sure	4	new (reader 1: avisi; reader 2: avisi)
+a314	audac	probable	1	new
+a315	augment	guess	1	new
+b5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+b10	ba	probable	3	reader 2
+b20	barzelona	guess	1	new
+b49	be	probable	2	new
+b57	ben	probable	4	new
+b80	bi	probable	6	reader 2 (machine value, unchecked by reader 2)
+b103	bo	guess	1	new
+b113	bon	probable	6	new
+b114	bona	probable	6	reader 2
+b115	bone	guess	1	new
+b147	breve	probable	1	new
+c3	_	null	1	numbers 0-5: null (reader 1, reader 2)
+c4	_	null	5	numbers 0-5: null (reader 1, reader 2)
+c7	u	sure	2	reader 2 (reader 1: con)
+c8	u	sure	7	reader 2 (reader 1: con)
+c9	u	sure	1	reader 2 (reader 1: con)
+c10	ca	probable	8	both
+c32	cambi	probable	3	new
+c48	cancellar	guess	1	new
+c75	car	probable	2	new
+c76	cara	probable	1	new
+c85	carta	probable	1	new
+c109	casa	probable	2	new
+c125	caut	sure	6	reader 2 (reader 1: cer)
+c136	ce	probable	8	reader 2
+c142	centurione	guess	1	new
+c148	certo	probable	2	reader 2; order conflict with c153 cerca
+c153	cerca	probable	2	new; order conflict with c148 certo
+c170	che	sure	109	both
+c171	chi	probable	6	new
+c183	cia	guess	2	reader 2 (machine value, unchecked by reader 2)
+c185	cia	guess	2	reader 2 (machine value, unchecked by reader 2)
+c187	cione	sure	7	new; order conflict with c193 cinquecento
+c191	cinque	guess	1	reader 2
+c193	cinquecento	probable	2	both; order conflict with c187 cione
+c208	co	probable	7	reader 2 (machine value, unchecked by reader 2)
+c211	cognosc	sure	6	new (reader 2: com)
+c216	col	probable	5	new (reader 2: como)
+c227	como	sure	17	both; order conflict with c242 comenza
+c242	comenza	probable	1	new; order conflict with c227 como
+c246	comunic	probable	2	new
+c258	conpet	probable	1	new
+c263	conte	guess	1	new
+c267	consiglio	probable	3	new; family order (not alphabetical inside the word family)
+c268	consigli	probable	1	new; family order (not alphabetical inside the word family)
+c272	contra	probable	2	new; order conflict with c291 consider
+c281	conserv	guess	1	reader 2
+c287	condicione	guess	1	new
+c291	consider	probable	3	new; order conflict with c272 contra
+c292	continu	probable	4	reader 2; family order (not alphabetical inside the word family)
+c296	cont	guess	1	new
+c312	copia	probable	3	reader 2
+c320	cos	sure	17	reader 2
+c322	cred	probable	2	new (reader 2: cos)
+D9	vu	probable	3	new (reader 2: pu)
+d4	_	null	3	numbers 0-5: null (reader 1, reader 2)
+d8	t	probable	1	new
+d9	t	probable	2	new
+d10	da	probable	31	both
+d15	dal	guess	2	reader 2 (machine value, unchecked by reader 2)
+d18	dapoi	probable	3	new (reader 2: dal)
+d23	dat	probable	1	new; order conflict with d30 dar
+d24	dat	guess	4	new (reader 2: dar); order conflict with d30 dar
+d25	dat	probable	1	new; order conflict with d30 dar
+d30	dar	probable	6	reader 2; family order (not alphabetical inside the word family)
+d34	de	sure	12	both
+d35	de	sure	47	both
+d36	de	sure	31	both
+d37	de	sure	17	both
+d47	deb	probable	1	new
+d48	debeno	guess	1	new
+d52	dece	guess	1	new
+d78	del	sure	37	both
+d84	delibera	guess	1	new
+d96	denari	probable	1	new
+d100	deput	probable	4	reader 2
+d120	des	probable	4	new
+d127	desider	probable	4	reader 2
+d156	detto	sure	14	reader 2 (reader 1: dicto); family order (not alphabetical inside the word family)
+d157	detta	probable	2	new (reader 2: detto); family order (not alphabetical inside the word family)
+d158	detto	probable	6	reader 2; also plural)
+d159	dette	guess	1	new
+d178	di	probable	7	reader 2
+d179	di	probable	11	reader 2
+d180	di	probable	7	reader 2
+d183	dificulta	guess	1	new
+d198	diligent	probable	1	new; order conflict with d201 dilect
+d201	dilect	probable	1	new; order conflict with d198 diligent
+d202	dio	sure	4	new
+d204	dir	probable	1	new
+d205	dir	probable	3	new
+d216	distint	probable	1	new
+d245	do	sure	4	both
+d246	do	sure	15	both
+d251	dodeci	guess	1	new
+d270	dove	probable	3	reader 1 (reader 2: dover)
+d272	domand	guess	1	new
+d280	drieto	guess	1	new
+d281	du	probable	2	new (reader 2: duca)
+d282	dubio	sure	3	new (reader 2: duca); family order (not alphabetical inside the word family)
+d283	dubi	probable	1	new; family order (not alphabetical inside the word family)
+d285	ducati	probable	2	reader 2; family order (not alphabetical inside the word family)
+d288	duca	guess	1	new
+d289	duca	probable	1	new; family order (not alphabetical inside the word family)
+d299	dura	probable	1	new
+e2	_	null	2	numbers 0-5: null (reader 1, reader 2)
+e5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+e7	s	sure	6	reader 2 (reader 1: e)
+e8	s	sure	7	reader 2 (reader 1: e)
+e9	s	sure	7	reader 2 (reader 1: e)
+e16	effecto	guess	2	new
+e25	el	probable	14	reader 2
+e49	en	probable	5	new
+e67	era	probable	8	new (reader 2: ere)
+e72	esse	probable	8	new (reader 1: el; reader 2: essa)
+e73	esso	probable	6	new (reader 1: el; reader 2: esse); order conflict with e75 esser
+e75	esser	sure	14	reader 2 (reader 1: el); order conflict with e73 esso
+e82	etiam	probable	7	reader 2
+e96	evento	probable	3	reader 2
+e106	ex	probable	2	reader 2
+e118	exalt	probable	3	new
+e145	exercito	probable	2	new; family order (not alphabetical inside the word family)
+e146	exerciti	probable	2	reader 2; family order (not alphabetical inside the word family)
+e173	express	guess	1	new
+e205	extend	probable	1	new
+f1	_	null	2	numbers 0-5: null (reader 1, reader 2)
+f2	_	null	4	numbers 0-5: null (reader 1, reader 2)
+f3	_	null	2	numbers 0-5: null (reader 1, reader 2)
+f4	_	null	5	numbers 0-5: null (reader 1, reader 2)
+f5	_	null	6	numbers 0-5: null (reader 1, reader 2)
+f6	r	sure	7	reader 2 (reader 1: far)
+f7	r	sure	4	reader 2 (reader 1: far)
+f8	r	sure	21	reader 2 (reader 1: far)
+f9	r	sure	10	reader 2 (reader 1: far)
+f10	fa	probable	14	both
+f12	fact	probable	3	reader 2
+f13	far	probable	12	reader 2 (reader 1: fa)
+f15	fato	probable	7	reader 2
+f17	fatta	probable	3	reader 2
+f18	fatte	guess	1	new
+f44	favor	probable	1	new
+f47	fe	probable	1	new
+f48	febraro	probable	2	new
+f57	ferm	guess	1	new
+f75	fi	probable	6	new (reader 1: facen; reader 2: fazen)
+f78	fint	guess	1	new
+f131	fiol	guess	2	reader 2 (machine value, unchecked by reader 2)
+f138	forza	probable	3	reader 2
+f154	fora	guess	1	new
+f183	fructo	probable	1	new
+f196	fumo	guess	1	new
+f213	fusse	probable	2	reader 2
+f219	funda	guess	1	new; order vs f213 fusse
+g1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+g3	_	null	1	numbers 0-5: null (reader 1, reader 2)
+g6	e	sure	2	misread? g for s: read as s6
+g7	e	sure	3	misread? g for s: read as s7
+g8	e	sure	6	misread? g for s: read as s8
+g9	e	sure	4	misread? g for s: read as s9
+g10	ga	probable	4	reader 2 (machine value, unchecked by reader 2)
+g22	salvo	probable	2	misread? g for s: read as s22
+g44	ge	probable	3	reader 2 (machine value, unchecked by reader 2); a-co-r-ge-ra-i, a-r-ge-n-ti, carta-ge-ni-a)
+g64	genoa	probable	2	reader 2
+g72	gia	probable	8	both
+g74	giesie	guess	1	new
+g82	giorno	probable	2	new (reader 2: gio); family order (not alphabetical inside the word family)
+g84	giornata	probable	3	new (reader 2: gio); family order (not alphabetical inside the word family)
+g94	giova	probable	2	new (reader 2: giorni)
+g106	gli	probable	1	new
+g113	scrive	sure	5	misread? g for s: read as s113
+g116	script	sure	3	misread? g for s: read as s116
+g126	governo	guess	1	new
+g127	governa	guess	2	new (reader 2: go)
+g138	se	sure	4	misread? g for s: read as s138 in D10 only; no value elsewhere
+g139	go	guess	2	reader 2 (machine value, unchecked by reader 2); ALSO misread? in D10,D12: stands for s139
+g140	grande	probable	7	reader 2; family order (not alphabetical inside the word family)
+g146	gran cancellero	probable	4	new; family order (not alphabetical inside the word family)
+g154	gratia	probable	1	reader 2
+g159	grato	probable	2	new
+g197	guerra	probable	1	new
+g198	guerre	probable	1	new
+g207	guida	guess	1	new
+h1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+h3	_	null	1	numbers 0-5: null (reader 1, reader 2)
+h4	_	null	2	numbers 0-5: null (reader 1, reader 2)
+h5	_	null	2	numbers 0-5: null (reader 1, reader 2)
+h7	n	sure	4	reader 2
+h8	n	sure	13	reader 2
+h9	n	sure	5	reader 2
+h10	ha	sure	12	both
+h27	habi	probable	5	reader 2
+h29	have	probable	4	reader 2; twice it stands for haver)
+h30	have	sure	20	both
+h32	hai	guess	3	new (reader 2: havete)
+h33	havut	probable	1	new; order conflict with h34 haver
+h34	haver	probable	6	reader 1; order conflict with h33 havut
+h36	havere	guess	1	new
+h49	hieronimo	sure	4	reader 2
+h50	hieronimo	probable	2	reader 2
+h57	ho	sure	21	both
+h58	hogi	guess	1	new
+h66	honeste	guess	1	new
+h73	honorat	sure	3	new
+i4	_	null	1	numbers 0-5: null (reader 1, reader 2)
+i7	p	probable	1	reader 2
+i8	p	probable	1	reader 2
+i10	ia	probable	6	new (reader 2: i)
+i11	iacobo	probable	3	new (reader 2: i)
+i29	il	probable	19	both
+i58	imperator	probable	2	new
+i73	important	guess	1	new
+i76	import	guess	1	new
+i99	in	guess	2	reader 2 (machine value, unchecked by reader 2)
+i100	in	sure	78	both
+i108	inconvenient	probable	3	new
+i165	inform	guess	1	new
+i246	intende	probable	6	reader 2
+i249	intes	probable	2	reader 2
+i259	intim	probable	1	new
+i286	io	probable	9	reader 2
+i295	italia	sure	6	both
+i307	iudic	guess	1	new
+l5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+l6	m	sure	3	new
+l7	m	guess	1	new
+l8	m	sure	3	new
+l9	m	sure	2	new
+l10	la	sure	46	both
+l17	laltra	probable	2	new
+l30	larg	guess	1	new
+l43	lass	sure	6	new (reader 1: las; reader 2: le)
+l47	le	sure	44	both
+l56	lege	probable	2	reader 2
+l77	li	sure	43	both
+l78	li	guess	1	new
+l97	lion	probable	2	reader 2
+l98	littera	probable	1	new
+l99	littere	sure	15	both
+l106	lo	probable	3	reader 2
+l107	lo	probable	7	both
+l108	lo	probable	11	both
+l109	loco	probable	3	new (reader 2: lo)
+l130	lu	sure	6	both
+l131	lui	probable	4	reader 2
+m5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+m6	o	sure	16	reader 2 (reader 1: mo)
+m7	o	sure	23	reader 2 (reader 1: mo)
+m8	o	sure	30	reader 2 (reader 1: mo)
+m9	o	sure	21	reader 2 (reader 1: mo)
+m10	ma	sure	15	both
+m11	madre	probable	2	new (reader 2: ma)
+m19	magior	probable	3	reader 2
+m29	mai	guess	2	new
+m34	mal	probable	1	new
+m46	man	probable	5	reader 2
+m47	man	probable	3	reader 2
+m48	man	guess	1	reader 2
+m49	man	guess	1	reader 2
+m50	manca	probable	3	reader 2
+m56	mando	probable	2	new (reader 2: mand); family order (not alphabetical inside the word family)
+m57	mand	probable	8	reader 2; family order (not alphabetical inside the word family)
+m75	mar	probable	1	new
+m80	maravegli	probable	1	new
+m82	marzo	probable	2	reader 2; order conflict with m87 maria
+m87	maria	probable	1	new; order conflict with m82 marzo
+m99	materia	probable	4	reader 2
+m104	maxime	probable	3	reader 2
+m107	me	probable	21	reader 2
+m109	medesimo	probable	1	new
+m119	meglio	sure	5	new
+m131	men	probable	2	new
+m136	mente	sure	21	reader 2 (reader 1: me)
+m137	mente	guess	4	reader 2
+m157	messer	probable	3	new
+m168	mezo	probable	2	reader 2
+m170	mi	sure	29	both
+m171	mio	probable	1	new; family order (not alphabetical inside the word family)
+m172	mia	probable	9	reader 2; family order (not alphabetical inside the word family)
+m173	mie	probable	1	new; family order (not alphabetical inside the word family)
+m176	mille	probable	2	both; family order (not alphabetical inside the word family)
+m177	millia	probable	2	reader 2; family order (not alphabetical inside the word family)
+m187	ministri	guess	1	new
+m210	mo	guess	2	reader 2 (machine value, unchecked by reader 2)
+m211	mo	probable	5	new (reader 2: modo)
+m212	modo	sure	11	both
+m213	modo	guess	1	reader 2
+m223	molto	sure	4	new; family order (not alphabetical inside the word family)
+m226	molti	probable	1	new; family order (not alphabetical inside the word family)
+m241	morte	probable	2	new
+m247	mostra	probable	3	new
+n1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+n5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+n6	i	sure	14	reader 2 (reader 1: no)
+n7	i	sure	16	reader 2 (reader 1: no)
+n8	i	sure	30	reader 2 (reader 1: no)
+n9	i	sure	15	reader 2 (reader 1: no)
+n10	na	probable	4	new
+n11	napoli	probable	3	new (reader 2: na)
+n38	ne	sure	38	both
+n40	necessita	probable	3	reader 2
+n57	nega	probable	2	new
+n60	nel	probable	7	reader 2
+n71	ni	probable	3	new
+n77	niun	probable	5	reader 2
+n85	no	probable	15	new (reader 1: non; reader 2: non)
+n86	no	probable	9	new (reader 1: non; reader 2: non)
+n87	no	probable	4	new (reader 1: non; reader 2: non)
+n88	no	probable	6	new (reader 1: non; reader 2: non)
+n89	non	sure	15	both; order conflict with n97 nome
+n90	non	sure	22	both; order conflict with n97 nome
+n97	nome	probable	1	new; order vs n89 non
+n105	nostro	probable	4	reader 2; family order (not alphabetical inside the word family)
+n106	nostra	probable	1	new; family order (not alphabetical inside the word family)
+n115	notific	probable	1	new
+n121	nova	probable	1	reader 2
+n124	novo	probable	3	new (reader 2: nova)
+n134	nu	probable	1	new
+n213	nomi	guess	1	new
+o2	_	null	3	numbers 0-5: null (reader 1, reader 2)
+o3	_	null	3	numbers 0-5: null (reader 1, reader 2)
+o4	_	null	4	numbers 0-5: null (reader 1, reader 2)
+o5	_	null	3	numbers 0-5: null (reader 1, reader 2)
+o7	l	probable	2	new
+o8	l	probable	3	new
+o9	l	probable	2	new
+o31	observa	probable	1	new
+o65	occorrentie	probable	3	reader 2
+o66	octo	probable	3	both
+o72	ocupa	guess	1	new
+o99	offer	guess	1	new
+o105	officio	probable	7	reader 2; family order (not alphabetical inside the word family)
+o106	offici	probable	5	new (reader 2: officio); family order (not alphabetical inside the word family)
+o113	ogni	sure	13	both
+o119	oltra	probable	4	new
+o126	opera	guess	2	new
+o129	opere	guess	1	new
+o130	opinione	probable	2	reader 2
+o148	orator	guess	1	new
+o152	ordine	guess	3	reader 2
+o156	ordinat	probable	2	new; family order (not alphabetical inside the word family)
+o157	ordina	probable	2	new; family order (not alphabetical inside the word family)
+o165	oro	probable	1	new
+p1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+p2	_	null	5	numbers 0-5: null (reader 1, reader 2)
+p3	_	null	6	numbers 0-5: null (reader 1, reader 2)
+p4	_	null	10	numbers 0-5: null (reader 1, reader 2)
+p5	_	null	5	numbers 0-5: null (reader 1, reader 2)
+p10	pa	probable	4	reader 2 (machine value, unchecked by reader 2)
+p22	padre	probable	1	new
+p29	paga	guess	2	reader 2
+p32	pagament	probable	1	new
+p41	pane	probable	1	new
+p47	parte	probable	3	reader 2; order conflict with p61 parla
+p49	parti	probable	1	new; order conflict with p61 parla
+p53	partito	probable	2	new; order conflict with p61 parla
+p57	particular	probable	2	new; order conflict with p61 parla
+p61	parla	probable	5	new (reader 2: parti); order conflict with p47 parte
+p74	pasqua	guess	1	new
+p76	parla	guess	3	new (reader 2: parti); order conflict with p47 parte
+p78	pass	guess	1	new
+p89	partir	guess	1	new; order vs p97 passa
+p97	passa	guess	2	both
+p102	pe	probable	3	new
+p137	pens	guess	1	new
+p138	pensa	probable	2	new
+p149	per	sure	50	both
+p150	perche	sure	19	reader 2 (reader 1: per)
+p152	perche	probable	3	both
+p153	pero	sure	6	both
+p155	perde	guess	1	new; order conflict with p153 pero
+p161	persuas	probable	1	new; family order (not alphabetical inside the word family)
+p168	persona	probable	2	new; family order (not alphabetical inside the word family)
+p170	persone	guess	1	new
+p188	pi	guess	2	reader 2 (machine value, unchecked by reader 2)
+p194	pi	guess	2	reader 2 (machine value, unchecked by reader 2)
+p217	petra	probable	1	new
+p228	pi	probable	1	new
+p232	pian	guess	1	new
+p234	piace	probable	1	new; family order (not alphabetical inside the word family)
+p235	piac	probable	1	new; family order (not alphabetical inside the word family)
+p246	piu	sure	25	both
+p249	platic	guess	2	new
+p251	platica	probable	1	new
+p255	po	probable	13	both
+p256	poco	probable	2	new; order conflict with p257 poca
+p257	poca	probable	1	new; order conflict with p256 poco
+p260	poi	probable	5	new
+p270	porta	guess	1	new
+p273	porti	guess	1	new
+p281	pot	sure	8	reader 2 (reader 1: pre); family order (not alphabetical inside the word family)
+p282	poss	sure	12	new (reader 1: pre; reader 2: pot); family order (not alphabetical inside the word family)
+p291	pre	guess	1	reader 2
+p292	pro	guess	1	new; number in the pre- zone
+p293	prefat	guess	1	new
+p296	president	probable	4	new (reader 2: pre); family order (not alphabetical inside the word family)
+p304	presto	probable	3	new; family order (not alphabetical inside the word family)
+p308	present	sure	9	reader 2 (reader 1: presente); family order (not alphabetical inside the word family)
+p311	prim	probable	1	new
+p313	princip	probable	2	new (reader 2: pri)
+p325	proved	probable	2	new (reader 2: pro); order conflict with p342 procura, p361 pro
+p342	procura	probable	4	new (reader 2: pro); order conflict with p325 proved
+p344	procur	guess	2	new
+p361	pro	probable	3	new (reader 2: provedi); order conflict with p325 proved, p342 procura
+p363	pu	guess	1	new
+p373	pu	probable	2	reader 2
+p374	pur	guess	2	new
+p383	public	guess	1	new
+Q6	con	probable	2	new
+Q8	con	probable	3	new
+Q9	con	guess	3	new
+Q10	con	guess	1	new
+Q13	con	probable	5	new
+Q15	con	guess	1	new
+Q18	con	probable	9	new
+Q20	con	guess	2	new
+Q21	con	guess	3	new
+Q23	con	guess	2	new
+Q25	con	guess	1	new
+Q27	con	guess	1	new
+Q30	con	guess	2	new
+q2	_	null	3	numbers 0-5: null (reader 1, reader 2)
+q3	_	null	1	numbers 0-5: null (reader 1, reader 2)
+q4	_	null	1	numbers 0-5: null (reader 1, reader 2)
+q6	g	probable	2	new
+q7	g	probable	2	new
+q8	g	guess	1	new
+q10	qua	sure	12	both
+q12	qual	sure	11	both
+q13	quali	probable	2	new
+q17	quale	guess	5	reader 1
+q18	quanto	probable	13	reader 2 (reader 1: quali)
+q21	quando	guess	4	new; order conflict with q18 quanto
+q27	quasi	guess	1	new
+q34	quatro	guess	2	reader 2
+q37	quatrocento	guess	1	reader 2
+q44	quel	probable	5	both
+q45	quello	probable	9	reader 1 (reader 2: quelli); family order (not alphabetical inside the word family)
+q47	quelle	probable	4	new (reader 2: quello); family order (not alphabetical inside the word family)
+q48	quelli	guess	2	new (reader 2: quello)
+q49	questo	sure	9	both; family order (not alphabetical inside the word family)
+q50	questi	probable	3	new (reader 2: qui); family order (not alphabetical inside the word family)
+q61	qui	probable	4	both
+q65	quieta	probable	1	new
+r4	_	null	1	numbers 0-5: null (reader 1, reader 2)
+r10	ra	sure	15	both
+r41	re	sure	45	both
+r64	recor	probable	3	new (reader 2: re)
+r70	recorr	guess	1	new
+r71	record	probable	1	new
+r101	regno	probable	3	reader 2 (machine value, unchecked by reader 2)
+r137	remet	probable	1	new
+r146	rende	guess	1	new
+r158	replica	probable	1	new
+r190	reserva	probable	2	new (reader 2: ri)
+r196	resolu	guess	2	new (reader 2: ri)
+r197	resolu	probable	1	new
+r198	resolu	probable	5	new (reader 2: ri)
+r201	resta	probable	1	new; order conflict with reader 222 resposta
+r203	resto	probable	3	new (reader 2: ri); order conflict with reader 222 resposta
+r205	rest	probable	2	new (reader 2: ria); order conflict with reader 222 resposta
+r211	retard	guess	1	new
+r222	resposta	probable	3	new (reader 2: risposta); spelling as in the clear text; order conflict with reader 201 resta, reader 203 resto
+r232	reten	probable	1	new
+r268	ri	probable	4	new (reader 2: ro)
+r269	ria	probable	3	new (reader 2: ro)
+r271	rie	sure	4	new (reader 2: ro)
+r272	riano	guess	2	new (reader 2: ro)
+r296	ro	probable	14	both
+r309	roma	probable	2	reader 2 (machine value, unchecked by reader 2)
+r327	ru	guess	1	new
+s0	_	null	1	numbers 0-5: null (reader 1, reader 2)
+s1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+s2	_	null	3	numbers 0-5: null (reader 1, reader 2)
+s4	_	null	1	numbers 0-5: null (reader 1, reader 2)
+s5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+s6	e	sure	16	reader 2 (reader 1: se)
+s7	e	sure	15	reader 2 (reader 1: se)
+s8	e	sure	37	reader 2 (reader 1: se)
+s9	e	sure	16	reader 2 (reader 1: se)
+s10	sa	probable	5	both
+s22	salvo	probable	2	new (reader 2: sa)
+s69	sap	probable	4	new
+s70	savona	probable	1	new
+s113	scrive	sure	11	reader 2 (reader 1: se); family order (not alphabetical inside the word family)
+s116	script	sure	9	reader 2; family order (not alphabetical inside the word family)
+s117	scriptur	probable	2	new (reader 2: se); family order (not alphabetical inside the word family)
+s138	se	sure	15	both
+s139	se	sure	14	both
+s143	secund	probable	2	new; order conflict with s153 secrete
+s151	secreto	guess	1	new
+s153	secrete	probable	1	new; order conflict with s143 secund
+s155	secur	guess	1	new
+s170	seguit	probable	1	new
+s177	sempre	sure	5	reader 2
+s191	senza	probable	6	reader 2
+s212	servir	probable	2	new
+s217	servitio	probable	2	new
+s219	servitor	probable	1	new
+s229	sessanta	guess	1	reader 2
+s230	sette	probable	1	reader 2 (reader 1: sei)
+s231	sexanta	guess	1	reader 2
+s233	si	sure	38	both
+s234	sia	probable	6	new (reader 2: si)
+s235	siano	guess	3	new
+s242	signor	probable	2	new
+s243	signori	probable	2	new
+s245	signoria	probable	1	new
+s247	simil	probable	3	reader 2
+s266	simon	guess	1	new
+s267	so	probable	4	new
+s268	sola	probable	3	new; order vs s271 soa
+s269	soe	guess	1	new
+s270	soi	guess	3	new
+s271	soa maesta	sure	16	reader 2 (reader 1: soa); order conflict with s268 sola
+s272	soa excellentia	guess	3	new; soa + title of a lord (title uncertain)
+s273	soa signoria	guess	6	reader 2 (reader 1: soa)
+s288	sol	guess	2	new (reader 2: soldat)
+s290	son	guess	1	new
+s291	sono	probable	4	reader 2
+s292	sopra	probable	5	reader 2
+s299	sotto	probable	6	reader 2
+s320	spero	sure	7	reader 2; family order (not alphabetical inside the word family)
+s322	speranz	probable	1	new; family order (not alphabetical inside the word family)
+s323	stat	sure	5	new (reader 2: sta); family order (not alphabetical inside the word family)
+s325	sta	probable	6	reader 2; family order (not alphabetical inside the word family)
+s326	sto	probable	3	reader 2
+s345	studi	probable	1	new
+s346	su	probable	9	reader 2 (reader 1: sua)
+s347	subito	probable	4	new (reader 1: sua)
+s358	success	probable	1	new
+s364	superflu	guess	1	new
+s387	supera	probable	1	new
+t2	_	null	1	numbers 0-5: null (reader 1, reader 2)
+t7	d	probable	3	reader 2
+t8	d	probable	1	reader 2
+t9	d	probable	1	reader 2
+t10	ta	probable	32	both
+t16	tal	probable	6	reader 2
+t19	tanto	probable	4	new
+t30	te	sure	37	both
+t36	tempo	probable	2	new (reader 2: te)
+t41	re	sure	34	misread? t for r: read as r41
+t49	tene	probable	1	new (reader 2: tener)
+t54	terra	probable	2	new
+t74	ti	probable	27	both
+t89	to	sure	55	both
+t90	toa	probable	4	reader 2
+t92	toe	probable	5	reader 2
+t118	tra	probable	3	new (reader 2: tor)
+t133	tra	guess	1	reader 2
+t135	trenta	guess	1	new
+t152	tra	guess	2	reader 2 (machine value, unchecked by reader 2)
+t153	trov	probable	1	new; order vs t157 tro
+t157	tro	probable	2	reader 2 (machine value, unchecked by reader 2); order conflict with t153 trov
+t163	tu	sure	10	reader 2 (reader 1: tut)
+t164	tuto	sure	10	new (reader 1: tutto; reader 2: tuo); family order (not alphabetical inside the word family)
+t165	tuta	probable	1	new; family order (not alphabetical inside the word family)
+t166	tute	probable	5	reader 2; family order (not alphabetical inside the word family)
+t167	tuti	probable	1	new; family order (not alphabetical inside the word family)
+v3	_	null	1	numbers 0-5: null (reader 1, reader 2)
+v5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+v6	c	sure	3	new
+v7	c	sure	3	new
+v8	c	sure	2	new
+v9	c	probable	1	new
+v10	va	guess	4	both
+v13	vale	probable	8	reader 2 (reader 1: va)
+v15	valenza	sure	3	new
+v26	van	probable	1	new
+v38	ve	guess	3	reader 2 (machine value, unchecked by reader 2)
+v41	vede	probable	3	new (reader 2: ve)
+v66	venir	probable	1	reader 2
+v71	venetiani	guess	2	new
+v79	ver	probable	1	new
+v85	vero	guess	1	new
+v114	vi	probable	11	both
+v116	via	probable	3	reader 2
+v152	vinti	probable	4	both
+v157	violent	guess	1	new
+v166	vita	sure	5	new (reader 2: ultima)
+v189	un	guess	1	new
+v190	una	probable	7	reader 2
+v191	uno	probable	5	new (reader 2: una); order conflict with v192 unione
+v192	unione	probable	2	new; order conflict with v191 uno
+v205	vo	sure	4	both
+v206	voi	probable	3	new
+v210	volunta	probable	2	new (reader 2: vole); order conflict with v211 volta, v212 volte
+v211	volta	probable	3	reader 2 (reader 1: volte); order conflict with v210 volunta, v224 vole
+v212	volte	probable	2	both; order conflict with v210 volunta, v224 vole
+v216	vostri	guess	1	new
+v217	vostre	probable	3	new; order conflict with v224 vole
+v224	vole	probable	5	new; order conflict with v211 volta, v212 volte
+v246	utile	probable	3	new
+v247	utili	probable	2	new (reader 2: vuol)
+v280	voglia	guess	1	new; over-range number (misread)
+x7	b	guess	1	new
+y2	/	guess	2	new; clause mark (stop or et)
+y3	/	guess	1	new; clause mark (stop or et)
+y6	/	probable	6	new; clause mark (stop or et)
+y7	/	probable	4	new; clause mark (stop or et)
+y8	/	probable	8	new; clause mark (stop or et)
+y9	/	probable	4	new; clause mark (stop or et)
+y10	/	guess	2	new; clause mark (stop or et)
+y11	/	guess	1	new; clause mark (stop or et)
+y12	/	probable	3	new; clause mark (stop or et)
+y13	/	probable	6	new; clause mark (stop or et)
+y14	/	guess	1	new; clause mark (stop or et)
+y15	/	probable	8	new; clause mark (stop or et)
+y16	/	probable	9	new; clause mark (stop or et)
+y17	/	probable	6	new; clause mark (stop or et)
+y18	/	probable	10	new; clause mark (stop or et)
+y19	/	probable	5	new; clause mark (stop or et)
+y20	/	probable	4	new; clause mark (stop or et)
+y21	/	probable	4	new; clause mark (stop or et)
+y22	/	guess	2	new; clause mark (stop or et)
+y23	/	guess	1	new; clause mark (stop or et)
+y25	/	probable	3	new; clause mark (stop or et)
+y27	/	guess	2	new; clause mark (stop or et)
+y28	/	probable	4	new; clause mark (stop or et)
+y30	/	guess	1	new; clause mark (stop or et)
+y31	/	probable	5	new; clause mark (stop or et)
+y33	/	guess	1	new; clause mark (stop or et)
+y34	/	guess	2	new; clause mark (stop or et)
+y35	/	guess	1	new; clause mark (stop or et)
+y41	/	guess	1	new; clause mark (stop or et)
+y42	/	guess	1	new; clause mark (stop or et)
+y43	/	guess	2	new; clause mark (stop or et)
+y47	/	guess	1	new; clause mark (stop or et)
+y53	/	guess	1	new; clause mark (stop or et)
+y100	/	guess	1	new; clause mark (stop or et)
+z1	_	null	1	numbers 0-5: null (reader 1, reader 2)
+z2	_	null	3	numbers 0-5: null (reader 1, reader 2)
+z3	_	null	1	numbers 0-5: null (reader 1, reader 2)
+z5	_	null	1	numbers 0-5: null (reader 1, reader 2)
+z6	a	sure	33	reader 2
+z7	a	sure	28	reader 2
+z8	a	sure	61	reader 2
+z9	a	sure	44	reader 2
+z13	zo	probable	2	new; ra-n-zo twice (Hieronimo Ranzo)
+z15	zifra	sure	15	reader 2

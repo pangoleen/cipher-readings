@@ -1,3 +1,5 @@
+> Note of 5 October 2026: this is the log of the first day, before the cipher was read in part. Its statements on the writer and on "not read" are superseded by the README.
+
 # The "Garbino" cipher of 1528 (BnF fr. 3022 no. 20; fr. 2988 ff. 2, 9; fr. 3019 f. 73)
 
 Work of 5 October 2026. Status: **not read**. The owner of the cipher is found. The structure is found. About 25 values are probable.

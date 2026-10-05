@@ -64,6 +64,10 @@ fragments such as "non ho pero (?) voluto", "in Italia", "del presente (?) & del
 ([fragments.md](fragments.md)). A solver that uses the alphabetical order gets 51 to 56 % of the tokens right on
 a made-up code of the same kind. On the real text it gives a skeleton and no sense.
 
+A second, stronger solver (5 October) gave the same answer. On made-up codes with the real list lengths it gets
+54 % of the tokens right with 20 known values, and it needs about 400 known values (about 20 for each letter) to
+reach 85 %. We have about 20 probable values and no certain one. So the method cannot read the letter now.
+
 ## What would open it
 
 Girolamo's own cipher letter of 10 December 1527, the base table of the cipher, or a decipherment. The places to

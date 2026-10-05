@@ -29,6 +29,10 @@ for common words and names. Two code words stand for letters: "otto" is c, and "
 The parts that rest on words read letter by letter:
 
 - The viceroy wrote "luego depues del desbarate", the rout of the French near Gioia on 21 April 1503.
+The quotations below are the edited reading. Where the two transcription passes confuse look-alike signs, the
+raw decode differs by a letter (for example "clmara de mosae de Aubeni" for "camara de mosse de Aubeni");
+`DECODE_RAW.md` shows the raw text of both passes.
+
 - The fortress gave itself up. Three captains were put in it for an inventory: "puestos en la fortaleza a don
   Joan de Cardona ... Antonyo de Leyva ... Caravajal". Before the inventory men went in; they found "la camara de
   mosse de Aubeni" empty, and "assi se saqueo la fortaleza".

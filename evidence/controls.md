@@ -47,6 +47,45 @@ By the reader's own class of confidence (tokens right; the values given as known
 - Of the 101 groups that both valued (the known values left out), 49 agree exactly. Most of the others differ in
   the form of the same word (dicto and detto, present and presente) or belong to the numbers 6 to 9, where
   reader 1 had followed the old idea.
-- The third pass merged both, tested the alphabet of 6 to 9 on all contexts, and extended the table to 634
-  values. Its own estimate: about 75 % of the tokens right, and about 93 % inside the stretches of
-  `reading/islands.md`. These are estimates, not measurements.
+- A third pass merged both, tested the alphabet of 6 to 9 on all contexts, and extended the table to 634
+  values: 53 % of the text in connected stretches.
+
+## The check of the transcription on the images
+
+- Every line of the twelve pages was compared with the image; all 114 tokens with base letter g and all 274
+  with base letter t were looked at one by one.
+- In the "Ranzo" letters (fr. 2988) 57 "g" are s and 63 "t" are r. In letter no. 20 (fr. 3022) the g and the t
+  are true. The two volumes are in two hands.
+- 11 groups of no. 20 that were read as "e" or "o" are the capital sign Q.
+- The readers had corrected 84 tokens by hypothesis before the images were checked. The images confirm 76.
+- Blind spot check: 3 lines chosen at random before looking, transcribed again from the image: 43 of 46 groups
+  the same, no number different.
+- The duplicate of the first "Ranzo" letter (BnF fr. 3019, f. 73, Gallica `btv1b9059994n`, views 114 to 116) is
+  a plain copy: the same groups and the same nulls. 807 places agree, 6 are variants. It confirms 41 of the
+  corrections and adds 8.
+- The corrections alone did not raise the share of text that reads. The first pass had already read most of
+  these places through its own hypotheses.
+
+## The last pass and its blind audit
+
+- One reader read the corrected text again with the table of the third pass. Result: 775 values (117 sure, 589
+  probable, 69 guesses); 117 connected stretches with 3,377 of 3,914 cipher tokens (86 %).
+- Its own check: 40 values chosen at random, hidden, and found again from order and context: 34 the same; 6 fit
+  the context and broke the order of the list.
+- **Blind audit by a fresh reader.** 80 values were hidden in the table (seed fixed before the draw): 40 of
+  class probable that occur once, 30 of class probable that occur more often, 10 of class sure. The auditor saw
+  the corrected text, the table without these values, and the general rules of the cipher. It saw no reading
+  and no notes. Its record of file access was checked.
+
+  | Hidden values | Exactly the same | Another form of the same word | Different |
+  |---|---|---|---|
+  | 40 probable, one token | 38 | 1 | 1 |
+  | 30 probable, more tokens | 24 | 5 | 1 |
+  | 10 sure | 10 | 0 | 0 |
+  | all 80 | 72 | 6 | 2 |
+
+  The two that differ: c21 (table "calculo", auditor "caldo") and f15 (table "fato", auditor "fatto").
+- What this measures: the table hangs together. A value can be found again from its neighbours in the list and
+  from the sentence. What it does not measure: whether the frame is right. For that see the signs listed in the
+  README (the reversed alphabet, the date line, the clear runs, the sheet f. 50).
+- All readers and the auditor are instances of one model.

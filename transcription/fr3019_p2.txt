@@ -1,0 +1,29 @@
+# Our transcription of BnF fr. 3019 f. 73-74, a period duplicate of the first letter signed Ranzo in fr. 2988, made from the Gallica images, one pass plus a second look where it differs from the other copy, not checked by a palaeographer.
+# This file: f. 73v, Gallica btv1b9059994n, view 115.
+# Format: one line of the manuscript per line; a group is a base letter and a number; '?' = doubt; a line with '|' alone = a break between two parts of the letter; '/' = the writer's mark at the end of a part.
+# The line ends go into the gutter. "X…" = number cut by the gutter; "[…]" = a group hidden in the gutter.
+# On this page the 4 has a closed top and looks like a 9 (149, 164, 41). m247? in line 11 can be read 297.
+s144 p102 r41 a8 i100 r309 d100 z8 t10 d10 n83 s72 s323 z7
+v81 f145 s271 s139 s212 z9 d179 i100 e73 L109 y16 c170 s34…
+m107 L77 m57 e67 p149 s325 f8 L77 i100 s270 n47 Q30 b113 t121 […]
+y10 Q21 g121 s7 e82 d78 v246 d35 L77 d158 o106 i100 e71 a17 d1…
+q2 e74 p149 c170 q50 s243 n38 h34 p61 t89 y7 i29 g146 L10…
+d127 z7 y6 p342 i29 c170 Q13 h29 e82 d158 o106 s78 c320 z6 […]
+p246 n38 p281 e72 r126 r41 d35 q17 a127 p308 s7 h30 f8
+p255 d8 e72 m104 p149 e118 z9 c187 d36 a126 n105 y35 d36
+t164 s320 h29 r196 a311 p74 L10 q12 t74 n115 z6 r296 s34…
+y16 p150 p137 d37 v13 f6 m170 f145 d34 v191 d147 p149 p76 […]
+i100 o113 e96 p246 c125 z9 m5 m137 c170 s7 d35 m247? f9
+p49 f8 m170 d179 q10 d120 c263 h8 f2 t89 p149 r4…
+p97 r41 h10 r269 g140 m136 z6 c75 c170 h30 s233 i100 p…
+t89 e25 s22 Q13 d281 v7 d9 m9 r261 m7 d78 c170 a302 m…
+Q21 d127 i286 a61 m10 a84 n8 s233 s292 t164 p149 q18
+t74 s8 c76 L10 v166 m172 d35 n90 c246 z9 f6 q49
+Q6 p168 d78 m211 h8 d245 a153 c170 Q18 t90 m11 c170 g72
+v42 q4 q18 i99 z7 i29 s151 p141 p246 r194 d202 e39 d35 t164
+i29 m119 y8 m107 g208 y9 Q27 d286 z3 z8 s26 p3 /
+|
+o2 a5 a104 m8 h29 d24 z9 c10 t10 n38 m9 n105 v191 a152 p1…
+c170 t89 g140 d36 L99 c170 r66 r10 n8 s155 y18 p188 z8
+i100 s113 r41 c292 z6 a5 p3 m136 t166 L47 o65 s299 L77 m21…
+d100 z9 t74 p149 f91 c170 s69 n8 m172 e19 a127 p59 d10

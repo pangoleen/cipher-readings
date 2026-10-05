@@ -1,0 +1,26 @@
+# Our transcription of BnF fr. 3019 f. 73-74, a period duplicate of the first letter signed Ranzo in fr. 2988, made from the Gallica images, one pass plus a second look where it differs from the other copy, not checked by a palaeographer.
+# This file: f. 74r, Gallica btv1b9059994n, view 116.
+# Format: one line of the manuscript per line; a group is a base letter and a number; '?' = doubt; a line with '|' alone = a break between two parts of the letter; '/' = the writer's mark at the end of a part.
+# Lines 1-3: number above the letter. From line 4: the number stands after the letter, on the line.
+q48 p47 p150 g94 r10 z8 p246 p321 n7 y9 L47 L99 c170 t74 s113
+r296 p149 t54 y31 [X] a60 z6 r296 a51 z9 d10 n85 c142 s77 b147
+c227 L131 h10 r64 d10 t89 o3 h5 /
+|
+a152 n90 m170 a23 s6 c170 d204 a127 p308 s9 r137 e49 d246
+m170 z9 q18 h57 s116 m8 p149 L47 a153 d37 m10 t7 f9 t8
+z9 v152 s230 d34 m82 m176 f5 a3 c193 v152 o66 p3 a5 /
+|
+s291 z8 d180 t135 v189 d18 h57 r41 c136 D9 t89 v190 a159
+t90 i100 z15 d25 z8 L77 q34 d78 p308 s9 p149 r222
+d35 L10 q12 b26 d205 t74 c170 h57 v114 s326 q18 h32
+p76 t89 Q9 m157 s266 c194 e25 f15 d34 L10 v192 c170
+m170 s8 p235 c8 t89 i246 r41 y21 s292 e73 m170 e8
+f138 r296 z6 f13 i88 r41 q10? q45 c170 p149 t16 e16
+n38 Q18 v137 s233 c227 p246 a180 z9 m136 s113 r296
+d18 n90 h30 h8 d245 m211 t36 d35 e205? s6 f9 m170 p246
+o119 n8 t30 r327 L6 v13 p4 t163 m8 p22 t74 s10 L130
+t10 /
+# q10? in line 12: the first digit has a hook and a foot; it can be read 20.
+# [X] in line 2 = one sign struck out with ink, not legible.
+# In clear under the text: signature "V.o Hieronimo Ranzo" (right); "dupp.ta" with a flourish (lower left).
+# No address, no date in clear. The next view (117, folio number 75) is blank.

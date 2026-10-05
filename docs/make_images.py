@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""make_images.py WORKDIR -- cut the images of docs/img/ from the working images, as crops.json says.
+"""make_images.py WORKDIR [PAGE ...] -- cut the images of docs/img/ from the working images, as crops.json says.
 
 The working images (full-size downloads from Gallica, archive.org and Google Books) are not in the repository.
-WORKDIR is the folder that holds them. build.py does not need this script: it only reads crops.json and docs/img/.
+WORKDIR is the folder that holds them. With one or more PAGE names (the keys of crops.json) the script cuts the
+images of these pages only. build.py does not need this script: it only reads crops.json and docs/img/.
 Each line of crops.json: file, x0, x1 (left and right edge), y (vertical centre at x0), h (height), shear (slope of
 the written line), view (part of the line that the page shows), nseg (the line image is cut in nseg pieces, set one
 above the other), vy (top and bottom of the band that the line image shows), signs (left and right edge of each sign, in pixels of the line), sy (top and bottom of a sign crop).
@@ -13,6 +14,7 @@ Image.MAX_IMAGE_PIXELS = None
 HERE = os.path.dirname(os.path.abspath(__file__))
 WORK = sys.argv[1] if len(sys.argv) > 1 else '.'
 C = json.load(open(os.path.join(HERE, 'crops.json')))
+ONLY = sys.argv[2:]
 
 def save(im, rel, gray=True, q=60):
     p = os.path.join(HERE, 'img', rel)
@@ -29,6 +31,8 @@ def linecrop(d):
 
 total = 0
 for page, P in C.items():
+    if ONLY and page not in ONLY:
+        continue
     short = page
     for name, d in P.get('lines', {}).items():
         line = linecrop(d)

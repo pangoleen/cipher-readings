@@ -1397,5 +1397,65 @@
     "gray": true
    }
   }
+ },
+ "centurione-1528": {
+  "credit": "gallica.bnf.fr / BnF",
+  "boxes": {
+   "fr2988_v20_last_lines": {
+    "file": "venetian1528/img/fr2988_v20_w1500.jpg",
+    "box": [
+     538,
+     920,
+     1500,
+     1046
+    ],
+    "width": 1000,
+    "gray": true
+   },
+   "fr3019_f73r_l3-5": {
+    "file": "venetian1528/explore/G/img/fr3019_v114_c1.jpg",
+    "box": [
+     130,
+     455,
+     2580,
+     988
+    ],
+    "width": 1100,
+    "gray": true
+   },
+   "fr3019_f73v_l15-17": {
+    "file": "venetian1528/explore/G/img/fr3019_v115_w1500.jpg",
+    "box": [
+     505,
+     1130,
+     1462,
+     1378
+    ],
+    "width": 1000,
+    "gray": true
+   },
+   "fr3019_f74r_l5-6": {
+    "file": "venetian1528/explore/G/img/fr3019_v116_c2.jpg",
+    "box": [
+     60,
+     12,
+     2655,
+     388
+    ],
+    "width": 1100,
+    "gray": true
+   },
+   "fr3019_f74r_l14-16": {
+    "file": "venetian1528/explore/G/img/fr3019_v116_c4.jpg",
+    "box": [
+     470,
+     0,
+     3138,
+     700
+    ],
+    "width": 1100,
+    "gray": true
+   }
+  }
  }
 }

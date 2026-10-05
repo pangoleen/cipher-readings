@@ -10,7 +10,7 @@ is docs/data/oxford_lines.txt: three lines of A. Aymeloglu's transcription of th
 The images of docs/img/ are cut by make_images.py; this script only reads crops.json and the image sizes.
 It needs Python 3.8 or later and no other package.
 """
-import ast, difflib, html, importlib.util, json, os, re, struct, sys, unicodedata
+import ast, contextlib, difflib, html, importlib.util, io, json, os, re, struct, sys, unicodedata
 
 sys.dont_write_bytecode = True   # leave no cache folders in the repository
 
@@ -244,6 +244,8 @@ figcaption{font-size:.86rem;color:var(--soft);margin-top:.3rem}
 .k-conflict{border-color:var(--warn)}
 .k-conflict .v,.k-conflict .x{color:var(--warn)}
 .k-doubt .v::after{content:" ?";color:var(--warn)}
+.k-guess{border-style:dashed;border-color:var(--warn)}
+.k-guess .v::after{content:" ??";color:var(--warn)}
 .wd{margin-top:3px;padding-top:1px;border-top:2px solid var(--soft);text-align:center;font-size:1.02rem;min-height:1.5rem;white-space:nowrap}
 .wd.e{border-color:transparent}
 .keygrid{display:flex;flex-wrap:wrap;gap:3px;margin:.6rem 0}
@@ -1380,6 +1382,387 @@ def gonzaga():
     return page('gonzaga-1590.html', title_of(F), body, F)
 
 
+# ---------------------------------------------------------------- centurione-1528
+
+def centurione():
+    P = F = 'centurione-1528'
+    RM, ISL, CTL = F + '/README.md', F + '/reading/islands.md', F + '/evidence/controls.md'
+    readme = rd(RM)
+    dec = load_module(F + '/decode.py', 'centurionedecode')
+    key = dec.load_key()                       # group -> (value, class), read by the script of the folder
+    MARK = {'sure': '', 'probable': '?', 'guess': '??', 'null': ''}
+    KIND = {'sure': 'letter', 'probable': 'doubt', 'guess': 'guess', 'null': 'null'}
+    n_class = {c: sum(1 for v in key.values() if v[1] == c) for c in MARK}
+    check(P, (n_class['sure'], n_class['probable'], n_class['guess']) == (117, 595, 67),
+          'key table: 117 sure, 595 probable, 67 guesses = 779 values')
+    quoted(P, RM, '117 sure, 595 probable, 67 guesses')
+    low = [g for g in key if int(g[1:]) <= 5]
+    check(P, low and all(key[g][1] == 'null' for g in low) and len(low) == n_class['null'],
+          'key table: the %d groups with a number 0 to 5 are nulls, and no other group is' % len(low))
+    for a, b in (("if letter == 'L':", 'L is l'), ("if letter == 't' and number > 196:", 't above 196 is r'),
+                 ("if letter == 'g' and number > 214:", 'g above 214 is s')):
+        check(P, a in rd(F + '/decode.py'), 'decode.py has the rule: ' + b)
+
+    def decoded(rel):
+        """the manuscript lines of a transcription file, each with the output of the folder's decode.py"""
+        buf, old = io.StringIO(), sys.argv
+        sys.argv = ['decode.py', os.path.join(ROOT, F, rel)]
+        try:
+            with contextlib.redirect_stdout(buf):
+                dec.main()
+        finally:
+            sys.argv = old
+        out = buf.getvalue().split('\n')[1:]
+        src = [l for l in rd(F + '/' + rel).splitlines() if not l.startswith('#')]
+        return [(a, b) for a, b in zip(src, out) if a.strip() != '|']
+
+    TX = {f: decoded('transcription/' + f) for f in
+          ('fr2988_v20_last_lines.txt', 'fr3019_p1.txt', 'fr3019_p2.txt', 'fr3019_p3.txt')}
+    check(P, [len(TX[f]) for f in TX] == [2, 23, 23, 16], 'transcription files: 2, 23, 23 and 16 manuscript lines')
+    head = ('# Our transcription of BnF fr. 3019 f. 73-74, a period duplicate of the first letter signed Ranzo in fr. 2988, '
+            'made from the Gallica images, one pass plus a second look where it differs from the other copy, not checked '
+            'by a palaeographer.')
+    for f in ('fr3019_p1.txt', 'fr3019_p2.txt', 'fr3019_p3.txt'):
+        check(P, rd(F + '/transcription/' + f).splitlines()[0] == head, f + ': the header says what the file is')
+    used = []
+
+    def toks(rel, n):
+        src, out = TX[rel][n - 1]
+        res, s, o = [], src.split(), out.split()
+        ok = len(s) == len(o)
+        for t, d in zip(s, o):
+            m = re.match(r'^([A-Za-z])(\d+)(\?)?$', t)
+            if not m:
+                ok = ok and d == t
+                res.append(tok(esc(t), 'end of a part', '', 'stop', extra='') if t == '/' else tok(esc(t), 'not read', '', 'unread', extra=''))
+                continue
+            a, num = m.group(1), int(m.group(2))
+            b = 'l' if a == 'L' else 's' if a == 'g' and num > 214 else 'r' if a == 't' and num > 196 else a
+            g = '%s%d' % (b, num)
+            note = ['%s in the key' % g] if b not in (a, a.lower()) else []
+            if m.group(3):
+                note.append('doubtful sign')
+            if g in key:
+                v, c = key[g]
+                want = v + MARK[c]
+                res.append(tok(esc(t), 'null' if c == 'null' else v, '' if c == 'null' else None, KIND[c],
+                               extra='' if c == 'null' else c, mark='; '.join(note)))
+            elif num <= 5:
+                want, c = '_', 'null'
+                res.append(tok(esc(t), 'null', '', 'null', extra=''))
+            else:
+                want, c = '[%s]' % g, 'none'
+                res.append(tok(esc(t), 'no value', '', 'unread', extra=''))
+            used.append((g, c))
+            ok = ok and d == (t if m.group(3) else want)     # decode.py leaves a group with a doubt mark as it is
+        check(P, ok, '%s line %d: the values of the page are the output of decode.py' % (rel, n))
+        return res
+
+    def worked(rel, first, units, stretch, gloss):
+        """units: the words of each line; stretch and gloss: pieces that must stand in islands.md"""
+        gs, flat = [], []
+        for i, u in enumerate(units):
+            tk = toks(rel, first + i)
+            flat += tk
+            gs.append(group(P, '%s line %d' % (rel, first + i), tk, u))
+        for x in stretch + gloss:
+            quoted(P, ISL, x)
+        d = letter_diffs(''.join(t['L'] for t in flat if t['k'] != 'guess'), norm(' '.join(stretch)))
+        check(P, not d, '%s lines %d to %d: key text (guesses left out) against islands.md: %s' % (
+            rel, first, first + len(units) - 1, 'the same letters' if not d else 'differences %s' % d))
+        html_lines = ''.join('<p class="note">Line %d</p>%s' % (first + i, cells(g, rows3=True)) for i, g in enumerate(gs))
+        text = ' / '.join(' '.join(w + (' (??)' if any(t['k'] == 'guess' for t in tk) else '') for tk, w in g if w) for g in gs)
+        return html_lines, text, flat
+
+    def scan(name, alt, caption):
+        check(P, name in CROPS[P]['boxes'] and os.path.exists(os.path.join(HERE, 'img', P, name + '.jpg')), 'image ' + name)
+        return figure('img/%s/%s.jpg' % (P, name), alt, caption + ' Source: %s.' % CROPS[P]['credit'])
+
+    # ---- the build of the cipher, from the README
+    sect = readme[readme.index('## The cipher'):readme.index('## How it was read')]
+    brows = re.findall(r'^\| ([^|\n]+?) \| ([^|\n]+?) \|$', sect, re.M)
+    check(P, len(brows) == 4 and brows[0] == ('Numbers', 'What they are') and [r[0] for r in brows[1:]] == ['0 to 5', '6 to 9', '10 and above'],
+          'README has the table of the three kinds of numbers')
+    quoted(P, RM, 'The y-groups read "et" (112 of 113 places). The sign Q, a capital letter, reads "con" (46 places).')
+    for sign, word in (('y', 'et'), ('Q', 'con')):
+        vals = [key[g][0] for g in key if g[0] == sign and int(g[1:]) > 5]
+        check(P, vals and set(vals) == {word}, 'key table: the %d %s-groups above 5 have the value "%s"' % (len(vals), sign, word))
+    build_rows = [[md(a), md(b)] for a, b in brows[1:]] + [
+        ['y and a number', 'The word "et" (112 of 113 places).'],
+        ['Q, a capital letter, and a number', 'The word "con" (46 places).']]
+    cl = [x.strip() for x in re.search(r'^\s*\| Cipher letter \|(.+)\|$', sect, re.M).group(1).split('|')]
+    pl = [x.strip() for x in re.search(r'^\s*\| Plain letter \|(.+)\|$', sect, re.M).group(1).split('|')]
+    check(P, len(cl) == len(pl) == 15 and len(set(cl)) == 15, 'README has the alphabet of the numbers 6 to 9: 15 pairs')
+    hits = [(c + str(n), p) for c, p in zip(cl, pl) for n in (6, 7, 8, 9) if c + str(n) in key]
+    check(P, len(hits) >= 45 and all(key[g][0] == p for g, p in hits),
+          'key table: the %d groups of these letters with a number 6 to 9 have the letter of the README alphabet' % len(hits))
+
+    # ---- the worked lines
+    A_html, A_text, A_flat = worked('fr2988_v20_last_lines.txt', 1,
+        ['nel resto affermo quanto per laltra ho scripto vale ex madid',
+         'a di de marzo mille cinquecento vinti octo'],
+        ['nel resto afferm o quanto per laltra ho script o vale ex ma d i d a di de marzo mille cinquecento vinti octo'],
+        ['For the rest I confirm what I wrote by the other. Farewell. From Madrid, the ... of March 1528.'])
+    B_html, B_text, B_flat = worked('fr3019_p1.txt', 3,
+        ['anche per via de lion data li dodeci de febraro con alquante',
+         'linee scripte con lacte sopra la materia de monaco',
+         'ma la magior parte di esse no si e possuta legere'],
+        ['anche per via de lion dat a li', 'de febraro con al quante li ne e script e con la c te sopra la materia de',
+         'ma la magior parte di esse no si e poss u ta lege re'],
+        ['by way of Lyon, dated the', 'of February, with some lines written with milk on the matter of',
+         'but most of them could not be read'])
+    C_html, C_text, C_flat = worked('fr3019_p2.txt', 15,
+        ['con desiderio adviso ma advertisi sopra tuto per quanto',
+         'ti e cara la vita mia de non comunicar questo',
+         'con persona del mondo altra che con toa madre che gia'],
+        ['con desider io adviso ma advert i si sopra tuto per quanto ti e cara la vita mia de non comunic a r questo '
+         'con persona del mo n do altra che con toa madre che gia'],
+        ['of which I wait for word with desire.',
+         'But take care above all, as you hold my life dear, not to share this with anybody in the world except your mother',
+         'for you see already how much the secret matters'])
+    D_html, D_text, D_flat = worked('fr3019_p3.txt', 5,
+        ['mi a quanto ho scripto per le altra de madrd',
+         'a vinti sette de marzo mille cinquecento vinti octo'],
+        ['mi a quanto ho script o per le altra de ma d r d a vinti sette de marzo mille cinquecento vinti octo'],
+        ['refer to what I wrote by the others. From Madrid, 27 March 1528.'])
+    E_html, E_text, E_flat = worked('fr3019_p3.txt', 14,
+        ['dapoi non havendo mo tempo de extendermi piu',
+         'oltra iterum vale tuo padre ti salu',
+         'ta'],
+        ['dapoi non have n do mo tempo de extend e r mi piu oltra i te ru m vale tu o padre ti sa lu ta'],
+        ['as I shall write more fully later', 'having no time now to say more. Again farewell. Your father greets you.'])
+
+    def year(rel, n):
+        g = [t for t in TX[rel][n - 1][0].split() if t != '/']
+        words = [t for t in g if int(re.sub(r'\D', '', t)) > 5]
+        i = g.index('m176')
+        return words[-4:], [t for t in g[i:] if t not in words]
+    y2, nulls2 = year('fr2988_v20_last_lines.txt', 2)
+    y1, nulls1 = year('fr3019_p3.txt', 6)
+    check(P, y1 == y2 == ['m176', 'c193', 'v152', 'o66'] and nulls1 != nulls2,
+          'both date lines end with m176 c193 v152 o66, and the nulls between them differ')
+    quoted(P, RM, 'Both "Ranzo" letters hold the same four groups in the same order, m176 c193 v152 o66, with different nulls between them')
+    quoted(P, RM, 'The place before it is spelled `ma-d-r-d` in one letter and `ma-d-i-d` in the other.')
+    check(P, norm('con persona del mondo altra che con toa madre') in ''.join(t['L'] for t in C_flat),
+          'the worked lines give the words that the README quotes: con persona del mondo altra che con toa madre')
+    check(P, norm('vale tuo padre ti saluta') in ''.join(t['L'] for t in E_flat),
+          'the worked lines give the words that the README quotes: Vale. Tuo padre ti saluta')
+    nu = {c: sum(1 for g, x in used if x == c) for c in ('sure', 'probable', 'guess', 'null', 'none')}
+    guesses = sorted(set(g for g, x in used if x == 'guess'))
+    check(P, nu['none'] == 0 and guesses == ['d251', 'm236'], 'worked lines: every group has a value; the guesses are d251 and m236')
+
+    # ---- the page
+    body = facts(P, RM, [
+        ('Document', 'Paris, BnF, ms. français 3022, no. 20 (a letter dated Madrid, 11 April 1528, to "Garbino") and '
+         'the letters signed "Hieronimo Ranzo" in BnF fr. 2988 and fr. 3019 are written in a cipher of letters with '
+         'small numbers above them.',
+         ['Paris, BnF, ms. français 3022, no. 20 (a letter dated Madrid, 11 April 1528, to "Garbino") and the letters '
+          'signed "Hieronimo Ranzo" in BnF fr. 2988 and fr. 3019 are written in a cipher of letters with small numbers above them.']),
+        ('State', 'The cipher is read for the greater part: 86 % of the cipher text lies in stretches that read as '
+         'connected sense, and the key table has 779 values.',
+         ['The cipher is read for the greater part', '86 % of the cipher text lies in stretches that read as connected sense',
+          'A key table of 779 values']),
+        ('Warning', 'A model did the work, no palaeographer has checked it, and the reading rests on D. Bourdeau\'s '
+         'transcription, which is not copied here.',
+         ['The work was done by a model. No palaeographer has checked it.', "The transcription is D. Bourdeau's",
+          'it is not copied here', 'All readings here rest on his transcription']),
+    ])
+    check(P, len(re.findall(r'^\d+\. `', rd(ISL), re.M)) == 117 and '117 stretches' in readme, 'islands.md has the 117 stretches of the README')
+
+    body += '<h2>The build of the cipher</h2>'
+    body += ('<p>%s On this page a group is written as the letter and then the number: <span class="mono">m176</span> '
+             'is the letter m with the number 176.</p>') % esc(quoted(P, RM, 'A group is a base letter and a number.'))
+    body += table(['Numbers', 'What they are'], build_rows)
+    body += '<p>The alphabet of the numbers 6 to 9:</p>'
+    body += table(['Cipher letter'] + cl, [['Plain letter'] + pl], 'ring')
+    body += ('<p class="note">Example: <span class="mono">z6</span>, <span class="mono">z7</span>, '
+             '<span class="mono">z8</span> and <span class="mono">z9</span> are all the letter a. %s</p>') % esc(
+                 quoted(P, RM, 'The values t, d, q, o, i rest on few places.'))
+    body += '<p>%s</p>' % md(collapse(quoted(P, RM, 'The lists hold many **stems**. The writer adds the ending with a single '
+                                             'letter: `present-e`, `cos-a`, `script-o`, `have-n-do`, `pot-u-ta`.')))
+    body += ('<p>The key table has 779 values: 117 of class sure, 595 probable and 67 guesses. The table as a file: %s. '
+             'The script that applies it: %s.</p>') % (gh(F, 'key/table.tsv'), gh(F, 'decode.py'))
+
+    body += '<h2>Worked lines</h2>'
+    body += ('<p>Each box holds one group: the group as it stands on the page, its value in the key table, and the '
+             'class of the value. A value with <span class="diff">?</span> is probable. A value with '
+             '<span class="diff">??</span> in a box with a broken border is a guess. A value with no mark is sure. '
+             'The line under a group of boxes gives the word; the word division is ours. '
+             '<span class="mono">L</span> is the letter l. <span class="mono">/</span> is the writer\'s mark at the end '
+             'of a part of the letter.</p>')
+    body += ('<p>The worked lines hold %d groups: %d of class sure, %d probable, %d guesses and %d nulls. '
+             'The script takes every value from the key file. The words under the boxes and the English are checked '
+             'against %s.</p>') % (len(used), nu['sure'], nu['probable'], nu['guess'], nu['null'], gh(F, 'reading/islands.md'))
+
+    body += '<h3>The date line of the second "Ranzo" letter (BnF fr. 2988, Gallica <code>btv1b9059908w</code>, view 20)</h3>'
+    quoted(P, RM, 'fr. 2988, Gallica `btv1b9059908w`, view 20')
+    body += scan('fr2988_v20_last_lines', 'BnF fr. 2988, Gallica view 20: the last two lines of the cipher text',
+                 'BnF, ms. français 2988, Gallica view 20: the last two lines of the letter. We read these groups on the image.')
+    body += A_html
+    body += '<blockquote><p class="orig">%s</p><p>%s</p></blockquote>' % (
+        esc(A_text), 'For the rest I confirm what I wrote by the other. Farewell. From Madrid, the ... of March 1528.')
+    check(P, 'the t list has 196 entries' in rd(F + '/decode.py') and 'the r was read as t' in collapse(readme),
+          'decode.py and README: the t list has 196 entries; the r was read as t')
+    body += ('<p class="note">The second group looks like <span class="mono">t203</span>. The t list has 196 entries, '
+             'so the group is <span class="mono">r203</span>, "resto": in these letters the r is easy to read as t. '
+             'Madrid is spelled ma-d-i-d. No number stands between "a di" and "de marzo": the day is left out. '
+             'After <span class="mono">o66</span> the image shows a pale group and, on the next line, '
+             '<span class="mono">o4</span> before the flourish. They are not worked here.</p>')
+
+    quoted(P, RM, 'The duplicate of the first "Ranzo" letter (fr. 3019, f. 73) is a plain copy with the same groups')
+    quoted(P, CTL, 'BnF fr. 3019, f. 73, Gallica `btv1b9059994n`, views 114 to 116')
+    body += ('<p><strong>The first "Ranzo" letter in its duplicate.</strong> The next lines come from our own transcription of BnF fr. 3019, f. 73-74 (Gallica '
+             '<code>btv1b9059994n</code>, views 114 to 116): %s, %s, %s. It is a period duplicate of the first letter '
+             'signed Ranzo in fr. 2988. We made it from the Gallica images: one pass, and a second look where it '
+             'differs from the other copy. No palaeographer has checked it. The file of read stretches lists these '
+             'passages under the first "Ranzo" letter.</p>') % tuple(
+                 gh(F, 'transcription/fr3019_p%d.txt' % i, 'fr3019_p%d.txt' % i) for i in (1, 2, 3))
+
+    body += '<h3>BnF fr. 3019, f. 73r, lines 3 to 5: the lines written with milk</h3>'
+    body += scan('fr3019_f73r_l3-5', 'BnF fr. 3019, f. 73r, lines 3 to 5', 'BnF, ms. français 3019, f. 73r (Gallica view 114), lines 3 to 5.')
+    body += B_html
+    quoted(P, F + '/reading/contents.md', '**(guess: Monaco)**')
+    quoted(P, F + '/reading/contents.md', '"a li dodeci de febraro"')
+    body += ('<blockquote><p class="orig">%s</p><p>... by way of Lyon, dated the [12th: a guess] of February, with some '
+             'lines written with milk on the matter of [Monaco: a guess]; but most of them could not be read ...</p></blockquote>') % esc(B_text)
+    body += ('<p class="note">Two values are guesses: <span class="mono">d251</span> "dodeci" and '
+             '<span class="mono">m236</span> "monaco". The file of read stretches leaves a guess out, so its text and '
+             'its English stop at each of them. The words in square brackets are ours. Words spelled in pieces: '
+             'li-ne-e, script-e, la-c-te (milk), poss-u-ta, lege-re.</p>')
+
+    body += '<h3>BnF fr. 3019, f. 73v, lines 15 to 17: nobody but your mother</h3>'
+    body += scan('fr3019_f73v_l15-17', 'BnF fr. 3019, f. 73v, lines 15 to 17', 'BnF, ms. français 3019, f. 73v (Gallica view 115), lines 15 to 17. The line ends go into the gutter.')
+    body += C_html
+    body += ('<blockquote><p class="orig">%s</p><p>But take care above all, as you hold my life dear, not to share this '
+             'with anybody in the world except your mother</p></blockquote>') % esc(C_text)
+    body += ('<p class="note">The first three words end the sentence before: "of which I wait for word with desire." '
+             'The last two words begin the next part: "for you see already how much the secret matters". '
+             'Stems with their endings: desider-io, advert-i-si, comunic-a-r, mo-n-do.</p>')
+
+    body += '<h3>BnF fr. 3019, f. 74r, lines 5 and 6: the date of the first letter</h3>'
+    body += scan('fr3019_f74r_l5-6', 'BnF fr. 3019, f. 74r, lines 5 and 6', 'BnF, ms. français 3019, f. 74r (Gallica view 116), lines 5 and 6. Here the number stands after the letter.')
+    body += D_html
+    body += '<blockquote><p class="orig">%s</p><p>[I] refer to what I wrote by the others. From Madrid, 27 March 1528.</p></blockquote>' % esc(D_text)
+    body += ('<p class="note">Madrid is spelled ma-d-r-d here and ma-d-i-d in the second letter. Both date lines end '
+             'with the same four groups, <span class="mono">m176 c193 v152 o66</span>, "mille cinquecento vinti octo", '
+             'and the nulls between them differ. The group <span class="mono">v152</span> stands in the day and in the '
+             'year. The first two words belong to "remet-en-do" at the end of line 4.</p>')
+    quoted(P, RM, 'The group v152 stands in the day and in the year')
+    check(P, TX['fr3019_p3.txt'][3][1].split()[-3:] == ['remet?', 'en?', 'do'], 'fr3019_p3.txt line 4 ends with remet-en-do')
+
+    body += '<h3>BnF fr. 3019, f. 74r, lines 14 to 16: the close</h3>'
+    quoted(P, F + '/transcription/fr3019_p3.txt', 'In clear under the text: signature "V.o Hieronimo Ranzo"')
+    body += scan('fr3019_f74r_l14-16', 'BnF fr. 3019, f. 74r, lines 14 to 16 and the signature',
+                 'BnF, ms. français 3019, f. 74r (Gallica view 116), lines 14 to 16, and the signature in clear, "V.o Hieronimo Ranzo".')
+    body += E_html
+    body += ('<blockquote><p class="orig">%s</p><p>... having no time now to say more. Again farewell. Your father '
+             'greets you.</p></blockquote>') % esc(E_text)
+    body += ('<p class="note">"dapoi" ends the part before: "as I shall write more fully later". i-te-ru-m is the Latin '
+             '"iterum". The word "saluta" runs over the end of line 15. Our transcription has a doubt mark at '
+             '<span class="mono">e205</span>.</p>')
+
+    body += '<h2>How far to trust it</h2>'
+    cor = [l for l in rd(F + '/evidence/transcription_corrections.tsv').splitlines()[1:] if l.strip()]
+    check(P, len(cor) == 144, 'transcription_corrections.tsv has 144 rows')
+    for x in ('| Control P1 | 50.5 % | 87.6 % | 75.4 % |', '| Control P2 | 52.4 % | 93.4 % | 83.7 % |',
+              '| 40 probable, one token | 38 | 1 | 1 |', '| all 80 | 72 | 6 | 2 |'):
+        quoted(P, CTL, x)
+    body += sure(P, RM, [
+        ['Blind test on two made-up codes with hidden answers: tokens right', '87.6 % and 93.4 % (the solver alone: 50.5 % and 52.4 %)'],
+        ['Groups of the transcription corrected after the check on the page images', '144'],
+        ['Blind audit: hidden values of the table that a fresh reader restored exactly', '72 of 80 (38 of the 40 that occur once)'],
+        ['A native speaker (Paolo Rosson, who is Italian) read the stretches: open places where he proposed or confirmed a word',
+         'seven (unica, testimonio, rechiesto, tanto, niuno, capitare, sperato). They are marked in the table.'],
+        ['Share of right tokens on the real text', 'about 85 % overall, about 92 % inside the connected stretches. This is an estimate, not a measure.'],
+    ], ['Result: 87.6 % and 93.4 % of the tokens right (the solver alone: 50.5 % and 52.4 %)', '144 groups were corrected',
+        'It restored 72 of the 80 exactly (38 of the 40 that occur once)',
+        'The share of right tokens on the real text is an estimate: about 85 % overall, about 92 % inside the stretches of `reading/islands.md`.'])
+    quoted(P, RM, '**A native speaker.** Paolo Rosson, who is Italian, read the stretches and proposed or confirmed words for '
+           'seven open places (unica, testimonio, rechiesto, tanto, niuno, capitare, sperato). They are marked in the table.')
+    rows = [l.split('\t') for l in rd(F + '/key/table.tsv').splitlines()[1:] if 'native speaker' in l]
+    check(P, sorted(r[1] for r in rows) == ['capitar', 'niuno', 'rechiest', 'sper', 'tanto', 'testimonio', 'unica'],
+          'key table: seven values have the mark of the native speaker, and they are the seven words of the README')
+    nlist = ['n77', 'n84', 'n85']
+    check(P, [key[g][0] for g in nlist] == ['niun', 'niuno', 'no'] and [norm(key[g][0]) for g in nlist] == sorted(norm(key[g][0]) for g in nlist)
+          and not norm(key['n77'][0]) <= 'nessuno' <= norm(key['n85'][0]),
+          'key table: n77 niun, n84 niuno, n85 no keep the order of the list; "nessuno" does not fit between them')
+    body += ('<p>One of the seven, with its neighbours in the list of n. %s</p>' % esc(quoted(
+        P, RM, 'His "nessuno" is "niuno" in the writer\'s own form, and it sorts exactly at the open number.')))
+    body += cells([([tok(g, key[g][0], None, KIND[key[g][1]], extra=key[g][1])], None) for g in nlist], rows3=True)
+    limits = ['So the control proves the method, and it does not measure the real reading.',
+              'All readers are instances of one model. Agreement between them shows that a value is repeatable. It does not prove it.',
+              'The class "probable" is the main risk.',
+              '86 groups (83 tokens) have no value. The weakest page is fr. 3022 f. 46v (66 %).']
+    body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % esc(quoted(P, RM, x)) for x in limits)
+    body += '<p>The test, the check on the images and the audit in full: %s. The corrections: %s.</p>' % (
+        gh(F, 'evidence/controls.md'), gh(F, 'evidence/transcription_corrections.tsv'))
+
+    body += '<h2>Who wrote to whom</h2>'
+    who = readme[readme.index('## Who wrote to whom'):readme.index('**The history of our own statements')]
+    bullets = [collapse(b) for b in re.split(r'\n- ', who)[1:]]
+    check(P, len(bullets) == 4, 'README: four points on who wrote to whom')
+    for x in ('**The "Ranzo" letters (fr. 2988; fr. 3019 f. 73 is a duplicate of the first one) are from a father to his son.**',
+              '**The father is Martino Centurione.**', '**"Hieronimo Ranzo" is a name for the mail.**',
+              '**No. 20 (fr. 3022, Madrid, 11 April 1528) is by the same hand of the network, to another person.**'):
+        quoted(P, RM, x)
+    body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % md(b) for b in bullets)
+    body += '<p class="note">%s</p>' % esc(quoted(P, RM, 'The present one rests on a part reading and can change again.')).replace(
+        'The present one', 'This picture')
+
+    body += '<h2>What the letters say</h2>'
+    body += ('<p>Six sentences from the file of read stretches, with its English. The Italian stands as in the file: '
+             'the pieces of a word are apart.</p>')
+    SAY = [
+        ('Second "Ranzo" letter, to the son',
+         'alcuna volta mi vale ro del la c te et quando lo fa ro te ne a co r ge ra i nel princip io de le littere qual '
+         'comenza ra no fi li dilect i si me si como so gli o fa re a man ti si me fi li',
+         "at times I shall use milk, and when I do it, you will notice it at the beginning of the letters, which will "
+         "begin 'Fili dilectissime', where I usually put 'Amantissime fili'"),
+        ('Second "Ranzo" letter',
+         'adriz and o le qua a hieronimo ra n zo con littera contra fatta',
+         'addressing them here to Hieronimo Ranzo, in a disguised hand'),
+        ('Second "Ranzo" letter',
+         'tene re sempre li zifra et le littere mie in zifra script e et le co pi e de quel che tu etiam in zifra scrive '
+         'tanto caut a mente a s co se che quando le toe scriptur e fusse no cerca te non siano mai esse trova te',
+         'to keep the ciphers, and my letters written in cipher, and the copies of what you also write in cipher, always '
+         'so carefully hidden that, if your papers were searched, they would never be found'),
+        ('Second "Ranzo" letter',
+         'procura soa signoria de far mi proved e re de una president ia in la ca me ra de la su maria de napoli',
+         'His Lordship works to have me given a presidency in the Camera della Sommaria of Naples'),
+        ('No. 20, f. 45r, on the Duke',
+         'le contra rie opere soe fatte non siano volunta rie salvo violent e',
+         'the contrary deeds he has done are not of his will but forced'),
+        ('No. 20, f. 46r, on the court',
+         'e la in resolucione che mai o tanto tardi si resolu en no in tute che ogni effecto lor e le piu volte fora di tempo',
+         'is the irresolution: that never, or so late, do they decide in all (things) that every effect of theirs is '
+         'most times out of season'),
+    ]
+    body += '<ul>%s</ul>' % ''.join('<li>%s. <span class="orig">%s</span><br>%s.</li>' % (
+        esc(w), esc(quoted(P, ISL, a)), esc(quoted(P, ISL, b))) for w, a, b in SAY)
+    body += '<p class="note">%s</p>' % esc(quoted(P, RM, 'The name is read through a corrected base letter.')).replace(
+        'The name', 'The name "Ranzo"')
+    body += '<p>All 117 stretches: %s. What each letter is about, with the doubtful points marked: %s.</p>' % (
+        gh(F, 'reading/islands.md'), gh(F, 'reading/contents.md'))
+
+    body += '<h2>Files and credits</h2>'
+    credits = ['**Satoshi Tomokiyo** listed the cipher, saw that the base letter is the initial of the word, and guessed '
+               'that the code is alphabetical.',
+               '**Daniel Bourdeau** (`dbourdeau/cyphersolver`, target `vasto1527`) transcribed the letters. All readings '
+               'here rest on his transcription.',
+               '**NoAutopilot/cipher-lab** checked the editions and the clear postscript, tested the g/s relabelling, and '
+               'compared the two copies of the first "Ranzo" letter (fr. 2988 and fr. 3019) on 3 October 2026. Our '
+               'comparison reproduces theirs.',
+               '**G. Molini** (1837) printed the clear letter of January 1528.']
+    body += ('<ul><li>The folder: <a href="%s/tree/main/%s">%s</a>.</li><li>The key table: %s.</li>'
+             '<li>The read stretches: %s.</li><li>The corrections to the transcription: %s.</li>'
+             '<li>Our transcription of the duplicate, and the two lines of view 20: <a href="%s/tree/main/%s/transcription">'
+             '<code>transcription/</code></a>.</li></ul>') % (
+                 REPO, F, F, gh(F, 'key/table.tsv'), gh(F, 'reading/islands.md'),
+                 gh(F, 'evidence/transcription_corrections.tsv'), REPO, F)
+    body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % md(collapse(quoted(P, RM, c))) for c in credits)
+    return page('centurione-1528.html', title_of(F), body, F)
+
+
 # ---------------------------------------------------------------- index
 
 def index():
@@ -1395,13 +1778,16 @@ def index():
             'below shows one result in a form that you can check by hand: the key, a few lines of cipher, and the '
             'decoding token by token.</p>')
     body += table(['Page', 'Document', 'What is new', 'State'], trs)
-    body += ('<p><strong>A seventh result, read for the greater part:</strong> the "Venetian?" cipher with superscript '
+    body += ('<p><strong>A seventh result, read for the greater part:</strong> '
+             '<a href="centurione-1528.html"><strong>centurione-1528</strong></a>, the "Venetian?" cipher with superscript '
              'digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). 86 %% of the text reads as '
-             'connected sense. The key table, the read stretches, the blind test and the blind audit are in the folder '
+             'connected sense. The page shows the build of the cipher and worked lines. The key table, the read '
+             'stretches, the blind test and the blind audit are in the folder '
              '<a href="%s/tree/main/centurione-1528">centurione-1528</a>. To check it by hand: the last line of the '
              'second "Ranzo" letter (BnF fr. 2988, Gallica view 20) has the groups m176, c193, v152, o66 with small '
              'numbers between them; they read "mille cinquecento vinti octo".</p>') % REPO
     check(P, os.path.exists(os.path.join(ROOT, 'centurione-1528', 'key', 'table.tsv')), 'centurione-1528 has its key table')
+    check(P, os.path.exists(os.path.join(HERE, 'centurione-1528.html')), 'page for centurione-1528')
     body += ('<h2>How the work was done</h2><p><strong>The work was done by a model</strong> (Claude, by Anthropic, '
              'running as Claude Code with subagents), directed by Paolo Rosson. No palaeographer or historian has '
              'checked it yet.</p><p>Most cipher lines had two transcription passes, the second one blind. Each reading '
@@ -1423,7 +1809,7 @@ def index():
 
 
 if __name__ == '__main__':
-    made = [oxford(), cocquet(), es318(), dutch(), es132(), gonzaga(), index()]
+    made = [oxford(), cocquet(), es318(), dutch(), es132(), gonzaga(), centurione(), index()]
     bad = [c for c in CHECKS if not c[1]]
     by = {}
     for p, ok, t in CHECKS:
@@ -1432,6 +1818,6 @@ if __name__ == '__main__':
         for p, ok, t in CHECKS:
             print('ok  ' if ok else 'FAIL', p, t)
     for p, (a, b) in by.items():
-        print('%-14s %3d checks passed, %d failed' % (p, a, b))
+        print('%-15s %3d checks passed, %d failed' % (p, a, b))
     print('pages:', ', '.join(made))
     sys.exit(1 if bad else 0)

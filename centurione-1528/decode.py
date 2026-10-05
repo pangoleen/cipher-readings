@@ -8,6 +8,9 @@ A transcription file holds one line of the manuscript per line. A cipher group i
 D. Bourdeau's transcription files (github.com/dbourdeau/cyphersolver, targets/vasto1527) have this format.
 They are not copied here: his repository has no licence.
 
+The script first applies our corrections to that transcription (evidence/transcription_corrections.tsv: file,
+line, position, old group, new group), which come from a check on the page images.
+
 Output: each line with every group replaced by its value. Classes: plain = sure, value? = probable,
 value?? = guess, [group] = no value, _ = null (numbers 0 to 5)."""
 import re, sys, os
@@ -24,23 +27,25 @@ def load_key():
     return key
 
 
-def fix(letter, number):
-    """Corrections of the base letter that the lists force (see README)."""
-    if letter == 'L':
-        letter = 'l'
-    if letter == 'g' and number > 214:
-        letter = 's'
-    if letter == 't' and number > 196:
-        letter = 'r'
-    return letter, number
+def load_corrections():
+    """Our corrections to the transcription, by file name, line of the file and position in the line."""
+    cor = {}
+    path = os.path.join(HERE, 'evidence', 'transcription_corrections.tsv')
+    for line in open(path, encoding='utf8').read().split('\n')[1:]:
+        f = line.split('\t')
+        if len(f) == 5:
+            cor[(f[0], int(f[1]), f[3])] = f[4]
+    return cor
 
 
 def main():
     key = load_key()
+    cor = load_corrections()
     mark = {'sure': '', 'probable': '?', 'guess': '??', 'null': ''}
     for path in sys.argv[1:]:
-        print('## ' + os.path.basename(path))
-        for line in open(path, encoding='utf8'):
+        name = os.path.basename(path)
+        print('## ' + name)
+        for lineno, line in enumerate(open(path, encoding='utf8'), 1):
             line = line.rstrip('\n')
             if line.startswith('#'):
                 continue
@@ -49,11 +54,20 @@ def main():
                 continue
             out = []
             for tok in line.split():
+                tok = cor.get((name, lineno, tok), tok)
+                if tok == '(delete)':
+                    continue
                 m = re.match(r'^([A-Za-z])(\d+)$', tok)
                 if not m:
                     out.append(tok)
                     continue
-                letter, number = fix(m.group(1), int(m.group(2)))
+                letter, number = m.group(1), int(m.group(2))
+                if letter == 'L':
+                    letter = 'l'
+                if letter == 'g' and number > 214:   # the g list has 214 entries: an 8-like s
+                    letter = 's'
+                if letter == 't' and number > 196:   # the t list has 196 entries: a tau-like r
+                    letter = 'r'
                 g = '%s%d' % (letter, number)
                 if g in key:
                     v, c = key[g]

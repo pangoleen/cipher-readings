@@ -87,7 +87,7 @@ c42	can	probable	1	new; lassar .. da can-to
 c48	cancellar	probable	1	kept; class guess -> probable
 c50	capo	guess	1	new
 c51	capi	probable	1	new; capi-to-r-no
-c65	capit	guess	1	new
+c65	capitar	probable	1	capitar-e in palazo a man de governanti; a native speaker read capite/capire; sorts between capi and car
 c75	car	probable	2	kept
 c76	cara	probable	1	kept
 c85	carta	probable	1	kept
@@ -431,6 +431,7 @@ n57	nega	probable	2	kept; order conflict with n47 negocii
 n60	nel	probable	7	kept
 n71	ni	probable	3	kept
 n77	niun	probable	5	kept
+n84	niuno	probable	1	a native speaker proposed "nessuno"; the writer's form niuno sorts exactly here (after niun 77)
 n85	no	probable	15	kept
 n86	no	probable	9	kept
 n87	no	probable	4	kept
@@ -620,7 +621,7 @@ r211	retard	guess	1	kept
 r215	restitucione	guess	1	new
 r222	resposta	probable	3	kept; order conflict with r205 rest, r204 resta
 r232	reten	probable	1	kept
-r261	rechiest	guess	1	new
+r261	rechiest	probable	1	guess confirmed by a native speaker: salvo conducto rechiesto
 r268	ri	probable	4	kept
 r269	ria	probable	3	kept
 r271	rie	sure	4	kept; family order
@@ -695,6 +696,7 @@ s291	sono	probable	4	kept
 s292	sopra	probable	5	kept
 s299	sotto	probable	6	kept
 s305	sosten	guess	1	new
+s316	sper	guess	1	proposed by a native speaker: sper-ato; sorts just before spero 320; the sense is not clear
 s320	spero	sure	6	kept; family order
 s321	sper	probable	1	new; family order; ne sper-a bene
 s322	speranz	probable	1	kept
@@ -715,6 +717,7 @@ t8	d	probable	1	kept
 t9	d	probable	1	kept
 t10	ta	probable	13	kept
 t16	tal	probable	6	kept
+t17	tanto	probable	1	proposed by a native speaker: con la penna tanto piena de lacte; tanta is also possible
 t19	tanto	probable	4	kept
 t22	tardi	probable	1	new; mai o tanto tardi si resolu-en-no
 t30	te	sure	37	kept
@@ -722,7 +725,7 @@ t36	tempo	probable	2	kept
 t41	re	sure	3	changed from the last pass (was: re, sure, as a misread of another group); value does not begin with the base letter; true t on the image in no. 20, but the value is 're' in all 3 places (funda-re, po-ne-re, domand-a-re)
 t49	tene	probable	1	kept
 t54	terra	probable	2	kept
-t64	testimonio	guess	2	new; render bon testimonio (D03); the place in D01 does not read
+t64	testimonio	probable	2	guess confirmed by a native speaker for both places
 t74	ti	probable	27	kept
 t89	to	sure	55	kept
 t90	toa	probable	4	kept
@@ -769,6 +772,7 @@ v189	un	probable	1	kept; class guess -> probable
 v190	una	probable	7	kept
 v191	uno	probable	5	kept
 v192	unione	probable	2	kept; order conflict with v191 uno
+v197	unica	probable	1	proposed by a native speaker (P. Rosson): la vera et unica via; una is v190
 v205	vo	sure	4	kept
 v206	voi	probable	3	kept
 v208	voglia	probable	2	new; order conflict with v206 voi; qual-si-voglia; ad ogni voglia; voglia-no

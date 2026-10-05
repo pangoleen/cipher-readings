@@ -1395,6 +1395,13 @@ def index():
             'below shows one result in a form that you can check by hand: the key, a few lines of cipher, and the '
             'decoding token by token.</p>')
     body += table(['Page', 'Document', 'What is new', 'State'], trs)
+    body += ('<p><strong>A seventh result, read in part:</strong> the "Venetian?" cipher with superscript digits of '
+             '1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). About half of the text reads as '
+             'connected sense. The key table, the read stretches and the blind test are in the folder '
+             '<a href="%s/tree/main/centurione-1528">centurione-1528</a>. To check it by hand: the last line of the '
+             'second "Ranzo" letter (BnF fr. 2988, Gallica view 20) has the groups m176, c193, v152, o66 with small '
+             'numbers between them; they read "mille cinquecento vinti octo".</p>') % REPO
+    check(P, os.path.exists(os.path.join(ROOT, 'centurione-1528', 'key', 'table.tsv')), 'centurione-1528 has its key table')
     body += ('<h2>How the work was done</h2><p><strong>The work was done by a model</strong> (Claude, by Anthropic, '
              'running as Claude Code with subagents), directed by Paolo Rosson. No palaeographer or historian has '
              'checked it yet.</p><p>Most cipher lines had two transcription passes, the second one blind. Each reading '
@@ -1407,9 +1414,10 @@ def index():
              'Catholic League of 22 July 1593, read for the first time (BnF fr. 3984).</li>'
              '<li><a href="https://github.com/pangoleen/senecey-1594">pangoleen/senecey-1594</a>: two League letters of '
              '1594, read with the alphabet that the royal decipherers rebuilt (BnF, Cinq Cents de Colbert 33).</li></ul>')
-    body += ('<p>Four of these documents are on S. Tomokiyo\'s list of '
+    body += ('<p>Five of these documents are on S. Tomokiyo\'s list of '
              '<a href="https://cryptiana.web.fc2.com/code/unsolved.htm">unsolved historical ciphers</a>: the letter to '
-             'Charles I, Cocquet\'s cipher, the Dutch ciphers of 1653, and the Spanish letters of 1497 to 1504. '
+             'Charles I, Cocquet\'s cipher, the Dutch ciphers of 1653, the Spanish letters of 1497 to 1504, and the '
+             'cipher with superscript digits of 1528. '
              'All files are in the repository <a href="%s">pangoleen/cipher-readings</a>.</p>') % REPO
     return page('index.html', 'Readings of historical ciphers', body)
 

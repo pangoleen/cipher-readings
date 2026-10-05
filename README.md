@@ -34,7 +34,9 @@ The writer of no. 20 writes "voi" and signs "v[ost]ro": "io non saperia consigli
 reports the Chancellor's gout and lack of money, advises the addressee not to come to court yet, and works for
 "il S[ign]or prior de Barleta". This is a man near the Chancellor who writes to a client or friend. It can be the
 "Hieronimo Ranzo" of the other letters: a Girolamo Ranzo of Vercelli was Gattinara's kinsman and chamberlain.
-No. 20 has no name in its signature, so this is a hypothesis. Who "Garbino" at Lucca was is open.
+D. Bourdeau proposed Ranzo as the writer before us (his notes of 18 to 22 September 2026), from the shared code.
+We should have followed him. No. 20 has no name in its signature, so this stays a hypothesis. Who "Garbino" at
+Lucca was is open.
 
 What holds: the cipher of no. 20 and of the "Ranzo" letters is the cipher that Martino shared with his son. Why a
 man of the Chancellor's household and a Genoese envoy used the same code is not known.
@@ -79,7 +81,9 @@ three BnF volumes were searched.
 
 - **Satoshi Tomokiyo** listed the cipher and saw that the base letter is the initial of the word.
 - **Daniel Bourdeau** (`dbourdeau/cyphersolver`, target `vasto1527`) transcribed the letters and found that the
-  copy in Clairambault 327 has its original in fr. 3022. His transcription was used here and is not copied.
+  copy in Clairambault 327 has its original in fr. 3022. He named Hieronimo Ranzo, "Gattinara's man", as the
+  probable writer of no. 20, and he described ff. 48-50 as the kit of an agent (cover names, and a sheet of
+  cover phrases). His transcription was used here and is not copied.
 - **NoAutopilot/cipher-lab** checked the edition and the clear postscript.
 - None of them names Centurione (checked on 5 October 2026).
 - **G. Molini** (1837) printed the clear letter.

@@ -7,9 +7,9 @@ It is on S. Tomokiyo's list of unsolved historical ciphers as "Venetian? Cipher 
 **Status: 5 October 2026. The cipher is NOT read.** This folder gives two findings on the way: the owner of the
 cipher, and its structure. The work was done by a model. No palaeographer has checked it.
 
-## Finding 1: the cipher is Genoese, and "Garbino" is a cover name
+## Finding 1: Martino Centurione used this cipher, and "Garbino" is a name in it
 
-The cipher belongs to Martino Centurione, the envoy of Genoa at the court of Charles V, and his son Girolamo
+Martino Centurione, the envoy of Genoa at the court of Charles V, used this cipher with his son Girolamo
 (Hieronimo) in Genoa.
 
 - A clear letter of Martino to his son, Burgos, 16-17 January 1528, is in the same volume (fr. 3022, f. 58).
@@ -25,8 +25,19 @@ The cipher belongs to Martino Centurione, the envoy of Genoa at the court of Cha
   Stephano Centurione, Ansaldo Grimaldo, the secretary Perez).
 - No. 20 and a leaf of the "Ranzo" letters (fr. 2988, f. 11v) carry the same cover address, "Garbino" at Lucca.
 
-So no. 20 is a letter of Martino Centurione to his son under a cover name. It is not the report of a Venetian
-agent. Who signed as "Hieronimo Ranzo" is open.
+So the cipher is not Venetian: a Genoese envoy at the Emperor's court used it.
+
+**Correction of 5 October 2026.** An earlier version of this page said that no. 20 is a letter of Martino to his
+son. The clear passages of no. 20 do not support that. Martino writes "tu" to his son in the letter of January.
+The writer of no. 20 writes "voi" and signs "v[ost]ro": "io non saperia consigliarvi la venuta v[ost]ra qua"
+(f. 44v), "a voi ... mi offero" (f. 46v). He gives the addressee's letters to the Grand Chancellor (Gattinara),
+reports the Chancellor's gout and lack of money, advises the addressee not to come to court yet, and works for
+"il S[ign]or prior de Barleta". This is a man near the Chancellor who writes to a client or friend. It can be the
+"Hieronimo Ranzo" of the other letters: a Girolamo Ranzo of Vercelli was Gattinara's kinsman and chamberlain.
+No. 20 has no name in its signature, so this is a hypothesis. Who "Garbino" at Lucca was is open.
+
+What holds: the cipher of no. 20 and of the "Ranzo" letters is the cipher that Martino shared with his son. Why a
+man of the Chancellor's household and a Genoese envoy used the same code is not known.
 
 ## Finding 2: the structure
 
@@ -44,6 +55,9 @@ An earlier test by another project found the numbering "not alphabetical". That 
 list of whole words; the same kind of test gives only z = 1.7 here.
 
 ## What is read: fragments only
+
+The letter no. 20 and the "Ranzo" letters do not use the additions of f. 50: no group has a number above the old
+length of its list. So the additions give no certain value in these texts.
 
 About 25 values are probable, by context and by their place in the alphabet. None has an outside proof. They give
 fragments such as "non ho pero (?) voluto", "in Italia", "del presente (?) & del seguente farete avisato"

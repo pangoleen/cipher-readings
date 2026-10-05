@@ -1,99 +1,156 @@
-# The "Garbino" cipher of 1528: whose it is, and how it is built
+# The "Garbino" cipher of 1528: read in part
 
 Paris, BnF, ms. français 3022, no. 20 (a letter dated Madrid, 11 April 1528, to "Garbino") and the letters signed
 "Hieronimo Ranzo" in BnF fr. 2988 and fr. 3019 are written in a cipher of letters with small numbers above them.
 It is on S. Tomokiyo's list of unsolved historical ciphers as "Venetian? Cipher with Superscript Digits (1528)".
 
-**Status: 5 October 2026. The cipher is NOT read.** This folder gives two findings on the way: the owner of the
-cipher, and its structure. The work was done by a model. No palaeographer has checked it.
+**Status: 5 October 2026. The cipher is read in part.** About half of the text reads as connected
+sense ([reading/islands.md](reading/islands.md), 144 stretches). The rest has gaps and guesses. The work was done
+by a model. No palaeographer has checked it. We did not make the transcription: it is D. Bourdeau's, and it is
+not copied here.
 
-## Finding 1: Martino Centurione used this cipher, and "Garbino" is a name in it
+## What is new
 
-Martino Centurione, the envoy of Genoa at the court of Charles V, used this cipher with his son Girolamo
-(Hieronimo) in Genoa.
+1. **The build of the cipher.** It is a code of stems, with a small alphabet of single letters for the endings.
+2. **A key table of 634 values** ([key/table.tsv](key/table.tsv)): 118 sure, 352 probable, 164 guesses.
+3. **The dates.** Both "Ranzo" letters are of Madrid, March 1528. The catalogue has them without a date.
+4. **The writer.** The "Ranzo" letters are letters of a father to his son. The father is Martino Centurione,
+   envoy of Genoa at the court of Charles V. "Hieronimo Ranzo" is the name under which he gets his mail.
+5. **The content**, in summary: [reading/contents.md](reading/contents.md).
 
-- A clear letter of Martino to his son, Burgos, 16-17 January 1528, is in the same volume (fr. 3022, f. 58).
-  G. Molini printed it in 1837 (*Documenti di storia italiana*, ii, no. CLXIV). So the text is reproduced; the
-  link to the cipher is the new part.
-- In its postscript the father gives additions to the cipher ([image](images/fr3022_f58_cipher_values.jpg)):
-  "Poi che vedo havere tu receputo el zifra mandato per via de Roma ... a la l[itte]ra r agiongeraili recevut.
-  r336 et receu. r337 / & a la l[itte]ra G garbino g215".
-- The same three values stand on the sheet "Aditione nel zifra" in the volume (f. 50;
-  [image](images/fr3022_f50_aditione.jpg)).
-- The old docket of the letter says that the letters "sono a nome del Garbino".
-- The list of cover names in the volume (ff. 48-49) has the persons that the clear letter names (Jacobo and
-  Stephano Centurione, Ansaldo Grimaldo, the secretary Perez).
-- No. 20 and a leaf of the "Ranzo" letters (fr. 2988, f. 11v) carry the same cover address, "Garbino" at Lucca.
+## The cipher
 
-So the cipher is not Venetian: a Genoese envoy at the Emperor's court used it.
+A group is a base letter and a number.
 
-**Correction of 5 October 2026.** An earlier version of this page said that no. 20 is a letter of Martino to his
-son. The clear passages of no. 20 do not support that. Martino writes "tu" to his son in the letter of January.
-The writer of no. 20 writes "voi" and signs "v[ost]ro": "io non saperia consigliarvi la venuta v[ost]ra qua"
-(f. 44v), "a voi ... mi offero" (f. 46v). He gives the addressee's letters to the Grand Chancellor (Gattinara),
-reports the Chancellor's gout and lack of money, advises the addressee not to come to court yet, and works for
-"il S[ign]or prior de Barleta". This is a man near the Chancellor who writes to a client or friend. It can be the
-"Hieronimo Ranzo" of the other letters: a Girolamo Ranzo of Vercelli was Gattinara's kinsman and chamberlain.
-D. Bourdeau proposed Ranzo as the writer before us (his notes of 18 to 22 September 2026), from the shared code.
-We should have followed him. No. 20 has no name in its signature, so this stays a hypothesis. Who "Garbino" at
-Lucca was is open.
+| Numbers | What they are |
+|---|---|
+| 0 to 5 | Nulls. They stand between words, in a different place each time. |
+| 6 to 9 | One alphabet of single letters. The base letter is the cipher letter; 6, 7, 8 and 9 are four signs for the same letter. |
+| 10 and above | The list of the base letter. The value begins with the base letter. The list runs in alphabetical order, by word family (altro, altra, altre). |
 
-What holds: the cipher of no. 20 and of the "Ranzo" letters is the cipher that Martino shared with his son. Why a
-man of the Chancellor's household and a Genoese envoy used the same code is not known.
+- The lists hold many **stems**. The writer adds the ending with a single letter: `present-e`, `cos-a`,
+  `script-o`, `have-n-do`, `pot-u-ta`. A word that is not in the list is spelled from syllables and letters:
+  `ma-d-r-d` (Madrid), `re-ce-vu-to`, `carta-ge-ni-a`.
+- **The alphabet of the numbers 6 to 9**, from the contexts:
 
-## Finding 2: the structure
+  | Cipher letter | z | s | f | e | c | v | t | d | q | h | m | n | l | o | i |
+  |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+  | Plain letter | a | e | r | s | u | c | d | t | g | n | o | i | m | l | p |
 
-- A group is a base letter and a number. The base letter is the first letter of the word. The father's own words
-  above prove it: "recevut." goes under r, "garbino" under g.
-- The addition sheet gives the length of each list before the additions (a 326, b 156, c 326, d 307, and so on).
-- **The numbers run in alphabetical order.** The frequency profile of the numbers, in number order, was set against
-  the profile of Italian units in alphabetical order, with the order kept and the spacing free. Against 2,000
-  shuffles the real order ranks first (z = 4.1; the letter no. 20 alone 4.5; the "Ranzo" letters alone 3.9). A code
-  made up in alphabetical order gives z of about 7 in the same test, and the same code shuffled gives 0.
-- The lists hold syllables, stems and endings beside words, and several numbers in a row can stand for one value
-  (d34 to d37 all stand before "la, le, li").
+  The first nine pairs are the alphabet of 21 letters read backwards (a-z, b-x, c-u, d-t, e-s, f-r, g-q). The
+  last six are the middle of the alphabet in another order; we do not know its rule. The values t, d, q, o, i
+  rest on few places.
+- The y-groups are clause marks. The Q-groups probably read "con".
+- Before this was seen, the numbers 6 to 9 were taken for one value of the base letter, and z6 to z9 for nulls.
+  That is why solvers gave no sense.
 
-An earlier test by another project found the numbering "not alphabetical". That test used ten fixed bins and a
-list of whole words; the same kind of test gives only z = 1.7 here.
+## How it was read, and how far to trust it
 
-## What is read: fragments only
+1. A solver that uses the alphabetical order gives a first decode. On made-up codes of the same build it has
+   about half of the tokens right.
+2. A reader then works like a codebreaker by hand: propose a word from the context, check that it keeps the
+   order of the list, read all places of the group, accept or drop. The reader is a model.
+3. **A blind control.** Two made-up codes with hidden answers went through the same procedure. The readers saw
+   only their own package. Result: 87.6 % and 93.4 % of the tokens right (the solver alone: 50.5 % and 52.4 %).
+   Details: [evidence/controls.md](evidence/controls.md).
+4. Two readers then read the real text, each alone. A third pass merged them and tested the alphabet of 6 to 9.
 
-The letter no. 20 and the "Ranzo" letters do not use the additions of f. 50: no group has a number above the old
-length of its list. So the additions give no certain value in these texts.
+**The limits, stated plainly.**
 
-About 25 values are probable, by context and by their place in the alphabet. None has an outside proof. They give
-fragments such as "non ho pero (?) voluto", "in Italia", "del presente (?) & del seguente farete avisato"
-([fragments.md](fragments.md)). A solver that uses the alphabetical order gets 51 to 56 % of the tokens right on
-a made-up code of the same kind. On the real text it gives a skeleton and no sense.
+- The real cipher has features that the made-up codes did not have (the stems and the alphabet of 6 to 9). So
+  the control proves the method, and it does not measure the real reading. The share of right tokens on the real
+  text is an estimate: about 75 % overall, about 93 % inside the stretches of `reading/islands.md`.
+- All readers are instances of one model. Agreement between them shows that a value is repeatable. It does not
+  prove it.
+- 84 tokens are read through a corrected base letter (g for s, t for r). They carry a `*`. The transcription
+  needs a check on the images at these places.
+- About 25 pairs of values break the order of their list. They are flagged in the table.
+- 242 groups have no value. The weakest pages are fr. 3022 ff. 45r and 46v.
 
-A second, stronger solver (5 October) gave the same answer. On made-up codes with the real list lengths it gets
-54 % of the tokens right with 20 known values, and it needs about 400 known values (about 20 for each letter) to
-reach 85 %. We have about 20 probable values and no certain one. So the method cannot read the letter now.
+**Signs that the reading is real.** None of them was used as a crib by the reader who found it.
 
-## What would open it
+- The alphabet of 6 to 9. A reader found z = a, s = e, c = u, f = r, e = s, t = d from the contexts alone. These
+  six pairs are a reversed alphabet. Nobody had told the reader to expect a rule.
+- The date line. Both "Ranzo" letters hold the same four groups in the same order, m176 c193 v152 o66, with
+  different nulls between them: "mille cinquecento vinti octo". The group v152 stands in the day and in the
+  year ("vinti sette de marzo ... vinti octo"). The place before it is spelled `ma-d-r-d` in one letter and
+  `ma-d-i-d` in the other. All these values keep the order of their lists (ma 10, marzo 82, mille 176).
+- The clear runs of no. 20 go on into the cipher runs without a break of sense: "DAPOI DE HAVERVI SCRIPTO PER
+  PIU LETTERE a genoa per man de hieronimo".
+- The words that the sheet f. 50 adds to the lists (cosa, suo, stato, the future endings) are the words that the
+  letters spell out piece by piece. And the letter itself announces the sheet: "mandoti una altra adicione del
+  zifra presente". (The last pass knew the sheet; the first two readers did not.)
 
-Girolamo's own cipher letter of 10 December 1527, the base table of the cipher, or a decipherment. The places to
-look are the Archivio di Stato of Genoa (letters of the ministers in Spain) and Simancas. We found none in print:
-Sanuto's diaries (vols. 44-49), Bornate, the Calendar of State Papers, Spain, and the printed catalogue of the
-three BnF volumes were searched.
+## Who wrote to whom
+
+- **The "Ranzo" letters (fr. 2988; duplicate in fr. 3019) are from a father to his son.** They say "tu". They
+  close "Vale. Tuo padre ti saluta". The father says that his secret letters begin "Fili dilectissime", "where I
+  usually put Amantissime fili". He forbids the son to speak of one matter "con persona del mondo altra che con
+  toa madre".
+- **The father is Martino Centurione.** His clear letter to his son Girolamo (fr. 3022, f. 58, Burgos, 16-17
+  January 1528, printed by Molini in 1837) begins "Amantissime fili", sends additions to this same cipher
+  ("a la littera r agiongeraili recevut. r336 ... garbino g215"; the same values stand on the sheet f. 50), and
+  names the same persons and matters: Cattaneo, Savona, the "Unione", the way of Lyon.
+- **"Hieronimo Ranzo" is a name for the mail.** The father orders the son to send his letters "qua a Hieronimo
+  Ranzo". A Girolamo Ranzo was chamberlain of the Grand Chancellor Gattinara. The signature "V.o Hieronimo
+  Ranzo" under the father's letters is then a cover. (The name is read through a corrected base letter.)
+- **No. 20 (fr. 3022, Madrid, 11 April 1528) is by the same hand of the network, to another person.** The writer
+  says "voi". He writes "all the time to Hieronimo" at Genoa, and has ordered him to send the addressee a copy,
+  with "our cipher". So he is probably Martino again, and the Hieronimo at Genoa is his son. The addressee is
+  not the son. "Garbino" at Lucca is a cover address: the clear letter of January says that the son wrote "in
+  zifra in nome del Garbino de Luca".
+
+**The history of our own statements, for the record.** On 5 October in the morning this page said that no. 20
+is a letter of Martino to his son. At noon we withdrew that, because no. 20 says "voi", and we named Ranzo as
+the probable writer, as D. Bourdeau had done before us. The reading now shows a third picture: the father and
+son letters are the "Ranzo" letters, and no. 20 is probably Martino to somebody else. Each step followed the
+evidence of its hour. The present one rests on a part reading and can change again.
+
+## What the letters say, in short
+
+- **To the son (March 1528).** Letters written "with milk" could mostly not be read: leave more room between the
+  ink lines. Report more, and day by day, above all on Savona. Send what the Emperor must see in separate
+  letters, in the large cipher, in a disguised hand, under another name. Keep the ciphers and copies hidden. The
+  father hopes for a presidency in the "Camera de la Sumaria" of Naples, with the favour of the Grand
+  Chancellor. He sends "una altra adicione" to the cipher.
+- **No. 20 (April 1528).** Money that the Emperor provided for Italy. The armies in the Kingdom of Naples. Who
+  will govern Naples: "at times there was talk of the Grand Chancellor, at times of ..., at times of the
+  Archbishop of Toledo". The Emperor leaves for Valencia "a li vinti del presente".
+
+More, with the doubtful points marked: [reading/contents.md](reading/contents.md).
+
+## To check it
+
+1. Take a transcription of the letters (D. Bourdeau's: `dbourdeau/cyphersolver`, `targets/vasto1527`).
+2. Run `python3 decode.py FILE`. It applies `key/table.tsv`. A value with `?` is probable, with `??` a guess.
+3. Compare with [reading/islands.md](reading/islands.md).
+
+A quick test by hand: the last line of the second "Ranzo" letter (fr. 2988, Gallica `btv1b9059908w`, view 20)
+has the groups m176, c193, v152, o66 with small numbers between them. They read "mille cinquecento vinti octo".
 
 ## Earlier work, and what this folder owes
 
-- **Satoshi Tomokiyo** listed the cipher and saw that the base letter is the initial of the word.
-- **Daniel Bourdeau** (`dbourdeau/cyphersolver`, target `vasto1527`) transcribed the letters and found that the
-  copy in Clairambault 327 has its original in fr. 3022. He named Hieronimo Ranzo, "Gattinara's man", as the
-  probable writer of no. 20, and he described ff. 48-50 as the kit of an agent (cover names, and a sheet of
-  cover phrases). His transcription was used here and is not copied.
-- **NoAutopilot/cipher-lab** checked the edition and the clear postscript.
-- None of them names Centurione (checked on 5 October 2026).
-- **G. Molini** (1837) printed the clear letter.
+- **Satoshi Tomokiyo** listed the cipher, saw that the base letter is the initial of the word, and guessed that
+  the code is alphabetical.
+- **Daniel Bourdeau** (`dbourdeau/cyphersolver`, target `vasto1527`) transcribed the letters. All readings here
+  rest on his transcription. He found that the copy in Clairambault 327 has its original in fr. 3022, he named
+  Hieronimo Ranzo, "Gattinara's man", in connection with no. 20, and he described ff. 48-50 as the kit of an
+  agent. His catalogue lists the cipher as open (26 September 2026).
+- **NoAutopilot/cipher-lab** checked the editions and the clear postscript, and tested the g/s relabelling. Its
+  notes list the cipher as open (3 October 2026).
+- **G. Molini** (1837) printed the clear letter of January 1528.
+- We found no earlier reading (search of 5 October 2026, 12:00 UTC).
 
 ## Contents
 
 | File | Content |
 |---|---|
-| `fragments.md` | The few phrases that the probable values give, and the clear passage on the cipher |
-| `evidence/worklog.md` | The search for a clear text, the tests of the order, the table of probable values, the earlier work |
+| `key/table.tsv` | The key: group, value, class (sure, probable, guess, null), number of tokens, note |
+| `reading/islands.md` | The 144 stretches that read as connected sense, with an English gloss |
+| `reading/contents.md` | What each letter is about; the dates; what stays open |
+| `evidence/controls.md` | The blind test on made-up codes |
+| `evidence/worklog.md` | The earlier search for a clear text and the tests of the order |
+| `decode.py` | Applies the key to a transcription |
 | `images/` | The passage of f. 58 with the cipher values, and the addition sheet f. 50 (reduced; "gallica.bnf.fr / BnF") |
 
 Code: MIT. Text: CC BY 4.0. Details are in [LICENSE.md](../LICENSE.md).

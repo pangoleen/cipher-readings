@@ -1,4 +1,4 @@
-# The "Garbino" cipher of 1528: read in part
+# The "Garbino" cipher of 1528: read for the greater part
 
 Paris, BnF, ms. français 3022, no. 20 (a letter dated Madrid, 11 April 1528, to "Garbino") and the letters signed
 "Hieronimo Ranzo" in BnF fr. 2988 and fr. 3019 are written in a cipher of letters with small numbers above them.

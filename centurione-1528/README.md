@@ -12,7 +12,7 @@ checked it on the page images and list our corrections; it is not copied here.
 ## What is new
 
 1. **The build of the cipher.** It is a code of stems, with a small alphabet of single letters for the endings.
-2. **A key table of 775 values** ([key/table.tsv](key/table.tsv)): 117 sure, 589 probable, 69 guesses.
+2. **A key table of 779 values** ([key/table.tsv](key/table.tsv)): 117 sure, 595 probable, 67 guesses.
 3. **The dates.** Both "Ranzo" letters are of Madrid, March 1528. The catalogue has them without a date.
 4. **The writer.** The "Ranzo" letters are letters of a father to his son. The father is Martino Centurione,
    envoy of Genoa at the court of Charles V. "Hieronimo Ranzo" is the name under which he gets his mail.
@@ -67,6 +67,9 @@ A group is a base letter and a number.
    more often, 10 of class sure. A fresh reader saw only the text and the rest of the table. It restored 72 of
    the 80 exactly (38 of the 40 that occur once), and 6 more as another form of the same word (quel and quelle,
    secur and securo). Two differed.
+8. **A native speaker.** Paolo Rosson, who is Italian, read the stretches and proposed or confirmed words for
+   seven open places (unica, testimonio, rechiesto, tanto, niuno, capitare, sperato). They are marked in the
+   table. His "nessuno" is "niuno" in the writer's own form, and it sorts exactly at the open number.
 
 **The limits, stated plainly.**
 

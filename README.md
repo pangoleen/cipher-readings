@@ -28,7 +28,8 @@ First*, pp. 153-161). The numbers of 1646 are the Titus numbers with a small shi
 | write, you, numbers, days and months | +9 |
 | second list of names and nouns | +10 |
 
-74 words are in both tables, and all of them fall in these bands. The 20 words that Nicholas himself glossed in
+74 words are in both tables. 67 of them fall in the band of their first letter. Seven have another shift (but,
+give, may, re, us, up, we); they can be slips in one of the two reconstructions, or real differences. The 20 words that Nicholas himself glossed in
 two letters of the King of 1646 (Evelyn's *Diary and Correspondence*, iv. 178-179) fit the same shifts. The letter
 alphabets of the two keys differ, and the one of 1646 was solved from context. The key is
 [key1646.tsv](key1646.tsv): 261 codes, each with its basis.

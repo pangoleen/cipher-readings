@@ -1,0 +1,7 @@
+# Three lines of the cipher text of BL Add MS 72438, f. 10 (letter to Charles I, Oxford, 13 May 1646).
+# Transcription: A. Aymeloglu, github.com/aaymeloglu/unsolved-ciphers, folder royalist-1646, file f10_ct.txt (one pass, from the DECODE image).
+# It is his work, not ours. Only the lines that the page docs/oxford-1646.html shows are copied here: line 3 whole, line 4 and line 6 in part.
+# [..] = clear words of the manuscript; ? = illegible, or a doubtful figure.
+3	360 329 562 360 193 162 361 382 67 [of ye] 572 496 112 [express] 216 364 190 262 200 84 282 281 117 20 44 68 18 60 57 1 [for] 193 56 69 73 34 74 112 110 409 [in ye] 512 213 190 ? [reasonably] 46 89 90 70 71 45 1 43 19?
+4	2 81 40 17 69 90 370 59 20 405 2 [That ye] 66 74 489 81 [a] 342 131 82 10 91 44 4 162 614 40 31 1 60 11 7 58 282 4 112 [Mr] 629 360 132 360 384 409 504
+6	[what] 478 96 162 355 430 [depart] 11 19 70 35 391 200 270 596 81 [a] 78 281 81 4 173 430 543

@@ -1396,7 +1396,7 @@ def index():
             'decoding token by token.</p>')
     body += table(['Page', 'Document', 'What is new', 'State'], trs)
     body += ('<p><strong>A seventh result, read for the greater part:</strong> the "Venetian?" cipher with superscript '
-             'digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). 86 % of the text reads as '
+             'digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). 86 %% of the text reads as '
              'connected sense. The key table, the read stretches, the blind test and the blind audit are in the folder '
              '<a href="%s/tree/main/centurione-1528">centurione-1528</a>. To check it by hand: the last line of the '
              'second "Ranzo" letter (BnF fr. 2988, Gallica view 20) has the groups m176, c193, v152, o66 with small '

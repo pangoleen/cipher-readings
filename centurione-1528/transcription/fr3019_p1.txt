@@ -1,0 +1,26 @@
+# Our transcription of BnF fr. 3019 f. 73-74, a period duplicate of the first letter signed Ranzo in fr. 2988, made from the Gallica images, one pass plus a second look where it differs from the other copy, not checked by a palaeographer.
+# This file: f. 73r, Gallica btv1b9059994n, view 114.
+# Format: one line of the manuscript per line; a group is a base letter and a number; '?' = doubt; a line with '|' alone = a break between two parts of the letter; '/' = the writer's mark at the end of a part.
+f5 g1 p149 h4 L47 a154 s116 s9 h58 h57 f5 f17 r222 z6 L47
+t92 i100 e71 m137 m9 n10 t30 v190 a154 n38 h57 r41 c136 p373 t89
+a186 p149 v116 d36 L97 d23 z8 L78 d251 d35 f48 Q18 a127 q17
+L77 n38 s8 s116 s6 Q13 L10 v6 t30 s292 L10 m99 d34 m236
+m10 L10 m19 p47 d178 e72 n88 s233 s8 p282 c8 t10 L56 r41
+p150 n90 h32 a84 n6 t89 z9 s113 f7 L47 Q10 L10 p142
+t17 p238 z8 d35 L10 v9 t30 y6 c170 L43 z7 s139 c170 o8
+r204 s138 b57 i100 c315 m8 r10 t89 n60 p45 p152 d35 q61 a311
+L77 a84 n9 r10 n8 m119 y17 f13 z9 n7 L47 L77 n38 s8 d35
+L10 s117 z9 Q30 i100 c171 m8 e9 t157 p246 L30 L143 d10 L17
+p150 m119 s233 p282 a195 p260 L56 r41 q44 s116 s7 c216 L10 v6
+d9 s8 f1 y7 q18 z8 L10 d157 m99 d35 m236 i286 n90 L10 p282 m7
+q27 c322 s8 r41 y42 m170 m80 m9 c170 p149 L47 p246 r41 c136 h9
+t30 t92 n89 n38 h27 d156 a152 c153 r10 n9 b114 m136 d36
+s69 s6 s4 f8 n38 p246 o119 y6 d30 n38 a61 p150 s8 c320 z6
+i76 z8 a5 p4 d78 f15 d35 o9 o105 a104 m6 q18 h57 s116 m9
+p149 L47 a154 y16 n89 c320 c170 L10 o126 f17 m8 p149
+f10 r41 p102 f8 e8 t30 f10 n85 d35 g171 p282 n6 p196 s7
+c108 m122 y8 L39 n86 i100 v24 o5 p2 i286 s320 c170 n90
+m170 m50 r10 n85 L77 o106 d100 z6 t74 i100 n11 p374 c170
+L47 c320 s7 d37 q45 r101 s233 c4 s305 q8 h47 n86 p149 s271
+s233 c227 s320 a304 q18 t163 y16 i11 m107 n38 h30 t74 s116
+m7 y19 a186 n89 d179 f75 d246 c170 s139 L10 m241 d78

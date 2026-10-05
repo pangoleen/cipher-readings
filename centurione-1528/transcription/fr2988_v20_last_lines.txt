@@ -1,0 +1,5 @@
+# The last two lines of the second letter signed Ranzo, BnF fr. 2988 (Gallica btv1b9059908w, view 20), read by us on the image. Not checked by a palaeographer.
+# Format: one line of the manuscript per line; a group is a base letter and a number. The groups are given as they stand on the page:
+# L is the letter l, and t203 is r203 by the length of the lists (the t list has 196 entries). decode.py reads them so.
+n60 t203 a104 m8 q18 p149 L17 h57 s116 m9 v13 e106 m10 t7 n9 t9
+z6 d180 d37 m82 f4 m176 i4 c193 o5 p3 v152 f5 o66

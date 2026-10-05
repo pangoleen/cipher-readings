@@ -4,6 +4,9 @@ Paris, BnF, ms. français 3022, no. 20 (a letter dated Madrid, 11 April 1528, to
 "Hieronimo Ranzo" in BnF fr. 2988 and fr. 3019 are written in a cipher of letters with small numbers above them.
 It is on S. Tomokiyo's list of unsolved historical ciphers as "Venetian? Cipher with Superscript Digits (1528)".
 
+**A page to check it by hand, with worked lines and images:**
+<https://pangoleen.github.io/cipher-readings/centurione-1528.html>
+
 **Status: 5 October 2026. The cipher is read for the greater part.** 86 % of the cipher text lies in stretches
 that read as connected sense ([reading/islands.md](reading/islands.md), 117 stretches). The rest has gaps and
 guesses. The work was done by a model. No palaeographer has checked it. The transcription is D. Bourdeau's; we
@@ -179,6 +182,7 @@ has the groups m176, c193, v152, o66 with small numbers between them. They read 
 | `evidence/controls.md` | The blind test on made-up codes, the check on the images, the blind audit |
 | `evidence/transcription_corrections.tsv` | Our 144 corrections to the transcription: file, line, position, old group, new group |
 | `evidence/worklog.md` | The earlier search for a clear text and the tests of the order |
+| `transcription/` | Our own transcription of the duplicate of the first "Ranzo" letter (BnF fr. 3019, ff. 73-74), and the two date lines of fr. 2988 that we read on the image |
 | `decode.py` | Applies the key to a transcription |
 | `images/` | The passage of f. 58 with the cipher values, and the addition sheet f. 50 (reduced; "gallica.bnf.fr / BnF") |
 

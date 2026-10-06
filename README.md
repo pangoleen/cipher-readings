@@ -3,6 +3,9 @@
 Cipher letters from European archives of 1503 to 1653, read or rebuilt in October 2026. Each folder holds one
 result, with its reading, its key, its controls and its search for earlier work.
 
+**New here, or reading with an AI model? Start with [GUIDE.md](GUIDE.md):** one line for each result, and where
+every key, reading, image and control is.
+
 **The work was done by a model** (Claude, by Anthropic, running as Claude Code with subagents), directed by
 Paolo Rosson. No palaeographer or historian has checked it yet. Each folder says plainly what is new, what is only
 reproduced from a period source, and what stays open. Corrections are welcome: please open an issue.
@@ -27,7 +30,9 @@ of stems with a small alphabet of single letters for the endings. 86 % of the te
 with a key table of 779 values. The "Ranzo" letters are of Madrid, March 1528, from a father to his son: Martino
 Centurione, envoy of Genoa at the court of Charles V. The method was tested blind on two made-up codes (87.6 % and
 93.4 % of the tokens right), the transcription was checked on the page images, and a blind audit restored 72 of 80
-hidden values. The reading has gaps, and it rests on D. Bourdeau's transcription.
+hidden values. The reading has gaps, and it rests on D. Bourdeau's transcription. S. Tomokiyo examined it and
+published an article on it on 6 October 2026:
+["A Cipher with Superscripts for Word Elements ('Hieronimo Ranzo') Solved by AI"](https://cryptiana.web.fc2.com/code/ranzo.htm).
 
 Five of these documents are on S. Tomokiyo's list of
 [unsolved historical ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm): the letter to Charles I, Cocquet's

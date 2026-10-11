@@ -6,7 +6,7 @@ points at the repository ("read GUIDE.md in pangoleen/cipher-readings and tell m
 ## In one paragraph
 
 In September and October 2026, Paolo Rosson directed Claude (by Anthropic, running as Claude Code with subagents)
-to read old cipher letters from European archives, 1503 to 1653. Nine results came out of it. Seven are in this
+to read old cipher letters from European archives, 1503 to 1653. Ten results came out of it. Eight are in this
 repository, and two earlier ones have their own repositories. Each result has its key, its reading, its
 transcription, its controls, and a page where a person can check the decoding by hand.
 
@@ -19,6 +19,7 @@ transcription, its controls, and a page where a person can check the decoding by
 | Year | Folder | The story | State |
 |---|---|---|---|
 | 1503 | [espagnol-318](espagnol-318/) | The viceroy of Sicily writes to King Ferdinand from Messina. The key is rebuilt from the letter alone. | Read in large part; 64 code words are open |
+| 1504 | [espagnol-318-no93](espagnol-318-no93/) | The Spanish ambassador at Venice writes to Ferdinand and Isabella, all in cipher: Venice shows joy at the truce with France, "y el dolor en el coraçón". The key is rebuilt from the letter alone. | 91 % firm, 97 % with the probable values; a blind audit restored 27 of 27 hidden values |
 | 1528 | [centurione-1528](centurione-1528/) | Martino Centurione, envoy of Genoa in Madrid, writes to his son under the cover name "Hieronimo Ranzo". He tells him to show the letter to nobody "except your mother". | 86 % reads as connected sense; 779 values |
 | 1577-80 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy, from the secret letters to the Spanish ambassador in France. Read with keys that other people published. | Five pieces read |
 | 1586-90 | [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga writes to the Duke of Nevers. The word code is rebuilt with no key sheet. | 448 values; 97.6 % right on a second volume |
@@ -33,10 +34,10 @@ transcription, its controls, and a page where a person can check the decoding by
 | You want | Look here |
 |---|---|
 | The summary of one result, with its limits | `<folder>/README.md` |
-| The key | `centurione-1528/key/table.tsv`, `cocquet-1616/key_fr18009_f156.tsv`, `espagnol-318/KEY_TABLE.md`, `dutch-1653/key.tsv`, `oxford-1646/key1646.tsv`; for Gonzaga, the folder `gonzaga-1590/alignment/` |
-| The reading (decoded text) | `centurione-1528/reading/`, `cocquet-1616/reading.md`, `espagnol-318/READING.md`, `espagnol-132/reading_*.md`, `gonzaga-1590/editions/` and `gonzaga-1590/fr4696/readings.md`, `oxford-1646/reading_f10.txt`, `dutch-1653/reading_*.txt` |
+| The key | `centurione-1528/key/table.tsv`, `cocquet-1616/key_fr18009_f156.tsv`, `espagnol-318/KEY_TABLE.md`, `espagnol-318-no93/KEY_TABLE.md`, `dutch-1653/key.tsv`, `oxford-1646/key1646.tsv`; for Gonzaga, the folder `gonzaga-1590/alignment/` |
+| The reading (decoded text) | `centurione-1528/reading/`, `cocquet-1616/reading.md`, `espagnol-318/READING.md`, `espagnol-318-no93/READING.md` (with an English translation, line by line), `espagnol-132/reading_*.md`, `gonzaga-1590/editions/` and `gonzaga-1590/fr4696/readings.md`, `oxford-1646/reading_f10.txt`, `dutch-1653/reading_*.txt` |
 | The transcription of the cipher | `<folder>/transcription/`, `<folder>/passes/`, or `pass1.txt` and `pass2_blind.txt` |
-| The controls and the search for earlier work | `<folder>/evidence/` (each has a `worklog.md`) |
+| The controls and the search for earlier work | `<folder>/evidence/` (each has a `worklog.md`); for the letter of 1504 also `espagnol-318-no93/evidence/audit.md` (the blind audit, the facts with their sources) |
 | Images of the manuscripts | `<folder>/images/` (page images), `docs/img/<folder>/` (lines cut for the check pages) |
 | Images made to share | [`share/`](share/) |
 | The code that decodes | `<folder>/decode.py` or the `.py` files of the folder |

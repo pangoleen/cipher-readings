@@ -800,6 +800,211 @@ def es318():
     return page('espagnol-318.html', title_of(F), body, F)
 
 
+# ---------------------------------------------------------------- espagnol-318-no93
+
+def es318_93():
+    P = F = 'espagnol-318-no93'
+    lib = load_module(F + '/lib.py', 'es31893lib')
+    keymod = load_module(F + '/key.py', 'es31893key')
+    KEY, CODES, WORDS, BAND = keymod.KEY, keymod.CODES, keymod.WORDS, keymod.BAND
+    SHOW = {'enel': 'en el', 'delas': 'de las', 'reydefrancia': 'rey de Francia', 'v.al.': 'V. Al.'}
+    raw, final = {}, []
+    for f in ('f118r', 'f118v'):
+        for s, suffix in (('final', ''), ('passA', 'A'), ('passB', 'B')):
+            for lab, t in lib.load(os.path.join(ROOT, F, 'transcription', '%s_%s.txt' % (f, s))):
+                raw['%s_L%s%s' % (f, lab[1:], suffix)] = lib.merge(t)
+                if s == 'final':
+                    final += lib.merge(t)
+    count, grades = {}, {}
+    for kind, base, q in final:
+        if base in WORDS or kind in ('clear', 'unk'):
+            continue
+        count[base] = count.get(base, 0) + 1
+        tab = KEY if kind in ('sign', 'group') else CODES
+        g = tab[base][1] if base in tab else 'none'
+        grades[g] = grades.get(g, 0) + 1
+    total = sum(grades.values())
+    firm, prob = grades['A'], grades['A'] + grades['B']
+    first, usedcodes = {}, {}
+
+    def toks(L, a=0, b=None):
+        out = []
+        src = raw[L][a:b]
+        check(P, len(src) == len(CROPS[P]['lines'][L]['signs']), '%s: one image for each of the %d tokens' % (L, len(src)))
+        for i, (kind, base, q) in enumerate(src):
+            im = sign_img(P, L, i, base)
+            if base in WORDS:
+                out.append(tok(esc(base), 'pause', '', 'stop', im))
+            elif kind in ('sign', 'group'):
+                first.setdefault(base, im)
+                out.append(tok(esc(base), KEY[base][0], None, 'doubt' if KEY[base][1] == 'C' else 'letter', im))
+            elif kind == 'code' and base in CODES:
+                usedcodes[base] = CODES[base]
+                v = CODES[base][0]
+                out.append(tok(esc(base), SHOW.get(v, v), norm(v), 'doubt' if CODES[base][1] == 'C' else 'letter', im))
+            else:
+                out.append(tok(esc(base), 'no value', '', 'unread', im))
+        return out
+
+    def passes_agree(L, a, b, suffix):
+        x = [t[:2] for t in raw[L][a:b]]
+        y = [t[:2] for t in raw[L + suffix]]
+        sm = difflib.SequenceMatcher(None, x, y, autojunk=False)
+        return sum(m.size for m in sm.get_matching_blocks())
+
+    EX = [
+        ('f118r_L08', (0, 23), 'f. 118r, line 8, tokens 1 to 23: the face and the heart',
+         'rostro y el dolor en_el coraçon', 'rostro, y el dolor en el coraçón', 'face, and the pain in the heart',
+         'The sentence begins in line 7: the joy "estava en el" face, and the pain in the heart. This is the '
+         'ambassador\'s own view of how Venice took the news of the truce. The last six tokens of the line begin a '
+         'sentence that is not settled; the example stops before them.'),
+        ('f118r_L22', (0, None), 'f. 118r, line 22: the brief of the Pope',
+         'El Papa me escrivio un breve gradecien-', 'El Papa me escrivió un breve, gradecien-',
+         'The Pope wrote me a brief, to thank',
+         'The last word goes on in line 23 ("gradeciendome"). Three code words stand for syllables here: '
+         '<span class="mono">hif</span> = es in "es-crivio", <span class="mono">gad</span> = de and '
+         '<span class="mono">heg</span> = en in "gra-de-ci-en-". Sanuto\'s diary has the same fact from the other side: '
+         'on 23 February 1504 the Spanish ambassador said in the College that the legate had given him a brief of the '
+         'Pope that thanked him (vol. 5, col. 891).'),
+        ('f118v_L05', (0, None), 'f. 118v, line 5: Louis d\'Ars in Venosa',
+         'quel Luys d\'Arce esta sitiado en Venosa', 'quel Luys d\'Arce está sitiado en Venosa.',
+         'that Louis d\'Ars is besieged in Venosa.',
+         'The first word begins in line 4 ("a-quel"). The names are spelled with code words for their syllables: '
+         '<span class="mono">gae</span> = dar in "d\'Ar-ce", <span class="mono">mat</span> = no in "Ve-no-sa". '
+         'Sanuto, Zurita and Guicciardini have Louis d\'Ars shut in Venosa in February 1504.'),
+    ]
+    ex_html = []
+    for L, (a, b), title, units, reading, english, note in EX:
+        g = group(P, L, toks(L, a, b), units)
+        quoted(P, F + '/READING.md', reading)
+        quoted(P, F + '/READING.md', english)
+        compare(P, L, keytext(g), reading, [])
+        n = len(raw[L][a:b])
+        sa, sb = passes_agree(L, a, b, 'A'), passes_agree(L, a, b, 'B')
+        d = CROPS[P]['lines'][L]
+        cap = 'Espagnol 318, %s%s. Source: %s.' % (
+            title.split(':')[0].split(',')[0] + ',' + title.split(':')[0].split(',')[1],
+            ' (set in two rows here)' if d['nseg'] > 1 else '', esc(CROPS[P]['credit']))
+        ex_html.append('<h3>%s</h3>%s%s<blockquote><p class="orig">%s</p><p>%s</p></blockquote><p class="note">%s '
+                       'The first transcription pass has the same token in %d of these %d places, and the blind second pass in %d.</p>' % (
+                           esc(title), figure('img/%s/%s.jpg' % (P, L), 'Cipher line: ' + title, cap), cells(g),
+                           esc(reading), esc(english), note, sa, n, sb))
+    keytab = rd(F + '/KEY_TABLE.md')
+    kg = {}
+    for s in sorted(KEY, key=lambda s: (KEY[s][0], -count.get(s, 0))):
+        check(P, '`%s` %d' % (s, count.get(s, 0)) in keytab, 'KEY_TABLE.md has the sign %s with its count' % s)
+        kg.setdefault(KEY[s][0], []).append(tok(esc(s), KEY[s][0], '', 'doubt' if KEY[s][1] == 'C' else 'letter',
+                                                first.get(s, ''), extra='once' if count.get(s, 0) == 1 else '%d times' % count.get(s, 0)))
+    keygrid = cells([(v, k) for k, v in kg.items()], rows3=True)
+    check(P, len(KEY) == 55, 'key.py has 55 signs with a value')
+    check(P, len(CODES) == 64, 'key.py has 64 code words with a value')
+    GR = {'A': 'A: firm, fixed by three or more clear words', 'B': 'B: probable, fits every place, but few places',
+          'C': 'C: a guess, or doubtful'}
+    crow = [['<span class="mono">%s</span>' % esc(c), '<strong>%s</strong>' % esc(SHOW.get(v[0], v[0])), GR[v[1]],
+             '%d' % count[c]] for c, v in sorted(usedcodes.items())]
+    outside = sorted(c for c, v in CODES.items() if v[0][0] not in BAND[c[0]])
+    check(P, outside == ['fab', 'fij', 'gaf', 'got', 'me~', 'muy', 'pot'], 'seven values of key.py lie outside their band')
+    check(P, CODES['hog'][0] == 'estos' and CODES['ren'][0] == 'venecianos' and CODES['noe'][0] == 'para',
+          'key.py has the three values that the audit corrected')
+    s_firm = '%s of %s = %.1f %%' % (format(firm, ','), format(total, ','), 100.0 * firm / total)
+    s_prob = '%s of %s = %.1f %%' % (format(prob, ','), format(total, ','), 100.0 * prob / total)
+    body = facts(P, F + '/README.md', [
+        ('Document', 'Paris, BnF, ms. Espagnol 318, no. 93, f. 118r-v (Gallica <code>btv1b52503046q</code>, views '
+         '446-447). A letter all in cipher, Venice, 24 February 1504. By the catalogue: Lorenzo Suárez de Figueroa, '
+         'Spanish ambassador at Venice, to Ferdinand and Isabella. The page has no signature and no address.',
+         ['Paris, BnF, ms. Espagnol 318, no. 93, f. 118r-v', 'Lorenzo Suárez de Figueroa, Spanish ambassador at Venice, to Ferdinand and Isabella',
+          'The page has no signature and no address']),
+        ('New', 'This is the first reading known to us. The key is rebuilt from the letter. We found no period '
+         'decipherment (the searches are listed in the folder). The Spanish court read this letter in 1504, so a '
+         'period decipherment existed; we did not find it.',
+         ['This is the first reading known to us. The key is rebuilt from the letter. We found no period decipherment',
+          'The Spanish court read this letter in 1504']),
+        ('State', '%s of the tokens have a firm value; %s with the probable values. Eight code words have no value. '
+         'The reading has gaps.' % (s_firm, s_prob),
+         [s_firm, s_prob, 'Eight code words have no value', 'The reading has gaps']),
+        ('Not the cipher of no. 94', 'The neighbour letter, no. 94 (<a href="espagnol-318.html">its page</a>), has '
+         'another key. The two keys have the same build and share seven signs.',
+         ['It is not the cipher of the neighbour']),
+    ])
+    body += '<h2>The key</h2>'
+    body += ('<p>Signs for letters: 55 sign types for 24 letters and "ll". A common letter has 2 to 5 signs. Four '
+             'joined groups stand for one letter each: <span class="mono">gto</span> = t, <span class="mono">gt</span> '
+             '= e, <span class="mono">otto</span> = n, <span class="mono">tto</span> = o. The names of the signs are '
+             'ours. The image of a sign is cut from the three lines below.</p>')
+    body += keygrid
+    body += ('<p class="note">In each box: the sign, our name for it, its letter, and how many times the letter has '
+             'it in the 50 lines. A box with no image: the sign is not in the three lines below. A question mark: the '
+             'value is a guess. The shapes in words: %s.</p>') % gh(F, 'transcription/SIGNS.md')
+    body += ('<p>Code words: 72 words of two or three small letters. A code word stands for a word, or for a '
+             'syllable inside a word. The code words of the three lines:</p>'
+             + table(['Code word', 'Value', 'Grade', 'Places in the letter'], crow))
+    body += ('<p>The code list follows the alphabet: code words in f stand for words in a or b, code words in g for '
+             'words in c or d, and so on to r for s to y. All 64 code words with a value, the 8 with none, and a note '
+             'on each corrected or doubtful value: %s. The key as a table for the decoder: %s.</p>') % (
+                 gh(F, 'KEY_TABLE.md'), gh(F, 'key.py'))
+    body += '<h2>Worked example</h2>'
+    body += ('<p>Each box holds one token of the settled transcription: its image, its name, and its value by the '
+             'key. The line under a group of boxes gives the word; the word division is ours. '
+             '<span class="mono">Z</span> and <span class="mono">÷</span> are the two pause marks of the cipher.</p>')
+    body += ''.join(ex_html)
+    body += '<h2>How sure</h2>'
+    body += sure(P, F + '/README.md', [
+        ['Cipher lines', '50, on two pages'],
+        ['Tokens with a firm value (grade A)', s_firm],
+        ['Tokens with a firm or a probable value (grades A and B)', s_prob],
+        ['Tokens identical in two transcription passes, the second one blind', '96.2 % (recto) and 93.6 % (verso)'],
+        ['Five-letter-group score of the key', '-11.17; 500 shuffled keys: mean -15.87, best -14.68; real Spanish: -10.87'],
+        ['Blind audit of the key, first run', '27 of 27 hidden values restored (12 signs, 15 code words)'],
+        ['Blind audit, second run on the 18 weak values', '12 exact, 1 near, 5 wrong'],
+        ['The alphabet rule of the code list', 'rank correlation 0.69 at the audit, 0.81 with the corrected key; 0 of 20,000 shuffled keys reach it'],
+    ], ['50, on two pages', '96.2 % (recto) and 93.6 % (verso)', 'The key scores -11.17', '-15.87 in the mean and -14.68 at best',
+        'Real Spanish scores -10.87', 'It restored 27 of 27', '12 signs and 15 code words', '12 exact, 1 near and 5 wrong',
+        'correlation was 0.69', '0 of 20,000 keys with shuffled values', 'it is 0.81'])
+    body += ('<p><strong>The blind audit.</strong> A second run of the model, with a new context, hid 27 values of the '
+             'key, drawn at random. A fresh reader got the transcription, the rest of the key, and the decode with gaps. '
+             'It restored 27 of 27. Its limits: the 27 values all occur 3 times or more; to restore one sign of a '
+             'letter that has several signs is easy; the fresh reader is a model of the same family as the first '
+             'reader. In the second run, two of the five wrong answers were right against the key: the code words '
+             '<span class="mono">hog</span> and <span class="mono">ren</span> were the wrong way round. The key is '
+             'corrected: <span class="mono">hog</span> = estos, <span class="mono">ren</span> = Venecianos. '
+             'The summary of the audit: %s.</p>') % gh(F, 'evidence/audit.md')
+    body += ('<p><strong>Outside check.</strong> The content agrees with the diary of Marino Sanuto for the same days '
+             '(<em>Diarii</em>, vol. 5). Col. 880, under 22 February 1504: a letter from the Venetian ambassador in '
+             'France brings the truce "per 3 anni, con questo, chi ha si tegna". Col. 891, 23 February: the Spanish '
+             'ambassador comes to the College and is told of the truce; he says that the legate gave him "uno breve dil '
+             'papa che lo ringratiava". Cols. 846 and 910: Louis d\'Ars is in Venosa. So the content proves the year '
+             '1504. The first reader says that it did not open Sanuto. The table of the facts, with Zurita and '
+             'Guicciardini: %s.</p>') % gh(F, 'README.md')
+    readme = collapse(rd(F + '/README.md'))
+    for p in ['le trieve per 3 anni, con questo, chi ha si tegna', 'uno breve dil papa che lo ringratiava',
+              'Sanuto, cols. 846 and 910', 'So the content proves the year', 'were the wrong way round',
+              'The first reader says that it did not open these sources']:
+        check(P, p in readme, 'README has: "%s"' % p[:60])
+    body += '<h2>What is not resolved</h2>'
+    body += ('<ul><li>No palaeographer has checked the transcription. No historian has checked the reading.</li>'
+             '<li>Eight code words have no value. Fifteen more have a guess or a doubtful value. The reading marks each place.</li>'
+             '<li>Six values lie outside their band of the alphabet and are marked doubtful: '
+             '<span class="mono">got</span>, <span class="mono">fij</span>, <span class="mono">gaf</span>, '
+             '<span class="mono">fab</span>, <span class="mono">pot</span>, <span class="mono">muy</span>. '
+             'A seventh, <span class="mono">me~</span> = por, is outside its band but firm.</li>'
+             '<li>Lines r08-r10, r13-r14 and v01 are not settled. The line on the Sultan\'s embassy (v06-v07) is doubtful: '
+             'by Sanuto, an envoy of the Sultan was in Venice on 6 March 1504.</li>'
+             '<li>The writer and the addressee come from the catalogue. The page does not name them.</li>'
+             '<li>Not opened in the search for a period decipherment: the volumes of L. Suárez Fernández and of A. de la '
+             'Torre, the digital library of the Real Academia de la Historia, the papers at Simancas. '
+             'The full list: %s.</li></ul>') % gh(F, 'evidence/audit.md')
+    for p in ['No palaeographer has checked the transcription. No historian has checked the reading.',
+              'Eight code words have no value. Fifteen more have a guess or a doubtful value',
+              'Lines r08-r10, r13-r14 and v01 are not settled', 'The writer and the addressee come from the catalogue',
+              'an envoy of the Sultan was in Venice on 6 and 9 March 1504', '**Not opened:**']:
+        check(P, p in readme, 'README has: "%s"' % p[:60])
+    check(P, not re.search(r'first\s+deciph', rd(F + '/README.md'), re.I), 'README: the claim is "first reading known to us", no more')
+    body += ('<p>The reading, line by line, with an English translation: %s. The machine decode: %s. '
+             'Folder: <a href="%s/tree/main/%s">%s</a>.</p>') % (
+                 gh(F, 'READING.md'), gh(F, 'DECODE_RAW.md'), REPO, F, F)
+    return page('espagnol-318-no93.html', title_of(F), body, F)
+
+
 # ---------------------------------------------------------------- dutch-1653
 
 def dutch():
@@ -1769,7 +1974,7 @@ def index():
     P = 'index'
     readme = rd('README.md')
     rows = re.findall(r'^\| \[([\w-]+)\]\([\w-]+/\) \| (.+?) \| (.+?) \| (.+?) \|$', readme, re.M)
-    check(P, len(rows) == 6, 'README has the table of six results')
+    check(P, len(rows) == 7, 'README has the table of seven results')
     trs = []
     for folder, doc, new, state in rows:
         check(P, os.path.exists(os.path.join(HERE, folder + '.html')), 'page for ' + folder)
@@ -1778,7 +1983,7 @@ def index():
             'below shows one result in a form that you can check by hand: the key, a few lines of cipher, and the '
             'decoding token by token.</p>')
     body += table(['Page', 'Document', 'What is new', 'State'], trs)
-    body += ('<p><strong>A seventh result, read for the greater part:</strong> '
+    body += ('<p><strong>An eighth result, read for the greater part:</strong> '
              '<a href="centurione-1528.html"><strong>centurione-1528</strong></a>, the "Venetian?" cipher with superscript '
              'digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). 86 %% of the text reads as '
              'connected sense. The page shows the build of the cipher and worked lines. The key table, the read '
@@ -1800,16 +2005,16 @@ def index():
              'Catholic League of 22 July 1593, read for the first time (BnF fr. 3984).</li>'
              '<li><a href="https://github.com/pangoleen/senecey-1594">pangoleen/senecey-1594</a>: two League letters of '
              '1594, read with the alphabet that the royal decipherers rebuilt (BnF, Cinq Cents de Colbert 33).</li></ul>')
-    body += ('<p>Five of these documents are on S. Tomokiyo\'s list of '
+    body += ('<p>Six of these documents are on S. Tomokiyo\'s list of '
              '<a href="https://cryptiana.web.fc2.com/code/unsolved.htm">unsolved historical ciphers</a>: the letter to '
-             'Charles I, Cocquet\'s cipher, the Dutch ciphers of 1653, the Spanish letters of 1497 to 1504, and the '
+             'Charles I, Cocquet\'s cipher, the Dutch ciphers of 1653, the two Spanish letters of 1503 and 1504, and the '
              'cipher with superscript digits of 1528. '
              'All files are in the repository <a href="%s">pangoleen/cipher-readings</a>.</p>') % REPO
     return page('index.html', 'Readings of historical ciphers', body)
 
 
 if __name__ == '__main__':
-    made = [oxford(), cocquet(), es318(), dutch(), es132(), gonzaga(), centurione(), index()]
+    made = [oxford(), cocquet(), es318(), es318_93(), dutch(), es132(), gonzaga(), centurione(), index()]
     bad = [c for c in CHECKS if not c[1]]
     by = {}
     for p, ok, t in CHECKS:

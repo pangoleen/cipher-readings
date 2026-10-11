@@ -20,11 +20,12 @@ reproduced from a period source, and what stays open. Corrections are welcome: p
 | [oxford-1646](oxford-1646/) | An intercepted letter to King Charles I from besieged Oxford, 13 May 1646 (British Library, Add MS 72438, f. 10) | The first connected reading (an earlier partial reading by A. Aymeloglu had about 45 code values). The key is rebuilt from the printed Titus cipher of 1648, with a shift. | 89 % of the tokens read; the transcription is A. Aymeloglu's, and we did not see the manuscript |
 | [cocquet-1616](cocquet-1616/) | Coquet to Mangot, Rome, 13 November 1616 (BnF, Clairambault 369, ff. 316-317) | First reading. Solved from context, then confirmed by the period key sheet (BnF fr. 18009, f. 156). | All cipher passages read |
 | [espagnol-318](espagnol-318/) | The viceroy of Sicily to King Ferdinand, Messina, 27 April 1503 (BnF, Espagnol 318, no. 94) | First reading. The key is rebuilt from the letter itself. | Read in large part; 64 code words have no value |
+| [espagnol-318-no93](espagnol-318-no93/) | The Spanish ambassador at Venice to Ferdinand and Isabella, 24 February 1504 (BnF, Espagnol 318, no. 93) | First reading known to us. The key is rebuilt from the letter itself. We found no period decipherment (the searches are listed). | 91 % of the tokens have a firm value, 97 % with the probable values; 8 code words have no value |
 | [dutch-1653](dutch-1653/) | The Dutch deputies in England to Boreel, 1 September 1653 (Thurloe, *State Papers*, i.435) | The key, and the link to the printed Dutch minute. The text itself is reproduced. | 127 of 131 groups fit |
 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy (BnF, Espagnol 132) | First readings with keys that others published. | Five pieces read |
 | [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590 (BnF, fr. 4698, fr. 4702 and fr. 4696) | The cipher rebuilt with no key sheet; three period decipherments linked to their cipher letters; the rebuilt code tested on a second volume (97.6 % of 463 words right); letters and passages with no decipherment read, and checked against Pastor's history. | A code of 448 values; the new readings have gaps |
 
-**A seventh result, read for the greater part:** [centurione-1528](centurione-1528/). The "Venetian?" cipher with
+**An eighth result, read for the greater part:** [centurione-1528](centurione-1528/). The "Venetian?" cipher with
 superscript digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo" in fr. 2988) is a code
 of stems with a small alphabet of single letters for the endings. 86 % of the text now reads as connected sense,
 with a key table of 779 values. The "Ranzo" letters are of Madrid, March 1528, from a father to his son: Martino
@@ -34,10 +35,10 @@ hidden values. The reading has gaps, and it rests on D. Bourdeau's transcription
 published an article on it on 6 October 2026:
 ["A Cipher with Superscripts for Word Elements ('Hieronimo Ranzo') Solved by AI"](https://cryptiana.web.fc2.com/code/ranzo.htm).
 
-Five of these documents are on S. Tomokiyo's list of
+Six of these documents are on S. Tomokiyo's list of
 [unsolved historical ciphers](https://cryptiana.web.fc2.com/code/unsolved.htm): the letter to Charles I, Cocquet's
-cipher, the Dutch ciphers of 1653, the Spanish letters of 1497 to 1504, and the cipher with superscript digits of
-1528.
+cipher, the Dutch ciphers of 1653, the two Spanish letters of 1503 and 1504, and the cipher with superscript digits
+of 1528.
 
 Two earlier results have their own repositories:
 

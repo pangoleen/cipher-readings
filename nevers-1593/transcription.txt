@@ -1,0 +1,51 @@
+# BnF fr. 4700 no. 38, f. 72r: the two cipher passages. Settled transcription, state of 11 October 2026.
+# It is made from pass 1 (pass1.txt) and from the blind pass 2 (pass2_blind.txt). We looked at each difference
+# again on the image.
+#
+# The figures. The writer's 8 is open at the top. His 5 is an S-shaped sign. The lines have no closed 8 and no 5
+# with a flat bar. This file writes them as 8 and 5.
+# The groups. A figure 4, 8 or 9 takes the next figure: the pair is one letter. A figure 3, 6 or 7 stands alone.
+# A figure 0 stands alone: it is a null. The page has no gaps between the groups, except in B2L4.
+#
+# Marks of this file:
+#   (46)     faint ink, in the whole group or in the figure that the brackets hold
+#   [96]     struck out by the writer; not decoded
+#   ^98^     written above the line by the writer (a correction)
+#   {3/2}    two candidates; the first one is used
+#   {?}      a mark that we cannot read
+# The dots of the page are left out. They stand at mid height beside some figures. They do not divide words.
+# The two passes have them.
+#
+# B1 = the first passage (after "il salutifero rimedio"). B2 = the second passage (after "senza spesa alcuna").
+# L1 to L4 = the lines of the passage.
+
+B1L1: 97 46 84 95 45 0 {?} 95 {3/2} 0 44 49 89 48 97 46 93 45 94
+B1L2: 85 45 96 45 94 (4)6 (44) 0 48 96 97 44 94 97 44 6 0 84 6 94 86 47 85 46 94 [96] ^98^
+B1L3: 46 47 49 87 89 47 86 45 96 47 45 97 45 95 48 96 98 7 0 98 49 84 88 46 85
+B1L4: 48 97 47 85 46 96 45 96 47 45
+
+B2L1: 85 47 99 (48) 89 98 45 89 48 43 88 48 [44 {8/5}]
+B2L2: 7 0 48 94 47 [79] ^97^ [74] ^(48)^ [{?}9] ^95^ ^46^ [{4/?}6 0 48 84 6 9] 84 88 46 97 45 96 48 83 46 97
+B2L3: 95 46 97 45 98 6 85 45 93 47 94 98 44 98 6 0 46 98 48 94 7 0 98 49 89 6 93 6 0 89
+B2L4: 98 97 48 43 96 46 98 6
+
+# Counts, for the text as the writer corrected it: 149 groups = 128 pairs + 21 single figures (0 nine times,
+# 6 seven times, 7 three times, 3 once, and the mark {?}). 25 different values: 21 pairs, and 0, 3, 6, 7.
+# Struck out and not counted: [96] in B1L2, [44 {8/5}] in B2L1, about 15 signs in B2L2.
+#
+# Notes on single places.
+# B1L1, third group. The page has 84. Both passes read 84, and three images show it: the stem of the second
+#   figure rises above its hook and has a crossbar. It is a 4 with a long tail. On 9 October we preferred 89,
+#   because the sense asks for it ("se 'l papa"). That was a reading from the sense, and we took it back.
+# B1L1, the mark {?} after the first 0. It has a hook at the top, a thick stroke down to the right, and a small
+#   curl at the foot. It is not the writer's 8, 5 or 1. Pass 1 read 8. Pass 2 read an "s" and a tall stroke.
+# B1L1, {3/2}. The figure has a large tail loop: a 3, or a 2 in the form of a z. The 0 after it is small and high.
+# B1L2, (4)6 (44). The 4 and the 44 are faint. The text needs them ("ne-u-ers"), so they are not deletions.
+# B1L2, [96] ^98^. The writer struck 96 (r) and wrote 98 (t) above it: "confidenr" became "confident".
+# B2L1. The first strips cut the tops of this line. A later strip shows the tops. The third group is 99: two 9.
+#   The first 9 has one more hook at its upper left: the writer corrected another figure. The (48) is faint.
+# B2L1, [44 {8/5}]. Struck at the end of the line: "u" and half of a pair. The writer wrote the "u" again as 7 0
+#   at the start of the next line.
+# B2L2, the correction. Struck on the line: 79, 74, a blotted sign and a 9, then about ten signs. Above the
+#   line: 97, a faint 4 and a faint oval (48), a blotted sign and a clear 5 (95), then 46. The 95 is in part a
+#   reading from the sense ("pe-che"). The struck signs are not read.

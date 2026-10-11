@@ -1587,6 +1587,268 @@ def gonzaga():
     return page('gonzaga-1590.html', title_of(F), body, F)
 
 
+# ---------------------------------------------------------------- nevers-1593
+
+def nevers():
+    P = F = 'nevers-1593'
+    RM = F + '/README.md'
+    dec = load_module(F + '/decode.py', 'nevers1593decode')
+    KEY, krows = dec.load_key()
+    lines = dec.load_lines()
+    raw = rd(RM)
+    readme = collapse(raw)
+    credit = CROPS[P]['credit']
+    boxes = CROPS[P]['boxes']
+
+    def section(title):
+        m = re.search(r'^## %s\n(.*?)(?=^## |\Z)' % re.escape(title), raw, re.S | re.M)
+        check(P, m is not None, 'README has the part "%s"' % title)
+        return m.group(1) if m else ''
+
+    def items(block, pat):
+        out = []
+        for l in block.splitlines():
+            if re.match(pat, l):
+                out.append(re.sub(pat, '', l))
+            elif out and l.startswith(' '):
+                out[-1] += ' ' + l.strip()
+            elif out and not l.strip():
+                break
+        return out
+
+    def mdx(s):
+        return md(re.sub(r'<(https?://[^>]+)>', r'[\1](\1)', collapse(s)))
+
+    def scan(name, alt, caption, cls='scan'):
+        check(P, name in boxes and os.path.exists(os.path.join(HERE, 'img', P, name + '.jpg')), 'image ' + name)
+        return figure('img/%s/%s.jpg' % (P, name), alt, caption + ' Source: %s.' % esc(credit), cls)
+
+    # ---- the counts, from the transcription and the key table
+    allg = [g for t in lines.values() for g, fl in dec.kept(t)]
+    count = {}
+    for g in allg:
+        count[g] = count.get(g, 0) + 1
+    unread = count.pop('{?}', 0)
+    nlet = sum(len(dec.letters(t)) for t in lines.values())
+    check(P, len(allg) == 149 and unread == 1, 'transcription.txt has 149 groups; one of them is a mark that is not read')
+    check(P, sum(1 for g in allg if len(g) == 2) == 128, '128 of the groups are pairs')
+    check(P, len(count) == 25 and sorted(count) == sorted(KEY), 'the groups have 25 values, and key.tsv has a row for each')
+    check(P, nlet == 139 and count['0'] == 9, '139 letters and 9 nulls')
+    for c in krows:
+        check(P, int(c[3]) == count.get(c[0], 0), 'key.tsv: %s = %s, %s times' % (c[0], c[1], c[3]))
+    cons = [KEY[str(n)] for n in list(range(83, 90)) + list(range(93, 99))]
+    check(P, cons == sorted(cons) and ''.join(cons) == 'bcdfghlmnprst', 'the pairs 83 to 89 and 93 to 98 give b c d f g h l m n p r s t')
+    check(P, all(KEY[str(n)] in 'aeiou' for n in range(44, 50)) and KEY['43'] == 'c', 'the pairs 44 to 49 are vowels, and 43 is c')
+    nulls_after = [allg[i - 1] for i, g in enumerate(allg) if g == '0']
+    check(P, all(KEY.get(g, '') in 'aeiou' and KEY.get(g) for g in nulls_after), 'the null 0 follows a vowel in all nine places')
+    decoded = dict(l.split(': ', 1) for l in rd(F + '/decoded_by_key.txt').splitlines() if l.strip())
+    for L, t in lines.items():
+        check(P, decoded.get(L) == dec.decode(t, KEY), '%s: decoded_by_key.txt has the decode of the line' % L)
+
+    # ---- the lines, group by group
+    NOTE = {('B1L1', 2): ('conflict', 'the sense asks for l (89)')}
+
+    def toks(L, a, b):
+        out = []
+        for i, (g, fl) in enumerate(lines[L][a:b], a):
+            marks = [m for f, m in (('f', 'faint'), ('a', 'above the line'), ('d', '3 or 2')) if f in fl]
+            if 's' in fl:
+                out.append(tok(esc(g), 'struck', '', 'ill'))
+            elif 'u' in fl:
+                out.append(tok('mark', 'not read', '', 'unread'))
+            elif g == '0':
+                out.append(tok('0', 'null', '', 'null'))
+            else:
+                kind, note = NOTE.get((L, i), ('doubt' if 'd' in fl else 'letter', ''))
+                out.append(tok(esc(g), KEY[g], None, kind, mark=', '.join(marks + ([note] if note else []))))
+        return out
+
+    SEG = [('B1L1', 'se c papa uolese man-'), ('B1L2_a', '-dar a neuers u-'), ('B1L2_b', '-n suo confident-'),
+           ('B1L3_a', '-e io gli faria'), ('B1L3_b', 'saper tuto che d-'), ('B1L4', '-esideraria'),
+           ('B2L1', 'di qel tale che'), ('B2L2_a', 'uenise pe-'), ('B2L2_b', '-che sarebe s-'),
+           ('B2L3_a', '-pesato da mi n tu-'), ('B2L3_b', '-to e tenutolo mol-'), ('B2L4', '-t secreto')]
+    G, seen = {}, {}
+    for name, units in SEG:
+        d = boxes[name]
+        L, (a, b) = d['line'], d['tokens']
+        check(P, a == seen.get(L, 0), '%s: the image starts where the last one ended' % name)
+        seen[L] = b
+        G[name] = group(P, name, toks(L, a, b), units)
+    for L, t in lines.items():
+        check(P, seen.get(L) == len(t), '%s: every group of the line is on the page' % L)
+    r1 = quoted(P, F + '/reading.md', 'se c pa·[?]pa(?)· uolese mandar a neu·ers un suo· confidente io gli faria saper tu·to che desideraria')
+    r2 = quoted(P, F + '/reading.md', 'di qel tale che u·enise peche sarebe spesato da mi n tuto· e tenu·tolo mo·lt secreto')
+    n1 = quoted(P, F + '/reading.md', 'se [c] papa(?) volesse mandar a Nevers un suo confidente, io gli faria saper tutto che desideraria.')
+    n2 = quoted(P, F + '/reading.md', 'di quel tale che venisse, pe[r]ché sarebbe spesato da me in tutto, e tenutolo molt[o] secreto.')
+    e1 = quoted(P, F + '/reading.md', 'if [c] the Pope(?) would send to Nevers a confidant of his, I would let him know all that he would wish.')
+    e2 = quoted(P, F + '/reading.md', 'for the man who came, because I would pay all his costs, and he would be kept very secret.')
+    for s in (r1, r2, n1, n2, e1, e2):
+        check(P, collapse(s) in readme, 'README has: "%s"' % s[:60])
+    compare(P, 'passage 1', ' '.join(keytext(G[n]) for n, u in SEG if n.startswith('B1')), r1, [])
+    compare(P, 'passage 2', ' '.join(keytext(G[n]) for n, u in SEG if n.startswith('B2')), r2, [])
+
+    def passage(b, title, before):
+        h = ['<h3>%s</h3><p>%s</p>' % (title, before)]
+        for name, units in SEG:
+            if not name.startswith(b):
+                continue
+            n = int(name[3])
+            part = {'a': ', left half', 'b': ', right half'}.get(name[5:], '')
+            h.append(scan(name, 'Passage %s, line %d%s' % (b[1], n, part),
+                          'BnF fr. 4700, f. 72r: passage %s, line %d%s%s, enlarged.' % (
+                              b[1], n, part, ' (from the strip that shows the tops of the line)' if name == 'B2L1' else '')))
+            h.append(cells(G[name]))
+        return ''.join(h)
+
+    # ---- the controls: the two that need no table are counted again here
+    same, total, diffs = dec.agreement()
+    check(P, (same, total) == (288, 298), 'pass 1 and pass 2 have the same sign in 288 of 298 places')
+    n2g, read2, text2, new2 = dec.block1_key_on_block2(lines, KEY)
+    check(P, (read2, n2g) == (61, 65) and new2 == ['43', '83', '99'], 'the key of passage 1 reads 61 of the 65 letter groups of passage 2')
+
+    # ---- the page
+    claim = quoted(P, RM, '**This is the first reading known to us of the two cipher passages of a minute that G. Cassiani '
+                   'described in 2014; the key is rebuilt from the text.**')
+    body = facts(P, RM, [
+        ('Document', 'Paris, BnF, ms. français 4700, no. 38, f. 72r (Gallica <code>btv1b90582908</code>, view 84). '
+         'The minute (draft) of a letter of Ludovico Gonzaga, Duke of Nevers, to the Oratorian Tommaso Bozio in Rome, '
+         'La Guierche, 1 May 1593, in Italian. Two passages are in figures.',
+         ['Paris, BnF, ms. français 4700, no. 38, f. 72r', 'to the Oratorian Tommaso Bozio in Rome, La Guierche, 1 May 1593',
+          'The place and the date come from the catalogue of the library']),
+        ('Not ours', 'G. Cassiani described this minute in 2014. He identified the addressee and gave the context. '
+         'He gives no reading of the cipher passages. See <a href="#cassiani">the credit below</a>.',
+         ['He identified the addressee: Tommaso Bozio', 'He gives no reading of them']),
+        ('New', mdx(claim) + ' We did not find this key on a key sheet.',
+         ['We did not find this key on a key sheet']),
+        ('State', '148 of 149 groups have a value by the key. One mark is not read. The first words of passage 1 are '
+         'not sure: the page does not have "se \'l papa".',
+         ['148 of 149 groups have a value by the key', 'The page does not have "se \'l papa".']),
+    ])
+    body += scan('page', 'BnF fr. 4700, f. 72r, the whole page',
+                 'The page, reduced. The two passages in figures stand in the lower half. The clear text of this page is in '
+                 + gh(F, 'cleartext_f72r.txt') + ': a reading from this small image, not an edition.', 'scan sheet')
+
+    body += '<h2>The key</h2>'
+    body += ('<p>The cipher text is a row of figures with no gaps between the letters. A figure 4, 8 or 9 takes the '
+             'next figure: the pair is one letter. A figure 3, 6 or 7 stands alone and is a vowel. A figure 0 stands '
+             'alone and is a null. u and v are one letter.</p>')
+    for p in ['A figure 4, 8 or 9 takes the next figure', 'A figure 3, 6 or 7 stands alone', 'It follows a vowel in all nine places']:
+        check(P, p in readme, 'README has: "%s"' % p)
+
+    def kc(g):
+        return '<span class="mono">%s</span> <strong>%s</strong><br><span class="note">%d</span>' % (
+            g, esc(KEY[g]) if g != '0' else 'null', count[g])
+    body += table(['', '3', '4', '5', '6', '7', '8', '9'],
+                  [['<strong>%dx</strong>' % r] + [kc('%d%d' % (r, c)) for c in range(3, 10)] for r in (4, 8, 9)], 'ring')
+    body += '<p>The four single figures:</p>' + table(['3', '6', '7', '0'], [[kc(g) for g in ('3', '6', '7', '0')]], 'ring')
+    body += ('<p class="note">In each box: the group, its letter, and how many times it stands in the two passages. '
+             'The consonants b to t stand in the order of the alphabet, in the rows 8x and 9x. Five letters have two '
+             'values: a (45, 3), e (46, 48), o (49, 6), u (44, 7), c (84, 43). The cipher has no figures for whole words '
+             'and no sign for a doubled letter.</p>')
+    check(P, 'Five letters have two values: a (45, 3), e (46, 48), o (49, 6), u (44, 7), c (84, 43).' in readme, 'README has the five letters with two values')
+    body += scan('figures_8_5', 'The figures 8 5 4 5 at the start of line 2 of passage 1',
+                 'Two figures have odd forms. Here: the first four figures of passage 1, line 2, <span class="mono">8 5 4 5</span> '
+                 '(d, a). The 8 is open at the top. The 5 is an S-shaped sign.', 'scan sheet')
+    body += ('<p>The lines have no closed 8 and no 5 with a flat bar. With these two values the pairs make a regular '
+             'table. So the two values are inferred from the system. The key with the words that fix each value: %s. '
+             'The decoder: %s.</p>') % (gh(F, 'key.tsv'), gh(F, 'decode.py'))
+    check(P, 'The lines have no closed 8 and no 5 with a flat bar' in readme, 'README has the note on the two odd figures')
+
+    body += '<h2>The two passages, group by group</h2>'
+    body += ('<p>Each image shows one cipher line, or one half of it. Under the image, each box holds one group of the '
+             'settled transcription and its value by the key. The line under a group of boxes gives the word; the word '
+             'division is ours. A hyphen marks a word that goes on in the next image. '
+             'A box in red: the value is what the key gives, and the sense asks for another letter.</p>')
+    body += passage('B1', 'Passage 1', 'It follows the clear words "il salutifero rimedio".')
+    body += ('<blockquote><p class="orig">%s</p><p class="orig">%s</p><p>%s</p></blockquote>' % (esc(r1), esc(n1), esc(e1)))
+    body += ('<p class="note">First the letters as the cipher gives them (a raised dot = the null 0; [?] = a mark that is '
+             'not read). Then a normalised Italian. Then English. <strong>The page does not have "se \'l papa".</strong> '
+             'The third group is 84, and its value is c. "se \'l papa" (if the Pope) is the probable sense: it needs 89 in '
+             'the place of 84. The clear text before the passage speaks of "sua Santità".</p>')
+    body += passage('B2', 'Passage 2', 'It follows the clear words "senza spesa alcuna".')
+    body += ('<blockquote><p class="orig">%s</p><p class="orig">%s</p><p>%s</p></blockquote>' % (esc(r2), esc(n2), esc(e2)))
+    body += ('<p class="note">"qel" stands for "quel", and "peche" for "perché". One i serves for "mi" and "in". The o of '
+             '"molto" is not written. In line 2 the writer struck a first draft and wrote '
+             '<span class="mono">97 48 95 46</span> above it. The struck signs are not read.</p>')
+    body += '<p>The reading with its clear context: %s.</p>' % gh(F, 'reading.md')
+
+    body += '<h2>How sure</h2>'
+    body += sure(P, RM, [
+        ['Groups in the two passages', '%d: %d letters, %d nulls, %d mark that is not read' % (len(allg), nlet, count['0'], unread)],
+        ['Signs that are the same in the two transcription passes (the second one blind)', '%d of %d (%.1f %%)' % (same, total, 100.0 * same / total)],
+        ['Letter groups of passage 2 that the key of passage 1 reads', '%d of %d (%.0f %%)' % (read2, n2g, 100.0 * read2 / n2g)],
+        ['Four-letter score of our key', '-4.23 (first run: -4.45). Real Italian of this length: median -3.93, worst -4.28'],
+        ['5,000 keys with shuffled letter values', 'mean -6.60, best -5.49; ours is 9.9 sd above the mean (first run: 9.4 sd)'],
+        ['Our key on 5,000 shuffled orders of the groups', 'mean -5.99, best -5.41; ours is 11.6 sd above the mean (first run: 10.4 sd)'],
+        ['5,000 shuffled keys of passage 1 on passage 2', 'mean -6.33, best -4.81; ours is 5.9 sd above the mean (first run: 5.5 sd)'],
+        ['A free solver, which knows nothing of the key, on five shuffled orders', '-4.40 to -4.68'],
+    ], ['The text has 149 groups and 25 values', '288 of 298 places (96.6 %)', 'read 61 of the 65 letter groups of passage 2 (94 %)',
+        '| Our key, 139 letters | -4.45 | -4.23 |', 'median -3.93, worst -4.28',
+        'mean -6.60, best -5.49; ours is 9.9 sd above the mean', 'ours is 9.4 sd above the mean',
+        'mean -5.99, best -5.41; ours is 11.6 sd above the mean', 'ours is 10.4 sd above the mean',
+        'mean -6.33, best -4.81; ours is 5.9 sd above the mean', 'ours is 5.5 sd above the mean', '-4.40 to -4.68'])
+    notes = items(section('The controls'), r'^- ')
+    check(P, len(notes) == 6 and notes[0].startswith('**A four-letter score alone proves nothing at this length.**'),
+          'README has the six notes on the controls, and the first one is the warning')
+    body += '<p>The score is the mean log10 probability of the groups of four letters, on a table made from Italian prose.</p>'
+    body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % mdx(n) for n in notes)
+    body += ('<p><strong>The passes.</strong> The first pass came before any decoding. The second pass was blind: a '
+             'separate agent had the names of the signs and the line images only. Ten signs differ. Two of them are only '
+             'the order of one correction. The others are in three places, and both passes had marked each of these '
+             'places as doubtful. The passes: %s and %s.</p>') % (gh(F, 'pass1.txt'), gh(F, 'pass2_blind.txt'))
+    check(P, len(diffs) == 7 and sum(max(len(a), len(b)) for k, a, b in diffs) >= 10, 'the passes differ in ten signs')
+    body += ('<p><strong>The key of passage 1 on passage 2.</strong> The values that passage 1 fixes give this text for '
+             'passage 2: <span class="mono">%s</span>. The three groups that are new in passage 2 (43, 83, 99) give c, b '
+             'and q in "che", "sarebe" and "qel".</p>') % esc(text2)
+    body += ('<p><strong>The sense and the structure.</strong> Each passage completes the clear sentence in which it '
+             'stands. Thirteen consonants stand in the order of the alphabet. We tried this order as a first guess, so it '
+             'is not a fully separate control. But a word then confirms each of the thirteen letters. '
+             'The work log: %s.</p>') % gh(F, 'evidence/worklog.md')
+    for p in ['Each passage completes the clear sentence in which it stands', 'so it is not a fully separate control',
+              'both passes had marked each of these places as doubtful']:
+        check(P, p in readme, 'README has: "%s"' % p)
+
+    body += '<h2>What is not resolved</h2>'
+    doubts = items(section('Doubts'), r'^\d+\. ')
+    check(P, len(doubts) == 14, 'README has the list of 14 doubts')
+    for p in ['The page has 84 = c', 'So "se \'l papa" is not what is written', 'Its value q rests on one word',
+              'The struck first draft is not read', 'We cannot read it']:
+        check(P, any(p in d for d in doubts), 'a doubt of the README has: "%s"' % p)
+    body += '<ol>%s</ol>' % ''.join('<li>%s</li>' % mdx(d) for d in doubts)
+    body += scan('detail_B1L1', 'Passage 1, line 1: the doubtful places',
+                 'Doubts 1 to 3. Passage 1, line 1, enlarged four times: <span class="mono">6 | 84 | 95 | 45 | 0 | mark | 95 | '
+                 '3 or 2 | 0 | 4</span>. The second group here is the 84 where the sense asks for 89.')
+    body += scan('detail_B2L1', 'Passage 2, line 1: the group 99',
+                 'Doubt 4. Passage 2, line 1: <span class="mono">7 | 99 | 48 | 89</span> (the 7 is the end of 47). The first 9 has one more hook at '
+                 'its upper left. The 48 is faint.', 'scan sheet')
+    body += scan('detail_B2L2', 'Passage 2, line 2: the correction',
+                 'Doubts 5 and 6. Passage 2, line 2: the struck first draft, and <span class="mono">97 48 95 46</span> above it.')
+
+    body += '<h2>Open work: the cipher text from Rome</h2>'
+    opn = section('Open work: the cipher text from Rome').strip()
+    check(P, 'We have not read it.' in collapse(opn) and 'It does not yet read that text.' in collapse(opn) and '\n\n' not in opn,
+          'README: the leaf from Rome is open work, in one paragraph')
+    body += '<p>%s</p>' % mdx(opn)
+
+    body += '<h2 id="cassiani">Credits</h2>'
+    cas = items(raw[raw.index("G. Cassiani's:"):raw.index('Ours:')], r'^- ')
+    check(P, len(cas) == 6 and 'Rivista di storia della Chiesa in Italia' in cas[0] and 'pp. 387-409, at pp. 394-395' in cas[0],
+          'README has the six points on G. Cassiani\'s work, with the reference')
+    check(P, readme.count('volle crittografare') == 1, 'README has one short quotation of G. Cassiani')
+    body += '<p><strong>G. Cassiani\'s work on this minute:</strong></p><ul>%s</ul>' % ''.join('<li>%s</li>' % mdx(c) for c in cas)
+    credits = items(section('Credits'), r'^- ')
+    check(P, len(credits) == 5 and credits[-1].startswith('**The work was done by a model**'), 'README has the five credits')
+    check(P, 'No palaeographer has checked it' in credits[-1], 'README: no palaeographer has checked it')
+    body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % mdx(c) for c in credits)
+    check(P, 'first reading known to us' in readme and not re.search(r'first\s+deciph|first\s+solution', raw, re.I),
+          'README: the claim is "first reading known to us", no more')
+    early = section('Earlier work')
+    check(P, '**Not opened:**' in early and 'no reading' in early, 'README lists what was searched and what was not opened')
+    body += ('<p>What was searched for an earlier reading, and what was not opened: %s. '
+             'Folder: <a href="%s/tree/main/%s">%s</a>.</p>') % (gh(F, 'README.md'), REPO, F, F)
+    return page('nevers-1593.html', title_of(F), body, F)
+
+
 # ---------------------------------------------------------------- centurione-1528
 
 def centurione():
@@ -1974,7 +2236,7 @@ def index():
     P = 'index'
     readme = rd('README.md')
     rows = re.findall(r'^\| \[([\w-]+)\]\([\w-]+/\) \| (.+?) \| (.+?) \| (.+?) \|$', readme, re.M)
-    check(P, len(rows) == 7, 'README has the table of seven results')
+    check(P, len(rows) == 8, 'README has the table of eight results')
     trs = []
     for folder, doc, new, state in rows:
         check(P, os.path.exists(os.path.join(HERE, folder + '.html')), 'page for ' + folder)
@@ -1983,7 +2245,7 @@ def index():
             'below shows one result in a form that you can check by hand: the key, a few lines of cipher, and the '
             'decoding token by token.</p>')
     body += table(['Page', 'Document', 'What is new', 'State'], trs)
-    body += ('<p><strong>An eighth result, read for the greater part:</strong> '
+    body += ('<p><strong>A ninth result, read for the greater part:</strong> '
              '<a href="centurione-1528.html"><strong>centurione-1528</strong></a>, the "Venetian?" cipher with superscript '
              'digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). 86 %% of the text reads as '
              'connected sense. The page shows the build of the cipher and worked lines. The key table, the read '
@@ -2014,7 +2276,7 @@ def index():
 
 
 if __name__ == '__main__':
-    made = [oxford(), cocquet(), es318(), es318_93(), dutch(), es132(), gonzaga(), centurione(), index()]
+    made = [oxford(), cocquet(), es318(), es318_93(), dutch(), es132(), gonzaga(), nevers(), centurione(), index()]
     bad = [c for c in CHECKS if not c[1]]
     by = {}
     for p, ok, t in CHECKS:

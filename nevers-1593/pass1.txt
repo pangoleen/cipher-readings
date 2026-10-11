@@ -1,0 +1,14 @@
+# Pass 1 (in the work log: pass A). The model that did the work made it on 9 October 2026, before any decoding.
+# Source: crops of the two joined strips (images/f72r_block1.jpg, images/f72r_block2.jpg), enlarged six times,
+# and closer views of the same strips.
+# u = the sign like an 8 open at the top. s = the S-shaped sign. . = dot. ( ) = faint. [ ] = struck. ^ ^ = above the line.
+# ? = not decided. - = dash that fills the end of the line. No spaces: the manuscript has none (but B2L4).
+B1L1: 9746u49s4s0u9s30.4449u94u9746.934s94
+B1L2: us4s96.4s94(4)6(44).04u.9697.44949744.60u4694u.64.7us4694.^9u^[96]
+B1L3: 464749u7u9.47u64s96474s974s9s4u96.9u70.9u49u4uu.46us-
+B1L4: 4u9747us4696.4s96.474s.
+B2L1: us4799(4u)u9.9u.4su94u43.uu4u[44u]
+B2L2: 70.4u.9447[79]^97^.[74]^(4u)^[u9]^9s^^46^[?604uu469].u4uu.46974s96.4uu3.46.97-
+B2L3: 9s46974s9u.6.us4s9347949u.449u60469u4u94709u49u969360u9
+B2L4: 9u.974u439646.9u6.
+# Doubt noted in pass 1: B1L1 signs 6 and 12 (see evidence/worklog.md); B2L1 signs 5-6 (99, top cut); B2L2 the correction.

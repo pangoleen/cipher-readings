@@ -7,6 +7,9 @@ images of these pages only. build.py does not need this script: it only reads cr
 Each line of crops.json: file, x0, x1 (left and right edge), y (vertical centre at x0), h (height), shear (slope of
 the written line), view (part of the line that the page shows), nseg (the line image is cut in nseg pieces, set one
 above the other), vy (top and bottom of the band that the line image shows), signs (left and right edge of each sign, in pixels of the line), sy (top and bottom of a sign crop).
+Each box of crops.json: file, box (left, top, right, bottom), width (the largest width of the image), and, if the
+image is to be enlarged, scale. If WORKDIR does not hold a file, the script looks for it in the repository itself
+(a path from the root of the repository): the boxes of nevers-1593 are cut from nevers-1593/images/.
 """
 import json, os, sys
 from PIL import Image, ImageOps
@@ -15,6 +18,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 WORK = sys.argv[1] if len(sys.argv) > 1 else '.'
 C = json.load(open(os.path.join(HERE, 'crops.json')))
 ONLY = sys.argv[2:]
+
+def source(rel):
+    p = os.path.join(WORK, rel)
+    return p if os.path.exists(p) else os.path.join(HERE, '..', rel)
 
 def save(im, rel, gray=True, q=60):
     p = os.path.join(HERE, 'img', rel)
@@ -54,8 +61,9 @@ for page, P in C.items():
             c = c.resize((max(1, round(c.width * sc)), round(c.height * sc)), Image.LANCZOS)
             total += save(c, f'{short}/{name}_{i:02d}.jpg', gray)
     for name, d in P.get('boxes', {}).items():
-        im = Image.open(os.path.join(WORK, d['file']))
+        im = Image.open(source(d['file']))
         if d.get('box'): im = im.crop(tuple(d['box']))
+        if d.get('scale'): im = im.resize((round(im.width * d['scale']), round(im.height * d['scale'])), Image.LANCZOS)
         if im.width > d['width']: im = im.resize((d['width'], round(im.height * d['width'] / im.width)), Image.LANCZOS)
         total += save(im, f'{short}/{name}.jpg', d.get('gray', True), 55)
 print('images written, total bytes:', total)

@@ -1834,5 +1834,269 @@
     ]
    }
   }
+ },
+ "nevers-1593": {
+  "credit": "gallica.bnf.fr / BnF",
+  "lines": {},
+  "boxes": {
+   "B1L1": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     436,
+     0,
+     1115,
+     50
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B1L1",
+    "tokens": [
+     0,
+     19
+    ]
+   },
+   "B1L2_a": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     44,
+     44,
+     548,
+     96
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B1L2",
+    "tokens": [
+     0,
+     12
+    ]
+   },
+   "B1L2_b": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     540,
+     34,
+     1120,
+     96
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B1L2",
+    "tokens": [
+     12,
+     27
+    ]
+   },
+   "B1L3_a": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     40,
+     94,
+     532,
+     146
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B1L3",
+    "tokens": [
+     0,
+     11
+    ]
+   },
+   "B1L3_b": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     524,
+     94,
+     1115,
+     146
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B1L3",
+    "tokens": [
+     11,
+     25
+    ]
+   },
+   "B1L4": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     30,
+     142,
+     600,
+     192
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B1L4",
+    "tokens": [
+     0,
+     10
+    ]
+   },
+   "B2L1": {
+    "file": "nevers-1593/images/f72r_block2_top.jpg",
+    "box": [
+     568,
+     14,
+     1160,
+     64
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B2L1",
+    "tokens": [
+     0,
+     14
+    ]
+   },
+   "B2L2_a": {
+    "file": "nevers-1593/images/f72r_block2.jpg",
+    "box": [
+     30,
+     22,
+     597,
+     80
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B2L2",
+    "tokens": [
+     0,
+     18
+    ]
+   },
+   "B2L2_b": {
+    "file": "nevers-1593/images/f72r_block2.jpg",
+    "box": [
+     588,
+     34,
+     1120,
+     84
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B2L2",
+    "tokens": [
+     18,
+     28
+    ]
+   },
+   "B2L3_a": {
+    "file": "nevers-1593/images/f72r_block2.jpg",
+    "box": [
+     30,
+     82,
+     589,
+     128
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B2L3",
+    "tokens": [
+     0,
+     13
+    ]
+   },
+   "B2L3_b": {
+    "file": "nevers-1593/images/f72r_block2.jpg",
+    "box": [
+     582,
+     82,
+     1125,
+     130
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B2L3",
+    "tokens": [
+     13,
+     30
+    ]
+   },
+   "B2L4": {
+    "file": "nevers-1593/images/f72r_block2.jpg",
+    "box": [
+     30,
+     118,
+     470,
+     160
+    ],
+    "scale": 2,
+    "width": 1000,
+    "gray": true,
+    "line": "B2L4",
+    "tokens": [
+     0,
+     8
+    ]
+   },
+   "detail_B1L1": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     500,
+     0,
+     760,
+     50
+    ],
+    "scale": 4,
+    "width": 1000,
+    "gray": true
+   },
+   "detail_B2L1": {
+    "file": "nevers-1593/images/f72r_block2_top.jpg",
+    "box": [
+     625,
+     14,
+     765,
+     64
+    ],
+    "scale": 4,
+    "width": 560,
+    "gray": true
+   },
+   "detail_B2L2": {
+    "file": "nevers-1593/images/f72r_block2.jpg",
+    "box": [
+     215,
+     22,
+     600,
+     80
+    ],
+    "scale": 3,
+    "width": 1000,
+    "gray": true
+   },
+   "figures_8_5": {
+    "file": "nevers-1593/images/f72r_block1.jpg",
+    "box": [
+     52,
+     46,
+     146,
+     90
+    ],
+    "scale": 4,
+    "width": 376,
+    "gray": true
+   },
+   "page": {
+    "file": "nevers-1593/images/f72r_page.jpg",
+    "box": null,
+    "width": 440,
+    "gray": true
+   }
+  }
  }
 }

@@ -1,0 +1,29 @@
+# Key of the two cipher passages of BnF fr. 4700 no. 38, f. 72r. Rebuilt from the text. We did not find it on a key sheet.
+# count = how many times the group stands in transcription.txt (decode.py counts them again).
+# words = the words that fix the value, in the spelling of the cipher. u and v are one letter.
+group	value	kind	count	words
+43	c	consonant	2	che, secreto
+44	u	vowel	5	uolese, neuers, un, suo, tuto
+45	a	vowel	13	papa, mandar, a, faria, saper, desideraria, tale, sarebe, spesato, da
+46	e	vowel	13	se, uolese, neuers, confidente, che, desideraria, peche, sarebe, spesato, e, secreto
+47	i	vowel	9	confidente, io, gli, faria, desideraria, di, uenise, mi
+48	e	vowel	12	uolese, neuers, saper, desideraria, qel, tale, che, uenise, sarebe, tenutolo, secreto
+49	o	vowel	4	uolese, io, tuto, tenutolo
+83	b	consonant	1	sarebe
+84	c	consonant	4	confidente, che, peche; and the third group of B1L1, where the sense is open
+85	d	consonant	6	mandar, confidente, desideraria, di, da
+86	f	consonant	2	confidente, faria
+87	g	consonant	1	gli
+88	h	consonant	3	che, peche
+89	l	consonant	6	uolese, gli, qel, tale, tenutolo, molt
+93	m	consonant	3	mandar, mi, molt
+94	n	consonant	8	mandar, neuers, un, confidente, uenise, n (for "in"), tenutolo
+95	p	consonant	5	papa, saper, peche, spesato
+96	r	consonant	8	mandar, neuers, faria, saper, desideraria, sarebe, secreto
+97	s	consonant	11	se, uolese, neuers, suo, saper, desideraria, uenise, sarebe, spesato, secreto
+98	t	consonant	11	confidente, tuto, tale, spesato, tenutolo, molt, secreto
+99	q	consonant	1	qel
+3	a	vowel	1	papa (the figure can be a 2)
+6	o	vowel	7	suo, confidente, spesato, tuto, tenutolo, molt, secreto
+7	u	vowel	3	tuto, uenise, tenutolo
+0	·	null	9	after a vowel, in all nine places

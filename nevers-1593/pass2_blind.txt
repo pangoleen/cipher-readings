@@ -1,0 +1,148 @@
+# Pass 2 (in the work log: pass B). A blind second reading of 9 October 2026. A separate agent made it.
+# It had the names of the signs and the line images only. It did not see pass 1, and it did not know the key.
+# Its line images were other crops of the same two strips, with other cut points and another scale.
+# The text below is its report, as it wrote it.
+
+PASS B - blind second reading of the 1593 figure cipher (from the line images only)
+
+Notation: 0-9 digits; s = long-s sign; u = open-loop sign; . = dot; [ ] = struck through;
+( ) = faint; ^ ^ = written above the line; ? = not decided; {a/b} = two candidates.
+Signs stand without spaces. A space shows a gap only in B2L4 (see note G).
+Counts give signs only. Dots and the end dash are not counted.
+
+B1L1: 9746u4{9/4}s4s0s?9s304449u94u9746934s(9)4
+B1L2: us4s96.4s94(4)6(4)(4).04u.969744949744.60u4.694u.64.7us4694.[96]^9u^
+B1L3: 464749u7.u9.47u64s96474s974s9s4u96.9u70.9u49u4uu.46us-
+B1L4: 4u9747us4696.4s96.474s.
+B2L1: us4799(4)(u)u9.9u.4su94u43.uu4u44s
+B2L2: 70.4u.9447[79]^97^.[74]^(4)({0/u})^[?]^s^[9]^46^[4604uu469].u4uu.46974s96.4uu3.46.97-
+B2L3: 9s46974s9u.6.us4s9347949u.449u60469u4u94709u49u969360u9
+B2L4: 9u. 97 4u 43 96 46.9u 6.
+
+COUNTS
+B1L1: 35 signs (the "?" counts as 1 sign).
+B1L2: 46 signs on the line + 2 struck [96] + 2 above the line ^9u^.
+B1L3: 48 signs. A long dash fills the end of the line.
+B1L4: 20 signs. Clear text follows.
+B2L1: 27 signs.
+B2L2: 28 signs on the line not struck + 15 struck (the "?" included) + 7 above the line
+      (97, faint 4 and 0/u, s, 46). A dash fills the end of the line.
+B2L3: 52 signs.
+B2L4: 15 signs. Clear text follows.
+
+CLEAR TEXT NEAR THE CIPHER (not sure)
+B1L1: the last clear word before the cipher looks like "rimarro".
+B1L4: after the cipher: "Il Re. S.r potra [one word struck] fare facilmente".
+B2L1: before the cipher: "Il tutto ... senza spesa alcuna".
+B2L4: after the cipher: "pero degno Ill.mo ...".
+
+DOUBTFUL PLACES (sign number in the line, dots not counted)
+
+B1L1
+- Sign 5 (u): closed loop with a dash at its left, then a tall right limb that goes down to the
+  line. I read u. Less probable: "01".
+- Sign 7 {9/4}: small filled three-corner loop at the left of a long stem. The crossbar of sign 6
+  touches its top. I prefer 9.
+- Signs 12-13 "s?": a low squiggle on the line (I read s, its top part is a thin hairline).
+  Then one tall thick stroke like a Greek lambda. It starts at the top edge of the picture
+  and ends on the line. My best guess is 1. I saw no other sure 1 in the text to compare.
+  Other candidates: squiggle and stroke are one large u; or the stroke comes from a line above.
+- Sign 17 (0): a cup that is open at the top, after 3. Not a closed oval. I read 0. Maybe u.
+- Sign 18 (first 4 of 444): a small dot at its upper left and a short bar above it at the top
+  edge. I did not transcribe them.
+- Sign 34 (9): the loop is faint, the stem is clear. Maybe 7.
+
+B1L2
+- Sign 1 (u): cup form (open cup at the left, arch at the right). A stroke above it is the tail
+  of a letter from L1. I ignored it.
+- Sign 11 (4): only a dark horizontal dash is clear. Faint traces of an upright stroke and of
+  dots above and below. Maybe a washed 4, maybe only a dash.
+- Signs 12, 13, 14: 6 is a little pale; the two 4 are faint (sign 14 very faint).
+- Dot after sign 14: it touches the right end of the faint crossbar. Maybe not a dot.
+- Dot after sign 17 (u): small and pale.
+- Dots before sign 30 (6) and before sign 34 (6): each touches the loop of the 6.
+- Sign 31 (0): cup open at the top, after 6. I read 0. Maybe u.
+- End of line: 9 and 6 struck with a heavy line (the line continues to the right, with a second
+  short stroke below it; I see no more signs under it). "9u" stands above, between L1 and L2.
+
+B1L3
+- Sign 2 (6): the bowl is blotted, maybe a correction.
+- Sign 6 (9): the loop is only a small blob. Maybe 1.
+- Dot before sign 9 (u): the dot is HIGH, above the loop of the u, not on the line.
+  It can be a dot that belongs to the sign.
+- Dot before sign 11 (4): very small.
+- Signs 43-44 (uu): the first has a closed loop, the second is the cup form. They touch.
+- Sign 48 (s): the top flag is flat and long. It is a little like a 5. I read s.
+
+B1L4
+- Dot after sign 16 (6): it touches the left tip of the crossbar of the next 4.
+
+B2L1 (the top of the line is cut)
+- Signs 1, 9, 15 (u): closed loop with a rising stroke that the cut removes; a separate small
+  tick comes down after it. I read each loop + tick as one u.
+- Sign 4 (7): the foot bends to the right. Small doubt (7 or 2).
+- Signs 5, 6 (9 9): sign 5 has an angular loop; sign 6 is grey.
+- Sign 7 (4): faint.
+- Sign 8 (u): faint S-shaped stroke with a dark tick at its top right. u or s.
+- Sign 22: faint S-shaped stroke, then a long dark tick down. I read u. Maybe s.
+- Sign 24: hook at lower left, rise, thin right limb. I read u. Maybe s.
+- Signs 25-27 (44s): one heavy horizontal stroke joins the crossbars of the two 4 and goes into
+  the s. It can be a blot or a strike-through. The foot of the s is in the blot.
+
+B2L2
+- Dot after sign 2 (0): small, at the upper left of the 4.
+- Sign 7 (second 4 of 447): a small tick at its lower left; the diagonal is faint.
+- [79]: 7 and 9 struck; "97" is written above them (the upper 7 is paler).
+- A dot stands on the line between [79] and [74].
+- Above [74]: two faint grey signs. The first looks like a 4 with a dot above it.
+  The second is a thin oval or cup (0 or u). They can be rubbed out or show-through.
+- [?]: one large blotted sign after [74]. It goes from the height of the upper insertion down
+  to the strike line. It has a curl at its top left and two legs. Candidates: 3, 2, 8, or two
+  signs one above the other. I cannot decide if it is on the line or above the line.
+- ^s^: a clear s above the line, at the right of "?" and above the struck 9.
+- [9]: on the line, loop and long stem; the strike touches the loop.
+- ^46^: a 4 and a 6 at the height of the upper insertion. Their lower parts go into the strike
+  line. Under the 6 a stem and a thin diagonal show a struck 4 on the line.
+  The thin slanted line near them is the tail of a letter from L1.
+- [4604uu469]: read through a thick strike line. Only the tops and the stems show.
+  The 0 is only an arch above the strike line (0 or u). The two u show a loop and a hook.
+  The third 4 can be a 9 (stem length agrees better with 4).
+  I see no dot between that 4 and the last [69].
+- After the strike: ".u4uu." The first u of "uu" is the cup form with a hook at lower left.
+- Sign 20 in the not-struck count (6 before ".4uu3"): a large ink blot covers its top.
+- Dot before the 4 of "3.46": very small, at the left tip of the crossbar.
+
+B2L3
+- Sign 5 (9): the loop is filled with ink. Long stem, so 9, not 4.
+- Signs 20, 32 (9): loop faint or thin. Sign 36 (9): open loop.
+- Signs 23, 27 (u): cup at lower left, rise, short hook at the top right. I read u.
+  Sign 27 can be s.
+- Sign 29 (0): cup open at the top, after 6. I read 0. Maybe u. (Sign 50, also after 6,
+  is a small closed 0.)
+- Signs 44-45 and 51-52 (u9): the hook of the u goes into a 9 with a small three-corner loop.
+  Long stem, so 9, not 4.
+
+B2L4
+- Sign 10 (6): written higher than the other signs.
+- Sign 15 (6): heavy foot stroke at the lower left of the bowl. A large dot follows.
+
+GENERAL NOTES
+A. I saw no normal closed 8 and no normal 5 with a flat top bar. I saw no 2.
+   The only possible 1 is the tall stroke in B1L1.
+B. The u sign has two forms. Loop form: small closed loop at lower left, rising stroke, hook
+   down at the right (like an 8 open at the top). Cup form: open cup at the left and an arch at
+   the right. I wrote u for the two forms. Cup form at: B1L2 signs 1 and 41 and the ^9u^;
+   B1L3 sign 44; B1L4 signs 2 and 7; B2L2 sign 4 and the first "uu" pair (signs 11-12);
+   B2L3 sign 10. The list is not complete for B2L1, where the top is cut.
+C. The 0 after a 6 or a 3 is frequently a cup open at the top (B1L1 17, B1L2 31, B2L3 29).
+   The 0 after 7 is a closed oval.
+D. Many 9 have only a very small loop or hook. A long stem separates them from 4.
+E. Dots stand at mid height, not on the base line. Small dots that touch the left tip of a 4
+   or the loop of a 6 can be pen starts and not separators.
+F. Tails of letters from the line above and tops of signs from the line below show in many
+   pictures. I ignored them.
+G. Gaps. Typical blank between signs: 20 to 45 px in the enlarged picture. In B2L4 the blanks
+   between the groups are 62 to 83 px, and I show them as spaces. Other blanks of 60 px or more
+   (not shown as spaces): B1L1 between signs 27 and 28 (61); B1L2 between 4 and 5 (88) and
+   between 8 and 9 (68); B1L3 between 6 and 7 (69); B2L2 between 2 and the dot (60) and
+   between "u4" and "uu" after the strike (88); B2L3 between signs 45 and 46 (61).

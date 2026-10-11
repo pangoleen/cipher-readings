@@ -24,8 +24,9 @@ reproduced from a period source, and what stays open. Corrections are welcome: p
 | [dutch-1653](dutch-1653/) | The Dutch deputies in England to Boreel, 1 September 1653 (Thurloe, *State Papers*, i.435) | The key, and the link to the printed Dutch minute. The text itself is reproduced. | 127 of 131 groups fit |
 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy (BnF, Espagnol 132) | First readings with keys that others published. | Five pieces read |
 | [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590 (BnF, fr. 4698, fr. 4702 and fr. 4696) | The cipher rebuilt with no key sheet; three period decipherments linked to their cipher letters; the rebuilt code tested on a second volume (97.6 % of 463 words right); letters and passages with no decipherment read, and checked against Pastor's history. | A code of 448 values; the new readings have gaps |
+| [nevers-1593](nevers-1593/) | The Duke of Nevers to the Oratorian Tommaso Bozio in Rome, minute of 1 May 1593, in Italian (BnF, fr. 4700, no. 38, f. 72r) | The first reading known to us of the two cipher passages. G. Cassiani described the minute in 2014 and gave no reading of them. The key is rebuilt from the text. | 148 of 149 groups have a value; the first words of the first passage are not sure |
 
-**An eighth result, read for the greater part:** [centurione-1528](centurione-1528/). The "Venetian?" cipher with
+**A ninth result, read for the greater part:** [centurione-1528](centurione-1528/). The "Venetian?" cipher with
 superscript digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo" in fr. 2988) is a code
 of stems with a small alphabet of single letters for the endings. 86 % of the text now reads as connected sense,
 with a key table of 779 values. The "Ranzo" letters are of Madrid, March 1528, from a father to his son: Martino
@@ -71,6 +72,7 @@ Juan Manuel to Charles V of 1522 (no free images). Short texts with no key and n
   ciphers and keeps the list of unsolved ones.
 - **Daniel Bourdeau**, **Ari Aymeloglu**, **NoAutopilot/cipher-lab**, **el-descifrador/cabinet-noir** and
   **Satoru** worked on the same lists in 2026. Each folder says what it owes to them.
+- **Gennaro Cassiani** described the minute of the Duke of Nevers of 1593 and its context (2014).
 - **Bibliothèque nationale de France / Gallica**, the **British Library**, the **DECODE** database, the Internet
   Archive and British History Online provide the sources.
 

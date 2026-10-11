@@ -1,0 +1,47 @@
+# BnF fr. 4700 no. 38, f. 72r: the clear Italian text of the minute, as far as we read it.
+#
+# THIS IS A READING FROM A SMALL IMAGE. It is not an edition. The image of the whole page has about 8 pixels for
+# each letter (images/f72r_page.jpg). The text had one pass only. No palaeographer has checked it.
+# Use it to see where the two cipher passages stand. Do not quote it as the text of the leaf.
+#
+# G. Cassiani quotes this minute from the leaf itself (Rivista di storia della Chiesa in Italia 68, 2014,
+# pp. 394-395). Where his quotations differ from this file, follow him.
+#
+# (?) = doubtful word. [..] = not read. [struck] = a word that the writer struck out.
+# Abbreviations are opened in round brackets. The two cipher passages are given as the key reads them
+# (a raised dot = the null 0; [?] = a mark that is not read).
+
+Molto R(everen)do P(ad)re, Con mio grandiss(i)mo dispiacere ho ricevuto la l(ette)ra di V(ost)ra M(ol)to R(everen)da
+P(aterni)tà de 20 di febraro per haver inteso la perdita che ho fatto del S(igno)r Badalochio(?), Non solo per essere
+[..] homo da bene qual era, ma per amarmi grandem(en)te come faceva, Et poi in tempo cosi tempestoso(?) come è
+questo, perche io sperava con il suo meggio poter pigliar qualche particolar famigliarita con sua S(anti)tà et darle a
+conoscere che non ha nella Christianita un piu aff(ezionatissi)mo serv(ito)re et devoto de S(an)ta Chiesa che io le
+sono, Ma inutile per essermi levato il modo di poterlo far conoscere a sua S(anti)tà et portar quel utile che
+desidero alla religione Cat(oli)ca et a S(an)ta Chiesa et a q(ues)to n(ost)ro miserabile Regno di francia, pero mi
+condoglio seco(?) di tal perdita per essere grandiss(i)ma per me, Ma poi che cosi è piaciuto a S(ua) D(ivina)
+M(aes)tà mi conformo seco(?) dicendo fiat voluntas tua, Et perche V(ost)ra(?) P(aterni)tà mi haveva scritto ch'el
+povero huomo haveva hauto grata et begnigna audienza da S(ua) S(anti)tà et esso(?) mal contento di non saper
+q(ue)llo che S(ua) S(anti)tà gli haveva comisso di scrivermi, pero [struck] se q(ue)llo l'ho(?) [..] detto a V(ostra)
+P(aternità) la prego di farmelo sapere col meggio della Zifara che q(ue)llo(?) [..] ha lasciato in mani(?), et se non
+glielo ha ditto, farmi q(ues)to piacere di far sapere a S(ua) S(anti)tà la morte sua et come non ha potuto scrivermi
+quanto da lei gli era stato imposto, accio [struck] che gli piaccia di farmilo sapere per tal via che le sara grata, sia
+per meggio suo poi che ha la Zifera, o per meggio del S(igno)r Capilupi o de l'agente del S(igno)r Duca di
+Mant(ov)a mio Nepote o vero di tal altro che la restera servita. perche mi venta(?) le cose di q(ues)to regno haver
+bisogno di ottimi remedij et dubito che S(ua) S(anti)tà non sia ben informata come converria dello essere loro per
+portarle(?). Io giudicare(?) come et necessario et primo(?) il salutifero rimedio
+   [PASSAGE 1, cipher: se c pa·[?]pa(?)· uolese mandar a neu·ers un suo· confidente io gli faria saper tu·to che desideraria]
+Il che si potra [struck] fare facilmente, [struck] essendovi un Colegio de Gesuiti del q(ua)le il [struck] Rettore è
+Italiano et predicatore(?), Et un savio(?) [..] p(ad)re(?) Zocolante nel mio Convento, Et una Comunità de frati
+dominicani francesi tutti. la Cità è grande assai et si faria il tutto [struck] senza spesa alcuna
+   [PASSAGE 2, cipher: di qel tale che u·enise peche sarebe spesato da mi n tuto· e tenu·tolo mo·lt secreto]
+Pero degno(?) M(ol)to R(everen)do P(ad)re [..] per amor de Christo [..]
+
+# The image of the page ends here. We did not see the verso (f. 72v).
+#
+# Notes of 11 October 2026, after we read Cassiani's article:
+# - The dead man is Vincenzo Badalocchio, and the addressee is Tommaso Bozio. Both names are Cassiani's.
+#   We read "Badalochio(?)" on the image, and we saw no name of the addressee on the recto.
+# - The word that we read "tempestoso(?)" is a longer form in his quotation (a superlative). His form is from
+#   the leaf.
+# - He reports that Nevers asked for two copies of the answer, one by way of Lucca and one by way of Mantua.
+#   We did not read this on the recto. It is probably on the verso.

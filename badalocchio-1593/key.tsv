@@ -1,0 +1,92 @@
+# Key of the cipher sheet BnF fr. 4700 f. 80r (Vincenzo Badalocchio, Rome, January 1593).
+# The letters are the key that we rebuilt from the Duke's minute of 1 May 1593 (folder nevers-1593), unchanged.
+# The other values are added from this sheet. No key sheet of this cipher is known to us.
+# value: a raised dot = a null (no meaning); ? = no value.
+# count = how many times the group stands in groups.txt (decode.py counts them again).
+# state: minute = a value of the minute; sure = fixed by the sense of one clear place or more;
+#        probable = one place, or the sense is not complete; open = no value.
+# words = the words that fix the value. CAPITALS mark the place of the group in the word. u and v are one letter.
+#         A raised dot in a word is a null. Square brackets hold letters that the sheet does not have.
+group	value	kind	count	state	words
+43	c	letter	23	minute	ecco, con, cosi, pacifico, Francia
+44	u	letter	5	minute	disgusto, esseguirsi, veramente
+45	a	letter	13	minute	Navara, Cardano, autorita, efficaci
+46	e	letter	49	minute	bella, morte, del, heresia
+47	i	letter	11	minute	impossibili, pacifico, Sicilia
+48	e	letter	22	minute	heresia, imprese, nascere
+49	o	letter	9	minute	disgusto, segno, starebbono
+83	b	letter	14	minute	bella, sarebbe, buona
+84	c	letter	7	minute	nascesse, pacifico, efficaci, Sicilia
+85	d	letter	12	minute	del, prudente, Cardano, gagliarda
+86	f	letter	6	minute	Francia, efficaci, pacifico
+87	g	letter	10	minute	regno, gagliarda, ragioni, segno
+88	h	letter	4	minute	heresia, havesse
+89	l	letter	34	minute	Milano, bella, Napoli
+93	m	letter	19	minute	Milano, morte, monarchia, numero
+94	n	letter	45	minute	Navara, Milano, Francia
+95	p	letter	20	minute	primo, Napoli, prudente
+96	r	letter	55	minute	Navara, heresia, Francia
+97	s	letter	44	minute	heresia, Sicilia, suo
+98	t	letter	25	minute	morte, autorita, trova, rimostranza
+99	q	letter	1	minute	one place: "i q a r t o" in line 8 (quarto?); the sense of the place is open
+3	a	letter	71	minute	Navara, Francia, gagliarda
+6	o	letter	58	minute	Milano, regno, Napoli
+7	u	letter	34	minute	suo, una buona, autorita
+0	·	null	17	minute	beside a sign, between the halves of a doubled letter (ec··co, bel··la, sareb··be); alone in lines 4 and 18
+5	i	letter	53	sure	Milano, heresia, Sicilia, Francia, pacifico, efficaci, ragioni
+2	·	null	93	sure	between words; before the group for "ente"; between the halves of a doubled sound (es·se-guirsi, impos·si·bili)
+<triangle>	z	letter	2	sure	speranza, rimostranza
+<pi>	·	null	6	sure	bel··la, sareb··bono, ef··ficaci, impos·si··bili
+<Cn>	·	null	5	sure	sareb··be; oc···ca.. in line 18; at the end of lines 3, 12 and 15
+<arch>	·	null	3	sure	ec··co in line 1; oc···ca.. in line 18; at the end of line 3
+<0+>	·	null	2	sure	ap··pogio; one more place in line 3, in a stretch that is not read
+<female>	·	null	1	sure	one place, line 7, between two b (b··be), in a word that is doubtful
+12	ma	syllable	10	sure	MA-lissimo, facilissi-MA-mente, MA impossibili, MA la heresia, MA con, gia MA-i
+55	se	syllable	10	sure	haves·SE, nasces·SE, vedes·SE, es·SE-guirsi, per-SE-vera
+58	si	syllable	12	sure	SI presenta·se, SI mostra, SI trova, SI vedesse, scris·SI, impos·SI·bili, esseguir·SI
+66	stato	word	2	sure	lo STATO di Milano (two times)
+91	ente	syllable	8	sure	veram·ENTE, [o]stinatam·ENTE, prud·ENTE, pres·ENTE, facilissimam·ENTE; two places do not read
+92	per	syllable	7	sure	a PER-SE-vera: one clear place; five places do not make a clear word
+29	non	word	1	probable	NON starebbono a segno; one more place on f. 83r
+135	ben	word	1	probable	il BEN suo
+141	che	word	8	sure	CHE Napoli et Sicilia, CHE predice, CHE da lui nascesse, poi CHE pure, CHE si trova
+142	chi	word	2	sure	monar-CHI-a, da CHI
+143	ci	word	2	sure	fa-CI-lissimamente; the second place is not read
+146	come	word	1	sure	prudente COME disidera..
+148	da	word	3	sure	DA esseguirsi, DA lui nascesse, DA chi
+152	di	word	17	sure	DI Milano, DI Francia, numero DI, pre-DI-ce, DI-ficili, DI-cembre
+154	dove	word	1	probable	DOVE-re (dovere) in .. nascere
+156	egli	word	1	sure	se EGLI havesse lasciata
+157	et	word	6	sure	Napoli ET Sicilia, buona ET gagliarda, presente ET con
+158	fa	word	1	sure	FA-ci-lissimamente
+162	far	word	2	sure	deve FAR una buona et gagliarda rimostranza
+163	fatto	word	1	probable	s[odis]FATTO; the clear letter has "male sodisfatti"
+175	giorno	word	2	sure	il primo GIORNO del suo regno; lettere del GIORNO [xij] di dicembre ("dì" is possible; "giorno" fits the order)
+184	il	word	3	sure	IL primo giorno, IL Cardano, IL ben suo
+185	in	word	3	sure	pacifico IN Francia
+188	io	word	1	sure	IO le scrissi
+192	la	word	10	sure	LA-sciata, al-LA sua heresia, bel-LA, LA monarchia, ma LA heresia
+193	le	word	5	sure	bel-LE imprese, LE-tere, far so-LE-..
+197	lui	word	1	sure	che da LUI nascesse
+39	?	open	1	open	a short word before "mie lettere" (line 11); one more place on f. 83r
+41	?	open	1	open	line 2
+80	?	open	1	open	line 1: potre[80]·bono
+100	?	open	1	open	line 18
+132	?	open	1	open	line 1; a guess that is not in the key: al.. (altra?)
+133	?	open	1	open	line 18
+138	?	open	1	open	line 7; a guess that is not in the key: bene
+145	?	open	1	open	line 9
+166	?	open	1	open	line 8; a guess that is not in the key: fin
+167	?	open	1	open	line 1; a guess that is not in the key: fosse
+181	?	open	1	open	line 18
+194	?	open	1	open	line 18
+198	?	open	1	open	line 3
+199	?	open	2	open	line 18, two times
+.12	?	name	1	open	la morte del [name 112]; a guess that is not in the key: the King of Spain
+.17	?	name	3	open	lines 1, 3 and 5; a guess that is not in the key: a power with "heresia" and the article "la" (England?)
+.38	?	name	1	open	line 1
+.78	?	name	1	open	line 18; the place is damaged
+<et>	?	open	1	open	line 3: a large sign like "&"
+<frame_?ij>	?	number	1	open	line 11: a number in clear, xij (12) or xxij (22)
+<frame_47>	?	number	1	open	line 12: a number in clear, 47 with a blotted 4
+?	?	open	1	open	line 18: a blot

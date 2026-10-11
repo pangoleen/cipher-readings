@@ -1849,6 +1849,345 @@ def nevers():
     return page('nevers-1593.html', title_of(F), body, F)
 
 
+# ---------------------------------------------------------------- badalocchio-1593
+
+def badalocchio():
+    P = F = 'badalocchio-1593'
+    RM = F + '/README.md'
+    dec = load_module(F + '/decode.py', 'badalocchio1593decode')
+    KEY, krows = dec.load_key()
+    G = dec.load_groups()
+    raw = rd(RM)
+    readme = collapse(raw)
+    reading = rd(F + '/reading.md')
+    credit = CROPS[P]['credit']
+    boxes = CROPS[P]['boxes']
+    title = title_of(F)
+
+    def section(title, text=raw):
+        m = re.search(r'^## %s\n(.*?)(?=^## |\Z)' % re.escape(title), text, re.S | re.M)
+        check(P, m is not None, 'README has the part "%s"' % title)
+        return m.group(1) if m else ''
+
+    def items(block, pat):
+        out = []
+        for l in block.splitlines():
+            if re.match(pat, l):
+                out.append(re.sub(pat, '', l))
+            elif out and l.startswith(' '):
+                out[-1] += ' ' + l.strip()
+            elif out and not l.strip():
+                break
+        return out
+
+    def mdx(s):
+        return md(re.sub(r'<(https?://[^>]+)>', r'[\1](\1)', collapse(s)))
+
+    def scan(name, alt, caption, cls='scan'):
+        check(P, name in boxes and os.path.exists(os.path.join(HERE, 'img', P, name + '.jpg')), 'image ' + name)
+        return figure('img/%s/%s.jpg' % (P, name), alt, caption + ' Source: %s.' % esc(credit), cls)
+
+    # ---- the title and the claim: a partial reading, and no more
+    check(P, 'read for about four fifths, with gaps' in title, 'the title says "read for about four fifths, with gaps"')
+    claim = quoted(P, RM, '**This is the first reading known to us; the key is the one rebuilt from the Duke\'s minute of '
+                   '1 May 1593 (folder nevers-1593), extended from this sheet; no key sheet of this cipher is known.**')
+    check(P, 'first reading known to us' in readme and not re.search(r'first\s+deciph|first\s+solution|fully\s+read|read\s+in\s+full', raw, re.I),
+          'README: the claim is "first reading known to us", no more')
+    check(P, '**It is a partial reading.**' in raw and '**The reading is partial.**' in readme, 'README says that the reading is partial')
+
+    # ---- the counts, from the transcription and the key table
+    stored = dec.load_rows('groups.txt')
+    check(P, len(G) == 18 and all(' '.join(G[k]) == stored.get(k) for k in G), 'the cut rule gives groups.txt again, for the 18 lines')
+    c = dec.counts(G, KEY)
+    check(P, (c['groups'], c['with a value'], c['nulls'], c['not nulls'], c['no value']) == (919, 894, 127, 792, 25),
+          '919 groups; 894 have a value; 127 nulls; 792 other groups; 25 with no value')
+    count = {}
+    for t in G.values():
+        for g in t:
+            count[g] = count.get(g, 0) + 1
+    check(P, sorted(count) == sorted(r[0] for r in krows), 'key.tsv has a row for each group of the text')
+    bad = [r[0] for r in krows if int(r[3]) != count.get(r[0], 0)]
+    check(P, not bad, 'key.tsv: the count of each group is the count in the text')
+    figs = sum(1 for v in dec.load_rows('transcription.txt').values() for k, x in dec.lex(v) if k == 'D' and x != '?')
+    strokes = sum(1 for v in dec.load_rows('transcription.txt').values() for k, x in dec.lex(v) if k == 'I')
+    check(P, (figs, strokes) == (1549, 6), 'transcription.txt has 1,549 figures and 6 dotted strokes')
+    decoded = dict(l.split(': ', 1) for l in rd(F + '/decoded_by_key.txt').splitlines() if l.strip())
+    check(P, all(decoded.get(k) == dec.decode(t, KEY) for k, t in G.items()), 'decoded_by_key.txt has the decode of the 18 lines')
+    cons = [KEY[str(n)] for n in list(range(83, 90)) + list(range(93, 99))]
+    check(P, ''.join(cons) == 'bcdfghlmnprst', 'the pairs 83 to 89 and 93 to 98 give b c d f g h l m n p r s t, as in the minute')
+    nkey, nrows = load_module('nevers-1593/decode.py', 'nevers1593decode_b').load_key()
+    check(P, all(KEY.get(g) == (v if g != '0' else '') for g, v in nkey.items()), 'every value of the key of the minute (nevers-1593/key.tsv) is in this key, unchanged')
+    check(P, sorted(r[0] for r in krows if r[4] == 'minute') == sorted(nkey), 'the rows marked "minute" are the 25 groups of the minute')
+
+    # ---- reading.md: the rows of groups and values are the rows of the decoder
+    rrows = re.findall(r'^### Line (\d+)\n\n- Groups: `(.*?)`\n- Key: `(.*?)`\n- Italian: (.*?)\n- English: (.*?)\n', reading, re.M)
+    R = {'L' + n: (g, k, it, en) for n, g, k, it, en in rrows}
+    check(P, len(R) == 18 and all(R[k][0] == ' '.join(G[k]) and R[k][1] == dec.decode(G[k], KEY) for k in G),
+          'reading.md: the 18 rows "Groups" and "Key" are what the decoder gives')
+    crow = re.findall(r'\| (\d+) \| (\d+) \| (\d+) \|', re.sub(r'\| \|', '|\n|', reading))
+    sense = {int(a): (int(b), int(s)) for a, b, s in crow}
+    check(P, len(sense) == 18 and all(sense[i][0] == sum(1 for g in G['L%d' % i] if KEY.get(g) != '') for i in range(1, 19)),
+          'reading.md: the table of counts has the groups that are not nulls, line by line')
+    check(P, sum(s for b, s in sense.values()) == 617 and sum(b for b, s in sense.values()) == 792,
+          'reading.md: the counts by hand sum to 617 of 792')
+    check(P, 'With 15, the total is 613 of 792 (77 %)' in readme and '613 of 792 (77 %)' in collapse(reading),
+          'README and reading.md give the count of line 3 that does not agree')
+
+    # ---- the controls that the decoder repeats
+    same, total, diffs = dec.agreement()
+    check(P, (same, total) == (1561, 1595), 'pass A and pass B have the same sign in 1,561 of 1,595 places')
+    h1 = dec.half(G, KEY, krows, range(1, 10), range(10, 19))
+    h2 = dec.half(G, KEY, krows, range(10, 19), range(1, 10))
+    check(P, h1[:2] == (443, 421) and h2[:2] == (476, 445), 'the halves: 421 of 443 groups, and 445 of 476')
+    wt = dec.word_table(krows)
+    check(P, len(wt) == 17 and [w for g, w in wt] == sorted(w for g, w in wt), 'the 17 sure words of the table stand in the order of the alphabet')
+    held = dec.load_rows('heldout_f83r.txt')
+    hg = held['L1'].split()
+    hval = sum(1 for g in hg if g in KEY)
+    hnul = sum(1 for g in hg if KEY.get(g) == '')
+    check(P, (len(hg), hval, hnul) == (33, 32, 4), 'the held-out passage has 33 groups; 32 have a value; 4 are nulls')
+    check(P, 'i l [<sign>] DI p a u i a'.replace('i l', 'IL') in dec.decode(hg, KEY) and 'c o · s e DI n a u a r a' in dec.decode(hg, KEY),
+          'the held-out passage: the key gives "IL .. DI p a u i a" and "c o . s e DI n a u a r a"')
+
+    # ---- the three stretches of the README, to check by hand
+    trans = dec.load_rows('transcription.txt')
+    hand = re.findall(r'^\| Line (\d+), figures (\d+) to (\d+) of (\d+) .*? \| `([\d ]+)` \| `([\d ]+)` \| (.*?): "(.*?)" \|$', raw, re.M)
+    check(P, len(hand) == 3, 'README has three stretches to decode by hand')
+    for n, a, b, tot, fg, gr, vals, words in hand:
+        L = 'L' + n
+        f = [x for k, x in dec.lex(trans[L]) if k in 'DI']
+        ok = len(f) == int(tot) and ' '.join(f[int(a) - 1:int(b)]) == fg
+        ok = ok and ' '.join(dec.cut(dec.lex(fg), '')) == gr and (' ' + gr + ' ') in (' ' + ' '.join(G[L]) + ' ')
+        ok = ok and dec.decode(gr.split(), KEY) == vals and norm(vals) == norm(words)
+        check(P, ok, 'README, line %s, figures %s to %s: the figures, the cut and the values are those of the files' % (n, a, b))
+
+    # ---- the lines, group by group
+    SIGN = {'<pi>': 'gate', '<Cn>': 'C-n', '<arch>': 'arch', '<0+>': 'ring, cross above', '<female>': 'ring on a cross',
+            '<triangle>': 'triangle', '<et>': '&amp;'}
+    PROB = set(r[0] for r in krows if r[4] == 'probable')
+
+    def toks(L, a, b, gaps):
+        out = []
+        for i in range(a, b):
+            g = G[L][i]
+            name = SIGN.get(g, esc(g))
+            gap = any(x <= i < y for x, y in gaps)
+            if g.startswith('.'):
+                out.append(tok('1' + esc(g[1:]), 'name', '', 'unread', mark='1 with a dot'))
+            elif g not in KEY:
+                out.append(tok(name, 'no value', '', 'unread'))
+            elif KEY[g] == '':
+                out.append(tok(name, 'null', '', 'null'))
+            else:
+                v = KEY[g].upper() if len(KEY[g]) > 1 else KEY[g]
+                if gap:
+                    out.append(tok(name, v, '', 'ill'))
+                else:
+                    out.append(tok(name, v, None, 'doubt' if g in PROB else 'letter'))
+        return out
+
+    # (image, words, [gap ranges: groups that stand in no word that we translate])
+    SEG = [('L06_a', '-bili da es·seguir·si', []), ('L06_b', 'ueram·ente nauara', []),
+           ('L06_c', 'per(?) si mostra prud·ente', []), ('L06_d', 'come di·side-', []),
+           ('L10_a', '-ranza che da lui nasces·se', []), ('L10_b', 'rella(?) monarchia che', []),
+           ('L10_c', 'predice il cardano', []), ('L10_d', 'dovere(?) in', []),
+           ('L13_a', 'autorita deue', [(8, 12)]), ('L13_b', 'far una buona et gagliarda', []),
+           ('L13_c', 'rimostranza con', [(50, 51)]),
+           ('L15_a', '-s·se soleuatione', []), ('L15_b', 'alo stato di milano', []), ('L15_c', 'con lap··pogio', []),
+           ('L15_d', 'di un di francia', [(45, 46)]),
+           ('L03_a', '-nirse a facilis·si·mam·ente', []), ('L03_b', '', [(20, 34)]), ('L03_c', '', [(34, 47)]),
+           ('L03_d', '', [(47, 51)])]
+    SG, seen, ngap = {}, {}, {}
+    for name, units, gaps in SEG:
+        d = boxes[name]
+        L, (a, b) = d['line'], d['tokens']
+        check(P, a == seen.get(L, 0), '%s: the image starts where the last one ended' % name)
+        seen[L] = b
+        SG[name] = group(P, name, toks(L, a, b, gaps), units)
+        ngap[L] = ngap.get(L, 0) + sum(1 for x, y in gaps for i in range(x, y) if KEY.get(G[L][i]) != '')
+    for L in seen:
+        check(P, seen[L] == len(G[L]), '%s: every group of the line is on the page' % L)
+    check(P, ngap['L3'] == 24 and '[Not read: 24 groups; the passage ends with three nulls.]' in R['L3'][3],
+          'line 3: the 24 groups that are not read are shown as gaps, as reading.md says')
+
+    def line(L, title, intro):
+        n = int(L[1:])
+        h = ['<h3>%s</h3><p>%s</p>' % (title, intro)]
+        for name, units, gaps in SEG:
+            if boxes[name]['line'] != L:
+                continue
+            part = 'abcd'.index(name[-1]) + 1
+            h.append(scan(name, 'Line %d, part %d' % (n, part), 'BnF fr. 4700, f. 80r: line %d, part %d.' % (n, part)))
+            h.append(cells(SG[name]))
+        g, k, it, en = R[L]
+        h.append('<blockquote><p class="orig">%s</p><p>%s</p></blockquote>' % (esc(it), esc(en)))
+        inw = sum(1 for nm, u, gp in SEG if boxes[nm]['line'] == L for tk, w in SG[nm] if w for t in tk if t['L'])
+        h.append('<p class="note">The reading of line %d in %s. The reader counts %d of the %d groups of this line that are not '
+                 'nulls as "in sense".%s</p>' % (n, gh(F, 'reading.md'), sense[n][1], sense[n][0],
+                                                 ' The boxes above have %d groups in words. So this count does not agree: see '
+                                                 '"What is not resolved", point 16.' % inw if L == 'L3' else ''))
+        if L == 'L3':
+            check(P, inw == 15 and sense[3][1] == 19, 'line 3: 15 groups stand in words on the page; the table of counts has 19')
+        return ''.join(h)
+
+    # ---- the page
+    body = facts(P, RM, [
+        ('Document', 'Paris, BnF, ms. français 4700, f. 80r (Gallica <code>btv1b90582908</code>, view 92). A cipher sheet of '
+         'Vincenzo Badalocchio, agent in Rome of Ludovico Gonzaga, Duke of Nevers: 18 lines, all in figures, with no '
+         'decipherment. It follows his clear letter to the Duke on f. 79r-v, dated "il dì ix(?) di Gennaro: MDXCIII". '
+         'The day is read with doubt.',
+         ['Paris, BnF, ms. français 4700, f. 80r', 'agent in Rome of Ludovico Gonzaga, Duke of Nevers',
+          '"In Roma: il dì ix(?) di Gennaro: MDXCIII"', '**The day is read with doubt.**', 'It has no clear word and no decipherment.']),
+        ('The cipher', 'It is the cipher of the Duke\'s minute of 1 May 1593: see <a href="nevers-1593.html">nevers-1593</a>. '
+         'The letters of the key are those of the minute, unchanged.',
+         ['The letters of the key are those of the minute, unchanged.']),
+        ('New', mdx(claim) + ' <strong>It is a partial reading.</strong>', []),
+        ('State', '919 groups. 894 have a value by the key; 127 of them are nulls. <strong>617 of the 792 groups that are '
+         'not nulls (78 %) stand in words that we translate</strong>, by a count by hand. Three stretches and all names '
+         'are not read. One count of line 3 does not agree: with it, the total is 613 of 792 (77 %).',
+         ['894 (97.3 %). 127 of them are nulls.', '**617 of 792 (78 %)**, counted by hand, line by line',
+          'Three stretches and all names are not read', '117 (three times), 112, 138, 178: not read']),
+    ])
+    body += scan('sheet', 'BnF fr. 4700, f. 80r: the written part of the sheet',
+                 'The written part of the sheet, reduced: 18 lines of figures. The image is joined from twelve strips.', 'scan sheet')
+
+    body += '<h2>The key</h2>'
+    body += ('<p>The cipher text is a row of figures with no gaps. The cut goes from left to right. '
+             '<strong>A group that starts with 1 has three figures</strong>: it is a word or a syllable from a table in '
+             'the order of the alphabet. One group is the exception: 12 (ma). A figure 4, 8 or 9 takes the next figure: the '
+             'pair is one letter. A figure 3, 5, 6 or 7 stands alone and is a vowel. The figures 2 and 0 stand alone and '
+             'are nulls. A name is a figure 1 with a dot, and two more figures. u and v are one letter.</p>')
+    for p in ['**A group that starts with 1 has three figures.**', '**A figure 4, 8 or 9 takes the next figure.**',
+              '**A figure 3, 5, 6 or 7 stands alone.**', '**The figures 2 and 0 stand alone and are nulls.**',
+              '**A name is a figure 1 with a dot, and two more figures.**', '12 (ma) has two figures']:
+        check(P, p in readme, 'README has: "%s"' % p)
+
+    def kc(g, name=None):
+        v = KEY.get(g)
+        return '<span class="mono">%s</span> <strong>%s</strong><br><span class="note">%d</span>' % (
+            name or esc(g), 'null' if v == '' else ('no value' if v is None else esc(v)), count.get(g, 0))
+    body += '<p>The letters, as in the minute:</p>'
+    body += table(['', '3', '4', '5', '6', '7', '8', '9'],
+                  [['<strong>%dx</strong>' % r] + [kc('%d%d' % (r, c)) if '%d%d' % (r, c) in KEY and len(KEY['%d%d' % (r, c)]) == 1 else ''
+                                                   for c in range(3, 10)] for r in (4, 8, 9)], 'ring')
+    body += '<p>The single figures and the signs:</p>'
+    singles = ['3', '5', '6', '7', '0', '2', '<triangle>', '<pi>', '<Cn>', '<arch>', '<0+>', '<female>']
+    body += table([SIGN.get(g, g) for g in singles], [[kc(g, SIGN.get(g)) for g in singles]], 'ring')
+    syl = [r for r in krows if r[2] in ('syllable', 'word') and len(r[0]) == 2]
+    body += '<p>The groups of two figures for a syllable or a word:</p>'
+    body += table([esc(r[0]) for r in syl], [[kc(r[0]) + ('<br><span class="note">probable</span>' if r[4] == 'probable' else '') for r in syl]], 'ring')
+    words = [r for r in krows if r[2] == 'word' and len(r[0]) == 3]
+    check(P, len(words) == 20 and sum(1 for r in words if r[4] == 'sure') == 17 and sum(1 for r in krows if r[4] == 'probable') == 4,
+          'the word table has 20 values: 17 sure and 3 probable; with 29, four values are probable')
+    body += '<p>The table of words, in the order of the alphabet. A group can stand for a part of a word too:</p>'
+    body += table(['Group', 'Value', 'Places', 'State', 'Words that fix the value'],
+                  [['<span class="mono">%s</span>' % esc(r[0]), '<strong>%s</strong>' % esc(r[1]), r[3], esc(r[4]), esc(r[5])] for r in words])
+    opn = [r for r in krows if r[1] == '?']
+    check(P, sum(int(r[3]) for r in opn) == 25 and sum(1 for r in opn if r[2] == 'open' and r[0].isdigit()) == 14 and
+          sum(1 for r in opn if r[2] == 'name') == 4, 'no value: 25 groups in the text; 14 groups of the tables and 4 names among them')
+    body += ('<p><strong>No value:</strong> the groups %s; the four names 117 (three times), 112, 138 and 178; the sign &amp;; '
+             'two numbers in a frame; one blot. In the boxes of this page: the group, its value, and how many times it '
+             'stands on the sheet. The key with the words that fix each value: %s. The decoder: %s.</p>') % (
+                 ', '.join(r[0] for r in opn if r[2] == 'open' and r[0].isdigit()), gh(F, 'key.tsv'), gh(F, 'decode.py'))
+    body += ('<p class="note">The cut is not free of doubt in two cases. "5 8" can be the group 58 (si), or the letter i '
+             'and the head of a pair 8x: in four places we read i + 8x (Milano two times, "cosi bel-", Sicilia). "2 9" and '
+             '"3 9" can be the groups 29 and 39: we read them so in two places.</p>')
+    check(P, sorted(dec.NOT58) == [('L15', 1), ('L16', 1), ('L2', 1), ('L5', 1)] and len(dec.PAIR9) == 2 and
+          'In four places we read i + 8x' in readme and 'In two places we read the groups 29 and 39' in readme,
+          'the six places where the sense decides the cut are in decode.py and in the README')
+
+    body += '<h2>Five lines, group by group</h2>'
+    body += ('<p>Each image shows one part of a cipher line. Under the image, each box holds one group of the settled '
+             'transcription and its value by the key. CAPITALS mark a group for a word or a syllable. The line under a '
+             'group of boxes gives the word, in the letters of the cipher; the word division is ours. A hyphen marks a '
+             'word that goes on in the next line. A raised dot in a word is a null. '
+             '<strong>A box in grey italics stands in no word that we translate: it is a gap.</strong> Its value is what '
+             'the key gives, and no more. A red question mark marks a value that is only probable. '
+             'An image can show a part of the next figure at its edge.</p>')
+    body += line('L6', 'Line 6: a line that reads well', 'The line starts in the middle of the word "impossi-bili".')
+    body += line('L10', 'Line 10: the monarchy that Cardano foretells',
+                 'The line starts in the middle of "spe-ranza". Two words are doubtful: "rella" (quella?) and "dovere".')
+    body += line('L13', 'Line 13: the remonstrance', 'Three groups of this line stand in no word that we translate: LE, a and e.')
+    body += line('L15', 'Line 15: a rising in the State of Milan',
+                 'The line starts in the middle of "vedes-se". One letter n after a null makes no word.')
+    body += line('L3', 'Line 3: a line with gaps',
+                 'The line starts in the middle of "impatro-nirse". After "facilissimamente", 24 groups are not read. '
+                 'Three nulls end the passage.')
+    for L, n in (('L6', 0), ('L10', 0), ('L13', 3), ('L15', 1), ('L3', 24)):
+        check(P, ngap[L] == n, '%s: %d groups are shown as gaps' % (L, n))
+
+    body += '<h2>The reading in five sentences</h2>'
+    five = items(section('The reading'), r'^\d+\. ')
+    check(P, len(five) == 5 and five[4].startswith('So fine an occasion'), 'README has the five sentences')
+    body += '<ol>%s</ol>' % ''.join('<li>%s</li>' % mdx(s) for s in five)
+    body += ('<p class="note">Sentences 1, 2 and 4 hold gaps. Their general sense is inferred from the words around the '
+             'gaps and from the clear letter. Sentence 3 holds two gaps too, and its sense is the view of the reader. '
+             'The Italian with its gaps and the translation: %s.</p>') % gh(F, 'reading.md')
+    check(P, 'Sentences 1, 2 and 4 hold gaps.' in readme and 'This is our view of the sense.' in readme, 'README has the limits of the five sentences')
+
+    body += '<h2>How sure</h2>'
+    body += sure(P, RM, [
+        ['Places that are the same in the two transcription passes (pass B blind)', '%s of %s (%.1f %%)' % ('{:,}'.format(same), '{:,}'.format(total), 100.0 * same / total)],
+        ['Blind audit of the key: ten hidden values', '10 of 10 restored'],
+        ['Groups that are not nulls, in words that we translate (count by hand)', '617 of 792 (78 %)'],
+        ['The key of the minute and the values fixed in lines 1-9, on lines 10-18', '%d of %d groups have a value (%.1f %%)' % (h1[1], h1[0], 100.0 * h1[1] / h1[0])],
+        ['The key of the minute and the values fixed in lines 10-18, on lines 1-9', '%d of %d groups have a value (%.1f %%)' % (h2[1], h2[0], 100.0 * h2[1] / h2[0])],
+        ['Four-letter score of the full key', '-4.18. Real Italian: median -4.14, worst of 300 samples -4.61'],
+        ['3,000 keys with shuffled values', 'mean -5.96, best -5.29; ours is 8.3 sd above the mean'],
+        ['The true key on 3,000 shuffled orders of the groups', 'mean -5.42, best -5.21; the true order is 21.2 sd above the mean'],
+        ['Sure words of the word table that stand in the order of the alphabet', '%d of %d' % (len(wt), len(wt))],
+        ['The held-out passage of f. 83r, key unchanged', '%d of %d groups have a value; %d of the %d groups that are not nulls stand in words that read' % (hval, len(hg), 18, len(hg) - hnul)],
+    ], ['1,561 of 1,595 places (97.9 %)', '**It restored 10 of 10**', '617 of the 792 groups that are not nulls (78 %)',
+        '421 of the 443 groups of lines 10-18 (95.0 %)', '445 of 476 (93.5 %)', 'The full key scores -4.18',
+        'Real Italian scores -4.14 in the median, and -4.61 at worst in 300 samples',
+        'score -5.96 in the mean and -5.29 at best', '8.3 standard deviations above the mean',
+        'scores -5.42 in the mean and -5.21 at best', '21.2 standard deviations above the mean', '17 of 17',
+        '32 of its 33 groups', '18 of the 29 groups that are not nulls'])
+    limits = items(section('The controls'), r'^- ')
+    check(P, len(limits) == 7 and limits[0].startswith('**The blind audit used a reader of the same model family as the first reader.**')
+          and '**The auditor was given the cut.**' in limits[0], 'README has the seven limits of the controls; the first is the limit of the blind audit')
+    check(P, limits[1].startswith('**The held-out passage is short, and it is not fully blind.**') and 'taught two values' in limits[1],
+          'README: the held-out passage is short, it taught two values, and it is not fully blind')
+    body += '<p><strong>The limits of each control:</strong></p><ul>%s</ul>' % ''.join('<li>%s</li>' % mdx(n) for n in limits)
+    body += ('<p>The summary of the blind audit: %s. The held-out passage: %s. The work log: %s. The clear letter of '
+             'f. 79, as a reading by a model: %s.</p>') % (
+                 gh(F, 'evidence/blind_audit.md'), gh(F, 'evidence/heldout_f83r.md'), gh(F, 'evidence/worklog.md'),
+                 gh(F, 'evidence/clear_letter_f79.md'))
+    for f in ('evidence/blind_audit.md', 'evidence/heldout_f83r.md', 'evidence/worklog.md', 'evidence/clear_letter_f79.md'):
+        check(P, os.path.exists(os.path.join(ROOT, F, f)), 'the folder has ' + f)
+    check(P, '**This is a reading by a model, not an edition.**' in rd(F + '/evidence/clear_letter_f79.md'),
+          'the clear letter is marked as a reading by a model')
+
+    body += '<h2>What is not resolved</h2>'
+    doubts = items(section('Doubts'), r'^\d+\. ')
+    check(P, len(doubts) == 20, 'README has the list of 20 doubts')
+    for p in ['**The reading is partial.**', '**The day of the date**', 'settled by the sense, not by the image',
+              '**Four values are only probable:**', '**The names are not read.**', '**Pass A was not blind to the key.**']:
+        check(P, any(p in d for d in doubts), 'a doubt of the README has: "%s"' % p)
+    body += '<ol>%s</ol>' % ''.join('<li>%s</li>' % mdx(d) for d in doubts)
+
+    body += '<h2>What is open</h2>'
+    opn_block = section('What is open')
+    op = items(opn_block, r'^- ')
+    settle = items(opn_block[opn_block.index('What would settle it:'):], r'^- ')
+    check(P, len(op) == 4 and len(settle) == 3, 'README has the four open points, and three things that would settle them')
+    body += '<ul>%s</ul><p>What would settle it:</p><ul>%s</ul>' % (
+        ''.join('<li>%s</li>' % mdx(x) for x in op), ''.join('<li>%s</li>' % mdx(x) for x in settle))
+
+    body += '<h2>Credits</h2>'
+    early = section('Earlier work')
+    check(P, '**He does not cite ff. 79-80.**' in early and '**Not opened:**' in early and 'We copied nothing from it.' in early,
+          'README lists what was checked in the earlier work, and what was not opened')
+    credits = items(section('Credits'), r'^- ')
+    check(P, len(credits) == 5 and credits[-1].startswith('**The work was done by a model**'), 'README has the five credits')
+    check(P, 'No palaeographer has checked it' in credits[-1], 'README: no palaeographer has checked it')
+    body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % mdx(x) for x in credits)
+    body += ('<p>What was searched for an earlier reading, and what was not opened: %s. The minute of the Duke, its key '
+             'and the two ciphers of Badalocchio: <a href="nevers-1593.html">nevers-1593</a>. '
+             'Folder: <a href="%s/tree/main/%s">%s</a>.</p>') % (gh(F, 'README.md'), REPO, F, F)
+    return page('badalocchio-1593.html', title, body, F)
+
+
 # ---------------------------------------------------------------- centurione-1528
 
 def centurione():
@@ -2236,7 +2575,7 @@ def index():
     P = 'index'
     readme = rd('README.md')
     rows = re.findall(r'^\| \[([\w-]+)\]\([\w-]+/\) \| (.+?) \| (.+?) \| (.+?) \|$', readme, re.M)
-    check(P, len(rows) == 8, 'README has the table of eight results')
+    check(P, len(rows) == 9, 'README has the table of nine results')
     trs = []
     for folder, doc, new, state in rows:
         check(P, os.path.exists(os.path.join(HERE, folder + '.html')), 'page for ' + folder)
@@ -2245,7 +2584,7 @@ def index():
             'below shows one result in a form that you can check by hand: the key, a few lines of cipher, and the '
             'decoding token by token.</p>')
     body += table(['Page', 'Document', 'What is new', 'State'], trs)
-    body += ('<p><strong>A ninth result, read for the greater part:</strong> '
+    body += ('<p><strong>A tenth result, read for the greater part:</strong> '
              '<a href="centurione-1528.html"><strong>centurione-1528</strong></a>, the "Venetian?" cipher with superscript '
              'digits of 1528 (BnF fr. 3022, no. 20, and the letters signed "Hieronimo Ranzo"). 86 %% of the text reads as '
              'connected sense. The page shows the build of the cipher and worked lines. The key table, the read '
@@ -2276,7 +2615,7 @@ def index():
 
 
 if __name__ == '__main__':
-    made = [oxford(), cocquet(), es318(), es318_93(), dutch(), es132(), gonzaga(), nevers(), centurione(), index()]
+    made = [oxford(), cocquet(), es318(), es318_93(), dutch(), es132(), gonzaga(), nevers(), badalocchio(), centurione(), index()]
     bad = [c for c in CHECKS if not c[1]]
     by = {}
     for p, ok, t in CHECKS:

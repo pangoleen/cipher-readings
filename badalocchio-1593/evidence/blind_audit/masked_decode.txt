@@ -1,0 +1,19 @@
+# Decode with the masked key. Letters and words = known values; · = null; {NN} = a HIDDEN group; [NN] = a group without known value.
+L1: e c · · c o [132] {83} e l · · {192} · a · {141} · {58} p r e s e n {98} a · SE n a u a r a [.17] o [167] r o [.38] {141} p o {98} r e [80] · {83} o n o
+L2: s p e r a · n {152} FAR s o LE · u o · n l o · STATO {152} {93} {5} l a n o · {12} l {5} s · {58} {93} o · {5} ENTE {5} · s [163] {152} · o [41] {5} u i i {93} p a {98} r o
+L3: n {5} r s e · · a FA CI l {5} s · {58} · {12} {93} · ENTE h a u · l [.17] o u n o e s · · s e r CI · r · · [198] e {93} u · r IN [<et>] ET · · ·
+L4: a u e n · l · l a {93} o r {98} e d e l [.12] · c o n · e n o u {5} {152} s {87} u s {98} o · {12} {192} h e r e s {5} a d e l
+L5: · n ET d e l {192} [.17] o r · l n o c o s {5} {83} e l LE i {93} p r e s e · · PER {5} {98} r {152} f {5} c i l {5} · {12} {5} {93} p o s · {58} · ·
+L6: {83} i l {5} DA e s · SE {87} u {5} r · {58} u e r a {93} · ENTE n a u a r a · · PER {58} {93} o s {98} r a p r u d · ENTE COME {152} · {58} d e
+L7: r a · n {83} · · {83} e DA CHI · · · c s · SE IL [135] s u o · SE [138] p o {5} {141} p u r e s {98} {5} n a {98} a {93} · ENTE · a PER SE u e r a · · a l
+L8: {192} s u a h e r e s {5} a [166] {12} {5} q a r {98} o {12} ENTE PER · u · SE EGLI h a u e s · SE {192} s c {5} a {98} a IL p r {5} {93} o GIORNO {152} l s u o
+L9: r e {87} n o s a r e {83} · · {83} e · · PER {5} {98} r · n p a c i f i c o IN f r a n c {5} a · {12} c o n r a · {58} [145] s p e
+L10: r a n z a {141} DA LUI n a s c e s · SE r e l {192} {93} o n a r CHI a {141} p r e {152} c e IL c a r d a n o [154] r e IN
+L11: · e · u · n a s c e r e d e l {192} · u IO LE s c r {5} s · {58} · a q a {5} e LE {98} e r e d e l GIORNO [<frame_?ij>] {152} {152} c e
+L12: {93} {83} r e s e {87} n a {98} e c o l n u {93} e r o {152} [<frame_47>] e l {192} {141} · {58} {98} r o u a p r e s · ENTE ET c o n · ·
+L13: a u {98} o r {5} {98} a LE · · a d e u e FAR u n a {83} u o n a ET {87} a {87} l {5} a r d a r {5} {93} o s {98} r a n z a c o n · e
+L14: c o s {5} e f · · f {5} c a c {5} r a {87} i o n {5} o l {98} r a {192} · a ENTE {5} · {98} a d e l a n {5} {93} a ET · SE · {58} u e d e
+L15: s · SE s o l e u a {98} {5} o n e · · a l o · STATO {152} {93} {5} l a n o c o n l a p · · p o {87} {5} o {152} u n · n {152} f r a n c {5} a · ·
+L16: {152} · o PER u o l o r e · a e {141} n a p o l {5} ET s {5} c i l {5} a · · q u {98} a r e {83} · · {83} o n o a s e {87} n o
+L17: · a {98} p · {12} l {5} · u o a e n {98} {5} {152} · o i {5} u {152} o s a · a · {58} p r e s e n {98} a r a {87} {5} a · {12} {5} c o s i
+L18: {83} e l {192} o c · · · c a · {5} [?] o · · a [199] {141} u [199] · u · [100] · {12} · [133] o {5} u u [194] PER {83} o {5} [181] {5} a {5} u a p {5} [.78] c ·

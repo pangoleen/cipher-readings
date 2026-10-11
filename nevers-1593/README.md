@@ -176,6 +176,13 @@ The sheet adds values that the short minute does not have. It is read in long st
 in four has no connected sense yet. It is not a result of this folder. It is named here as a control, and as open
 work.
 
+**The sheet now has its own folder: [badalocchio-1593](../badalocchio-1593/).** A second round of work changed
+the cut of its groups: a group that starts with 1 has three figures. So the numbers above (1,003 groups, 63.5 %,
+7.9 standard deviations) and the words "one line in four" belong to the first cut. With the new cut the sheet has
+919 groups, and the key of the minute alone gives a value to 608 of them (66.2 %). The reading of the sheet is
+partial: about four fifths, with gaps. The month of the clear letter is January without doubt. The day, 9, is
+read with doubt.
+
 ## Two ciphers of Badalocchio, and the date of the change
 
 The Duke's collection of keys holds an earlier cipher of Badalocchio: BnF fr. 3995, the sheet with the pencil

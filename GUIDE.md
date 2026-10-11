@@ -6,7 +6,7 @@ points at the repository ("read GUIDE.md in pangoleen/cipher-readings and tell m
 ## In one paragraph
 
 In September and October 2026, Paolo Rosson directed Claude (by Anthropic, running as Claude Code with subagents)
-to read old cipher letters from European archives, 1503 to 1653. Eleven results came out of it. Nine are in this
+to read old cipher letters from European archives, 1503 to 1653. Twelve results came out of it. Ten are in this
 repository, and two earlier ones have their own repositories. Each result has its key, its reading, its
 transcription, its controls, and a page where a person can check the decoding by hand.
 
@@ -23,6 +23,7 @@ transcription, its controls, and a page where a person can check the decoding by
 | 1528 | [centurione-1528](centurione-1528/) | Martino Centurione, envoy of Genoa in Madrid, writes to his son under the cover name "Hieronimo Ranzo". He tells him to show the letter to nobody "except your mother". | 86 % reads as connected sense; 779 values |
 | 1577-80 | [espagnol-132](espagnol-132/) | Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy, from the secret letters to the Spanish ambassador in France. Read with keys that other people published. | Five pieces read |
 | 1586-90 | [gonzaga-1590](gonzaga-1590/) | Cardinal Scipione Gonzaga writes to the Duke of Nevers. The word code is rebuilt with no key sheet. | 448 values; 97.6 % right on a second volume |
+| 1593 | [badalocchio-1593](badalocchio-1593/) | Vincenzo Badalocchio, the Duke's agent in Rome, adds a sheet of 18 lines of figures to his letter of 9(?) January 1593. He writes of a rising in the State of Milan, of Naples and Sicily, and of the "heresia" of Navarre. He asks the Duke, who is on the spot, for "una buona et gagliarda rimostranza". The cipher is the cipher of the Duke's minute. | A partial reading: about four fifths, with gaps (617 of 792 groups, 78 %); three stretches and all names are not read |
 | 1593 | [nevers-1593](nevers-1593/) | The Duke of Nevers drafts a letter to the Oratorian Tommaso Bozio in Rome. Two passages are in figures: he asks for a man of trust from Rome, and offers to pay for him and to keep him secret. G. Cassiani described the letter in 2014; the two passages had no reading. The key is rebuilt from the text. | 148 of 149 groups have a value; the first words of the first passage are not sure |
 | 1593 | [pangoleen/desportes-1593](https://github.com/pangoleen/desportes-1593) | Two intercepted letters of the Catholic League, Paris, 22 July 1593: "and on Sunday he is to go to Mass". Henri IV did so three days later. | Read in full |
 | 1594 | [pangoleen/senecey-1594](https://github.com/pangoleen/senecey-1594) | Two League letters, read with the alphabet that the royal decipherers rebuilt. | Read |
@@ -35,10 +36,10 @@ transcription, its controls, and a page where a person can check the decoding by
 | You want | Look here |
 |---|---|
 | The summary of one result, with its limits | `<folder>/README.md` |
-| The key | `centurione-1528/key/table.tsv`, `cocquet-1616/key_fr18009_f156.tsv`, `espagnol-318/KEY_TABLE.md`, `espagnol-318-no93/KEY_TABLE.md`, `dutch-1653/key.tsv`, `nevers-1593/key.tsv`, `oxford-1646/key1646.tsv`; for Gonzaga, the folder `gonzaga-1590/alignment/` |
-| The reading (decoded text) | `centurione-1528/reading/`, `cocquet-1616/reading.md`, `espagnol-318/READING.md`, `espagnol-318-no93/READING.md` (with an English translation, line by line), `espagnol-132/reading_*.md`, `gonzaga-1590/editions/` and `gonzaga-1590/fr4696/readings.md`, `nevers-1593/reading.md` (with an English translation), `oxford-1646/reading_f10.txt`, `dutch-1653/reading_*.txt` |
-| The transcription of the cipher | `<folder>/transcription/`, `<folder>/passes/`, or `transcription.txt` with `pass1.txt` and `pass2_blind.txt` |
-| The controls and the search for earlier work | `<folder>/evidence/` (each has a `worklog.md`); for the letter of 1504 also `espagnol-318-no93/evidence/audit.md` (the blind audit, the facts with their sources) |
+| The key | `centurione-1528/key/table.tsv`, `cocquet-1616/key_fr18009_f156.tsv`, `espagnol-318/KEY_TABLE.md`, `espagnol-318-no93/KEY_TABLE.md`, `dutch-1653/key.tsv`, `nevers-1593/key.tsv`, `badalocchio-1593/key.tsv`, `oxford-1646/key1646.tsv`; for Gonzaga, the folder `gonzaga-1590/alignment/` |
+| The reading (decoded text) | `centurione-1528/reading/`, `cocquet-1616/reading.md`, `espagnol-318/READING.md`, `espagnol-318-no93/READING.md` (with an English translation, line by line), `espagnol-132/reading_*.md`, `gonzaga-1590/editions/` and `gonzaga-1590/fr4696/readings.md`, `nevers-1593/reading.md` (with an English translation), `badalocchio-1593/reading.md` (a partial reading, with an English translation), `oxford-1646/reading_f10.txt`, `dutch-1653/reading_*.txt` |
+| The transcription of the cipher | `<folder>/transcription/`, `<folder>/passes/`, or `transcription.txt` with `pass1.txt` and `pass2_blind.txt`; for `badalocchio-1593`: `transcription.txt` with `pass_a.txt` and `pass_b_blind.txt` |
+| The controls and the search for earlier work | `<folder>/evidence/` (each has a `worklog.md`); for the letter of 1504 also `espagnol-318-no93/evidence/audit.md` (the blind audit, the facts with their sources); for the sheet of Badalocchio also `badalocchio-1593/evidence/blind_audit.md`, `heldout_f83r.md` and `clear_letter_f79.md` (the clear letter of the same leaf, as a reading by a model) |
 | Images of the manuscripts | `<folder>/images/` (page images), `docs/img/<folder>/` (lines cut for the check pages) |
 | Images made to share | [`share/`](share/) |
 | The code that decodes | `<folder>/decode.py` or the `.py` files of the folder |

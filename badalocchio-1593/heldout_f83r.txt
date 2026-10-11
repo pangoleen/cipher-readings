@@ -1,0 +1,9 @@
+# The cipher passage of BnF fr. 4700 f. 83r (Gallica btv1b90582908, view 95, right page): Badalocchio to the Duke,
+# Rome, 6 February 1593. The passage is the end of one line and the start of the next. One transcription pass.
+# This text had no part in the making of the key. evidence/heldout_f83r.md gives the test and its limits.
+# The figures, as on the page (/ = the line break; <sign> = a 7 with a long flag):
+#   2 2 9 1 9 3 9 7 4 3 5 7 4 6 1 8 4 <sign> 1 5 2 9 5 3 7 5 4 5 2 3 9 1 9 3 4 3 6 0 / 9 7 4 8 1 5 2 9 4 3 7 4 5 9 6 3
+# L1 = the groups by the cut rule as it stood before we saw this passage.
+# L2 = the groups with "2 9" and "3 9" cut as the groups 29 and 39. We learned this cut from this passage.
+L1: 2 2 91 93 97 43 5 7 46 184 <sign> 152 95 3 7 5 45 2 3 91 93 43 6 0 97 48 152 94 3 7 45 96 3
+L2: 2 29 193 97 43 5 7 46 184 <sign> 152 95 3 7 5 45 2 39 193 43 6 0 97 48 152 94 3 7 45 96 3

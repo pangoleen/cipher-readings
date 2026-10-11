@@ -157,6 +157,42 @@ The score is the mean log10 probability of the groups of four letters, on a tabl
 - The reading does not come from a solver. It came from the counts, from a trial of the order of the alphabet,
   and then from the words. A first solver with one letter for each group did not find the text.
 
+## A control from outside: the sheet of January 1593
+
+The key of the minute was rebuilt from the minute alone: two short passages, 149 groups. A second text in the same
+cipher is in the same volume: BnF fr. 4700 f. 80r (Gallica `btv1b90582908`, view 92). It is a full sheet of
+figures, 18 lines, with no clear word and no decipherment. It follows a clear letter of Vincenzo Badalocchio, the
+Duke's agent in Rome, that ends on f. 79v. The year 1593 is sure on that page; the month reads as January, with
+doubt. This sheet was not used to build the key.
+
+- The key of the minute alone gives a value to 637 of the 1,003 groups of the sheet (63.5 %).
+- It reads Italian there at once: *heresia*, *Navara*, *ostinatamente a perseverar*, *pacifico di Francia*,
+  *gagliarda rimostranza*, *lo stato di Milano*, *Napoli et Sicilia*.
+- Against 3,000 keys with the same letters dealt at random, the true key stands 7.9 standard deviations above the
+  mean.
+- In *sareb·be* a null stands between the two b. The same habit shows in the minute.
+
+The sheet adds values that the short minute does not have. It is read in long stretches only, and about one line
+in four has no connected sense yet. It is not a result of this folder. It is named here as a control, and as open
+work.
+
+## Two ciphers of Badalocchio, and the date of the change
+
+The Duke's collection of keys holds an earlier cipher of Badalocchio: BnF fr. 3995, the sheet with the pencil
+folio numbers 100-101 (Gallica `btv1b525085665`, canvas 194). S. Tomokiyo lists and describes it as Nevers cipher
+no. 56. Its dorse (canvas 195) has this note:
+
+> 1592 / Zifara Bad / no(n) serve piu / p(er) haverne / mandato un'altra / a 9(?) Sett(emb)re 92
+
+"Cipher Bad[alocchio]. It is no longer in use, because another one was sent on 9(?) September 1592." The day is
+not sure. We read the note from one image.
+
+The old cipher gives each letter a number from 2 to 25, and each word a number with the sign of its letter list.
+The texts of 1593 do not follow it. The minute of 1 May 1593 and the sheet f. 80r use the two-figure numbers 43-49,
+83-89 and 93-99 for the letters. So the cipher that we rebuilt is probably the "other one" of September 1592:
+the cipher that Badalocchio left to Father Tommaso Bozio, and that the Duke names in the minute as "quella stessa
+zifera". No key sheet of this second cipher is known to us.
+
 ## Doubts
 
 1. **Passage 1, line 1, third group.** The page has 84 = c. Both passes read 84, and three images show it. "se 'l
@@ -191,9 +227,10 @@ The score is the mean log10 probability of the groups of four letters, on a tabl
 ## Open work: the cipher text from Rome
 
 The minute answers a packet from Rome. One leaf of that packet is in cipher: BnF fr. 4687, f. 89r. By Cassiani,
-it is the cipher text of Vincenzo Badalocchio, copied by Bozio. We have not read it. A key sheet of 1592 with the
-endorsement "Zifera Bad..." is in BnF fr. 3995, f. 101 (S. Tomokiyo's key no. 56, described by him). It does not
-yet read that text. By a first reading of the sheet, its alphabet is not the alphabet of the minute.
+it is the cipher text of Vincenzo Badalocchio, copied by Bozio. We have not read it. It follows neither the old
+cipher of 1592 nor the cipher of the minute: it has the figures 0 to 7 only, in pairs, and capital signs with two
+figures after them. It may be a third system or a working notation. We tried both keys, and no Italian word comes
+out.
 
 ## Earlier work
 

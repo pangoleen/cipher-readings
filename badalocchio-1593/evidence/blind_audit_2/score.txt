@@ -1,0 +1,26 @@
+group | kind | places | key | reader | confidence | basis | result
+7 | letter | 44 | u | u | sure | sense | exact
+44 | letter | 5 | u | u | sure | sense | exact
+45 | letter | 20 | a | a | sure | sense | exact
+49 | letter | 15 | o | o | sure | sense | exact
+84 | letter | 12 | c | c | sure | both | exact
+85 | letter | 21 | d | d | sure | both | exact
+87 | letter | 21 | g | g | sure | both | exact
+89 | letter | 52 | l | l | sure | both | exact
+94 | letter | 56 | n | n | sure | both | exact
+96 | letter | 78 | r | r | sure | both | exact
+97 | letter | 65 | s | s | sure | both | exact
+141 | table1 | 12 | che | che | sure | both | exact
+146 | table1 | 3 | come | come | sure | both | exact
+148 | table1 | 6 | da | da | sure | both | exact
+184 | table1 | 7 | il | il | sure | both | exact
+192 | table1 | 15 | la | la | sure | both | exact
+221 | table2 | 4 | molto | molto | sure | both | exact
+223 | table2 | 6 | ne | ne | sure | both | exact
+229 | table2 | 7 | non | non | sure | both | exact
+244 | table2 | 5 | qual | qual | sure | both | exact
+255 | table2 | 10 | se | se | sure | both | exact
+276 | table2 | 3 | va | va | sure | both | exact
+289 | ending | 5 | endo | endo | probable | both | exact
+<triangle> | letter | 4 | z | z | sure | sense | exact
+exact 24 of 24; by sense alone: 5; with the order too: 19

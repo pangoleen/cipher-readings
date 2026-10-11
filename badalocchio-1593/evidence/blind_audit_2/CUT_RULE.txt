@@ -1,0 +1,8 @@
+Cut rule (given; it is not part of your task).
+- A sign in < > is one group. i = a dotted stroke; i + three figures 1xy = a NAME group (written .1xy). No name has a value.
+- 3 5 6 7 alone = one group each. 0 alone = one group (a null).
+- 4, 8 or 9 + the next figure (3 to 9) = one group of two figures.
+- 1 + two figures = one group of three figures. 2 + two figures = one group of three figures.
+- A lone 2 is a null in a few places; a lone 1 stands once (no value).
+- Figures in ( ) are unsure on the page. ? = a figure that nobody can read. Clear words in the lines are clear text on the page.
+The files decode_*.txt give each cipher run already cut by this rule.

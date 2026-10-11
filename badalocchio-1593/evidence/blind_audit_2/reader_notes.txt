@@ -1,0 +1,36 @@
+Blind audit, 11 October 2026. Notes of the fresh reader (a separate agent; it had only the eight files of this folder:
+CUT_RULE.txt, key_masked.tsv, three transcriptions and three decodes, as a copy in another folder).
+Its 24 values are in score.txt. This file keeps its remarks, in short form.
+
+Second choices: 244 "quale"; triangle "ti" (weak); 221 "mostrato" fits one place only; 289 no second choice.
+Use of the order: the reader saw that the letter rows (83-89, 93-98) and the word tables stand in the order of the alphabet.
+It marked 19 values "both" (sense and order agree) and 5 "sense" alone (7, 44, 45, 49, triangle).
+
+(a) Places that do not fit a hidden value
+- 289, f. 85r L13.1: "e che SI ENDO far [128] re di Francia" reads badly; the sense wants "s'intende far".
+- 96, f. 80r L9.1 "con r a SI" and L10.1 "nascesse r e l LA monarchia": with 99 (q) they read "con quasi" and "quella monarchia".
+- 84, f. 80r L7.1: "da chi · · · c s SE il ben suo" does not read.
+- 89, f. 80r L8.1 "DI l suo regno": the sense is "del suo regno".
+- f. 80r L18.1 after "bella occasione": not text.
+
+(b) Places where the given values or the cut look wrong to the reader
+1. f. 85r L8.1 "a f u s t": "a gusto"; 86 is probably 87 and an o is missing.
+2. f. 85r L23.1 "risposi f i torti": probably 89 5, "li torti".
+3. f. 85r L11.2 "e o s t i": the unsure figure is probably 3: "costi".
+4. f. 85r L5.1 "instanz e": the last group is the unsure 4(8); "instanza" expected.
+5. f. 85r L22.1 "n a u a · a": Navara needs 96 where the transcription has 0.
+6. f. 85r L12.1: FRANCIA after Portogallo comes from an unsure 6(1)69 and does not join the next words.
+7. f. 85r L15.1 "impedita QUELLO di [143]": the sense wants "quella".
+8. f. 85r L6.1 "gagliardessimamente": 46 is perhaps 47.
+9. f. 80r L1.1 "potre [8] · · bono": the lone 8 is 83 with its 3 lost.
+10. f. 80r L1.1 "[167] r o": 167 is probably "fosse" ("fossero"); it fits between fin 166 and Francia 169. A guess.
+11. f. 80r L7.1 "2 2 2 84 97 255": also cuts as 2 2 284 97 255, a verb stem + "s-se".
+12. f. 80r L8.1 "DI l suo": 152 stands where "de" is needed.
+13. f. 80r L4.1 "n o u i disgusto": probably "nouo".
+14. f. 80r L17.1 "u i u DI o sa quando": "Dio sa quando"; "u i u" does not read.
+15. f. 80r L18.1 "[25?]" is 258: "oc·ca-SI-o-NE".
+16. f. 80r L7.1 [138] and L9.1 [145] stay open.
+
+(c) Files opened: the eight files of the package and its own fill.py. No web, no other folder.
+Disclosure of the reader: its session held a one-line index of the notes of the project (titles only, no key value). It did not
+open the notes.

@@ -1,0 +1,17 @@
+# BnF fr. 4700 f. 65r (Gallica btv1b90582908, view 77, right page), lines 1 to 4. Pass A, 11 October 2026.
+# The first reader (the model that did the work) made it. It is not blind: the reader knew three points of the
+# report of pass B before it wrote this file, as it says below. We changed only the line on the source.
+
+BnF fr. 4700 f. 65r - transcription pass A (first reading, by the main reader; 11 October 2026)
+Source: the four tiles of lines 1 to 4 (row r1, columns c1 to c4), each line cut and enlarged five to eight times.
+Conventions: (x) = blotted or unsure figure, best reading. i = short stroke with a heavy dot. <Cn> = the gate sign. Figures as one string.
+I wrote this file from my notes before I opened pass B. I knew three points of the pass-B report (the hooked 9, the blot in L2, the sign at the end of L2).
+
+L1: Trovomi occupatiss:mo in scrivendo a V. Ecc.ia Ill.ma tutto quello, che io ho passato 43689i1332399776
+L2: 8469498(4)91521935 per mandarlo con questa per via del S.or Ceppi, che mi pare 2215939569698329(4)<Cn>0
+L3: 125974696758747697446. però questa sarà breve: s'io havrò la fatica di scrivere longamente
+L4: in cifra, non grava a chi tocca la fatica di decifrare: Di nuovo non ho molto, che dirle, ne anco po=
+
+Run A: 17 + 16 = 33 figures (i counts). Run B: 17 figures + <Cn> + 0 (in the 17) ; L3: 21 figures.
+Doubt: L2 the eighth figure is a solid blot with the outline of 4. L2 end: the 4 before <Cn> has a filled head.
+The figure with an open hook at the top left and a long tail is 9 (the 7 is a wedge with a short stem).

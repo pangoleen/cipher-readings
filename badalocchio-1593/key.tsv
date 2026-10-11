@@ -1,92 +1,129 @@
-# Key of the cipher sheet BnF fr. 4700 f. 80r (Vincenzo Badalocchio, Rome, January 1593).
-# The letters are the key that we rebuilt from the Duke's minute of 1 May 1593 (folder nevers-1593), unchanged.
-# The other values are added from this sheet. No key sheet of this cipher is known to us.
-# value: a raised dot = a null (no meaning); ? = no value.
-# count = how many times the group stands in groups.txt (decode.py counts them again).
-# state: minute = a value of the minute; sure = fixed by the sense of one clear place or more;
-#        probable = one place, or the sense is not complete; open = no value.
-# words = the words that fix the value. CAPITALS mark the place of the group in the word. u and v are one letter.
-#         A raised dot in a word is a null. Square brackets hold letters that the sheet does not have.
-group	value	kind	count	state	words
-43	c	letter	23	minute	ecco, con, cosi, pacifico, Francia
-44	u	letter	5	minute	disgusto, esseguirsi, veramente
-45	a	letter	13	minute	Navara, Cardano, autorita, efficaci
-46	e	letter	49	minute	bella, morte, del, heresia
-47	i	letter	11	minute	impossibili, pacifico, Sicilia
-48	e	letter	22	minute	heresia, imprese, nascere
-49	o	letter	9	minute	disgusto, segno, starebbono
-83	b	letter	14	minute	bella, sarebbe, buona
-84	c	letter	7	minute	nascesse, pacifico, efficaci, Sicilia
-85	d	letter	12	minute	del, prudente, Cardano, gagliarda
-86	f	letter	6	minute	Francia, efficaci, pacifico
-87	g	letter	10	minute	regno, gagliarda, ragioni, segno
-88	h	letter	4	minute	heresia, havesse
-89	l	letter	34	minute	Milano, bella, Napoli
-93	m	letter	19	minute	Milano, morte, monarchia, numero
-94	n	letter	45	minute	Navara, Milano, Francia
-95	p	letter	20	minute	primo, Napoli, prudente
-96	r	letter	55	minute	Navara, heresia, Francia
-97	s	letter	44	minute	heresia, Sicilia, suo
-98	t	letter	25	minute	morte, autorita, trova, rimostranza
-99	q	letter	1	minute	one place: "i q a r t o" in line 8 (quarto?); the sense of the place is open
-3	a	letter	71	minute	Navara, Francia, gagliarda
-6	o	letter	58	minute	Milano, regno, Napoli
-7	u	letter	34	minute	suo, una buona, autorita
-0	·	null	17	minute	beside a sign, between the halves of a doubled letter (ec··co, bel··la, sareb··be); alone in lines 4 and 18
-5	i	letter	53	sure	Milano, heresia, Sicilia, Francia, pacifico, efficaci, ragioni
-2	·	null	93	sure	between words; before the group for "ente"; between the halves of a doubled sound (es·se-guirsi, impos·si·bili)
-<triangle>	z	letter	2	sure	speranza, rimostranza
-<pi>	·	null	6	sure	bel··la, sareb··bono, ef··ficaci, impos·si··bili
-<Cn>	·	null	5	sure	sareb··be; oc···ca.. in line 18; at the end of lines 3, 12 and 15
-<arch>	·	null	3	sure	ec··co in line 1; oc···ca.. in line 18; at the end of line 3
-<0+>	·	null	2	sure	ap··pogio; one more place in line 3, in a stretch that is not read
-<female>	·	null	1	sure	one place, line 7, between two b (b··be), in a word that is doubtful
-12	ma	syllable	10	sure	MA-lissimo, facilissi-MA-mente, MA impossibili, MA la heresia, MA con, gia MA-i
-55	se	syllable	10	sure	haves·SE, nasces·SE, vedes·SE, es·SE-guirsi, per-SE-vera
-58	si	syllable	12	sure	SI presenta·se, SI mostra, SI trova, SI vedesse, scris·SI, impos·SI·bili, esseguir·SI
-66	stato	word	2	sure	lo STATO di Milano (two times)
-91	ente	syllable	8	sure	veram·ENTE, [o]stinatam·ENTE, prud·ENTE, pres·ENTE, facilissimam·ENTE; two places do not read
-92	per	syllable	7	sure	a PER-SE-vera: one clear place; five places do not make a clear word
-29	non	word	1	probable	NON starebbono a segno; one more place on f. 83r
-135	ben	word	1	probable	il BEN suo
-141	che	word	8	sure	CHE Napoli et Sicilia, CHE predice, CHE da lui nascesse, poi CHE pure, CHE si trova
-142	chi	word	2	sure	monar-CHI-a, da CHI
-143	ci	word	2	sure	fa-CI-lissimamente; the second place is not read
-146	come	word	1	sure	prudente COME disidera..
-148	da	word	3	sure	DA esseguirsi, DA lui nascesse, DA chi
-152	di	word	17	sure	DI Milano, DI Francia, numero DI, pre-DI-ce, DI-ficili, DI-cembre
-154	dove	word	1	probable	DOVE-re (dovere) in .. nascere
-156	egli	word	1	sure	se EGLI havesse lasciata
-157	et	word	6	sure	Napoli ET Sicilia, buona ET gagliarda, presente ET con
-158	fa	word	1	sure	FA-ci-lissimamente
-162	far	word	2	sure	deve FAR una buona et gagliarda rimostranza
-163	fatto	word	1	probable	s[odis]FATTO; the clear letter has "male sodisfatti"
-175	giorno	word	2	sure	il primo GIORNO del suo regno; lettere del GIORNO [xij] di dicembre ("dì" is possible; "giorno" fits the order)
-184	il	word	3	sure	IL primo giorno, IL Cardano, IL ben suo
-185	in	word	3	sure	pacifico IN Francia
-188	io	word	1	sure	IO le scrissi
-192	la	word	10	sure	LA-sciata, al-LA sua heresia, bel-LA, LA monarchia, ma LA heresia
-193	le	word	5	sure	bel-LE imprese, LE-tere, far so-LE-..
-197	lui	word	1	sure	che da LUI nascesse
-39	?	open	1	open	a short word before "mie lettere" (line 11); one more place on f. 83r
-41	?	open	1	open	line 2
-80	?	open	1	open	line 1: potre[80]·bono
-100	?	open	1	open	line 18
-132	?	open	1	open	line 1; a guess that is not in the key: al.. (altra?)
-133	?	open	1	open	line 18
-138	?	open	1	open	line 7; a guess that is not in the key: bene
-145	?	open	1	open	line 9
-166	?	open	1	open	line 8; a guess that is not in the key: fin
-167	?	open	1	open	line 1; a guess that is not in the key: fosse
-181	?	open	1	open	line 18
-194	?	open	1	open	line 18
-198	?	open	1	open	line 3
-199	?	open	2	open	line 18, two times
-.12	?	name	1	open	la morte del [name 112]; a guess that is not in the key: the King of Spain
-.17	?	name	3	open	lines 1, 3 and 5; a guess that is not in the key: a power with "heresia" and the article "la" (England?)
-.38	?	name	1	open	line 1
-.78	?	name	1	open	line 18; the place is damaged
-<et>	?	open	1	open	line 3: a large sign like "&"
-<frame_?ij>	?	number	1	open	line 11: a number in clear, xij (12) or xxij (22)
-<frame_47>	?	number	1	open	line 12: a number in clear, 47 with a blotted 4
-?	?	open	1	open	line 18: a blot
+# Key of the cipher of Vincenzo Badalocchio, agent in Rome of the Duke of Nevers, December 1592 to February 1593.
+# One table for the three letters of this folder (BnF fr. 4700 f. 85r, f. 65r, f. 80r) and the passage of f. 83r.
+# State: 11 October 2026, after the audit. No key sheet of this cipher is known to us.
+# value: a raised dot = a null (no meaning); ? = no value. "a/b" = open between two words.
+# kind:  letter; null; table1 = a word of the table 1xy; table2 = a word of the table 2xy; ending = a syllable at the
+#        end of table 2; name = the dotted stroke and three figures; number = a number in clear; open = no value.
+# grade: sure = a clear word fixes the value in two places or more, or in one place where no other word fits;
+#        probable = one place, or the sense is not complete, and the order of the alphabet allows the word;
+#        guess = the place allows other words; open = no value.
+# f085r, f065r, f080r, f083r = how many times the group stands on each page (decode.py counts them again).
+# note:  the words that fix the value. CAPITALS mark the place of the group in the word. u and v are one letter.
+group	value	kind	grade	f085r	f065r	f080r	f083r	note
+43	c	letter	sure	0	1	23	2	ecco, cosi, pacifico, Francia (f. 80r); col (f. 65r)
+44	u	letter	sure	1	1	3	0	disgusto, esseguirsi, veramente; vedeva (f. 85r); suo (f. 65r)
+45	a	letter	sure	9	0	11	2	Navara, Cardano, autorita; appartenersi, aiuta (f. 85r)
+46	e	letter	sure	16	1	46	1	bella, morte, del, heresia; negotio, gagliardessimamente (f. 85r)
+47	i	letter	sure	4	1	10	0	impossibili, pacifico, Sicilia; ritirarsi (f. 85r); servigio (f. 65r)
+48	e	letter	sure	17	0	22	1	heresia, imprese, nascere; cose, pare (f. 85r)
+49	o	letter	sure	6	1	8	0	disgusto, segno, starebbono; corona, proposto (f. 85r); conto (f. 65r)
+83	b	letter	sure	0	0	14	0	bella, sarebbe, buona (f. 80r only)
+84	c	letter	sure	4	1	7	0	nascesse, pacifico, Sicilia; cose, corona, Capolupo (f. 85r); conto (f. 65r)
+85	d	letter	sure	9	0	12	0	del, prudente, Cardano; dovea, impedita, vedeva (f. 85r)
+86	f	letter	sure	4	0	6	0	Francia, efficaci, pacifico; Sforza (f. 85r)
+87	g	letter	sure	10	1	10	0	regno, gagliarda, ragioni; negotio, regina (f. 85r); servigio (f. 65r)
+88	h	letter	sure	1	0	4	0	heresia, havesse; hanno (f. 85r)
+89	l	letter	sure	17	1	34	0	Milano, bella, Napoli; del, verisimile, Portogallo (f. 85r); col (f. 65r)
+93	m	letter	sure	5	1	20	0	Milano, morte, monarchia; gagliardessimamente, impedire (f. 85r); importare (f. 65r)
+94	n	letter	sure	16	1	39	1	Navara, Milano, Francia; negotio, punto, corona (f. 85r)
+95	p	letter	sure	14	1	19	1	primo, Napoli, prudente; punto, pare, proposto (f. 85r); importare (f. 65r)
+96	r	letter	sure	25	2	51	1	Navara, heresia, Francia; regina, corona, ritirasse (f. 85r)
+97	s	letter	sure	18	3	44	2	heresia, Sicilia, suo; cose, Sforza, risposi (f. 85r); servigio (f. 65r)
+98	t	letter	sure	23	2	23	0	morte, autorita, trova; negotio, torti, venuta (f. 85r); conto (f. 65r)
+99	q	letter	sure	1	0	1	0	quarto (f. 80r line 8); di qua (f. 85r line 25)
+3	a	letter	sure	31	1	63	3	Navara, Francia, gagliarda; regina, ragione, altra (f. 85r)
+5	i	letter	sure	27	3	46	2	Milano, heresia, Sicilia; aiuta, regina, impedire (f. 85r); servigio (f. 65r)
+6	o	letter	sure	23	6	52	1	Milano, regno, Napoli; negotio, corona (f. 85r); conto, suo (f. 65r)
+7	u	letter	sure	12	2	30	3	suo, una buona, autorita; aiuta, punto, venuta (f. 85r); servigio (f. 65r)
+<triangle>	z	letter	sure	2	0	2	0	speranza, rimostranza (f. 80r); instanze, Sforza (f. 85r)
+0	·	null	sure	108	1	18	1	beside a sign; between the halves of a doubled sound (ap·p·artenersi, gal··l·o); between words. f. 85r has it 108 times
+<pi>	·	null	sure	1	0	6	0	bel··la, sareb··bono, ef··ficaci (f. 80r); dove·a· (f. 85r)
+<Cn>	·	null	sure	8	1	5	0	sareb··be (f. 80r); gal··l·o, at the start of line 8 and at ends of runs (f. 85r); at the end of a run (f. 65r)
+<arch>	·	null	sure	0	0	3	0	ec··co in line 1, oc···ca in line 18, the end of line 3 (f. 80r only)
+<0+>	·	null	sure	10	0	2	0	ap··pogio (f. 80r); between words and in ag··g·ravii (f. 85r)
+<female>	·	null	sure	7	0	1	0	b··be (f. 80r); ap·p·artenersi, ag··g·ravii, ritiras··s·e (f. 85r)
+<lambda>	·	null	probable	1	0	0	0	one place (f. 85r line 5), between TRATTA and RE: a null by its place
+2	?	open	open	2	0	4	0	a lone 2: six places (f. 85r lines 13 and 22; f. 80r line 7, three times, and line 18). A null, a group with no value, or a slip of the pen: not settled. The counts take it as a null
+125	al	table1	probable	0	1	1	0	fin AL quarto anno (f. 80r); AL servigio suo (f. 65r)
+129	anno	table1	probable	0	0	1	0	fin al quarto ANNO (f. 80r): one place. A period decipherment of another letter has "il quarto anno"
+135	ben	table1	sure	1	0	1	0	il BEN suo (f. 80r); cosi BEN il modo (f. 85r)
+141	che	table1	sure	4	0	8	0	CHE Napoli et Sicilia, CHE predice, poi CHE pure (f. 80r); le cose CHE dovea, per CHE non si vedeva (f. 85r)
+142	chi	table1	sure	0	0	2	0	monar-CHI-a, da CHI (f. 80r)
+143	ci	table1	sure	0	0	2	0	fa-CI-lissimamente, esser-CI-to (f. 80r)
+146	come	table1	sure	2	0	1	0	prudente COME disiderarebbe (f. 80r); COME hanno impedita, COME fece (f. 85r)
+148	da	table1	sure	3	0	3	0	DA esseguirsi, DA lui nascesse, DA chi (f. 80r); DA-l Navara, proposto DA (f. 85r)
+149	detta	table1	probable	2	0	0	0	a DETTA [name], la ragione DETTA (f. 85r); fixed with the order in mind
+152	di	table1	sure	8	1	19	2	DI Milano, DI Francia, pre-DI-ce, DI-ficili (f. 80r); regina DI, DI-siderio (f. 85r); conto DI lei (f. 65r); DI Pavia (f. 83r)
+154	dove	table1	sure	1	0	1	0	DOVE-re (f. 80r); DOVE-a (f. 85r)
+156	egli	table1	sure	0	0	1	0	se EGLI havesse lasciata (f. 80r)
+157	et	table1	sure	1	0	7	0	Napoli ET Sicilia, buona ET gagliarda (f. 80r); torti ET gli aggravii (f. 85r)
+158	fa	table1	sure	0	0	1	0	FA-ci-lissimamente (f. 80r)
+162	far	table1	sure	2	0	2	0	deve FAR una buona et gagliarda rimostranza, di FAR solevare (f. 80r); vogliono FAR la .. regina (f. 85r)
+163	fatto	table1	sure	1	0	1	0	sodis-FATTO (f. 80r); FATTO-li (f. 85r)
+164	fece	table1	probable	1	0	0	0	come FECE in Portogallo (f. 85r): one place; fixed with the order in mind
+166	fin	table1	probable	0	0	1	0	FIN al quarto anno (f. 80r): one place
+169	Francia	table1	probable	4	0	0	0	regina di FRANCIA, corona di FRANCIA, re di FRANCIA (f. 85r). The fourth place, after "Portogallo" in line 12, has a blot and makes no sense. On f. 80r the writer spells Francia in letters
+175	giorno	table1	sure	0	0	2	0	il primo GIORNO del suo regno; lettere del GIORNO .. di dicembre (f. 80r)
+177	ha	table1	probable	1	0	0	0	HA molto disiderio (f. 85r): one place; fixed with the order in mind
+184	il	table1	sure	4	0	3	1	IL primo giorno, IL Cardano, IL ben suo (f. 80r); aiuta IL negotio, IL modo (f. 85r); IL .. di Pavia (f. 83r)
+185	in	table1	sure	3	0	3	0	pacifico IN Francia (f. 80r); IN-tendo, ad IN-stanze, IN Portogallo (f. 85r)
+188	io	table1	sure	0	0	1	0	IO le scrissi (f. 80r)
+192	la	table1	sure	4	0	11	0	LA-sciata, bel-LA, LA monarchia (f. 80r); LA corona, per LA ragione, impedire LA (f. 85r)
+193	le	table1	sure	1	1	5	2	bel-LE imprese, LE-tere (f. 80r); LE cose (f. 85r); di LE-i (f. 65r); non LE scrive, per LE cose (f. 83r)
+197	lui	table1	sure	0	0	1	0	che da LUI nascesse (f. 80r)
+199	?	open	open	3	0	2	0	three places alone between clear words (f. 85r lines 9 and 16) and two in the filler of f. 80r line 18. A null is our best guess. It is not proved: "come ci si [199] adoperare" speaks against it. The counts take it as a null
+212	ma	table2	sure	0	0	7	0	MA-lissimo, facilissi-MA-mente, MA impossibili, gia MA-i (f. 80r). The first page had it as 12
+214	mi	table2	probable	1	0	0	0	e MI pare verisimile (f. 85r): one place
+219	modo	table2	sure	2	0	0	0	il MODO di ritirarsi, del MODO proposto (f. 85r)
+221	molto	table2	sure	1	1	2	0	ha .. MOLTO disiderio (f. 85r); MOLTO importare (f. 65r); essercito MOLTO temuto (f. 80r)
+223	ne	table2	sure	1	0	5	0	impatronirse-NE, le NE deve far, NE lo stato (f. 80r); NE-gotio (f. 85r)
+229	non	table2	sure	3	0	4	1	NON si mostra prudente, NON solo .. ma (two times), NON starebbono a segno (f. 80r); NON e, NON va, per che NON si vedeva (f. 85r); NON le scrive (f. 83r). The first page had it as 29 in one place
+232	occasione	table2	probable	0	0	1	0	bella OCCASIONE che si presenta (f. 80r line 1): one place. Line 18 ends "cosi bella oc-ca-[..]-o-ne" in letters
+238	parte	table2	probable	1	0	0	0	l altra PARTE (f. 85r): one place
+239	per	table2	sure	4	1	4	1	PER-se-vera, PER-di-ta, PER mie lettere, PER li mali trattamenti (f. 80r); PER quello intendo, PER la ragione, PER che (f. 85r); PER suo conto (f. 65r); PER le cose (f. 83r). The first page had it as 92, and as 39 with no value
+244	qual	table2	sure	3	0	2	0	la QUAL se egli, della QUAL io le scrissi (f. 80r); QUAL aiuta, il QUAL negotio, QUAL vogliono (f. 85r). Also for "quali"
+245	quando/quanto	table2	guess	0	0	2	0	two places on f. 80r. "Dio sa QUANDO" fits line 17; "di tanto valore QUANTO e" fits line 16. One group cannot be both: open between the two. Fixed with the order in mind
+246	quel	table2	guess	1	0	3	0	QUEL loro pretenso ius (f. 85r); in QUEL tempo (f. 80r). In two places of f. 80r the sense asks for "quei" or "quelle" (con QUEL novi disgusto; con QUEL cosi efficaci ragioni). Taken as the stem quel-. Fixed with the order in mind
+247	quello	table2	probable	2	0	0	0	per QUELLO intendo; impedita QUELLO di .. (f. 85r), where the sense asks for "quella". Taken as the stem for both
+255	se	table2	sure	0	0	10	0	haves-SE, nasces-SE, vedes-SE, es-SE-guirsi, per-SE-vera, SE egli (f. 80r). The first page had it as 55
+258	si	table2	sure	5	0	12	0	SI mostra, SI trova, scris-SI, impos-SI-bili (f. 80r); SI ritirasse, non SI vedeva, co-SI (f. 85r). The first page had it as 58
+259	so	table2	sure	0	0	3	0	non SO-lo (two times), SO-dis-fatto (f. 80r)
+264	Spagna	table2	sure	2	0	2	0	sodisfatto di SPAGNA, trattamenti di SPAGNA (f. 80r); di SPAGNA, a SPAGNA (f. 85r)
+266	stato	table2	sure	0	0	2	0	lo STATO di Milano (two times, f. 80r). The first page had it as 66
+269	tanto	table2	guess	0	0	1	0	di TANTO valore (f. 80r line 16): one place; fixed with the order in mind
+272	tempo	table2	probable	0	0	1	0	in quel TEMPO nascere (f. 80r line 11): one place; fixed with the order in mind
+274	tratta	table2	probable	2	0	1	0	vien a TRATTA-re, dovea TRATTA-re (f. 85r); mali TRATTA-menti (f. 80r)
+276	va	table2	probable	1	0	2	0	non .. VA per la fantasia (f. 85r); sole-VA-re, VA-lore (f. 80r)
+278	vien	table2	probable	2	0	0	0	VIEN a trattare, VIEN ad instanze (f. 85r)
+286	vogli	table2	probable	1	0	0	0	VOGLI-no far (f. 85r): one place. The letters give "voglino"; we read "vogliono"
+289	endo	ending	probable	2	0	3	0	aven-ENDO, hav-ENDO, r-ENDO-no (f. 80r); int-ENDO (f. 85r line 7). It fails in f. 85r line 13 ("si ENDO far"): that place is not read
+291	ente	ending	sure	0	0	5	0	veram-ENTE, stinatam-ENTE, prud-ENTE, pres-ENTE, facilissimam-ENTE (f. 80r). The first page had it as 91
+294	re	ending	sure	2	1	6	0	spera-RE, soleva-RE, del RE et della .., un RE di Francia, non solo RE pacifico, disidera-RE-bbe (f. 80r); tratta-RE (f. 85r); importa-RE (f. 65r)
+296	to	ending	probable	0	0	2	0	esserci-TO, temu-TO (f. 80r line 3)
+299	?	open	open	4	0	0	0	four places alone between clear words (f. 85r lines 9, 12, 16, 17). A null is our best guess. It is not proved
+.122	?	name	open	0	0	1	0	f. 80r line 4: la morte del [name 122]. Probable: the King of Spain
+.124	?	name	open	1	0	0	0	f. 85r line 6: ad instanze del [name 124]. Probable: the Grand Duke of Tuscany
+.128	?	name	open	1	0	0	0	f. 85r line 13: far [name 128] re di Francia. Open
+.133	?	name	open	0	1	0	0	f. 65r line 1: passato col [name 133]. Open
+.143	?	name	open	2	0	0	0	f. 85r lines 5 and 15: il [name 143]; quella di [name 143]. Probable: Cardinal Gondi
+.144	?	name	open	1	0	0	0	f. 85r line 15: la venuta del [name 144] Sforza. Probable: the word "Cardinale"
+.176	?	name	open	0	0	3	0	f. 80r lines 1, 3 and 5: la heresia del Re et della [name 176]. Probable: the Queen of England
+.195	?	name	open	2	0	0	0	f. 85r lines 8 and 10: far la [name 195] regina di Francia. The person is settled: the Infanta of Spain. The word of the key is not known
+.38	?	name	open	0	0	1	0	f. 80r line 1: two figures only after the stroke. Open; it can be a word and not a name
+.78	?	name	open	0	0	1	0	f. 80r line 18, in the filler: two figures only after the stroke. Open
+132	?	open	open	0	0	1	0	f. 80r line 1: Ecco [132] bella occasione. By the order of the table it stands between "al" and "ben"
+138	?	open	open	0	0	1	0	f. 80r line 7: se [138] poi che. Between "ben" and "che"
+145	?	open	open	0	0	1	0	f. 80r line 9: con r a si [145] speranza. Between "ci" and "come"
+167	?	open	open	0	0	1	0	f. 80r line 1: [167] r o. Between "fin" and "Francia". A guess that is not in the key: fosse (fossero)
+100	?	open	open	0	0	1	0	f. 80r line 18, in the filler
+181	?	open	open	0	0	1	0	f. 80r line 18, in the filler
+194	?	open	open	0	0	1	0	f. 80r line 18, in the filler
+1	?	open	open	1	0	1	0	a lone 1: f. 85r line 13 (one stroke too many before 169) and f. 80r line 18 (filler)
+8	?	open	open	0	0	1	0	f. 80r line 1: potre[8]··bono. Probably 83 (b) with its 3 lost
+9	?	open	open	0	0	1	0	f. 80r line 18, in the filler
+25?	?	open	open	0	0	1	0	f. 80r line 18: oc···ca[25?]o-ne. The third figure is a blot. With 258 (si) the word is "occasione"
+<et>	?	open	open	0	0	1	0	f. 80r line 3: a large sign like "&", after "temuto in". Open
+<P>	?	open	open	1	0	0	0	f. 85r line 25: a sign like a capital P before "Capolupo". Open; it can be a title
+<sign>	?	open	open	0	0	0	1	f. 83r: a 7 with a long flag, after "il" and before "di Pavia". Open; it can be a title
+<frame_?ij>	?	number	open	0	0	1	0	f. 80r line 11: a number in clear in a drawn frame, xij (12) or xxij (22)
+<frame_47>	?	number	open	0	0	1	0	f. 80r line 12: a number in clear in a drawn frame, 47 with a blotted 4

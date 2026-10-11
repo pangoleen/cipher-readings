@@ -1,0 +1,77 @@
+# BnF fr. 4700 f. 80r: the 72 places where the groups or the values change between the first page (11 October 2026,
+# old cut: the figure 2 as a null) and the cut and key of today. Made by the audit. "old" = the groups and the values
+# of the first page; "new" = the groups and the values of today. [nome 176] = a name group. In 28 places only the cut
+# changes (for example "· SI" is now "SI"); in 44 places a value changes. The verdict on each changed word: audit.md.
+L1 #1: old  2 3 2                        = · a ·                    | new  232                  = OCCASIONE
+L1 #2: old  2 58                         = · SI                     | new  258                  = SI
+L1 #3: old  2 55                         = · SE                     | new  255                  = SE
+L1 #4: old  .17 6                        = [.17] o                  | new  .176                 = [nome 176]
+L1 #5: old  80                           = [80]                     | new  8 0                  = [8] ·
+L2 #6: old  2 94                         = · n                      | new  294                  = RE
+L2 #7: old  2 7 6 2 94                   = · u o · n                | new  276 294              = VA RE
+L2 #8: old  2 66                         = · STATO                  | new  266                  = STATO
+L2 #9: old  2 12                         = · MA                     | new  212                  = MA
+L2 #10: old  2 58                         = · SI                     | new  258                  = SI
+L2 #11: old  2 5 91 5 2                   = · i ENTE i ·             | new  259 152              = SO DI
+L2 #12: old  2 6 41 5 7                   = · o [41] i u             | new  264 157              = SPAGNA ET
+L3 #13: old  2 2 3                        = · · a                    | new  223                  = NE
+L3 #14: old  2 58 2 12                    = · SI · MA                | new  258 212              = SI MA
+L3 #15: old  2 91                         = · ENTE                   | new  291                  = ENTE
+L3 #16: old  2 89 .17 6                   = · l [.17] o              | new  289 .176             = ENDO [nome 176]
+L3 #17: old  2 96 2 2 198                 = · r · · [198]            | new  296 221 98           = TO MOLTO t
+L3 #18: old  2 96                         = · r                      | new  296                  = TO
+L4 #19: old  2 89                         = · l                      | new  289                  = ENDO
+L4 #20: old  .12 2                        = [.12] ·                  | new  .122                 = [nome 122]
+L4 #21: old  2 46                         = · e                      | new  246                  = QUEL
+L4 #22: old  2 12                         = · MA                     | new  212                  = MA
+L5 #23: old  2 94                         = · n                      | new  294                  = RE
+L5 #24: old  .17 6                        = [.17] o                  | new  .176                 = [nome 176]
+L5 #25: old  2 89                         = · l                      | new  289                  = ENDO
+L5 #26: old  2 2 92 5 98 96               = · · PER i t r            | new  229 259 89 6         = NON SO l o
+L5 #27: old  2 12                         = · MA                     | new  212                  = MA
+L5 #28: old  2 58                         = · SI                     | new  258                  = SI
+L6 #29: old  2 55                         = · SE                     | new  255                  = SE
+L6 #30: old  2 58                         = · SI                     | new  258                  = SI
+L6 #31: old  2 91                         = · ENTE                   | new  291                  = ENTE
+L6 #32: old  2 2 92 58                    = · · PER SI               | new  229 258              = NON SI
+L6 #33: old  2 91                         = · ENTE                   | new  291                  = ENTE
+L6 #34: old  2 58                         = · SI                     | new  258                  = SI
+L7 #35: old  2 94                         = · n                      | new  294                  = RE
+L7 #36: old  2 55                         = · SE                     | new  255                  = SE
+L7 #37: old  2 55                         = · SE                     | new  255                  = SE
+L7 #38: old  2 91 2 3 92 55               = · ENTE · a PER SE        | new  291 239 255          = ENTE PER SE
+L7 #39: old  2 2 3                        = · · a                    | new  223                  = NE
+L8 #40: old  166 12 5                     = [166] MA i               | new  166 125              = FIN AL
+L8 #41: old  12 91 92 2 44 2 55           = MA ENTE PER · u · SE     | new  129 192 244 255      = ANNO LA QUAL SE
+L8 #42: old  2 55                         = · SE                     | new  255                  = SE
+L9 #43: old  2 2 92 5 98 96 2 94          = · · PER i t r · n        | new  229 259 89 6 294     = NON SO l o RE
+L9 #44: old  2 12                         = · MA                     | new  212                  = MA
+L9 #45: old  2 58                         = · SI                     | new  258                  = SI
+L10 #46: old  2 55                         = · SE                     | new  255                  = SE
+L11 #47: old  2 46 2 7 2                   = · e · u ·                | new  246 272              = QUEL TEMPO
+L11 #48: old  2 44                         = · u                      | new  244                  = QUAL
+L11 #49: old  2 58 2 39                    = · SI · [39]              | new  258 239              = SI PER
+L12 #50: old  2 58                         = · SI                     | new  258                  = SI
+L12 #51: old  2 91                         = · ENTE                   | new  291                  = ENTE
+L13 #52: old  2 2 3                        = · · a                    | new  223                  = NE
+L13 #53: old  2 46                         = · e                      | new  246                  = QUEL
+L14 #54: old  2 3 91 5 2                   = · a ENTE i ·             | new  239 152              = PER DI
+L14 #55: old  2 55 2 58                    = · SE · SI                | new  255 258              = SE SI
+L15 #56: old  2 55                         = · SE                     | new  255                  = SE
+L15 #57: old  2 2 3                        = · · a                    | new  223                  = NE
+L15 #58: old  2 66                         = · STATO                  | new  266                  = STATO
+L15 #59: old  2 94                         = · n                      | new  294                  = RE
+L16 #60: old  2 6 92 7 6                   = · o PER u o              | new  269 276              = TANTO VA
+L16 #61: old  2 45                         = · a                      | new  245                  = QUANDO
+L16 #62: old  2 29                         = · NON                    | new  229                  = NON
+L17 #63: old  2 3 98 95 2 12               = · a t p · MA             | new  239 89 5 212         = PER l i MA
+L17 #64: old  2 7 49 3                     = · u o a                  | new  274 93               = TRATTA m
+L17 #65: old  2 6 47                       = · o i                    | new  264 7                = SPAGNA u
+L17 #66: old  2 45 2 58                    = · a · SI                 | new  245 258              = QUANDO SI
+L17 #67: old  2 12                         = · MA                     | new  212                  = MA
+L18 #68: old  2 5 ?                        = · i [?]                  | new  25?                  = [25?]
+L18 #69: old  2 2 3 199                    = · · a [199]              | new  223 199              = NE ·
+L18 #70: old  199                          = [199]                    | new  199                  = ·
+L18 #71: old  12 2 133                     = MA · [133]               | new  1 221 3 3            = [1] MOLTO a a
+L18 #72: old  92                           = PER                      | new  9 2                  = [9] ·
+places: 72

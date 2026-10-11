@@ -1,0 +1,66 @@
+# BnF fr. 4700 f. 85r (Gallica btv1b90582908, view 97, right page). Pass A, 11 October 2026.
+# The first reader (the model that did the work) made it. This pass is not blind to the sense: the reader tried
+# values while it read. It has 29 figures too many: the reader counted some figures two times where two strips
+# of its notes join. Pass B has the right count in each of these places. Below is the file as the reader wrote it.
+# We changed only two lines on the source: they named working files that are not in this repository.
+# The tiles: r1 to r7 = seven rows from top to bottom; c1 to c4 = four columns from left to right. The line images
+# in images/ are cut from the same tiles.
+
+BnF fr. 4700 f. 85r - transcription pass A (first reading, by the main reader; 11 October 2026)
+Source: the 27 tiles of the page (rows r1 to r7, columns c1 to c4). Each figure line was cut from each tile in three parts and enlarged five times; doubtful places eight to eleven times.
+Conventions: (x) = blotted or unsure figure, best reading. (x|y) = two possible readings. ? = not read. i = short stroke with a heavy dot above (a second plain stroke follows it in every place).
+Signs: <pi>, <Cn> (gate), <0+> (ring with a cross on top), <female> (ring on a cross), <triangle>, <lambda>, <P> (a sign like a capital P). Figures as one string.
+Clear words of lines 1-4, 18-21, 26-28: from a first line map of the page (one reading), checked on the tiles only for the words next to figures.
+I wrote this file from my working notes (kept during the reading) before I opened pass B. While I read, I already tried values, so this pass is not blind to the sense: places where the sense could have guided me are marked (s).
+
+L1: Questa settimana per corriero spedito dall'Alt.a di Ferrara, si sa la morte del Car.le Canano in Modena, dove era Vescovo, con in
+L2: pochi giorni S. Alt.a ha per morte perduto le due persone, delle quali più si valeva, et nelle quali più confidava i suoi
+L3: negotij più importanti, ch'erano questo Car.le et il Vescovo di Reggio morto pure pochi mesi sono:
+L4: Qui si aspetta fra pochi giorni, come fra sei, o vero otto l'Ill.mo et R.mo S.or Car.le Sforza, quale per quanto intendo
+L5: 2780302740294193084697048<0+>141154003<pi>274<lambda>29440184<Cn>i11434898278385(5)(7)18597798394<triangle>48
+L6: 8546890i12444403579845018 4<female>2238769856087450870895396854697 0<Cn>974793450934694 9846
+L7: 01842(2)4440744 6(8)76980506239244701859882890482144095396 48<0+>7448965974793508946 0222948
+L8: <Cn>95794(4)98604586797098<0+>152026402442869460162<female>873i1195096488759430152 0169 ne si spa=
+L9: uentano punto 199 di pericolo di morte, di prigionia, di minaccie, ne di cosa 299 di dire, anzi affer=
+L10: mano arditamente 17208469649943152116990395095<female>4596984694448969750450149i11950 ma io non credo
+L11: che 24608(3)969649095964698480944976<0+>5797 truovi 486979805 le porte aperte 146164185095696 0
+L12: 9849087387 0<Cn>89<0+>6(1)69 creda V. Ecc. Ill.ma quello che le piace 299 che questo negotio, secondo che io lo
+L13: intendo 6480141025822890162011 28<Cn>964815211 69 la qual cosa come ho detto 2290227602 39<0+>19286394
+L14: <female>98397530957944986045264 4(0)239(9)19209638756944614 9 et se cosi potessero 5(9)39548855096461 72<Cn>0
+L15: 7469477983085(4)689i11440978606 96<triangle>450146<0+>883940946059(9)50468505983029440152i1143 non ci si
+L16: 199 intende cosa che importi se non 299 risparmiarebbono però, ma bisogna uedere come ci si 199
+L17: adoperare tutto quello, che si può per che no si 299 risolueranno dopo: Diedi domenica prossima passata
+L18: a N.S. la lettera di V. Ecc. Ill.ma mentre S.S.tà tornava alle sue stanze della capella, che s'era fatta la
+L19: prima dell'advento, et mi ordinò che tornasse da lei il giorno seguente doppo mangiare, come feci, et
+L20: mostrò molta amorevolezza verso V. Ecc. Ill.ma con la quale disse esser stata cosa molto amorevol=
+L21: mente, quando ci fu con l'Ill.mo et R.mo S. Car.le Alessandrino Legato, et perciò le porta affettione: ma
+L22: 17722 1(0|6)152258085469605601 41<0+>4889089325809659847(9)6397(7)<female>97<Cn>46148890943745030
+L23: sopra di che (blot) 965979560970508650986960980501570878950387<female><0+>8709637501638950148890<female><0+>
+L24: 3899896302380239141229258044468548873084625801350184219152096598479639609750
+L25: 15209930 si parlò 85488921 9<Cn>95960609549979849 0148<P>84395608970950 49, che non dispiaque
+L26: si tolse tempo a pensarci, et che sarei chiamato, et ordinatomi quello che dovessi scrivere per risposta: non
+L27: lasciarò di raccordare destramente il negotio, et di tutto la farò avisata minutamente: le bascio humiliss.te
+L28: le mani, et le prego da N.S. Dio ogni contento, et felicità: In Roma: il dì v. di Dicembre. MDXCII
+L29: D.V. Ecc.ia Ill.ma / Humiliss.o e devotiss.o S.re / Vincenzio Badalocchio
+
+(Spaces inside a string of figures have no meaning: they mark where two parts of my notes join.)
+
+PLACES OF DOUBT (pass A)
+L5  "8 3 8 (5)(7) 1 8 5": a blot covers two figures after 838. End of the line: "4 8", the 8 is filled.
+L5  after <pi>: "2 7 4 <lambda> 2 9 4 4 0": the lambda sign has a curl at the top.
+L6  "i 1 2 4 4 4 4 0": two strokes with one dot, then 2; the second and third 4 are joined: 3 or 4 fours.
+L6  "8 7 4 5 0" (s): I first read 8 7 4 4 5 0; "9 4 6 9 4 9 8 4 6" (s): I first read 9 4 6 9 4 4 9 8 4 6.
+L7  "1 8 4 2 (2) 4 4 4 0": after 184 two 2 joined (one may be a slip), then 2 or 3 fours.
+L7  "4 4 6 (8) 7 6 9 8": a blotted figure between 6 and 7.
+L7  "8 2 1 4 4 0": one 4 or two. "9 7 4 7 9 3" (s): the 4 and 7 run together; I first read 9 7 7 4 (4) 7 9 3.
+L8  "<Cn> 9 5 7 9 4 (4) 9 8 6 0": a blot joined to the next figure. "4 5 8 6 7 9 7 0": the 6 may be 7.
+L10 "1 1 6 9 9 0": a squiggle under "6 9 9". "9 5 0 9 5 <female>": the second 9 is small.  "9 4 4 4 8" (three 4) or "9 4 4 8".
+L11 "0 8 (3) 9 6": blot, 3 or 8. End: "9 5 6 9 6 0": the 9 before the last 6 has the form of 2.
+L12 "8 7 3 8 7 0": the second 7 may be 2. "6 (1) 6 9": a blot on the 1.
+L14 "7 9 4 4 9 8": one 4 or two. "2 6 4 4 (0) 2 3 9": blot. "9 (9) 1 9 2": hooked figure and blot before 192. "5 (9) 3 9 5": I first read 5 8 3 9 5 (s).
+L15 "9 4 7 7 9 8 3": two 7 joined. "8 5 (4) 6 8 9": blot. "6 9 6" before the triangle: squiggle under it. "5 9 (9) 5 0": I first read 9 3 7 5 0 (s). "2 9 4 4 0": the two 4 joined.
+L22 "1 7 7 2 2 1 (0|6) 1 5 2": blot and a flourish from the line above. "8 4 7 (9) 6 3 9 7 (7) <female>": blot. End "4 5 0 3 0": the 5 is thin.
+L23 the word "che" ends in a blot (a struck figure?). "5 0 8 6 5 0": 86 or 89.
+L24 "1 8 4 2 1 9 1 5 2": I see one 2 after 184. End "9 6 0 9 7 5 0": the 9 is blotted.
+L25 the sign <P> stands before "8 4 3 9 5 6 0 8 9 7 0 9 5 0 4 9".
+The hooked figure (open hook at the top left, long tail) is 9. The 7 is a wedge with a short stem.

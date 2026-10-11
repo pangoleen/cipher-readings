@@ -1,0 +1,13 @@
+# BnF fr. 4700 f. 65r (Gallica btv1b90582908, view 77, right page): Vincenzo Badalocchio to the Duke of Nevers,
+# Rome, 11 December 1592. Lines 1 to 4 of the letter: the two cipher runs and the clear words around them.
+# Settled transcription, state of 11 October 2026. Pass A and pass B (blind) give the same 71 figures and the same
+# sign. The clear words are one reading by a model, from tiles. They are not an edition.
+#
+# Marks: (x) = a figure that stays unsure on the image; i = the short stroke with a heavy dot (it heads a name
+# group of three figures); <Cn> = a tall C joined to a low arch like an n; = at the end of a line: the word goes on.
+# The rest of the letter (clear, about 20 lines more) is not in this file.
+
+L1: Trovomi occupatiss:mo in scrivendo a V. Ecc.ia Ill.ma tutto quello, che io ho passato 43689i1332399776
+L2: 8469498(4)91521935 per mandarlo con questa per via del S.or Ceppi, che mi pare 2215939569698329(4)<Cn>0
+L3: 125974696758747697446. però questa sarà breve: s'io havrò la fatica di scrivere longamente
+L4: in cifra, non grava a chi tocca la fatica di decifrare: Di nuovo non ho molto, che dirle, ne anco po=

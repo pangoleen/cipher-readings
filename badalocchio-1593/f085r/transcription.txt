@@ -1,0 +1,52 @@
+# BnF fr. 4700 f. 85r (Gallica btv1b90582908, view 97, right page): Vincenzo Badalocchio to the Duke of Nevers,
+# Rome, 5 December 1592. Settled transcription, state of 11 October 2026.
+# Its base is pass B (the blind pass, pass_b_blind.txt). It differs from pass B in four places of figures; in each
+# one we looked at the enlarged tile again. reading.md lists them, with what guided the choice. We also left out a
+# point in line 10 that is film dirt.
+# The clear words are one reading by a model, from tiles. They are not an edition.
+#
+# One row for each line of the page. Clear words stand as words. Figures stand as rows with no gaps, as on the page.
+# decode.py cuts the rows into groups. A space in a row of figures is a space on the page (line 10).
+#
+# Marks of this file:
+#   (x)          a figure that stays unsure on the image
+#   (?)          after a clear word: the word is not sure
+#   =            at the end of a line: the word goes on in the next line
+#   i            the short stroke with a heavy dot. It heads a name group of three figures.
+#   <pi>         a gate like the Greek letter pi
+#   <Cn>         a tall C joined to a low arch like an n
+#   <0+>         a ring with a cross on its top
+#   <female>     a ring on a cross
+#   <triangle>   an outline triangle with the point down
+#   <lambda>     a sign with two legs and a curl at the top (one place, line 5; pass B calls it <arch>)
+#   <P>          a sign like a capital P (one place, line 25)
+
+L1: Questa settimana per corriero spedito dall'Alt.a di Ferrara, si sa la morte del Car.le Canano in Modena, dove era Vescovo, con in
+L2: pochi giorni S. Alt.a ha per morte perduto le due persone, delle quali più si valeva, et nelle quali più confidava i suoi
+L3: negotij più importanti, ch'erano questo Car.le et il Vescovo di Reggio morto pure pochi mesi sono:
+L4: Qui si aspetta fra pochi giorni, come fra sei, o vero otto l'Ill.mo et R.mo S.or Car.le Sforza, quale per quanto intendo
+L5: 2780302740294193084697048<0+>14115403<pi>274<lambda>2940184<Cn>i143489827838(5)(1)859798394<triangle>4(8)
+L6: 8546890i124244035798450184<female>2238769856087450(8)708953968546970<Cn>9747934509346949846
+L7: 018424409446(8)7698050623924701859828904821409539648<0+>748965974(7)93508946022948
+L8: <Cn>9579498604586797098<0+>152026402442869460162<female>893i1950964887594301520169 ne si spa=
+L9: uentano punto 199 di pericolo di morte, di prigionia, di minaccie, ne di cosa 299 di dire, anzi affer=
+L10: mano arditamente 192084696499431521690395095<female>4596984694489697504501 49i1950 ma io non credo
+L11: che 2460896964909596469848094976<0+>5797 truovi 4(8)6979805 le porte aperte 1461641850956(9)60
+L12: 98490873890<Cn>89<0+>6(1)69 creda V. Ecc. Ill.ma quello che le piace 299 che questo negotio, secondo che io lo
+L13: intendo 480141025828901620i128<Cn>96481521169 la qual cosa come ho detto 229022760239<0+>19286394
+L14: <female>98397530957949860452640239192096387569446149 et se cosi potessero 5(9)3954885509646192<Cn>0
+L15: 7469479830854689i144097860696<triangle>450146<0+>883940946059395046850598302470152i143 non ci si
+L16: 199 intende cosa che importi se non 299 risparmiarebbono piu(?), ma bisogna uedere come ci si 199
+L17: adoperare tutto quello, che si può per che no si 299 risolueranno dopo: Diedi domenica prossima passata
+L18: a N.S. la lettera di V. Ecc. Ill.ma mentre S.S.tà tornava alle sue stanze della capella, che s'era fatta la
+L19: prima dell'advento, et mi ordinò che tornasse da lei il giorno seguente doppo mangiare, come feci, et
+L20: mostrò molta amorevolezza verso V. Ecc. Ill.ma con la quale disse esser stata cosa molto amorevol=
+L21: mente, quando ci fu con l'Ill.mo et R.mo S. Car.le Alessandrino Legato, et perciò le porta affettione: ma
+L22: 1772221015225808546960560141<0+>4889089325809659847963970<female>97<Cn>46148890943745030
+L23: sopra di che 965979560970508650986960980501570878950387<female><0+>8709637501638950148890<female><0+>
+L24: 389989630238023914122925804446854873084625801350184219152096598479639609750
+L25: 15209930 si parlò 854889219<Cn>95960609549979849014 8<P>8439560897095049, che non dispiaque
+L26: si tolse tempo a pensarci, et che sarei chiamato, et ordinatomi quello che dovessi scrivere per risposta: non
+L27: lasciarò di raccordare destramente il negotio, et di tutto la farò avisata minutamente: le bascio humiliss.te
+L28: le mani, et le prego da N.S. Dio ogni contento, et felicità: In Roma: il dì v. di Dicembre. MDXCII
+L29: D.V. Ecc.ia Ill.ma / Humiliss.o e devotiss.o S.re / Vincenzio Badalocchio

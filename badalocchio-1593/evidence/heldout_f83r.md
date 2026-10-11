@@ -1,5 +1,11 @@
 # A held-out text: the cipher passage of BnF fr. 4700 f. 83r
 
+> **Note of 11 October 2026, after the correction.** This file gives the test as it was made for the first page,
+> with the old cut. What the passage "taught" then (29 and 39 as groups) was half right: the groups are 229 (non)
+> and 239 (per), with the figure 2 at their head. With the cut and the key of today the passage has 29 groups, and
+> 28 have a value: "NON LE s c i u e IL [sign] DI p a u i a PER LE c o · s e DI n a u a r a", that is "Non le
+> sc[r]ive il [..] di Pavia per le cose di Navara". `python3 decode.py` prints it. The figures still have one pass.
+
 Source: Paris, BnF, ms. français 4700, f. 83r (Gallica `btv1b90582908`, view 95, right page). Image:
 `../images/f83r_cipher.jpg`. Data: [`../heldout_f83r.txt`](../heldout_f83r.txt). `python3 decode.py` decodes it.
 

@@ -1,5 +1,10 @@
 # Blind audit of the key, 11 October 2026: summary
 
+> **Note of 11 October 2026, after the correction.** This is the first blind audit, made for the first page. It had
+> the old cut: the figure 2 as a null, and "si", "ma" as groups of two figures (58, 12). The values that it restored
+> stand in today's key too; "si" and "ma" are now the groups 258 and 212. The second blind audit, with the cut and
+> the key of today, is in [audit.md](audit.md): 24 of 24.
+
 The question of this test: do the values of the key follow from the text, or only from the first reader?
 
 ## What was done

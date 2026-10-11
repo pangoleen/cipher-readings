@@ -1,0 +1,102 @@
+# Key with 24 VALUES HIDDEN (marked ?). (null) = a group with no meaning. [nome ...] = a name group, value unknown to all.
+# Groups that are not in this list have no known value. Your task: a value for each "?" group.
+group	value
+0	(null)
+2	(null)
+3	a
+5	i
+6	o
+7	?
+43	c
+44	?
+45	?
+46	e
+47	i
+48	e
+49	?
+83	b
+84	?
+85	?
+86	f
+87	?
+88	h
+89	?
+93	m
+94	?
+95	p
+96	?
+97	?
+98	t
+99	q
+125	al
+129	anno
+135	ben
+141	?
+142	chi
+143	ci
+146	?
+148	?
+149	detta
+152	di
+154	dove
+156	egli
+157	et
+158	fa
+162	far
+163	fatto
+164	fece
+166	fin
+169	Francia
+175	giorno
+177	ha
+184	?
+185	in
+188	io
+192	?
+193	le
+197	lui
+199	(null)
+212	ma
+214	mi
+219	modo
+221	?
+223	?
+229	?
+232	occasione
+238	parte
+239	per
+244	?
+245	quando
+246	quel
+247	quello
+255	?
+258	si
+259	so
+264	Spagna
+266	stato
+269	tanto
+272	tempo
+274	tratta
+276	?
+278	vien
+286	vogli
+289	?
+291	ente
+294	re
+296	to
+299	(null)
+.122	[nome 122]
+.124	[nome 124]
+.128	[nome 128]
+.133	[nome 133]
+.143	[nome 143]
+.144	[nome 144]
+.176	[nome 176]
+.195	[nome 195]
+<0+>	(null)
+<Cn>	(null)
+<pi>	(null)
+<arch>	(null)
+<female>	(null)
+<lambda>	(null)
+<triangle>	?

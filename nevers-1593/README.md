@@ -167,7 +167,8 @@ doubt. This sheet was not used to build the key.
 
 - The key of the minute alone gives a value to 637 of the 1,003 groups of the sheet (63.5 %).
 - It reads Italian there at once: *heresia*, *Navara*, *ostinatamente a perseverar*, *pacifico di Francia*,
-  *gagliarda rimostranza*, *lo stato di Milano*, *Napoli et Sicilia*.
+  *gagliarda rimostranza*, *lo stato di Milano*, *Napoli et Sicilia*. (Two of these readings are of the first
+  cut. With the cut of today they are *stinatamente persevera nella* and *pacifico in Francia*: see below.)
 - Against 3,000 keys with the same letters dealt at random, the true key stands 7.9 standard deviations above the
   mean.
 - In *sareb·be* a null stands between the two b. The same habit shows in the minute.
@@ -176,12 +177,14 @@ The sheet adds values that the short minute does not have. It is read in long st
 in four has no connected sense yet. It is not a result of this folder. It is named here as a control, and as open
 work.
 
-**The sheet now has its own folder: [badalocchio-1593](../badalocchio-1593/).** A second round of work changed
-the cut of its groups: a group that starts with 1 has three figures. So the numbers above (1,003 groups, 63.5 %,
-7.9 standard deviations) and the words "one line in four" belong to the first cut. With the new cut the sheet has
-919 groups, and the key of the minute alone gives a value to 608 of them (66.2 %). The reading of the sheet is
-partial: about four fifths, with gaps. The month of the clear letter is January without doubt. The day, 9, is
-read with doubt.
+**The sheet now has its own folder: [badalocchio-1593](../badalocchio-1593/),** with two more cipher letters of
+Badalocchio of December 1592. The cut of the groups changed two times after the lines above were written. First: a
+group that starts with 1 has three figures. Then, on 11 October 2026: a group that starts with 2 has three figures
+too, and the figure 2 is not a null. So the numbers above (1,003 groups, 63.5 %, 7.9 standard deviations), the
+words "one line in four" and the words *ostinatamente a perseverar* belong to the first cut. With the cut of today
+the sheet has 819 groups, and the key of the minute alone gives a value to 570 of them (69.6 %). The words are
+*stinatamente persevera nella sua heresia*. The sheet is read for about nine tenths, with gaps. The month of the
+clear letter is January without doubt. The day, 9, is read with doubt.
 
 ## Two ciphers of Badalocchio, and the date of the change
 

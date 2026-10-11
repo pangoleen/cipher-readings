@@ -1,0 +1,8 @@
+# BnF fr. 4700 f. 65r, 11 December 1592: the cipher runs of the settled transcription (transcription.txt), cut into groups.
+# decode.py makes this file. A group is one figure (0 3 5 6 7, and a lone 1 or 2), two figures (4x, 8x, 9x)
+# or three figures (1xy, 2xy). .143 = the dotted stroke with the figures 1 4 3: a name group.
+# ? = a figure that is not read. Signs stand in < >. L5.1 = the first cipher run of line 5.
+L1.1: 43 6 89 .133 239 97 7 6
+L2.1: 84 6 94 98 49 152 193 5
+L2.2: 221 5 93 95 6 96 98 3 294 <Cn> 0
+L3.1: 125 97 46 96 7 5 87 47 6 97 44 6

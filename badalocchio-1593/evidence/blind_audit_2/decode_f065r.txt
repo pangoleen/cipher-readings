@@ -1,0 +1,11 @@
+# f065r. Each cipher run: the groups, then the decode by the masked key. · = null. CAPITALS = one group for a word or syllable.
+# [?nnn] = a HIDDEN value (your task). [nnn] = a group that has no value in the full key. [nome nnn] = a name group.
+# For the place of each run among the clear words, see transcription_f065r.txt (run L5.1 = first run of figures in line L5).
+L1.1: 43 6 89 .133 239 97 7 6
+      c o [?89] [nome 133] PER [?97] [?7] o
+L2.1: 84 6 94 98 49 152 193 5
+      [?84] o [?94] t [?49] DI LE i
+L2.2: 221 5 93 95 6 96 98 3 294 <Cn> 0
+      [?221] i m p o [?96] t a RE · ·
+L3.1: 125 97 46 96 7 5 87 47 6 97 44 6
+      AL [?97] e [?96] [?7] i [?87] i o [?97] [?44] o

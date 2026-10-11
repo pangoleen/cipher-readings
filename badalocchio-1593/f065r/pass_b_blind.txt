@@ -1,0 +1,64 @@
+# BnF fr. 4700 f. 65r (Gallica btv1b90582908, view 77, right page), lines 1 to 4. Pass B, the blind second
+# reading, 11 October 2026. A separate agent made it. It had the four tiles and the rules of transcription only.
+# Below is its report as it gave it. We changed only the lines on the source: they named working files.
+
+BnF fr. 4700 f. 65r - PASS B (blind second transcription), lines 1 to 4
+Date of this pass: 2026-10-11
+
+WHAT I READ
+Four image tiles only: view77_r1c1, view77_r1c2, view77_r1c3, view77_r1c4.
+I looked at one image of the whole view one time for the layout. I opened no other file.
+I read each figure run on every tile that holds it. I joined the tiles on the overlap (c3 to c4: 563 px; c1 to c2: 646 px).
+
+CONVENTIONS
+Figures = one unbroken string. (x) = unsure or blotted figure, best reading. ? = not readable. i = short stroke with a heavy dot above. <...> = a sign that is not a digit.
+Letters above the line are between ^ ^. (?) after a word = unsure word. u/v are typed as written (the hand writes u). õ, ũ = vowel with an abbreviation stroke above. No correction, no normalisation, no decoding.
+
+TRANSCRIPTION
+L1: Trouomi occupatiss:^o^ mi iscriuendo (?) a V. Ecc:^ia^ Ill^ma^. tutto quello, che io ho passato 4368(9)i1332399776
+L2: 8469498(4)(9)1521935 per mandarlo cõ questa per uia del s.^or^ Ceppi (?), che mi pare 2215(9)3(9)569698329(4)<Cn>0
+L3: 1259746967587476(9)7446. pero questa sara breue: s'io durro (?) la fatica di scriuere lũgamente
+L4: in cifra, non graui a chi tocca la fatica di decifrare: Di nuouo nõ ho molto, che dirle, ne anco po=
+
+COUNT OF FIGURES
+Run 1 (end of L1 + start of L2):
+  L1 part: 4368(9)i1332399776      = 16 figures (15 digits + 1 dotted i)
+  L2 part: 8469498(4)(9)1521935    = 16 figures
+  Run 1 total                      = 32 figures
+Run 2 (end of L2 + start of L3):
+  L2 part: 2215(9)3(9)569698329(4)<Cn>0 = 19 signs (17 digits + the sign <Cn> + the ring 0)
+  L3 part: 1259746967587476(9)7446      = 21 figures, then a full stop
+  Run 2 total                           = 40 signs (39 figures if the ring is a 0, + 1 sign <Cn>)
+
+THREE SHAPES THAT ARE EASY TO MIX (important for the compare)
+The hand has three different shapes in the 7/9 group:
+  a) closed 9: a closed loop with a white eye, and a long tail that goes below the line. Typed 9.
+  b) flat 7: a flat top bar with a small tick on the left, and a short stem that stops ON the line with a small foot. Typed 7.
+  c) "hooked" figure: an open hook that hangs down on the left, a round top, and a long tail below the line. No closed eye, no foot.
+     I typed shape c as (9), because its tail is the tail of the 9. The other possible reading is 7. It can also be a third sign.
+Shape c occurs 6 times: L1 fig. 5; L2 run 1 fig. 9; L2 run 2 fig. 5 and fig. 7; L3 fig. 17. All six look the same.
+
+PLACES OF DOUBT
+1. L1, fig. 5 (after 4368): shape c. Reading (9) or 7. Best tile: c4 (also clear on c3).
+2. L1, fig. 6 and 7 (after shape c): two equal short strokes. One dot stands high above the FIRST stroke only. Reading i1 or 11 (the dot is film dirt) or ii (one dot for the two strokes). The dot is 5 x 5 px, the same size as the dots on the letter i in the words, and it shows at the same place on c3 and on c4. Best tile: c4.
+3. L2, run 1, fig. 8 (after 8469498): a solid black blot. Its outline is the outline of a 4 (wide head, bar to the right, stem down). Reading (4), or a figure that the writer blotted out on purpose [?]. No inner detail shows. Tile: c1 only.
+4. L2, run 1, fig. 9 (after the blot): shape c. The tail of a letter from L1 crosses its top. Reading (9) or 7. Tile: c1 only.
+5. L2, run 2, fig. 5 (after 2215): shape c. Reading (9) or 7. Best tile: c3.
+6. L2, run 2, fig. 7 (after the 3): shape c. Reading (9) or 7. Best tile: c4 (also on c3).
+7. L2, run 2, fig. 8: a 5 in thin, pale strokes (much thinner than its neighbours). Reading 5; small doubt. Best tile: c4.
+8. L2, run 2, fig. 17 (after 8329): a 4 with the head filled with ink; the bar and the foot are clear. Reading (4), almost sure. Tile: c4 only.
+9. L2, end of run 2: a tall C joined to an n (the "gate"), and then a small ring joined to the n. Reading <Cn>0. Other reading: the ring is a part of the sign (the three shapes look like the letters "Cno"). The ring has the height of a small letter, not of a figure. Tile: c4 only.
+10. L3, fig. 17 (in ...476_7446): shape c. Reading (9) or 7. Shown on c1 (right edge) and on c2 (left edge).
+11. L3, last three figures 446: the cross-bars of the two 4s run on into the 6 as one line. I read plain 446 with joined bars, not a strike-out. Best tile: c2.
+12. L3 join c1/c2: c1 ends ...76(9)74 with the last 4 cut by the edge; c2 starts (9)7446. The first 4 on c2 is the last 4 on c1 (same place after the 646 px shift). Result ...76(9)7446: no doubled and no lost figure.
+13. L1 join c3/c4: c3 ends ...i133; c4 starts 68(9)i13323... Result 4368(9)i1332399776.
+14. L2 join c3/c4: c3 ends ...5696 + a cut 9; c4 starts (cut hook)3(9)56969832... Result as typed.
+
+WORDS OF DOUBT
+- L1 "mi iscriuendo": the dot stands above the last stroke of the first word, so I typed "mi" (not "in"). "iscriuendo" could be divided in another way.
+- L2 "Ceppi": a name with a flourish below; the letters C-e-pp-i are my best reading.
+- L3 "durro": d-u-rr-o is my best reading.
+- L3 "lũgamente": a stroke above the u.
+
+SECOND CHECK
+I read each run a second time on new enlarged crops and counted again. The counts did not change.

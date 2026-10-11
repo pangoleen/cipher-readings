@@ -1,5 +1,10 @@
 # BnF fr. 4700 f. 80r: work log
 
+> **Note of 11 October 2026, after the correction.** This log is the record of the first reading of f. 80r, as it
+> stood on the first page. It has the old cut (the figure 2 as a null), the old counts (919 groups, 617 of 792)
+> and the old text, with "Navara per[ò?] si mostra prudente". We keep it as it was. The cut, the key and the
+> reading of today are in the [README](../README.md) and in [audit.md](audit.md).
+
 Work of 11 October 2026, in two rounds. "I" in this log is the model that did the work. The words SEEN and
 INFERRED mark what I saw on an image and what I concluded.
 

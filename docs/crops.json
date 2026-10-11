@@ -2122,7 +2122,7 @@
     "line": "L3",
     "tokens": [
      0,
-     20
+     15
     ]
    },
    "L03_b": {
@@ -2138,8 +2138,8 @@
     "gray": true,
     "line": "L3",
     "tokens": [
-     20,
-     34
+     15,
+     27
     ]
    },
    "L03_c": {
@@ -2147,7 +2147,7 @@
     "box": [
      1258,
      0,
-     1811,
+     1859,
      66
     ],
     "scale": 1.3,
@@ -2155,14 +2155,14 @@
     "gray": true,
     "line": "L3",
     "tokens": [
-     34,
-     47
+     27,
+     38
     ]
    },
    "L03_d": {
     "file": "badalocchio-1593/images/line03.jpg",
     "box": [
-     1807,
+     1855,
      0,
      2224,
      66
@@ -2172,8 +2172,8 @@
     "gray": true,
     "line": "L3",
     "tokens": [
-     47,
-     54
+     38,
+     44
     ]
    },
    "L06_a": {
@@ -2190,7 +2190,7 @@
     "line": "L6",
     "tokens": [
      0,
-     15
+     13
     ]
    },
    "L06_b": {
@@ -2198,7 +2198,7 @@
     "box": [
      680,
      0,
-     1294,
+     1245,
      66
     ],
     "scale": 1.3,
@@ -2206,14 +2206,14 @@
     "gray": true,
     "line": "L6",
     "tokens": [
-     15,
-     30
+     13,
+     25
     ]
    },
    "L06_c": {
     "file": "badalocchio-1593/images/line06.jpg",
     "box": [
-     1290,
+     1241,
      0,
      1883,
      66
@@ -2223,8 +2223,8 @@
     "gray": true,
     "line": "L6",
     "tokens": [
-     30,
-     44
+     25,
+     38
     ]
    },
    "L06_d": {
@@ -2240,8 +2240,8 @@
     "gray": true,
     "line": "L6",
     "tokens": [
-     44,
-     50
+     38,
+     43
     ]
    },
    "L10_a": {
@@ -2258,7 +2258,7 @@
     "line": "L10",
     "tokens": [
      0,
-     16
+     15
     ]
    },
    "L10_b": {
@@ -2274,8 +2274,8 @@
     "gray": true,
     "line": "L10",
     "tokens": [
-     16,
-     28
+     15,
+     27
     ]
    },
    "L10_c": {
@@ -2291,8 +2291,8 @@
     "gray": true,
     "line": "L10",
     "tokens": [
-     28,
-     42
+     27,
+     41
     ]
    },
    "L10_d": {
@@ -2308,8 +2308,8 @@
     "gray": true,
     "line": "L10",
     "tokens": [
-     42,
-     46
+     41,
+     45
     ]
    },
    "L13_a": {
@@ -2326,7 +2326,7 @@
     "line": "L13",
     "tokens": [
      0,
-     16
+     14
     ]
    },
    "L13_b": {
@@ -2342,8 +2342,8 @@
     "gray": true,
     "line": "L13",
     "tokens": [
-     16,
-     35
+     14,
+     33
     ]
    },
    "L13_c": {
@@ -2359,8 +2359,8 @@
     "gray": true,
     "line": "L13",
     "tokens": [
-     35,
-     51
+     33,
+     48
     ]
    },
    "L15_a": {
@@ -2368,7 +2368,7 @@
     "box": [
      20,
      0,
-     663,
+     609,
      66
     ],
     "scale": 1.3,
@@ -2377,13 +2377,13 @@
     "line": "L15",
     "tokens": [
      0,
-     16
+     13
     ]
    },
    "L15_b": {
     "file": "badalocchio-1593/images/line15.jpg",
     "box": [
-     659,
+     605,
      0,
      1107,
      66
@@ -2393,8 +2393,8 @@
     "gray": true,
     "line": "L15",
     "tokens": [
-     16,
-     28
+     13,
+     24
     ]
    },
    "L15_c": {
@@ -2410,8 +2410,8 @@
     "gray": true,
     "line": "L15",
     "tokens": [
-     28,
-     41
+     24,
+     37
     ]
    },
    "L15_d": {
@@ -2427,9 +2427,227 @@
     "gray": true,
     "line": "L15",
     "tokens": [
-     41,
-     56
+     37,
+     51
     ]
+   },
+   "f85_L08_a": {
+    "file": "badalocchio-1593/f085r/images/line08.jpg",
+    "box": [
+     40,
+     0,
+     658,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L8"
+   },
+   "f85_L08_b": {
+    "file": "badalocchio-1593/f085r/images/line08.jpg",
+    "box": [
+     650,
+     0,
+     1266,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L8"
+   },
+   "f85_L08_c": {
+    "file": "badalocchio-1593/f085r/images/line08.jpg",
+    "box": [
+     1258,
+     0,
+     1727,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L8"
+   },
+   "f85_L08_d": {
+    "file": "badalocchio-1593/f085r/images/line08.jpg",
+    "box": [
+     1722,
+     0,
+     2200,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L8"
+   },
+   "f85_L10_a": {
+    "file": "badalocchio-1593/f085r/images/line10.jpg",
+    "box": [
+     40,
+     0,
+     851,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L10"
+   },
+   "f85_L10_b": {
+    "file": "badalocchio-1593/f085r/images/line10.jpg",
+    "box": [
+     847,
+     0,
+     1536,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L10"
+   },
+   "f85_L10_c": {
+    "file": "badalocchio-1593/f085r/images/line10.jpg",
+    "box": [
+     1531,
+     0,
+     2200,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L10"
+   },
+   "f85_L25_a": {
+    "file": "badalocchio-1593/f085r/images/line25.jpg",
+    "box": [
+     50,
+     0,
+     792,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L25"
+   },
+   "f85_L25_b": {
+    "file": "badalocchio-1593/f085r/images/line25.jpg",
+    "box": [
+     786,
+     0,
+     1420,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L25"
+   },
+   "f85_L25_c": {
+    "file": "badalocchio-1593/f085r/images/line25.jpg",
+    "box": [
+     1412,
+     0,
+     2200,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f085r",
+    "line": "L25"
+   },
+   "f65_L01_a": {
+    "file": "badalocchio-1593/f065r/images/line01.jpg",
+    "box": [
+     0,
+     0,
+     1168,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f065r",
+    "line": "L1"
+   },
+   "f65_L01_b": {
+    "file": "badalocchio-1593/f065r/images/line01.jpg",
+    "box": [
+     1160,
+     0,
+     2160,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f065r",
+    "line": "L1"
+   },
+   "f65_L02_a": {
+    "file": "badalocchio-1593/f065r/images/line02.jpg",
+    "box": [
+     30,
+     0,
+     1058,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f065r",
+    "line": "L2"
+   },
+   "f65_L02_b": {
+    "file": "badalocchio-1593/f065r/images/line02.jpg",
+    "box": [
+     1050,
+     0,
+     2160,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f065r",
+    "line": "L2"
+   },
+   "f65_L03_a": {
+    "file": "badalocchio-1593/f065r/images/line03.jpg",
+    "box": [
+     30,
+     0,
+     1085,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f065r",
+    "line": "L3"
+   },
+   "f65_L03_b": {
+    "file": "badalocchio-1593/f065r/images/line03.jpg",
+    "box": [
+     1080,
+     0,
+     2160,
+     86
+    ],
+    "width": 1000,
+    "gray": true,
+    "sheet": "f065r",
+    "line": "L3"
+   },
+   "f85_page": {
+    "file": "badalocchio-1593/f085r/images/f85r_page.jpg",
+    "width": 1000,
+    "gray": true
+   },
+   "f65_lines": {
+    "file": "badalocchio-1593/f065r/images/f65r_lines.jpg",
+    "width": 1000,
+    "gray": true
    }
   }
  }

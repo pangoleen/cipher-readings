@@ -1826,7 +1826,7 @@ def nevers():
 
     body += '<h2>Open work: the cipher text from Rome</h2>'
     opn = section('Open work: the cipher text from Rome').strip()
-    check(P, 'We have not read it.' in collapse(opn) and 'It does not yet read that text.' in collapse(opn) and '\n\n' not in opn,
+    check(P, 'We have not read it.' in collapse(opn) and 'no Italian word comes out' in collapse(opn) and '\n\n' not in opn,
           'README: the leaf from Rome is open work, in one paragraph')
     body += '<p>%s</p>' % mdx(opn)
 

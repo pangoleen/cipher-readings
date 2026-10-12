@@ -158,6 +158,19 @@ More, with the doubtful points marked: [reading/contents.md](reading/contents.md
 A quick test by hand: the last line of the second "Ranzo" letter (fr. 2988, Gallica `btv1b9059908w`, view 20)
 has the groups m176, c193, v152, o66 with small numbers between them. They read "mille cinquecento vinti octo".
 
+## A check by another project
+
+This part was added on 12 October 2026.
+
+- On 6 October 2026 **Satoru** published a page that compares five points of this reading with an independent
+  printed source: <https://satoru.net/crypt/centurione1528/>. The points are names, dates and events. The source
+  is P. de Gayangos (ed.), *Calendar of Letters, Despatches, and State Papers*, vol. III, part II (1877).
+- All five points agree. Two of them are names that this folder does not give as sure: "Bilia" (probable; the
+  name is spelled bi-li-a) and "Ansaldo" (a guess).
+- His page says what the check does not cover. It does not check the build of the cipher. It does not check the
+  reading word by word. The unread part and the guessed values are untouched.
+- We did not repeat his comparison ourselves.
+
 ## Earlier work, and what this folder owes
 
 - **Satoshi Tomokiyo** listed the cipher, saw that the base letter is the initial of the word, and guessed that

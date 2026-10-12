@@ -1,5 +1,10 @@
 # The audit of 11 October 2026: the key, the cut, and the three readings
 
+> **Note of 12 October 2026.** A second audit overrules this file in two places: [audit_names.md](audit_names.md).
+> Part 5.3 of this file gives the name group .176 as the Queen of England. We now print Lesdiguières, with the
+> Queen as the rival. Part 1 of this file gives 167 = fosse as a guess of the fresh reader. It is now a value of
+> the key, with the grade "probable". The rest of this file stands as it was.
+
 This file is the public summary of an audit. A separate agent made the audit. It did not make the readings. Its
 task was to break the result. It worked from files and images on disk, from book texts on archive.org and from
 two catalogue files on GitHub. It did not go back to Gallica.

@@ -10,13 +10,18 @@ with gaps, and the one key that reads them.
 | Rome, 11 December 1592: a clear letter with two short cipher runs | BnF fr. 4700, f. 65r (view 77) | No decipherment; no reading known to us | [Both runs read](f065r/reading.md); one name is not read |
 | Rome, 9(?) January 1593: a sheet of 18 lines, all in figures | BnF fr. 4700, f. 80r (view 92) | Our first page of 11 October 2026: "about four fifths", with a wrong cut | [Read for about nine tenths, with gaps](reading.md): 717 of the 778 groups that carry text (92 %, a hand count; 91 % by the strict count) |
 
-**Status: 11 October 2026, after an audit.** The work was done by a model. No palaeographer has checked it. **The
+**Status: 12 October 2026, after two audits.** The work was done by a model. No palaeographer has checked it. **The
 readings have gaps, and no name is read from the cipher.** Corrections are welcome: please open an issue.
 
 **Correction of 11 October 2026.** The first version of this page gave "Navara per[ò?] si mostra prudente" and
 translated "Navarre [however?] shows himself prudent". The right reading is "Navara non si mostra prudente". The
 figure 2 is not a null: it heads a second table. The summary sentence 3 was right. The details are under
 "History of our own statements".
+
+**Change of 12 October 2026.** The page of 11 October printed the name group .176 as the Queen of England, with the
+grade "probable". We now print Lesdiguières, with the grade "probable", and the Queen as the rival. The group 167 has
+a new value: "fosse" (probable). No name is read from the cipher. The details are under "The names" and "History
+of our own statements".
 
 ## What is new
 
@@ -80,12 +85,14 @@ the date on its page.
 | In words that we translate: hand count | **361 of 383 (94 %)** | **36 of 37** | **717 of 778 (92 %)** |
 | The strict count | 361 of 390 (92.6 %), if the seven lone groups 199 and 299 count as not read | no other count | 708 of 778 (91 %), without the six groups with guessed values and "in [&] et" |
 | Name groups, not read | 7 (five names) | 1 | 6 (four names) |
-| Other groups with no value | 2 | 0 | 14 |
+| Other groups with no value | 2 | 0 | 13 |
 | The two transcription passes | 906 the same (97.0 %); pass B and the settled text 99.6 % | 72 of 72 places | 1,561 of 1,595 places (97.9 %) |
 
 - **The counts of the connected sense are hand counts by the first reader.** For f. 85r and f. 65r the list of
   the groups that are out is in `decode.py`. For f. 80r the reader gave one number for each line. The audit gave
   the strict counts.
+- **The counts of f. 80r are of 11 October 2026.** Since 12 October the group 167 has a probable value ("fossero",
+  line 1). We did not count again: 717 and 708 stay. Only the row "Other groups with no value" changes: 13, not 14.
 - On f. 85r seven groups stand alone between clear words: 199 (three times) and 299 (four times). They are not
   in the 520.
 - "Groups with a value" proves little. A shuffled key gives a value to the same groups. We do not use it as a
@@ -129,7 +136,7 @@ complete, and the order of the alphabet allows the word) and **guess** (the plac
 |---|---|---|
 | Letters | 25 groups of one or two figures, and the triangle | all sure |
 | Nulls | 0 and six signs | sure; one sign has one place only (probable) |
-| Table 1 (1xy) | 27 words | 20 sure, 7 probable (125 al, 129 anno, 149 detta, 164 fece, 166 fin, 169 Francia, 177 ha) |
+| Table 1 (1xy) | 28 words | 20 sure, 8 probable (125 al, 129 anno, 149 detta, 164 fece, 166 fin, 167 fosse, 169 Francia, 177 ha) |
 | Table 2 (2xy) | 24 words | 12 sure, 9 probable, 3 guesses (245, 246, 269) |
 | Endings of table 2 | 289 endo, 291 ente, 294 re, 296 to | 2 sure, 2 probable |
 | Names | 8 groups of three figures, 2 of two figures | no value in the key |
@@ -142,6 +149,11 @@ complete, and the order of the alphabet allows the word) and **guess** (the plac
   "quel-".
 - **269 (tanto):** one place. A guess.
 - **289 (endo):** four places fit. It fails in f. 85r line 13 ("si ENDO far"). That place is not read.
+- **167 (fosse):** one place, f. 80r line 1: FOSSE-r-o, "fossero". It stands between 166 *fin* and 169 *Francia*,
+  and no other word of this window makes a word with "ro". The word after it is open. Probable, not sure. Added on
+  12 October 2026.
+- **138:** no value. "cattolico" was tested. It fits the sense of f. 80r line 1, where the short group .38 stands.
+  The plain group 138 in line 7 does not read with it. The key does not take it.
 - **169 (Francia):** three places fit. The fourth, after "Portogallo", has a blot and no sense.
 - **199, 299 and the lone 2:** no value.
 
@@ -216,9 +228,10 @@ it with this letter, because it seems of great weight for the Duke's service.
 The sheet follows a clear letter of the same day (f. 79r-v; our transcription is in
 [evidence/clear_letter_f79.md](evidence/clear_letter_f79.md)). What Badalocchio tells the Duke, in five sentences:
 
-1. The troubles of the Spanish lands in Italy make an opening. If Navarre and [name 176] were [..], they could
-   hope to raise the State of Milan, very ill content with Spain, and to take it with ease. [Name 176] has an army
-   that is much feared.
+1. The troubles of the Spanish lands in Italy make an opening. If Navarre and [name 176] (probably Lesdiguières,
+   whose army stood in Piedmont) were [Catholics?], they could hope to raise the State of Milan, very ill content
+   with Spain, and to take it with ease, because [name 176] has an army that is much feared in [a place that is
+   not read].
 2. The death of [name 122] would add to this. But the heresy of the King and of [name 176] makes such fine
    enterprises not only hard but impossible.
 3. Navarre does not show himself as prudent as his own good asks, because he still perseveres stubbornly in his
@@ -230,13 +243,17 @@ The sheet follows a clear letter of the same day (f. 79r-v; our transcription is
    Naples and Sicily would not stay in line,
 5. for the ill treatment by Spain. God knows when so fine an occasion will come again.
 
-Sentence 1 holds three groups with no value. Sentence 3 holds two gaps. "Of such worth" in sentence 4 and "God
-knows when" in sentence 5 rest on values that are guesses or open (269, 245).
+[Name 176] is probably Lesdiguières; [name 122] is probably the King of Spain. No name is read from the cipher.
+The word "were" is the group 167 (fosse, probable). "Catholics" is a guess for the short group [.38]; it is not a
+value of the key. Sentence 1 holds two groups with no value ([132] and [.38]), and the sign for the place of the
+army is not read. Sentence 3 holds two gaps. "Of such worth" in sentence 4 and "God knows when" in sentence 5 rest
+on values that are guesses or open (269, 245).
 
 The Italian, with its gaps. Marks: `[132]` = a group with no value; `[2 2 2]` = three lone 2; `[nome 176]` = a
-name group; `(?)` = doubtful.
+name group; `[.38]` = a short group with a dotted stroke, open; `(?)` = doubtful. In the English, `[word?]` = a
+guess for the sense.
 
-> Ecco [132] bella occasione che si presenta: se Navara, [nome 176] [167]ro [.38], che potre[8]bono sperare di
+> Ecco [132] bella occasione che si presenta: se Navara, [nome 176] fossero [.38], che potre[8]bono sperare di
 > far solevare lo stato di Milano, malissimo sodisfatto di Spagna, et i[i] impatronirsene facilissimamente,
 > havendo [nome 176] uno essercito molto temuto in [&]; et avenendo la morte del [nome 122], con quel(?) novi
 > disgusto; ma la heresia del Re et della [nome 176] rendono così belle imprese non solo dificili ma impossibili
@@ -256,7 +273,7 @@ name group; `(?)` = doubtful.
 
 In English:
 
-> Here is [..] a fine occasion that comes up: if Navarre [and] [name 176] [were?] [..], they could hope to make
+> Here is [..] a fine occasion that comes up: if Navarre [and] [name 176] were [Catholics?], they could hope to make
 > the State of Milan rise, which is very ill content with Spain, and to make themselves masters of it very
 > easily, as [name 176] has an army that is much feared in [a place that is not read]; and if the death of
 > [name 122] comes, with [those?] new displeasure[s]. But the heresy of the King and of [name 176] makes such
@@ -294,14 +311,30 @@ outside the cipher; **open** = two persons or more.
 | .144 | f. 85r line 15 | "la venuta del ... Sforza" | The word "Cardinale" | **Probable** |
 | .124 | f. 85r line 6 | "vien ad instanze del ..., qual aiuta il negotio" | The Grand Duke of Tuscany | **Probable.** No book names him for these weeks |
 | .122 | f. 80r line 4 | "avenendo la morte del ..." | The King of Spain | **Probable** |
-| .176 | f. 80r lines 1, 3, 5 | "la heresia del Re et della ..."; "havendo ... uno essercito molto temuto" | The Queen of England | **Probable** |
+| .176 | f. 80r lines 1, 3, 5 | "se Navara, ... fossero [.38], che potrebbono sperare di far solevare lo stato di Milano"; "havendo ... uno essercito molto temuto in [sign]"; "la heresia del Re et della ..." | Lesdiguières (François de Bonne), the Huguenot captain of Navarre; in Italian letters of the time "la Dighiera". The rival is the Queen of England | **Probable.** Changed on 12 October 2026: see "History of our own statements" |
 | .128 | f. 85r line 13 | "far ... re di Francia, la qual cosa non va per la fantasia a Spagna" | Two candidates: Navarre under a title, or the Cardinal of Bourbon-Vendôme. We do not choose | **Open** |
 | .133 | f. 65r line 1 | "tutto quello che io ho passato col ... per suo conto di lei" | None | **Open** |
-| .38, .78 | f. 80r lines 1, 18 | two figures only after the stroke | None | **Open** |
+| .38 | f. 80r line 1 | "se Navara, [.176] fossero ..., che potrebbono sperare ..." | The group has one dotted stroke and two figures; a name has the dotted stroke and three figures. It can lack a stroke, or it can be the word group 138 with a dot. The sense asks for a word like "cattolici". This is a guess: the plain group 138 in line 7 does not read with that word | **Open** |
+| .78 | f. 80r line 18 | In the filler. The paper is damaged before the 7 | None | **Open** |
 
+- **Why Lesdiguières and not the Queen of England.** The sheet gives [.176] an army "much feared" in a place, and
+  says that with it Navarre could take Milan "very easily". England had no army near Italy. Lesdiguières took
+  Bricherasio and Cavour in Piedmont in the autumn of 1592, and his troops wintered there. The Venetian ambassador
+  in Rome, Paolo Paruta, wrote on 12, 19 and 26 December 1592 and on 2 and 9 January 1593 that these moves were a
+  danger to Saluzzo and Milan and the talk of the whole court, and that men said he brought "preachers of his
+  heresies" with his soldiers. The clear letter of the same day says that Milan had sent horse to help Savoy.
+- **Why "della".** Letters of 1588 to 1603 call him "la Dighiera", with a feminine article: "la Dighiera, la quale"
+  (the court of Savoy, 1594), "la Dighiera heretica" (a letter to the Pope, 1599), "fattura della Dighiera" (a Roman
+  diary, 1600). Other writers use other forms; Paruta writes "Laodighiera". In lines 1 and 3 the group has no
+  article. The writer does the same with [.143]: "il [.143]" and "di [.143]".
+- **What speaks for the Queen.** "Del Re et della Regina" is the plainest Italian, and Badalocchio names "la regina
+  d'Inghilterra" in another cipher letter. She fails on the army and on Milan.
+- **The limits.** The key has no value for the group. The sign for the place of the army is not read. We read
+  Paruta in a printing of 1871 (A. Bartoli, *Nuova antologia*, pp. 102-116), not in the edition of 1887.
 - In the Italian text and in the key we print numbers only: [nome 143].
 - The reasons for each grade, with the books and their pages, are in [evidence/audit.md](evidence/audit.md),
-  part 5.3.
+  part 5.3. For .176 and .38 the reasons are in [evidence/audit_names.md](evidence/audit_names.md), the audit of
+  12 October 2026. It overrules part 5.3 for these two groups.
 - Who was stopped on his way to Rome before December 1592? Cardinal Gondi: the books agree. Who wanted to make
   whom Queen? Spain, the Infanta: the books agree. Who was to be made King? Not settled.
 
@@ -352,11 +385,13 @@ Details: [evidence/audit.md](evidence/audit.md). Each control has its number and
    order of the alphabet for 19 of the 24 values**; it fixed 5 by the sense alone. The pool holds only values with
    3 places or more: the weak values of the key are not in it. The session of the reader held a one-line index of
    the notes of the project (titles only, no key value).
-3. **The order of the alphabet, all values.** The 27 words of table 1 stand in the order of the alphabet by their
-   numbers. So do the 24 words of table 2. So do both as one list of 51. 0 of 20,000 shuffles are as good.
+3. **The order of the alphabet, all values.** The 28 words of table 1 stand in the order of the alphabet by their
+   numbers. So do the 24 words of table 2. So do both as one list of 52. 0 of 20,000 shuffles are as good.
    *Limits:* the reader of f. 85r knew that table 1 was in order before it fixed any new value. Seven values of
    the second round and eleven of the first round were fixed "with the order in mind". So this form is not blind. With the four
-   endings, table 2 is not in full order (rank correlation 0.598; 16 of 20,000 shuffles are as high).
+   endings, table 2 is not in full order (rank correlation 0.598; 16 of 20,000 shuffles are as high). The value 167
+   (fosse) of 12 October was fixed with the order of the table in mind too; before it, table 1 had 27 words and
+   the list had 51.
 4. **The order of the alphabet, strict form.** Only the values that were fixed before anybody saw the order. The
    ten words of table 1 of the first round: in order; the chance is 1 in 3.6 million. The five words that the
    first page had as groups of two figures (12 ma, 29 non, 55 se, 58 si, 66 stato): put the 2 before them, and
@@ -369,14 +404,16 @@ Details: [evidence/audit.md](evidence/audit.md). Each control has its number and
    stand inside dictionary words of four letters or more rises from 56 to 72 % (f. 85r), from 37 to 54 % (f. 65r)
    and from 58 to 66 % (f. 80r). Real Italian of this writer gives 67 to 72 % by the same measure.
    *Limits:* two rival rules for the lone 2 score as well as ours (71.5 and 70.1 % on f. 85r). The measure cannot
-   tell them apart. The word list is not in this repository.
+   tell them apart. The word list is not in this repository. The numbers are of 11 October, with the group 167 as a
+   group with no value. We did not compute them again.
 6. **Shuffled keys.** The four-letter score of the cipher runs of f. 85r and f. 65r is -4.148 on 510 windows.
    Real Italian scores -4.14 in the median. 2,000 keys with shuffled values score -5.637 in the mean and -5.072
    at best. The key is 8.5 standard deviations above the mean. The true key on 2,000 shuffled orders of the
    groups: mean -5.253, best -5.025; the true order is 17.5 standard deviations above. For f. 80r the audit gives
    -4.01 with the new cut and -4.16 with the old one.
    *Limits:* the table of Italian four-letter groups is not in this repository. `decode.py` does not repeat the
-   scores. The scores of our first page (-4.18; 8.3 and 21.2 standard deviations) belong to the old cut.
+   scores. The scores of our first page (-4.18; 8.3 and 21.2 standard deviations) belong to the old cut. The
+   scores of f. 80r are of 11 October, before the group 167 had a value.
 7. **The halves of f. 85r.** The letters, the words of the first page and the new values that stand in lines 5 to
    13 give 279 of the 289 groups of lines 14 to 25 and of f. 65r (96.5 %). The reverse gives 246 of 270 (91.1 %).
    *Limits:* the key was made on the whole page. "Stands in a half" means only that the group occurs there.
@@ -405,11 +442,20 @@ Details: [evidence/audit.md](evidence/audit.md). Each control has its number and
     - The four ways that were weighed in Rome in October 1592 (Navarre converted, another Bourbon prince, the
       Infanta, a prince of Lorraine): L'Epinois, p. 574.
     - The Pope was in France with the legate Cardinal Alessandrino in 1571: Pastor, p. 22.
-    - The Pope sets Navarre beside the Queen of England at the end of January 1593: Pastor, p. 68.
+    - The Pope sets Navarre beside the Queen of England at the end of January 1593: Pastor, p. 68. He compares
+      two heretic rulers. He says nothing of an army, of Italy or of Milan, and the date is after the sheet. Since
+      12 October 2026 this fact supports the rival for [name 176], not our best guess.
+    - Lesdiguières took Bricherasio and Cavour in Piedmont in the autumn of 1592, and his troops wintered there:
+      Dufayard, *Le connétable de Lesdiguières* (1892), pp. 157-162. The Venetian ambassador in Rome wrote of his
+      moves in five dispatches, from 12 December 1592 to 9 January 1593: Paolo Paruta, in A. Bartoli, *Nuova
+      antologia* (1871), pp. 102-116. The Spaniards feared for the State of Milan: Galluzzi, *Istoria del
+      Granducato di Toscana*, vol. 3 (1781), pp. 79-80. These facts support our best guess for [name 176].
     - Henri IV was king from 2 August 1589. January 1593 is in his fourth year.
     *Limits:* **no fact of the three readings is against the books.** But three facts stand only on the writer's
     own clear letter: Milan ill content, the King of Spain near death, and the coming of Cardinal Sforza. No book
-    that we read names a mission of Sforza in these weeks.
+    that we read names a mission of Sforza in these weeks. We read Paruta in a printing of 1871, not in the edition
+    of 1887. Its five dispatches are a choice of the editor on one subject; we did not read the other dispatches of
+    these weeks. On 12 December 1592 the Pope and Paruta both make the army of Lesdiguières smaller.
 12. **What was not found.** **Capilupi's proposal** (f. 85r line 25) is not in the decipherments and not in the
     books. **The prophecy of Cardano** (f. 80r line 10) is not identified; the reading of the words is sure.
 
@@ -423,10 +469,11 @@ The first blind audit of 11 October (10 of 10 hidden values restored) had the ol
 - **f. 85r:** "a f u s t" in line 8; "e o s t i" in line 11; the group 169 after "Portogallo" in line 12; the verb
   of line 13 (289) and the lone 1; "f i" in line 23; the sign P in line 25; the r of "Nava·a" in line 22.
 - **f. 65r:** the name .133.
-- **f. 80r:** the groups 132, 138, 145 and 167; "c s se" in line 7; "r a si" and "r e l la" in lines 9 and 10
-  (probably two slips of our transcription, 96 for 99; we did not check the image again); "u i u" in line 17;
-  the sign &; the 34 groups of filler at the end.
-- **The key:** the lone 2; 199 and 299; 245 (quando or quanto); 246 (quel-); 269.
+- **f. 80r:** the groups 132, 138 and 145; the short groups .38 and .78; "c s se" in line 7; "r a si" and
+  "r e l la" in lines 9 and 10 (probably two slips of our transcription, 96 for 99; we did not check the image
+  again); "u i u" in line 17; the sign & after "temuto in" (the place of the army); the 34 groups of filler at the
+  end. The group 167 left this list on 12 October 2026: it has the value "fosse", probable, in one place.
+- **The key:** the lone 2; 199 and 299; 245 (quando or quanto); 246 (quel-); 269; 167 (fosse: one place).
 - **The day of the clear letter of January** is "ix(?)". "x" (10) is possible.
 - **The facts:** Capilupi's proposal; the prophecy of Cardano; the mission of Cardinal Sforza in print.
 
@@ -436,8 +483,10 @@ What would settle it:
   lines for this cipher.
 - BnF fr. 4701, f. 63 bis, and the key sheet of the cipher that Badalocchio sent in September 1592, if it
   survives.
-- Paruta's dispatches from Rome of December 1592 and January 1593, for Cardinal Sforza.
-- A colour scan of the three pages, for the blots.
+- Paruta's dispatches from Rome of December 1592 and January 1593 in the edition of 1887 (*La legazione di Roma*,
+  vol. I), for Cardinal Sforza and for Lesdiguières. We read five of them in a printing of 1871.
+- A colour scan of the three pages, for the blots, and a larger image of line 1 of f. 80r, for the stroke of the
+  group .38.
 
 ## History of our own statements
 
@@ -457,6 +506,18 @@ What would settle it:
   two). We added the letters of 5 and 11 December 1592. The list of the 72 changed places of f. 80r is
   [evidence/changes_f80r.txt](evidence/changes_f80r.txt); the verdict on each changed word is in
   [evidence/audit.md](evidence/audit.md), part 4. The audit found no place where the old reading was better.
+- **12 October 2026: the name .176, and the group 167.** The page of 11 October printed .176 as the Queen of
+  England, "probable". We now print Lesdiguières ("la Dighiera"), "probable", and the Queen as the rival. A second
+  reader proposed the change, and a second audit tested it. **Why:** the sheet says that [.176] has an army "much
+  feared", and that with it Navarre could take Milan "very easily". The first audit weighed the word "della", the
+  heresy, and the Queen's name in another letter of Badalocchio. It did not ask where her army stood. England had
+  no army near Italy. Lesdiguières had an army in Piedmont from the autumn of 1592, and the Venetian ambassador in
+  Rome wrote in five dispatches, from 12 December 1592 to 9 January 1593, that his moves were a danger to Milan
+  and the talk of the court. Letters of the time call him "la Dighiera", so "della" fits him too. **Also new:**
+  the group 167 has the value "fosse" (probable): "fossero". **Not accepted:** a value "cattolico" for the short
+  group .38 and for the group 138. It fits line 1, but the group 138 in line 7 does not read with it; we print it
+  as a guess for the sense of line 1 only. No name is read from the cipher. The key still has no value for any
+  name.
 
 ## Earlier work
 
@@ -509,7 +570,8 @@ Searched on 11 October 2026. We found no reading of f. 85r, f. 65r or f. 80r by 
 | `f085r/` | f. 85r: `reading.md`, `transcription.txt`, `pass_a.txt`, `pass_b_blind.txt`, `groups.txt`, `decoded_by_key.txt` |
 | `f065r/` | f. 65r: the same six files |
 | `heldout_f83r.txt` | The figures of the cipher passage of f. 83r |
-| `evidence/audit.md` | The audit: the blind audit, the order of the alphabet, the cut, the changed readings of f. 80r, the facts with their sources, the names |
+| `evidence/audit.md` | The audit of 11 October 2026: the blind audit, the order of the alphabet, the cut, the changed readings of f. 80r, the facts with their sources, the names |
+| `evidence/audit_names.md` | The audit of 12 October 2026: the name group .176, the short group .38 and the group 167, with the books and their pages. It overrules part 5.3 of the first audit for .176 and .38 |
 | `evidence/blind_audit_2/` | The eight files that the fresh reader had, its notes and the score |
 | `evidence/changes_f80r.txt` | The 72 places of f. 80r where the groups or the values changed |
 | `evidence/period_decipherments.md` | The two period decipherments of other letters, and what they prove |

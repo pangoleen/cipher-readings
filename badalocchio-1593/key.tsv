@@ -1,6 +1,7 @@
 # Key of the cipher of Vincenzo Badalocchio, agent in Rome of the Duke of Nevers, December 1592 to February 1593.
 # One table for the three letters of this folder (BnF fr. 4700 f. 85r, f. 65r, f. 80r) and the passage of f. 83r.
-# State: 11 October 2026, after the audit. No key sheet of this cipher is known to us.
+# State: 12 October 2026, after the audit of 11 October and the audit of the names of 12 October (167 = fosse is new).
+#        No key sheet of this cipher is known to us.
 # value: a raised dot = a null (no meaning); ? = no value. "a/b" = open between two words.
 # kind:  letter; null; table1 = a word of the table 1xy; table2 = a word of the table 2xy; ending = a syllable at the
 #        end of table 2; name = the dotted stroke and three figures; number = a number in clear; open = no value.
@@ -62,6 +63,7 @@ group	value	kind	grade	f085r	f065r	f080r	f083r	note
 163	fatto	table1	sure	1	0	1	0	sodis-FATTO (f. 80r); FATTO-li (f. 85r)
 164	fece	table1	probable	1	0	0	0	come FECE in Portogallo (f. 85r): one place; fixed with the order in mind
 166	fin	table1	probable	0	0	1	0	FIN al quarto anno (f. 80r): one place
+167	fosse	table1	probable	0	0	1	0	FOSSE-r-o, "fossero" (f. 80r line 1): one place. It stands between 166 fin and 169 Francia. No other word of this window makes a word with "ro". The word after it is open. Added on 12 October 2026, with the order of the table in mind
 169	Francia	table1	probable	4	0	0	0	regina di FRANCIA, corona di FRANCIA, re di FRANCIA (f. 85r). The fourth place, after "Portogallo" in line 12, has a blot and makes no sense. On f. 80r the writer spells Francia in letters
 175	giorno	table1	sure	0	0	2	0	il primo GIORNO del suo regno; lettere del GIORNO .. di dicembre (f. 80r)
 177	ha	table1	probable	1	0	0	0	HA molto disiderio (f. 85r): one place; fixed with the order in mind
@@ -107,14 +109,13 @@ group	value	kind	grade	f085r	f065r	f080r	f083r	note
 .133	?	name	open	0	1	0	0	f. 65r line 1: passato col [name 133]. Open
 .143	?	name	open	2	0	0	0	f. 85r lines 5 and 15: il [name 143]; quella di [name 143]. Probable: Cardinal Gondi
 .144	?	name	open	1	0	0	0	f. 85r line 15: la venuta del [name 144] Sforza. Probable: the word "Cardinale"
-.176	?	name	open	0	0	3	0	f. 80r lines 1, 3 and 5: la heresia del Re et della [name 176]. Probable: the Queen of England
+.176	?	name	open	0	0	3	0	f. 80r lines 1, 3 and 5: la heresia del Re et della [name 176]; havendo [name 176] uno essercito molto temuto. Probable: Lesdiguières, in Italian letters of the time "la Dighiera". The rival is the Queen of England. Changed on 12 October 2026
 .195	?	name	open	2	0	0	0	f. 85r lines 8 and 10: far la [name 195] regina di Francia. The person is settled: the Infanta of Spain. The word of the key is not known
-.38	?	name	open	0	0	1	0	f. 80r line 1: two figures only after the stroke. Open; it can be a word and not a name
-.78	?	name	open	0	0	1	0	f. 80r line 18, in the filler: two figures only after the stroke. Open
+.38	?	name	open	0	0	1	0	f. 80r line 1: one dotted stroke and two figures; a name has the dotted stroke and three figures. Open: it can lack a stroke, or it can be the word group 138 with a dot. A guess for the sense of the place, not a value: "cattolici"
+.78	?	name	open	0	0	1	0	f. 80r line 18, in the filler: two figures only after the stroke. The paper is damaged before the 7. Open
 132	?	open	open	0	0	1	0	f. 80r line 1: Ecco [132] bella occasione. By the order of the table it stands between "al" and "ben"
-138	?	open	open	0	0	1	0	f. 80r line 7: se [138] poi che. Between "ben" and "che"
+138	?	open	open	0	0	1	0	f. 80r line 7: se [138] poi che. Between "ben" and "che". "cattolico" was tested and does not read here
 145	?	open	open	0	0	1	0	f. 80r line 9: con r a si [145] speranza. Between "ci" and "come"
-167	?	open	open	0	0	1	0	f. 80r line 1: [167] r o. Between "fin" and "Francia". A guess that is not in the key: fosse (fossero)
 100	?	open	open	0	0	1	0	f. 80r line 18, in the filler
 181	?	open	open	0	0	1	0	f. 80r line 18, in the filler
 194	?	open	open	0	0	1	0	f. 80r line 18, in the filler

@@ -1,17 +1,24 @@
 # Vincenzo Badalocchio to the Duke of Nevers, Rome, 9(?) January 1593: the reading of the cipher sheet (f. 80r)
 
 Source: Paris, BnF, ms. français 4700, f. 80r (Gallica `btv1b90582908`, view 92, right page). Key: [key.tsv](key.tsv).
-Transcription: [transcription.txt](transcription.txt), cut into groups in [groups.txt](groups.txt). State: 11 October 2026,
-after the audit.
+Transcription: [transcription.txt](transcription.txt), cut into groups in [groups.txt](groups.txt). State: 12 October 2026,
+after the audit of 11 October and the audit of the names of 12 October.
 
 **The sheet is read for about nine tenths, with gaps.** 717 of the 778 groups that carry text (92 %) stand in words that
 we translate. This is a hand count by the first reader. The audit gives a strict count: 708 of 778 (91 %). No name is
-read. Nothing is forced: a gap is a gap.
+read. Nothing is forced: a gap is a gap. Both counts are of 11 October. Since 12 October the group 167 has a probable
+value. We did not count again.
 
 **This file replaces the first reading of 11 October 2026.** That reading took the figure 2 as a null. The figure 2
 heads a second table of words. The first reading gave line 6 as "Navara per[ò?] si mostra prudente" and translated
 "Navarre [however?] shows himself prudent". The right reading is "Navara non si mostra prudente". The list of all changed
 places is in [evidence/audit.md](evidence/audit.md).
+
+**Changed on 12 October 2026, after an audit of the names.** The group 167 in line 1 is now printed as its value:
+"fosse" (probable), in the word "fossero". Our guess for [name 176] is now Lesdiguières, not the Queen of England. The
+short group [.38] stays open; "Catholics" is only a guess for the sense of its place. The reasons are in the
+[README](README.md), under "The names" and "History of our own statements", and in
+[evidence/audit_names.md](evidence/audit_names.md).
 
 The work was done by a model. No palaeographer has checked it.
 
@@ -29,9 +36,9 @@ Marks:
 
 ## What Badalocchio tells the Duke, in five sentences
 
-1. The troubles of the Spanish lands in Italy make an opening. If Navarre and [name 176] were [..], they could hope to
-   raise the State of Milan, very ill content with Spain, and to take it with ease. [Name 176] has an army that is much
-   feared.
+1. The troubles of the Spanish lands in Italy make an opening. If Navarre and [name 176] (probably Lesdiguières, whose
+   army stood in Piedmont) were [Catholics?], they could hope to raise the State of Milan, very ill content with Spain,
+   and to take it with ease, because [name 176] has an army that is much feared in [a place that is not read].
 2. The death of [name 122] would add to this. But the heresy of the King and of [name 176] makes such fine enterprises
    not only hard but impossible.
 3. Navarre does not show himself as prudent as his own good asks, because he still perseveres stubbornly in his heresy,
@@ -46,9 +53,11 @@ Marks:
 Read these sentences with their limits:
 
 - The names are numbers in the cipher. The key gives no value for them. Our guesses are graded in the README:
-  [name 176] is probably the Queen of England, and [name 122] is probably the King of Spain.
-- Sentence 1 holds three groups with no value ([132], [167] and the short name group [.38]). The word "were" is a guess
-  for [167].
+  [name 176] is probably Lesdiguières, and [name 122] is probably the King of Spain. The rival for [name 176] is the
+  Queen of England.
+- Sentence 1 holds two groups with no value ([132] and the short group [.38]). The word "were" is the group 167 (fosse,
+  probable; one place). "Catholics" is a guess for the sense of [.38]. It is not a value of the key: the plain group 138
+  in line 7 does not read with that word. The sign for the place of the army is not read.
 - Sentence 3 holds two gaps: "c s se" in line 7, and "r a si [145]" in line 9.
 - Sentence 4: "of such worth" rests on a guess (269 = tanto). The link between the two halves is the group 245, which
   is open.
@@ -56,7 +65,7 @@ Read these sentences with their limits:
 
 ## The Italian as running text
 
-Ecco [132] bella occasione che si presenta: se Navara, [nome 176] [167]ro [.38], che potre[8]bono sperare di far
+Ecco [132] bella occasione che si presenta: se Navara, [nome 176] fossero [.38], che potre[8]bono sperare di far
 solevare lo stato di Milano, malissimo sodisfatto di Spagna, et i[i] impatronirsene facilissimamente, havendo [nome
 176] uno essercito molto temuto in [&]; et avenendo la morte del [nome 122], con quel(?) novi disgusto; ma la heresia
 del Re et della [nome 176] rendono così belle imprese non solo dificili ma impossibili da esseguirsi veramente.
@@ -75,7 +84,7 @@ sense: probably filler]
 
 ## Translation
 
-Here is [..] a fine occasion that comes up: if Navarre [and] [name 176] [were?] [..], they could hope to make the
+Here is [..] a fine occasion that comes up: if Navarre [and] [name 176] were [Catholics?], they could hope to make the
 State of Milan rise, which is very ill content with Spain, and to make themselves masters of it very easily, as [name
 176] has an army that is much feared in [a place that is not read]; and if the death of [name 122] comes, with
 [those?] new displeasure[s]. But the heresy of the King and of [name 176] makes such fine enterprises not only hard
@@ -99,9 +108,9 @@ For each line: the groups, the value of each group by the key, our Italian with 
 ### Line 1
 
 - Groups: `48 43 0 <arch> 43 6 132 83 46 89 <pi> 0 192 232 141 258 95 96 46 97 48 94 98 3 255 94 3 7 45 96 3 .176 167 96 6 .38 141 95 6 98 96 46 8 0 <pi> 83 6 94 49`
-- Key: `e c · · c o [132] b e l · · LA OCCASIONE CHE SI p r e s e n t a SE n a u a r a [.176] [167] r o [.38] CHE p o t r e [8] · · b o n o`
-- Italian: Ecco [132] bella occasione che si presenta: se Navara, [nome 176] [167]ro [.38], che potre[8]bono
-- English: Here is [..] a fine occasion that comes up: if Navarre [and] [name 176] [were?] [..], they could
+- Key: `e c · · c o [132] b e l · · LA OCCASIONE CHE SI p r e s e n t a SE n a u a r a [.176] FOSSE r o [.38] CHE p o t r e [8] · · b o n o`
+- Italian: Ecco [132] bella occasione che si presenta: se Navara, [nome 176] fossero [.38], che potre[8]bono
+- English: Here is [..] a fine occasion that comes up: if Navarre [and] [name 176] were [Catholics?], they could
 
 ### Line 2
 
@@ -250,11 +259,19 @@ The limits of this count:
   audit takes them off: **708 of 778 (91 %)**. "About nine tenths" is the fair summary.
 - It counts "Dio sa quando" in line 17 as not read. The audit reads these words.
 - Line 18 counts as not read from the first group 199 to the end (34 groups, 27 of them with text: filler).
+- The counts are of 11 October 2026. Since 12 October the group 167 (line 1) has a probable value: "fossero". We did
+  not count again: 717 and 708 stay.
 
 ## What is not read
 
-- The names: [nome 176] (three places), [nome 122], and the two short name groups [.38] and [.78].
-- The groups 132 (line 1), 167 (line 1), 138 (line 7) and 145 (line 9). They have no value.
+- The names: [nome 176] (three places) and [nome 122]. No name is read from the cipher.
+- The two short groups [.38] (line 1) and [.78] (line 18). Each has one dotted stroke and two figures; a name has the
+  dotted stroke and three figures. [.38] can lack a stroke, or it can be the word group 138 with a dot. Before the 7 of
+  [.78] the paper is damaged.
+- The groups 132 (line 1), 138 (line 7) and 145 (line 9). They have no value. "cattolico" was tested for 138 and does
+  not read in line 7.
+- The group 167 (line 1) has a probable value, not a sure one: "fosse". It stands in one place, and the word after it is
+  open.
 - Line 1: "potre[8]bono". The sense asks for 83 (b). The sheet has a lone 8.
 - Line 2: one i too many before "impatronirsene".
 - Line 3: the sign & after "temuto in".

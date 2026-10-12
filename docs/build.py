@@ -1930,6 +1930,10 @@ def badalocchio():
     correction = quoted(P, RM, 'The first version of this page gave "Navara per[ò?] si mostra prudente" and translated "Navarre '
                         '[however?] shows himself prudent". The right reading is "Navara non si mostra prudente". The figure 2 '
                         'is not a null: it heads a second table. The summary sentence 3 was right.')
+    change12 = quoted(P, RM, 'The page of 11 October printed the name group .176 as the Queen of England, with the grade '
+                      '"probable". We now print Lesdiguières, with the grade "probable", and the Queen as the rival. The group '
+                      '167 has a new value: "fosse" (probable). No name is read from the cipher.')
+    check(P, '**Status: 12 October 2026, after two audits.**' in readme, 'README: the status is of 12 October 2026, after two audits')
     check(P, 'first readings known to us' in readme and not re.search(r'first\s+deciph|first\s+solution|fully\s+read|read\s+in\s+full', raw, re.I),
           'README: the claim is "first readings known to us", no more')
     check(P, '**The readings have gaps, and no name is read from the cipher.**' in readme, 'README says that the readings have gaps and that no name is read')
@@ -1942,7 +1946,7 @@ def badalocchio():
 
     # ---- the counts, from the transcriptions and the key table
     want = {'f085r': ((520, 135, 2, 0, 383, 374, 7, 2), (383, 361)), 'f065r': ((39, 2, 0, 0, 37, 36, 1, 0), (37, 36)),
-            'f080r': ((819, 35, 4, 2, 778, 758, 6, 14), (778, 717))}
+            'f080r': ((819, 35, 4, 2, 778, 759, 6, 13), (778, 717))}
     count = {n: {} for n in list(S) + ['f083r']}
     for n in S:
         allg = [x for g in RUNS[n].values() for x in g]
@@ -1992,10 +1996,21 @@ def badalocchio():
     check(P, 'It fails in f. 85r line 13' in KROW['289'][8] and KROW['289'][3] == 'probable', 'key.tsv: 289 (endo) is probable, and the key says where it fails')
     check(P, all(KROW[g][3] == 'sure' for g in ('135', '154', '163')), 'key.tsv: 135, 154 and 163 are sure')
     t1, t2, en = dec.table(krows, 'table1'), dec.table(krows, 'table2'), dec.table(krows, 'ending')
-    check(P, (len(t1), len(t2), len(en)) == (27, 24, 4), 'table 1 has 27 words, table 2 has 24 words and 4 endings')
+    check(P, (len(t1), len(t2), len(en)) == (28, 24, 4), 'table 1 has 28 words, table 2 has 24 words and 4 endings')
     grades = lambda kind: tuple(sum(1 for r in krows if r[2] == kind and r[3] == g) for g in ('sure', 'probable', 'guess'))
-    check(P, grades('table1') == (20, 7, 0) and grades('table2') == (12, 9, 3) and grades('ending') == (2, 2, 0),
-          'grades: table 1 has 20 sure and 7 probable; table 2 has 12 sure, 9 probable and 3 guesses; the endings 2 and 2')
+    check(P, grades('table1') == (20, 8, 0) and grades('table2') == (12, 9, 3) and grades('ending') == (2, 2, 0),
+          'grades: table 1 has 20 sure and 8 probable; table 2 has 12 sure, 9 probable and 3 guesses; the endings 2 and 2')
+    check(P, '| Table 1 (1xy) | 28 words | 20 sure, 8 probable (125 al, 129 anno, 149 detta, 164 fece, 166 fin, 167 fosse, 169 Francia, 177 ha) |' in raw
+          and [r[0] for r in krows if r[2] == 'table1' and r[3] == 'probable'] == ['125', '129', '149', '164', '166', '167', '169', '177'],
+          'README: the row of table 1 has 28 words, 20 sure and 8 probable, and names the 8 probable groups of key.tsv')
+    check(P, KROW['167'][1:8] == ['fosse', 'table1', 'probable', '0', '0', '1', '0'] and ': one place.' in KROW['167'][8]
+          and 'The word after it is open' in KROW['167'][8],
+          'key.tsv: 167 = fosse is a word of table 1, probable, with one place (f. 80r), and the note says that the next word is open')
+    check(P, KROW['138'][1] == '?' and '"cattolico" was tested and does not read here' in KROW['138'][8] and KROW['.38'][1] == '?'
+          and not any(re.search(r'cattolic', r[1], re.I) for r in krows),
+          'key.tsv: 138 and .38 have no value; no group has the value "cattolico"; the note of 138 says that the word does not read in line 7')
+    check(P, 'Lesdiguières' in KROW['.176'][8] and 'The rival is the Queen of England' in KROW['.176'][8] and KROW['.176'][1] == '?',
+          'key.tsv: .176 has no value; the note gives Lesdiguières as probable and the Queen of England as the rival')
 
     # ---- the reading files: the rows of groups and values are the rows of the decoder
     reading = rd(F + '/reading.md')
@@ -2009,9 +2024,19 @@ def badalocchio():
           'reading.md: the table of counts has the groups that carry text, line by line')
     check(P, sum(s for b, s in sense.values()) == 717 and sum(b for b, s in sense.values()) == 778,
           'reading.md: the counts by hand sum to 717 of 778')
+    check(P, 'We did not count again: 717 and 708 stay.' in collapse(reading) and 'We did not count again: 717 and 708 stay.' in readme
+          and '| Other groups with no value | 2 | 0 | 13 |' in raw,
+          'reading.md and README: the counts of f. 80r are of 11 October; 167 has a value now; 717 and 708 stay; 13 other groups have no value')
     check(P, '**708 of 778 (91 %)**' in reading and '708 of 778 (91 %)' in readme, 'reading.md and README give the strict count of the audit: 708 of 778')
     check(P, 'Navara non si mostra prudente come diside-' in R['f080r']['L6'][0] and 'Navarre does not show himself prudent' in R['f080r']['L6'][1],
           'reading.md, line 6: "Navara non si mostra prudente", "Navarre does not show himself prudent"')
+    check(P, 'se Navara, [nome 176] fossero [.38], che' in R['f080r']['L1'][0] and '[name 176] were [Catholics?], they could' in R['f080r']['L1'][1]
+          and '[167]' not in reading.split('## Line by line')[0],
+          'reading.md, line 1: "[nome 176] fossero [.38]", "[name 176] were [Catholics?]"; the name and the short group stay as they are')
+    it80 = raw[raw.index('> Ecco [132] bella occasione'):raw.index('### f. 83r, 6 February 1593')]
+    check(P, it80.count('[nome 176]') == 3 and it80.count('[name 176]') == 3 and 'fossero [.38]' in it80 and 'were [Catholics?]' in it80
+          and not re.search(r'Dighiera|Lesdigui|Inghilterra|England|cattolic', it80, re.I),
+          'README, the Italian and the English of f. 80r: the name stays [nome 176] and [name 176], three times each; no name and no "cattolici" in the text')
     for n in ('f085r', 'f065r'):
         t = rd('%s/%s/reading.md' % (F, n))
         tr = dec.load_rows(n + '/transcription.txt')
@@ -2046,8 +2071,9 @@ def badalocchio():
     check(P, (hv[0][0], hv[0][1], hv[1][0], hv[1][1]) == (289, 279, 270, 246), 'the halves of f. 85r: 279 of 289 groups, and 246 of 270')
     od = dict((n, p) for n, p in dec.order_sets(krows))
     inord = [dec.in_order(p) for n, p in dec.order_sets(krows)]
-    check(P, [len(p) for n, p in dec.order_sets(krows)] == [27, 24, 28, 51, 10, 5, 15] and inord == [True, True, False, True, True, True, True],
-          'the order of the alphabet: table 1 (27), table 2 (24), both (51), the ten, the five and the fifteen are in order; with the endings table 2 is not')
+    check(P, [len(p) for n, p in dec.order_sets(krows)] == [28, 24, 28, 52, 10, 5, 15] and inord == [True, True, False, True, True, True, True],
+          'the order of the alphabet: table 1 (28), table 2 (24), both (52), the ten, the five and the fifteen are in order; with the endings table 2 is not')
+    check(P, '167' not in dec.STRICT1 and len(dec.STRICT1) == 10, 'the strict form of the order test does not hold the new value 167')
     check(P, sorted(dec.STRICT2) == ['212', '229', '255', '258', '266'] and [oldkey.get(g[1:]) for g in sorted(dec.STRICT2)] == ['ma', 'non', 'se', 'si', 'stato'],
           'the five strict words of table 2 are the two-figure words of the first page: 12 ma, 29 non, 55 se, 58 si, 66 stato')
     check(P, len(h83) == 29 and sum(1 for g in h83 if g in KEY) == 28 and
@@ -2204,6 +2230,8 @@ def badalocchio():
          'count; 708 of 778 (91 %) by the strict count of the audit.',
          ['717 of the 778 groups that carry text (92 %, a hand count; 91 % by the strict count)']),
         ('Correction', '<strong>11 October 2026.</strong> ' + mdx(correction), ['**Correction of 11 October 2026.**']),
+        ('Change', '<strong>12 October 2026.</strong> ' + mdx(change12) + ' The reasons are under "The names" and "History of our '
+         'own statements".', ['**Change of 12 October 2026.**']),
     ])
     body += scan('f85_page', 'BnF fr. 4700, f. 85r: the page', 'f. 85r, 5 December 1592, reduced: clear lines and lines of figures. '
                  'The image is joined from 27 tiles.', 'scan sheet')
@@ -2250,7 +2278,8 @@ def badalocchio():
         return table(['Group', 'Value', 'Grade', 'f. 85r', 'f. 65r', 'f. 80r', 'Words that fix the value'],
                      [['<span class="mono">%s</span>' % esc(r[0]), '<strong>%s</strong>' % esc(r[1].replace('/', ' or ')), esc(r[3]),
                        r[4], r[5], r[6], esc(r[8])] for r in krows if r[2] in kinds])
-    body += '<p><strong>Table 1 (1xy): 27 words in the order of the alphabet.</strong> A group can stand for a part of a word too.</p>'
+    body += ('<p><strong>Table 1 (1xy): 28 words in the order of the alphabet.</strong> A group can stand for a part of a word too. '
+             'The value of 167 (fosse) is of 12 October 2026: one place, probable.</p>')
     body += wtable(('table1',))
     body += ('<p><strong>Table 2 (2xy): 24 words in the order of the alphabet, and four endings.</strong> The first page had seven '
              'of these groups as groups of two figures, with the figure 2 before them as a null.</p>')
@@ -2261,10 +2290,13 @@ def badalocchio():
                  ', '.join(SIGN.get(r[0], esc(r[0])) for r in opn if r[0] not in dec.CUT_ONLY), gh(F, 'key.tsv'), gh(F, 'decode.py'))
     check(P, sum(int(x) for x in KROW['2'][4:7]) == 6 and sum(int(x) for g in ('199', '299') for x in KROW[g][4:7]) == 9, 'the lone 2 stands 6 times; 199 and 299 stand 9 times')
     noclaim = items(raw[raw.index('**What the key does not claim:**'):], r'^- ')
-    check(P, len(noclaim) == 6 and noclaim[0][0].startswith('**245:**') and 'open between the two' in noclaim[0][0] and
+    check(P, len(noclaim) == 8 and noclaim[0][0].startswith('**245:**') and 'open between the two' in noclaim[0][0] and
           noclaim[3][0].startswith('**289 (endo):**') and 'It fails in f. 85r line 13' in noclaim[3][0] and
-          noclaim[5][0].startswith('**199, 299 and the lone 2:** no value'),
-          'README says what the key does not claim: 245, 246, 269, 289 in f. 85r line 13, 169, and 199, 299, the lone 2')
+          noclaim[7][0].startswith('**199, 299 and the lone 2:** no value'),
+          'README says what the key does not claim: 245, 246, 269, 289 in f. 85r line 13, 167, 138, 169, and 199, 299, the lone 2')
+    check(P, noclaim[4][0].startswith('**167 (fosse):** one place') and 'Probable, not sure.' in noclaim[4][0] and
+          noclaim[5][0].startswith('**138:** no value.') and 'The plain group 138 in line 7 does not read with it. The key does not take it.' in noclaim[5][0],
+          'README: 167 (fosse) has one place and is probable, not sure; 138 has no value, and "cattolico" is not taken')
     body += '<p><strong>What the key does not claim:</strong></p><ul>%s</ul>' % ''.join(li(x) for x in noclaim)
 
     body += '<h2>Lines of the three letters, group by group</h2>'
@@ -2333,12 +2365,30 @@ def badalocchio():
     body += '<h2>The names</h2>'
     nm = section('The names')
     ntab, nrows_ = mdtable(nm)
-    check(P, '**No name is read from the cipher.**' in nm and len(nrows_) == 9, 'README has the table of names, and says that no name is read from the cipher')
+    check(P, '**No name is read from the cipher.**' in nm and len(nrows_) == 10, 'README has the table of names (ten rows), and says that no name is read from the cipher')
     gr = {r[0]: r[4] for r in nrows_}
     check(P, gr['.195'].startswith('**Settled as a person.**') and 'not known' in gr['.195'] and
           all(gr[g].startswith('**Probable') for g in ('.143', '.144', '.124', '.122', '.176')) and
-          all(gr[g] == '**Open**' for g in ('.128', '.133', '.38, .78')),
+          all(gr[g] == '**Open**' for g in ('.128', '.133', '.38', '.78')),
           'the grades of the names: .195 settled as a person; .143, .144, .124, .122, .176 probable; .128, .133, .38, .78 open')
+    guess = {r[0]: r[3] for r in nrows_}
+    check(P, guess['.176'].startswith('Lesdiguières (François de Bonne), the Huguenot captain of Navarre') and '"la Dighiera"' in guess['.176']
+          and guess['.176'].endswith('The rival is the Queen of England') and
+          gr['.176'] == '**Probable.** Changed on 12 October 2026: see "History of our own statements"',
+          'README, .176: Lesdiguières ("la Dighiera"), probable, changed on 12 October 2026; the rival is the Queen of England')
+    check(P, sum(1 for r in nrows_ if 'Queen of England' in r[3]) == 1 and not any(r[3].startswith('The Queen of England') for r in nrows_),
+          'README: no row of the names gives the Queen of England as the guess; she stands once, as the rival')
+    check(P, 'one dotted stroke and two figures' in guess['.38'] and 'The sense asks for a word like "cattolici". This is a guess: the plain '
+          'group 138 in line 7 does not read with that word' in guess['.38'] and guess['.78'] == 'None',
+          'README, .38: one dotted stroke and two figures; "cattolici" only as a guess for the sense; .78 has no guess')
+    nbul = items(nm[nm.index('- **Why Lesdiguières and not the Queen of England.**'):], r'^- ')
+    check(P, len(nbul) == 7 and nbul[1][0].startswith('**Why "della".**') and nbul[2][0].startswith('**What speaks for the Queen.**')
+          and 'She fails on the army and on Milan.' in nbul[2][0] and nbul[3][0].startswith('**The limits.** The key has no value for the group.')
+          and 'not in the edition of 1887' in nbul[3][0] and 'England had no army near Italy.' in nbul[0][0]
+          and nbul[4][0].startswith('In the Italian text and in the key we print numbers only'),
+          'README has the four points under the table of names: why Lesdiguières, why "della", what speaks for the Queen, the limits')
+    check(P, 'evidence/audit_names.md' in nbul[5][0] and 'It overrules part 5.3 for these two groups.' in nbul[5][0],
+          'README: for .176 and .38 the reasons are in evidence/audit_names.md, which overrules part 5.3 of the first audit')
     r133 = [r for r in nrows_ if r[0] == '.133'][0]
     r128 = [r for r in nrows_ if r[0] == '.128'][0]
     check(P, r133[3] == 'None' and not re.search(r'Pope|Papa', ' '.join(r133)) and 'We do not choose' in r128[3],
@@ -2346,7 +2396,10 @@ def badalocchio():
     check(P, 'No book names him for these weeks' in gr['.124'], 'README: no book names the Grand Duke for these weeks')
     body += '<p><strong>No name is read from the cipher.</strong> A name is a dotted stroke with three figures, and the key has no value for it. The grades say what the sentence and history allow.</p>'
     body += ntab
-    body += '<p class="note">The reasons for each grade, with the books and their pages: %s, part 5.3.</p>' % gh(F, 'evidence/audit.md')
+    body += '<ul>%s</ul>' % ''.join(li(x) for x in nbul[:4])
+    body += ('<p class="note">The reasons for each grade, with the books and their pages: %s, part 5.3. For .176 and .38: %s, the '
+             'audit of 12 October 2026. It overrules part 5.3 for these two groups.</p>') % (
+                 gh(F, 'evidence/audit.md'), gh(F, 'evidence/audit_names.md'))
 
     body += '<h2>The controls</h2>'
     ctl = items(section('The controls'), r'^\d+\. ')
@@ -2354,12 +2407,16 @@ def badalocchio():
     for i, ps in ((0, ['534 of the 569 groups (93.8 %)', '313 of the 402 groups that are not nulls (77.9 %)']),
                   (1, ['**It restored 24 of 24.**', '**the reader is a model of the same family as the first reader.**', '**The cut was given.**',
                        '**The reader used the order of the alphabet for 19 of the 24 values**']),
-                  (2, ['0 of 20,000 shuffles are as good', 'this form is not blind', '16 of 20,000']),
+                  (2, ['The 28 words of table 1', 'both as one list of 52', '0 of 20,000 shuffles are as good', 'this form is not blind', '16 of 20,000',
+                       'The value 167 (fosse) of 12 October was fixed with the order of the table in mind too']),
                   (3, ['1 in 3.6 million', '1 in 120 (152 of 20,000 shuffles)', '15 of 15 in order, 0 of 20,000 shuffles']),
                   (5, ['-4.148 on 510 windows', '8.5 standard deviations', '17.5 standard deviations', 'belong to the old cut']),
                   (6, ['279 of the 289 groups', '246 of 270 (91.1 %)']),
                   (7, ['**13 of 13 join the clear words at both ends. 11 make a full sentence**']),
-                  (10, ['pp. 67-68', 'p. 573', 'p. 574', 'p. 71', 'p. 22', 'p. 68', '**no fact of the three readings is against the books.**']),
+                  (10, ['pp. 67-68', 'p. 573', 'p. 574', 'p. 71', 'p. 22', 'p. 68', '**no fact of the three readings is against the books.**',
+                        'The Pope sets Navarre beside the Queen of England at the end of January 1593: Pastor, p. 68.',
+                        'this fact supports the rival for [name 176], not our best guess', 'pp. 157-162', 'pp. 102-116', 'pp. 79-80',
+                        'We read Paruta in a printing of 1871, not in the edition of 1887.']),
                   (11, ['**Capilupi\'s proposal**', '**The prophecy of Cardano**'])):
         for p in ps:
             check(P, p in collapse(ctl[i][0] + ' ' + ' '.join(ctl[i][1]) + ' ' + ctl[i][2]), 'control %d of the README has: "%s"' % (i + 1, p[:60]))
@@ -2370,7 +2427,7 @@ def badalocchio():
              'of other letters: %s. The 72 changed places of f. 80r: %s.</p>') % (
                  gh(F, 'evidence/audit.md'), gh(F, 'evidence/blind_audit_2', 'evidence/blind_audit_2/'),
                  gh(F, 'evidence/period_decipherments.md'), gh(F, 'evidence/changes_f80r.txt'))
-    for f in ('evidence/audit.md', 'evidence/period_decipherments.md', 'evidence/changes_f80r.txt', 'evidence/blind_audit_2/key_masked.tsv',
+    for f in ('evidence/audit.md', 'evidence/audit_names.md', 'evidence/period_decipherments.md', 'evidence/changes_f80r.txt', 'evidence/blind_audit_2/key_masked.tsv',
               'evidence/blind_audit_2/score.txt', 'evidence/blind_audit.md', 'evidence/heldout_f83r.md', 'evidence/worklog.md',
               'evidence/clear_letter_f79.md', 'key_first_page.tsv'):
         check(P, os.path.exists(os.path.join(ROOT, F, f)), 'the folder has ' + f)
@@ -2379,6 +2436,16 @@ def badalocchio():
           'evidence/audit.md has the 24 values of the blind audit')
     check(P, len(re.findall(r'^\| \d+ \| [\d, -]+ \| ', audit, re.M)) >= 21 and '**Places where the old reading was better: none found.**' in audit,
           'evidence/audit.md has the 21 changed readings of f. 80r, with the verdict on each')
+    an = rd(F + '/evidence/audit_names.md')
+    check(P, '**ACCEPT. Grade: probable.** Name the Queen as the rival' in an and '**REJECT as a value of the key.' in an
+          and '**ACCEPT. Grade: probable** |' in an and 'No name is read from the cipher. All three results are guesses with grades.' in an
+          and 'The second reader and the auditor are models. No palaeographer has checked this audit.' in collapse(an),
+          'evidence/audit_names.md has the three verdicts, and says that no name is read and that the readers are models')
+    check(P, all(x in an for x in ('pp. 102-116', 'pp. 78-80', 'p. 68', 'pp. 157-162', 'pp. 387 and 400-401', 'pp. 117-118'))
+          and '**What was not opened, or not done.**' in an,
+          'evidence/audit_names.md keeps the books with their pages, and says what was not opened')
+    check(P, '> **Note of 12 October 2026.** A second audit overrules this file in two places: [audit_names.md](audit_names.md).' in audit,
+          'evidence/audit.md has a note that the second audit overrules it for .176 and for 167')
     check(P, len([l for l in rd(F + '/evidence/changes_f80r.txt').splitlines() if re.match(r'L\d+ #\d+:', l)]) == 72, 'evidence/changes_f80r.txt has the 72 changed places')
     for f in ('evidence/blind_audit.md', 'evidence/heldout_f83r.md', 'evidence/worklog.md'):
         check(P, '> **Note of 11 October 2026, after the correction.**' in rd(F + '/' + f), f + ' has a note that it belongs to the first page')
@@ -2393,16 +2460,26 @@ def badalocchio():
     op = items(opn_block, r'^- ')
     settle = items(opn_block[opn_block.index('What would settle it:'):], r'^- ')
     check(P, len(op) == 7 and len(settle) == 4 and op[0][0].startswith('**All names.**'), 'README has seven open points, and four things that would settle them')
+    check(P, op[3][0].startswith('**f. 80r:** the groups 132, 138 and 145; the short groups .38 and .78;') and
+          'The group 167 left this list on 12 October 2026' in op[3][0] and '167 (fosse: one place)' in op[4][0],
+          'README, what stays open: 132, 138, 145, .38 and .78; 167 left the list of groups with no value, and stays in the list of the key as one place')
     body += '<ul>%s</ul><p>What would settle it:</p><ul>%s</ul>' % (
         ''.join(li(x) for x in op[:7]), ''.join(li(x) for x in settle))
 
     body += '<h2>History of our own statements</h2>'
     hs = items(hist, r'^- ')
-    check(P, len(hs) == 2 and hs[0][0].startswith('**11 October 2026, 18:28: the first page.**') and 'read for about four fifths, with gaps' in hs[0][0]
+    check(P, len(hs) == 3 and hs[0][0].startswith('**11 October 2026, 18:28: the first page.**') and 'read for about four fifths, with gaps' in hs[0][0]
           and '"the figures 2 and 0 stand alone and are nulls"' in hs[0][0] and '"Navara per[ò?] si mostra prudente"' in hs[0][0],
           'the history has the first page: the old cut, "four fifths", and the sentence on Navarre without "non"')
     check(P, hs[1][0].startswith('**11 October 2026, later: the correction.**') and '**The sentence is "Navara non si mostra prudente".**' in hs[1][0]
           and '819 groups, not 919' in hs[1][0], 'the history has the correction, with the right sentence and the new counts')
+    check(P, hs[2][0].startswith('**12 October 2026: the name .176, and the group 167.** The page of 11 October printed .176 as the Queen of '
+                                 'England, "probable". We now print Lesdiguières ("la Dighiera"), "probable", and the Queen as the rival.')
+          and '**Why:**' in hs[2][0] and 'It did not ask where her army stood.' in hs[2][0]
+          and '**Also new:** the group 167 has the value "fosse" (probable): "fossero".' in hs[2][0]
+          and '**Not accepted:** a value "cattolico" for the short group .38 and for the group 138.' in hs[2][0]
+          and hs[2][0].endswith('No name is read from the cipher. The key still has no value for any name.'),
+          'the history has the change of 12 October: what the page of 11 October printed, why it changes, what is new, what is not accepted')
     body += '<ul>%s</ul>' % ''.join(li(x) for x in hs)
 
     body += '<h2>Earlier work and credits</h2>'
@@ -2803,6 +2880,22 @@ def centurione():
                  REPO, F, F, gh(F, 'key/table.tsv'), gh(F, 'reading/islands.md'),
                  gh(F, 'evidence/transcription_corrections.tsv'), REPO, F)
     body += '<ul>%s</ul>' % ''.join('<li>%s</li>' % md(collapse(quoted(P, RM, c))) for c in credits)
+    other = ['On 6 October 2026 **Satoru** published a page that compares five points of this reading with an independent '
+             'printed source: <https://satoru.net/crypt/centurione1528/>.',
+             'The points are names, dates and events.',
+             'All five points agree. Two of them are names that this folder does not give as sure: "Bilia" (probable; the name is '
+             'spelled bi-li-a) and "Ansaldo" (a guess).',
+             'His page says what the check does not cover. It does not check the build of the cipher. It does not check the '
+             'reading word by word. The unread part and the guessed values are untouched.',
+             'We did not repeat his comparison ourselves.']
+    oc = readme[readme.index('## A check by another project'):readme.index('## Earlier work, and what this folder owes')]
+    check(P, 'P. de Gayangos (ed.), *Calendar of Letters, Despatches, and State Papers*, vol. III, part II (1877)' in collapse(oc)
+          and '"Bilia"' in oc and '"Ansaldo"' in oc and 'a guess' in oc and '|' not in oc,
+          'README, the check by another project: the printed source, the two doubtful names, and no copy of his table')
+    check(P, key['a201'] == ('ansaldo', 'guess') and key['c129'] == ('cavalier', 'probable') and key['b80'][1] == 'probable',
+          'key table: "ansaldo" is a guess; "cavalier" and the syllable "bi" of "Bilia" are probable')
+    body += '<h2>A check by another project</h2><p>%s</p>' % ' '.join(
+        re.sub(r'&lt;(https?://[^&]+)&gt;', r'<a href="\1">\1</a>', md(collapse(quoted(P, RM, c)))) for c in other)
     return page('centurione-1528.html', title_of(F), body, F)
 
 

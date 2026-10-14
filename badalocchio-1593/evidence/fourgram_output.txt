@@ -1,0 +1,4 @@
+f. 85r + f. 65r: -4.049 on 510 windows
+  2000 shuffled keys: mean -5.478, best -4.887; real is 8.3 sd above
+  2000 shuffled orders: mean -5.063, best -4.850; real is 14.6 sd above
+f. 80r: -4.004 on 982 windows

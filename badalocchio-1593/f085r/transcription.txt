@@ -6,7 +6,9 @@
 # The clear words are one reading by a model, from tiles. They are not an edition.
 #
 # One row for each line of the page. Clear words stand as words. Figures stand as rows with no gaps, as on the page.
-# decode.py cuts the rows into groups. A space in a row of figures is a space on the page (line 10).
+# decode.py cuts the rows into groups. A space in a row of figures is a space on the page (lines 10 and 25). In both
+# places the cut joins the figures across the space: the groups 149 (line 10) and 148 (line 25) cross it. The blind
+# pass B has no space there.
 #
 # Marks of this file:
 #   (x)          a figure that stays unsure on the image

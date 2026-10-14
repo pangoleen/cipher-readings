@@ -43,7 +43,7 @@ TITLE = {'f085r': 'f. 85r, 5 December 1592', 'f065r': 'f. 65r, 11 December 1592'
 #   0                              one figure alone: a null
 #   a lone 2                       taken only where "2xy" would give a group that is not in the tables and "2" with
 #                                  the next groups gives groups that are. Six places in all. What it is, is open.
-#   a lone 1                       one place (f. 85r line 13): no value
+#   a lone 1                       two places (f. 85r line 13; f. 80r line 18, in the filler): no value
 # The lone 2 is the one free choice of the rule. cut() takes, for each run, the division that leaves the fewest
 # groups that are not in the tables; with the same number, the division with fewer lone 2.
 # IN_TABLES below adds three groups that have no value but that the cut must know: 199 and 299 stand alone

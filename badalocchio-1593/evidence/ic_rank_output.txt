@@ -1,0 +1,4 @@
+Nevers: real IC 0.0769; 51 of 200 shuffled keys have a higher IC
+f085r: real IC 0.0752; 18 of 200 shuffled keys have a higher IC
+f065r: real IC 0.0744; 34 of 200 shuffled keys have a higher IC
+f080r: real IC 0.0760; 16 of 200 shuffled keys have a higher IC

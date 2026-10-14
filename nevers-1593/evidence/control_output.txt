@@ -1,0 +1,12 @@
+text by our key: secpapauolesemandaraneuersunsuoconfidenteioglifariasapertutochedesiderariadiqeltalecheuenisepechesarebespesatodamintutoetenutolomoltsecreto
+letters: 139; score: -4.23
+real Italian of this length, 300 samples of the same text: median -3.93, worst -4.28
+C1, 5000 shuffled keys on the 24 groups: mean -6.60, best -5.49; ours is 9.9 sd above the mean
+C2, our key, 5000 shuffled orders: mean -5.99, best -5.41; ours is 11.6 sd above the mean
+C3, passage 2 by the key of passage 1: di?eltale?heuenisepechesare?espesatodamintutoetenutolomoltse?reto
+C3: 61 of 65 letter groups read; score -4.24
+C3, 5000 shuffled keys of passage 1 on passage 2: mean -6.33, best -4.81; ours is 5.9 sd above the mean
+C4, free solver on five shuffled orders: -4.68, -4.40, -4.66, -4.58, -4.53
+C4, free solver on the true order: -4.04 (our reading: -4.23)
+C4, its text: reciaisuonerelandaraneuerrunruocontidenteioanitariaraiertutochederiderariadimentanegheuenireiecherareperieratodalintutoetenutonolontregreto
+C4, places where its text has the letter of our reading: 106 of 139

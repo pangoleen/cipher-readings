@@ -2,7 +2,8 @@
 
 Source: Paris, BnF, ms. français 4700, f. 85r (Gallica `btv1b90582908`, view 97, right page). Key: [../key.tsv](../key.tsv).
 Transcription: [transcription.txt](transcription.txt), with its cipher runs cut into groups in [groups.txt](groups.txt).
-State: 11 October 2026, after the audit.
+State: 11 October 2026, after the audit; corrected on 14 October 2026 after a review panel (fills now marked;
+line 24 "because"; the count of full sentences; the spaces of lines 10 and 25).
 
 A letter in Badalocchio's own hand: 28 lines and the signature. 17 lines have figures. Clear Italian and cipher alternate
 in the same sentences.
@@ -100,21 +101,21 @@ sono.
 Qui si aspetta fra pochi giorni, come fra sei, o vero otto, l'Ill.mo et R.mo S.or Car.le Sforza, quale per quanto
 intendo **vien a trattare le cose che dovea trattare il [nome 143], et vien ad instanze del [nome 124], qual aiuta il
 negotio gagliardessimamente; il qual negotio, per quello intendo e mi pare verisimile, non è punto a [f u s t] di
-Spagna, qual vogliono far la [nome 195] regina di Francia,** ne si spaventano punto [199] di pericolo di morte, di
+Spagna, qual vogli[o]no far la [nome 195] regina di Francia,** ne si spaventano punto [199] di pericolo di morte, di
 prigionia, di minaccie, ne di cosa [299] di dire, anzi affermano arditamente **la corona di Francia appartenersi a
 detta [nome 195];** ma io non credo che **quel(?) loro pretenso ius** truovi **[e o s t i]** le porte aperte **come
 fece in Portogallo [169].** Creda V. Ecc. Ill.ma quello che le piace, [299] che questo negotio, secondo che io lo
 intendo, **è che si [289] far [nome 128] re di [1] Francia,** la qual cosa, come ho detto, **non [2] va per la
 fantasia punto a Spagna, per la ragione detta;** et se così potessero **impedire la venuta del [nome 144] Sforza, come
-hanno impedita quella di [nome 143],** non ci si [199] intende cosa che importi se non [299] risparmiarebbono più(?);
+hanno impedita quell[a] di [nome 143],** non ci si [199] intende cosa che importi se non [299] risparmiarebbono più(?);
 ma bisogna vedere come ci si [199] adoperare tutto quello che si può, per che no[n] si [299] risolveranno dopo.
 
 Diedi domenica prossima passata a N.S. la lettera di V. Ecc. Ill.ma mentre S.S.tà tornava alle sue stanze della
 capella, che s'era fatta la prima dell'advento, et mi ordinò che tornasse da lei il giorno seguente doppo mangiare,
 come feci, et mostrò molta amorevolezza verso V. Ecc. Ill.ma, con la quale disse esser stata cosa molto amorevolmente,
 quando ci fu con l'Ill.mo et R.mo S. Car.le Alessandrino Legato, et perciò le porta affettione: ma **ha [2] molto
-disiderio che ella si ritirasse dal Nava[r]a,** sopra di che **risposi [f i] torti et gli aggravii fattoli dall'altra
-parte, per che non si vedeva così ben il modo di ritirarsi di qua.** Si parlò **del modo proposto da [segno P]
+disiderio che ella si ritirasse dal Nava[r]a,** sopra di che **risposi [f i] torti et gli aggravi fattoli dall'altra
+parte, per che non si vedeva così ben il modo di ritirarsi di q[u]a.** Si parlò **del modo proposto da [segno P]
 Capolupo,** che non dispiaque; si tolse tempo a pensarci, et che sarei chiamato, et ordinatomi quello che dovessi
 scrivere per risposta: non lasciarò di raccordare destramente il negotio, et di tutto la farò avisata minutamente. Le
 bascio humiliss.te le mani, et le prego da N.S. Dio ogni contento, et felicità. In Roma: il dì v. di Dicembre. MDXCII.
@@ -140,7 +141,7 @@ Last Sunday I gave Our Lord your letter, while His Holiness went back to his roo
 Sunday of Advent. He ordered me to come back the next day after dinner, as I did. He showed much kindness towards Your
 Excellency: he said that things were very kind between you when he was there with Cardinal Alessandrino, the Legate,
 and for this he has affection for you. But he much desires that you withdraw from Navarre. To this I answered [..] the
-wrongs and the injuries done to you by the other side, so that the way to withdraw from this side was not so clear. We
+wrongs and the injuries done to you by the other side, because one did not see so well the way to withdraw from here. We
 spoke of the way that [sign P] Capilupi proposed. It did not displease. He took time to think, [and said] that I would
 be called and told what to write in answer. I shall recall the business with tact and tell you all in detail. I most
 humbly kiss your hands. Rome, 5 December 1592.
@@ -203,7 +204,7 @@ Italian; English.
 - Page: `<Cn>9579498604586797098<0+>152026402442869460162<female>893i1950964887594301520169 ne si spa=`
 - Run 8.1, groups: `<Cn> 95 7 94 98 6 0 45 86 7 97 0 98 <0+> 152 0 264 0 244 286 94 6 0 162 <female> 89 3 .195 0 96 48 87 5 94 3 0 152 0 169`
 - Run 8.1, key: `· p u n t o · a f u s · t · DI · SPAGNA · QUAL VOGLI n o · FAR · l a [.195] · r e g i n a · DI · FRANCIA`
-- Italian: **punto a [f u s t] di Spagna, qual vogliono far la [nome 195] regina di Francia,** ne si spa-
+- Italian: **punto a [f u s t] di Spagna, qual vogli[o]no far la [nome 195] regina di Francia,** ne si spa-
 - English: at all to the [taste?] of Spain: they want to make [name 195] Queen of France, and they are not
 
 ### Line 9
@@ -265,7 +266,7 @@ Italian; English.
 - Page: `7469479830854689i144097860696<triangle>450146<0+>883940946059395046850598302470152i143 non ci si`
 - Run 15.1, groups: `7 46 94 7 98 3 0 85 46 89 .144 0 97 86 0 6 96 <triangle> 45 0 146 <0+> 88 3 94 0 94 6 0 5 93 95 0 46 85 0 5 98 3 0 247 0 152 .143`
 - Run 15.1, key: `u e n u t a · d e l [.144] · s f · o r z a · COME · h a n · n o · i m p · e d · i t a · QUELLO · DI [.143]`
-- Italian: **venuta del [nome 144] Sforza, come hanno impedita quella di [nome 143],** non ci si
+- Italian: **venuta del [nome 144] Sforza, come hanno impedita quell[a] di [nome 143],** non ci si
 - English: coming of [name 144] Sforza, as they prevented that of [name 143], one does not
 
 ### Line 16
@@ -317,7 +318,7 @@ Italian; English.
 - Page: `sopra di che 965979560970508650986960980501570878950387<female><0+>8709637501638950148890<female><0+>`
 - Run 23.1, groups: `96 5 97 95 6 0 97 0 5 0 86 5 0 98 6 96 0 98 0 5 0 157 0 87 89 5 0 3 87 <female> <0+> 87 0 96 3 7 5 0 163 89 5 0 148 89 0 <female> <0+>`
 - Run 23.1, key: `r i s p o · s · i · f i · t o r · t · i · ET · g l i · a g · · g · r a u i · FATTO l i · DA l · · ·`
-- Italian: sopra di che **risposi [f i] torti et gli aggravii fattoli dal-**
+- Italian: sopra di che **risposi [f i] torti et gli aggravi fattoli dal-**
 - English: to which I answered [..] the wrongs and the injuries done to you by
 
 ### Line 24
@@ -326,7 +327,7 @@ Italian; English.
 - Run 24.1, groups: `3 89 98 96 3 0 238 0 239 141 229 258 0 44 46 85 48 7 3 0 84 6 258 0 135 0 184 219 152 0 96 5 98 47 96 3 96 0 97 5 0`
 - Run 24.1, key: `a l t r a · PARTE · PER CHE NON SI · u e d e u a · c o SI · BEN · IL MODO DI · r i t i r a r · s i ·`
 - Italian: **l'altra parte, per che non si vedeva così ben il modo di ritirarsi**
-- English: the other side, so that one did not see so well the way to withdraw
+- English: the other side, because one did not see so well the way to withdraw
 
 ### Line 25
 
@@ -335,7 +336,7 @@ Italian; English.
 - Run 25.1, key: `DI · q a ·`
 - Run 25.2, groups: `85 48 89 219 <Cn> 95 96 0 6 0 95 49 97 98 49 0 148 <P> 84 3 95 6 0 89 7 0 95 0 49`
 - Run 25.2, key: `d e l MODO · p r · o · p o s t o · DA [<P>] c a p o · l u · p · o`
-- Italian: **di qua.** Si parlò **del modo proposto da [segno P] Capolupo,** che non dispiaque
+- Italian: **di q[u]a.** Si parlò **del modo proposto da [segno P] Capolupo,** che non dispiaque
 - English: from this side. We spoke of the way that [sign P] Capilupi proposed, which did not displease;
 
 ### Line 26
@@ -377,9 +378,10 @@ Italian; English.
 ## The cipher runs and their clear sentences
 
 The page has 11 cipher runs between clear words (a run can go over a line end). All 11 join the clear words at both
-ends. 9 of the 11 make a full sentence with them (the names stay numbers). 2 do not: the run "e o s t i" in line 11,
-and the run "come fece in Portogallo [169]" in lines 11 and 12, where the last group has no place in the sentence.
-Three of the 9 have a doubt inside: "f u s t" (line 8), the group 289 (line 13) and "f i" (line 23). This is the
+ends. 8 of the 11 make a full sentence with them (the names stay numbers). One more, in line 13, makes sense, but its
+verb is not read ("si [289] far"). 2 do not: the run "e o s t i" in line 11, and the run "come fece in Portogallo
+[169]" in lines 11 and 12, where the last group has no place in the sentence. Two of the 8 have a doubt inside:
+"f u s t" (line 8) and "f i" (line 23). This is the
 judgement of the reader. The key and the cut of the first page gave no complete run on this page.
 
 ## What is not read
@@ -399,5 +401,12 @@ judgement of the reader. The key and the cut of the first page gave no complete 
 10. The groups 199 and 299 (seven places). A null is our best guess. "come ci si [199] adoperare" speaks against it.
 11. Lines 16 and 17 are clear, but our reading of the small words is one reading ("più" or "però"; "adoperare").
 12. The sign lambda in line 5: a null by its place.
-13. Line 8: the key gives "VOGLI n o", that is "voglino". We read "vogliono". With "voglio" for the group 286 the
+13. Line 8: the key gives "VOGLI n o", that is "voglino". We read "vogli[o]no". With "voglio" for the group 286 the
     word is exact. That value is not in the key: the group has one place.
+
+## Notes of 14 October 2026
+
+- Lines 10 and 25: the settled rows have a space inside the groups 149 (detta, line 10) and 148 (da, line 25). The
+  cut joins the figures across the space. The blind pass B has no space in these places.
+- Letters in square brackets are letters that the groups do not give: "vogli[o]no" (line 8), "quell[a]" (line 15,
+  the group 247 = quello), "q[u]a" (line 25). "aggravi" (line 23) has one i, as the groups give it.

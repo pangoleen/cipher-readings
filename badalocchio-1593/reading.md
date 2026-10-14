@@ -2,10 +2,11 @@
 
 Source: Paris, BnF, ms. français 4700, f. 80r (Gallica `btv1b90582908`, view 92, right page). Key: [key.tsv](key.tsv).
 Transcription: [transcription.txt](transcription.txt), cut into groups in [groups.txt](groups.txt). State: 12 October 2026,
-after the audit of 11 October and the audit of the names of 12 October.
+after the audit of 11 October and the audit of the names of 12 October; corrected on 14 October 2026 after a review
+panel (see the README, "History of our own statements").
 
 **The sheet is read for about nine tenths, with gaps.** 717 of the 778 groups that carry text (92 %) stand in words that
-we translate. This is a hand count by the first reader. The audit gives a strict count: 708 of 778 (91 %). No name is
+we translate. This is a hand count by the first reader. The audit gives a strict count: 708 to 711 of 778 (91 %). No name is
 read. Nothing is forced: a gap is a gap. Both counts are of 11 October. Since 12 October the group 167 has a probable
 value. We did not count again.
 
@@ -36,16 +37,16 @@ Marks:
 
 ## What Badalocchio tells the Duke, in five sentences
 
-1. The troubles of the Spanish lands in Italy make an opening. If Navarre and [name 176] (probably Lesdiguières, whose
+1. Here is a fine occasion. If Navarre and [name 176] (probably Lesdiguières, whose
    army stood in Piedmont) were [Catholics?], they could hope to raise the State of Milan, very ill content with Spain,
    and to take it with ease, because [name 176] has an army that is much feared in [a place that is not read].
 2. The death of [name 122] would add to this. But the heresy of the King and of [name 176] makes such fine enterprises
    not only hard but impossible.
-3. Navarre does not show himself as prudent as his own good asks, because he still perseveres stubbornly in his heresy,
-   to the fourth year. If he had left it on the first day of his reign, he would be not only a king at peace in France:
-   there would be hope of the monarchy that Cardano foretells, of which Badalocchio wrote in his letters of December,
-   number 47.
-4. The Duke is on the spot and has authority. So he must make the king a good and vigorous remonstrance, with reasons
+3. Navarre does not show himself as prudent as one would wish of a man who [..] his own good, because he still
+   perseveres stubbornly in his heresy, to the fourth year. If he had left it on the first day of his reign, he would
+   be not only a king at peace in France: there would be hope of the monarchy that Cardano foretells, of which
+   Badalocchio wrote in his letters of December, number 47(?).
+4. The Duke is on the spot and has authority. So he must make [the king?] a good and vigorous remonstrance, with reasons
    beyond the loss of the soul: with a rising in Milan and the support of a King of France of such worth, Naples and
    Sicily would not stay in line,
 5. for the ill treatment by Spain. God knows when so fine an occasion will come again.
@@ -71,15 +72,15 @@ solevare lo stato di Milano, malissimo sodisfatto di Spagna, et i[i] impatronirs
 del Re et della [nome 176] rendono così belle imprese non solo dificili ma impossibili da esseguirsi veramente.
 
 Navara non si mostra prudente come disiderarebbe da chi [2 2 2] c s se il ben suo, se [138] poi che pure stinatamente
-persevera nella sua heresia fin al quarto anno, la qual se egli havesse lasciata il primo giorno del suo regno,
+persevera nella sua heresia fin al q[u]arto anno, la qual se egli havesse lasciata il primo giorno del suo regno,
 sarebbe non solo re pacifico in Francia, ma con r a si [145] speranza che da lui nascesse r e l la monarchia che
-predice il Cardano dovere in quel tempo(?) nascere, della qual io le scrissi per mie lettere del giorno [xij?] di
+predice il Cardano dovere in quel tempo(?) nascere, della qual io le scrissi per mie let[t]ere del giorno [xij?] di
 dicembre segnate col numero di [47?].
 
 Ella che si trova presente et con autorità, le ne deve far una buona et gagliarda rimostranza con quel(?) così
 efficaci ragioni, oltra la perdita del anima; et se si vedesse solevatione ne lo stato di Milano con l'appogio di un
 Re di Francia di tanto(?) valore, [245: quando or quanto] è che Napoli et Sicilia non starebbono a segno per li mali
-trattamenti di Spagna, [u i u] Dio sa [245: quando?] si presentarà già mai così bella occasione. [34 groups without
+trattamenti di Spagna, [u i u] Dio sa [245: quando?] si presentarà già mai così bella occa[si]one. [34 groups without
 sense: probably filler]
 
 ## Translation
@@ -96,7 +97,7 @@ would be not only a king at peace in France, but with [..] hope that from him wo
 Cardano foretells must be born in that time(?), of which I wrote to you in my letters of the [12th?] day of December,
 marked with the number [47?].
 
-You, who are on the spot and with authority, must make him a good and vigorous remonstrance about it, with [those?]
+You, who are on the spot and with authority, must make [him?] a good and vigorous remonstrance about it, with [those?]
 reasons so effective, beyond the loss of the soul; and if a rising were seen in the State of Milan with the support of
 a King of France of such(?) worth, [..] Naples and Sicily would not stay in line, for the ill treatment by Spain. [..]
 God knows when(?) so fine an occasion will ever come again.
@@ -158,7 +159,7 @@ For each line: the groups, the value of each group by the key, our Italian with 
 
 - Groups: `192 97 7 3 88 46 96 48 97 5 3 166 125 99 3 96 98 6 129 192 244 255 156 88 3 7 46 97 255 192 97 43 5 3 98 45 184 95 96 5 93 6 175 152 89 97 7 6`
 - Key: `LA s u a h e r e s i a FIN AL q a r t o ANNO LA QUAL SE EGLI h a u e s SE LA s c i a t a IL p r i m o GIORNO DI l s u o`
-- Italian: la sua heresia fin al quarto anno, la qual se egli havesse lasciata il primo giorno del suo
+- Italian: la sua heresia fin al q[u]arto anno, la qual se egli havesse lasciata il primo giorno del suo
 - English: his heresy to the fourth year. If he had left it on the first day of his
 
 ### Line 9
@@ -179,7 +180,7 @@ For each line: the groups, the value of each group by the key, our Italian with 
 
 - Groups: `246 272 94 3 97 43 46 96 48 85 46 89 192 244 188 193 97 43 96 5 97 258 239 93 5 48 193 98 48 96 46 85 46 89 175 <frame_?ij> 152 152 43 46`
 - Key: `QUEL? TEMPO n a s c e r e d e l LA QUAL IO LE s c r i s SI PER m i e LE t e r e d e l GIORNO [<frame_?ij>] DI DI c e`
-- Italian: quel tempo(?) nascere, della qual io le scrissi per mie lettere del giorno [xij? or xxij] di dice-
+- Italian: quel tempo(?) nascere, della qual io le scrissi per mie let[t]ere del giorno [xij? or xxij] di dice-
 - English: that time(?), be born; of which I wrote to you in my letters of the [12th? or 22nd] day of Decem-
 
 ### Line 12
@@ -194,7 +195,7 @@ For each line: the groups, the value of each group by the key, our Italian with 
 - Groups: `45 7 98 6 96 5 98 3 193 223 85 46 7 48 162 7 94 3 83 7 6 94 45 157 87 3 87 89 5 3 96 85 3 96 5 93 6 97 98 96 3 94 <triangle> 3 84 49 94 246`
 - Key: `a u t o r i t a LE NE d e u e FAR u n a b u o n a ET g a g l i a r d a r i m o s t r a n z a c o n QUEL?`
 - Italian: autorità, le ne deve far una buona et gagliarda rimostranza con quel(?)
-- English: authority, must make him a good and vigorous remonstrance about it, with [those?]
+- English: authority, must make [him?] a good and vigorous remonstrance about it, with [those?]
 
 ### Line 14
 
@@ -228,7 +229,7 @@ For each line: the groups, the value of each group by the key, our Italian with 
 
 - Groups: `83 46 89 192 6 43 <Cn> 0 <arch> 84 3 25? 6 223 199 141 7 199 0 7 0 100 0 1 221 3 3 49 5 7 7 194 9 2 83 6 5 181 5 3 5 7 3 95 5 .78 43 0`
 - Key: `b e l LA o c · · · c a [25?] o NE [199] CHE u [199] · u · [100] · [1] MOLTO a a o i u u [194] [9] [2] b o i [181] i a i u a p i [.78] c ·`
-- Italian: bella oc···ca[25?]o-ne [occasione]. [34 groups without sense, to the end of the sheet: probably filler]
+- Italian: bella oc···ca[25?]o-ne [occa[si]one: 25? read as 258 = si]. [34 groups without sense, to the end of the sheet: probably filler]
 - English: again. [34 groups without sense: probably filler.]
 
 ## Counts, line by line
@@ -256,11 +257,13 @@ The limits of this count:
 - It is a hand count. The first reader gave one number for each line, not the list of the groups. So nobody can check
   it group by group.
 - It counts the groups with guessed values (245, 246, 269) and the words "in [&] et" as "in sense" in most places. The
-  audit takes them off: **708 of 778 (91 %)**. "About nine tenths" is the fair summary.
+  audit takes them off: **708 to 711 of 778 (91 %)**. The audit printed 708, but the hand count had already left out
+  two of these groups: 245 in line 17 and the sign & in line 3 (see the table above). So the strict count is about
+  710. "About nine tenths" is the fair summary.
 - It counts "Dio sa quando" in line 17 as not read. The audit reads these words.
 - Line 18 counts as not read from the first group 199 to the end (34 groups, 27 of them with text: filler).
 - The counts are of 11 October 2026. Since 12 October the group 167 (line 1) has a probable value: "fossero". We did
-  not count again: 717 and 708 stay.
+  not count again: 717 and 708 to 711 stay.
 
 ## What is not read
 

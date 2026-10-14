@@ -31,14 +31,14 @@ group	value	kind	grade	f085r	f065r	f080r	f083r	note
 96	r	letter	sure	25	2	51	1	Navara, heresia, Francia; regina, corona, ritirasse (f. 85r)
 97	s	letter	sure	18	3	44	2	heresia, Sicilia, suo; cose, Sforza, risposi (f. 85r); servigio (f. 65r)
 98	t	letter	sure	23	2	23	0	morte, autorita, trova; negotio, torti, venuta (f. 85r); conto (f. 65r)
-99	q	letter	sure	1	0	1	0	quarto (f. 80r line 8); di qua (f. 85r line 25)
+99	q	letter	sure	1	0	1	0	qarto, for q[u]arto (f. 80r line 8); di qa, for di q[u]a (f. 85r line 25)
 3	a	letter	sure	31	1	63	3	Navara, Francia, gagliarda; regina, ragione, altra (f. 85r)
 5	i	letter	sure	27	3	46	2	Milano, heresia, Sicilia; aiuta, regina, impedire (f. 85r); servigio (f. 65r)
 6	o	letter	sure	23	6	52	1	Milano, regno, Napoli; negotio, corona (f. 85r); conto, suo (f. 65r)
 7	u	letter	sure	12	2	30	3	suo, una buona, autorita; aiuta, punto, venuta (f. 85r); servigio (f. 65r)
 <triangle>	z	letter	sure	2	0	2	0	speranza, rimostranza (f. 80r); instanze, Sforza (f. 85r)
 0	·	null	sure	108	1	18	1	beside a sign; between the halves of a doubled sound (ap·p·artenersi, gal··l·o); between words. f. 85r has it 108 times
-<pi>	·	null	sure	1	0	6	0	bel··la, sareb··bono, ef··ficaci (f. 80r); dove·a· (f. 85r)
+<pi>	·	null	sure	1	0	6	0	bel··la, stareb··bono, ef··ficaci (f. 80r); dove·a· (f. 85r)
 <Cn>	·	null	sure	8	1	5	0	sareb··be (f. 80r); gal··l·o, at the start of line 8 and at ends of runs (f. 85r); at the end of a run (f. 65r)
 <arch>	·	null	sure	0	0	3	0	ec··co in line 1, oc···ca in line 18, the end of line 3 (f. 80r only)
 <0+>	·	null	sure	10	0	2	0	ap··pogio (f. 80r); between words and in ag··g·ravii (f. 85r)
@@ -57,12 +57,12 @@ group	value	kind	grade	f085r	f065r	f080r	f083r	note
 152	di	table1	sure	8	1	19	2	DI Milano, DI Francia, pre-DI-ce, DI-ficili (f. 80r); regina DI, DI-siderio (f. 85r); conto DI lei (f. 65r); DI Pavia (f. 83r)
 154	dove	table1	sure	1	0	1	0	DOVE-re (f. 80r); DOVE-a (f. 85r)
 156	egli	table1	sure	0	0	1	0	se EGLI havesse lasciata (f. 80r)
-157	et	table1	sure	1	0	7	0	Napoli ET Sicilia, buona ET gagliarda (f. 80r); torti ET gli aggravii (f. 85r)
+157	et	table1	sure	1	0	7	0	Napoli ET Sicilia, buona ET gagliarda (f. 80r); torti ET gli aggravi (f. 85r)
 158	fa	table1	sure	0	0	1	0	FA-ci-lissimamente (f. 80r)
-162	far	table1	sure	2	0	2	0	deve FAR una buona et gagliarda rimostranza, di FAR solevare (f. 80r); vogliono FAR la .. regina (f. 85r)
+162	far	table1	sure	2	0	2	0	deve FAR una buona et gagliarda rimostranza, di FAR solevare (f. 80r); vogli[o]no FAR la .. regina (f. 85r)
 163	fatto	table1	sure	1	0	1	0	sodis-FATTO (f. 80r); FATTO-li (f. 85r)
 164	fece	table1	probable	1	0	0	0	come FECE in Portogallo (f. 85r): one place; fixed with the order in mind
-166	fin	table1	probable	0	0	1	0	FIN al quarto anno (f. 80r): one place
+166	fin	table1	probable	0	0	1	0	FIN al q[u]arto anno (f. 80r): one place
 167	fosse	table1	probable	0	0	1	0	FOSSE-r-o, "fossero" (f. 80r line 1): one place. It stands between 166 fin and 169 Francia. No other word of this window makes a word with "ro". The word after it is open. Added on 12 October 2026, with the order of the table in mind
 169	Francia	table1	probable	4	0	0	0	regina di FRANCIA, corona di FRANCIA, re di FRANCIA (f. 85r). The fourth place, after "Portogallo" in line 12, has a blot and makes no sense. On f. 80r the writer spells Francia in letters
 175	giorno	table1	sure	0	0	2	0	il primo GIORNO del suo regno; lettere del GIORNO .. di dicembre (f. 80r)
@@ -83,7 +83,7 @@ group	value	kind	grade	f085r	f065r	f080r	f083r	note
 232	occasione	table2	probable	0	0	1	0	bella OCCASIONE che si presenta (f. 80r line 1): one place. Line 18 ends "cosi bella oc-ca-[..]-o-ne" in letters
 238	parte	table2	probable	1	0	0	0	l altra PARTE (f. 85r): one place
 239	per	table2	sure	4	1	4	1	PER-se-vera, PER-di-ta, PER mie lettere, PER li mali trattamenti (f. 80r); PER quello intendo, PER la ragione, PER che (f. 85r); PER suo conto (f. 65r); PER le cose (f. 83r). The first page had it as 92, and as 39 with no value
-244	qual	table2	sure	3	0	2	0	la QUAL se egli, della QUAL io le scrissi (f. 80r); QUAL aiuta, il QUAL negotio, QUAL vogliono (f. 85r). Also for "quali"
+244	qual	table2	sure	3	0	2	0	la QUAL se egli, della QUAL io le scrissi (f. 80r); QUAL aiuta, il QUAL negotio, QUAL vogli[o]no (f. 85r). Also for "quali"
 245	quando/quanto	table2	guess	0	0	2	0	two places on f. 80r. "Dio sa QUANDO" fits line 17; "di tanto valore QUANTO e" fits line 16. One group cannot be both: open between the two. Fixed with the order in mind
 246	quel	table2	guess	1	0	3	0	QUEL loro pretenso ius (f. 85r); in QUEL tempo (f. 80r). In two places of f. 80r the sense asks for "quei" or "quelle" (con QUEL novi disgusto; con QUEL cosi efficaci ragioni). Taken as the stem quel-. Fixed with the order in mind
 247	quello	table2	probable	2	0	0	0	per QUELLO intendo; impedita QUELLO di .. (f. 85r), where the sense asks for "quella". Taken as the stem for both
@@ -97,7 +97,7 @@ group	value	kind	grade	f085r	f065r	f080r	f083r	note
 274	tratta	table2	probable	2	0	1	0	vien a TRATTA-re, dovea TRATTA-re (f. 85r); mali TRATTA-menti (f. 80r)
 276	va	table2	probable	1	0	2	0	non .. VA per la fantasia (f. 85r); sole-VA-re, VA-lore (f. 80r)
 278	vien	table2	probable	2	0	0	0	VIEN a trattare, VIEN ad instanze (f. 85r)
-286	vogli	table2	probable	1	0	0	0	VOGLI-no far (f. 85r): one place. The letters give "voglino"; we read "vogliono"
+286	vogli	table2	probable	1	0	0	0	VOGLI-no far (f. 85r): one place. The letters give "voglino"; we read "vogli[o]no"
 289	endo	ending	probable	2	0	3	0	aven-ENDO, hav-ENDO, r-ENDO-no (f. 80r); int-ENDO (f. 85r line 7). It fails in f. 85r line 13 ("si ENDO far"): that place is not read
 291	ente	ending	sure	0	0	5	0	veram-ENTE, stinatam-ENTE, prud-ENTE, pres-ENTE, facilissimam-ENTE (f. 80r). The first page had it as 91
 294	re	ending	sure	2	1	6	0	spera-RE, soleva-RE, del RE et della .., un RE di Francia, non solo RE pacifico, disidera-RE-bbe (f. 80r); tratta-RE (f. 85r); importa-RE (f. 65r)

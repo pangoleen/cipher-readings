@@ -2,7 +2,8 @@
 
 Source: Paris, BnF, ms. français 4700, f. 65r (Gallica `btv1b90582908`, view 77, right page). Key: [../key.tsv](../key.tsv).
 Transcription: [transcription.txt](transcription.txt), with its cipher runs cut into groups in [groups.txt](groups.txt).
-State: 11 October 2026, after the audit.
+State: 11 October 2026, after the audit; corrected on 14 October 2026 after a review panel (line 4: "non
+gravi", and its English).
 
 A short clear letter with two cipher runs in lines 1 to 3. This file gives lines 1 to 4.
 
@@ -50,15 +51,15 @@ the hooked form of the 9.
 
 ### Line 4
 
-- Page: `in cifra, non grava a chi tocca la fatica di decifrare: Di nuovo non ho molto, che dirle, ne anco po=`
-- Italian: in cifra, non grava a chi tocca la fatica di decifrare: Di nuovo non ho molto, che dirle, ne anco po-
-- English: in cipher, the labour to decipher is no less for the person who has it. I have not much news to tell you, and also
+- Page: `in cifra, non gravi a chi tocca la fatica di decifrare: Di nuovo non ho molto, che dirle, ne anco po=`
+- Italian: in cifra, non gravi a chi tocca la fatica di decifrare: Di nuovo non ho molto, che dirle, ne anco po-
+- English: in cipher, let it not weigh on the one who has the labour of deciphering. I have not much news to tell you, and also
 
 ## The running text
 
 Trovomi occupatiss.mo in scrivendo a V. Ecc.ia Ill.ma tutto quello, che io ho passato **col [nome 133] per suo conto di
 lei,** per mandarlo con questa per via del S.or Ceppi, che mi pare **molto importare al servigio suo.** Però questa sarà
-breve: s'io havrò la fatica di scrivere longamente in cifra, non grava a chi tocca la fatica di decifrare ...
+breve: s'io havrò la fatica di scrivere longamente in cifra, non gravi a chi tocca la fatica di decifrare ...
 
 I am very busy: I write to Your Excellency all that passed between me and [name 133] on your account, to send it with
 this letter by way of Signor Ceppi. It seems to me to be of great weight for your service. So this letter will be
@@ -74,6 +75,6 @@ short. ...
   that other letter of 11 December exists (BnF fr. 3982, ff. 194r-195r). It is not the text of these two runs: see
   [../evidence/period_decipherments.md](../evidence/period_decipherments.md).
 - Values that this page tests: 221 molto (also on f. 85r and f. 80r), 239 per, 294 re (here the end of "importa-re"),
-  125 al (also on f. 80r line 8: "fin al quarto anno"), 152 di, 193 le.
+  125 al (also on f. 80r line 8: "fin al q[u]arto anno"), 152 di, 193 le.
 - Run A completes "che io ho passato ... per mandarlo con questa". Run B completes "che mi pare ... Però questa sarà
   breve". 2 of 2.

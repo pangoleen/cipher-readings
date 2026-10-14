@@ -10,7 +10,8 @@ with gaps, and the one key that reads them.
 | Rome, 11 December 1592: a clear letter with two short cipher runs | BnF fr. 4700, f. 65r (view 77) | No decipherment; no reading known to us | [Both runs read](f065r/reading.md); one name is not read |
 | Rome, 9(?) January 1593: a sheet of 18 lines, all in figures | BnF fr. 4700, f. 80r (view 92) | Our first page of 11 October 2026: "about four fifths", with a wrong cut | [Read for about nine tenths, with gaps](reading.md): 717 of the 778 groups that carry text (92 %, a hand count; 91 % by the strict count) |
 
-**Status: 12 October 2026, after two audits.** The work was done by a model. No palaeographer has checked it. **The
+**Status: 12 October 2026, after two audits; corrected on 14 October 2026 after a review panel** (see "History of
+our own statements"). The work was done by a model. No palaeographer has checked it. **The
 readings have gaps, and no name is read from the cipher.** Corrections are welcome: please open an issue.
 
 **Correction of 11 October 2026.** The first version of this page gave "Navara per[ò?] si mostra prudente" and
@@ -26,7 +27,7 @@ of our own statements".
 ## What is new
 
 **These are the first readings known to us of the three letters. One key reads all three. It was rebuilt from
-the texts; no key sheet of this cipher is known.**
+the texts; no key sheet of this cipher is known to us.**
 
 - **f. 85r, 5 December 1592.** The cipher parts of the letter are read, with gaps. It is the first reading known
   to us. The key is the key of the sheet of 9 January 1593, with a second table of words that this letter showed.
@@ -34,11 +35,15 @@ the texts; no key sheet of this cipher is known.**
   cipher runs join the clear words around them. Not read: the seven name groups (five names; we give numbers, and
   guesses with grades), one word in line 11, one group in line 12, the verb of line 13, three short doubts, and
   the groups 199 and 299 (seven places). No period decipherment of this letter is known.
+  Mechanical score: 83.5 % of the decoded letters stand inside Italian words of 3 letters or more; the best of 400
+  controls scores 62.7 % (see "The mechanical score").
 - **f. 65r, 11 December 1592.** Two short cipher runs read; both complete their clear sentences; one name is not
   read.
 - **f. 80r, 9(?) January 1593.** The sheet is read for about nine tenths, with gaps. This replaces our first
-  reading of the same day, which had the old cut.
-- "Known to us" has limits. The searches are listed under "Earlier work", with what we did not open.
+  reading of the same day, which had the old cut. Mechanical score: 85.3 % of the decoded letters stand inside
+  Italian words; the best of 400 controls scores 61.7 %.
+- "Known to us" has limits: it means "not found in our search", and the search has limits. The searches are
+  listed under "Earlier work", with what we did not open.
 - Two period decipherments exist for **other** cipher letters of Badalocchio of the same weeks. We found them
   after the first reading. They were not used to build the key. They are not decipherments of these three letters.
 
@@ -58,7 +63,7 @@ the date on its page.
 | 9(?) January 1593 | ff. 79-80 | A clear letter on f. 79r-v, and **the cipher sheet f. 80r. Read here** |
 | 15 and 16, 22 and 23, 29 and 30 January 1593 | ff. 105-106, 77-78, 107-108, 87-88, 103-104, 101-102 | Clear. He wrote most letters two times, one day apart |
 | 5 February 1593 | ff. 73-74 | Clear |
-| 6 February 1593 | ff. 83-84 | Clear, with **one cipher passage of 54 figures on f. 83r**. It was our held-out passage; it reads with the key |
+| 6 February 1593 | ff. 83-84 | Clear, with **one cipher passage of 53 figures and one sign on f. 83r**. It was the held-out passage of our first page; it reads with the key. It is no longer a held-out test: it helped to fix the groups 229 and 239. Its figures have one pass |
 | No date | ff. 81-82; ff. 75-76 | Clear: one sheet of a longer letter; a letter to Capilupi on his own career |
 
 - **Cipher pages of Badalocchio in fr. 4700: four.** They are f. 85r, f. 65r, f. 80r and f. 83r. No page has a
@@ -66,8 +71,8 @@ the date on its page.
 - **Two period decipherments are in other volumes:** BnF fr. 3982 no. 96, ff. 194r-195r (a cipher letter of 11
   December 1592) and fr. 3983 no. 35, ff. 74r-75r (a cipher letter of 6 February 1593). Their cipher originals are
   not in fr. 4700. See [evidence/period_decipherments.md](evidence/period_decipherments.md).
-- **Not seen:** BnF fr. 4718, ff. 6 to 11. The printed catalogue has there cipher letters of Badalocchio of
-  December 1592. The volume is not online. BnF fr. 4701, f. 63 bis, is not online and was not seen.
+- **Not seen:** BnF fr. 4718, ff. 6 to 11. The printed catalogue describes fr. 4718 nos. 3-5 as cipher letters of
+  1592, one of them signed by Badalocchio and dated 12 December 1592. The volume is not online. BnF fr. 4701, f. 63 bis, is not online and was not seen.
 - Badalocchio died on 19 February 1593 (G. Cassiani).
 - The cipher is the cipher of the Duke's minute to Tommaso Bozio of 1 May 1593. That minute and the history of
   the two ciphers of Badalocchio are in the folder [nevers-1593](../nevers-1593/).
@@ -83,16 +88,24 @@ the date on its page.
 | A lone 2, and the group 199: open, counted as nulls | 2 | 0 | 6 |
 | Groups that carry text | 383 | 37 | 778 |
 | In words that we translate: hand count | **361 of 383 (94 %)** | **36 of 37** | **717 of 778 (92 %)** |
-| The strict count | 361 of 390 (92.6 %), if the seven lone groups 199 and 299 count as not read | no other count | 708 of 778 (91 %), without the six groups with guessed values and "in [&] et" |
+| The strict count | 361 of 390 (92.6 %), if the seven lone groups 199 and 299 count as not read | no other count | 708 to 711 of 778 (91 %), without the six groups with guessed values and "in [&] et"; the hand count cannot be checked group by group |
+| Mechanical score (14 October 2026): decoded letters inside Italian words of 3+ letters | 83.5 % (best of 400 controls 62.7 %) | 89.1 % (best control 73.9 %) | 85.3 % (best control 61.7 %) |
+| Groups that carry text inside such words, by the same script | 300 of 383 (78.3 %) | 32 of 37 | 636 of 778 (81.7 %) |
 | Name groups, not read | 7 (five names) | 1 | 6 (four names) |
 | Other groups with no value | 2 | 0 | 13 |
-| The two transcription passes | 906 the same (97.0 %); pass B and the settled text 99.6 % | 72 of 72 places | 1,561 of 1,595 places (97.9 %) |
+| The two transcription passes | 906 the same (97.0 %); pass B and the settled text 99.6 % | 72 of 72 places (pass A knew three points of pass B) | 1,561 of 1,595 places (97.9 %) |
 
 - **The counts of the connected sense are hand counts by the first reader.** For f. 85r and f. 65r the list of
   the groups that are out is in `decode.py`. For f. 80r the reader gave one number for each line. The audit gave
   the strict counts.
 - **The counts of f. 80r are of 11 October 2026.** Since 12 October the group 167 has a probable value ("fossero",
-  line 1). We did not count again: 717 and 708 stay. Only the row "Other groups with no value" changes: 13, not 14.
+  line 1). We did not count again: 717 and 708 to 711 stay. Only the row "Other groups with no value" changes:
+  13, not 14.
+- **The strict count of f. 80r.** The audit printed 708 (717 less 9 groups). But the hand count had already left out
+  two of the nine: the group 245 of line 17 and the sign & of line 3 (see the table of lines in
+  [reading.md](reading.md)). So the strict count is about 710, and we print 708 to 711.
+- **The mechanical score is not the hand count.** Most of the gap between them is old spelling that a modern word
+  list does not have. The writer's own clear Italian scores only about 84 % by the same measure.
 - On f. 85r seven groups stand alone between clear words: 199 (three times) and 299 (four times). They are not
   in the 520.
 - "Groups with a value" proves little. A shuffled key gives a value to the same groups. We do not use it as a
@@ -106,7 +119,7 @@ The cipher text is a row of figures with no gaps. On f. 85r and f. 65r the rows 
   83 b, 84 c, 85 d, 86 f, 87 g, 88 h, 89 l; 93 m, 94 n, 95 p, 96 r, 97 s, 98 t, 99 q.
 - **A figure 3, 5, 6 or 7 stands alone.** It is a vowel: a, i, o, u. A sign like a triangle is the letter z.
 - **The figure 0 stands alone and is a null.** Six signs are nulls too. A null often stands between the two
-  halves of a doubled sound: ap·p·artenersi, sareb··bono, ef··ficaci.
+  halves of a doubled sound: ap·p·artenersi, stareb··bono, ef··ficaci.
 - **A group that starts with 1 has three figures: a word of table 1.** The table is in the order of the alphabet:
   125 al, 129 anno, 135 ben, 141 che ... 197 lui.
 - **A group that starts with 2 has three figures: a word of table 2.** This table goes on in the alphabet where
@@ -116,6 +129,11 @@ The cipher text is a row of figures with no gaps. On f. 85r and f. 65r the rows 
 - A number in clear stands in a drawn frame (f. 80r). u and v are one letter.
 - The writer uses the word groups as parts of words too: bel-LE, LA-sciata, pre-DI-ce, NE-gotio, tratta-RE,
   PER-DI-ta, SO-dis-FATTO.
+- **How `decode.py` cuts.** The rules above leave choices. For each run, the script takes the division that leaves
+  the fewest groups with no value. This gives a lone 2 in six places and a lone 1 in two places (f. 85r line 13;
+  f. 80r line 18, in the filler). The second figure of a pair is 3 to 9. A cut by the rules alone, with no look at
+  the key, gives `152 116 9` in f. 85r line 13 and `122 133` in the filler of f. 80r line 18: 817 groups on f. 80r,
+  not 819. In f. 85r line 13 that cut would lose the word "Francia" (169).
 
 **What the cut does not settle:**
 
@@ -176,19 +194,19 @@ The part with cipher, in Italian. **Bold** = from cipher; plain = clear on the p
 > Qui si aspetta fra pochi giorni, come fra sei, o vero otto, l'Ill.mo et R.mo S.or Car.le Sforza, quale per
 > quanto intendo **vien a trattare le cose che dovea trattare il [nome 143], et vien ad instanze del [nome 124],
 > qual aiuta il negotio gagliardessimamente; il qual negotio, per quello intendo e mi pare verisimile, non è punto
-> a [f u s t] di Spagna, qual vogliono far la [nome 195] regina di Francia,** ne si spaventano punto [199] di
+> a [f u s t] di Spagna, qual vogli[o]no far la [nome 195] regina di Francia,** ne si spaventano punto [199] di
 > pericolo di morte, di prigionia, di minaccie, ne di cosa [299] di dire, anzi affermano arditamente **la corona
 > di Francia appartenersi a detta [nome 195];** ma io non credo che **quel(?) loro pretenso ius** truovi **[e o s
 > t i]** le porte aperte **come fece in Portogallo [169].** Creda V. Ecc. Ill.ma quello che le piace, [299] che
 > questo negotio, secondo che io lo intendo, **è che si [289] far [nome 128] re di [1] Francia,** la qual cosa,
 > come ho detto, **non [2] va per la fantasia punto a Spagna, per la ragione detta;** et se così potessero
-> **impedire la venuta del [nome 144] Sforza, come hanno impedita quella di [nome 143],** non ci si [199] intende
+> **impedire la venuta del [nome 144] Sforza, come hanno impedita quell[a] di [nome 143],** non ci si [199] intende
 > cosa che importi se non [299] risparmiarebbono più(?); ma bisogna vedere come ci si [199] adoperare tutto quello
 > che si può, per che no[n] si [299] risolveranno dopo.
 >
 > [...] et perciò le porta affettione: ma **ha [2] molto disiderio che ella si ritirasse dal Nava[r]a,** sopra
-> di che **risposi [f i] torti et gli aggravii fattoli dall'altra parte, per che non si vedeva così ben il modo di
-> ritirarsi di qua.** Si parlò **del modo proposto da [segno P] Capolupo,** che non dispiaque; si tolse tempo a
+> di che **risposi [f i] torti et gli aggravi fattoli dall'altra parte, per che non si vedeva così ben il modo di
+> ritirarsi di q[u]a.** Si parlò **del modo proposto da [segno P] Capolupo,** che non dispiaque; si tolse tempo a
 > pensarci, et che sarei chiamato, et ordinatomi quello che dovessi scrivere per risposta.
 
 In English:
@@ -206,8 +224,8 @@ In English:
 > decide later.
 >
 > [...] and for this he has affection for you. But he much desires that you withdraw from Navarre. To this I
-> answered [..] the wrongs and the injuries done to you by the other side, so that the way to withdraw from this
-> side was not so clear. We spoke of the way that [sign P] Capilupi proposed. It did not displease. He took time
+> answered [..] the wrongs and the injuries done to you by the other side, because one did not see so well the way
+> to withdraw from here. We spoke of the way that [sign P] Capilupi proposed. It did not displease. He took time
 > to think, [and said] that I would be called and told what to write in answer.
 
 ### f. 65r, 11 December 1592: [f065r/reading.md](f065r/reading.md)
@@ -228,17 +246,17 @@ it with this letter, because it seems of great weight for the Duke's service.
 The sheet follows a clear letter of the same day (f. 79r-v; our transcription is in
 [evidence/clear_letter_f79.md](evidence/clear_letter_f79.md)). What Badalocchio tells the Duke, in five sentences:
 
-1. The troubles of the Spanish lands in Italy make an opening. If Navarre and [name 176] (probably Lesdiguières,
+1. Here is a fine occasion. If Navarre and [name 176] (probably Lesdiguières,
    whose army stood in Piedmont) were [Catholics?], they could hope to raise the State of Milan, very ill content
    with Spain, and to take it with ease, because [name 176] has an army that is much feared in [a place that is
    not read].
 2. The death of [name 122] would add to this. But the heresy of the King and of [name 176] makes such fine
    enterprises not only hard but impossible.
-3. Navarre does not show himself as prudent as his own good asks, because he still perseveres stubbornly in his
-   heresy, to the fourth year. If he had left it on the first day of his reign, he would be not only a king at
-   peace in France: there would be hope of the monarchy that Cardano foretells, of which Badalocchio wrote in his
-   letters of December, number 47.
-4. The Duke is on the spot and has authority. So he must make the king a good and vigorous remonstrance, with
+3. Navarre does not show himself as prudent as one would wish of a man who [..] his own good, because he still
+   perseveres stubbornly in his heresy, to the fourth year. If he had left it on the first day of his reign, he
+   would be not only a king at peace in France: there would be hope of the monarchy that Cardano foretells, of which
+   Badalocchio wrote in his letters of December, number 47(?).
+4. The Duke is on the spot and has authority. So he must make [the king?] a good and vigorous remonstrance, with
    reasons beyond the loss of the soul: with a rising in Milan and the support of a King of France of such worth,
    Naples and Sicily would not stay in line,
 5. for the ill treatment by Spain. God knows when so fine an occasion will come again.
@@ -260,15 +278,15 @@ guess for the sense.
 > da esseguirsi veramente.
 >
 > Navara non si mostra prudente come disiderarebbe da chi [2 2 2] c s se il ben suo, se [138] poi che pure
-> stinatamente persevera nella sua heresia fin al quarto anno, la qual se egli havesse lasciata il primo giorno
+> stinatamente persevera nella sua heresia fin al q[u]arto anno, la qual se egli havesse lasciata il primo giorno
 > del suo regno, sarebbe non solo re pacifico in Francia, ma con r a si [145] speranza che da lui nascesse r e l
-> la monarchia che predice il Cardano dovere in quel tempo(?) nascere, della qual io le scrissi per mie lettere
+> la monarchia che predice il Cardano dovere in quel tempo(?) nascere, della qual io le scrissi per mie let[t]ere
 > del giorno [xij?] di dicembre segnate col numero di [47?].
 >
 > Ella che si trova presente et con autorità, le ne deve far una buona et gagliarda rimostranza con quel(?) così
 > efficaci ragioni, oltra la perdita del anima; et se si vedesse solevatione ne lo stato di Milano con l'appogio
 > di un Re di Francia di tanto(?) valore, [245: quando or quanto] è che Napoli et Sicilia non starebbono a segno
-> per li mali trattamenti di Spagna, [u i u] Dio sa [245: quando?] si presentarà già mai così bella occasione.
+> per li mali trattamenti di Spagna, [u i u] Dio sa [245: quando?] si presentarà già mai così bella occa[si]one.
 > [34 groups without sense: probably filler]
 
 In English:
@@ -285,16 +303,17 @@ In English:
 > monarchy which Cardano foretells must be born in that time(?), of which I wrote to you in my letters of the
 > [12th?] day of December, marked with the number [47?].
 >
-> You, who are on the spot and with authority, must make him a good and vigorous remonstrance about it, with
+> You, who are on the spot and with authority, must make [him?] a good and vigorous remonstrance about it, with
 > [those?] reasons so effective, beyond the loss of the soul; and if a rising were seen in the State of Milan
 > with the support of a King of France of such(?) worth, [..] Naples and Sicily would not stay in line, for the
 > ill treatment by Spain. [..] God knows when(?) so fine an occasion will ever come again.
 
 ### f. 83r, 6 February 1593: one passage
 
-One cipher passage stands in the clear letter of 6 February 1593. It was the held-out passage of the first page.
-With the key of today, 28 of its 29 groups have a value: "Non le sc[r]ive il [sign] di Pavia per le cose di
-Navara". The figures have one transcription pass. The sign after "il" is not read. See
+One cipher passage stands in the clear letter of 6 February 1593: 53 figures and one sign. It was the held-out
+passage of the first page. With the key of today, 28 of its 29 groups have a value: "Non le sc[r]ive il [sign] di
+Pavia per le cose di Navara". **It is no longer a held-out test:** it helped to fix the groups 229 and 239 (then
+29 and 39). The figures have one transcription pass. The sign after "il" is not read. See
 [evidence/heldout_f83r.md](evidence/heldout_f83r.md).
 
 ## The names
@@ -306,8 +325,8 @@ outside the cipher; **open** = two persons or more.
 
 | Group | Places | The sentence | Our guess | Grade |
 |---|---|---|---|---|
-| .195 | f. 85r lines 8, 10 | "vogliono far la ... regina di Francia"; "la corona di Francia appartenersi a detta ..." | The Infanta of Spain (Isabella Clara Eugenia) | **Settled as a person.** The word of the key is not known |
-| .143 | f. 85r lines 5, 15 | "le cose che dovea trattare il ..."; "come hanno impedita quella di ..." | Cardinal Gondi | **Probable** |
+| .195 | f. 85r lines 8, 10 | "vogli[o]no far la ... regina di Francia"; "la corona di Francia appartenersi a detta ..." | The Infanta of Spain (Isabella Clara Eugenia) | **Settled as a person.** The word of the key is not known |
+| .143 | f. 85r lines 5, 15 | "le cose che dovea trattare il ..."; "come hanno impedita quell[a] di ..." | Cardinal Gondi | **Probable** |
 | .144 | f. 85r line 15 | "la venuta del ... Sforza" | The word "Cardinale" | **Probable** |
 | .124 | f. 85r line 6 | "vien ad instanze del ..., qual aiuta il negotio" | The Grand Duke of Tuscany | **Probable.** No book names him for these weeks |
 | .122 | f. 80r line 4 | "avenendo la morte del ..." | The King of Spain | **Probable** |
@@ -402,35 +421,44 @@ Details: [evidence/audit.md](evidence/audit.md). Each control has its number and
 5. **The cut rule against rival rules.** Figures left over or forced into a group with no value: on f. 85r the
    old rule leaves 60, the new rule 2; on f. 65r 3 and 0; on f. 80r 44 and 28. The share of the letters that
    stand inside dictionary words of four letters or more rises from 56 to 72 % (f. 85r), from 37 to 54 % (f. 65r)
-   and from 58 to 66 % (f. 80r). Real Italian of this writer gives 67 to 72 % by the same measure.
+   and from 58 to 66 % (f. 80r). Real Italian of this writer gives 67 to 72 % by the same measure. 200 keys with
+   shuffled values give 36 % in the mean and 47 % at best (audit, part 3).
    *Limits:* two rival rules for the lone 2 score as well as ours (71.5 and 70.1 % on f. 85r). The measure cannot
-   tell them apart. The word list is not in this repository. The numbers are of 11 October, with the group 167 as a
-   group with no value. We did not compute them again.
+   tell them apart. The numbers are of 11 October, with the group 167 as a group with no value. **These numbers
+   cannot be rerun from the repository:** the audit's script and its word list (words of 2 letters or more) are not
+   in it. The panel's script of 14 October 2026 (`evidence/score.py`, with `evidence/wordlist_it.txt`) gives, with
+   words of 4 letters or more, 71.8 % (f. 85r) and 54.3 % (f. 65r), as here, and 68.2 % (f. 80r, with 167 = fosse).
 6. **Shuffled keys.** The four-letter score of the cipher runs of f. 85r and f. 65r is -4.148 on 510 windows.
    Real Italian scores -4.14 in the median. 2,000 keys with shuffled values score -5.637 in the mean and -5.072
    at best. The key is 8.5 standard deviations above the mean. The true key on 2,000 shuffled orders of the
    groups: mean -5.253, best -5.025; the true order is 17.5 standard deviations above. For f. 80r the audit gives
    -4.01 with the new cut and -4.16 with the old one.
-   *Limits:* the table of Italian four-letter groups is not in this repository. `decode.py` does not repeat the
-   scores. The scores of our first page (-4.18; 8.3 and 21.2 standard deviations) belong to the old cut. The
+   *Limits:* the audit's script is not in the repository, so **these numbers cannot be rerun from it.** `decode.py`
+   does not repeat the scores. The panel's `evidence/fourgram.py` makes its table from the six Italian texts of
+   Project Gutenberg in `../nevers-1593/evidence/it_letters.txt`. With today's files it gives -4.049 on 510 windows,
+   8.3 standard deviations above the shuffled keys and 14.6 above the shuffled orders, and -4.004 for f. 80r: the
+   same direction, other numbers. On today's files the audit's own table gives the same -4.049 (our check of 14
+   October 2026), so the difference comes from the audit's script. The scores of our first page (-4.18; 8.3 and 21.2 standard deviations) belong to the old cut. The
    scores of f. 80r are of 11 October, before the group 167 had a value.
 7. **The halves of f. 85r.** The letters, the words of the first page and the new values that stand in lines 5 to
    13 give 279 of the 289 groups of lines 14 to 25 and of f. 65r (96.5 %). The reverse gives 246 of 270 (91.1 %).
    *Limits:* the key was made on the whole page. "Stands in a half" means only that the group occurs there.
 8. **The cipher runs that complete their clear sentences.** f. 85r has 11 cipher runs between clear words, and
-   f. 65r has 2. **13 of 13 join the clear words at both ends. 11 make a full sentence** (the names stay numbers).
-   2 do not: "e o s t i" in line 11, and the run that ends with 169 in line 12. Three of the 11 have a doubt
-   inside. With the key and the cut of the first page: 0 of 13 complete.
+   f. 65r has 2. **13 of 13 join the clear words at both ends. 10 make a full sentence** (the names stay numbers).
+   One more, in line 13, makes sense, but its verb is not read ("si [289] far"). 2 do not: "e o s t i" in line 11,
+   and the run that ends with 169 in line 12. Two of the 10 have a doubt inside ("f u s t" in line 8, "f i" in
+   line 23). With the key and the cut of the first page: 0 of 13 complete.
    *Limits:* "a full sentence" is the judgement of the reader. The clear words are one reading from tiles.
 9. **Two transcription passes for each letter.** f. 85r: pass A has 949 figures and signs, pass B (blind) has 920;
    906 are the same (97.0 %); pass B and the settled text agree in 916 (99.6 %). f. 65r: 72 of 72. f. 80r: 1,561
    of 1,595 places (97.9 %).
-   *Limits:* pass A was not blind to the sense on any letter. Pass A of f. 85r has 29 figures too many. On
+   *Limits:* pass A was not blind to the sense on any letter. Pass A of f. 65r knew three points of pass B before
+   it was written. Pass A of f. 85r has 29 figures too many. On
    f. 85r four places of the settled text differ from the blind pass, and the sense guided the choice in at least
    two of them.
 10. **The facts, against the same writer.** Two period decipherments of other cipher letters of Badalocchio, and
     his clear letter of 9 January, treat the same matter in the same words. f. 80r has "persevera nella sua
-    heresia fin al quarto anno"; the decipherment of 11 December has "Volge il quarto anno" and "persevera
+    heresia fin al q[u]arto anno"; the decipherment of 11 December has "Volge il quarto anno" and "persevera
     heretico". f. 85r has the Pope's demand "che ella si ritirasse dal Navara"; the decipherment of 6 February has
     "me rispose che lasci Navara", and Badalocchio's answer "quello ch'altra volta gli ho detto".
     *Limits:* these are not decipherments of our letters. They support the sense. They do not test single groups.
@@ -462,6 +490,47 @@ Details: [evidence/audit.md](evidence/audit.md). Each control has its number and
 The first blind audit of 11 October (10 of 10 hidden values restored) had the old cut. Its summary is in
 [evidence/blind_audit.md](evidence/blind_audit.md).
 
+## The mechanical score (14 October 2026)
+
+PROTOCOL rule 8 of this project asks for a mechanical score beside every hand count. The review panel of 14 October
+2026 made it. The score is the share of the decoded letters that stand inside words of an Italian word list, words
+of 3 letters or more; a group with no value and the end of a cipher run break a word. The controls are the same
+pipeline on 200 keys with the values shuffled within each table and on 200 orders with the groups shuffled within
+each run; "clear Italian" is windows of the same length from the writer's clear letter of f. 79r-v and the clear
+words of f. 85r and f. 65r (our own readings, not editions).
+
+| Text | Letters | Real score | Best of 400 controls | Clear Italian, median |
+|---|---|---|---|---|
+| f. 85r, the cipher runs | 557 | **83.5 %** | 62.7 % | 83.7 % (range 77.6 to 89.4 %) |
+| f. 65r, the two runs | 46 | **89.1 %** | 73.9 % | 80.4 % (range 45.7 to 100.0 %) |
+| f. 80r, the sheet | 1,034 | **85.3 %** | 61.7 % | 83.2 % (range 80.5 to 88.0 %) |
+| The three letters together | 1,637 | **84.8 %** | 60.9 % | 83.8 % (range 81.9 to 85.4 %) |
+| Held out: the key of our first page (made on f. 80r alone) on f. 85r and f. 65r | 415 | **75.9 %** | 44.4 % | 83.1 % |
+| Held out: the key of the Duke's minute (nevers-1593) on f. 80r | 552 | **57.4 %** | 27.0 % | 83.9 % |
+
+- The real decode beats all 400 controls in every row. With words of 4 letters or more it beats them all too, but on
+  f. 65r only just: 54.3 % against 53.4 %.
+- **Beside the hand counts.** The groups that carry text and stand inside such words: 300 of 383 on f. 85r (78.3 %;
+  the hand count is 94 %), 32 of 37 on f. 65r (the hand count: 36 of 37), 636 of 778 on f. 80r (81.7 %; the hand
+  count is 92 %). Most of the gap is old spelling that a modern word list does not have. The writer's own clear
+  Italian scores only about 84 % by the same measure.
+- The index of coincidence is 0.074 to 0.076, in the Italian range. But 16 to 34 of 200 shuffled keys give a higher
+  one on each letter, so it is no test here.
+- *Limits:* f. 65r is short (46 letters): windows of clear Italian of this length score from 45.7 to 100 %. The
+  clear Italian of the positive control is our own reading. The held-out row of the first page uses the cut of
+  today, which the new key made.
+- The word list is `evidence/wordlist_it.txt`: 20,607 word forms of six public-domain Italian texts of Project
+  Gutenberg, seen 2 times or more. It is free to publish. `evidence/make_corpus.py` names the texts and rebuilds
+  the list. The list was made from the whole files, so 603 of its forms are English words of the Gutenberg header
+  and licence. Without them, the real scores change by 0.004 or less, and each still beats all 400 controls.
+- To rerun: `python3 evidence/score.py`, and in the same way `heldout_score.py`, `group_cover.py`, `ic_rank.py` and
+  `fourgram.py` (control 6). Their outputs are in `evidence/` (`score_output.txt` and the other `*_output.txt`
+  files). The scripts are the panel's, with the paths changed. They need the folder nevers-1593 of this repository
+  too.
+- **What the controls of this folder still lack.** The readings came before the PROTOCOL of 14 October 2026. No
+  success rule was written before the scoring, and the shuffle controls have no random texts of the same length and
+  value distribution.
+
 ## What stays open
 
 - **All names.** A list of the Duke's cipher names would settle them. So would the cipher originals of the two
@@ -479,8 +548,8 @@ The first blind audit of 11 October (10 of 10 hidden values restored) had the ol
 
 What would settle it:
 
-- Images of BnF fr. 4718, ff. 6 to 11. Then fr. 4718 no. 3 with fr. 3982 ff. 194r-195r is a known plaintext of 63
-  lines for this cipher.
+- Images of BnF fr. 4718, ff. 6 to 11. If fr. 4718 no. 3 is the cipher original of fr. 3982 ff. 194r-195r, as we
+  think, the two make a known plaintext of 63 lines for this cipher.
 - BnF fr. 4701, f. 63 bis, and the key sheet of the cipher that Badalocchio sent in September 1592, if it
   survives.
 - Paruta's dispatches from Rome of December 1592 and January 1593 in the edition of 1887 (*La legazione di Roma*,
@@ -519,14 +588,32 @@ What would settle it:
   as a guess for the sense of line 1 only. No name is read from the cipher. The key still has no value for any
   name.
 
+- **14 October 2026: a review panel.** A panel of three skeptics (reproduce, novelty, criterion) and a skeptic of
+  another model family (Codex, two runs) checked this page. Every word printed from cipher is what the groups give
+  by the key; seven fills had no mark, and now have one. We corrected:
+  - f. 65r line 4: the page has "non gravi", not "non grava"; the English "is no less" is gone.
+  - f. 80r, sentence 1: "the troubles of the Spanish lands" are in the clear letter; now "Here is a fine occasion."
+  - f. 83r is no longer a held-out test; it has 53 figures and one sign.
+  - Control 8: 10 runs make a full sentence, not 11.
+  - S. Tomokiyo did not read the endorsement of key no. 56; its link to Badalocchio is ours.
+  - What we checked of G. Cassiani, and the works of his that we did not open.
+  - New: the mechanical score; the older numbers of controls 5 and 6 cannot be rerun from the repository.
+  - "Known to us"; fr. 4718 no. 3 is a plaintext only if it is the original; the catalogue's words on fr. 4718.
+  - Small: the seven fills; line 24 "because"; "[the king?]"; "47(?)"; "stareb··bono"; 708 to 711; the cut; pass A
+    of f. 65r; the spaces of f. 85r.
+
 ## Earlier work
 
-Searched on 11 October 2026. We found no reading of f. 85r, f. 65r or f. 80r by another hand.
+Searched on 11 October 2026, and again on 14 October 2026 by the review panel. We found no reading of f. 85r,
+f. 65r or f. 80r by another hand.
 
 - **G. Cassiani, 2014 and 2016.** His two articles describe Badalocchio's work in Rome and the letters of Tommaso
-  Bozio and the Duke (the references are in [nevers-1593](../nevers-1593/)). Of fr. 4700 he cites f. 67r, f. 72r-v
-  (the minute), ff. 89r-v and 100r (Capilupi), and f. 109r-v. **He does not cite f. 85, f. 65 or ff. 79-80.** He
-  quotes no cipher and no reading of cipher.
+  Bozio and the Duke (the references are in [nevers-1593](../nevers-1593/)). On 14 October 2026 we searched the full
+  texts of both (2014, pp. 387-410; 2016, pp. 241-258) for the words of cipher (cifra, zifera, crittograf-, decifr-,
+  codice), for runs of figures and for the folios of fr. 4700. Of fr. 4700 he cites f. 67r, f. 72r-v (the minute),
+  ff. 89r-v and 100r (Capilupi), and f. 109r-v. **He does not cite f. 85, f. 65 or ff. 79-80.** He describes the
+  cipher (the key that Bozio kept, the cipher text of fr. 4687 f. 89r, the cipher passages of the minute). He quotes
+  no figure of a cipher and no reading of cipher.
 - **How f. 85r stands to f. 67r.** G. Cassiani cites the clear letter of 5 December 1592 on f. 67r, for its news
   of Tarugi and of the archbishopric of Avignon. f. 85r bears the same date. By our inventory they are **two
   letters of the same day**: f. 67 is one leaf, clear, about 14 lines, with its own date line and its own address
@@ -540,22 +627,36 @@ Searched on 11 October 2026. We found no reading of f. 85r, f. 65r or f. 80r by 
   of f. 80r, f. 85r, or the runs of f. 65r and f. 83r: for these we found none.
   See [evidence/period_decipherments.md](evidence/period_decipherments.md).
 - **D. Bourdeau.** His [cyphersolver](https://github.com/dbourdeau/cyphersolver) has one line that lists fr. 4700
-  nos. 38-46 among the letters to do. It has no reading of them. We copied nothing from it.
+  nos. 38-46 among the letters to do ("Nevers key no. 35"). It has no reading of them. We copied nothing from it.
+  Since 13 October 2026 it also holds G. Lasry's solution of another letter of fr. 4700 (Gondi to Nevers, 15 May
+  1594, ff. 9r-10r), which is a symbol cipher and not ours.
 - **S. Tomokiyo** described the cipher keys of the Duke of Nevers in BnF fr. 3995
-  ([Cryptiana, "Ciphers of the Duke of Nevers"](https://cryptiana.web.fc2.com/code/nevers.htm)). The older key of
-  Badalocchio is his no. 56. A note on the back of that key says that it was replaced in September 1592. The
-  folder [nevers-1593](../nevers-1593/) gives the note and the reasons why the cipher of 1593 is another one.
-  His pages, as far as we had them saved, do not name Badalocchio's letters of fr. 4700.
+  ([Cryptiana, "Catalogue of Ciphers (Mainly Related to Duke of Nevers) in BnF fr.3995"](https://cryptiana.web.fc2.com/code/nevers.htm)).
+  He listed and described the older key of Badalocchio as Nevers cipher no. 56 (fol. 100), and he could not read
+  its endorsement. The reading of the endorsement as a cipher of Badalocchio, replaced in September 1592, is ours,
+  from one image. The folder [nevers-1593](../nevers-1593/) gives the note and the reasons why the cipher of 1593
+  is another one. His pages (read again on 14 October 2026) hold no earlier reading of these leaves. His list of
+  Lasry's solutions names fr. 4700 for another letter (Gondi to Nevers, ff. 9r-10r), and it records our notice of
+  12 October 2026.
+- **The same type of cipher, with another key:** S. Tomokiyo's continuous-figure ciphers of 1593 (Cryptiana,
+  `variable.htm`; *Cryptologia* 43(1), 2019), with single figures for vowels and nulls.
 - `NoAutopilot/cipher-lab`: no work on fr. 4700.
+- **Checked again on 14 October 2026 by the panel:** S. Tomokiyo (Cryptiana, all Nevers pages), D. Bourdeau
+  (README, catalogue, site, file tree), cipher-lab, `el-descifrador/cabinet-noir`, A. Aymeloglu, Satoru and
+  Cryptoole (847 records), Lasry's list, HistoCrypt 2024 and 2025, L'Epinois (1886), Pastor vol. XXIII, and
+  G. Cassiani's "Il caso Volta" (*Quaderni eretici* 5, 2017). No earlier reading of these letters.
 
 **Not opened, or not seen:**
 
 - BnF fr. 4718, ff. 6 to 11, and fr. 4701, f. 63 bis: not online. A period decipherment of one of our letters can
   exist there, or on a leaf that the catalogue does not name.
 - The volumes fr. 3982 and fr. 3983, page by page. We went to the numbers of the catalogue.
-- Cassiani's later articles on the same letters (2017, 2018, 2020).
-- The lists of `el-descifrador/cabinet-noir`, of Satoru and of A. Aymeloglu.
-- The full-text search of Gallica and of Google Books. The newest pages of S. Tomokiyo.
+- G. Cassiani's *Annales Oratorii* XV (2017), *Journal of Baroque Studies* 2 (2018, "On a Mission for the Duke of
+  Nevers"), *Rivista di storia e letteratura religiosa* LV (2019, on Jean Du Bois), *Nuova Rivista Storica* (2020;
+  only its abstract was read), his piece on Badalocchio's globes (*Accademie e biblioteche d'Italia* XII, 2017), and
+  his book on Bozio (2022), which treats Badalocchio. Any of them may quote a cipher passage.
+- The BnF notices of fr. 4700 and fr. 4718; the papers of HistoCrypt 2026, one by one.
+- The full-text search of Gallica and of Google Books.
 - A printed edition that is not online can exist.
 
 ## Contents
@@ -576,6 +677,8 @@ Searched on 11 October 2026. We found no reading of f. 85r, f. 65r or f. 80r by 
 | `evidence/changes_f80r.txt` | The 72 places of f. 80r where the groups or the values changed |
 | `evidence/period_decipherments.md` | The two period decipherments of other letters, and what they prove |
 | `evidence/clear_letter_f79.md` | The clear letter of f. 79r-v: our transcription. A reading by a model, not an edition |
+| `evidence/score.py`, `heldout_score.py`, `group_cover.py`, `ic_rank.py`, `fourgram.py` | The mechanical score of the review panel of 14 October 2026, with its controls, and the rebuild of control 6; each has its output beside it (`*_output.txt`) |
+| `evidence/wordlist_it.txt`, `evidence/make_corpus.py` | The Italian word list of the score, from six public-domain texts of Project Gutenberg, and the script that rebuilds it |
 | `evidence/worklog.md`, `evidence/blind_audit.md`, `evidence/blind_audit/`, `evidence/heldout_f83r.md` | The records of the first page, with the old cut. Each has a note at its head |
 | `images/line01.jpg` to `line18.jpg`, `f80r_sheet.jpg`, `f79v_date.jpg`, `f83r_cipher.jpg` | f. 80r: the 18 cipher lines, the sheet (reduced), the date of the clear letter; the passage of f. 83r |
 | `f085r/images/line01.jpg` to `line29.jpg`, `f85r_page.jpg` | f. 85r: the 28 lines and the first line of the signature, and the page (reduced) |
@@ -587,8 +690,8 @@ All images are cut from tiles of the Gallica scans. The source is "gallica.bnf.f
 
 - **Gennaro Cassiani** described the work of Vincenzo Badalocchio in Rome and the letters of Tommaso Bozio and
   the Duke of Nevers (2014, 2016).
-- **Satoshi Tomokiyo** described the cipher keys of the Duke of Nevers in BnF fr. 3995, with the older key of
-  Badalocchio.
+- **Satoshi Tomokiyo** described the cipher keys of the Duke of Nevers in BnF fr. 3995, among them no. 56, which
+  this project reads as Badalocchio's older key.
 - **Daniel Bourdeau** listed fr. 4700 nos. 38-46 as letters to do.
 - **Bibliothèque nationale de France / Gallica** provides the page images. The Internet Archive provides the
   texts of the printed books.

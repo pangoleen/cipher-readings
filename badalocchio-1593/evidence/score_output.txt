@@ -1,0 +1,24 @@
+word list: wordlist_it.txt, 20607 forms (seen >= 2 times, >= 3 letters)
+controls: 200 shuffled keys (values shuffled within each table) + 200 shuffled orders (groups shuffled within each passage); seed 1014
+NOTE: a group shuffle keeps the multiset of decoded letters, so it cannot change IC; IC is tested by the key shuffles only.
+positive-control texts: Nevers clear f. 72r without the two passages: 1787 letters; Badalocchio clear f. 79r-v + clear words of f. 85r and f. 65r: 5280 letters
+--- Nevers 1593 f. 72r, both passages (word list A); decoded letters 139
+  cov3: real 0.727 | shuffled keys mean 0.195 best 0.381 | shuffled order mean 0.322 best 0.496 | real beats all 400 controls: True | positive control (24 windows of clear text): median 0.878 [0.777, 0.921]
+  cov4: real 0.561 | shuffled keys mean 0.054 best 0.173 | shuffled order mean 0.102 best 0.266 | real beats all 400 controls: True | positive control (24 windows of clear text): median 0.705 [0.540, 0.791]
+  ic: real 0.077 | shuffled keys mean 0.072 best 0.096 | shuffled order mean 0.077 best 0.077 | real beats all 400 controls: False | positive control (24 windows of clear text): median 0.074 [0.069, 0.082]
+--- Badalocchio f085r (word list A); decoded letters 557
+  cov3: real 0.835 | shuffled keys mean 0.512 best 0.606 | shuffled order mean 0.559 best 0.627 | real beats all 400 controls: True | positive control (17 windows of clear text): median 0.837 [0.776, 0.894]
+  cov4: real 0.718 | shuffled keys mean 0.361 best 0.481 | shuffled order mean 0.354 best 0.425 | real beats all 400 controls: True | positive control (17 windows of clear text): median 0.697 [0.558, 0.786]
+  ic: real 0.075 | shuffled keys mean 0.069 best 0.086 | shuffled order mean 0.075 best 0.075 | real beats all 400 controls: False | positive control (17 windows of clear text): median 0.075 [0.072, 0.079]
+--- Badalocchio f065r (word list A); decoded letters 46
+  cov3: real 0.891 | shuffled keys mean 0.463 best 0.698 | shuffled order mean 0.511 best 0.739 | real beats all 400 controls: True | positive control (228 windows of clear text): median 0.804 [0.457, 1.000]
+  cov4: real 0.543 | shuffled keys mean 0.311 best 0.534 | shuffled order mean 0.227 best 0.478 | real beats all 400 controls: True | positive control (228 windows of clear text): median 0.652 [0.196, 0.957]
+  ic: real 0.074 | shuffled keys mean 0.066 best 0.109 | shuffled order mean 0.074 best 0.074 | real beats all 400 controls: False | positive control (228 windows of clear text): median 0.072 [0.053, 0.109]
+--- Badalocchio f080r (word list A); decoded letters 1034
+  cov3: real 0.853 | shuffled keys mean 0.525 best 0.617 | shuffled order mean 0.508 best 0.558 | real beats all 400 controls: True | positive control (9 windows of clear text): median 0.832 [0.805, 0.880]
+  cov4: real 0.682 | shuffled keys mean 0.371 best 0.503 | shuffled order mean 0.269 best 0.333 | real beats all 400 controls: True | positive control (9 windows of clear text): median 0.693 [0.619, 0.759]
+  ic: real 0.076 | shuffled keys mean 0.069 best 0.086 | shuffled order mean 0.076 best 0.076 | real beats all 400 controls: False | positive control (9 windows of clear text): median 0.074 [0.074, 0.076]
+--- Badalocchio f085r+f065r+f080r (word list A); decoded letters 1637
+  cov3: real 0.848 | shuffled keys mean 0.519 best 0.609 | shuffled order mean 0.525 best 0.582 | real beats all 400 controls: True | positive control (5 windows of clear text): median 0.838 [0.819, 0.854]
+  cov4: real 0.690 | shuffled keys mean 0.366 best 0.478 | shuffled order mean 0.297 best 0.363 | real beats all 400 controls: True | positive control (5 windows of clear text): median 0.684 [0.657, 0.715]
+  ic: real 0.075 | shuffled keys mean 0.069 best 0.086 | shuffled order mean 0.075 best 0.075 | real beats all 400 controls: False | positive control (5 windows of clear text): median 0.075 [0.074, 0.075]

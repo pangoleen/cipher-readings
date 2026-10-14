@@ -11,7 +11,7 @@ they do not prove. It is a report by a model, from images of Gallica. The quotes
 | 5 December 1592 | BnF fr. 4700 f. 85r (17 lines with figures) | **None found** |
 | 11 December 1592 | fr. 4700 f. 65r (two short runs in a clear letter) | **None found for the two runs.** A decipherment exists for the separate cipher letter of that day, which f. 65r calls "l'altra in cifra": **fr. 3982 no. 96, ff. 194r-195r** |
 | 9 January 1593 | fr. 4700 f. 80r (the cipher sheet) | **None found** |
-| 6 February 1593 | fr. 4700 f. 83r (one passage of 54 figures in a clear letter) | **None found for the passage.** A decipherment exists for a separate cipher letter of that day: **fr. 3983 no. 35, ff. 74r-75r** |
+| 6 February 1593 | fr. 4700 f. 83r (one passage of 53 figures and one sign in a clear letter) | **None found for the passage.** A decipherment exists for a separate cipher letter of that day: **fr. 3983 no. 35, ff. 74r-75r** |
 
 "None found" has limits:
 
@@ -57,5 +57,5 @@ on the pages are 194, 195 and 74, 75.
   anno", "persevera", "l'anima", the demand that the Duke leave Navarre, and his answer about the wrongs done to
   him. [audit.md](audit.md), part 5.1, has the table.
 - **They do not test single groups.**
-- **What would make them a full test:** images of fr. 4718 ff. 6 to 11. Then fr. 4718 no. 3 with fr. 3982
-  ff. 194r-195r is a known plaintext of 63 lines for this cipher.
+- **What would make them a full test:** images of fr. 4718 ff. 6 to 11. If fr. 4718 no. 3 is the cipher original
+  of fr. 3982 ff. 194r-195r, as we think, the two make a known plaintext of 63 lines for this cipher.

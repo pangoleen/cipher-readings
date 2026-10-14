@@ -306,6 +306,42 @@ def gh(folder, path, text=None):
     return '<a href="%s/blob/main/%s/%s"><code>%s</code></a>' % (REPO, folder, path, text or path)
 
 
+def mech(folder):
+    """the mechanical score of the review panel (PROTOCOL rule 8), read from the outputs in FOLDER/evidence/:
+    name -> (letters, real cov3, best of the 400 controls, real beats all, clear Italian median)"""
+    out = {}
+    for f in ('score_output.txt', 'heldout_score_output.txt'):
+        name = None
+        for l in rd(folder + '/evidence/' + f).splitlines():
+            m = re.match(r'--- (.*?) \(word list A\); decoded letters (\d+)$', l)
+            if m:
+                name, n = m.group(1), int(m.group(2))
+            m = re.match(r'  cov3: real ([\d.]+) \| shuffled keys mean [\d.]+ best ([\d.]+) \| shuffled order mean [\d.]+ best ([\d.]+) '
+                         r'\| real beats all 400 controls: (\w+) \| positive control .*?median ([\d.]+)', l)
+            if m and name:
+                out[name] = (n, float(m.group(1)), max(float(m.group(2)), float(m.group(3))), m.group(4) == 'True', float(m.group(5)))
+    return out
+
+
+def pct(x):
+    return '%.1f %%' % (100 * x)
+
+
+def mech_rows(page_id, raw, title, names, MECH):
+    """the rows of the README table under TITLE must give the numbers of the outputs; returns the rows"""
+    m = re.search(r'^## %s\n(.*?)(?=^## |\Z)' % re.escape(title), raw, re.S | re.M)
+    check(page_id, m is not None, 'README has the part "%s"' % title)
+    rows = [[c.strip() for c in l.strip().strip('|').split('|')] for l in (m.group(1) if m else '').splitlines() if l.startswith('| ')]
+    rows = [r for r in rows if r[0] != 'Text']
+    check(page_id, [r[0] for r in rows] == [lab for lab, n in names], 'README: the table of the mechanical score has %d rows' % len(names))
+    for (lab, n), r in zip(names, rows):
+        v = MECH[n]
+        ok = v[3] and r[1] == '{:,}'.format(v[0]) and r[2] == '**%s**' % pct(v[1]) and r[3] == pct(v[2]) and r[4].startswith(pct(v[4]))
+        check(page_id, ok, 'README, mechanical score, "%s": %s, best control %s, clear Italian %s, as in the output files' % (
+            lab, pct(v[1]), pct(v[2]), pct(v[4])))
+    return rows
+
+
 # ---------------------------------------------------------------- oxford-1646
 
 def oxford():
@@ -1678,10 +1714,14 @@ def nevers():
         check(P, seen.get(L) == len(t), '%s: every group of the line is on the page' % L)
     r1 = quoted(P, F + '/reading.md', 'se c pa·[?]pa(?)· uolese mandar a neu·ers un suo· confidente io gli faria saper tu·to che desideraria')
     r2 = quoted(P, F + '/reading.md', 'di qel tale che u·enise peche sarebe spesato da mi n tuto· e tenu·tolo mo·lt secreto')
-    n1 = quoted(P, F + '/reading.md', 'se [c] papa(?) volesse mandar a Nevers un suo confidente, io gli faria saper tutto che desideraria.')
+    n1 = quoted(P, F + '/reading.md', 'se c pa[?]pa(?) volesse mandar a Nevers un suo confidente, io gli faria saper tutto che desideraria.')
     n2 = quoted(P, F + '/reading.md', 'di quel tale che venisse, pe[r]ché sarebbe spesato da me in tutto, e tenutolo molt[o] secreto.')
-    e1 = quoted(P, F + '/reading.md', 'if [c] the Pope(?) would send to Nevers a confidant of his, I would let him know all that he would wish.')
-    e2 = quoted(P, F + '/reading.md', 'for the man who came, because I would pay all his costs, and he would be kept very secret.')
+    e1 = quoted(P, F + '/reading.md', 'if [not resolved; perhaps the Pope] would send to Nevers a confidant of his, I would let him know all that he would wish.')
+    e2 = quoted(P, F + '/reading.md', 'for the man who would come, because I would pay all his costs, and he would be kept very secret.')
+    check(P, not re.search(r'the Pope\(\?\) would send|who came,|\[c\] pa', rd(F + '/reading.md') + raw),
+          'README and reading.md: the Pope is not a sure subject, "the man who would come", and the c of the page has no brackets')
+    check(P, '**The subject of passage 1 is not resolved.**' in readme and 'So the English does not make the Pope the subject.' in readme,
+          'README says that the subject of passage 1 is not resolved, and why')
     for s in (r1, r2, n1, n2, e1, e2):
         check(P, collapse(s) in readme, 'README has: "%s"' % s[:60])
     compare(P, 'passage 1', ' '.join(keytext(G[n]) for n, u in SEG if n.startswith('B1')), r1, [])
@@ -1706,6 +1746,42 @@ def nevers():
     n2g, read2, text2, new2 = dec.block1_key_on_block2(lines, KEY)
     check(P, (read2, n2g) == (61, 65) and new2 == ['43', '83', '99'], 'the key of passage 1 reads 61 of the 65 letter groups of passage 2')
 
+    # ---- the mechanical score of the review panel of 14 October 2026 (PROTOCOL rule 8), from the outputs in evidence/
+    M = mech(F)
+    mech_rows(P, raw, 'The mechanical score (14 October 2026)',
+              [('Both passages of the minute, by our key', 'Nevers 1593 f. 72r, both passages'),
+               ('Held out: the key of passage 1 on passage 2', 'H0: key of minute passage 1 only, on passage 2'),
+               ('Held out: the key of the minute alone on f. 80r', 'H1: Nevers minute key on f. 80r')], M)
+    mn, mh = M['Nevers 1593 f. 72r, both passages'], M['H1: Nevers minute key on f. 80r']
+    solver = [float(x) for x in re.findall(r'shuffled order \d+: cov3 ([\d.]+)', rd(F + '/evidence/solver_output.txt'))]
+    srange = '%.1f to %.1f %%' % (100 * min(solver), 100 * max(solver))
+    check(P, len(solver) == 10 and min(solver) > mn[1] and 'reaches %s on 10\n  shuffled orders' % srange in raw,
+          'README: a free solver reaches %s on 10 shuffled orders, more than our key (solver_output.txt)' % srange)
+    gc = re.search(r'Nevers f\. 72r, words of 3\+ letters: (\d+) of (\d+) groups that carry text \(([\d.]+) %\)', rd(F + '/evidence/group_cover_output.txt'))
+    check(P, gc and '%s of the %s groups that carry text (%s %%)' % gc.groups() in readme, 'README: the groups inside words, as in group_cover_output.txt')
+    icm = re.search(r'Nevers: real IC ([\d.]+); (\d+) of 200 shuffled keys have a higher IC', rd(F + '/evidence/ic_rank_output.txt'))
+    check(P, icm and 'The index of coincidence is %.3f' % float(icm.group(1)) in readme and '%s of the 200\n  shuffled keys give a higher one' % icm.group(2) in raw,
+          'README: the index of coincidence and its rank, as in ic_rank_output.txt')
+    check(P, 'Of the 552 letters that the key of the minute gives on the sheet, %s stand inside' % pct(mh[1]) in readme and mh[0] == 552
+          and 'The best of 400 controls scores %s' % pct(mh[2]) in readme and 'The key of the minute has no value for 249 of the 819 groups' in readme,
+          'README, the control from outside: the held-out score %s against %s, with its limits' % (pct(mh[1]), pct(mh[2])))
+    check(P, '7.9 standard deviations above' not in readme and 'It reads Italian there at once' not in readme,
+          'README: the old score of the key as completed on the sheet, and the old list of words, are gone from the control from outside')
+    check(P, all(os.path.exists(os.path.join(ROOT, F, 'evidence', f)) for f in (
+        'score.py', 'heldout_score.py', 'group_cover.py', 'solver_nevers.py', 'ic_rank.py', 'make_corpus.py', 'wordlist_it.txt',
+        'it_letters.txt', 'score_output.txt', 'heldout_score_output.txt', 'group_cover_output.txt', 'solver_output.txt',
+        'ic_rank_output.txt', 'control_output.txt')), 'the folder has the scripts, the data and the outputs of the mechanical score and of control.py')
+    ctl_out = rd(F + '/evidence/control_output.txt')
+    check(P, all(x in ctl_out for x in ('letters: 139; score: -4.23', 'median -3.93, worst -4.28', 'mean -6.60, best -5.49; ours is 9.9 sd',
+                                         'mean -5.99, best -5.41; ours is 11.6 sd', 'mean -6.33, best -4.81; ours is 5.9 sd', 'of our reading: 106 of 139')),
+          'evidence/control_output.txt (control.py with evidence/it_letters.txt) has the numbers of the second run')
+    check(P, '**The column of the first\n  run cannot be rerun from the repository.**' in raw, 'README says that the first run cannot be rerun from the repository')
+    check(P, '**Status: 11 October 2026; corrected on 14 October 2026 after a review panel**' in readme, 'README: the status line names the review of 14 October 2026')
+    hist = section('History of our own statements')
+    check(P, hist.lstrip().startswith('- **14 October 2026: a review panel.** A panel of three skeptics') and
+          'Every word printed from cipher matched the groups by the\n  key.' in hist and 'We corrected:' in hist and hist.count('\n  - ') == 8,
+          'README has the history entry of 14 October 2026')
+
     # ---- the page
     claim = quoted(P, RM, '**This is the first reading known to us of the two cipher passages of a minute that G. Cassiani '
                    'described in 2014; the key is rebuilt from the text.**')
@@ -1723,6 +1799,10 @@ def nevers():
         ('State', '148 of 149 groups have a value by the key. One mark is not read. The first words of passage 1 are '
          'not sure: the page does not have "se \'l papa".',
          ['148 of 149 groups have a value by the key', 'The page does not have "se \'l papa".']),
+        ('Review', '<strong>14 October 2026.</strong> A review panel of three skeptics and a skeptic of another model family '
+         'checked the page. Every word that the page prints from cipher matched the groups by the key. The corrections are '
+         'listed in the README, under "History of our own statements". The subject of passage 1 is not resolved.',
+         ['**14 October 2026: a review panel.**', '**The subject of passage 1 is not resolved.**']),
     ])
     body += scan('page', 'BnF fr. 4700, f. 72r, the whole page',
                  'The page, reduced. The two passages in figures stand in the lower half. The clear text of this page is in '
@@ -1764,7 +1844,9 @@ def nevers():
     body += ('<p class="note">First the letters as the cipher gives them (a raised dot = the null 0; [?] = a mark that is '
              'not read). Then a normalised Italian. Then English. <strong>The page does not have "se \'l papa".</strong> '
              'The third group is 84, and its value is c. "se \'l papa" (if the Pope) is the probable sense: it needs 89 in '
-             'the place of 84. The clear text before the passage speaks of "sua Santità".</p>')
+             'the place of 84. The clear text before the passage speaks of "sua Santità". But "papa" rests on a mark that '
+             'is not read and on the value 3 = a, which has one witness. So the English does not make the Pope the '
+             'subject.</p>')
     body += passage('B2', 'Passage 2', 'It follows the clear words "senza spesa alcuna".')
     body += ('<blockquote><p class="orig">%s</p><p class="orig">%s</p><p>%s</p></blockquote>' % (esc(r2), esc(n2), esc(e2)))
     body += ('<p class="note">"qel" stands for "quel", and "peche" for "perché". One i serves for "mi" and "in". The o of '
@@ -1782,6 +1864,11 @@ def nevers():
         ['Our key on 5,000 shuffled orders of the groups', 'mean -5.99, best -5.41; ours is 11.6 sd above the mean (first run: 10.4 sd)'],
         ['5,000 shuffled keys of passage 1 on passage 2', 'mean -6.33, best -4.81; ours is 5.9 sd above the mean (first run: 5.5 sd)'],
         ['A free solver, which knows nothing of the key, on five shuffled orders', '-4.40 to -4.68'],
+        ['Mechanical score (panel, 14 October 2026): the letters that stand inside Italian words of 3 letters or more',
+         '%s of %d letters; best of 400 controls %s; clear Italian of the page %s (median). A free solver reaches %s on '
+         'shuffled orders, so at this length the score shows only that the key is not random' % (pct(mn[1]), mn[0], pct(mn[2]), pct(mn[4]), srange)],
+        ['The key of the minute alone on the sheet f. 80r, which it did not see (held out)',
+         '%s of %d letters; best of 400 controls %s; clear Italian of the same writer %s' % (pct(mh[1]), mh[0], pct(mh[2]), pct(mh[4]))],
     ], ['The text has 149 groups and 25 values', '288 of 298 places (96.6 %)', 'read 61 of the 65 letter groups of passage 2 (94 %)',
         '| Our key, 139 letters | -4.45 | -4.23 |', 'median -3.93, worst -4.28',
         'mean -6.60, best -5.49; ours is 9.9 sd above the mean', 'ours is 9.4 sd above the mean',
@@ -1834,7 +1921,13 @@ def nevers():
     cas = items(raw[raw.index("G. Cassiani's:"):raw.index('Ours:')], r'^- ')
     check(P, len(cas) == 6 and 'Rivista di storia della Chiesa in Italia' in cas[0] and 'pp. 387-409, at pp. 394-395' in cas[0],
           'README has the six points on G. Cassiani\'s work, with the reference')
-    check(P, readme.count('volle crittografare') == 1, 'README has one short quotation of G. Cassiani')
+    check(P, readme.count('volle crittografare') == 1 and readme.count('quella stessa «zifera»') == 1 and
+          readme.count('«') == 2, 'README quotes G. Cassiani in two short places only (besides the title of his article), and gives "quella stessa «zifera»" as his words')
+    check(P, '"quella stessa «zifera»" are G. Cassiani\'s (2014, p. 395), not the minute\'s.' in readme
+          and 'la Zifara che q(ue)llo(?) [..] ha lasciato' in readme and 'la Zifara che q(ue)llo(?) [..] ha lasciato' in rd(F + '/cleartext_f72r.txt'),
+          'README: the minute names the cipher "la Zifara"; "quella stessa «zifera»" is G. Cassiani\'s prose')
+    check(P, 'He quotes no figure of a cipher and no reading of cipher.' in readme and 'searched the full text of the article (pp. 387-410)' in readme
+          and '(pp. 241-258)' in readme, 'README says what was checked of G. Cassiani\'s two articles')
     body += '<p><strong>G. Cassiani\'s work on this minute:</strong></p><ul>%s</ul>' % ''.join('<li>%s</li>' % mdx(c) for c in cas)
     credits = items(section('Credits'), r'^- ')
     check(P, len(credits) == 5 and credits[-1].startswith('**The work was done by a model**'), 'README has the five credits')
@@ -1918,7 +2011,7 @@ def badalocchio():
     check(P, title == 'Vincenzo Badalocchio to the Duke of Nevers, Rome, December 1592 to February 1593: three cipher letters read',
           'the title is the title of the series: three cipher letters read')
     claim = quoted(P, RM, '**These are the first readings known to us of the three letters. One key reads all three. It was '
-                   'rebuilt from the texts; no key sheet of this cipher is known.**')
+                   'rebuilt from the texts; no key sheet of this cipher is known to us.**')
     claim85 = quoted(P, RM, 'The cipher parts of the letter are read, with gaps. It is the first reading known to us. The key is '
                      'the key of the sheet of 9 January 1593, with a second table of words that this letter showed. 361 of the '
                      '383 cipher groups that carry text (94 %, a hand count) stand in words that we translate. All 11 cipher '
@@ -1933,7 +2026,8 @@ def badalocchio():
     change12 = quoted(P, RM, 'The page of 11 October printed the name group .176 as the Queen of England, with the grade '
                       '"probable". We now print Lesdiguières, with the grade "probable", and the Queen as the rival. The group '
                       '167 has a new value: "fosse" (probable). No name is read from the cipher.')
-    check(P, '**Status: 12 October 2026, after two audits.**' in readme, 'README: the status is of 12 October 2026, after two audits')
+    check(P, '**Status: 12 October 2026, after two audits; corrected on 14 October 2026 after a review panel**' in readme,
+          'README: the status is of 12 October 2026, after two audits, corrected on 14 October 2026 after a review panel')
     check(P, 'first readings known to us' in readme and not re.search(r'first\s+deciph|first\s+solution|fully\s+read|read\s+in\s+full', raw, re.I),
           'README: the claim is "first readings known to us", no more')
     check(P, '**The readings have gaps, and no name is read from the cipher.**' in readme, 'README says that the readings have gaps and that no name is read')
@@ -2024,10 +2118,12 @@ def badalocchio():
           'reading.md: the table of counts has the groups that carry text, line by line')
     check(P, sum(s for b, s in sense.values()) == 717 and sum(b for b, s in sense.values()) == 778,
           'reading.md: the counts by hand sum to 717 of 778')
-    check(P, 'We did not count again: 717 and 708 stay.' in collapse(reading) and 'We did not count again: 717 and 708 stay.' in readme
+    check(P, 'We did not count again: 717 and 708 to 711 stay.' in collapse(reading) and 'We did not count again: 717 and 708 to 711 stay.' in readme
           and '| Other groups with no value | 2 | 0 | 13 |' in raw,
-          'reading.md and README: the counts of f. 80r are of 11 October; 167 has a value now; 717 and 708 stay; 13 other groups have no value')
-    check(P, '**708 of 778 (91 %)**' in reading and '708 of 778 (91 %)' in readme, 'reading.md and README give the strict count of the audit: 708 of 778')
+          'reading.md and README: the counts of f. 80r are of 11 October; 167 has a value now; 717 and 708 to 711 stay; 13 other groups have no value')
+    check(P, '**708 to 711 of 778 (91 %)**' in reading and '708 to 711 of 778 (91 %)' in readme and '708 of 778' not in readme + collapse(reading)
+          and 'the hand count had already left out two of these groups: 245 in line 17 and the sign & in line 3' in collapse(reading),
+          'reading.md and README give the strict count as 708 to 711 of 778, and say why the audit\'s 708 is too low')
     check(P, 'Navara non si mostra prudente come diside-' in R['f080r']['L6'][0] and 'Navarre does not show himself prudent' in R['f080r']['L6'][1],
           'reading.md, line 6: "Navara non si mostra prudente", "Navarre does not show himself prudent"')
     check(P, 'se Navara, [nome 176] fossero [.38], che' in R['f080r']['L1'][0] and '[name 176] were [Catholics?], they could' in R['f080r']['L1'][1]
@@ -2227,11 +2323,15 @@ def badalocchio():
         ('f. 85r', mdx(claim85), []),
         ('f. 65r', mdx(claim65), []),
         ('f. 80r', mdx(claim80) + ' 717 of the 778 groups that carry text (92 %) stand in words that we translate, by a hand '
-         'count; 708 of 778 (91 %) by the strict count of the audit.',
+         'count; 708 to 711 of 778 (91 %) by the strict count.',
          ['717 of the 778 groups that carry text (92 %, a hand count; 91 % by the strict count)']),
         ('Correction', '<strong>11 October 2026.</strong> ' + mdx(correction), ['**Correction of 11 October 2026.**']),
         ('Change', '<strong>12 October 2026.</strong> ' + mdx(change12) + ' The reasons are under "The names" and "History of our '
          'own statements".', ['**Change of 12 October 2026.**']),
+        ('Review', '<strong>14 October 2026.</strong> A review panel of three skeptics and a skeptic of another model family checked '
+         'the page. Every word that the pages print from cipher is what the groups give by the key. The corrections are under '
+         '"History of our own statements". New: the mechanical score, beside the hand counts.',
+         ['**14 October 2026: a review panel.**', '## The mechanical score (14 October 2026)']),
     ])
     body += scan('f85_page', 'BnF fr. 4700, f. 85r: the page', 'f. 85r, 5 December 1592, reduced: clear lines and lines of figures. '
                  'The image is joined from 27 tiles.', 'scan sheet')
@@ -2311,7 +2411,7 @@ def badalocchio():
     body += linem('f085r', 'L8', 'Line 8: the line with the Infanta of Spain, as the name group .195',
                   'The run ends a long cipher passage; the clear words "ne si spa-" go on. The name group .195 is not read from '
                   'the cipher. History leaves one person: the Infanta of Spain. Five groups before "di Spagna" are a gap: '
-                  '"f u s t" ("a gusto" asks for another figure). The key gives "vogli-n-o"; we read "vogliono".')
+                  '"f u s t" ("a gusto" asks for another figure). The key gives "vogli-n-o"; we read "vogli[o]no".')
     body += linem('f085r', 'L10', 'Line 10: a cipher run that completes a clear sentence',
                   'The clear words "anzi affer-mano arditamente" need an object. The run gives it: "la corona di Francia '
                   'appartenersi a detta [name 195]". Then the clear text goes on: "ma io non credo". The value 169 (Francia) is '
@@ -2412,7 +2512,8 @@ def badalocchio():
                   (3, ['1 in 3.6 million', '1 in 120 (152 of 20,000 shuffles)', '15 of 15 in order, 0 of 20,000 shuffles']),
                   (5, ['-4.148 on 510 windows', '8.5 standard deviations', '17.5 standard deviations', 'belong to the old cut']),
                   (6, ['279 of the 289 groups', '246 of 270 (91.1 %)']),
-                  (7, ['**13 of 13 join the clear words at both ends. 11 make a full sentence**']),
+                  (7, ['**13 of 13 join the clear words at both ends. 10 make a full sentence**', 'One more, in line 13, makes sense, but its verb is not read',
+                       'Two of the 10 have a doubt inside']),
                   (10, ['pp. 67-68', 'p. 573', 'p. 574', 'p. 71', 'p. 22', 'p. 68', '**no fact of the three readings is against the books.**',
                         'The Pope sets Navarre beside the Queen of England at the end of January 1593: Pastor, p. 68.',
                         'this fact supports the rival for [name 176], not our best guess', 'pp. 157-162', 'pp. 102-116', 'pp. 79-80',
@@ -2455,6 +2556,49 @@ def badalocchio():
     check(P, '**They were not used to build the key.**' in pd and '**A direct test of the key: none.**' in pd and 'fr. 4718' in pd,
           'evidence/period_decipherments.md: not used for the key; no direct test; fr. 4718 not seen')
 
+    # ---- the mechanical score of the review panel of 14 October 2026 (PROTOCOL rule 8), from the outputs in evidence/
+    M = mech(F)
+    MT = 'The mechanical score (14 October 2026)'
+    mrows = mech_rows(P, raw, MT, [('f. 85r, the cipher runs', 'Badalocchio f085r'), ('f. 65r, the two runs', 'Badalocchio f065r'),
+                                   ('f. 80r, the sheet', 'Badalocchio f080r'), ('The three letters together', 'Badalocchio f085r+f065r+f080r'),
+                                   ('Held out: the key of our first page (made on f. 80r alone) on f. 85r and f. 65r',
+                                    'H2: first-page key (f. 80r only) on f. 85r + f. 65r, new cut'),
+                                   ('Held out: the key of the Duke\'s minute (nevers-1593) on f. 80r', 'H1: Nevers minute key on f. 80r')], M)
+    gco = rd(F + '/evidence/group_cover_output.txt')
+    gcs = {p_: re.search(r'Badalocchio %s, words of 3\+ letters: (\d+) of (\d+)' % p_, gco).groups() for p_ in ('f085r', 'f065r', 'f080r')}
+    st = {r[0]: r for r in [[c.strip() for c in l.strip().strip('|').split('|')] for l in raw.splitlines() if l.startswith('| Groups that carry text inside such words')]}
+    check(P, gcs == {'f085r': ('300', '383'), 'f065r': ('32', '37'), 'f080r': ('636', '778')} and len(st) == 1
+          and list(st.values())[0][1:] == ['300 of 383 (78.3 %)', '32 of 37', '636 of 778 (81.7 %)'],
+          'README, the state of each letter: the groups inside words, as in group_cover_output.txt')
+    srow = [[c.strip() for c in l.strip().strip('|').split('|')] for l in raw.splitlines() if l.startswith('| Mechanical score (14 October 2026)')]
+    check(P, len(srow) == 1 and srow[0][1:] == ['%s (best of 400 controls %s)' % (pct(M['Badalocchio f085r'][1]), pct(M['Badalocchio f085r'][2])),
+                                                 '%s (best control %s)' % (pct(M['Badalocchio f065r'][1]), pct(M['Badalocchio f065r'][2])),
+                                                 '%s (best control %s)' % (pct(M['Badalocchio f080r'][1]), pct(M['Badalocchio f080r'][2]))],
+          'README, the state of each letter: the mechanical score of each letter beside the hand counts, as in score_output.txt')
+    icr = [int(x) for x in re.findall(r'f0\d\dr: real IC [\d.]+; (\d+) of 200', rd(F + '/evidence/ic_rank_output.txt'))]
+    check(P, len(icr) == 3 and 'But %d to %d of 200 shuffled keys give a higher\n  one' % (min(icr), max(icr)) in raw,
+          'README: the rank of the index of coincidence, as in ic_rank_output.txt')
+    fg = rd(F + '/evidence/fourgram_output.txt')
+    check(P, all(x in fg for x in ('-4.049 on 510 windows', 'real is 8.3 sd above', 'real is 14.6 sd above', 'f. 80r: -4.004'))
+          and 'gives -4.049 on 510 windows,\n   8.3 standard deviations above the shuffled keys and 14.6 above the shuffled orders, and -4.004 for f. 80r' in raw,
+          'README, control 6: the rebuild of the panel (fourgram_output.txt) and its numbers')
+    check(P, 'These numbers\n   cannot be rerun from the repository:**' in raw
+          and '**these numbers cannot be rerun from it.**' in raw, 'README says that the older numbers of controls 5 and 6 cannot be rerun from the repository')
+    check(P, all(os.path.exists(os.path.join(ROOT, F, 'evidence', f)) for f in (
+        'score.py', 'heldout_score.py', 'group_cover.py', 'ic_rank.py', 'fourgram.py', 'make_corpus.py', 'wordlist_it.txt', 'score_output.txt',
+        'heldout_score_output.txt', 'group_cover_output.txt', 'ic_rank_output.txt', 'fourgram_output.txt'))
+          and os.path.exists(os.path.join(ROOT, 'nevers-1593', 'evidence', 'it_letters.txt'))
+          and rd(F + '/evidence/score_output.txt') == rd('nevers-1593/evidence/score_output.txt'),
+          'the folder has the scripts, the word list and the outputs of the mechanical score; the two folders give the same output')
+    body += '<h2>The mechanical score (14 October 2026)</h2>'
+    mblock = section(MT)
+    body += '<p>%s</p>' % mdx(mblock.strip().split('\n\n')[0])
+    body += table(['Text', 'Letters', 'Real score', 'Best of 400 controls', 'Clear Italian, median'], [[mdx(c) for c in r] for r in mrows])
+    mitems = items(mblock[mblock.index('- The real decode'):], r'^- ')
+    check(P, len(mitems) == 7 and mitems[1][0].startswith('**Beside the hand counts.**') and mitems[6][0].startswith('**What the controls of this folder still lack.**'),
+          'README has the seven notes on the mechanical score: the hand counts, the limits, the word list, the rerun, what is still lacking')
+    body += '<ul>%s</ul>' % ''.join(li(x) for x in mitems)
+
     body += '<h2>What stays open</h2>'
     opn_block = section('What stays open')
     op = items(opn_block, r'^- ')
@@ -2468,7 +2612,7 @@ def badalocchio():
 
     body += '<h2>History of our own statements</h2>'
     hs = items(hist, r'^- ')
-    check(P, len(hs) == 3 and hs[0][0].startswith('**11 October 2026, 18:28: the first page.**') and 'read for about four fifths, with gaps' in hs[0][0]
+    check(P, len(hs) == 4 and hs[0][0].startswith('**11 October 2026, 18:28: the first page.**') and 'read for about four fifths, with gaps' in hs[0][0]
           and '"the figures 2 and 0 stand alone and are nulls"' in hs[0][0] and '"Navara per[ò?] si mostra prudente"' in hs[0][0],
           'the history has the first page: the old cut, "four fifths", and the sentence on Navarre without "non"')
     check(P, hs[1][0].startswith('**11 October 2026, later: the correction.**') and '**The sentence is "Navara non si mostra prudente".**' in hs[1][0]
@@ -2480,6 +2624,10 @@ def badalocchio():
           and '**Not accepted:** a value "cattolico" for the short group .38 and for the group 138.' in hs[2][0]
           and hs[2][0].endswith('No name is read from the cipher. The key still has no value for any name.'),
           'the history has the change of 12 October: what the page of 11 October printed, why it changes, what is new, what is not accepted')
+    check(P, hs[3][0].startswith('**14 October 2026: a review panel.** A panel of three skeptics') and 'We corrected:' in hs[3][0]
+          and 'Every word printed from cipher is what the groups give by the key' in hs[3][0] and len(hs[3][1]) == 9
+          and hs[3][1][0].startswith('f. 65r line 4: the page has "non gravi"'),
+          'the history has the entry of 14 October 2026: what the panel checked, and nine corrections, the most important first')
     body += '<ul>%s</ul>' % ''.join(li(x) for x in hs)
 
     body += '<h2>Earlier work and credits</h2>'
@@ -2487,7 +2635,10 @@ def badalocchio():
     check(P, '**He does not cite f. 85, f. 65 or ff. 79-80.**' in collapse(early) and '**Not opened, or not seen:**' in early and 'We copied nothing from it.' in collapse(early)
           and '**two letters of the same day**' in collapse(early) and 'fr. 3982 no. 96' in collapse(early) and 'fr. 3983 no. 35' in collapse(early),
           'README lists the earlier work, the two period decipherments, how f. 85r stands to f. 67r, and what was not opened')
-    body += '<ul>%s</ul>' % ''.join(li(x) for x in items(early, r'^- ')[:6])
+    check(P, 'as far as we had them saved' not in early and 'he could not read\n  its endorsement' in early
+          and 'He quotes\n  no figure of a cipher and no reading of cipher.' in early and 'On a Mission for the Duke of\n  Nevers' in early,
+          'README, earlier work: S. Tomokiyo\'s pages of 14 October; no. 56 read as Badalocchio\'s by us; what was checked of G. Cassiani; his works not opened')
+    body += '<ul>%s</ul>' % ''.join(li(x) for x in items(early, r'^- '))
     credits = items(section('Credits'), r'^- ')
     check(P, len(credits) == 5 and credits[-1][0].startswith('**The work was done by a model**'), 'README has the five credits')
     check(P, 'No palaeographer has checked it' in credits[-1][0], 'README: no palaeographer has checked it')

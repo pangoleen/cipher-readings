@@ -2,7 +2,8 @@
 """control.py ITALIAN_TEXT -- the controls with shuffled keys and shuffled orders.
 
 ITALIAN_TEXT is a large text file in Italian. The script keeps its letters only and counts its groups of four
-letters. Our runs used 2.5 million letters of Italian prose. This text is not in the repository.
+letters. The second run used evidence/it_letters.txt (2,568,254 letters of six public-domain Italian texts of
+Project Gutenberg; evidence/make_corpus.py rebuilds it):  python3 control.py evidence/it_letters.txt
 The score of a text is the mean log10 probability of its groups of four letters. u and v are one letter.
 
 C1: the letter values of the key, dealt at random to the 24 groups. 5,000 keys.

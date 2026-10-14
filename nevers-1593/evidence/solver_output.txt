@@ -1,0 +1,14 @@
+published key, true order: cov3 0.727
+free solver, true order: cov3 0.921; letters equal to the published key in 1 of 24 groups
+   text: usaii#iberieustiauisiaseesueaueiaiarausausaruiarisaiuiiesuduracsueuaussisai#uateiuiieucedeaaueisacsuiseisuisuiuiuitaaueuisueaduriitiiuueussui
+free solver, shuffled order 1: cov3 0.892   auaualauauailauelatieraeuaiiit#alluaruuaiatauaiuseaueiurueruueuiuauuauearai#iiet
+free solver, shuffled order 2: cov3 0.856   urlmauauuaaialeriilaruararaamiriauiuieiueimaisumieaiaau#iasalaaauiuiitisier#iiii
+free solver, shuffled order 3: cov3 0.885   asuisghiitoo#agoiiiuuotaluiisiauuuiihisuisauaaiosauiuauuouiuouiuiudiaugoosa#uiiu
+free solver, shuffled order 4: cov3 0.871   teseuueieuiuaaisiastaaicurituauea#uuiiuuueidudiuiuediuisauuaiuieeedeiuueuit#ecou
+free solver, shuffled order 5: cov3 0.899   iiisiiisouiiiiiosiioiiiiiiiuiiiiuiiuiiiiiiiuiuii#ziiiiiouiuiuiiiuuoliiiiiui#uiii
+free solver, shuffled order 6: cov3 0.856   surtieudiistant#reasianoaranatreasuaunaiasinsuudestuasostadieiouaaaaaasuioe#ssau
+free solver, shuffled order 7: cov3 0.849   uiddlefeesfeidiidieuieuseiiiiiiiiiidieiredeoooleinnouisluinlfinifildeu#lrsu#sdie
+free solver, shuffled order 8: cov3 0.928   ubiueipiieieuiiiisieusieuoiiiiiippeiiiiiiiuueiiiuuoliuiuoieuoueuiui#isiipii#euiu
+free solver, shuffled order 9: cov3 0.863   aiouaaiiriaauaiuiaiaidaauauiaiiiaaaiaieurueauiuoraraatarioaraaiauiaamidii#u#uuea
+free solver, shuffled order 10: cov3 0.863   seeiassdisiruuerreuillausuarissaueiseeirisuiiuuieureiser#uiersesueieierreii#euse
+shuffled orders: best 0.928, mean 0.876
